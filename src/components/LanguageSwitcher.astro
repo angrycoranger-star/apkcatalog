@@ -1,0 +1,40 @@
+---
+import { alternateUrls, t, LANG } from '../i18n/index.js';
+
+/* Language lives on the subdomain, so every alternate is an absolute URL to a
+   separate build. `hreflang` tells crawlers what sits on the other side. */
+const options = alternateUrls(Astro.url.pathname);
+const current = options.find((o) => o.current);
+---
+
+<details class="relative">
+  <summary
+    class="flex h-9 cursor-pointer list-none items-center gap-1 rounded-lg border px-2.5 text-sm font-medium surface"
+    aria-label={t('nav.language')}
+  >
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+      <circle cx="12" cy="12" r="9" />
+      <path d="M3 12h18M12 3c2.5 2.7 2.5 15.3 0 18M12 3c-2.5 2.7-2.5 15.3 0 18" />
+    </svg>
+    <span class="uppercase">{current?.lang ?? LANG}</span>
+  </summary>
+  <ul class="absolute right-0 z-50 mt-2 w-40 rounded-xl border p-1.5 shadow-lg surface">
+    {options.map((option) => (
+      <li>
+        <a
+          href={option.url}
+          hreflang={option.locale}
+          lang={option.lang}
+          aria-current={option.current ? 'true' : undefined}
+          class:list={[
+            'flex items-center justify-between rounded-lg px-3 py-2 text-sm',
+            option.current ? 'bg-brand-50 font-medium text-brand-700 dark:bg-brand-500/15 dark:text-brand-300' : 'hover:bg-brand-50 dark:hover:bg-brand-500/10'
+          ]}
+        >
+          <span>{option.name}</span>
+          <span class="text-xs uppercase text-muted">{option.lang}</span>
+        </a>
+      </li>
+    ))}
+  </ul>
+</details>

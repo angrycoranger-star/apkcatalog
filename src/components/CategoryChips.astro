@@ -1,0 +1,45 @@
+---
+import { t } from '../i18n/index.js';
+
+/* Filters are real links to prerendered category pages, so they work without
+   JavaScript and each filtered view is independently indexable. */
+const { categories, base, activeSlug = null } = Astro.props;
+---
+
+<nav aria-label={t('filter.category')} class="-mx-4 overflow-x-auto px-4">
+  <ul class="flex w-max gap-2 pb-1">
+    <li>
+      <a
+        href={base}
+        aria-current={activeSlug === null ? 'page' : undefined}
+        class:list={[
+          'inline-flex items-center rounded-full border px-3.5 py-1.5 text-sm font-medium transition-colors',
+          activeSlug === null
+            ? 'border-brand-600 bg-brand-600 text-white'
+            : 'hover:border-brand-400 surface'
+        ]}
+      >
+        {t('filter.all')}
+      </a>
+    </li>
+    {categories.map((entry) => (
+      <li>
+        <a
+          href={`${base}${entry.category.slug}/`}
+          aria-current={activeSlug === entry.category.slug ? 'page' : undefined}
+          class:list={[
+            'inline-flex items-center gap-1.5 rounded-full border px-3.5 py-1.5 text-sm font-medium transition-colors',
+            activeSlug === entry.category.slug
+              ? 'border-brand-600 bg-brand-600 text-white'
+              : 'hover:border-brand-400 surface'
+          ]}
+        >
+          {entry.label}
+          <span class:list={['text-xs', activeSlug === entry.category.slug ? 'text-white/75' : 'text-muted']}>
+            {entry.count}
+          </span>
+        </a>
+      </li>
+    ))}
+  </ul>
+</nav>

@@ -1,0 +1,31 @@
+---
+import CatalogPage from '../../components/CatalogPage.astro';
+import { getApps, usedCategories, sortApps } from '../../lib/apps.js';
+import { t } from '../../i18n/index.js';
+
+export function getStaticPaths() {
+  return usedCategories('app').map((entry) => ({
+    params: { category: entry.category.slug },
+    props: { label: entry.label }
+  }));
+}
+
+const { category } = Astro.params;
+const { label } = Astro.props;
+const apps = sortApps(getApps().filter((app) => app.categorySlug === category), 'rating');
+---
+
+<CatalogPage
+  title={label}
+  subtitle={`${t('apps.title')} · ${label}`}
+  description={`${label} — ${t('apps.subtitle')}.`}
+  apps={apps}
+  categories={usedCategories('app')}
+  base="/apps/"
+  activeSlug={category}
+  breadcrumbs={[
+    { name: t('nav.home'), href: '/' },
+    { name: t('apps.title'), href: '/apps/' },
+    { name: label, href: `/apps/${category}/` }
+  ]}
+/>

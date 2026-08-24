@@ -1,0 +1,91 @@
+---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { LANG, LOCALES, DOMAIN, t, alternateUrls, hostFor } from '../i18n/index.js';
+import { DATA_META } from '../lib/apps.js';
+import { DEFAULT_LANG } from '../../config/catalog.config.js';
+
+const {
+  title,
+  description = t('site.description'),
+  image,
+  noindex = false,
+  ogType = 'website',
+  jsonLd = null
+} = Astro.props;
+
+const pathname = Astro.url.pathname;
+const canonical = new URL(pathname, Astro.site ?? `https://${LANG}.${DOMAIN}`).href;
+const alternates = alternateUrls(pathname);
+const fullTitle = title ? `${title} — ${t('site.name')}` : `${t('site.name')} — ${t('site.tagline')}`;
+const ogImage = image ? new URL(image, canonical).href : new URL('/og-default.svg', canonical).href;
+const structured = Array.isArray(jsonLd) ? jsonLd : jsonLd ? [jsonLd] : [];
+---
+
+<!doctype html>
+<html lang={LANG} dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {noindex && <meta name="robots" content="noindex, follow" />}
+    {!noindex && <meta name="robots" content="index, follow, max-image-preview:large" />}
+
+    {/* Each language lives on its own subdomain, so alternates are absolute. */}
+    {alternates.map((alt) => (
+      <link rel="alternate" hreflang={alt.locale} href={alt.url} />
+    ))}
+    <link rel="alternate" hreflang="x-default" href={`${hostFor(DEFAULT_LANG)}${pathname}`} />
+
+    <meta property="og:type" content={ogType} />
+    <meta property="og:site_name" content={t('site.name')} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:locale" content={LOCALES[LANG].replace('-', '_')} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+
+    <meta name="theme-color" content="#4f46e5" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0b1120" media="(prefers-color-scheme: dark)" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="sitemap" href="/sitemap.xml" />
+
+    {/* Icons and screenshots are served straight from Google's CDNs. */}
+    <link rel="preconnect" href="https://play-lh.googleusercontent.com" crossorigin />
+    <link rel="dns-prefetch" href="https://play-lh.googleusercontent.com" />
+
+    {structured.map((node) => (
+      <script type="application/ld+json" set:html={JSON.stringify(node)} />
+    ))}
+  </head>
+
+  <body>
+    <a
+      href="#main"
+      class="sr-only focus:not-sr-only focus:absolute focus:z-50 focus:m-3 focus:rounded-lg focus:bg-brand-600 focus:px-4 focus:py-2 focus:text-white"
+    >
+      {t('a11y.skip')}
+    </a>
+
+    <Header />
+
+    {DATA_META?.sample && (
+      <p class="bg-amber-100 px-4 py-2 text-center text-sm text-amber-900 dark:bg-amber-900/40 dark:text-amber-100">
+        {t('meta.sampleData')}
+      </p>
+    )}
+
+    <main id="main" class="flex-1">
+      <slot />
+    </main>
+
+    <Footer />
+  </body>
+</html>

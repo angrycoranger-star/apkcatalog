@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#4f46e5"/><stop offset="1" stop-color="#0ea5e9"/>
+  </linearGradient></defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="96" y="212" width="120" height="120" rx="28" fill="#ffffff" opacity=".95"/>
+  <path d="M126 302l30-62 30 62h-17l-5-11h-16z" fill="#4f46e5"/>
+  <text x="256" y="290" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="700" fill="#ffffff">APK Catalog</text>
+  <text x="256" y="346" font-family="Inter, Arial, sans-serif" font-size="32" fill="#ffffff" opacity=".85">Android apps &amp; games — official Google Play links</text>
+</svg>

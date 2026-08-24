@@ -1,0 +1,39 @@
+---
+import { t, CONTACT_EMAIL } from '../i18n/index.js';
+
+const year = new Date().getFullYear();
+const legal = [
+  { href: '/privacy/', label: t('nav.privacy') },
+  { href: '/disclaimer/', label: t('nav.disclaimer') },
+  { href: '/contact/', label: t('nav.contact') }
+];
+---
+
+<footer class="mt-16 border-t px-4 py-10 surface" style="border-color: var(--border);">
+  <div class="mx-auto grid max-w-6xl gap-8 md:grid-cols-3">
+    <div>
+      <p class="flex items-center gap-2 font-semibold">
+        <span class="grid h-7 w-7 place-items-center rounded-lg bg-brand-600 text-xs font-bold text-white">A</span>
+        {t('site.name')}
+      </p>
+      <p class="mt-2 text-sm text-muted">{t('site.tagline')}</p>
+    </div>
+
+    <nav aria-label={t('nav.menu')} class="text-sm">
+      <ul class="space-y-2">
+        <li><a class="hover:text-brand-600" href="/apps/">{t('nav.apps')}</a></li>
+        <li><a class="hover:text-brand-600" href="/games/">{t('nav.games')}</a></li>
+        {legal.map((link) => (
+          <li><a class="hover:text-brand-600" href={link.href}>{link.label}</a></li>
+        ))}
+        <li><a class="hover:text-brand-600" href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a></li>
+      </ul>
+    </nav>
+
+    <div class="text-xs leading-relaxed text-muted">
+      <p>{t('footer.disclaimerShort')}</p>
+      <p class="mt-2">{t('footer.rights')}</p>
+      <p class="mt-4">© {year} {t('site.name')}</p>
+    </div>
+  </div>
+</footer>

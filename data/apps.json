@@ -1,0 +1,866 @@
+[
+  {
+    "slug": "nova-messenger",
+    "package_id": "com.example.novamessenger",
+    "icon_url": "/img/sample/icon-1.svg",
+    "screenshots": [
+      "/img/sample/shot-1.svg",
+      "/img/sample/shot-2.svg",
+      "/img/sample/shot-3.svg"
+    ],
+    "category": "COMMUNICATION",
+    "rating": 4.6,
+    "ratings_count": 812400,
+    "size": "38 MB",
+    "version": "1.0.0",
+    "installs": "1 000 000+",
+    "developer": "Nova Labs",
+    "content_rating": "Everyone",
+    "translations": {
+      "ru": {
+        "name": "Nova Мессенджер",
+        "summary": "Мессенджер со сквозным шифрованием, групповыми чатами до 500 человек и звонками. Сообщения синхронизируются между телефоном и планшетом."
+      },
+      "en": {
+        "name": "Nova Messenger",
+        "summary": "An end-to-end encrypted messenger with group chats of up to 500 people and voice calls. Conversations stay in sync across phone and tablet."
+      },
+      "tr": {
+        "name": "Nova Mesajlaşma",
+        "summary": "Uçtan uca şifreli, 500 kişiye kadar grup sohbeti ve sesli arama sunan bir mesajlaşma uygulaması. Sohbetler telefon ve tablet arasında eşitlenir."
+      }
+    },
+    "google_play_url": "https://play.google.com/store/apps/details?id=com.example.novamessenger",
+    "updated": "2026-08-24T14:39:14.171Z",
+    "added_at": "2026-08-24T14:39:14.171Z",
+    "sample": true
+  },
+  {
+    "slug": "lumen-photo-editor",
+    "package_id": "com.example.lumenphotoeditor",
+    "icon_url": "/img/sample/icon-2.svg",
+    "screenshots": [
+      "/img/sample/shot-2.svg",
+      "/img/sample/shot-3.svg",
+      "/img/sample/shot-4.svg"
+    ],
+    "category": "PHOTOGRAPHY",
+    "rating": 4.4,
+    "ratings_count": 431900,
+    "size": "72 MB",
+    "version": "2.1.0",
+    "installs": "1 000 000+",
+    "developer": "Lumen Studio",
+    "content_rating": "Everyone",
+    "translations": {
+      "ru": {
+        "name": "Lumen Фоторедактор",
+        "summary": "Редактор с ручной цветокоррекцией, пресетами и удалением лишних объектов. Работает без подписки для базового набора инструментов."
+      },
+      "en": {
+        "name": "Lumen Photo Editor",
+        "summary": "A photo editor with manual color grading, presets and object removal. The core toolset works without a subscription."
+      },
+      "tr": {
+        "name": "Lumen Fotoğraf Düzenleyici",
+        "summary": "Manuel renk düzenleme, hazır ayarlar ve nesne silme sunan bir fotoğraf düzenleyici. Temel araçlar abonelik olmadan çalışır."
+      }
+    },
+    "google_play_url": "https://play.google.com/store/apps/details?id=com.example.lumenphotoeditor",
+    "updated": "2026-08-23T02:39:14.171Z",
+    "added_at": "2026-08-23T02:39:14.171Z",
+    "sample": true
+  },
+  {
+    "slug": "ledgerly-budget",
+    "package_id": "com.example.ledgerlybudget",
+    "icon_url": "/img/sample/icon-3.svg",
+    "screenshots": [
+      "/img/sample/shot-3.svg",
+      "/img/sample/shot-4.svg",
+      "/img/sample/shot-1.svg"
+    ],
+    "category": "FINANCE",
+    "rating": 4.7,
+    "ratings_count": 208300,
+    "size": "24 MB",
+    "version": "3.2.0",
+    "installs": "1 000 000+",
+    "developer": "Ledgerly",
+    "content_rating": "Everyone",
+    "translations": {
+      "ru": {
+        "name": "Ledgerly Бюджет",
+        "summary": "Учёт расходов с категориями, лимитами и отчётами по месяцам. Данные можно хранить локально без привязки к аккаунту."
+      },
+      "en": {
+        "name": "Ledgerly Budget",
+        "summary": "Expense tracking with categories, spending limits and monthly reports. Data can stay on the device with no account required."
+      },
+      "tr": {
+        "name": "Ledgerly Bütçe",
+        "summary": "Kategoriler, harcama limitleri ve aylık raporlarla gider takibi. Veriler hesap gerekmeden cihazda tutulabilir."
+      }
+    },
+    "google_play_url": "https://play.google.com/store/apps/details?id=com.example.ledgerlybudget",
+    "updated": "2026-08-21T14:39:14.171Z",
+    "added_at": "2026-08-21T14:39:14.171Z",
+    "sample": true
+  },
+  {
+    "slug": "trailmap-navigator",
+    "package_id": "com.example.trailmapnavigator",
+    "icon_url": "/img/sample/icon-4.svg",
+    "screenshots": [
+      "/img/sample/shot-4.svg",
+      "/img/sample/shot-1.svg",
+      "/img/sample/shot-2.svg"
+    ],
+    "category": "MAPS_AND_NAVIGATION",
+    "rating": 4.5,
+    "ratings_count": 156700,
+    "size": "96 MB",
+    "version": "4.3.0",
+    "installs": "1 000 000+",
+    "developer": "Trailmap",
+    "content_rating": "Everyone",
+    "translations": {
+      "ru": {
+        "name": "Trailmap Навигатор",
+        "summary": "Офлайн-карты для пеших и велосипедных маршрутов с профилем высот. Треки записываются и экспортируются в GPX."
+      },
+      "en": {
+        "name": "Trailmap Navigator",
+        "summary": "Offline maps for hiking and cycling routes with elevation profiles. Tracks are recorded and exported as GPX."
+      },
+      "tr": {
+        "name": "Trailmap Navigasyon",
+        "summary": "Yürüyüş ve bisiklet rotaları için yükseklik profilli çevrimdışı haritalar. Rotalar kaydedilir ve GPX olarak dışa aktarılır."
+      }
+    },
+    "google_play_url": "https://play.google.com/store/apps/details?id=com.example.trailmapnavigator",
+    "updated": "2026-08-20T02:39:14.171Z",
+    "added_at": "2026-08-20T02:39:14.171Z",
+    "sample": true
+  },
+  {
+    "slug": "focusflow-tasks",
+    "package_id": "com.example.focusflowtasks",
+    "icon_url": "/img/sample/icon-5.svg",
+    "screenshots": [
+      "/img/sample/shot-1.svg",
+      "/img/sample/shot-2.svg",
+      "/img/sample/shot-3.svg"
+    ],
+    "category": "PRODUCTIVITY",
+    "rating": 4.3,
+    "ratings_count": 97200,
+    "size": "19 MB",
+    "version": "1.4.0",
+    "installs": "1 000 000+",
+    "developer": "Focusflow",
+    "content_rating": "Everyone",
+    "translations": {
+      "ru": {
+        "name": "Focusflow Задачи",
+        "summary": "Планировщик задач с таймером фокуса и повторяющимися делами. Виджет показывает ближайшие пункты на сегодня."
+      },
+      "en": {
+        "name": "Focusflow Tasks",
+        "summary": "A task planner with a focus timer and recurring to-dos. A home-screen widget shows what is due today."
+      },
+      "tr": {
+        "name": "Focusflow Görevler",
+        "summary": "Odak zamanlayıcısı ve tekrarlayan görevler içeren bir görev planlayıcı. Widget bugün yapılacakları gösterir."
+      }
+    },
+    "google_play_url": "https://play.google.com/store/apps/details?id=com.example.focusflowtasks",
+    "updated": "2026-08-18T14:39:14.171Z",
+    "added_at": "2026-08-18T14:39:14.171Z",
+    "sample": true
+  },
+  {
+    "slug": "pulse-fitness",
+    "package_id": "com.example.pulsefitness",
+    "icon_url": "/img/sample/icon-6.svg",
+    "screenshots": [
+      "/img/sample/shot-2.svg",
+      "/img/sample/shot-3.svg",
+      "/img/sample/shot-4.svg"
+    ],
+    "category": "HEALTH_AND_FITNESS",
+    "rating": 4.2,
+    "ratings_count": 143800,
+    "size": "58 MB",
+    "version": "2.5.0",
+    "installs": "1 000 000+",
+    "developer": "Pulse Health",
+    "content_rating": "Everyone",
+    "translations": {
+      "ru": {
+        "name": "Pulse Фитнес",
+        "summary": "Тренировки дома и в зале с подсчётом подходов и историей прогресса. Есть программы для начинающих на 4 недели."
+      },
+      "en": {
+        "name": "Pulse Fitness",
+        "summary": "Home and gym workouts with set tracking and a progress history. Includes four-week beginner programmes."
+      },
+      "tr": {
+        "name": "Pulse Fitness",
+        "summary": "Set takibi ve ilerleme geçmişiyle ev ve salon antrenmanları. Yeni başlayanlar için dört haftalık programlar içerir."
+      }
+    },
+    "google_play_url": "https://play.google.com/store/apps/details?id=com.example.pulsefitness",
+    "updated": "2026-08-17T02:39:14.171Z",
+    "added_at": "2026-08-17T02:39:14.171Z",
+    "sample": true
+  },
+  {
+    "slug": "kite-weather",
+    "package_id": "com.example.kiteweather",
+    "icon_url": "/img/sample/icon-1.svg",
+    "screenshots": [
+      "/img/sample/shot-3.svg",
+      "/img/sample/shot-4.svg",
+      "/img/sample/shot-1.svg"
+    ],
+    "category": "WEATHER",
+    "rating": 4.5,
+    "ratings_count": 264100,
+    "size": "31 MB",
+    "version": "3.6.0",
+    "installs": "1 000 000+",
+    "developer": "Kite Apps",
+    "content_rating": "Everyone",
+    "translations": {
+      "ru": {
+        "name": "Kite Погода",
+        "summary": "Почасовой прогноз, карта осадков и предупреждения о резкой смене погоды. Уведомления настраиваются по времени суток."
+      },
+      "en": {
+        "name": "Kite Weather",
+        "summary": "Hourly forecasts, a precipitation map and alerts for sharp weather changes. Notifications can be scheduled by time of day."
+      },
+      "tr": {
+        "name": "Kite Hava Durumu",
+        "summary": "Saatlik tahmin, yağış haritası ve ani hava değişimi uyarıları. Bildirimler günün saatine göre ayarlanabilir."
+      }
+    },
+    "google_play_url": "https://play.google.com/store/apps/details?id=com.example.kiteweather",
+    "updated": "2026-08-15T14:39:14.171Z",
+    "added_at": "2026-08-15T14:39:14.171Z",
+    "sample": true
+  },
+  {
+    "slug": "shelfmark-reader",
+    "package_id": "com.example.shelfmarkreader",
+    "icon_url": "/img/sample/icon-2.svg",
+    "screenshots": [
+      "/img/sample/shot-4.svg",
+      "/img/sample/shot-1.svg",
+      "/img/sample/shot-2.svg"
+    ],
+    "category": "BOOKS_AND_REFERENCE",
+    "rating": 4.6,
+    "ratings_count": 88400,
+    "size": "27 MB",
+    "version": "4.7.0",
+    "installs": "1 000 000+",
+    "developer": "Shelfmark",
+    "content_rating": "Everyone",
+    "translations": {
+      "ru": {
+        "name": "Shelfmark Читалка",
+        "summary": "Читалка EPUB и FB2 с ночной темой, закладками и синхронизацией позиции чтения между устройствами."
+      },
+      "en": {
+        "name": "Shelfmark Reader",
+        "summary": "An EPUB and FB2 reader with a night theme, bookmarks and reading-position sync across devices."
+      },
+      "tr": {
+        "name": "Shelfmark Okuyucu",
+        "summary": "Gece teması, yer imleri ve cihazlar arası okuma konumu eşitlemesi olan EPUB ve FB2 okuyucu."
+      }
+    },
+    "google_play_url": "https://play.google.com/store/apps/details?id=com.example.shelfmarkreader",
+    "updated": "2026-08-14T02:39:14.171Z",
+    "added_at": "2026-08-14T02:39:14.171Z",
+    "sample": true
+  },
+  {
+    "slug": "cartline-shopping",
+    "package_id": "com.example.cartlineshopping",
+    "icon_url": "/img/sample/icon-3.svg",
+    "screenshots": [
+      "/img/sample/shot-1.svg",
+      "/img/sample/shot-2.svg",
+      "/img/sample/shot-3.svg"
+    ],
+    "category": "SHOPPING",
+    "rating": 4.1,
+    "ratings_count": 312500,
+    "size": "45 MB",
+    "version": "1.8.0",
+    "installs": "1 000 000+",
+    "developer": "Cartline",
+    "content_rating": "Everyone",
+    "translations": {
+      "ru": {
+        "name": "Cartline Покупки",
+        "summary": "Сравнение цен в магазинах рядом и списки покупок для всей семьи. Штрихкоды сканируются камерой."
+      },
+      "en": {
+        "name": "Cartline Shopping",
+        "summary": "Price comparison across nearby stores plus shared family shopping lists. Barcodes scan with the camera."
+      },
+      "tr": {
+        "name": "Cartline Alışveriş",
+        "summary": "Yakındaki mağazalarda fiyat karşılaştırma ve aile için ortak alışveriş listeleri. Barkodlar kamerayla taranır."
+      }
+    },
+    "google_play_url": "https://play.google.com/store/apps/details?id=com.example.cartlineshopping",
+    "updated": "2026-08-12T14:39:14.171Z",
+    "added_at": "2026-08-12T14:39:14.171Z",
+    "sample": true
+  },
+  {
+    "slug": "toolkit-utilities",
+    "package_id": "com.example.toolkitutilities",
+    "icon_url": "/img/sample/icon-4.svg",
+    "screenshots": [
+      "/img/sample/shot-2.svg",
+      "/img/sample/shot-3.svg",
+      "/img/sample/shot-4.svg"
+    ],
+    "category": "TOOLS",
+    "rating": 4.4,
+    "ratings_count": 176600,
+    "size": "15 MB",
+    "version": "2.9.0",
+    "installs": "1 000 000+",
+    "developer": "Toolkit Dev",
+    "content_rating": "Everyone",
+    "translations": {
+      "ru": {
+        "name": "Toolkit Утилиты",
+        "summary": "Набор из линейки, уровня, шумомера и конвертера величин в одном приложении. Работает без доступа к сети."
+      },
+      "en": {
+        "name": "Toolkit Utilities",
+        "summary": "A ruler, spirit level, sound meter and unit converter bundled in one app. Works with no network access."
+      },
+      "tr": {
+        "name": "Toolkit Araçlar",
+        "summary": "Cetvel, su terazisi, ses ölçer ve birim dönüştürücüyü tek uygulamada toplar. Ağ erişimi olmadan çalışır."
+      }
+    },
+    "google_play_url": "https://play.google.com/store/apps/details?id=com.example.toolkitutilities",
+    "updated": "2026-08-11T02:39:14.171Z",
+    "added_at": "2026-08-11T02:39:14.171Z",
+    "sample": true
+  },
+  {
+    "slug": "canvas-themes",
+    "package_id": "com.example.canvasthemes",
+    "icon_url": "/img/sample/icon-5.svg",
+    "screenshots": [
+      "/img/sample/shot-3.svg",
+      "/img/sample/shot-4.svg",
+      "/img/sample/shot-1.svg"
+    ],
+    "category": "PERSONALIZATION",
+    "rating": 4,
+    "ratings_count": 64900,
+    "size": "41 MB",
+    "version": "3.0.0",
+    "installs": "1 000 000+",
+    "developer": "Canvas Team",
+    "content_rating": "Everyone",
+    "translations": {
+      "ru": {
+        "name": "Canvas Темы",
+        "summary": "Обои, наборы иконок и виджеты в едином стиле. Тема применяется к экрану блокировки и рабочему столу сразу."
+      },
+      "en": {
+        "name": "Canvas Themes",
+        "summary": "Wallpapers, icon packs and widgets in a single visual style. A theme applies to the lock screen and home screen at once."
+      },
+      "tr": {
+        "name": "Canvas Temalar",
+        "summary": "Tek bir görsel stilde duvar kağıtları, simge paketleri ve widget'lar. Tema kilit ve ana ekrana birlikte uygulanır."
+      }
+    },
+    "google_play_url": "https://play.google.com/store/apps/details?id=com.example.canvasthemes",
+    "updated": "2026-08-09T14:39:14.171Z",
+    "added_at": "2026-08-09T14:39:14.171Z",
+    "sample": true
+  },
+  {
+    "slug": "streamside-player",
+    "package_id": "com.example.streamsideplayer",
+    "icon_url": "/img/sample/icon-6.svg",
+    "screenshots": [
+      "/img/sample/shot-4.svg",
+      "/img/sample/shot-1.svg",
+      "/img/sample/shot-2.svg"
+    ],
+    "category": "VIDEO_PLAYERS",
+    "rating": 4.3,
+    "ratings_count": 121000,
+    "size": "35 MB",
+    "version": "4.1.0",
+    "installs": "1 000 000+",
+    "developer": "Streamside",
+    "content_rating": "Everyone",
+    "translations": {
+      "ru": {
+        "name": "Streamside Плеер",
+        "summary": "Плеер с поддержкой большинства кодеков, внешних субтитров и жестов управления яркостью и громкостью."
+      },
+      "en": {
+        "name": "Streamside Player",
+        "summary": "A player covering most codecs, external subtitles and swipe gestures for brightness and volume."
+      },
+      "tr": {
+        "name": "Streamside Oynatıcı",
+        "summary": "Çoğu kodeği, harici altyazıları ve parlaklık ile ses için kaydırma hareketlerini destekleyen oynatıcı."
+      }
+    },
+    "google_play_url": "https://play.google.com/store/apps/details?id=com.example.streamsideplayer",
+    "updated": "2026-08-08T02:39:14.171Z",
+    "added_at": "2026-08-08T02:39:14.171Z",
+    "sample": true
+  },
+  {
+    "slug": "stellar-drift",
+    "package_id": "com.example.stellardrift",
+    "icon_url": "/img/sample/icon-1.svg",
+    "screenshots": [
+      "/img/sample/shot-1.svg",
+      "/img/sample/shot-2.svg",
+      "/img/sample/shot-3.svg"
+    ],
+    "category": "GAME_ARCADE",
+    "rating": 4.5,
+    "ratings_count": 528300,
+    "size": "112 MB",
+    "version": "1.2.0",
+    "installs": "1 000 000+",
+    "developer": "Bluebox Games",
+    "content_rating": "Everyone",
+    "translations": {
+      "ru": {
+        "name": "Stellar Drift",
+        "summary": "Аркада с бесконечным полётом сквозь пояса астероидов. Управление в одно касание, корабли открываются за очки."
+      },
+      "en": {
+        "name": "Stellar Drift",
+        "summary": "An endless arcade flight through asteroid belts. One-touch controls, with ships unlocked by score."
+      },
+      "tr": {
+        "name": "Stellar Drift",
+        "summary": "Asteroit kuşakları arasında sonsuz bir arcade uçuşu. Tek dokunuşla kontrol, gemiler puanla açılır."
+      }
+    },
+    "google_play_url": "https://play.google.com/store/apps/details?id=com.example.stellardrift",
+    "updated": "2026-08-06T14:39:14.171Z",
+    "added_at": "2026-08-06T14:39:14.171Z",
+    "sample": true
+  },
+  {
+    "slug": "tile-quest",
+    "package_id": "com.example.tilequest",
+    "icon_url": "/img/sample/icon-2.svg",
+    "screenshots": [
+      "/img/sample/shot-2.svg",
+      "/img/sample/shot-3.svg",
+      "/img/sample/shot-4.svg"
+    ],
+    "category": "GAME_PUZZLE",
+    "rating": 4.7,
+    "ratings_count": 964100,
+    "size": "87 MB",
+    "version": "2.3.0",
+    "installs": "1 000 000+",
+    "developer": "Roundtable Studio",
+    "content_rating": "Everyone",
+    "translations": {
+      "ru": {
+        "name": "Tile Quest",
+        "summary": "Головоломка на совпадение плиток с 500 уровнями и режимом без таймера. Прогресс сохраняется офлайн."
+      },
+      "en": {
+        "name": "Tile Quest",
+        "summary": "A tile-matching puzzle with 500 levels and a no-timer mode. Progress is saved offline."
+      },
+      "tr": {
+        "name": "Tile Quest",
+        "summary": "500 bölüm ve zamanlayıcısız mod sunan bir eşleştirme bulmacası. İlerleme çevrimdışı kaydedilir."
+      }
+    },
+    "google_play_url": "https://play.google.com/store/apps/details?id=com.example.tilequest",
+    "updated": "2026-08-05T02:39:14.171Z",
+    "added_at": "2026-08-05T02:39:14.171Z",
+    "sample": true
+  },
+  {
+    "slug": "apex-circuit",
+    "package_id": "com.example.apexcircuit",
+    "icon_url": "/img/sample/icon-3.svg",
+    "screenshots": [
+      "/img/sample/shot-3.svg",
+      "/img/sample/shot-4.svg",
+      "/img/sample/shot-1.svg"
+    ],
+    "category": "GAME_RACING",
+    "rating": 4.2,
+    "ratings_count": 377800,
+    "size": "640 MB",
+    "version": "3.4.0",
+    "installs": "1 000 000+",
+    "developer": "Redline Interactive",
+    "content_rating": "Everyone",
+    "translations": {
+      "ru": {
+        "name": "Apex Circuit",
+        "summary": "Гонки по кольцевым трассам с настройкой подвески и коробки передач. Есть заезды по сети на четверых."
+      },
+      "en": {
+        "name": "Apex Circuit",
+        "summary": "Circuit racing with suspension and gearbox tuning. Includes four-player online races."
+      },
+      "tr": {
+        "name": "Apex Circuit",
+        "summary": "Süspansiyon ve şanzıman ayarlı pist yarışları. Dört kişilik çevrimiçi yarışlar içerir."
+      }
+    },
+    "google_play_url": "https://play.google.com/store/apps/details?id=com.example.apexcircuit",
+    "updated": "2026-08-03T14:39:14.171Z",
+    "added_at": "2026-08-03T14:39:14.171Z",
+    "sample": true
+  },
+  {
+    "slug": "kingdom-lanes",
+    "package_id": "com.example.kingdomlanes",
+    "icon_url": "/img/sample/icon-4.svg",
+    "screenshots": [
+      "/img/sample/shot-4.svg",
+      "/img/sample/shot-1.svg",
+      "/img/sample/shot-2.svg"
+    ],
+    "category": "GAME_STRATEGY",
+    "rating": 4.4,
+    "ratings_count": 289200,
+    "size": "420 MB",
+    "version": "4.5.0",
+    "installs": "1 000 000+",
+    "developer": "Ironwood Games",
+    "content_rating": "Everyone",
+    "translations": {
+      "ru": {
+        "name": "Kingdom Lanes",
+        "summary": "Пошаговая стратегия с обороной линий и развитием замка. Кампания рассчитана примерно на 20 часов."
+      },
+      "en": {
+        "name": "Kingdom Lanes",
+        "summary": "A turn-based strategy about holding lanes and upgrading a castle. The campaign runs roughly 20 hours."
+      },
+      "tr": {
+        "name": "Kingdom Lanes",
+        "summary": "Hatları savunma ve kale geliştirme üzerine sıra tabanlı strateji. Kampanya yaklaşık 20 saat sürer."
+      }
+    },
+    "google_play_url": "https://play.google.com/store/apps/details?id=com.example.kingdomlanes",
+    "updated": "2026-08-02T02:39:14.171Z",
+    "added_at": "2026-08-02T02:39:14.171Z",
+    "sample": true
+  },
+  {
+    "slug": "farm-harbor",
+    "package_id": "com.example.farmharbor",
+    "icon_url": "/img/sample/icon-5.svg",
+    "screenshots": [
+      "/img/sample/shot-1.svg",
+      "/img/sample/shot-2.svg",
+      "/img/sample/shot-3.svg"
+    ],
+    "category": "GAME_SIMULATION",
+    "rating": 4.3,
+    "ratings_count": 645400,
+    "size": "310 MB",
+    "version": "1.6.0",
+    "installs": "1 000 000+",
+    "developer": "Sunfield Studio",
+    "content_rating": "Everyone",
+    "translations": {
+      "ru": {
+        "name": "Farm Harbor",
+        "summary": "Симулятор фермы у моря: посевы, рыбалка и обмен товарами с соседями. Играется короткими сессиями."
+      },
+      "en": {
+        "name": "Farm Harbor",
+        "summary": "A seaside farm simulator with crops, fishing and trading with neighbours. Built for short sessions."
+      },
+      "tr": {
+        "name": "Farm Harbor",
+        "summary": "Ekinler, balıkçılık ve komşularla takas içeren deniz kenarı çiftlik simülasyonu. Kısa oturumlar için tasarlandı."
+      }
+    },
+    "google_play_url": "https://play.google.com/store/apps/details?id=com.example.farmharbor",
+    "updated": "2026-07-31T14:39:14.171Z",
+    "added_at": "2026-07-31T14:39:14.171Z",
+    "sample": true
+  },
+  {
+    "slug": "blade-of-ember",
+    "package_id": "com.example.bladeofember",
+    "icon_url": "/img/sample/icon-6.svg",
+    "screenshots": [
+      "/img/sample/shot-2.svg",
+      "/img/sample/shot-3.svg",
+      "/img/sample/shot-4.svg"
+    ],
+    "category": "GAME_ACTION",
+    "rating": 4.1,
+    "ratings_count": 402700,
+    "size": "780 MB",
+    "version": "2.7.0",
+    "installs": "1 000 000+",
+    "developer": "Emberforge",
+    "content_rating": "Everyone",
+    "translations": {
+      "ru": {
+        "name": "Blade of Ember",
+        "summary": "Экшен от третьего лица с комбо-боями и открытыми локациями. Управление адаптируется под геймпад."
+      },
+      "en": {
+        "name": "Blade of Ember",
+        "summary": "A third-person action game with combo combat and open areas. Controls adapt to a gamepad."
+      },
+      "tr": {
+        "name": "Blade of Ember",
+        "summary": "Kombo dövüşleri ve açık alanlar içeren üçüncü şahıs aksiyon oyunu. Kontroller oyun kumandasına uyum sağlar."
+      }
+    },
+    "google_play_url": "https://play.google.com/store/apps/details?id=com.example.bladeofember",
+    "updated": "2026-07-30T02:39:14.171Z",
+    "added_at": "2026-07-30T02:39:14.171Z",
+    "sample": true
+  },
+  {
+    "slug": "word-atlas",
+    "package_id": "com.example.wordatlas",
+    "icon_url": "/img/sample/icon-1.svg",
+    "screenshots": [
+      "/img/sample/shot-3.svg",
+      "/img/sample/shot-4.svg",
+      "/img/sample/shot-1.svg"
+    ],
+    "category": "GAME_WORD",
+    "rating": 4.6,
+    "ratings_count": 187500,
+    "size": "64 MB",
+    "version": "3.8.0",
+    "installs": "1 000 000+",
+    "developer": "Paper Owl",
+    "content_rating": "Everyone",
+    "translations": {
+      "ru": {
+        "name": "Word Atlas",
+        "summary": "Словесная игра с ежедневными заданиями на трёх языках. Подсказки не требуют покупок."
+      },
+      "en": {
+        "name": "Word Atlas",
+        "summary": "A word game with daily challenges in three languages. Hints require no purchases."
+      },
+      "tr": {
+        "name": "Word Atlas",
+        "summary": "Üç dilde günlük görevler sunan bir kelime oyunu. İpuçları satın alma gerektirmez."
+      }
+    },
+    "google_play_url": "https://play.google.com/store/apps/details?id=com.example.wordatlas",
+    "updated": "2026-07-28T14:39:14.171Z",
+    "added_at": "2026-07-28T14:39:14.171Z",
+    "sample": true
+  },
+  {
+    "slug": "card-vault",
+    "package_id": "com.example.cardvault",
+    "icon_url": "/img/sample/icon-2.svg",
+    "screenshots": [
+      "/img/sample/shot-4.svg",
+      "/img/sample/shot-1.svg",
+      "/img/sample/shot-2.svg"
+    ],
+    "category": "GAME_CARD",
+    "rating": 4,
+    "ratings_count": 73600,
+    "size": "128 MB",
+    "version": "4.9.0",
+    "installs": "1 000 000+",
+    "developer": "Roundtable Studio",
+    "content_rating": "Everyone",
+    "translations": {
+      "ru": {
+        "name": "Card Vault",
+        "summary": "Коллекционная карточная игра с сезонными наборами и матчами один на один. Колоды собираются без ставок."
+      },
+      "en": {
+        "name": "Card Vault",
+        "summary": "A collectible card game with seasonal sets and one-on-one matches. Decks are built without wagering."
+      },
+      "tr": {
+        "name": "Card Vault",
+        "summary": "Sezonluk setler ve birebir maçlar içeren koleksiyon kart oyunu. Desteler bahis olmadan kurulur."
+      }
+    },
+    "google_play_url": "https://play.google.com/store/apps/details?id=com.example.cardvault",
+    "updated": "2026-07-27T02:39:14.171Z",
+    "added_at": "2026-07-27T02:39:14.171Z",
+    "sample": true
+  },
+  {
+    "slug": "sky-blocks",
+    "package_id": "com.example.skyblocks",
+    "icon_url": "/img/sample/icon-3.svg",
+    "screenshots": [
+      "/img/sample/shot-1.svg",
+      "/img/sample/shot-2.svg",
+      "/img/sample/shot-3.svg"
+    ],
+    "category": "GAME_CASUAL",
+    "rating": 4.4,
+    "ratings_count": 731200,
+    "size": "54 MB",
+    "version": "1.0.0",
+    "installs": "1 000 000+",
+    "developer": "Bluebox Games",
+    "content_rating": "Everyone",
+    "translations": {
+      "ru": {
+        "name": "Sky Blocks",
+        "summary": "Казуальный тетрис-подобный конструктор с режимом на время и спокойным режимом без проигрыша."
+      },
+      "en": {
+        "name": "Sky Blocks",
+        "summary": "A casual block-stacking game with a timed mode and a relaxed mode you cannot lose."
+      },
+      "tr": {
+        "name": "Sky Blocks",
+        "summary": "Zamanlı mod ve kaybedilmeyen sakin mod sunan sıradan blok dizme oyunu."
+      }
+    },
+    "google_play_url": "https://play.google.com/store/apps/details?id=com.example.skyblocks",
+    "updated": "2026-07-25T14:39:14.171Z",
+    "added_at": "2026-07-25T14:39:14.171Z",
+    "sample": true
+  },
+  {
+    "slug": "chess-parlor",
+    "package_id": "com.example.chessparlor",
+    "icon_url": "/img/sample/icon-4.svg",
+    "screenshots": [
+      "/img/sample/shot-2.svg",
+      "/img/sample/shot-3.svg",
+      "/img/sample/shot-4.svg"
+    ],
+    "category": "GAME_BOARD",
+    "rating": 4.8,
+    "ratings_count": 244900,
+    "size": "48 MB",
+    "version": "2.1.0",
+    "installs": "1 000 000+",
+    "developer": "Ironwood Games",
+    "content_rating": "Everyone",
+    "translations": {
+      "ru": {
+        "name": "Chess Parlor",
+        "summary": "Шахматы с разбором партий, задачами и игрой против движка десяти уровней сложности."
+      },
+      "en": {
+        "name": "Chess Parlor",
+        "summary": "Chess with game analysis, puzzles and an engine offering ten difficulty levels."
+      },
+      "tr": {
+        "name": "Chess Parlor",
+        "summary": "Oyun analizi, bulmacalar ve on zorluk seviyeli motorla satranç."
+      }
+    },
+    "google_play_url": "https://play.google.com/store/apps/details?id=com.example.chessparlor",
+    "updated": "2026-07-24T02:39:14.171Z",
+    "added_at": "2026-07-24T02:39:14.171Z",
+    "sample": true
+  },
+  {
+    "slug": "echo-runner",
+    "package_id": "com.example.echorunner",
+    "icon_url": "/img/sample/icon-5.svg",
+    "screenshots": [
+      "/img/sample/shot-3.svg",
+      "/img/sample/shot-4.svg",
+      "/img/sample/shot-1.svg"
+    ],
+    "category": "GAME_ADVENTURE",
+    "rating": 4.5,
+    "ratings_count": 158300,
+    "size": "520 MB",
+    "version": "3.2.0",
+    "installs": "1 000 000+",
+    "developer": "Paper Owl",
+    "content_rating": "Everyone",
+    "translations": {
+      "ru": {
+        "name": "Echo Runner",
+        "summary": "Приключение с исследованием пещер и головоломками на эхолокацию. Сюжет проходится за один вечер."
+      },
+      "en": {
+        "name": "Echo Runner",
+        "summary": "An adventure about exploring caves and solving echolocation puzzles. The story fits one evening."
+      },
+      "tr": {
+        "name": "Echo Runner",
+        "summary": "Mağara keşfi ve yankı bulmacaları üzerine bir macera. Hikâye bir akşamda bitiyor."
+      }
+    },
+    "google_play_url": "https://play.google.com/store/apps/details?id=com.example.echorunner",
+    "updated": "2026-07-22T14:39:14.171Z",
+    "added_at": "2026-07-22T14:39:14.171Z",
+    "sample": true
+  },
+  {
+    "slug": "social-loop",
+    "package_id": "com.example.socialloop",
+    "icon_url": "/img/sample/icon-6.svg",
+    "screenshots": [
+      "/img/sample/shot-4.svg",
+      "/img/sample/shot-1.svg",
+      "/img/sample/shot-2.svg"
+    ],
+    "category": "SOCIAL",
+    "rating": 3.9,
+    "ratings_count": 519400,
+    "size": "66 MB",
+    "version": "4.3.0",
+    "installs": "1 000 000+",
+    "developer": "Loop Networks",
+    "content_rating": "Everyone",
+    "translations": {
+      "ru": {
+        "name": "Social Loop",
+        "summary": "Лента коротких заметок по интересам и локальные сообщества. Подписки настраиваются по темам, а не по людям."
+      },
+      "en": {
+        "name": "Social Loop",
+        "summary": "A feed of short notes by interest plus local communities. You follow topics rather than people."
+      },
+      "tr": {
+        "name": "Social Loop",
+        "summary": "İlgi alanına göre kısa not akışı ve yerel topluluklar. Kişileri değil konuları takip edersiniz."
+      }
+    },
+    "google_play_url": "https://play.google.com/store/apps/details?id=com.example.socialloop",
+    "updated": "2026-07-21T02:39:14.171Z",
+    "added_at": "2026-07-21T02:39:14.171Z",
+    "sample": true
+  }
+]
