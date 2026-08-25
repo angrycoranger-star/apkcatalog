@@ -5,7 +5,7 @@
  */
 
 /** Languages the catalog is published in. One static build per language. */
-export const LANGS = ['ru', 'en', 'tr'];
+export const LANGS = ['ru', 'en', 'tr', 'uz'];
 
 export const DEFAULT_LANG = 'ru';
 
@@ -13,7 +13,8 @@ export const DEFAULT_LANG = 'ru';
 export const LANG_HOSTS = {
   ru: 'ru',
   en: 'en',
-  tr: 'tr'
+  tr: 'tr',
+  uz: 'uz'
 };
 
 /**
@@ -23,7 +24,8 @@ export const LANG_HOSTS = {
 export const LANG_LOCALES = {
   ru: { lang: 'ru', country: 'ru' },
   en: { lang: 'en', country: 'us' },
-  tr: { lang: 'tr', country: 'tr' }
+  tr: { lang: 'tr', country: 'tr' },
+  uz: { lang: 'uz', country: 'uz' }
 };
 
 /** Storefronts walked by discovery.js when building the package id list. */
@@ -70,47 +72,47 @@ export const DISCOVERY_NUM = 50;
  */
 export const CATEGORIES = [
   // Games
-  { id: 'GAME_ACTION', slug: 'action', type: 'game', labels: { ru: 'Экшен', en: 'Action', tr: 'Aksiyon' } },
-  { id: 'GAME_ADVENTURE', slug: 'adventure', type: 'game', labels: { ru: 'Приключения', en: 'Adventure', tr: 'Macera' } },
-  { id: 'GAME_ARCADE', slug: 'arcade', type: 'game', labels: { ru: 'Аркады', en: 'Arcade', tr: 'Arcade' } },
-  { id: 'GAME_BOARD', slug: 'board', type: 'game', labels: { ru: 'Настольные', en: 'Board', tr: 'Masa oyunları' } },
-  { id: 'GAME_CARD', slug: 'card', type: 'game', labels: { ru: 'Карточные', en: 'Card', tr: 'Kart oyunları' } },
-  { id: 'GAME_CASINO', slug: 'casino', type: 'game', labels: { ru: 'Казино', en: 'Casino', tr: 'Kumarhane' } },
-  { id: 'GAME_CASUAL', slug: 'casual', type: 'game', labels: { ru: 'Казуальные', en: 'Casual', tr: 'Sıradan' } },
-  { id: 'GAME_EDUCATIONAL', slug: 'educational-games', type: 'game', labels: { ru: 'Обучающие игры', en: 'Educational', tr: 'Eğitici' } },
-  { id: 'GAME_MUSIC', slug: 'music-games', type: 'game', labels: { ru: 'Музыкальные', en: 'Music', tr: 'Müzik' } },
-  { id: 'GAME_PUZZLE', slug: 'puzzle', type: 'game', labels: { ru: 'Головоломки', en: 'Puzzle', tr: 'Bulmaca' } },
-  { id: 'GAME_RACING', slug: 'racing', type: 'game', labels: { ru: 'Гонки', en: 'Racing', tr: 'Yarış' } },
-  { id: 'GAME_ROLE_PLAYING', slug: 'role-playing', type: 'game', labels: { ru: 'Ролевые', en: 'Role playing', tr: 'Rol yapma' } },
-  { id: 'GAME_SIMULATION', slug: 'simulation', type: 'game', labels: { ru: 'Симуляторы', en: 'Simulation', tr: 'Simülasyon' } },
-  { id: 'GAME_SPORTS', slug: 'sports-games', type: 'game', labels: { ru: 'Спортивные игры', en: 'Sports', tr: 'Spor' } },
-  { id: 'GAME_STRATEGY', slug: 'strategy', type: 'game', labels: { ru: 'Стратегии', en: 'Strategy', tr: 'Strateji' } },
-  { id: 'GAME_TRIVIA', slug: 'trivia', type: 'game', labels: { ru: 'Викторины', en: 'Trivia', tr: 'Bilgi yarışması' } },
-  { id: 'GAME_WORD', slug: 'word', type: 'game', labels: { ru: 'Словесные', en: 'Word', tr: 'Kelime' } },
+  { id: 'GAME_ACTION', slug: 'action', type: 'game', labels: { ru: 'Экшен', en: 'Action', tr: 'Aksiyon', uz: 'Jangari' } },
+  { id: 'GAME_ADVENTURE', slug: 'adventure', type: 'game', labels: { ru: 'Приключения', en: 'Adventure', tr: 'Macera', uz: 'Sarguzasht' } },
+  { id: 'GAME_ARCADE', slug: 'arcade', type: 'game', labels: { ru: 'Аркады', en: 'Arcade', tr: 'Arcade', uz: 'Arkada' } },
+  { id: 'GAME_BOARD', slug: 'board', type: 'game', labels: { ru: 'Настольные', en: 'Board', tr: 'Masa oyunları', uz: 'Stol o‘yinlari' } },
+  { id: 'GAME_CARD', slug: 'card', type: 'game', labels: { ru: 'Карточные', en: 'Card', tr: 'Kart oyunları', uz: 'Karta o‘yinlari' } },
+  { id: 'GAME_CASINO', slug: 'casino', type: 'game', labels: { ru: 'Казино', en: 'Casino', tr: 'Kumarhane', uz: 'Kazino' } },
+  { id: 'GAME_CASUAL', slug: 'casual', type: 'game', labels: { ru: 'Казуальные', en: 'Casual', tr: 'Sıradan', uz: 'Oddiy o‘yinlar' } },
+  { id: 'GAME_EDUCATIONAL', slug: 'educational-games', type: 'game', labels: { ru: 'Обучающие игры', en: 'Educational', tr: 'Eğitici', uz: 'Ta’limiy o‘yinlar' } },
+  { id: 'GAME_MUSIC', slug: 'music-games', type: 'game', labels: { ru: 'Музыкальные', en: 'Music', tr: 'Müzik', uz: 'Musiqiy o‘yinlar' } },
+  { id: 'GAME_PUZZLE', slug: 'puzzle', type: 'game', labels: { ru: 'Головоломки', en: 'Puzzle', tr: 'Bulmaca', uz: 'Boshqotirma' } },
+  { id: 'GAME_RACING', slug: 'racing', type: 'game', labels: { ru: 'Гонки', en: 'Racing', tr: 'Yarış', uz: 'Poyga' } },
+  { id: 'GAME_ROLE_PLAYING', slug: 'role-playing', type: 'game', labels: { ru: 'Ролевые', en: 'Role playing', tr: 'Rol yapma', uz: 'Rolli o‘yinlar' } },
+  { id: 'GAME_SIMULATION', slug: 'simulation', type: 'game', labels: { ru: 'Симуляторы', en: 'Simulation', tr: 'Simülasyon', uz: 'Simulyator' } },
+  { id: 'GAME_SPORTS', slug: 'sports-games', type: 'game', labels: { ru: 'Спортивные игры', en: 'Sports', tr: 'Spor', uz: 'Sport o‘yinlari' } },
+  { id: 'GAME_STRATEGY', slug: 'strategy', type: 'game', labels: { ru: 'Стратегии', en: 'Strategy', tr: 'Strateji', uz: 'Strategiya' } },
+  { id: 'GAME_TRIVIA', slug: 'trivia', type: 'game', labels: { ru: 'Викторины', en: 'Trivia', tr: 'Bilgi yarışması', uz: 'Bilim bellashuvi' } },
+  { id: 'GAME_WORD', slug: 'word', type: 'game', labels: { ru: 'Словесные', en: 'Word', tr: 'Kelime', uz: 'So‘z o‘yinlari' } },
   // Applications
-  { id: 'ART_AND_DESIGN', slug: 'art-and-design', type: 'app', labels: { ru: 'Искусство и дизайн', en: 'Art & design', tr: 'Sanat ve tasarım' } },
-  { id: 'BOOKS_AND_REFERENCE', slug: 'books', type: 'app', labels: { ru: 'Книги', en: 'Books & reference', tr: 'Kitaplar' } },
-  { id: 'BUSINESS', slug: 'business', type: 'app', labels: { ru: 'Бизнес', en: 'Business', tr: 'İş' } },
-  { id: 'COMMUNICATION', slug: 'communication', type: 'app', labels: { ru: 'Общение', en: 'Communication', tr: 'İletişim' } },
-  { id: 'EDUCATION', slug: 'education', type: 'app', labels: { ru: 'Образование', en: 'Education', tr: 'Eğitim' } },
-  { id: 'ENTERTAINMENT', slug: 'entertainment', type: 'app', labels: { ru: 'Развлечения', en: 'Entertainment', tr: 'Eğlence' } },
-  { id: 'FINANCE', slug: 'finance', type: 'app', labels: { ru: 'Финансы', en: 'Finance', tr: 'Finans' } },
-  { id: 'FOOD_AND_DRINK', slug: 'food-and-drink', type: 'app', labels: { ru: 'Еда и напитки', en: 'Food & drink', tr: 'Yiyecek ve içecek' } },
-  { id: 'HEALTH_AND_FITNESS', slug: 'health', type: 'app', labels: { ru: 'Здоровье и фитнес', en: 'Health & fitness', tr: 'Sağlık ve fitness' } },
-  { id: 'LIFESTYLE', slug: 'lifestyle', type: 'app', labels: { ru: 'Стиль жизни', en: 'Lifestyle', tr: 'Yaşam tarzı' } },
-  { id: 'MAPS_AND_NAVIGATION', slug: 'maps', type: 'app', labels: { ru: 'Карты и навигация', en: 'Maps & navigation', tr: 'Haritalar' } },
-  { id: 'MUSIC_AND_AUDIO', slug: 'music', type: 'app', labels: { ru: 'Музыка и аудио', en: 'Music & audio', tr: 'Müzik ve ses' } },
-  { id: 'NEWS_AND_MAGAZINES', slug: 'news', type: 'app', labels: { ru: 'Новости и журналы', en: 'News & magazines', tr: 'Haberler' } },
-  { id: 'PERSONALIZATION', slug: 'personalization', type: 'app', labels: { ru: 'Персонализация', en: 'Personalization', tr: 'Kişiselleştirme' } },
-  { id: 'PHOTOGRAPHY', slug: 'photography', type: 'app', labels: { ru: 'Фотография', en: 'Photography', tr: 'Fotoğrafçılık' } },
-  { id: 'PRODUCTIVITY', slug: 'productivity', type: 'app', labels: { ru: 'Продуктивность', en: 'Productivity', tr: 'Üretkenlik' } },
-  { id: 'SHOPPING', slug: 'shopping', type: 'app', labels: { ru: 'Покупки', en: 'Shopping', tr: 'Alışveriş' } },
-  { id: 'SOCIAL', slug: 'social', type: 'app', labels: { ru: 'Социальные сети', en: 'Social', tr: 'Sosyal' } },
-  { id: 'SPORTS', slug: 'sports', type: 'app', labels: { ru: 'Спорт', en: 'Sports', tr: 'Spor' } },
-  { id: 'TOOLS', slug: 'tools', type: 'app', labels: { ru: 'Инструменты', en: 'Tools', tr: 'Araçlar' } },
-  { id: 'TRAVEL_AND_LOCAL', slug: 'travel', type: 'app', labels: { ru: 'Путешествия', en: 'Travel & local', tr: 'Seyahat' } },
-  { id: 'VIDEO_PLAYERS', slug: 'video', type: 'app', labels: { ru: 'Видеоплееры', en: 'Video players', tr: 'Video oynatıcılar' } },
-  { id: 'WEATHER', slug: 'weather', type: 'app', labels: { ru: 'Погода', en: 'Weather', tr: 'Hava durumu' } }
+  { id: 'ART_AND_DESIGN', slug: 'art-and-design', type: 'app', labels: { ru: 'Искусство и дизайн', en: 'Art & design', tr: 'Sanat ve tasarım', uz: 'San’at va dizayn' } },
+  { id: 'BOOKS_AND_REFERENCE', slug: 'books', type: 'app', labels: { ru: 'Книги', en: 'Books & reference', tr: 'Kitaplar', uz: 'Kitoblar' } },
+  { id: 'BUSINESS', slug: 'business', type: 'app', labels: { ru: 'Бизнес', en: 'Business', tr: 'İş', uz: 'Biznes' } },
+  { id: 'COMMUNICATION', slug: 'communication', type: 'app', labels: { ru: 'Общение', en: 'Communication', tr: 'İletişim', uz: 'Muloqot' } },
+  { id: 'EDUCATION', slug: 'education', type: 'app', labels: { ru: 'Образование', en: 'Education', tr: 'Eğitim', uz: 'Ta’lim' } },
+  { id: 'ENTERTAINMENT', slug: 'entertainment', type: 'app', labels: { ru: 'Развлечения', en: 'Entertainment', tr: 'Eğlence', uz: 'Ko‘ngilochar' } },
+  { id: 'FINANCE', slug: 'finance', type: 'app', labels: { ru: 'Финансы', en: 'Finance', tr: 'Finans', uz: 'Moliya' } },
+  { id: 'FOOD_AND_DRINK', slug: 'food-and-drink', type: 'app', labels: { ru: 'Еда и напитки', en: 'Food & drink', tr: 'Yiyecek ve içecek', uz: 'Ovqat va ichimlik' } },
+  { id: 'HEALTH_AND_FITNESS', slug: 'health', type: 'app', labels: { ru: 'Здоровье и фитнес', en: 'Health & fitness', tr: 'Sağlık ve fitness', uz: 'Salomatlik va fitnes' } },
+  { id: 'LIFESTYLE', slug: 'lifestyle', type: 'app', labels: { ru: 'Стиль жизни', en: 'Lifestyle', tr: 'Yaşam tarzı', uz: 'Turmush tarzi' } },
+  { id: 'MAPS_AND_NAVIGATION', slug: 'maps', type: 'app', labels: { ru: 'Карты и навигация', en: 'Maps & navigation', tr: 'Haritalar', uz: 'Xaritalar va navigatsiya' } },
+  { id: 'MUSIC_AND_AUDIO', slug: 'music', type: 'app', labels: { ru: 'Музыка и аудио', en: 'Music & audio', tr: 'Müzik ve ses', uz: 'Musiqa va audio' } },
+  { id: 'NEWS_AND_MAGAZINES', slug: 'news', type: 'app', labels: { ru: 'Новости и журналы', en: 'News & magazines', tr: 'Haberler', uz: 'Yangiliklar va jurnallar' } },
+  { id: 'PERSONALIZATION', slug: 'personalization', type: 'app', labels: { ru: 'Персонализация', en: 'Personalization', tr: 'Kişiselleştirme', uz: 'Shaxsiylashtirish' } },
+  { id: 'PHOTOGRAPHY', slug: 'photography', type: 'app', labels: { ru: 'Фотография', en: 'Photography', tr: 'Fotoğrafçılık', uz: 'Fotografiya' } },
+  { id: 'PRODUCTIVITY', slug: 'productivity', type: 'app', labels: { ru: 'Продуктивность', en: 'Productivity', tr: 'Üretkenlik', uz: 'Samaradorlik' } },
+  { id: 'SHOPPING', slug: 'shopping', type: 'app', labels: { ru: 'Покупки', en: 'Shopping', tr: 'Alışveriş', uz: 'Xaridlar' } },
+  { id: 'SOCIAL', slug: 'social', type: 'app', labels: { ru: 'Социальные сети', en: 'Social', tr: 'Sosyal', uz: 'Ijtimoiy tarmoqlar' } },
+  { id: 'SPORTS', slug: 'sports', type: 'app', labels: { ru: 'Спорт', en: 'Sports', tr: 'Spor', uz: 'Sport' } },
+  { id: 'TOOLS', slug: 'tools', type: 'app', labels: { ru: 'Инструменты', en: 'Tools', tr: 'Araçlar', uz: 'Vositalar' } },
+  { id: 'TRAVEL_AND_LOCAL', slug: 'travel', type: 'app', labels: { ru: 'Путешествия', en: 'Travel & local', tr: 'Seyahat', uz: 'Sayohat' } },
+  { id: 'VIDEO_PLAYERS', slug: 'video', type: 'app', labels: { ru: 'Видеоплееры', en: 'Video players', tr: 'Video oynatıcılar', uz: 'Video pleyerlar' } },
+  { id: 'WEATHER', slug: 'weather', type: 'app', labels: { ru: 'Погода', en: 'Weather', tr: 'Hava durumu', uz: 'Ob-havo' } }
 ];
 
 /** Fallback bucket for anything Google returns that is not in the taxonomy. */
@@ -118,7 +120,7 @@ export const FALLBACK_CATEGORY = {
   id: 'OTHER',
   slug: 'other',
   type: 'app',
-  labels: { ru: 'Другое', en: 'Other', tr: 'Diğer' }
+  labels: { ru: 'Другое', en: 'Other', tr: 'Diğer', uz: 'Boshqa' }
 };
 
 const byId = new Map(CATEGORIES.map((c) => [c.id, c]));

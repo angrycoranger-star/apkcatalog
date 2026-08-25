@@ -11,7 +11,7 @@
     "build:ru": "SITE_LANG=ru astro build --outDir dist/ru",
     "build:en": "SITE_LANG=en astro build --outDir dist/en",
     "build:tr": "SITE_LANG=tr astro build --outDir dist/tr",
-    "build:all": "npm run build:ru && npm run build:en && npm run build:tr",
+    "build:all": "npm run build:ru && npm run build:en && npm run build:tr && npm run build:uz",
     "preview": "astro preview",
     "astro": "astro",
     "discovery": "node scripts/discovery.js",
@@ -19,7 +19,8 @@
     "data:validate": "node scripts/validate-data.js",
     "smoke": "node scripts/smoke.js",
     "seed": "node scripts/seed-sample-data.js",
-    "test": "npm run data:validate && npm run smoke"
+    "test": "npm run data:validate && npm run smoke",
+    "build:uz": "SITE_LANG=uz astro build --outDir dist/uz"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.3",

@@ -28,7 +28,8 @@ export const BROKEN_PACKAGE_ID = 'com.example.fixture.broken';
 const NAMES = {
   ru: (n) => `Тестовое приложение ${n}`,
   en: (n) => `Fixture App ${n}`,
-  tr: (n) => `Örnek Uygulama ${n}`
+  tr: (n) => `Örnek Uygulama ${n}`,
+  uz: (n) => `Namuna Ilova ${n}`
 };
 
 const seedOf = (value) => [...value].reduce((acc, ch) => (acc * 31 + ch.charCodeAt(0)) >>> 0, 7);

@@ -246,5 +246,85 @@ export const LEGAL = {
         ]
       }
     ]
+  },
+uz: {
+    privacy: [
+      {
+        h: 'Qanday ma’lumot to‘playmiz',
+        p: [
+          'Sayt statik katalogdan iborat. Ro‘yxatdan o‘tishni so‘ramaymiz, shaxsiy kabinet yaratmaymiz hamda ism, manzil yoki to‘lov ma’lumotlarini yig‘maymiz.',
+          'Xosting provayderimiz so‘rovning texnik ma’lumotlarini avtomatik qayd etadi: IP manzil, brauzer turi, o‘tish sahifasi va tashrif vaqti. Bu yozuvlar faqat suiiste’molning oldini olish va yuklamani baholash uchun ishlatiladi.'
+        ]
+      },
+      {
+        h: 'Cookie fayllar va mahalliy xotira',
+        p: [
+          'O‘zimizning reklama yoki kuzatuv cookie fayllarimizni o‘rnatmaymiz. Til tanlovi va shunga o‘xshash kichik interfeys sozlamalari zarur bo‘lganda brauzeringizning localStorage’ida saqlanadi va qurilmangizdan chiqmaydi.',
+          'Brauzer sozlamalarida sayt ma’lumotlarini tozalash bu qiymatlarni butunlay o‘chiradi.'
+        ]
+      },
+      {
+        h: 'Uchinchi tomon resurslari',
+        p: [
+          'Ilova belgilari va ekran suratlari to‘g‘ridan-to‘g‘ri Google serverlaridan yuklanadi. Yozuv sahifasini ochganingizda brauzeringiz o‘sha serverlarga murojaat qiladi va bunday so‘rovlarga Google maxfiylik shartlari tatbiq etiladi.',
+          '«Google Play’da ochish» tugmasi sizni Google saytiga olib o‘tadi. U yerda bizning emas, Google qoidalari amal qiladi.'
+        ]
+      },
+      {
+        h: 'Tahlil',
+        p: [
+          'Agar saytda veb-tahlil yoqilgan bo‘lsa, cookie ishlatmaydigan va faqat anonim tashrif statistikasini jamlaydigan yechim qo‘llanadi. Alohida foydalanuvchilar profili yuritilmaydi.'
+        ]
+      },
+      {
+        h: 'Bolalar',
+        p: [
+          'Katalog 13 yoshgacha bo‘lgan bolalarga mo‘ljallanmagan va ularning shaxsiy ma’lumotlarini bilib turib to‘plamaydi.'
+        ]
+      },
+      {
+        h: 'Huquqlaringiz va murojaat',
+        p: [
+          'Tashriflaringizga oid ma’lumotlar haqida so‘rashingiz yoki ularni o‘chirishni talab qilishingiz mumkin. «Aloqa» sahifasidagi manzilga yozing, oqilona muddatda javob beramiz.',
+          'Siyosat o‘zgarganda sahifa boshidagi sanani yangilaymiz.'
+        ]
+      }
+    ],
+    disclaimer: [
+      {
+        h: 'Google’dan mustaqillik',
+        p: [
+          'Ushbu katalog mustaqil loyiha. U Google LLC bilan aloqador emas, u tomonidan homiylik qilinmaydi yoki qo‘llab-quvvatlanmaydi, shuningdek ro‘yxatdagi ilovalar dasturchilari bilan bog‘liq emas.',
+          'Google Play, Google Play logotipi va Android — Google LLC savdo belgilari. Ilova nomlari, belgilari va ekran suratlari ularning huquq egalariga tegishli bo‘lib, faqat yozuvlarni aniqlash uchun ishlatiladi.'
+        ]
+      },
+      {
+        h: 'Biz APK fayllarni joylashtirmaymiz',
+        p: [
+          'Sayt APK fayllarni yoki boshqa o‘rnatish paketlarini saqlamaydi, tarqatmaydi va ularga havola bermaydi. Yozuvdagi yagona yuklab olish tugmasi ilovaning Google Play’dagi rasmiy sahifasini ochadi.',
+          'Bizning nomimizdan «APK yuklab olish» taklif qiluvchi uchinchi tomon saytlarining loyihaga aloqasi yo‘q.'
+        ]
+      },
+      {
+        h: 'Ma’lumotlarning aniqligi',
+        p: [
+          'Yozuv ma’lumotlari (reyting, hajm, versiya, dasturchi) Google Play’ning ochiq ro‘yxatlaridan avtomatik yig‘iladi va vaqti-vaqti bilan yangilanadi. Yangilanishlar orasida qiymatlar joriy holatdan farq qilishi mumkin.',
+          'Tavsiflar — ilova nima uchun ekanini o‘z so‘zimiz bilan qisqacha bayon qilganimiz, dasturchi matni emas. Bu tahririy baho bo‘lib, to‘liq bo‘lmasligi mumkin.'
+        ]
+      },
+      {
+        h: 'Javobgarlik',
+        p: [
+          'Materiallar muayyan maqsadga yaroqlilik kafolatisiz «bor holicha» taqdim etiladi. Ilovani o‘rnatish qarori va uning ruxsatlarini tekshirish sizning zimmangizda qoladi.',
+          'Havola berilgan ilovalar va uchinchi tomon saytlarining mazmuni, ishlashi yoki siyosati uchun javobgar emasmiz.'
+        ]
+      },
+      {
+        h: 'Yozuvni o‘chirish',
+        p: [
+          'Huquq egasi yozuvni katalogdan olib tashlashni so‘rashi mumkin. Murojaat tartibi «Aloqa» sahifasida keltirilgan; bunday so‘rovlarni 5 ish kuni ichida ko‘rib chiqamiz.'
+        ]
+      }
+    ]
   }
 };
