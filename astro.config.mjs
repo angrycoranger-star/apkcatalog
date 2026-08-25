@@ -3,7 +3,7 @@ import tailwindcss from '@tailwindcss/vite';
 import { LANGS, DEFAULT_LANG } from './config/catalog.config.js';
 
 const lang = LANGS.includes(process.env.SITE_LANG) ? process.env.SITE_LANG : DEFAULT_LANG;
-const domain = process.env.SITE_DOMAIN || 'apkcatalog.example';
+const domain = process.env.SITE_DOMAIN || 'apk4orge.com';
 
 /**
  * One static build per language. The language is chosen by SITE_LANG at build

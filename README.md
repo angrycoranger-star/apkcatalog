@@ -40,9 +40,9 @@ language; the site is emitted at the root of its own subdomain.
 
 | Subdomain | `SITE_LANG` | Example URL |
 |---|---|---|
-| `ru.<domain>` | `ru` | `https://ru.example.com/app/tile-quest/` |
-| `en.<domain>` | `en` | `https://en.example.com/app/tile-quest/` |
-| `tr.<domain>` | `tr` | `https://tr.example.com/app/tile-quest/` |
+| `ru.<domain>` | `ru` | `https://ru.apk4orge.com/app/tile-quest/` |
+| `en.<domain>` | `en` | `https://en.apk4orge.com/app/tile-quest/` |
+| `tr.<domain>` | `tr` | `https://tr.apk4orge.com/app/tile-quest/` |
 
 All three read the same `data/apps.json`, picking their copy out of each
 record's `translations` block. Every page emits `hreflang` alternates pointing
@@ -172,9 +172,9 @@ an environment variable.
 
 | Project | Env vars | Domain |
 |---|---|---|
-| `apkcatalog-ru` | `SITE_LANG=ru`, `SITE_DOMAIN=example.com` | `ru.example.com` |
-| `apkcatalog-en` | `SITE_LANG=en`, `SITE_DOMAIN=example.com` | `en.example.com` |
-| `apkcatalog-tr` | `SITE_LANG=tr`, `SITE_DOMAIN=example.com` | `tr.example.com` |
+| `apk4orge-ru` | `SITE_LANG=ru`, `SITE_DOMAIN=apk4orge.com` | `ru.apk4orge.com` |
+| `apk4orge-en` | `SITE_LANG=en`, `SITE_DOMAIN=apk4orge.com` | `en.apk4orge.com` |
+| `apk4orge-tr` | `SITE_LANG=tr`, `SITE_DOMAIN=apk4orge.com` | `tr.apk4orge.com` |
 
 Each uses the stock `npm run build` → `dist` (see `vercel.json`). Add each
 subdomain under the project's Domains tab and point a CNAME at
@@ -189,7 +189,7 @@ the language switcher, which emits absolute URLs to the current path.
 | Variable | Default | Used by |
 |---|---|---|
 | `SITE_LANG` | `ru` | build — selects the language |
-| `SITE_DOMAIN` | `apkcatalog.example` | build — canonical + hreflang URLs |
+| `SITE_DOMAIN` | `apk4orge.com` | build — canonical + hreflang URLs |
 | `PUBLIC_CONTACT_EMAIL` | `hello@<domain>` | contact and legal pages |
 | `REQUEST_DELAY_MS` | `1200` | collectors — delay between requests |
 | `REQUEST_TIMEOUT_MS` | `20000` | collectors — per-request timeout (aborts the socket) |

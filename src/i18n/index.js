@@ -6,7 +6,7 @@ export const LANG = LANGS.includes(import.meta.env.PUBLIC_SITE_LANG)
   ? import.meta.env.PUBLIC_SITE_LANG
   : DEFAULT_LANG;
 
-export const DOMAIN = import.meta.env.PUBLIC_SITE_DOMAIN || 'apkcatalog.example';
+export const DOMAIN = import.meta.env.PUBLIC_SITE_DOMAIN || 'apk4orge.com';
 
 export const CONTACT_EMAIL = import.meta.env.PUBLIC_CONTACT_EMAIL || `hello@${DOMAIN}`;
 
