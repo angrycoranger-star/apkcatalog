@@ -19,8 +19,14 @@ export const LANG_NAMES = { ru: 'Русский', en: 'English', tr: 'Türkçe',
  * Translate a UI key for the current build language, falling back to the
  * default language and finally to the key itself so nothing renders blank.
  */
-export function t(key, lang = LANG) {
-  return UI[lang]?.[key] ?? UI[DEFAULT_LANG]?.[key] ?? key;
+export function t(key, lang = LANG, vars = null) {
+  let value = UI[lang]?.[key] ?? UI[DEFAULT_LANG]?.[key] ?? key;
+  if (vars) {
+    for (const [name, replacement] of Object.entries(vars)) {
+      value = value.replaceAll(`{${name}}`, replacement);
+    }
+  }
+  return value;
 }
 
 /** Absolute URL of another language's build of the same path. */

@@ -245,7 +245,7 @@ const PATTERNS = {
  * `facts` needs: name, developer, categoryLabel, isGame, rating, ratingsCount,
  * installs, size, contentRating, packageId.
  */
-export function composeSummary(facts, lang) {
+export function composeSummary(facts, lang, opts = {}) {
   const pattern = PATTERNS[lang] ?? PATTERNS.en;
   const seed = hash(`${facts.packageId}:${lang}`);
 
@@ -274,26 +274,26 @@ export function composeSummary(facts, lang) {
     sentences.push(pick(pattern.author, seed >>> 3)(values));
   }
 
-  if (values.rating && values.ratingsCount) {
-    sentences.push(pick(pattern.rating, seed >>> 5)(values));
-  } else if (values.rating) {
-    sentences.push(pick(pattern.ratingShort, seed >>> 5)(values));
-  } else {
-    sentences.push(pick(pattern.noRating, seed >>> 5)(values));
+  if (!opts.hideStore) {
+    if (values.rating && values.ratingsCount) {
+      sentences.push(pick(pattern.rating, seed >>> 5)(values));
+    } else if (values.rating) {
+      sentences.push(pick(pattern.ratingShort, seed >>> 5)(values));
+    } else {
+      sentences.push(pick(pattern.noRating, seed >>> 5)(values));
+    }
   }
 
-  if (sentences.length < 3) {
-    const bucket =
-      values.installs && values.size
-        ? pattern.facts.both
-        : values.installs
-          ? pattern.facts.installs
-          : values.size
-            ? pattern.facts.size
-            : values.contentRating
-              ? pattern.age
-              : pattern.facts.none;
-    sentences.push(pick(bucket, seed >>> 7)(values));
+  // Fill up to 3 sentences from facts, never repeating a bucket already used.
+  const factBuckets = [];
+  if (values.size) factBuckets.push(pattern.facts.size);
+  if (values.contentRating) factBuckets.push(pattern.age);
+  // The 'none' filler mentions the store, so only offer it when a store is in play.
+  if (!opts.hideStore) factBuckets.push(pattern.facts.none);
+  let bucketIndex = 0;
+  while (sentences.length < 3 && bucketIndex < factBuckets.length) {
+    sentences.push(pick(factBuckets[bucketIndex], seed >>> (7 + bucketIndex))(values));
+    bucketIndex += 1;
   }
 
   return sentences.slice(0, 3).join(' ');

@@ -1,4 +1,5 @@
 import rawApps from '../../data/apps.json';
+import customApps from '../../data/custom-apps.json';
 import meta from '../../data/apps.meta.json';
 import { LANG } from '../i18n/index.js';
 import { DEFAULT_LANG } from '../../config/catalog.config.js';
@@ -36,9 +37,43 @@ function normalize(app, lang) {
     contentRating: app.content_rating || '',
     updatedAt: app.updated || null,
     addedAt: app.added_at || null,
-    url: app.google_play_url || `https://play.google.com/store/apps/details?id=${app.package_id}`,
+    // Custom (self-listed) cards own their download target; scraped cards
+    // always point at the official Google Play listing.
+    custom: app.custom === true,
+    download: normalizeDownload(app),
+    minAndroid: app.min_android || '',
+    permissions: Array.isArray(app.permissions) ? app.permissions : [],
+    checksum: app.download?.checksum_sha256 || '',
+    url: downloadUrl(app),
     href: `/app/${app.slug}/`
   };
+}
+
+/**
+ * Where a card's button sends the visitor. Scraped cards go to Google Play.
+ * Custom cards carry an explicit download block: a store listing, a direct
+ * file, or a web app. `type` drives the button label and its warnings.
+ */
+function normalizeDownload(app) {
+  if (!app.custom) {
+    return { type: 'play', url: app.google_play_url || `https://play.google.com/store/apps/details?id=${app.package_id}` };
+  }
+  const d = app.download ?? {};
+  const type = ['play', 'store', 'direct', 'web'].includes(d.type) ? d.type : 'web';
+  return {
+    type,
+    url: d.url || '',
+    store: d.store || '',
+    checksumSha256: d.checksum_sha256 || '',
+    updated: d.updated || null
+  };
+}
+
+function downloadUrl(app) {
+  if (!app.custom) {
+    return app.google_play_url || `https://play.google.com/store/apps/details?id=${app.package_id}`;
+  }
+  return app.download?.url || '#';
 }
 
 /** Records that cannot render a card are dropped rather than half-shown. */
@@ -46,9 +81,24 @@ function isRenderable(app) {
   return Boolean(app?.slug && app?.package_id);
 }
 
-const ALL = rawApps
-  .filter(isRenderable)
-  .map((app) => normalize(app, LANG));
+/* Custom cards come first and win on slug/package collisions, so a self-listed
+   entry can also override a scraped one (fix a summary, re-categorise, etc.).
+   custom-apps.json is never touched by the collectors. */
+function mergeSources(custom, scraped) {
+  const seenSlug = new Set();
+  const seenPkg = new Set();
+  const out = [];
+  for (const app of [...custom.map((a) => ({ ...a, custom: true })), ...scraped]) {
+    if (!isRenderable(app)) continue;
+    if (seenSlug.has(app.slug) || seenPkg.has(app.package_id)) continue;
+    seenSlug.add(app.slug);
+    seenPkg.add(app.package_id);
+    out.push(app);
+  }
+  return out;
+}
+
+const ALL = mergeSources(customApps, rawApps).map((app) => normalize(app, LANG));
 
 export function getAllApps() {
   return ALL;

@@ -57,10 +57,11 @@ export const LEGAL = {
         ]
       },
       {
-        h: 'Мы не размещаем APK-файлы',
+        h: 'APK-файлы: чужие — нет, свои — сами',
         p: [
-          'Сайт не хранит, не распространяет и не предоставляет ссылок на APK-файлы или иные установочные пакеты. Единственная кнопка загрузки на карточке ведёт на официальную страницу приложения в Google Play.',
-          'Любые сторонние ресурсы, предлагающие «скачать APK» от нашего имени, к нам отношения не имеют.'
+          'Для карточек-агрегатов кнопка ведёт исключительно на официальную страницу приложения в Google Play. Чужие APK-файлы мы не храним, не распространяем и не даём на них ссылок.',
+          'Отдельные приложения, помеченные как «Приложение автора», разрабатываем и распространяем мы сами. Их установочный файл мы раздаём напрямую или через сторонний магазин; для прямой загрузки на карточке указана контрольная сумма SHA-256, чтобы вы могли проверить целостность файла.',
+          'Установка APK из файла требует включить в системе «Неизвестные источники» и остаётся на ваше усмотрение. Любые сторонние ресурсы, предлагающие «скачать APK» от нашего имени, к нам отношения не имеют.'
         ]
       },
       {
@@ -138,10 +139,11 @@ export const LEGAL = {
         ]
       },
       {
-        h: 'We do not host APK files',
+        h: 'APK files: not others’, only our own',
         p: [
-          'The site does not store, distribute or link to APK files or any other installation packages. The single download button on a listing opens the official Google Play page for that app.',
-          'Any third-party site offering "APK downloads" in our name is unrelated to this project.'
+          'For aggregated listings the button opens the official Google Play page and nothing else. We do not store, distribute or link to anyone else’s APK files.',
+          'A small number of apps, marked "Author’s app", are developed and distributed by us. Their installer we serve directly or through a third-party store; for a direct download the listing shows a SHA-256 checksum so you can verify the file’s integrity.',
+          'Installing an APK from a file requires enabling "Unknown sources" and remains your decision. Any third-party site offering "APK downloads" in our name is unrelated to this project.'
         ]
       },
       {
@@ -219,10 +221,11 @@ export const LEGAL = {
         ]
       },
       {
-        h: 'APK dosyası barındırmıyoruz',
+        h: 'APK dosyaları: başkasınınki değil, yalnızca kendimizinki',
         p: [
-          'Site APK dosyalarını veya başka kurulum paketlerini saklamaz, dağıtmaz ve bunlara bağlantı vermez. Bir kayıttaki tek indirme düğmesi ilgili uygulamanın resmi Google Play sayfasını açar.',
-          'Adımızı kullanarak "APK indirme" sunan üçüncü taraf siteler bu projeyle ilgisizdir.'
+          'Toplu kayıtlarda düğme yalnızca resmi Google Play sayfasını açar. Başkalarının APK dosyalarını saklamaz, dağıtmaz veya bunlara bağlantı vermeyiz.',
+          '"Yazarın uygulaması" olarak işaretlenen az sayıda uygulama tarafımızdan geliştirilip dağıtılır. Kurulum dosyasını doğrudan veya üçüncü taraf bir mağaza üzerinden sunarız; doğrudan indirme için kayıtta, dosyanın bütünlüğünü doğrulayabilmeniz adına SHA-256 sağlama toplamı gösterilir.',
+          'APK’yı dosyadan kurmak "Bilinmeyen kaynaklar" iznini gerektirir ve kararı size aittir. Adımızı kullanarak "APK indirme" sunan üçüncü taraf siteler bu projeyle ilgisizdir.'
         ]
       },
       {
@@ -299,10 +302,11 @@ uz: {
         ]
       },
       {
-        h: 'Biz APK fayllarni joylashtirmaymiz',
+        h: 'APK fayllar: begonasi emas, faqat o‘zimizniki',
         p: [
-          'Sayt APK fayllarni yoki boshqa o‘rnatish paketlarini saqlamaydi, tarqatmaydi va ularga havola bermaydi. Yozuvdagi yagona yuklab olish tugmasi ilovaning Google Play’dagi rasmiy sahifasini ochadi.',
-          'Bizning nomimizdan «APK yuklab olish» taklif qiluvchi uchinchi tomon saytlarining loyihaga aloqasi yo‘q.'
+          'Yig‘ma yozuvlarda tugma faqat rasmiy Google Play sahifasini ochadi. Boshqalarning APK fayllarini saqlamaymiz, tarqatmaymiz va ularga havola bermaymiz.',
+          '«Muallif ilovasi» deb belgilangan bir nechta ilova biz tomonimizdan ishlab chiqiladi va tarqatiladi. O‘rnatish faylini to‘g‘ridan-to‘g‘ri yoki uchinchi tomon do‘koni orqali beramiz; to‘g‘ridan-to‘g‘ri yuklab olish uchun yozuvda fayl yaxlitligini tekshirishingiz mumkin bo‘lgan SHA-256 nazorat summasi ko‘rsatiladi.',
+          'APK’ni fayldan o‘rnatish «Noma’lum manbalar» ruxsatini talab qiladi va bu sizning qaroringiz. Bizning nomimizdan «APK yuklab olish» taklif qiluvchi uchinchi tomon saytlarining loyihaga aloqasi yo‘q.'
         ]
       },
       {

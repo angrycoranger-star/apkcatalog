@@ -49,3 +49,60 @@ it by running the collectors:
 npm run discovery      # writes package-ids.json
 npm run fetch-details  # writes apps.json + apps.meta.json
 ```
+
+## custom-apps.json — your own listings
+
+Apps that are **not** discovered from Google Play (your own releases, or a
+listing you want to place by hand) live in `data/custom-apps.json`. The
+collectors never touch this file, so nothing here is overwritten by a refresh.
+
+A custom record uses the same shape as a scraped one, plus:
+
+```jsonc
+{
+  "slug": "my-app",
+  "custom": true,
+  "package_id": "com.mycompany.myapp",
+  "category": "TOOLS",
+  "developer": "My studio",
+  "version": "1.4.0",
+  "size": "24 MB",
+  "min_android": "8.0",
+  "icon_url": "/img/apps/my-app/icon.png",
+  "screenshots": ["/img/apps/my-app/1.png"],
+  "permissions": ["android.permission.INTERNET"],
+  "translations": { "ru": {…}, "en": {…}, "tr": {…}, "uz": {…} },
+  "download": {
+    "type": "direct",              // play | store | direct | web
+    "url": "https://dl.example.com/my-app-1.4.0.apk",
+    "store": "RuStore",            // only for type "store"
+    "checksum_sha256": "…",        // required for type "direct"
+    "updated": "2026-08-25"
+  }
+}
+```
+
+`download.type` decides the button label, the notice under it and the JSON-LD:
+
+| type | button leads to | notes |
+|---|---|---|
+| `play` | Google Play listing | same as a scraped card |
+| `store` | third-party store (RuStore, AppGallery, …) | set `store` for the label |
+| `direct` | your own APK file | needs `version` + `checksum_sha256` |
+| `web` | a web app / PWA | nothing to install |
+
+A custom entry that reuses a scraped `slug` or `package_id` **overrides** the
+scraped card, so you can also correct a summary or re-categorise an app.
+
+Populate one straight from an APK you own:
+
+```bash
+npm run add-apk -- ./builds/myapp-1.4.0.apk
+```
+
+It reads the package id, version, min Android, size, SHA-256, permissions and a
+launcher icon from the file (it never modifies the APK), asks for the few
+things the file can't provide, drafts summaries in every language, extracts the
+icon into `public/img/apps/<slug>/`, and appends the record. For a `direct`
+download it prints the SHA-256 and the filename to upload — the binary is
+hosted on your CDN / release host, never committed to the repo.
