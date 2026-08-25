@@ -1,0 +1,164 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import AppIcon from '../../components/AppIcon.astro';
+import Rating from '../../components/Rating.astro';
+import Screenshots from '../../components/Screenshots.astro';
+import AppCard from '../../components/AppCard.astro';
+import { getAllApps, getBySlug, similarApps } from '../../lib/apps.js';
+import { t, formatNumber, formatDate, LOCALES, LANG } from '../../i18n/index.js';
+
+export function getStaticPaths() {
+  return getAllApps().map((app) => ({ params: { slug: app.slug }, props: { app } }));
+}
+
+const { app } = Astro.props;
+const similar = similarApps(app, 6);
+const listBase = app.type === 'game' ? '/games/' : '/apps/';
+const listLabel = app.type === 'game' ? t('games.title') : t('apps.title');
+
+const facts = [
+  { label: t('card.developer'), value: app.developer },
+  { label: t('card.category'), value: app.categoryLabel, href: `${listBase}${app.categorySlug}/` },
+  { label: t('card.size'), value: app.size },
+  { label: t('card.version'), value: app.version },
+  { label: t('card.installs'), value: app.installs },
+  { label: t('card.updated'), value: formatDate(app.updatedAt) },
+  { label: t('card.package'), value: app.packageId, mono: true }
+].filter((fact) => Boolean(fact.value));
+
+const description = app.summary || `${app.name} — ${app.categoryLabel}. ${t('site.description')}`;
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'MobileApplication',
+    name: app.name,
+    description,
+    operatingSystem: 'Android',
+    applicationCategory: app.type === 'game' ? 'GameApplication' : 'MobileApplication',
+    applicationSubCategory: app.categoryLabel,
+    inLanguage: LOCALES[LANG],
+    url: new URL(app.href, Astro.site).href,
+    sameAs: app.url,
+    ...(app.icon ? { image: app.icon } : {}),
+    ...(app.screenshots.length ? { screenshot: app.screenshots } : {}),
+    ...(app.developer ? { author: { '@type': 'Organization', name: app.developer } } : {}),
+    ...(app.version ? { softwareVersion: app.version } : {}),
+    ...(app.size ? { fileSize: app.size } : {}),
+    ...(app.rating && app.ratingsCount
+      ? {
+          aggregateRating: {
+            '@type': 'AggregateRating',
+            ratingValue: app.rating,
+            ratingCount: app.ratingsCount,
+            bestRating: 5,
+            worstRating: 1
+          }
+        }
+      : {})
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { name: t('nav.home'), href: '/' },
+      { name: listLabel, href: listBase },
+      { name: app.categoryLabel, href: `${listBase}${app.categorySlug}/` },
+      { name: app.name, href: app.href }
+    ].map((crumb, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: crumb.name,
+      item: new URL(crumb.href, Astro.site).href
+    }))
+  }
+];
+---
+
+<BaseLayout title={app.name} description={description} image={app.icon} ogType="article" jsonLd={jsonLd}>
+  <div class="mx-auto max-w-4xl px-4 py-8">
+    <nav aria-label="breadcrumb" class="mb-5 text-sm text-muted">
+      <ol class="flex flex-wrap items-center gap-1.5">
+        <li><a class="hover:text-brand-600" href="/">{t('nav.home')}</a></li>
+        <li aria-hidden="true">/</li>
+        <li><a class="hover:text-brand-600" href={listBase}>{listLabel}</a></li>
+        <li aria-hidden="true">/</li>
+        <li><a class="hover:text-brand-600" href={`${listBase}${app.categorySlug}/`}>{app.categoryLabel}</a></li>
+      </ol>
+    </nav>
+
+    <article>
+      <header class="flex flex-col gap-5 rounded-2xl border p-5 sm:flex-row sm:items-start surface">
+        <AppIcon src={app.icon} alt={app.name} size={96} rounded="rounded-2xl" eager />
+
+        <div class="min-w-0 flex-1">
+          <h1 class="text-xl font-bold tracking-tight sm:text-2xl">{app.name}</h1>
+          <p class="mt-1 text-sm text-muted">{app.developer}</p>
+
+          <div class="mt-3 flex flex-wrap items-center gap-x-4 gap-y-2">
+            <Rating value={app.rating} count={app.ratingsCount} size="lg" />
+            <a
+              href={`${listBase}${app.categorySlug}/`}
+              class="rounded-full bg-brand-50 px-2.5 py-1 text-xs font-medium text-brand-700 dark:bg-brand-500/15 dark:text-brand-300"
+            >
+              {app.categoryLabel}
+            </a>
+            {app.size && <span class="text-xs text-muted">{app.size}</span>}
+          </div>
+
+          <a
+            href={app.url}
+            target="_blank"
+            rel="nofollow noopener noreferrer"
+            aria-label={t('card.openAria')}
+            class="mt-5 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-brand-600 px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-brand-700 sm:w-auto"
+          >
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M3.6 2.3a1 1 0 00-.6.9v17.6a1 1 0 001.5.9l10-8.8-10-10.4a1 1 0 00-.9-.2zM15.8 10.2L5.8 1.9l11.9 6.7-1.9 1.6zM17.7 15.4L5.8 22.1l10-8.3 1.9 1.6zM19.4 11.1l2.6 1.5a1 1 0 010 1.8l-2.6 1.5-2.2-1.9 2.2-2.9z" />
+            </svg>
+            {t('card.open')}
+          </a>
+          <p class="mt-2 text-xs text-muted">{t('card.notice')}</p>
+        </div>
+      </header>
+
+      {app.summary && (
+        <section class="mt-8" aria-labelledby="about-title">
+          <h2 id="about-title" class="mb-2 text-lg font-semibold tracking-tight">{t('card.about')}</h2>
+          <p class="text-sm leading-relaxed" style="color: var(--text);">{app.summary}</p>
+        </section>
+      )}
+
+      <Screenshots shots={app.screenshots} name={app.name} />
+
+      <section class="mt-8" aria-labelledby="facts-title">
+        <h2 id="facts-title" class="sr-only">{t('card.about')}</h2>
+        <dl class="grid grid-cols-1 gap-px overflow-hidden rounded-2xl border sm:grid-cols-2" style="background-color: var(--border);">
+          {facts.map((fact) => (
+            <div class="flex items-center justify-between gap-4 px-4 py-3 text-sm surface">
+              <dt class="text-muted">{fact.label}</dt>
+              <dd class:list={['truncate text-right font-medium', fact.mono && 'font-mono text-xs']}>
+                {fact.href ? <a class="hover:text-brand-600" href={fact.href}>{fact.value}</a> : fact.value}
+              </dd>
+            </div>
+          ))}
+        </dl>
+      </section>
+
+      {similar.length > 0 && (
+        <section class="mt-10" aria-labelledby="similar-title">
+          <h2 id="similar-title" class="mb-3 text-lg font-semibold tracking-tight">{t('card.similar')}</h2>
+          <ul class="grid grid-cols-2 gap-3 sm:grid-cols-3">
+            {similar.map((item) => (
+              <li class="h-full"><AppCard app={item} /></li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      <p class="mt-10">
+        <a href={listBase} class="text-sm font-medium text-brand-600 hover:underline">← {t('card.backTo')}</a>
+      </p>
+    </article>
+  </div>
+</BaseLayout>

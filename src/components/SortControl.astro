@@ -1,0 +1,45 @@
+---
+import { t } from '../i18n/index.js';
+
+/* Progressive enhancement: the grid ships already sorted by rating, and this
+   control only reorders the DOM when JavaScript is available. */
+const { target } = Astro.props;
+---
+
+<div class="flex items-center gap-2" data-sort-control data-sort-target={target} hidden>
+  <label class="text-sm text-muted" for={`${target}-sort`}>{t('filter.sort')}</label>
+  <select
+    id={`${target}-sort`}
+    class="h-9 rounded-lg border px-2 text-sm surface"
+  >
+    <option value="rating">{t('sort.rating')}</option>
+    <option value="name">{t('sort.name')}</option>
+    <option value="updated">{t('sort.updated')}</option>
+  </select>
+</div>
+
+<script>
+  document.querySelectorAll('[data-sort-control]').forEach((control) => {
+    const grid = document.getElementById(control.dataset.sortTarget);
+    if (!grid) return;
+    control.hidden = false;
+
+    const select = control.querySelector('select');
+    const cards = [...grid.children];
+    const value = (item) => item.querySelector('[data-rating]') ?? item.firstElementChild;
+
+    const comparators = {
+      rating: (a, b) => Number(value(b)?.dataset.rating ?? 0) - Number(value(a)?.dataset.rating ?? 0),
+      name: (a, b) => (value(a)?.dataset.name ?? '').localeCompare(value(b)?.dataset.name ?? ''),
+      updated: (a, b) =>
+        new Date(value(b)?.dataset.updated || 0) - new Date(value(a)?.dataset.updated || 0)
+    };
+
+    select.addEventListener('change', () => {
+      const sorted = [...cards].sort(comparators[select.value] ?? comparators.rating);
+      const fragment = document.createDocumentFragment();
+      sorted.forEach((card) => fragment.appendChild(card));
+      grid.appendChild(fragment);
+    });
+  });
+</script>

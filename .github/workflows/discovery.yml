@@ -1,0 +1,52 @@
+name: Discover packages
+
+# Monthly: refresh which apps are currently charting. Writes data/package-ids.json.
+on:
+  schedule:
+    - cron: '0 2 1 * *'
+  workflow_dispatch:
+    inputs:
+      num:
+        description: 'Results per country+category combination'
+        required: false
+        default: '50'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: catalog-data
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Run discovery
+        env:
+          REQUEST_DELAY_MS: '2000'
+        run: node scripts/discovery.js --num "${{ inputs.num || '50' }}"
+
+      - name: Commit the package list
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          if git diff --quiet -- data/package-ids.json; then
+            echo 'No change to data/package-ids.json'
+            exit 0
+          fi
+          total=$(node -p "require('./data/package-ids.json').total")
+          fresh=$(node -p "require('./data/package-ids.json').new_this_run")
+          git add data/package-ids.json
+          git commit -m "chore(data): discovery — ${total} packages (${fresh} new)"
+          git push

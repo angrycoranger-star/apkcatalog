@@ -1,0 +1,66 @@
+name: Refresh app cards
+
+# Every 1-2 weeks: re-read rating, version and size for each package and
+# regenerate data/apps.json. Pushing the result triggers the Vercel builds.
+on:
+  schedule:
+    - cron: '0 3 1,15 * *'
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 'Maximum packages to fetch (blank = all)'
+        required: false
+      llm:
+        description: 'Use Claude for summaries (needs ANTHROPIC_API_KEY)'
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: catalog-data
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Fetch card details
+        env:
+          REQUEST_DELAY_MS: '1500'
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          node scripts/fetch-details.js \
+            ${{ inputs.limit && format('--limit {0}', inputs.limit) || '' }} \
+            ${{ inputs.llm && '--llm' || '' }}
+
+      - name: Validate the dataset
+        run: npm run data:validate
+
+      - name: Verify all three language builds
+        run: npm run build:all
+
+      - name: Commit the refreshed cards
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          if git diff --quiet -- data/apps.json data/apps.meta.json data/package-ids.json; then
+            echo 'No data change'
+            exit 0
+          fi
+          count=$(node -p "require('./data/apps.json').length")
+          git add data/apps.json data/apps.meta.json data/package-ids.json
+          git commit -m "chore(data): refresh ${count} app cards"
+          git push

@@ -1,0 +1,28 @@
+---
+import { t } from '../i18n/index.js';
+
+/* Screenshots are hotlinked from Google's CDN by design — the catalog never
+   re-hosts app media. */
+const { shots, name } = Astro.props;
+---
+
+{shots.length > 0 && (
+  <section class="mt-8" aria-labelledby="screenshots-title">
+    <h2 id="screenshots-title" class="mb-3 text-lg font-semibold tracking-tight">{t('card.screenshots')}</h2>
+    <ul class="swipe-rail -mx-4 px-4" role="list" tabindex="0">
+      {shots.map((shot, index) => (
+        <li>
+          <img
+            src={shot}
+            alt={`${name} — ${t('card.screenshots')} ${index + 1}`}
+            loading={index < 2 ? 'eager' : 'lazy'}
+            decoding="async"
+            referrerpolicy="no-referrer"
+            class="h-64 w-auto rounded-xl border bg-slate-100 object-cover sm:h-80 dark:bg-slate-800"
+            onerror="this.closest('li')?.remove()"
+          />
+        </li>
+      ))}
+    </ul>
+  </section>
+)}

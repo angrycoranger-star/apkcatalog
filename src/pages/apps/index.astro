@@ -1,0 +1,21 @@
+---
+import CatalogPage from '../../components/CatalogPage.astro';
+import { getApps, usedCategories, sortApps } from '../../lib/apps.js';
+import { t } from '../../i18n/index.js';
+
+const apps = sortApps(getApps(), 'rating');
+const categories = usedCategories('app');
+---
+
+<CatalogPage
+  title={t('apps.title')}
+  subtitle={t('apps.subtitle')}
+  description={`${t('apps.subtitle')} — ${t('site.description')}`}
+  apps={apps}
+  categories={categories}
+  base="/apps/"
+  breadcrumbs={[
+    { name: t('nav.home'), href: '/' },
+    { name: t('apps.title'), href: '/apps/' }
+  ]}
+/>

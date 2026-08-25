@@ -1,0 +1,73 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import AppGrid from './AppGrid.astro';
+import CategoryChips from './CategoryChips.astro';
+import SortControl from './SortControl.astro';
+import { t, formatNumber } from '../i18n/index.js';
+
+/* Shared body for /apps/, /games/ and their per-category variants. */
+const { title, subtitle, apps, categories, base, activeSlug = null, description, breadcrumbs } = Astro.props;
+
+const gridId = 'catalog-grid';
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: breadcrumbs.map((crumb, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: crumb.name,
+      item: new URL(crumb.href, Astro.site).href
+    }))
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: title,
+    numberOfItems: apps.length,
+    itemListElement: apps.slice(0, 30).map((app, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      url: new URL(app.href, Astro.site).href,
+      name: app.name
+    }))
+  }
+];
+---
+
+<BaseLayout title={title} description={description} jsonLd={jsonLd}>
+  <div class="mx-auto max-w-6xl px-4 py-8">
+    <nav aria-label="breadcrumb" class="mb-4 text-sm text-muted">
+      <ol class="flex flex-wrap items-center gap-1.5">
+        {breadcrumbs.map((crumb, index) => (
+          <li class="flex items-center gap-1.5">
+            {index > 0 && <span aria-hidden="true">/</span>}
+            {index === breadcrumbs.length - 1 ? (
+              <span aria-current="page" style="color: var(--text);">{crumb.name}</span>
+            ) : (
+              <a class="hover:text-brand-600" href={crumb.href}>{crumb.name}</a>
+            )}
+          </li>
+        ))}
+      </ol>
+    </nav>
+
+    <header class="mb-6">
+      <h1 class="text-2xl font-bold tracking-tight sm:text-3xl">{title}</h1>
+      <p class="mt-1.5 text-sm text-muted">{subtitle}</p>
+    </header>
+
+    <div class="mb-5">
+      <CategoryChips categories={categories} base={base} activeSlug={activeSlug} />
+    </div>
+
+    <div class="mb-4 flex flex-wrap items-center justify-between gap-3">
+      <p class="text-sm text-muted">
+        {t('list.count')}: <span style="color: var(--text);">{formatNumber(apps.length)}</span>
+      </p>
+      <SortControl target={gridId} />
+    </div>
+
+    <AppGrid apps={apps} id={gridId} />
+  </div>
+</BaseLayout>

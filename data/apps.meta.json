@@ -1,0 +1,11 @@
+{
+  "generated_at": "2026-08-24T14:39:14.173Z",
+  "source": "seed-sample-data.js",
+  "sample": true,
+  "count": 24,
+  "languages": [
+    "ru",
+    "en",
+    "tr"
+  ]
+}

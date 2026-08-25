@@ -1,0 +1,36 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { t, CONTACT_EMAIL, formatDate } from '../i18n/index.js';
+import { LEGAL_UPDATED } from '../i18n/legal.js';
+---
+
+<BaseLayout title={t('legal.contact.title')} description={t('contact.intro')}>
+  <div class="mx-auto max-w-3xl px-4 py-10">
+    <h1 class="text-2xl font-bold tracking-tight sm:text-3xl">{t('legal.contact.title')}</h1>
+    <p class="mt-3 text-sm leading-relaxed text-muted">{t('contact.intro')}</p>
+
+    <div class="mt-6 rounded-2xl border p-5 surface">
+      <p class="text-sm text-muted">{t('contact.emailLabel')}</p>
+      <a href={`mailto:${CONTACT_EMAIL}`} class="mt-1 inline-block text-lg font-semibold text-brand-600 hover:underline">
+        {CONTACT_EMAIL}
+      </a>
+    </div>
+
+    <section class="mt-8">
+      <h2 class="text-lg font-semibold tracking-tight">{t('contact.takedownTitle')}</h2>
+      <p class="mt-2 text-sm leading-relaxed text-muted">{t('contact.takedownText')}</p>
+    </section>
+
+    <section class="mt-8">
+      <h2 class="text-lg font-semibold tracking-tight">{t('legal.disclaimer.title')}</h2>
+      <p class="mt-2 text-sm leading-relaxed text-muted">{t('footer.disclaimerShort')}</p>
+      <p class="mt-3 text-sm">
+        <a href="/disclaimer/" class="font-medium text-brand-600 hover:underline">{t('nav.disclaimer')}</a>
+        <span class="mx-2 text-muted">·</span>
+        <a href="/privacy/" class="font-medium text-brand-600 hover:underline">{t('nav.privacy')}</a>
+      </p>
+    </section>
+
+    <p class="mt-10 text-xs text-muted">{t('legal.updated')}: {formatDate(LEGAL_UPDATED)}</p>
+  </div>
+</BaseLayout>

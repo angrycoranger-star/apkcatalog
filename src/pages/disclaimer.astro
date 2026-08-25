@@ -1,0 +1,13 @@
+---
+import LegalLayout from '../layouts/LegalLayout.astro';
+import { LEGAL } from '../i18n/legal.js';
+import { t, LANG } from '../i18n/index.js';
+
+const sections = LEGAL[LANG]?.disclaimer ?? LEGAL.ru.disclaimer;
+---
+
+<LegalLayout
+  title={t('legal.disclaimer.title')}
+  description={`${t('legal.disclaimer.title')} — ${t('site.name')}`}
+  sections={sections}
+/>

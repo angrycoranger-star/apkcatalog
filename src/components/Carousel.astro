@@ -1,0 +1,67 @@
+---
+import AppCard from './AppCard.astro';
+import { t } from '../i18n/index.js';
+
+/* A horizontal, scroll-snapped rail. On touch devices it is swiped directly;
+   pointer devices additionally get arrow buttons. */
+const { title, apps, moreHref = null, moreLabel = t('home.viewAll'), id } = Astro.props;
+const railId = `${id}-rail`;
+---
+
+<section class="mt-10" aria-labelledby={`${id}-title`}>
+  <div class="mb-3 flex items-end justify-between gap-4 px-4">
+    <h2 id={`${id}-title`} class="text-lg font-semibold tracking-tight sm:text-xl">{title}</h2>
+    <div class="flex items-center gap-2">
+      {moreHref && (
+        <a href={moreHref} class="text-sm font-medium text-brand-600 hover:underline">{moreLabel}</a>
+      )}
+      <div class="hidden gap-1 md:flex" data-rail-controls={railId}>
+        <button type="button" data-dir="-1" aria-label={t('a11y.prev')} aria-controls={railId}
+          class="grid h-8 w-8 place-items-center rounded-lg border transition-colors hover:bg-brand-50 disabled:opacity-40 surface dark:hover:bg-brand-500/10">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M15 6l-6 6 6 6" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </button>
+        <button type="button" data-dir="1" aria-label={t('a11y.next')} aria-controls={railId}
+          class="grid h-8 w-8 place-items-center rounded-lg border transition-colors hover:bg-brand-50 disabled:opacity-40 surface dark:hover:bg-brand-500/10">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M9 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <ul id={railId} class="swipe-rail px-4" tabindex="0" role="list">
+    {apps.map((app, index) => (
+      <li><AppCard app={app} variant="rail" eager={index < 3} /></li>
+    ))}
+  </ul>
+</section>
+
+<script>
+  // One handler covers every rail on the page; Astro bundles this script once.
+  document.querySelectorAll('[data-rail-controls]').forEach((controls) => {
+    const rail = document.getElementById(controls.getAttribute('data-rail-controls'));
+    if (!rail) return;
+
+    const sync = () => {
+      const max = rail.scrollWidth - rail.clientWidth - 1;
+      controls.querySelector('[data-dir="-1"]').disabled = rail.scrollLeft <= 0;
+      controls.querySelector('[data-dir="1"]').disabled = rail.scrollLeft >= max;
+    };
+
+    controls.querySelectorAll('button[data-dir]').forEach((button) => {
+      button.addEventListener('click', () => {
+        rail.scrollBy({
+          left: Number(button.dataset.dir) * rail.clientWidth * 0.85,
+          behavior: 'smooth'
+        });
+      });
+    });
+
+    rail.addEventListener('scroll', sync, { passive: true });
+    window.addEventListener('resize', sync);
+    sync();
+  });
+</script>

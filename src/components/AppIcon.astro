@@ -1,0 +1,17 @@
+---
+const { src, alt, size = 56, rounded = 'rounded-xl', eager = false } = Astro.props;
+const placeholder = '/img/placeholder-icon.svg';
+---
+
+<img
+  src={src || placeholder}
+  alt={alt}
+  width={size}
+  height={size}
+  loading={eager ? 'eager' : 'lazy'}
+  decoding="async"
+  referrerpolicy="no-referrer"
+  class:list={['shrink-0 bg-slate-100 object-cover dark:bg-slate-800', rounded]}
+  style={`width:${size}px;height:${size}px`}
+  onerror={`this.onerror=null;this.src='${placeholder}'`}
+/>

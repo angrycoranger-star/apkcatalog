@@ -1,0 +1,20 @@
+---
+import { formatRating, formatNumber, t } from '../i18n/index.js';
+
+const { value, count = null, size = 'sm' } = Astro.props;
+const rating = formatRating(value);
+const reviews = formatNumber(count);
+const star = size === 'lg' ? 18 : 14;
+---
+
+{rating ? (
+  <span class="inline-flex items-center gap-1 text-muted" title={`${t('card.rating')}: ${rating}`}>
+    <svg width={star} height={star} viewBox="0 0 24 24" fill="#f59e0b" aria-hidden="true">
+      <path d="M12 2.6l2.9 5.9 6.5.9-4.7 4.6 1.1 6.5L12 17.4 6.2 20.5l1.1-6.5-4.7-4.6 6.5-.9z" />
+    </svg>
+    <span class:list={['font-medium', size === 'lg' ? 'text-base' : 'text-sm']} style="color: var(--text);">{rating}</span>
+    {reviews && <span class="text-xs">({reviews})</span>}
+  </span>
+) : (
+  <span class="text-xs text-muted">{t('card.noRating')}</span>
+)}
