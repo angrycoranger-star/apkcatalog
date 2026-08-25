@@ -9,7 +9,7 @@ links out to the official Google Play listing.
 validator fails the build if any record so much as references an `.apk` URL.
 
 - **Stack:** Astro 5 (static output) · Tailwind CSS 4 · Node.js collector scripts · Vercel
-- **Languages:** Russian, English, Turkish — one independent build per subdomain
+- **Languages:** Russian, English, Turkish, Uzbek — one independent build per subdomain
 - **Data:** shared `data/apps.json`, refreshed by two scheduled scrapers
 
 ---
@@ -20,7 +20,7 @@ validator fails the build if any record so much as references an `.apk` URL.
 npm install
 npm run dev            # http://localhost:4321 in Russian
 SITE_LANG=en npm run dev
-npm run build:all      # dist/ru, dist/en, dist/tr
+npm run build:all      # dist/ru, dist/en, dist/tr, dist/uz
 ```
 
 The repository ships with **sample data** so the site runs before any scraping.
@@ -40,16 +40,20 @@ language; the site is emitted at the root of its own subdomain.
 
 | Subdomain | `SITE_LANG` | Example URL |
 |---|---|---|
-| `ru.<domain>` | `ru` | `https://ru.example.com/app/tile-quest/` |
-| `en.<domain>` | `en` | `https://en.example.com/app/tile-quest/` |
-| `tr.<domain>` | `tr` | `https://tr.example.com/app/tile-quest/` |
+| `ru.<domain>` | `ru` | `https://ru.apk4orge.com/app/tile-quest/` |
+| `en.<domain>` | `en` | `https://en.apk4orge.com/app/tile-quest/` |
+| `tr.<domain>` | `tr` | `https://tr.apk4orge.com/app/tile-quest/` |
+| `uz.<domain>` | `uz` | `https://uz.apk4orge.com/app/tile-quest/` |
 
-All three read the same `data/apps.json`, picking their copy out of each
+All four read the same `data/apps.json`, picking their copy out of each
 record's `translations` block. Every page emits `hreflang` alternates pointing
-at its counterparts on the other two subdomains, plus `x-default` to Russian,
-so the three builds are understood as one site rather than duplicates.
+at its counterparts on the other subdomains, plus `x-default` to Russian, so
+the builds are understood as one site rather than duplicates.
 
-Adding a fourth language means: add it to `LANGS` and `LANG_LOCALES` in
+A language with no translation yet falls back to Russian per field, so a new
+language ships readable pages immediately and fills in as cards are refreshed.
+
+Adding another language means: add it to `LANGS` and `LANG_LOCALES` in
 `config/catalog.config.js`, add its dictionary to `src/i18n/ui.js` and
 `src/i18n/legal.js`, add labels to the `CATEGORIES` table, then run
 `fetch-details.js` to fill in the new translations.
@@ -156,7 +160,7 @@ Any script takes `--client ./scripts/lib/fixture-scraper.js` to use it.
 | `.github/workflows/ci.yml` | every push / PR | validate, smoke test, build all languages |
 
 Both data workflows commit to the repository; the push is what triggers Vercel
-to rebuild the three sites.
+to rebuild the four sites.
 
 **Why the refresh is chunked.** Discovery finds roughly 2000+ packages, and each
 one costs a request per language — far more than a single job can work through.
@@ -167,18 +171,19 @@ workflow, and a manual run can override them per invocation.
 
 ## Deploying to Vercel
 
-Create **three Vercel projects from this one repository** — they differ only by
+Create **four Vercel projects from this one repository** — they differ only by
 an environment variable.
 
 | Project | Env vars | Domain |
 |---|---|---|
-| `apkcatalog-ru` | `SITE_LANG=ru`, `SITE_DOMAIN=example.com` | `ru.example.com` |
-| `apkcatalog-en` | `SITE_LANG=en`, `SITE_DOMAIN=example.com` | `en.example.com` |
-| `apkcatalog-tr` | `SITE_LANG=tr`, `SITE_DOMAIN=example.com` | `tr.example.com` |
+| `apk4orge-ru` | `SITE_LANG=ru`, `SITE_DOMAIN=apk4orge.com` | `ru.apk4orge.com` |
+| `apk4orge-en` | `SITE_LANG=en`, `SITE_DOMAIN=apk4orge.com` | `en.apk4orge.com` |
+| `apk4orge-tr` | `SITE_LANG=tr`, `SITE_DOMAIN=apk4orge.com` | `tr.apk4orge.com` |
+| `apk4orge-uz` | `SITE_LANG=uz`, `SITE_DOMAIN=apk4orge.com` | `uz.apk4orge.com` |
 
 Each uses the stock `npm run build` → `dist` (see `vercel.json`). Add each
 subdomain under the project's Domains tab and point a CNAME at
-`cname.vercel-dns.com`. A push to the default branch rebuilds all three.
+`cname.vercel-dns.com`. A push to the default branch rebuilds all four.
 
 Optionally redirect the apex domain to `ru.` (or geo-route it) with a Vercel
 redirect rule; the catalog itself never links across subdomains except through
@@ -188,8 +193,8 @@ the language switcher, which emits absolute URLs to the current path.
 
 | Variable | Default | Used by |
 |---|---|---|
-| `SITE_LANG` | `ru` | build — selects the language |
-| `SITE_DOMAIN` | `apkcatalog.example` | build — canonical + hreflang URLs |
+| `SITE_LANG` | `ru` | build — selects the language (`ru`/`en`/`tr`/`uz`) |
+| `SITE_DOMAIN` | `apk4orge.com` | build — canonical + hreflang URLs |
 | `PUBLIC_CONTACT_EMAIL` | `hello@<domain>` | contact and legal pages |
 | `REQUEST_DELAY_MS` | `1200` | collectors — delay between requests |
 | `REQUEST_TIMEOUT_MS` | `20000` | collectors — per-request timeout (aborts the socket) |
@@ -217,5 +222,5 @@ so a category can never exist in one and not the other.
 The catalog is independent and not affiliated with Google LLC. Google Play, the
 Google Play logo and Android are trademarks of Google LLC; app names, icons and
 screenshots belong to their owners and are shown to identify listings. The
-`/disclaimer/` page states this in all three languages, and `/contact/`
+`/disclaimer/` page states this in all four languages, and `/contact/`
 documents the takedown route for rights holders.

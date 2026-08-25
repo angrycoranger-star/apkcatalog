@@ -186,6 +186,57 @@ const PATTERNS = {
       (f) => `İçerik derecelendirmesi: ${f.contentRating}.`,
       (f) => `Yaş derecelendirmesi: ${f.contentRating}.`
     ]
+  },
+  uz: {
+    kind: (isGame) => (isGame ? 'O‘yin' : 'Ilova'),
+    kindLower: (isGame) => (isGame ? 'o‘yini' : 'ilovasi'),
+    subject: (name, isGame, category) =>
+      isGame ? `${category} turkumidagi Android o‘yini` : `${category} turkumidagi Android ilovasi`,
+    opening: [
+      (f) => `${f.name} — ${f.subject}.`,
+      (f) => `${f.name}: ${f.subject}.`,
+      (f) => `Katalogning «${f.category}» bo‘limida: ${f.name}.`,
+      (f) => `${f.kind}: ${f.name}, ${f.subject}.`
+    ],
+    author: [
+      (f) => `Dasturchi: ${f.developer}.`,
+      (f) => `Nashriyotchi: ${f.developer}.`,
+      (f) => `Yozuvni ${f.developer} yuritadi.`
+    ],
+    rating: [
+      (f) => `Google Play reytingi 5 balldan ${f.rating} (${f.ratingsCount} ta baho).`,
+      (f) => `Do‘kondagi bahosi: 5 balldan ${f.rating}, jami ${f.ratingsCount} ta baho.`,
+      (f) => `Foydalanuvchilar bahosi 5 balldan ${f.rating}; baholar soni ${f.ratingsCount}.`
+    ],
+    ratingShort: [
+      (f) => `Google Play reytingi: 5 balldan ${f.rating}.`,
+      (f) => `Do‘kondagi o‘rtacha ball: 5 balldan ${f.rating}.`
+    ],
+    noRating: [
+      () => 'Google Play’da baholar hali yetarlicha to‘planmagan.',
+      () => 'Do‘kondagi reyting hali shakllanmoqda.'
+    ],
+    facts: {
+      both: [
+        (f) => `O‘rnatishlar soni ${f.installs} dan oshgan, yuklab olish hajmi taxminan ${f.size}.`,
+        (f) => `${f.installs} dan ortiq o‘rnatish; hajmi ${f.size} atrofida.`
+      ],
+      installs: [
+        (f) => `O‘rnatishlar soni ${f.installs} dan oshgan.`,
+        (f) => `Do‘kon ${f.installs} dan ortiq o‘rnatishni ko‘rsatmoqda.`
+      ],
+      size: [
+        (f) => `Yuklab olish hajmi taxminan ${f.size}.`,
+        (f) => `Fayl hajmi ${f.size} atrofida.`
+      ],
+      none: [
+        () => 'Bu sahifa Google Play’dan yangi ma’lumot kelgani sari yangilanadi.'
+      ]
+    },
+    age: [
+      (f) => `Kontent reytingi: ${f.contentRating}.`,
+      (f) => `Yosh chegarasi: ${f.contentRating}.`
+    ]
   }
 };
 
@@ -262,7 +313,7 @@ Rules:
  * Returns { ru: string, en: string, tr: string } or null when unavailable.
  */
 export async function summarizeWithClaude({ facts, storeText, langs, client, model = 'claude-opus-5' }) {
-  const languageNames = { ru: 'Russian', en: 'English', tr: 'Turkish' };
+  const languageNames = { ru: 'Russian', en: 'English', tr: 'Turkish', uz: 'Uzbek' };
   const wanted = langs.filter((lang) => languageNames[lang]);
 
   const prompt = [
