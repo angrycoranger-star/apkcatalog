@@ -29,6 +29,7 @@ import {
   throttle,
   withRetry,
   withTimeout,
+  requestOptions,
   loadScraper,
   isPermanentError,
   slugify,
@@ -51,7 +52,7 @@ const langs = asList(args.langs, LANGS).filter((lang) => LANGS.includes(lang));
 const only = asList(args.only, null);
 const limit = args.limit ? Number(args.limit) : Infinity;
 const delayMs = Number(args.delay ?? process.env.REQUEST_DELAY_MS ?? 1200);
-const timeoutMs = Number(args.timeout ?? process.env.REQUEST_TIMEOUT_MS ?? 30000);
+const timeoutMs = Number(args.timeout ?? process.env.REQUEST_TIMEOUT_MS ?? 20000);
 const staleDays = Number(args['stale-days'] ?? 0);
 const dryRun = Boolean(args['dry-run']);
 const useLlm = Boolean(args.llm);
@@ -106,7 +107,12 @@ const fetchApp = (appId, lang) => {
   return withRetry(
     () =>
       withTimeout(
-        gplay.app({ appId, lang: locale.lang, country: locale.country, throttle: 10 }),
+        gplay.app({
+          appId,
+          lang: locale.lang,
+          country: locale.country,
+          requestOptions: requestOptions(timeoutMs)
+        }),
         timeoutMs,
         `${appId}/${lang}`
       ),
@@ -127,7 +133,7 @@ for (const [index, entry] of queue.entries()) {
   const payloads = {};
   let permanentlyGone = false;
 
-  for (const lang of langs) {
+  for (const [langIndex, lang] of langs.entries()) {
     try {
       payloads[lang] = await fetchApp(appId, lang);
     } catch (error) {
@@ -137,6 +143,10 @@ for (const [index, entry] of queue.entries()) {
         break;
       }
       log.warn(`${progress} ${appId}/${lang}: ${error.message}`);
+      if (langIndex === 0) {
+        log.warn(`${progress} ${appId}: skipping remaining languages this run`);
+        break;
+      }
     }
     await throttle(delayMs);
   }
@@ -243,7 +253,12 @@ for (const [index, entry] of queue.entries()) {
 /* Cards that were not part of this run (--limit, --only, --stale-days) keep
    their previous content rather than vanishing from the site. */
 const untouched = [...byPackage.values()];
-const apps = [...results, ...untouched].sort((a, b) => (b.rating ?? 0) - (a.rating ?? 0));
+
+/* Sample records exist only so the site renders before any collection has
+   happened. Once real cards land, drop them. */
+const realCards = [...results, ...untouched].filter((app) => !app.sample);
+const droppedSamples = results.length + untouched.length - realCards.length;
+const apps = realCards.sort((a, b) => (b.rating ?? 0) - (a.rating ?? 0));
 
 const meta = {
   generated_at: new Date().toISOString(),
@@ -251,6 +266,7 @@ const meta = {
   sample: false,
   count: apps.length,
   languages: langs,
+  dropped_samples: droppedSamples,
   summaries: claude ? 'claude' : 'composed',
   run: stats
 };
@@ -277,6 +293,13 @@ if (dryRun) {
     `Wrote ${apps.length} cards to data/apps.json — ` +
       `${stats.created} new, ${stats.updated} updated, ${stats.failed} failed, ` +
       `${stats.dropped} cards removed, ${prunedIds} package ids pruned` +
+      (droppedSamples > 0 ? `, ${droppedSamples} sample cards dropped` : '') +
       (claude ? `, ${stats.llm} LLM summaries` : '')
   );
 }
+
+/* The scraper's throttle helper leaves a polling interval behind, so exit
+   explicitly rather than waiting for an event loop that never drains. stdout is
+   a pipe under CI, so flush it before exiting or the last lines are lost. */
+await new Promise((resolve) => process.stdout.write('', resolve));
+process.exit(0);

@@ -1,20 +1,33 @@
 name: Refresh app cards
 
-# Every 1-2 weeks: re-read rating, version and size for each package and
-# regenerate data/apps.json. Pushing the result triggers the Vercel builds.
+# Re-reads rating, version and size and regenerates data/apps.json. Pushing the
+# result triggers the Vercel builds.
+#
+# The catalog holds far more packages than one job can refresh in a sitting
+# (each package costs one request per language), so this runs nightly and works
+# through the backlog in chunks: --stale-days skips cards refreshed recently,
+# --limit caps a single run. Every card ends up refreshed within STALE_DAYS.
 on:
   schedule:
-    - cron: '0 3 1,15 * *'
+    - cron: '0 3 * * *'
   workflow_dispatch:
     inputs:
       limit:
-        description: 'Maximum packages to fetch (blank = all)'
+        description: 'Maximum packages this run (blank = workflow default)'
+        required: false
+      stale_days:
+        description: 'Skip cards refreshed within this many days (0 = refresh everything)'
         required: false
       llm:
         description: 'Use Claude for summaries (needs ANTHROPIC_API_KEY)'
         type: boolean
         required: false
         default: false
+
+env:
+  # ~600 packages x 3 languages at ~1.5s is roughly 45 minutes per run.
+  CHUNK_LIMIT: '600'
+  STALE_DAYS: '10'
 
 permissions:
   contents: write
@@ -26,7 +39,7 @@ concurrency:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 350
+    timeout-minutes: 180
     steps:
       - uses: actions/checkout@v4
 
@@ -43,7 +56,8 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           node scripts/fetch-details.js \
-            ${{ inputs.limit && format('--limit {0}', inputs.limit) || '' }} \
+            --limit "${{ inputs.limit || env.CHUNK_LIMIT }}" \
+            --stale-days "${{ inputs.stale_days || env.STALE_DAYS }}" \
             ${{ inputs.llm && '--llm' || '' }}
 
       - name: Validate the dataset

@@ -11,7 +11,10 @@ export const DATA_DIR = process.env.CATALOG_DATA_DIR
 
 export const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
-/** google-play-scraper has no timeout option; a hung socket would stall a run. */
+/**
+ * Backstop only. It rejects the caller but cannot abort the underlying socket,
+ * so `requestOptions` below is what actually cancels a stalled request.
+ */
 export function withTimeout(promise, ms, label = 'request') {
   let timer;
   return Promise.race([
@@ -45,6 +48,28 @@ export function throttle(baseMs, jitterRatio = 0.35) {
   return sleep(Math.max(0, Math.round(baseMs + jitter)));
 }
 
+/**
+ * Request options handed to google-play-scraper, which forwards them to got.
+ *
+ * `timeout.request` is the one that matters: it aborts the socket instead of
+ * leaving it open. Without it an abandoned request keeps a handle referenced
+ * and the process never exits after the work is done.
+ *
+ * `retry: 0` disables got's own internal retrying — withRetry() already owns
+ * the retry policy, and stacking the two multiplies every slow request.
+ */
+export function requestOptions(timeoutMs) {
+  return {
+    timeout: { request: timeoutMs },
+    retry: 0
+  };
+}
+
+/** A slow endpoint is common; retrying it four times is what burns a run. */
+export function isTimeoutError(error) {
+  return /timed out|ETIMEDOUT|ESOCKETTIMEDOUT/i.test(String(error?.message ?? error));
+}
+
 /** Errors that mean "this package will never resolve" — do not retry those. */
 export function isPermanentError(error) {
   const message = String(error?.message ?? error);
@@ -55,18 +80,25 @@ export function isPermanentError(error) {
  * Retry with exponential backoff. Rate-limit responses get a longer floor
  * because Google keeps returning 429 for a while once it starts.
  */
-export async function withRetry(fn, { retries = 3, baseDelay = 1500, label = 'request', log = console } = {}) {
+export async function withRetry(
+  fn,
+  { retries = 3, timeoutRetries = 1, baseDelay = 1500, label = 'request', log = console } = {}
+) {
   let lastError;
   for (let attempt = 0; attempt <= retries; attempt += 1) {
     try {
       return await fn();
     } catch (error) {
       lastError = error;
-      if (isPermanentError(error) || attempt === retries) break;
+      const budget = isTimeoutError(error) ? timeoutRetries : retries;
+      if (isPermanentError(error) || attempt >= budget) break;
 
       const rateLimited = /429|too many requests/i.test(String(error?.message ?? ''));
       const delay = (rateLimited ? 8000 : baseDelay) * 2 ** attempt;
-      log.warn?.(`${label} failed (attempt ${attempt + 1}/${retries + 1}): ${error.message}. Retrying in ${Math.round(delay / 1000)}s`);
+      log.warn?.(
+        `${label} failed (attempt ${attempt + 1}/${budget + 1}): ${error.message}. ` +
+          `Retrying in ${Math.round(delay / 1000)}s`
+      );
       await sleep(delay);
     }
   }
