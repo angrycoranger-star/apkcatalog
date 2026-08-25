@@ -1,19 +1,20 @@
 {
-  "generated_at": "2026-08-25T15:35:32.757Z",
+  "generated_at": "2026-08-25T18:37:52.473Z",
   "source": "fetch-details.js",
   "sample": false,
-  "count": 592,
+  "count": 1177,
   "languages": [
     "ru",
     "en",
-    "tr"
+    "tr",
+    "uz"
   ],
-  "dropped_samples": 24,
+  "dropped_samples": 0,
   "summaries": "composed",
   "run": {
     "updated": 0,
-    "created": 592,
-    "failed": 8,
+    "created": 585,
+    "failed": 15,
     "dropped": 0,
     "llm": 0
   }

@@ -491,7 +491,7 @@
       "best_rank": 1,
       "first_seen": "2026-08-25T09:50:02.511Z",
       "last_seen": "2026-08-25T09:50:02.511Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-08-25T15:35:32.773Z"
     },
     {
@@ -1163,7 +1163,7 @@
       "best_rank": 2,
       "first_seen": "2026-08-25T09:50:02.511Z",
       "last_seen": "2026-08-25T09:50:02.511Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-08-25T15:35:32.773Z"
     },
     {
@@ -2885,7 +2885,7 @@
       "best_rank": 4,
       "first_seen": "2026-08-25T09:50:02.511Z",
       "last_seen": "2026-08-25T09:50:02.511Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-08-25T15:35:32.773Z"
     },
     {
@@ -4266,7 +4266,7 @@
       "best_rank": 6,
       "first_seen": "2026-08-25T09:50:02.511Z",
       "last_seen": "2026-08-25T09:50:02.511Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-08-25T15:35:32.773Z"
     },
     {
@@ -4459,7 +4459,7 @@
       "best_rank": 7,
       "first_seen": "2026-08-25T09:50:02.511Z",
       "last_seen": "2026-08-25T09:50:02.511Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-08-25T15:35:32.773Z"
     },
     {
@@ -6820,7 +6820,7 @@
       "best_rank": 10,
       "first_seen": "2026-08-25T09:50:02.511Z",
       "last_seen": "2026-08-25T09:50:02.511Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-08-25T15:35:32.773Z"
     },
     {
@@ -8142,7 +8142,7 @@
       "best_rank": 12,
       "first_seen": "2026-08-25T09:50:02.511Z",
       "last_seen": "2026-08-25T09:50:02.511Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-08-25T15:35:32.773Z"
     },
     {
@@ -8199,7 +8199,7 @@
       "best_rank": 12,
       "first_seen": "2026-08-25T09:50:02.511Z",
       "last_seen": "2026-08-25T09:50:02.511Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-08-25T15:35:32.773Z"
     },
     {
@@ -9339,7 +9339,8 @@
       "best_rank": 14,
       "first_seen": "2026-08-25T09:50:02.511Z",
       "last_seen": "2026-08-25T09:50:02.511Z",
-      "failures": 0
+      "failures": 1,
+      "unavailable_since": "2026-08-25T18:37:52.505Z"
     },
     {
       "package_id": "com.turkcell.ott",
@@ -9849,7 +9850,8 @@
       "best_rank": 15,
       "first_seen": "2026-08-25T09:50:02.511Z",
       "last_seen": "2026-08-25T09:50:02.511Z",
-      "failures": 0
+      "failures": 1,
+      "unavailable_since": "2026-08-25T18:37:52.505Z"
     },
     {
       "package_id": "com.migsend.mobile.migsend",
@@ -10899,7 +10901,8 @@
       "best_rank": 16,
       "first_seen": "2026-08-25T09:50:02.511Z",
       "last_seen": "2026-08-25T09:50:02.511Z",
-      "failures": 0
+      "failures": 1,
+      "unavailable_since": "2026-08-25T18:37:52.505Z"
     },
     {
       "package_id": "ru.yandex.metro",
@@ -13806,7 +13809,8 @@
       "best_rank": 21,
       "first_seen": "2026-08-25T09:50:02.511Z",
       "last_seen": "2026-08-25T09:50:02.511Z",
-      "failures": 0
+      "failures": 1,
+      "unavailable_since": "2026-08-25T18:37:52.505Z"
     },
     {
       "package_id": "com.topstep.fitcloudpro",
@@ -14466,7 +14470,8 @@
       "best_rank": 22,
       "first_seen": "2026-08-25T09:50:02.511Z",
       "last_seen": "2026-08-25T09:50:02.511Z",
-      "failures": 0
+      "failures": 1,
+      "unavailable_since": "2026-08-25T18:37:52.505Z"
     },
     {
       "package_id": "io.itch.voltekplay",
@@ -14667,7 +14672,8 @@
       "best_rank": 23,
       "first_seen": "2026-08-25T09:50:02.511Z",
       "last_seen": "2026-08-25T09:50:02.511Z",
-      "failures": 0
+      "failures": 1,
+      "unavailable_since": "2026-08-25T18:37:52.505Z"
     },
     {
       "package_id": "com.atesgamestudio.rollance",
@@ -16430,7 +16436,8 @@
       "best_rank": 25,
       "first_seen": "2026-08-25T09:50:02.511Z",
       "last_seen": "2026-08-25T09:50:02.511Z",
-      "failures": 0
+      "failures": 1,
+      "unavailable_since": "2026-08-25T18:37:52.505Z"
     },
     {
       "package_id": "ru.yamaguchi.android",
