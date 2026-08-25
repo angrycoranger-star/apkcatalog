@@ -30,6 +30,7 @@ import {
   throttle,
   withRetry,
   withTimeout,
+  requestOptions,
   loadScraper,
   parseArgs,
   asList,
@@ -45,7 +46,7 @@ const collection = typeof args.collection === 'string' ? args.collection : DISCO
 const num = Number(args.num ?? DISCOVERY_NUM);
 const delayMs = Number(args.delay ?? process.env.REQUEST_DELAY_MS ?? 1500);
 const dryRun = Boolean(args['dry-run']);
-const timeoutMs = Number(args.timeout ?? process.env.REQUEST_TIMEOUT_MS ?? 30000);
+const timeoutMs = Number(args.timeout ?? process.env.REQUEST_TIMEOUT_MS ?? 20000);
 
 const gplay = await loadScraper(args.client);
 
@@ -89,7 +90,7 @@ for (const country of countries) {
               // Locale only changes the titles we discard here; the country
               // is what actually selects a different storefront ranking.
               lang: LANG_LOCALES[DEFAULT_LANG].lang,
-              throttle: 10
+              requestOptions: requestOptions(timeoutMs)
             }),
             timeoutMs,
             label
@@ -175,3 +176,9 @@ if (dryRun) {
       `(${payload.new_this_run} new, ${dropped.length} off-chart, ${requests} requests, ${failures} failed combinations).`
   );
 }
+
+/* The scraper's throttle helper leaves a polling interval behind, so exit
+   explicitly rather than waiting for an event loop that never drains. stdout is
+   a pipe under CI, so flush it before exiting or the last lines are lost. */
+await new Promise((resolve) => process.stdout.write('', resolve));
+process.exit(0);

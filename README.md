@@ -105,7 +105,14 @@ Calls `app({ appId, lang, country })` once per language and writes
   serving, and after 3 consecutive failed runs the id is pruned.
 - **Rate limiting.** A jittered delay (`REQUEST_DELAY_MS`, default 1200 ms)
   between calls, exponential backoff on failure, and a longer floor on 429.
+- **Timeouts abort the socket.** The per-request ceiling
+  (`REQUEST_TIMEOUT_MS`, default 20 s) is handed to `got` via `requestOptions`,
+  so a stalled request is cancelled rather than abandoned. Timeouts get one
+  retry, not three, and a package whose first language never answers is skipped
+  for the rest of the run — slow listings would otherwise dominate the runtime.
 - **Resumable.** `--stale-days 7` skips cards refreshed within the last week.
+- **Sample data is disposable.** Records flagged `sample: true` are dropped as
+  soon as real cards exist, so the seed dataset cannot linger in production.
 
 ```bash
 node scripts/fetch-details.js --limit 25 --langs ru,en
@@ -145,11 +152,18 @@ Any script takes `--client ./scripts/lib/fixture-scraper.js` to use it.
 | Workflow | Schedule | Does |
 |---|---|---|
 | `.github/workflows/discovery.yml` | monthly (1st, 02:00 UTC) | refresh `package-ids.json` |
-| `.github/workflows/fetch-details.yml` | 1st & 15th, 03:00 UTC | refresh `apps.json`, validate, build, commit |
+| `.github/workflows/fetch-details.yml` | nightly, 03:00 UTC | refresh a chunk of `apps.json`, validate, build, commit |
 | `.github/workflows/ci.yml` | every push / PR | validate, smoke test, build all languages |
 
 Both data workflows commit to the repository; the push is what triggers Vercel
 to rebuild the three sites.
+
+**Why the refresh is chunked.** Discovery finds roughly 2000+ packages, and each
+one costs a request per language — far more than a single job can work through.
+The nightly run therefore takes `CHUNK_LIMIT` (600) of the cards that have not
+been refreshed within `STALE_DAYS` (10), so the backlog is covered in a few
+nights and every card stays under ten days old. Both are `env:` values in the
+workflow, and a manual run can override them per invocation.
 
 ## Deploying to Vercel
 
@@ -178,7 +192,7 @@ the language switcher, which emits absolute URLs to the current path.
 | `SITE_DOMAIN` | `apkcatalog.example` | build — canonical + hreflang URLs |
 | `PUBLIC_CONTACT_EMAIL` | `hello@<domain>` | contact and legal pages |
 | `REQUEST_DELAY_MS` | `1200` | collectors — delay between requests |
-| `REQUEST_TIMEOUT_MS` | `30000` | collectors — per-request timeout |
+| `REQUEST_TIMEOUT_MS` | `20000` | collectors — per-request timeout (aborts the socket) |
 | `ANTHROPIC_API_KEY` | — | `fetch-details.js --llm` |
 | `CATALOG_DATA_DIR` | `./data` | collectors — used by the smoke test |
 
