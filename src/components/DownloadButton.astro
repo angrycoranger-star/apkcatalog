@@ -1,0 +1,55 @@
+---
+import { t } from '../i18n/index.js';
+
+/**
+ * The single call-to-action on a listing. Its label, accessibility text and
+ * the notice underneath all follow the card's download type:
+ *   play   — scraped card, official Google Play listing
+ *   store  — self-listed, third-party store (RuStore, AppGallery, …)
+ *   direct — self-listed, the developer's own APK file
+ *   web    — self-listed web app / PWA, nothing to install
+ */
+const { app } = Astro.props;
+const d = app.download;
+const type = d?.type ?? 'play';
+const store = d?.store || '';
+
+const labelKey = `card.download.${type}`;
+const noticeKey = type === 'play' ? 'card.notice' : `card.notice.${type}`;
+const ariaKey =
+  type === 'play' ? 'card.openAria'
+  : type === 'direct' ? 'card.download.directAria'
+  : type === 'store' ? 'card.download.storeAria'
+  : 'card.download.webAria';
+
+const label = t(labelKey, undefined, store ? { store } : null);
+const aria = t(ariaKey, undefined, store ? { store } : null);
+const notice = t(noticeKey, undefined, store ? { store } : null);
+
+// A direct APK is a same-origin (or asset) download, so no nofollow/blank;
+// everything else is an external destination.
+const isDirect = type === 'direct';
+const rel = isDirect ? 'noopener' : 'nofollow noopener noreferrer';
+---
+
+<a
+  href={app.url}
+  target={isDirect ? undefined : '_blank'}
+  rel={rel}
+  download={isDirect ? '' : undefined}
+  aria-label={aria}
+  data-download-type={type}
+  class="mt-5 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-brand-600 px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-brand-700 sm:w-auto"
+>
+  {isDirect ? (
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+      <path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+  ) : (
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M3.6 2.3a1 1 0 00-.6.9v17.6a1 1 0 001.5.9l10-8.8-10-10.4a1 1 0 00-.9-.2zM15.8 10.2L5.8 1.9l11.9 6.7-1.9 1.6zM17.7 15.4L5.8 22.1l10-8.3 1.9 1.6zM19.4 11.1l2.6 1.5a1 1 0 010 1.8l-2.6 1.5-2.2-1.9 2.2-2.9z" />
+    </svg>
+  )}
+  {label}
+</a>
+<p class="mt-2 text-xs text-muted">{notice}</p>

@@ -151,6 +151,34 @@ npm test        # validate the shipped dataset, then smoke
 
 Any script takes `--client ./scripts/lib/fixture-scraper.js` to use it.
 
+## Listing your own apps
+
+Not everything is on Google Play. Apps you publish yourself — or any listing you
+want to place by hand — live in `data/custom-apps.json`, a file the collectors
+never touch. They merge into the same catalog as scraped cards: same search,
+categories, sitemap and `hreflang`.
+
+Seed one straight from an APK you own — the tool reads it, it never modifies it:
+
+```bash
+npm run add-apk -- ./builds/myapp-1.4.0.apk
+```
+
+It pulls package id, version, min Android, size, SHA-256, permissions and the
+launcher icon out of the file, drafts summaries in all four languages, and
+writes the record. The download button adapts to `download.type`:
+
+- **direct** — your own APK, hosted on your CDN/release host (never in the repo);
+  the card shows a SHA-256 checksum and an "Unknown sources" note.
+- **store** — a third-party store listing (RuStore, AppGallery, Galaxy Store).
+- **web** — a web app / PWA, nothing to install.
+- **play** — a Google Play listing you're placing manually.
+
+A custom card that reuses a scraped `slug`/`package_id` overrides it, so this is
+also how you fix a summary or re-categorise a scraped app. Full field reference:
+`data/README.md`. The legal position for self-hosted APKs is stated on the
+`/disclaimer/` page in all four languages.
+
 ## Scheduled refreshes
 
 | Workflow | Schedule | Does |

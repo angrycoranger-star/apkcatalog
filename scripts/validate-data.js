@@ -9,9 +9,10 @@ import path from 'node:path';
 import { LANGS, categoryById, FALLBACK_CATEGORY } from '../config/catalog.config.js';
 import { DATA_DIR, readJson, log } from './lib/util.js';
 
-const apps = await readJson(path.join(DATA_DIR, 'apps.json'), null);
+const scraped = await readJson(path.join(DATA_DIR, 'apps.json'), null);
+const custom = await readJson(path.join(DATA_DIR, 'custom-apps.json'), []);
 
-if (!Array.isArray(apps)) {
+if (!Array.isArray(scraped)) {
   log.error('data/apps.json is missing or is not an array.');
   process.exit(1);
 }
@@ -23,8 +24,14 @@ const packages = new Set();
 
 const isHttps = (url) => typeof url === 'string' && url.startsWith('https://');
 
-for (const [index, app] of apps.entries()) {
-  const where = `apps[${index}] (${app?.slug ?? app?.package_id ?? 'unknown'})`;
+const apps = [
+  ...custom.map((a) => ({ app: a, custom: true, source: 'custom-apps.json' })),
+  ...scraped.map((a) => ({ app: a, custom: false, source: 'apps.json' }))
+];
+
+for (const [index, entry] of apps.entries()) {
+  const { app, custom: isCustom, source } = entry;
+  const where = `${source}[${index}] (${app?.slug ?? app?.package_id ?? 'unknown'})`;
 
   if (!app?.slug) errors.push(`${where}: missing slug`);
   else if (slugs.has(app.slug)) errors.push(`${where}: duplicate slug "${app.slug}"`);
@@ -34,14 +41,34 @@ for (const [index, app] of apps.entries()) {
   else if (packages.has(app.package_id)) errors.push(`${where}: duplicate package_id`);
   else packages.add(app.package_id);
 
-  if (!/^https:\/\/play\.google\.com\/store\/apps\/details\?id=/.test(app?.google_play_url ?? '')) {
-    errors.push(`${where}: google_play_url must point at the official Google Play listing`);
-  }
-
-  // The catalog links to Play only; an APK URL anywhere in a record is a bug.
-  const serialized = JSON.stringify(app);
-  if (/\.apk(\b|["'?])/i.test(serialized)) {
-    errors.push(`${where}: record references an .apk file`);
+  if (isCustom) {
+    // Self-listed cards carry an explicit download target instead.
+    const d = app?.download ?? {};
+    const type = d.type;
+    if (!['play', 'store', 'direct', 'web'].includes(type)) {
+      errors.push(`${where}: download.type must be one of play, store, direct, web`);
+    }
+    if (!isHttps(d.url) && !(type === 'direct' && typeof d.url === 'string' && d.url.startsWith('/'))) {
+      errors.push(`${where}: download.url must be an https URL (or a local path for a direct APK)`);
+    }
+    if (type === 'direct') {
+      // A direct file must be verifiable and versioned.
+      if (!/^[a-f0-9]{64}$/i.test(d.checksum_sha256 ?? '')) {
+        errors.push(`${where}: a direct APK needs a 64-hex download.checksum_sha256`);
+      }
+      if (!app?.version) errors.push(`${where}: a direct APK needs a version`);
+    }
+    if (type === 'store' && !d.store) {
+      warnings.push(`${where}: store download has no store name (button label will be generic)`);
+    }
+  } else {
+    if (!/^https:\/\/play\.google\.com\/store\/apps\/details\?id=/.test(app?.google_play_url ?? '')) {
+      errors.push(`${where}: google_play_url must point at the official Google Play listing`);
+    }
+    // Scraped cards link to Play only; an APK URL in one is a bug.
+    if (/\.apk(\b|["'?])/i.test(JSON.stringify(app))) {
+      errors.push(`${where}: scraped record references an .apk file`);
+    }
   }
 
   if (categoryById(app?.category) === FALLBACK_CATEGORY && app?.category !== FALLBACK_CATEGORY.id) {
@@ -79,4 +106,4 @@ if (errors.length > 0) {
   process.exit(1);
 }
 
-log.done(`data/apps.json is valid: ${apps.length} cards, ${warnings.length} warning(s).`);
+log.done(`Dataset is valid: ${scraped.length} scraped + ${custom.length} custom = ${apps.length} cards, ${warnings.length} warning(s).`);

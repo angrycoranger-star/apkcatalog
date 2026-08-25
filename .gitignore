@@ -8,3 +8,8 @@ dist/
 .DS_Store
 npm-debug.log*
 data/.cache/
+
+# APK binaries are hosted externally, never committed
+*.apk
+/releases/*
+!/releases/.gitkeep
