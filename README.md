@@ -213,9 +213,12 @@ Each uses the stock `npm run build` → `dist` (see `vercel.json`). Add each
 subdomain under the project's Domains tab and point a CNAME at
 `cname.vercel-dns.com`. A push to the default branch rebuilds all four.
 
-Optionally redirect the apex domain to `ru.` (or geo-route it) with a Vercel
-redirect rule; the catalog itself never links across subdomains except through
-the language switcher, which emits absolute URLs to the current path.
+The bare apex (`apk4orge.com`) is handled by `middleware.ts` (Vercel Edge
+Middleware): it geo-redirects a visitor to the language subdomain that fits
+their `x-vercel-ip-country` (falling back to `Accept-Language`, then English),
+preserving the path. The middleware ships in all four projects but only acts on
+the apex host — attach `apk4orge.com` (and `www.`) to one project, usually the
+`ru` one. Language decision logic lives in `config/geo.js` and is unit-tested.
 
 ## Environment variables
 
