@@ -29,7 +29,7 @@
     "SHOPPING",
     "TOOLS"
   ],
-  "total": 2160,
+  "total": 2152,
   "new_this_run": 2160,
   "still_charting": 2160,
   "no_longer_charting": 0,
@@ -477,22 +477,6 @@
       "first_seen": "2026-08-25T09:50:02.511Z",
       "last_seen": "2026-08-25T09:50:02.511Z",
       "failures": 0
-    },
-    {
-      "package_id": "com.roblox.client",
-      "category": "GAME_ADVENTURE",
-      "categories": [
-        "GAME_ADVENTURE"
-      ],
-      "countries": [
-        "ru",
-        "uz"
-      ],
-      "best_rank": 1,
-      "first_seen": "2026-08-25T09:50:02.511Z",
-      "last_seen": "2026-08-25T09:50:02.511Z",
-      "failures": 2,
-      "unavailable_since": "2026-08-25T15:35:32.773Z"
     },
     {
       "package_id": "com.rstgames.durak",
@@ -1148,23 +1132,6 @@
       "first_seen": "2026-08-25T09:50:02.511Z",
       "last_seen": "2026-08-25T09:50:02.511Z",
       "failures": 0
-    },
-    {
-      "package_id": "com.mobile.legends",
-      "category": "GAME_ACTION",
-      "categories": [
-        "GAME_ACTION"
-      ],
-      "countries": [
-        "ru",
-        "tr",
-        "uz"
-      ],
-      "best_rank": 2,
-      "first_seen": "2026-08-25T09:50:02.511Z",
-      "last_seen": "2026-08-25T09:50:02.511Z",
-      "failures": 2,
-      "unavailable_since": "2026-08-25T15:35:32.773Z"
     },
     {
       "package_id": "com.mybedy.antiradar",
@@ -2874,21 +2841,6 @@
       "failures": 0
     },
     {
-      "package_id": "uz.dida.payme",
-      "category": "FINANCE",
-      "categories": [
-        "FINANCE"
-      ],
-      "countries": [
-        "uz"
-      ],
-      "best_rank": 4,
-      "first_seen": "2026-08-25T09:50:02.511Z",
-      "last_seen": "2026-08-25T09:50:02.511Z",
-      "failures": 2,
-      "unavailable_since": "2026-08-25T15:35:32.773Z"
-    },
-    {
       "package_id": "uz.loyalty.korzinka",
       "category": "SHOPPING",
       "categories": [
@@ -4255,21 +4207,6 @@
       "failures": 0
     },
     {
-      "package_id": "ru.nadodeneg.mobile",
-      "category": "FINANCE",
-      "categories": [
-        "FINANCE"
-      ],
-      "countries": [
-        "ru"
-      ],
-      "best_rank": 6,
-      "first_seen": "2026-08-25T09:50:02.511Z",
-      "last_seen": "2026-08-25T09:50:02.511Z",
-      "failures": 2,
-      "unavailable_since": "2026-08-25T15:35:32.773Z"
-    },
-    {
       "package_id": "ru.yandex.mail",
       "category": "COMMUNICATION",
       "categories": [
@@ -4445,22 +4382,6 @@
       "first_seen": "2026-08-25T09:50:02.511Z",
       "last_seen": "2026-08-25T09:50:02.511Z",
       "failures": 0
-    },
-    {
-      "package_id": "com.discord",
-      "category": "COMMUNICATION",
-      "categories": [
-        "COMMUNICATION"
-      ],
-      "countries": [
-        "ru",
-        "uz"
-      ],
-      "best_rank": 7,
-      "first_seen": "2026-08-25T09:50:02.511Z",
-      "last_seen": "2026-08-25T09:50:02.511Z",
-      "failures": 2,
-      "unavailable_since": "2026-08-25T15:35:32.773Z"
     },
     {
       "package_id": "com.esertelekom.spade",
@@ -6809,21 +6730,6 @@
       "failures": 0
     },
     {
-      "package_id": "ru.belkacredit.mobile",
-      "category": "FINANCE",
-      "categories": [
-        "FINANCE"
-      ],
-      "countries": [
-        "ru"
-      ],
-      "best_rank": 10,
-      "first_seen": "2026-08-25T09:50:02.511Z",
-      "last_seen": "2026-08-25T09:50:02.511Z",
-      "failures": 2,
-      "unavailable_since": "2026-08-25T15:35:32.773Z"
-    },
-    {
       "package_id": "ru.kari.android",
       "category": "SHOPPING",
       "categories": [
@@ -8130,22 +8036,6 @@
       "failures": 0
     },
     {
-      "package_id": "ru.tsk.ftc.bender.qpay",
-      "category": "FINANCE",
-      "categories": [
-        "FINANCE"
-      ],
-      "countries": [
-        "ru",
-        "uz"
-      ],
-      "best_rank": 12,
-      "first_seen": "2026-08-25T09:50:02.511Z",
-      "last_seen": "2026-08-25T09:50:02.511Z",
-      "failures": 2,
-      "unavailable_since": "2026-08-25T15:35:32.773Z"
-    },
-    {
       "package_id": "ru.yandex.telemost",
       "category": "COMMUNICATION",
       "categories": [
@@ -8186,21 +8076,6 @@
       "first_seen": "2026-08-25T09:50:02.511Z",
       "last_seen": "2026-08-25T09:50:02.511Z",
       "failures": 0
-    },
-    {
-      "package_id": "uz.telecom.telecomtv",
-      "category": "ENTERTAINMENT",
-      "categories": [
-        "ENTERTAINMENT"
-      ],
-      "countries": [
-        "uz"
-      ],
-      "best_rank": 12,
-      "first_seen": "2026-08-25T09:50:02.511Z",
-      "last_seen": "2026-08-25T09:50:02.511Z",
-      "failures": 2,
-      "unavailable_since": "2026-08-25T15:35:32.773Z"
     },
     {
       "package_id": "ai.photoeditor.retouch.enhance.photo.generator",
@@ -9339,7 +9214,7 @@
       "best_rank": 14,
       "first_seen": "2026-08-25T09:50:02.511Z",
       "last_seen": "2026-08-25T09:50:02.511Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-08-25T18:37:52.505Z"
     },
     {
@@ -9850,7 +9725,7 @@
       "best_rank": 15,
       "first_seen": "2026-08-25T09:50:02.511Z",
       "last_seen": "2026-08-25T09:50:02.511Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-08-25T18:37:52.505Z"
     },
     {
@@ -10901,7 +10776,7 @@
       "best_rank": 16,
       "first_seen": "2026-08-25T09:50:02.511Z",
       "last_seen": "2026-08-25T09:50:02.511Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-08-25T18:37:52.505Z"
     },
     {
@@ -13809,7 +13684,7 @@
       "best_rank": 21,
       "first_seen": "2026-08-25T09:50:02.511Z",
       "last_seen": "2026-08-25T09:50:02.511Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-08-25T18:37:52.505Z"
     },
     {
@@ -14470,7 +14345,7 @@
       "best_rank": 22,
       "first_seen": "2026-08-25T09:50:02.511Z",
       "last_seen": "2026-08-25T09:50:02.511Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-08-25T18:37:52.505Z"
     },
     {
@@ -14672,7 +14547,7 @@
       "best_rank": 23,
       "first_seen": "2026-08-25T09:50:02.511Z",
       "last_seen": "2026-08-25T09:50:02.511Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-08-25T18:37:52.505Z"
     },
     {
@@ -16436,7 +16311,7 @@
       "best_rank": 25,
       "first_seen": "2026-08-25T09:50:02.511Z",
       "last_seen": "2026-08-25T09:50:02.511Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-08-25T18:37:52.505Z"
     },
     {
@@ -18273,7 +18148,8 @@
       "best_rank": 28,
       "first_seen": "2026-08-25T09:50:02.511Z",
       "last_seen": "2026-08-25T09:50:02.511Z",
-      "failures": 0
+      "failures": 1,
+      "unavailable_since": "2026-08-26T06:16:26.526Z"
     },
     {
       "package_id": "uz.boxette.app",
@@ -19950,7 +19826,8 @@
       "best_rank": 31,
       "first_seen": "2026-08-25T09:50:02.511Z",
       "last_seen": "2026-08-25T09:50:02.511Z",
-      "failures": 0
+      "failures": 1,
+      "unavailable_since": "2026-08-26T06:16:26.526Z"
     },
     {
       "package_id": "ru.sokolov.android",
@@ -20206,7 +20083,8 @@
       "best_rank": 32,
       "first_seen": "2026-08-25T09:50:02.511Z",
       "last_seen": "2026-08-25T09:50:02.511Z",
-      "failures": 0
+      "failures": 1,
+      "unavailable_since": "2026-08-26T06:16:26.526Z"
     },
     {
       "package_id": "com.FireTotemGames.AWebbingJourney",
@@ -20787,7 +20665,8 @@
       "best_rank": 33,
       "first_seen": "2026-08-25T09:50:02.511Z",
       "last_seen": "2026-08-25T09:50:02.511Z",
-      "failures": 0
+      "failures": 1,
+      "unavailable_since": "2026-08-26T06:16:26.526Z"
     },
     {
       "package_id": "com.kayac.BuildFight",
@@ -21002,7 +20881,8 @@
       "best_rank": 33,
       "first_seen": "2026-08-25T09:50:02.511Z",
       "last_seen": "2026-08-25T09:50:02.511Z",
-      "failures": 0
+      "failures": 1,
+      "unavailable_since": "2026-08-26T06:16:26.526Z"
     },
     {
       "package_id": "uz.imv.moliyachi",
@@ -21213,7 +21093,8 @@
       "best_rank": 34,
       "first_seen": "2026-08-25T09:50:02.511Z",
       "last_seen": "2026-08-25T09:50:02.511Z",
-      "failures": 0
+      "failures": 1,
+      "unavailable_since": "2026-08-26T06:16:26.526Z"
     },
     {
       "package_id": "com.imo.android.imoimlite",
@@ -22050,7 +21931,8 @@
       "best_rank": 35,
       "first_seen": "2026-08-25T09:50:02.511Z",
       "last_seen": "2026-08-25T09:50:02.511Z",
-      "failures": 0
+      "failures": 1,
+      "unavailable_since": "2026-08-26T06:16:26.526Z"
     },
     {
       "package_id": "ru.x5.omni",
@@ -22331,7 +22213,8 @@
       "best_rank": 36,
       "first_seen": "2026-08-25T09:50:02.511Z",
       "last_seen": "2026-08-25T09:50:02.511Z",
-      "failures": 0
+      "failures": 1,
+      "unavailable_since": "2026-08-26T06:16:26.526Z"
     },
     {
       "package_id": "com.litapps.aya",
@@ -23458,7 +23341,8 @@
       "best_rank": 38,
       "first_seen": "2026-08-25T09:50:02.511Z",
       "last_seen": "2026-08-25T09:50:02.511Z",
-      "failures": 0
+      "failures": 1,
+      "unavailable_since": "2026-08-26T06:16:26.526Z"
     },
     {
       "package_id": "com.DefaultCompany.MergeShark",
@@ -25173,7 +25057,8 @@
       "best_rank": 41,
       "first_seen": "2026-08-25T09:50:02.511Z",
       "last_seen": "2026-08-25T09:50:02.511Z",
-      "failures": 0
+      "failures": 1,
+      "unavailable_since": "2026-08-26T06:16:26.526Z"
     },
     {
       "package_id": "com.azmobile.themepack",
