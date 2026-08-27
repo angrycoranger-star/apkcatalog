@@ -1,0 +1,106 @@
+# apk4orge · admin upload panel
+
+A tiny, password-protected panel for listing **your own** apps in the catalog.
+It runs as a separate Vercel project (server-rendered), while the four public
+sites stay static.
+
+What it does, end to end:
+
+1. You log in with a single password.
+2. You fill in a name, developer, category, description, and pick an APK file
+   (plus optional screenshots).
+3. The APK and screenshots are uploaded **straight from your browser to Vercel
+   Blob**, so the ~4.5 MB serverless request limit never applies.
+4. The server reads the APK back from Blob and pulls out the version, size,
+   minimum Android, permissions, launcher icon and SHA-256 checksum — you don't
+   type any of that.
+5. It commits a new record to `data/custom-apps.json` in the repo via the
+   GitHub API. That commit triggers the four public sites to rebuild, and the
+   card appears at `/app/<slug>/` a minute or two later.
+
+The panel never hosts anyone else's APKs — it only publishes files you upload.
+
+## Layout
+
+```
+admin/
+  astro.config.mjs      # output: 'server', @astrojs/vercel adapter
+  src/
+    middleware.js       # gate: everything but /login needs a valid cookie
+    lib/
+      auth.js           # HMAC-signed session cookie, constant-time password check
+      apk.js            # read manifest + icon + checksum from an .apk
+      record.js         # build a custom-apps.json record (+ slug rules)
+      github.js         # append the record via the GitHub Contents API
+      categories.json   # snapshot of the catalog's category taxonomy
+    pages/
+      login.astro       # password form
+      index.astro       # the upload form (client-side Blob upload)
+      api/
+        login.js        # POST password -> sets cookie
+        logout.js       # POST clears cookie
+        categories.js   # GET category choices
+        blob-token.js   # issues client-upload tokens (auth-gated)
+        upload.js       # finalizes: inspect APK, commit the card
+```
+
+## Environment variables
+
+Copy `.env.example` to `.env` for local runs, and set the same keys in the
+Vercel project settings for production. See `.env.example` for the full list:
+
+| Variable | Purpose |
+| --- | --- |
+| `ADMIN_PASSWORD` | The single password that unlocks the panel. |
+| `ADMIN_SECRET` | Random string (≥16 chars) that signs the session cookie. |
+| `GITHUB_TOKEN` | Token with `contents:write` on the catalog repo. |
+| `GITHUB_REPO` | `owner/name` of the repo to commit to. |
+| `GITHUB_BRANCH` | Branch to commit to (default `main`). |
+| `BLOB_READ_WRITE_TOKEN` | Vercel Blob token — injected automatically on Vercel once a Blob store is linked; set it only for local runs. |
+
+Generate a secret:
+
+```
+node -e "console.log(require('crypto').randomBytes(32).toString('base64url'))"
+```
+
+## Local development
+
+```
+cd admin
+npm install
+cp .env.example .env   # then fill in the values
+npm run dev
+```
+
+Open the printed URL, log in with `ADMIN_PASSWORD`, and upload. Note that Blob
+uploads and the GitHub commit hit real services, so a local run publishes a
+real card — use a scratch branch via `GITHUB_BRANCH` if you're just testing.
+
+## Deploying on Vercel
+
+The public sites and the admin panel are **separate Vercel projects** pointing
+at the same repo:
+
+1. Create a new Vercel project from this repo with **Root Directory = `admin/`**.
+2. Add a **Blob store** and link it to the project (this provides
+   `BLOB_READ_WRITE_TOKEN` automatically).
+3. Set `ADMIN_PASSWORD`, `ADMIN_SECRET`, `GITHUB_TOKEN`, `GITHUB_REPO` and
+   `GITHUB_BRANCH` in the project's Environment Variables.
+4. Give it its own domain (e.g. `admin.apk4orge.com`). It's `noindex` and behind
+   the password, so it never competes with the public sites for ranking.
+
+Because it's a distinct project, redeploys of the admin panel don't touch the
+four static builds, and vice versa.
+
+## Security notes
+
+- Every route except `/login` and `/api/login` requires a valid session cookie
+  (checked in `middleware.js`); API routes return `401`, pages redirect to login.
+- The cookie is HttpOnly, Secure, SameSite=Strict, and HMAC-signed with
+  `ADMIN_SECRET`; it expires after 12 hours.
+- The password is compared in constant time (HMAC digests), so it doesn't leak
+  timing.
+- Blob upload tokens are only issued to an authenticated session, and are scoped
+  to `.apk` (≤512 MB) or images (≤8 MB).
+- Never commit `.env` — it's already covered by the repo's `.gitignore`.
