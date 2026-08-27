@@ -1,0 +1,66 @@
+{
+  "repo": { "name": "Fixture F-Droid", "address": "https://fixture.fdroid/repo", "timestamp": 1735689600000 },
+  "packages": {
+    "org.fixture.notes": {
+      "metadata": {
+        "name": { "en-US": "Fixture Notes" },
+        "summary": { "en-US": "A private offline notepad." },
+        "description": { "en-US": "Fixture Notes keeps plain-text notes on device with no account and no ads." },
+        "license": "GPL-3.0-or-later",
+        "categories": ["Writing"],
+        "sourceCode": "https://github.com/fixture/notes",
+        "webSite": "https://fixture.example/notes",
+        "authorName": "Fixture Author",
+        "icon": { "en-US": { "name": "/org.fixture.notes/en-US/icon.png" } },
+        "screenshots": { "phone": { "en-US": [ { "name": "/org.fixture.notes/en-US/phoneScreenshots/1.png" } ] } },
+        "added": 1704067200000,
+        "lastUpdated": 1735689600000
+      },
+      "versions": {
+        "abc123": {
+          "added": 1735689600000,
+          "file": { "name": "/org.fixture.notes_12.apk", "sha256": "aaaa1111bbbb2222cccc3333dddd4444eeee5555ffff6666aaaa7777bbbb8888", "size": 3145728 },
+          "manifest": { "versionName": "1.2.0", "versionCode": 12, "usesSdk": { "minSdkVersion": 26 }, "signer": { "sha256": ["deadbeef"] } }
+        },
+        "old99": {
+          "file": { "name": "/org.fixture.notes_11.apk", "sha256": "0000", "size": 3000000 },
+          "manifest": { "versionName": "1.1.0", "versionCode": 11 }
+        }
+      }
+    },
+    "org.fixture.maps": {
+      "metadata": {
+        "name": { "en-US": "Fixture Maps" },
+        "summary": { "en-US": "Offline maps and navigation." },
+        "license": "Apache-2.0",
+        "categories": ["Navigation"],
+        "sourceCode": "https://gitlab.com/fixture/maps",
+        "icon": { "en-US": { "name": "/org.fixture.maps/en-US/icon.png" } },
+        "added": 1704067200000,
+        "lastUpdated": 1735689600000
+      },
+      "versions": {
+        "v1": {
+          "file": { "name": "/org.fixture.maps_50.apk", "sha256": "1111222233334444555566667777888899990000aaaabbbbccccddddeeeeffff", "size": 78643200 },
+          "manifest": { "versionName": "5.0", "versionCode": 50, "usesSdk": { "minSdkVersion": 24 } }
+        }
+      }
+    },
+    "org.fixture.proprietary": {
+      "metadata": {
+        "name": { "en-US": "Should Be Skipped" },
+        "summary": { "en-US": "Non-free, must not be catalogued." },
+        "license": "NoDerivs",
+        "categories": ["Games"],
+        "icon": { "en-US": { "name": "/x/icon.png" } }
+      },
+      "versions": {
+        "v1": { "file": { "name": "/x_1.apk", "sha256": "ffff", "size": 100 }, "manifest": { "versionName": "1.0", "versionCode": 1 } }
+      }
+    },
+    "org.fixture.noapk": {
+      "metadata": { "name": { "en-US": "No APK" }, "summary": { "en-US": "Has a good license but no downloadable file." }, "license": "MIT", "categories": ["Games"] },
+      "versions": {}
+    }
+  }
+}

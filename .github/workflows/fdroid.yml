@@ -1,0 +1,60 @@
+name: Import F-Droid apps
+
+# Weekly: refresh the open-source (F-Droid) catalog. F-Droid publishes the whole
+# repository in one index, so this is a single request — no rate-limiting.
+on:
+  schedule:
+    - cron: '0 4 * * 1'
+  workflow_dispatch:
+    inputs:
+      repo:
+        description: 'F-Droid repo base URL'
+        required: false
+        default: 'https://f-droid.org/repo'
+      limit:
+        description: 'Max apps to import (blank = all)'
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: catalog-data
+  cancel-in-progress: false
+
+jobs:
+  fdroid:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+
+      - name: Import F-Droid
+        run: |
+          node scripts/fdroid-import.js \
+            --repo "${{ inputs.repo || 'https://f-droid.org/repo' }}" \
+            ${{ inputs.limit && format('--limit {0}', inputs.limit) || '' }}
+
+      - name: Validate the dataset
+        run: npm run data:validate
+
+      - name: Verify all four language builds
+        run: npm run build:all
+
+      - name: Commit the F-Droid catalog
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          if git diff --quiet -- data/fdroid-apps.json data/fdroid.meta.json; then
+            echo 'No F-Droid change'
+            exit 0
+          fi
+          count=$(node -p "require('./data/fdroid-apps.json').length")
+          git add data/fdroid-apps.json data/fdroid.meta.json
+          git commit -m "chore(data): refresh ${count} F-Droid apps"
+          git push

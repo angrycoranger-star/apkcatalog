@@ -106,3 +106,37 @@ things the file can't provide, drafts summaries in every language, extracts the
 icon into `public/img/apps/<slug>/`, and appends the record. For a `direct`
 download it prints the SHA-256 and the filename to upload — the binary is
 hosted on your CDN / release host, never committed to the repo.
+
+## fdroid-apps.json — open-source apps (F-Droid)
+
+A legally distributable catalog of Free/Open-Source Android apps, imported from
+the F-Droid repository index. Unlike Google Play, F-Droid publishes each app's
+SPDX license and the SHA-256 of every APK it hosts, so the download button can
+point straight at the real file — the licenses in
+`scripts/lib/fdroid.js` (`REDISTRIBUTABLE_LICENSES`) permit it.
+
+Records are custom-shaped (`custom: true`, `download.type: "direct"`) plus:
+
+```jsonc
+{
+  "source": "fdroid",
+  "open_source": true,
+  "license": "GPL-3.0-or-later",     // SPDX; gated by the validator
+  "source_code": "https://…",        // shown as a "View source" link
+  "download": { "type": "direct", "url": "https://f-droid.org/repo/…apk", "checksum_sha256": "…" }
+}
+```
+
+The whole F-Droid repo comes in one index, so import is a single request with no
+rate-limiting:
+
+```bash
+npm run fdroid                                  # f-droid.org
+npm run fdroid -- --repo https://apt.izzysoft.de/fdroid/repo   # another repo
+npm run fdroid -- --index ./index-v2.json       # offline / a saved index
+```
+
+The validator refuses any F-Droid card whose license is not in the
+redistributable set, so a non-free app can never ship. The download currently
+links to F-Droid's hosted APK; to serve the file from your own CDN instead,
+mirror it and rewrite `download.url` (the checksum stays valid).

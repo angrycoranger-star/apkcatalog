@@ -179,12 +179,32 @@ also how you fix a summary or re-categorise a scraped app. Full field reference:
 `data/README.md`. The legal position for self-hosted APKs is stated on the
 `/disclaimer/` page in all four languages.
 
+## Open-source apps (F-Droid)
+
+Beyond scraped Google Play listings and your own uploads, the catalog imports
+**Free/Open-Source apps from F-Droid** — a legally distributable inventory. F-Droid
+publishes each app's SPDX license and every APK's SHA-256, so these cards get a
+real **direct download** (with checksum and a link to the source), an "Open
+source" badge, and the license on the spec table — the APKMirror-style
+"download the file here" model, but only for files a license lets us distribute.
+
+```bash
+npm run fdroid            # one request pulls the whole F-Droid index
+```
+
+`scripts/lib/fdroid.js` gates on a redistributable-license allowlist, and the
+validator fails the build if any F-Droid card carries a non-free license. Cards
+land in `data/fdroid-apps.json` (a source the Play collectors never touch) and
+merge into the same search, categories and sitemap. Full reference:
+`data/README.md`.
+
 ## Scheduled refreshes
 
 | Workflow | Schedule | Does |
 |---|---|---|
 | `.github/workflows/discovery.yml` | monthly (1st, 02:00 UTC) | refresh `package-ids.json` |
 | `.github/workflows/fetch-details.yml` | nightly, 03:00 UTC | refresh a chunk of `apps.json`, validate, build, commit |
+| `.github/workflows/fdroid.yml` | weekly (Mon, 04:00 UTC) | refresh the open-source (F-Droid) catalog |
 | `.github/workflows/ci.yml` | every push / PR | validate, smoke test, build all languages |
 
 Both data workflows commit to the repository; the push is what triggers Vercel
