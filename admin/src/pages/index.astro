@@ -1,0 +1,150 @@
+---
+import { categoryChoices } from '../lib/record.js';
+export const prerender = false;
+const categories = categoryChoices();
+---
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>apk4orge · Загрузка приложения</title>
+    <style>
+      :root { color-scheme: light dark; }
+      body { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+        margin: 0; background: #0b1120; color: #e2e8f0; }
+      header { display: flex; align-items: center; justify-content: space-between;
+        padding: 14px 20px; border-bottom: 1px solid #1e293b; }
+      header b { font-size: 16px; }
+      header a { color: #94a3b8; font-size: 13px; text-decoration: none; }
+      main { max-width: 640px; margin: 0 auto; padding: 24px 20px 60px; }
+      h1 { font-size: 20px; margin: 0 0 4px; }
+      .sub { color: #94a3b8; font-size: 13px; margin: 0 0 24px; }
+      label { display: block; font-size: 13px; margin: 16px 0 6px; color: #cbd5e1; }
+      input, select, textarea { width: 100%; box-sizing: border-box; border-radius: 10px; border: 1px solid #334155;
+        background: #131c31; color: #e2e8f0; padding: 10px 12px; font-size: 15px; font-family: inherit; }
+      textarea { min-height: 96px; resize: vertical; }
+      input[type=file] { padding: 8px; }
+      button { margin-top: 24px; width: 100%; height: 46px; border: 0; border-radius: 10px; background: #4f46e5;
+        color: #fff; font-weight: 600; font-size: 15px; cursor: pointer; }
+      button:disabled { opacity: .6; cursor: default; }
+      .row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+      .status { margin-top: 18px; font-size: 14px; min-height: 20px; }
+      .status.ok { color: #34d399; } .status.err { color: #f87171; }
+      .bar { height: 6px; border-radius: 6px; background: #1e293b; overflow: hidden; margin-top: 8px; display: none; }
+      .bar > i { display: block; height: 100%; width: 0; background: #4f46e5; transition: width .2s; }
+      .hint { color: #64748b; font-size: 12px; margin-top: 4px; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <b>apk4orge · загрузка</b>
+      <a href="#" id="logout">Выйти</a>
+    </header>
+    <main>
+      <h1>Добавить приложение</h1>
+      <p class="sub">Файл и скриншоты уходят напрямую в хранилище, карточка появится на сайте через 1–2 минуты после сборки.</p>
+
+      <form id="f">
+        <label for="name">Название</label>
+        <input id="name" name="name" type="text" required maxlength="120" />
+
+        <div class="row">
+          <div>
+            <label for="developer">Разработчик</label>
+            <input id="developer" name="developer" type="text" maxlength="120" />
+          </div>
+          <div>
+            <label for="category">Категория</label>
+            <select id="category" name="category" required>
+              <option value="" disabled selected>Выберите…</option>
+              {categories.map((c) => <option value={c.slug}>{c.label}</option>)}
+            </select>
+          </div>
+        </div>
+
+        <label for="description">Описание</label>
+        <textarea id="description" name="description" maxlength="2000" placeholder="Пара абзацев о приложении. Показывается на карточке."></textarea>
+
+        <label for="apk">APK-файл</label>
+        <input id="apk" name="apk" type="file" accept=".apk,application/vnd.android.package-archive" required />
+        <p class="hint">Версия, размер, минимальный Android, разрешения и SHA-256 считаются из файла автоматически.</p>
+
+        <label for="shots">Скриншоты (по желанию, до 8)</label>
+        <input id="shots" name="shots" type="file" accept="image/png,image/jpeg,image/webp" multiple />
+
+        <div class="bar" id="bar"><i id="barfill"></i></div>
+        <button id="submit" type="submit">Опубликовать</button>
+        <div class="status" id="status"></div>
+      </form>
+    </main>
+
+    <script>
+      import { upload } from '@vercel/blob/client';
+
+      const $ = (id) => document.getElementById(id);
+      const setStatus = (msg, kind) => { const s = $('status'); s.textContent = msg; s.className = 'status ' + (kind || ''); };
+      const bar = $('bar'), fill = $('barfill');
+
+      $('logout').addEventListener('click', async (e) => {
+        e.preventDefault();
+        await fetch('/api/logout', { method: 'POST' });
+        location.href = '/login';
+      });
+
+      async function uploadOne(file, folder) {
+        const safe = file.name.replace(/[^a-zA-Z0-9._-]+/g, '_');
+        const res = await upload(`${folder}/${safe}`, file, {
+          access: 'public',
+          handleUploadUrl: '/api/blob-token'
+        });
+        return res.url;
+      }
+
+      $('f').addEventListener('submit', async (ev) => {
+        ev.preventDefault();
+        const btn = $('submit');
+        const apkFile = $('apk').files[0];
+        if (!apkFile) return;
+        btn.disabled = true; setStatus('Загрузка файла…'); bar.style.display = 'block'; fill.style.width = '15%';
+
+        try {
+          const apkUrl = await uploadOne(apkFile, 'apk');
+          fill.style.width = '55%';
+
+          const shotFiles = Array.from($('shots').files).slice(0, 8);
+          const screenshots = [];
+          for (const f of shotFiles) screenshots.push(await uploadOne(f, 'screenshots'));
+          fill.style.width = '75%';
+
+          setStatus('Обработка и публикация…');
+          const res = await fetch('/api/upload', {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({
+              apkUrl, screenshots,
+              name: $('name').value.trim(),
+              developer: $('developer').value.trim(),
+              categorySlug: $('category').value,
+              description: $('description').value.trim()
+            })
+          });
+          const data = await res.json();
+          fill.style.width = '100%';
+          if (res.ok) {
+            setStatus(`Готово: /app/${data.slug}/ (v${data.version || '?'}). Карточка появится после пересборки.`, 'ok');
+            $('f').reset();
+          } else {
+            setStatus(data.error || 'Ошибка публикации', 'err');
+          }
+        } catch (err) {
+          setStatus(err?.message || 'Ошибка загрузки', 'err');
+        } finally {
+          btn.disabled = false;
+          setTimeout(() => { bar.style.display = 'none'; fill.style.width = '0'; }, 1200);
+        }
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,251 @@
+{
+  "langs": [
+    "ru",
+    "en",
+    "tr",
+    "uz"
+  ],
+  "defaultLang": "ru",
+  "categories": [
+    {
+      "id": "GAME_ACTION",
+      "slug": "action",
+      "type": "game",
+      "label": "Экшен"
+    },
+    {
+      "id": "GAME_ADVENTURE",
+      "slug": "adventure",
+      "type": "game",
+      "label": "Приключения"
+    },
+    {
+      "id": "GAME_ARCADE",
+      "slug": "arcade",
+      "type": "game",
+      "label": "Аркады"
+    },
+    {
+      "id": "GAME_BOARD",
+      "slug": "board",
+      "type": "game",
+      "label": "Настольные"
+    },
+    {
+      "id": "GAME_CARD",
+      "slug": "card",
+      "type": "game",
+      "label": "Карточные"
+    },
+    {
+      "id": "GAME_CASINO",
+      "slug": "casino",
+      "type": "game",
+      "label": "Казино"
+    },
+    {
+      "id": "GAME_CASUAL",
+      "slug": "casual",
+      "type": "game",
+      "label": "Казуальные"
+    },
+    {
+      "id": "GAME_EDUCATIONAL",
+      "slug": "educational-games",
+      "type": "game",
+      "label": "Обучающие игры"
+    },
+    {
+      "id": "GAME_MUSIC",
+      "slug": "music-games",
+      "type": "game",
+      "label": "Музыкальные"
+    },
+    {
+      "id": "GAME_PUZZLE",
+      "slug": "puzzle",
+      "type": "game",
+      "label": "Головоломки"
+    },
+    {
+      "id": "GAME_RACING",
+      "slug": "racing",
+      "type": "game",
+      "label": "Гонки"
+    },
+    {
+      "id": "GAME_ROLE_PLAYING",
+      "slug": "role-playing",
+      "type": "game",
+      "label": "Ролевые"
+    },
+    {
+      "id": "GAME_SIMULATION",
+      "slug": "simulation",
+      "type": "game",
+      "label": "Симуляторы"
+    },
+    {
+      "id": "GAME_SPORTS",
+      "slug": "sports-games",
+      "type": "game",
+      "label": "Спортивные игры"
+    },
+    {
+      "id": "GAME_STRATEGY",
+      "slug": "strategy",
+      "type": "game",
+      "label": "Стратегии"
+    },
+    {
+      "id": "GAME_TRIVIA",
+      "slug": "trivia",
+      "type": "game",
+      "label": "Викторины"
+    },
+    {
+      "id": "GAME_WORD",
+      "slug": "word",
+      "type": "game",
+      "label": "Словесные"
+    },
+    {
+      "id": "ART_AND_DESIGN",
+      "slug": "art-and-design",
+      "type": "app",
+      "label": "Искусство и дизайн"
+    },
+    {
+      "id": "BOOKS_AND_REFERENCE",
+      "slug": "books",
+      "type": "app",
+      "label": "Книги"
+    },
+    {
+      "id": "BUSINESS",
+      "slug": "business",
+      "type": "app",
+      "label": "Бизнес"
+    },
+    {
+      "id": "COMMUNICATION",
+      "slug": "communication",
+      "type": "app",
+      "label": "Общение"
+    },
+    {
+      "id": "EDUCATION",
+      "slug": "education",
+      "type": "app",
+      "label": "Образование"
+    },
+    {
+      "id": "ENTERTAINMENT",
+      "slug": "entertainment",
+      "type": "app",
+      "label": "Развлечения"
+    },
+    {
+      "id": "FINANCE",
+      "slug": "finance",
+      "type": "app",
+      "label": "Финансы"
+    },
+    {
+      "id": "FOOD_AND_DRINK",
+      "slug": "food-and-drink",
+      "type": "app",
+      "label": "Еда и напитки"
+    },
+    {
+      "id": "HEALTH_AND_FITNESS",
+      "slug": "health",
+      "type": "app",
+      "label": "Здоровье и фитнес"
+    },
+    {
+      "id": "LIFESTYLE",
+      "slug": "lifestyle",
+      "type": "app",
+      "label": "Стиль жизни"
+    },
+    {
+      "id": "MAPS_AND_NAVIGATION",
+      "slug": "maps",
+      "type": "app",
+      "label": "Карты и навигация"
+    },
+    {
+      "id": "MUSIC_AND_AUDIO",
+      "slug": "music",
+      "type": "app",
+      "label": "Музыка и аудио"
+    },
+    {
+      "id": "NEWS_AND_MAGAZINES",
+      "slug": "news",
+      "type": "app",
+      "label": "Новости и журналы"
+    },
+    {
+      "id": "PERSONALIZATION",
+      "slug": "personalization",
+      "type": "app",
+      "label": "Персонализация"
+    },
+    {
+      "id": "PHOTOGRAPHY",
+      "slug": "photography",
+      "type": "app",
+      "label": "Фотография"
+    },
+    {
+      "id": "PRODUCTIVITY",
+      "slug": "productivity",
+      "type": "app",
+      "label": "Продуктивность"
+    },
+    {
+      "id": "SHOPPING",
+      "slug": "shopping",
+      "type": "app",
+      "label": "Покупки"
+    },
+    {
+      "id": "SOCIAL",
+      "slug": "social",
+      "type": "app",
+      "label": "Социальные сети"
+    },
+    {
+      "id": "SPORTS",
+      "slug": "sports",
+      "type": "app",
+      "label": "Спорт"
+    },
+    {
+      "id": "TOOLS",
+      "slug": "tools",
+      "type": "app",
+      "label": "Инструменты"
+    },
+    {
+      "id": "TRAVEL_AND_LOCAL",
+      "slug": "travel",
+      "type": "app",
+      "label": "Путешествия"
+    },
+    {
+      "id": "VIDEO_PLAYERS",
+      "slug": "video",
+      "type": "app",
+      "label": "Видеоплееры"
+    },
+    {
+      "id": "WEATHER",
+      "slug": "weather",
+      "type": "app",
+      "label": "Погода"
+    }
+  ]
+}

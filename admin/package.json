@@ -1,0 +1,21 @@
+{
+  "name": "apk4orge-admin",
+  "type": "module",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Private admin panel for uploading apk4orge's own apps.",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^5.6.1",
+    "@astrojs/vercel": "^8.0.0",
+    "@vercel/blob": "^0.27.0",
+    "adbkit-apkreader": "^3.1.2",
+    "yauzl": "^2.10.0"
+  },
+  "engines": { "node": ">=20.0.0" }
+}
