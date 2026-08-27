@@ -7,10 +7,12 @@
  */
 import path from 'node:path';
 import { LANGS, categoryById, FALLBACK_CATEGORY } from '../config/catalog.config.js';
+import { isRedistributable } from './lib/fdroid.js';
 import { DATA_DIR, readJson, log } from './lib/util.js';
 
 const scraped = await readJson(path.join(DATA_DIR, 'apps.json'), null);
 const custom = await readJson(path.join(DATA_DIR, 'custom-apps.json'), []);
+const fdroid = await readJson(path.join(DATA_DIR, 'fdroid-apps.json'), []);
 
 if (!Array.isArray(scraped)) {
   log.error('data/apps.json is missing or is not an array.');
@@ -26,6 +28,7 @@ const isHttps = (url) => typeof url === 'string' && url.startsWith('https://');
 
 const apps = [
   ...custom.map((a) => ({ app: a, custom: true, source: 'custom-apps.json' })),
+  ...fdroid.map((a) => ({ app: a, custom: true, source: 'fdroid-apps.json' })),
   ...scraped.map((a) => ({ app: a, custom: false, source: 'apps.json' }))
 ];
 
@@ -60,6 +63,10 @@ for (const [index, entry] of apps.entries()) {
     }
     if (type === 'store' && !d.store) {
       warnings.push(`${where}: store download has no store name (button label will be generic)`);
+    }
+    // Open-source (F-Droid) cards must carry a license we may redistribute under.
+    if (app?.source === 'fdroid' && !isRedistributable(app?.license)) {
+      errors.push(`${where}: F-Droid card has a non-redistributable or missing license "${app?.license ?? ''}"`);
     }
   } else {
     if (!/^https:\/\/play\.google\.com\/store\/apps\/details\?id=/.test(app?.google_play_url ?? '')) {
@@ -106,4 +113,4 @@ if (errors.length > 0) {
   process.exit(1);
 }
 
-log.done(`Dataset is valid: ${scraped.length} scraped + ${custom.length} custom = ${apps.length} cards, ${warnings.length} warning(s).`);
+log.done(`Dataset is valid: ${scraped.length} scraped + ${custom.length} custom + ${fdroid.length} F-Droid = ${apps.length} cards, ${warnings.length} warning(s).`);

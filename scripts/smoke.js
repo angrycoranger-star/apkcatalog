@@ -34,6 +34,7 @@ try {
     ...client, '--countries', 'ru,tr', '--categories', 'GAME_PUZZLE,TOOLS', '--num', '8', '--delay', '5'
   ]);
   await run('scripts/fetch-details.js', [...client, '--delay', '5', '--timeout', '5000']);
+  await run('scripts/fdroid-import.js', ['--index', 'scripts/fixtures/fdroid-index.json', '--repo', 'https://f-droid.org/repo']);
   await run('scripts/validate-data.js', []);
 
   const apps = await readJson(path.join(dataDir, 'apps.json'), []);
@@ -43,7 +44,12 @@ try {
   const missingSummary = apps.filter((app) => !app.translations?.ru?.summary);
   if (missingSummary.length > 0) throw new Error(`${missingSummary.length} cards have no Russian summary`);
 
-  log.done(`Smoke test passed: ${packages.packages.length} package ids -> ${apps.length} cards.`);
+  const fdroid = await readJson(path.join(dataDir, 'fdroid-apps.json'), []);
+  if (fdroid.length === 0) throw new Error('F-Droid import produced no cards');
+  const unlicensed = fdroid.filter((a) => !a.license || a.source !== 'fdroid');
+  if (unlicensed.length > 0) throw new Error(`${unlicensed.length} F-Droid cards missing a license`);
+
+  log.done(`Smoke test passed: ${packages.packages.length} package ids -> ${apps.length} scraped, ${fdroid.length} F-Droid cards.`);
 } finally {
   await rm(dataDir, { recursive: true, force: true });
 }

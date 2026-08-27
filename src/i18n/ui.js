@@ -73,7 +73,13 @@ export const UI = {
     'card.checksum': "Контрольная сумма (SHA-256)",
     'card.minAndroid': "Требуется Android",
     'card.permissions': "Разрешения",    'card.package': 'Идентификатор пакета',
-    'list.count': 'Найдено приложений',
+
+    'card.openSource': "Открытый код",
+    'card.license': "Лицензия",
+    'card.sourceCode': "Исходный код",
+    'card.viewSource': "Посмотреть исходники",
+    'card.openSourceNote': "Приложение с открытым исходным кодом. Файл распространяется по лицензии {license}; ссылка ведёт на официальную сборку.",
+    'home.openSource': "Открытый код",    'list.count': 'Найдено приложений',
     'list.empty': 'В этой категории пока пусто',
     'footer.rights': 'Все права на приложения принадлежат их правообладателям.',
     'footer.disclaimerShort':
@@ -168,7 +174,13 @@ export const UI = {
     'card.checksum': "Checksum (SHA-256)",
     'card.minAndroid': "Requires Android",
     'card.permissions': "Permissions",    'card.package': 'Package id',
-    'list.count': 'Entries found',
+
+    'card.openSource': "Open source",
+    'card.license': "License",
+    'card.sourceCode': "Source code",
+    'card.viewSource': "View source",
+    'card.openSourceNote': "Open-source app. The file is distributed under the {license} license; the link points to the official build.",
+    'home.openSource': "Open source",    'list.count': 'Entries found',
     'list.empty': 'This category is empty for now',
     'footer.rights': 'All app rights belong to their respective owners.',
     'footer.disclaimerShort':
@@ -263,7 +275,13 @@ export const UI = {
     'card.checksum': "Sağlama toplamı (SHA-256)",
     'card.minAndroid': "Gerekli Android",
     'card.permissions': "İzinler",    'card.package': 'Paket kimliği',
-    'list.count': 'Bulunan kayıt',
+
+    'card.openSource': "Açık kaynak",
+    'card.license': "Lisans",
+    'card.sourceCode': "Kaynak kodu",
+    'card.viewSource': "Kaynağı görüntüle",
+    'card.openSourceNote': "Açık kaynaklı uygulama. Dosya {license} lisansıyla dağıtılır; bağlantı resmi derlemeye gider.",
+    'home.openSource': "Açık kaynak",    'list.count': 'Bulunan kayıt',
     'list.empty': 'Bu kategori şimdilik boş',
     'footer.rights': 'Tüm uygulama hakları ilgili sahiplerine aittir.',
     'footer.disclaimerShort':
@@ -357,7 +375,13 @@ export const UI = {
     'card.checksum': "Nazorat summasi (SHA-256)",
     'card.minAndroid': "Kerakli Android",
     'card.permissions': "Ruxsatlar",    'card.package': 'Paket identifikatori',
-    'list.count': 'Topilgan yozuvlar',
+
+    'card.openSource': "Ochiq kod",
+    'card.license': "Litsenziya",
+    'card.sourceCode': "Manba kodi",
+    'card.viewSource': "Manbani ko‘rish",
+    'card.openSourceNote': "Ochiq kodli ilova. Fayl {license} litsenziyasi asosida tarqatiladi; havola rasmiy yig‘maga olib boradi.",
+    'home.openSource': "Ochiq kod",    'list.count': 'Topilgan yozuvlar',
     'list.empty': 'Bu turkum hozircha bo\u2018sh',
     'footer.rights': 'Ilovalarga bo\u2018lgan barcha huquqlar ularning egalariga tegishli.',
     'footer.disclaimerShort':

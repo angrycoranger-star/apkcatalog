@@ -1,5 +1,6 @@
 import rawApps from '../../data/apps.json';
 import customApps from '../../data/custom-apps.json';
+import fdroidApps from '../../data/fdroid-apps.json';
 import meta from '../../data/apps.meta.json';
 import { LANG } from '../i18n/index.js';
 import { DEFAULT_LANG } from '../../config/catalog.config.js';
@@ -43,6 +44,10 @@ function normalize(app, lang) {
     download: normalizeDownload(app),
     minAndroid: app.min_android || '',
     permissions: Array.isArray(app.permissions) ? app.permissions : [],
+    openSource: app.open_source === true,
+    license: app.license || '',
+    sourceCode: app.source_code || '',
+    fdroid: app.source === 'fdroid',
     checksum: app.download?.checksum_sha256 || '',
     url: downloadUrl(app),
     href: `/app/${app.slug}/`
@@ -98,7 +103,10 @@ function mergeSources(custom, scraped) {
   return out;
 }
 
-const ALL = mergeSources(customApps, rawApps).map((app) => normalize(app, LANG));
+const ALL = mergeSources(
+  [...customApps, ...fdroidApps],
+  rawApps
+).map((app) => normalize(app, LANG));
 
 export function getAllApps() {
   return ALL;
