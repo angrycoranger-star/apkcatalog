@@ -4,7 +4,7 @@
  */
 export const UI = {
   ru: {
-    'site.name': 'APK Каталог',
+    'site.name': 'apk4orge',
     'site.tagline': 'Каталог приложений и игр для Android',
     'site.description':
       'Независимый каталог Android-приложений и игр: описания, скриншоты, рейтинги и прямые ссылки на официальные страницы в Google Play.',
@@ -99,7 +99,7 @@ export const UI = {
   },
 
   en: {
-    'site.name': 'APK Catalog',
+    'site.name': 'apk4orge',
     'site.tagline': 'Android apps & games catalog',
     'site.description':
       'An independent catalog of Android apps and games: summaries, screenshots, ratings and direct links to the official Google Play listings.',
@@ -194,7 +194,7 @@ export const UI = {
   },
 
   tr: {
-    'site.name': 'APK Kataloğu',
+    'site.name': 'apk4orge',
     'site.tagline': 'Android uygulama ve oyun kataloğu',
     'site.description':
       'Bağımsız Android uygulama ve oyun kataloğu: özetler, ekran görüntüleri, puanlar ve resmi Google Play sayfalarına doğrudan bağlantılar.',
@@ -288,7 +288,7 @@ export const UI = {
     'a11y.next': 'Sonraki'
   },
   uz: {
-    'site.name': 'APK Katalog',
+    'site.name': 'apk4orge',
     'site.tagline': 'Android ilovalar va o\u2018yinlar katalogi',
     'site.description':
       'Android ilovalar va o\u2018yinlarning mustaqil katalogi: qisqacha tavsiflar, ekran suratlari, reytinglar va Google Play\u2019dagi rasmiy sahifalarga to\u2018g\u2018ridan-to\u2018g\u2018ri havolalar.',
