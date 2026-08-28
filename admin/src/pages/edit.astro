@@ -9,7 +9,7 @@ const categories = categoryChoices();
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="noindex, nofollow" />
-    <title>apk4orge · Загрузка приложения</title>
+    <title>apk4orge · Редактирование</title>
     <style>
       :root { color-scheme: light dark; }
       body { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
@@ -17,7 +17,7 @@ const categories = categoryChoices();
       header { display: flex; align-items: center; justify-content: space-between;
         padding: 14px 20px; border-bottom: 1px solid #1e293b; }
       header b { font-size: 16px; }
-      header a { color: #94a3b8; font-size: 13px; text-decoration: none; }
+      header nav a { color: #94a3b8; font-size: 13px; text-decoration: none; margin-left: 16px; }
       main { max-width: 640px; margin: 0 auto; padding: 24px 20px 60px; }
       h1 { font-size: 20px; margin: 0 0 4px; }
       .sub { color: #94a3b8; font-size: 13px; margin: 0 0 24px; }
@@ -35,7 +35,6 @@ const categories = categoryChoices();
       .bar { height: 6px; border-radius: 6px; background: #1e293b; overflow: hidden; margin-top: 8px; display: none; }
       .bar > i { display: block; height: 100%; width: 0; background: #4f46e5; transition: width .2s; }
       .hint { color: #64748b; font-size: 12px; margin-top: 4px; }
-      header nav a { margin-left: 16px; }
       fieldset { border: 1px solid #1e293b; border-radius: 12px; padding: 2px 14px 16px; margin-top: 24px; }
       legend { font-size: 12px; color: #94a3b8; padding: 0 6px; }
       .checkrow { display: flex; align-items: center; gap: 9px; margin-top: 14px; }
@@ -46,49 +45,41 @@ const categories = categoryChoices();
   </head>
   <body>
     <header>
-      <b>apk4orge · загрузка</b>
+      <b>apk4orge · редактирование</b>
       <nav>
-        <a href="/manage">Мои приложения</a>
+        <a href="/manage">← К списку</a>
         <a href="#" id="logout">Выйти</a>
       </nav>
     </header>
     <main>
-      <h1>Добавить приложение</h1>
-      <p class="sub">Файл и скриншоты уходят напрямую в хранилище, карточка появится на сайте через 1–2 минуты после сборки.</p>
+      <h1>Редактировать приложение</h1>
+      <p class="sub" id="sub">Загрузка…</p>
 
-      <form id="f">
+      <form id="f" class="hidden">
         <label for="name">Название</label>
-        <input id="name" name="name" type="text" required maxlength="120" />
+        <input id="name" type="text" required maxlength="120" />
 
         <div class="row">
           <div>
             <label for="developer">Разработчик</label>
-            <input id="developer" name="developer" type="text" maxlength="120" />
+            <input id="developer" type="text" maxlength="120" />
           </div>
           <div>
             <label for="category">Категория</label>
-            <select id="category" name="category" required>
-              <option value="" disabled selected>Выберите…</option>
+            <select id="category" required>
               {categories.map((c) => <option value={c.slug}>{c.label}</option>)}
             </select>
           </div>
         </div>
 
         <label for="description">Описание</label>
-        <textarea id="description" name="description" maxlength="2000" placeholder="Пара абзацев о приложении. Показывается на карточке."></textarea>
-
-        <label for="apk">APK-файл</label>
-        <input id="apk" name="apk" type="file" accept=".apk,application/vnd.android.package-archive" required />
-        <p class="hint">Версия, размер, минимальный Android, разрешения и SHA-256 считаются из файла автоматически.</p>
-
-        <label for="shots">Скриншоты (по желанию, до 8)</label>
-        <input id="shots" name="shots" type="file" accept="image/png,image/jpeg,image/webp" multiple />
+        <textarea id="description" maxlength="2000"></textarea>
 
         <fieldset>
           <legend>Веб-версия</legend>
           <div class="checkrow">
             <input id="hasWeb" type="checkbox" />
-            <label for="hasWeb">Есть веб-версия (кнопка «Играть в браузере», в т.ч. для iPhone)</label>
+            <label for="hasWeb">Есть веб-версия (кнопка «Играть в браузере»)</label>
           </div>
           <div id="webWrap" class="hidden">
             <label for="webUrl">Ссылка на веб-версию</label>
@@ -100,18 +91,28 @@ const categories = categoryChoices();
           <legend>Продвижение на главной</legend>
           <div class="checkrow">
             <input id="featured" type="checkbox" />
-            <label for="featured">Показывать в блоке «Рекомендуем» на главной</label>
+            <label for="featured">Показывать в блоке «Рекомендуем»</label>
           </div>
           <div class="checkrow">
             <input id="pinned" type="checkbox" />
-            <label for="pinned">Закреплять вверху разделов (Популярное / Новое)</label>
+            <label for="pinned">Закреплять вверху разделов</label>
           </div>
-          <label for="promoOrder">Порядок (меньше — выше; для «Рекомендуем» и закрепления)</label>
-          <input id="promoOrder" type="number" value="100" min="0" step="1" />
+          <label for="promoOrder">Порядок (меньше — выше)</label>
+          <input id="promoOrder" type="number" min="0" step="1" />
+        </fieldset>
+
+        <fieldset>
+          <legend>Файлы (по желанию)</legend>
+          <label for="apk">Заменить APK</label>
+          <input id="apk" type="file" accept=".apk,application/vnd.android.package-archive" />
+          <p class="hint">Оставь пустым, чтобы сохранить текущий файл. Новый файл пересчитает версию, размер и SHA-256.</p>
+          <label for="shots">Заменить скриншоты (до 8)</label>
+          <input id="shots" type="file" accept="image/png,image/jpeg,image/webp" multiple />
+          <p class="hint" id="shotsHint"></p>
         </fieldset>
 
         <div class="bar" id="bar"><i id="barfill"></i></div>
-        <button id="submit" type="submit">Опубликовать</button>
+        <button id="submit" type="submit">Сохранить</button>
         <div class="status" id="status"></div>
       </form>
     </main>
@@ -120,8 +121,9 @@ const categories = categoryChoices();
       import { upload } from '@vercel/blob/client';
 
       const $ = (id) => document.getElementById(id);
-      const setStatus = (msg, kind) => { const s = $('status'); s.textContent = msg; s.className = 'status ' + (kind || ''); };
+      const setStatus = (msg, kind) => { const s = $('status'); s.textContent = msg || ''; s.className = 'status ' + (kind || ''); };
       const bar = $('bar'), fill = $('barfill');
+      const slug = new URLSearchParams(location.search).get('slug');
 
       $('logout').addEventListener('click', async (e) => {
         e.preventDefault();
@@ -136,60 +138,84 @@ const categories = categoryChoices();
 
       async function uploadOne(file, folder) {
         const safe = file.name.replace(/[^a-zA-Z0-9._-]+/g, '_');
-        const res = await upload(`${folder}/${safe}`, file, {
-          access: 'public',
-          handleUploadUrl: '/api/blob-token'
-        });
+        const res = await upload(`${folder}/${safe}`, file, { access: 'public', handleUploadUrl: '/api/blob-token' });
         return res.url;
+      }
+
+      async function load() {
+        if (!slug) { $('sub').textContent = 'Не указан slug.'; return; }
+        try {
+          const res = await fetch('/api/apps?slug=' + encodeURIComponent(slug));
+          const data = await res.json();
+          if (!res.ok) throw new Error(data.error || 'Не найдено');
+          const a = data.app;
+          $('name').value = a.name || '';
+          $('developer').value = a.developer || '';
+          if (a.categorySlug) $('category').value = a.categorySlug;
+          $('description').value = a.description || '';
+          $('promoOrder').value = a.promo_order ?? 100;
+          $('featured').checked = !!a.featured;
+          $('pinned').checked = !!a.pinned;
+          if (a.web_url) { $('hasWeb').checked = true; $('webWrap').classList.remove('hidden'); $('webUrl').value = a.web_url; }
+          $('shotsHint').textContent = `Сейчас скриншотов: ${(a.screenshots || []).length}. Новые заменят их полностью.`;
+          $('sub').textContent = `/app/${a.slug}/ · v${a.version || '?'}`;
+          $('f').classList.remove('hidden');
+        } catch (err) {
+          $('sub').textContent = err.message || 'Ошибка загрузки';
+        }
       }
 
       $('f').addEventListener('submit', async (ev) => {
         ev.preventDefault();
         const btn = $('submit');
-        const apkFile = $('apk').files[0];
-        if (!apkFile) return;
-        btn.disabled = true; setStatus('Загрузка файла…'); bar.style.display = 'block'; fill.style.width = '15%';
+        btn.disabled = true; setStatus('Сохранение…'); bar.style.display = 'block'; fill.style.width = '15%';
 
         try {
-          const apkUrl = await uploadOne(apkFile, 'apk');
-          fill.style.width = '55%';
+          const body = {
+            slug,
+            name: $('name').value.trim(),
+            developer: $('developer').value.trim(),
+            categorySlug: $('category').value,
+            description: $('description').value.trim(),
+            webUrl: $('hasWeb').checked ? $('webUrl').value.trim() : '',
+            featured: $('featured').checked,
+            pinned: $('pinned').checked,
+            promoOrder: Number($('promoOrder').value) || 100
+          };
 
           const shotFiles = Array.from($('shots').files).slice(0, 8);
-          const screenshots = [];
-          for (const f of shotFiles) screenshots.push(await uploadOne(f, 'screenshots'));
+          if (shotFiles.length) {
+            const shots = [];
+            for (const f of shotFiles) shots.push(await uploadOne(f, 'screenshots'));
+            body.screenshots = shots;
+          }
+          fill.style.width = '45%';
+
+          const apkFile = $('apk').files[0];
+          if (apkFile) { body.apkUrl = await uploadOne(apkFile, 'apk'); }
           fill.style.width = '75%';
 
-          setStatus('Обработка и публикация…');
-          const res = await fetch('/api/upload', {
+          const res = await fetch('/api/update', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
-            body: JSON.stringify({
-              apkUrl, screenshots,
-              name: $('name').value.trim(),
-              developer: $('developer').value.trim(),
-              categorySlug: $('category').value,
-              description: $('description').value.trim(),
-              webUrl: $('hasWeb').checked ? $('webUrl').value.trim() : '',
-              featured: $('featured').checked,
-              pinned: $('pinned').checked,
-              promoOrder: Number($('promoOrder').value) || 100
-            })
+            body: JSON.stringify(body)
           });
           const data = await res.json();
           fill.style.width = '100%';
           if (res.ok) {
-            setStatus(`Готово: /app/${data.slug}/ (v${data.version || '?'}). Карточка появится после пересборки.`, 'ok');
-            $('f').reset();
+            setStatus('Сохранено. Изменения появятся на сайте после пересборки.', 'ok');
           } else {
-            setStatus(data.error || 'Ошибка публикации', 'err');
+            setStatus(data.error || 'Ошибка сохранения', 'err');
           }
         } catch (err) {
-          setStatus(err?.message || 'Ошибка загрузки', 'err');
+          setStatus(err?.message || 'Ошибка', 'err');
         } finally {
           btn.disabled = false;
           setTimeout(() => { bar.style.display = 'none'; fill.style.width = '0'; }, 1200);
         }
       });
+
+      load();
     </script>
   </body>
 </html>

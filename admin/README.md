@@ -93,6 +93,21 @@ at the same repo:
 Because it's a distinct project, redeploys of the admin panel don't touch the
 four static builds, and vice versa.
 
+## Managing, promoting and web versions
+
+- `/` uploads a new app. Besides the file, description and screenshots, it can
+  set a **web-version URL** (adds a "Play in browser" button on the card, handy
+  for iPhone users) and **promotion**: show the app in the home page's
+  "Featured" block, pin it to the top of the Popular/New sections, and set an
+  order number (lower = higher).
+- `/manage` lists the apps you've listed, with edit and delete.
+- `/edit?slug=…` edits any field, toggles the web version and promotion, and can
+  **replace the APK** with a new version (re-derives version, size, min-Android,
+  permissions and SHA-256). Uploading new screenshots there replaces the set.
+
+These are stored as extra fields on the record (`web_url`, `featured`,
+`pinned`, `promo_order`) and read by the static site — no runtime needed.
+
 ## Security notes
 
 - Every route except `/login` and `/api/login` requires a valid session cookie
