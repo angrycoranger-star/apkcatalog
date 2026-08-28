@@ -41,6 +41,11 @@ function normalize(app, lang) {
     // Custom (self-listed) cards own their download target; scraped cards
     // always point at the official Google Play listing.
     custom: app.custom === true,
+    // Owner-only promotion + web-version fields (set from the admin panel).
+    featured: app.featured === true,
+    pinned: app.pinned === true,
+    promoOrder: typeof app.promo_order === 'number' ? app.promo_order : 999,
+    webUrl: app.web_url || '',
     download: normalizeDownload(app),
     minAndroid: app.min_android || '',
     permissions: Array.isArray(app.permissions) ? app.permissions : [],
@@ -144,34 +149,57 @@ export function usedCategories(type) {
 const byRating = (a, b) =>
   (b.rating ?? 0) - (a.rating ?? 0) || (b.ratingsCount ?? 0) - (a.ratingsCount ?? 0);
 
+/**
+ * Wrap a comparator so owner-pinned cards float to the top (in their chosen
+ * promoOrder), and everything else keeps the given order. Lets a self-listed
+ * app be promoted to the head of a section without touching its ranking data.
+ */
+function pinnedFirst(cmp) {
+  return (a, b) => {
+    if (a.pinned !== b.pinned) return a.pinned ? -1 : 1;
+    if (a.pinned && b.pinned && a.promoOrder !== b.promoOrder) return a.promoOrder - b.promoOrder;
+    return cmp(a, b);
+  };
+}
+
+/**
+ * The owner-curated "Featured" block on the home page: only apps explicitly
+ * marked featured in the admin panel, in the order the owner set.
+ */
+export function featuredApps(limit = 14) {
+  return ALL.filter((a) => a.featured)
+    .sort((a, b) => a.promoOrder - b.promoOrder || new Date(b.addedAt ?? 0) - new Date(a.addedAt ?? 0))
+    .slice(0, limit);
+}
+
 /** "Popular" = most rated; a proxy for reach that needs no extra source. */
 export function popularApps(limit = 12) {
   return [...ALL]
-    .sort((a, b) => (b.ratingsCount ?? 0) - (a.ratingsCount ?? 0) || byRating(a, b))
+    .sort(pinnedFirst((a, b) => (b.ratingsCount ?? 0) - (a.ratingsCount ?? 0) || byRating(a, b)))
     .slice(0, limit);
 }
 
 export function topRatedApps(limit = 12) {
   return [...ALL]
-    .filter((a) => (a.ratingsCount ?? 0) >= 100)
-    .sort(byRating)
+    .filter((a) => a.pinned || (a.ratingsCount ?? 0) >= 100)
+    .sort(pinnedFirst(byRating))
     .slice(0, limit);
 }
 
 export function recentApps(limit = 12) {
   return [...ALL]
     .filter((a) => a.addedAt)
-    .sort((a, b) => new Date(b.addedAt) - new Date(a.addedAt))
+    .sort(pinnedFirst((a, b) => new Date(b.addedAt) - new Date(a.addedAt)))
     .slice(0, limit);
 }
 
 export function sortApps(list, mode) {
   const copy = [...list];
-  if (mode === 'name') return copy.sort((a, b) => a.name.localeCompare(b.name));
+  if (mode === 'name') return copy.sort(pinnedFirst((a, b) => a.name.localeCompare(b.name)));
   if (mode === 'updated') {
-    return copy.sort((a, b) => new Date(b.updatedAt ?? 0) - new Date(a.updatedAt ?? 0));
+    return copy.sort(pinnedFirst((a, b) => new Date(b.updatedAt ?? 0) - new Date(a.updatedAt ?? 0)));
   }
-  return copy.sort(byRating);
+  return copy.sort(pinnedFirst(byRating));
 }
 
 /** Same-category neighbours shown at the bottom of a listing page. */

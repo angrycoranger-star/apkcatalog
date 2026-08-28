@@ -97,6 +97,11 @@ for (const [index, entry] of apps.entries()) {
     }
   }
 
+  // Owner-only web-version link (adds a "play in browser" button on the card).
+  if (app?.web_url && !isHttps(app.web_url)) {
+    errors.push(`${where}: web_url must be an https URL`);
+  }
+
   if (app?.rating !== null && app?.rating !== undefined) {
     if (typeof app.rating !== 'number' || app.rating < 0 || app.rating > 5) {
       errors.push(`${where}: rating ${app.rating} is out of the 0-5 range`);

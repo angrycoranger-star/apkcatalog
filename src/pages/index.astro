@@ -3,8 +3,9 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import SearchBox from '../components/SearchBox.astro';
 import Carousel from '../components/Carousel.astro';
 import { t } from '../i18n/index.js';
-import { popularApps, topRatedApps, recentApps, usedCategories, getAllApps } from '../lib/apps.js';
+import { featuredApps, popularApps, topRatedApps, recentApps, usedCategories, getAllApps } from '../lib/apps.js';
 
+const featured = featuredApps(14);
 const popular = popularApps(14);
 const topRated = topRatedApps(14);
 const recent = recentApps(14);
@@ -35,6 +36,9 @@ const jsonLd = {
   </section>
 
   <div class="mx-auto max-w-6xl pb-4">
+    {featured.length > 0 && (
+      <Carousel id="featured" title={t('home.featured')} apps={featured} />
+    )}
     {popular.length > 0 && (
       <Carousel id="popular" title={t('home.popular')} apps={popular} moreHref="/apps/" />
     )}
