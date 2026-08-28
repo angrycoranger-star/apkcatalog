@@ -110,6 +110,21 @@ const categories = categoryChoices();
           <input id="promoOrder" type="number" value="100" min="0" step="1" />
         </fieldset>
 
+        <fieldset>
+          <legend>Оценка</legend>
+          <div class="row">
+            <div>
+              <label for="rating">Рейтинг (0–5)</label>
+              <input id="rating" type="number" min="0" max="5" step="0.1" placeholder="напр. 4.7" />
+            </div>
+            <div>
+              <label for="ratingsCount">Кол-во оценок</label>
+              <input id="ratingsCount" type="number" min="0" step="1" placeholder="напр. 1200" />
+            </div>
+          </div>
+          <p class="hint">Необязательно. Задаёт звёзды на карточке и влияет на «Популярное / Высокий рейтинг». Оставь пустым — звёзд не будет.</p>
+        </fieldset>
+
         <div class="bar" id="bar"><i id="barfill"></i></div>
         <button id="submit" type="submit">Опубликовать</button>
         <div class="status" id="status"></div>
@@ -172,7 +187,9 @@ const categories = categoryChoices();
               webUrl: $('hasWeb').checked ? $('webUrl').value.trim() : '',
               featured: $('featured').checked,
               pinned: $('pinned').checked,
-              promoOrder: Number($('promoOrder').value) || 100
+              promoOrder: Number($('promoOrder').value) || 100,
+              rating: $('rating').value,
+              ratingsCount: $('ratingsCount').value
             })
           });
           const data = await res.json();

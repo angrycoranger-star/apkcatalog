@@ -34,6 +34,8 @@ function shape(a) {
     category: a.category || '',
     categorySlug: categorySlugById(a.category),
     version: a.version || '',
+    rating: typeof a.rating === 'number' ? a.rating : '',
+    ratings_count: typeof a.ratings_count === 'number' ? a.ratings_count : '',
     icon_url: a.icon_url || '',
     screenshots: Array.isArray(a.screenshots) ? a.screenshots : [],
     web_url: a.web_url || '',

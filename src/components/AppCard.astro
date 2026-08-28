@@ -18,9 +18,9 @@ const rail = variant === 'rail';
     rail ? 'h-full w-[10.5rem] sm:w-44' : 'h-full'
   ]}
 >
-  <div class:list={['flex gap-3', rail ? 'flex-col items-start' : 'items-start']}>
+  <div class:list={['flex gap-3', rail ? 'w-full flex-col items-start' : 'items-start']}>
     <AppIcon src={app.icon} alt={app.name} size={rail ? 64 : 56} eager={eager} />
-    <div class="min-w-0 flex-1">
+    <div class:list={['min-w-0 flex-1', rail && 'w-full']}>
       <h3 class="truncate text-sm font-semibold leading-tight">
         <a href={app.href} class="after:absolute after:inset-0 after:content-['']">
           {app.name}
@@ -38,7 +38,7 @@ const rail = variant === 'rail';
   )}
 
   <div class:list={['mt-auto flex items-center gap-1.5 pt-3 text-[11px]', rail && 'pt-2']}>
-    <span class="truncate rounded-full bg-brand-50 px-2 py-0.5 font-medium text-brand-700 dark:bg-brand-500/15 dark:text-brand-300">
+    <span class="min-w-0 truncate rounded-full bg-brand-50 px-2 py-0.5 font-medium text-brand-700 dark:bg-brand-500/15 dark:text-brand-300">
       {app.categoryLabel}
     </span>
     {app.size && <span class="shrink-0 text-muted">{app.size}</span>}
