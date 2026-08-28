@@ -6,7 +6,7 @@ import Screenshots from '../../components/Screenshots.astro';
 import DownloadButton from '../../components/DownloadButton.astro';
 import AppCard from '../../components/AppCard.astro';
 import { getAllApps, getBySlug, similarApps } from '../../lib/apps.js';
-import { t, formatNumber, formatDate, LOCALES, LANG } from '../../i18n/index.js';
+import { t, formatNumber, formatDate, LOCALES, LANG, appUrlFor, appAlternates, navHref } from '../../i18n/index.js';
 
 export function getStaticPaths() {
   return getAllApps().map((app) => ({ params: { slug: app.slug }, props: { app } }));
@@ -19,7 +19,7 @@ const listLabel = app.type === 'game' ? t('games.title') : t('apps.title');
 
 const facts = [
   { label: t('card.developer'), value: app.developer },
-  { label: t('card.category'), value: app.categoryLabel, href: `${listBase}${app.categorySlug}/` },
+  { label: t('card.category'), value: app.categoryLabel, href: navHref(`${listBase}${app.categorySlug}/`) },
   { label: t('card.size'), value: app.size },
   { label: t('card.version'), value: app.version },
   { label: t('card.installs'), value: app.installs },
@@ -79,15 +79,15 @@ const jsonLd = [
 ];
 ---
 
-<BaseLayout title={app.name} description={description} image={app.icon} ogType="article" jsonLd={jsonLd}>
+<BaseLayout title={app.name} description={description} image={app.icon} ogType="article" jsonLd={jsonLd} canonical={appUrlFor(app.slug, LANG)} alternates={appAlternates(app.slug)}>
   <div class="mx-auto max-w-4xl px-4 py-8">
     <nav aria-label="breadcrumb" class="mb-5 text-sm text-muted">
       <ol class="flex flex-wrap items-center gap-1.5">
-        <li><a class="hover:text-brand-600" href="/">{t('nav.home')}</a></li>
+        <li><a class="hover:text-brand-600" href={navHref('/')}>{t('nav.home')}</a></li>
         <li aria-hidden="true">/</li>
-        <li><a class="hover:text-brand-600" href={listBase}>{listLabel}</a></li>
+        <li><a class="hover:text-brand-600" href={navHref(listBase)}>{listLabel}</a></li>
         <li aria-hidden="true">/</li>
-        <li><a class="hover:text-brand-600" href={`${listBase}${app.categorySlug}/`}>{app.categoryLabel}</a></li>
+        <li><a class="hover:text-brand-600" href={navHref(`${listBase}${app.categorySlug}/`)}>{app.categoryLabel}</a></li>
       </ol>
     </nav>
 
@@ -113,7 +113,7 @@ const jsonLd = [
           <div class="mt-3 flex flex-wrap items-center gap-x-4 gap-y-2">
             <Rating value={app.rating} count={app.ratingsCount} size="lg" />
             <a
-              href={`${listBase}${app.categorySlug}/`}
+              href={navHref(`${listBase}${app.categorySlug}/`)}
               class="rounded-full bg-brand-50 px-2.5 py-1 text-xs font-medium text-brand-700 dark:bg-brand-500/15 dark:text-brand-300"
             >
               {app.categoryLabel}
@@ -210,7 +210,7 @@ const jsonLd = [
       )}
 
       <p class="mt-10">
-        <a href={listBase} class="text-sm font-medium text-brand-600 hover:underline">← {t('card.backTo')}</a>
+        <a href={navHref(listBase)} class="text-sm font-medium text-brand-600 hover:underline">← {t('card.backTo')}</a>
       </p>
     </article>
   </div>

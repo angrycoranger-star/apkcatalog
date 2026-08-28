@@ -12,12 +12,17 @@ const {
   image,
   noindex = false,
   ogType = 'website',
-  jsonLd = null
+  jsonLd = null,
+  canonical: canonicalProp = null,
+  alternates: alternatesProp = null
 } = Astro.props;
 
 const pathname = Astro.url.pathname;
-const canonical = new URL(pathname, Astro.site ?? `https://${LANG}.${DOMAIN}`).href;
-const alternates = alternateUrls(pathname);
+// App pages under the per-app subdomain scheme pass their own absolute canonical
+// and hreflang set; everything else derives them from the path on this host.
+const canonical = canonicalProp ?? new URL(pathname, Astro.site ?? `https://${LANG}.${DOMAIN}`).href;
+const alternates = alternatesProp ?? alternateUrls(pathname);
+const xDefaultUrl = alternatesProp?.find((a) => a.lang === DEFAULT_LANG)?.url ?? `${hostFor(DEFAULT_LANG)}${pathname}`;
 const fullTitle = title ? `${title} — ${t('site.name')}` : `${t('site.name')} — ${t('site.tagline')}`;
 const ogImage = image ? new URL(image, canonical).href : new URL('/og-default.svg', canonical).href;
 const structured = Array.isArray(jsonLd) ? jsonLd : jsonLd ? [jsonLd] : [];
@@ -38,7 +43,7 @@ const structured = Array.isArray(jsonLd) ? jsonLd : jsonLd ? [jsonLd] : [];
     {alternates.map((alt) => (
       <link rel="alternate" hreflang={alt.locale} href={alt.url} />
     ))}
-    <link rel="alternate" hreflang="x-default" href={`${hostFor(DEFAULT_LANG)}${pathname}`} />
+    <link rel="alternate" hreflang="x-default" href={xDefaultUrl} />
 
     <meta property="og:type" content={ogType} />
     <meta property="og:site_name" content={t('site.name')} />

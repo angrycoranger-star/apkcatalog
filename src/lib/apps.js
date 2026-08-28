@@ -2,7 +2,7 @@ import rawApps from '../../data/apps.json';
 import customApps from '../../data/custom-apps.json';
 import fdroidApps from '../../data/fdroid-apps.json';
 import meta from '../../data/apps.meta.json';
-import { LANG } from '../i18n/index.js';
+import { LANG, appHref } from '../i18n/index.js';
 import { DEFAULT_LANG } from '../../config/catalog.config.js';
 import { categoryById, isGameCategory } from '../../config/catalog.config.js';
 
@@ -55,7 +55,7 @@ function normalize(app, lang) {
     fdroid: app.source === 'fdroid',
     checksum: app.download?.checksum_sha256 || '',
     url: downloadUrl(app),
-    href: `/app/${app.slug}/`
+    href: appHref(app.slug)
   };
 }
 

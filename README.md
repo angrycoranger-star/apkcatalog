@@ -50,6 +50,26 @@ record's `translations` block. Every page emits `hreflang` alternates pointing
 at its counterparts on the other subdomains, plus `x-default` to Russian, so
 the builds are understood as one site rather than duplicates.
 
+### Per-app subdomains (optional)
+
+By default an app page lives at `<lang>.<domain>/app/<slug>/`. Setting
+`PUBLIC_APP_SUBDOMAINS=1` switches the whole scheme so each app is addressed at
+`<slug>.<lang>.<domain>` (e.g. `aviator.en.apk4orge.com`): the build emits that
+form as the canonical, in card links, `hreflang` alternates and the sitemap, and
+the edge middleware rewrites `<slug>.<lang>.<domain>/` to the built
+`/app/<slug>/` page (so the pretty URL stays in the bar; catalog nav links become
+absolute to the language host). The flag ships **off** — turn it on only after
+the hosting side has the wildcard domain in place:
+
+1. Add the wildcard domain `*.<lang>.<domain>` to each language's project and a
+   wildcard DNS record, so the host issues SSL for it (on Vercel this means the
+   domain uses Vercel DNS).
+2. Set `PUBLIC_APP_SUBDOMAINS=1` in each project and redeploy.
+
+Note the SEO trade-off: spreading every app across its own subdomain fragments
+domain authority versus keeping them on one host — path URLs are the safer
+default. The flag exists so the choice is reversible.
+
 A language with no translation yet falls back to Russian per field, so a new
 language ships readable pages immediately and fills in as cards are refreshed.
 
