@@ -8,9 +8,9 @@ on:
   workflow_dispatch:
     inputs:
       repo:
-        description: 'F-Droid repo base URL'
+        description: 'Repo base URL(s), comma-separated. Blank = F-Droid + IzzyOnDroid.'
         required: false
-        default: 'https://f-droid.org/repo'
+        default: ''
       limit:
         description: 'Max apps to import (blank = all)'
         required: false
@@ -34,10 +34,10 @@ jobs:
           cache: npm
       - run: npm ci
 
-      - name: Import F-Droid
+      - name: Import F-Droid + IzzyOnDroid
         run: |
           node scripts/fdroid-import.js \
-            --repo "${{ inputs.repo || 'https://f-droid.org/repo' }}" \
+            ${{ inputs.repo && format('--repo {0}', inputs.repo) || '' }} \
             ${{ inputs.limit && format('--limit {0}', inputs.limit) || '' }}
 
       - name: Validate the dataset

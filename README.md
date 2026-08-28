@@ -189,8 +189,16 @@ source" badge, and the license on the spec table — the APKMirror-style
 "download the file here" model, but only for files a license lets us distribute.
 
 ```bash
-npm run fdroid            # one request pulls the whole F-Droid index
+npm run fdroid            # pulls F-Droid + IzzyOnDroid (one request each)
+npm run fdroid -- --repo https://f-droid.org/repo   # a single repo
 ```
+
+By default it merges two F-Droid-format repositories — the main **F-Droid**
+archive and **IzzyOnDroid** (a much larger F-Droid-compatible repo of
+open-source apps built from GitHub releases) — deduping by package id so a
+f-droid.org build wins over an IzzyOnDroid one. Pass a comma-separated `--repo`
+list to override; any F-Droid-format repo works, and the license allowlist gates
+all of them equally.
 
 `scripts/lib/fdroid.js` gates on a redistributable-license allowlist, and the
 validator fails the build if any F-Droid card carries a non-free license. Cards
