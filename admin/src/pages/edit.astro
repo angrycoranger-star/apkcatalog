@@ -102,6 +102,21 @@ const categories = categoryChoices();
         </fieldset>
 
         <fieldset>
+          <legend>Оценка</legend>
+          <div class="row">
+            <div>
+              <label for="rating">Рейтинг (0–5)</label>
+              <input id="rating" type="number" min="0" max="5" step="0.1" placeholder="пусто — без звёзд" />
+            </div>
+            <div>
+              <label for="ratingsCount">Кол-во оценок</label>
+              <input id="ratingsCount" type="number" min="0" step="1" />
+            </div>
+          </div>
+          <p class="hint">Поставь 0, чтобы убрать звёзды. Влияет на «Популярное / Высокий рейтинг».</p>
+        </fieldset>
+
+        <fieldset>
           <legend>Файлы (по желанию)</legend>
           <label for="apk">Заменить APK</label>
           <input id="apk" type="file" accept=".apk,application/vnd.android.package-archive" />
@@ -156,6 +171,8 @@ const categories = categoryChoices();
           $('promoOrder').value = a.promo_order ?? 100;
           $('featured').checked = !!a.featured;
           $('pinned').checked = !!a.pinned;
+          $('rating').value = a.rating ?? '';
+          $('ratingsCount').value = a.ratings_count ?? '';
           if (a.web_url) { $('hasWeb').checked = true; $('webWrap').classList.remove('hidden'); $('webUrl').value = a.web_url; }
           $('shotsHint').textContent = `Сейчас скриншотов: ${(a.screenshots || []).length}. Новые заменят их полностью.`;
           $('sub').textContent = `/app/${a.slug}/ · v${a.version || '?'}`;
@@ -180,7 +197,9 @@ const categories = categoryChoices();
             webUrl: $('hasWeb').checked ? $('webUrl').value.trim() : '',
             featured: $('featured').checked,
             pinned: $('pinned').checked,
-            promoOrder: Number($('promoOrder').value) || 100
+            promoOrder: Number($('promoOrder').value) || 100,
+            rating: $('rating').value,
+            ratingsCount: $('ratingsCount').value
           };
 
           const shotFiles = Array.from($('shots').files).slice(0, 8);

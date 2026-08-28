@@ -43,6 +43,22 @@ export function normalizeWebUrl(value) {
   return url;
 }
 
+/** Owner-set rating (0–5) and ratings count, both optional. Empty = unchanged. */
+export function ratingFields(form = {}) {
+  const out = {};
+  if (form.rating !== undefined && form.rating !== null && `${form.rating}`.trim() !== '') {
+    const r = Number(form.rating);
+    if (!Number.isFinite(r) || r < 0 || r > 5) throw new Error('rating must be between 0 and 5');
+    out.rating = Math.round(r * 10) / 10;
+  }
+  if (form.ratingsCount !== undefined && form.ratingsCount !== null && `${form.ratingsCount}`.trim() !== '') {
+    const c = Number(form.ratingsCount);
+    if (!Number.isFinite(c) || c < 0) throw new Error('ratings count must be 0 or more');
+    out.ratings_count = Math.trunc(c);
+  }
+  return out;
+}
+
 /** Owner-only promotion flags read from the form (checkboxes + an order number). */
 export function promoteFields(form = {}) {
   const order = Number(form.promoOrder);
@@ -96,6 +112,7 @@ export function buildRecord({ form, apk, blob, existingSlugs = new Set() }) {
     screenshots: Array.isArray(form.screenshots) ? form.screenshots.filter(Boolean).slice(0, 8) : [],
     permissions: apk.permissions || [],
     web_url: normalizeWebUrl(form.webUrl),
+    ...ratingFields(form),
     ...promoteFields(form),
     translations,
     download: {
@@ -143,6 +160,9 @@ export function buildPatch({ form = {}, apk = null, blob = null, existing = {} }
   if ('featured' in form || 'pinned' in form || 'promoOrder' in form) {
     Object.assign(patch, promoteFields(form));
   }
+
+  // Rating / ratings count only change when a value is actually provided.
+  Object.assign(patch, ratingFields(form));
 
   // Replacing the APK: recompute version/size/min-Android/permissions/checksum.
   if (apk && blob?.apkUrl) {
