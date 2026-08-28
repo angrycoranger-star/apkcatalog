@@ -1,0 +1,57 @@
+name: Import GitHub-release apps
+
+# Weekly: refresh open-source apps that ship an APK in their GitHub releases
+# (config/github-apps.js). Each app is one API call plus one APK download.
+on:
+  schedule:
+    - cron: '0 5 * * 1'
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 'Max apps to import (blank = all)'
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: catalog-data
+  cancel-in-progress: false
+
+jobs:
+  github-apps:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+
+      - name: Import GitHub-release apps
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          node scripts/github-import.js \
+            ${{ inputs.limit && format('--limit {0}', inputs.limit) || '' }}
+
+      - name: Validate the dataset
+        run: npm run data:validate
+
+      - name: Verify all four language builds
+        run: npm run build:all
+
+      - name: Commit the GitHub-release catalog
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add data/github-apps.json data/github.meta.json public/img/github 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo 'No GitHub-release change'
+            exit 0
+          fi
+          count=$(node -p "require('./data/github-apps.json').length")
+          git commit -m "chore(data): refresh ${count} GitHub-release apps"
+          git push

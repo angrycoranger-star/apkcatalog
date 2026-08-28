@@ -13,6 +13,7 @@ import { DATA_DIR, readJson, log } from './lib/util.js';
 const scraped = await readJson(path.join(DATA_DIR, 'apps.json'), null);
 const custom = await readJson(path.join(DATA_DIR, 'custom-apps.json'), []);
 const fdroid = await readJson(path.join(DATA_DIR, 'fdroid-apps.json'), []);
+const github = await readJson(path.join(DATA_DIR, 'github-apps.json'), []);
 
 if (!Array.isArray(scraped)) {
   log.error('data/apps.json is missing or is not an array.');
@@ -29,6 +30,7 @@ const isHttps = (url) => typeof url === 'string' && url.startsWith('https://');
 const apps = [
   ...custom.map((a) => ({ app: a, custom: true, source: 'custom-apps.json' })),
   ...fdroid.map((a) => ({ app: a, custom: true, source: 'fdroid-apps.json' })),
+  ...github.map((a) => ({ app: a, custom: true, source: 'github-apps.json' })),
   ...scraped.map((a) => ({ app: a, custom: false, source: 'apps.json' }))
 ];
 
@@ -64,9 +66,9 @@ for (const [index, entry] of apps.entries()) {
     if (type === 'store' && !d.store) {
       warnings.push(`${where}: store download has no store name (button label will be generic)`);
     }
-    // Open-source (F-Droid) cards must carry a license we may redistribute under.
-    if (app?.source === 'fdroid' && !isRedistributable(app?.license)) {
-      errors.push(`${where}: F-Droid card has a non-redistributable or missing license "${app?.license ?? ''}"`);
+    // Open-source (F-Droid / GitHub) cards must carry a redistributable license.
+    if ((app?.source === 'fdroid' || app?.source === 'github') && !isRedistributable(app?.license)) {
+      errors.push(`${where}: open-source card has a non-redistributable or missing license "${app?.license ?? ''}"`);
     }
   } else {
     if (!/^https:\/\/play\.google\.com\/store\/apps\/details\?id=/.test(app?.google_play_url ?? '')) {
@@ -118,4 +120,4 @@ if (errors.length > 0) {
   process.exit(1);
 }
 
-log.done(`Dataset is valid: ${scraped.length} scraped + ${custom.length} custom + ${fdroid.length} F-Droid = ${apps.length} cards, ${warnings.length} warning(s).`);
+log.done(`Dataset is valid: ${scraped.length} scraped + ${custom.length} custom + ${fdroid.length} F-Droid + ${github.length} GitHub = ${apps.length} cards, ${warnings.length} warning(s).`);
