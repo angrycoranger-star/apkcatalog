@@ -1,1 +1,53 @@
-[]
+[
+  {
+    "slug": "aviator",
+    "custom": true,
+    "source": "owner",
+    "package_id": "com.example.aviator",
+    "category": "GAME_CASINO",
+    "developer": "Mostbet",
+    "version": "1.0",
+    "size": "9.5 MB",
+    "min_android": "7.0",
+    "icon_url": "https://s15pbt1nuv1lizek.public.blob.vercel-storage.com/icons/aviator-1787884291756-6tldeKargGUhDcOzlUDWC1ZmoMPbQe.webp",
+    "screenshots": [
+      "https://s15pbt1nuv1lizek.public.blob.vercel-storage.com/screenshots/Slice_1_1_-XjHK8CyqREB5yAldIDRnucgbw9cJR9.png",
+      "https://s15pbt1nuv1lizek.public.blob.vercel-storage.com/screenshots/Slice_2_1_-x4MPTTV9qSu3TAVquRdTPc4rrwcza0.png",
+      "https://s15pbt1nuv1lizek.public.blob.vercel-storage.com/screenshots/Slice_3_1_-B1vedkdoFE3OeOOWWweACmMw1vpeB3.png",
+      "https://s15pbt1nuv1lizek.public.blob.vercel-storage.com/screenshots/Slice_4_1_-wLP3Ex5C9AGUda5AKa9yM0OmchVKK8.png",
+      "https://s15pbt1nuv1lizek.public.blob.vercel-storage.com/screenshots/Slice_5_1_-AwOC8icZiGirpWiJnUOkjlDfniKmmf.png"
+    ],
+    "permissions": [
+      "android.permission.INTERNET",
+      "android.permission.READ_EXTERNAL_STORAGE",
+      "android.permission.WRITE_EXTERNAL_STORAGE",
+      "com.example.aviator.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "translations": {
+      "ru": {
+        "name": "AVIATOR",
+        "summary": "AVIATOR"
+      },
+      "en": {
+        "name": "AVIATOR",
+        "summary": "AVIATOR"
+      },
+      "tr": {
+        "name": "AVIATOR",
+        "summary": "AVIATOR"
+      },
+      "uz": {
+        "name": "AVIATOR",
+        "summary": "AVIATOR"
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://s15pbt1nuv1lizek.public.blob.vercel-storage.com/apk/aviatorDIv_1_-EakEJos2fHQf5Rqe8NnDoU0lvELTWT.apk",
+      "checksum_sha256": "a5be6c89cd5557492130b8774a2d45373800b12b1922eca2aef792cf8d7c97da",
+      "updated": "2026-08-28"
+    },
+    "added_at": "2026-08-28T02:31:32.113Z",
+    "updated": "2026-08-28T02:31:32.113Z"
+  }
+]
