@@ -4,6 +4,7 @@ import AppIcon from '../../components/AppIcon.astro';
 import Rating from '../../components/Rating.astro';
 import Screenshots from '../../components/Screenshots.astro';
 import DownloadButton from '../../components/DownloadButton.astro';
+import Reviews from '../../components/Reviews.astro';
 import AppCard from '../../components/AppCard.astro';
 import { getAllApps, getBySlug, similarApps } from '../../lib/apps.js';
 import { t, formatNumber, formatDate, LOCALES, LANG } from '../../i18n/index.js';
@@ -197,6 +198,8 @@ const jsonLd = [
           </ul>
         </section>
       )}
+
+      <Reviews slug={app.slug} />
 
       {similar.length > 0 && (
         <section class="mt-10" aria-labelledby="similar-title">

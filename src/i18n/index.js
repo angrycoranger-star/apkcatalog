@@ -10,6 +10,13 @@ export const DOMAIN = import.meta.env.PUBLIC_SITE_DOMAIN || 'apk4orge.com';
 
 export const CONTACT_EMAIL = import.meta.env.PUBLIC_CONTACT_EMAIL || `hello@${DOMAIN}`;
 
+/**
+ * Base URL of the review service (the admin server project). Empty by default,
+ * which hides the reviews block entirely — set PUBLIC_API_BASE to the admin
+ * deployment (e.g. https://apk4orge-admin.vercel.app) to switch reviews on.
+ */
+export const API_BASE = (import.meta.env.PUBLIC_API_BASE || '').replace(/\/$/, '');
+
 /** BCP-47 tags used for `lang` attributes, Intl and hreflang. */
 export const LOCALES = { ru: 'ru-RU', en: 'en-US', tr: 'tr-TR', uz: 'uz-UZ' };
 
