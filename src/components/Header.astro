@@ -7,7 +7,8 @@ const path = Astro.url.pathname;
 const links = [
   { href: '/', label: t('nav.home') },
   { href: '/apps/', label: t('nav.apps') },
-  { href: '/games/', label: t('nav.games') }
+  { href: '/games/', label: t('nav.games') },
+  { href: '/collections/', label: t('nav.collections') }
 ];
 const isActive = (href) => (href === '/' ? path === '/' : path.startsWith(href));
 /* The homepage hero has its own large search field. */
