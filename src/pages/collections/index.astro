@@ -1,0 +1,54 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import AppIcon from '../../components/AppIcon.astro';
+import { getCollections } from '../../lib/collections.js';
+import { t } from '../../i18n/index.js';
+
+const collections = getCollections();
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: t('collections.title'),
+  description: t('collections.subtitle'),
+  url: Astro.site ? new URL('/collections/', Astro.site).href : undefined
+};
+---
+
+<BaseLayout title={t('collections.title')} description={t('collections.subtitle')} jsonLd={jsonLd}>
+  <div class="mx-auto max-w-6xl px-4 py-8">
+    <nav aria-label="breadcrumb" class="mb-5 text-sm text-muted">
+      <ol class="flex flex-wrap items-center gap-1.5">
+        <li><a class="hover:text-brand-600" href="/">{t('nav.home')}</a></li>
+        <li aria-hidden="true">/</li>
+        <li>{t('collections.title')}</li>
+      </ol>
+    </nav>
+
+    <h1 class="text-2xl font-bold tracking-tight sm:text-3xl">{t('collections.title')}</h1>
+    <p class="mt-2 max-w-2xl text-sm text-muted">{t('collections.subtitle')}</p>
+
+    {collections.length === 0 ? (
+      <p class="mt-8 rounded-2xl border border-dashed p-10 text-center text-sm text-muted">{t('collections.empty')}</p>
+    ) : (
+      <ul class="mt-6 grid gap-4 sm:grid-cols-2">
+        {collections.map((c) => (
+          <li>
+            <a href={`/collections/${c.slug}/`} class="flex h-full flex-col rounded-2xl border p-5 transition-shadow hover:shadow-md surface">
+              <h2 class="text-lg font-semibold tracking-tight">{c.title}</h2>
+              <p class="mt-1.5 line-clamp-2 text-sm text-muted">{c.intro.split('\n\n')[0]}</p>
+              <div class="mt-4 flex items-center gap-2">
+                <div class="flex -space-x-2">
+                  {c.apps.slice(0, 5).map((app) => (
+                    <AppIcon src={app.icon} alt={app.name} size={28} rounded="rounded-lg" />
+                  ))}
+                </div>
+                <span class="text-xs text-muted">{t('collections.count', undefined, { n: c.apps.length })}</span>
+              </div>
+            </a>
+          </li>
+        ))}
+      </ul>
+    )}
+  </div>
+</BaseLayout>
