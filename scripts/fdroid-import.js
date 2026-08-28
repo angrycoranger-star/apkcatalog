@@ -28,26 +28,55 @@ const OUT_PATH = path.join(DATA_DIR, 'fdroid-apps.json');
 const META_PATH = path.join(DATA_DIR, 'fdroid.meta.json');
 
 const args = parseArgs();
-const repoUrl = typeof args.repo === 'string' ? args.repo : 'https://f-droid.org/repo';
-const indexUrl = `${repoUrl.replace(/\/$/, '')}/index-v2.json`;
+
+/* F-Droid-format repositories to merge, in priority order: the main F-Droid
+   archive first, then IzzyOnDroid (a much larger F-Droid-compatible repo of
+   open-source apps built from GitHub releases). Override with a comma-separated
+   --repo list. The same SPDX-license allowlist gates every repo. */
+const DEFAULT_REPOS = [
+  'https://f-droid.org/repo',
+  'https://apt.izzysoft.de/fdroid/repo'
+];
+const repos = typeof args.repo === 'string'
+  ? args.repo.split(',').map((s) => s.trim()).filter(Boolean)
+  : DEFAULT_REPOS;
 const limit = args.limit ? Number(args.limit) : Infinity;
 const timeoutMs = Number(args.timeout ?? 120000);
 const dryRun = Boolean(args['dry-run']);
 
-async function loadIndex() {
+async function loadIndex(repo) {
   if (typeof args.index === 'string') {
     log.info(`Reading index from ${args.index}`);
     return JSON.parse(await readFile(args.index, 'utf8'));
   }
+  const indexUrl = `${repo.replace(/\/$/, '')}/index-v2.json`;
   log.info(`Fetching ${indexUrl} …`);
   const res = await withTimeout(fetch(indexUrl), timeoutMs, 'index fetch');
-  if (!res.ok) throw new Error(`index fetch failed: HTTP ${res.status}`);
+  if (!res.ok) throw new Error(`index fetch failed: HTTP ${res.status} (${repo})`);
   return res.json();
 }
 
-const index = await loadIndex();
-const { records, skipped, total } = parseIndex(index, repoUrl);
-log.info(`Index: ${total} packages → ${records.length} redistributable, ${skipped.length} skipped`);
+/* Merge the repos; the first occurrence of a package id wins, so a f-droid.org
+   build is kept over an IzzyOnDroid one for the same app. */
+const seen = new Set();
+const records = [];
+let total = 0;
+let skippedTotal = 0;
+for (const repo of repos) {
+  const index = await loadIndex(repo);
+  const parsed = parseIndex(index, repo);
+  total += parsed.total;
+  skippedTotal += parsed.skipped.length;
+  let added = 0;
+  for (const rec of parsed.records) {
+    if (seen.has(rec.packageName)) continue;
+    seen.add(rec.packageName);
+    records.push(rec);
+    added += 1;
+  }
+  log.info(`  ${repo}: ${parsed.total} packages → ${parsed.records.length} redistributable, ${added} new, ${parsed.skipped.length} skipped`);
+}
+log.info(`Merged ${records.length} redistributable cards from ${repos.length} repo(s)`);
 
 const existing = await readJson(OUT_PATH, []);
 /* Slugs are permanent so a card's URL never changes. */
@@ -124,17 +153,17 @@ function hostOf(url) {
 const meta = {
   generated_at: new Date().toISOString(),
   source: 'fdroid-import.js',
-  repo: repoUrl,
+  repos,
   index_packages: total,
   redistributable: records.length,
-  skipped: skipped.length,
+  skipped: skippedTotal,
   count: apps.length
 };
 
 if (dryRun) {
-  log.done(`Dry run: ${apps.length} F-Droid cards would be written (repo ${repoUrl}).`);
+  log.done(`Dry run: ${apps.length} F-Droid cards would be written from ${repos.length} repo(s).`);
 } else {
   await writeJson(OUT_PATH, apps);
   await writeJson(META_PATH, meta);
-  log.done(`Wrote ${apps.length} F-Droid cards to data/fdroid-apps.json (${skipped.length} non-redistributable skipped).`);
+  log.done(`Wrote ${apps.length} F-Droid cards to data/fdroid-apps.json (${skippedTotal} non-redistributable skipped).`);
 }
