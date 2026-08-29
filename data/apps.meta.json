@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T21:58:25.753Z",
+  "generated_at": "2026-08-29T03:09:17.523Z",
   "source": "fetch-details.js",
   "sample": false,
   "count": 2130,
@@ -13,8 +13,8 @@
   "summaries": "composed",
   "run": {
     "updated": 0,
-    "created": 378,
-    "failed": 22,
+    "created": 0,
+    "failed": 15,
     "dropped": 0,
     "llm": 0
   }
