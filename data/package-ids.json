@@ -29,7 +29,7 @@
     "SHOPPING",
     "TOOLS"
   ],
-  "total": 2135,
+  "total": 2130,
   "new_this_run": 2160,
   "still_charting": 2160,
   "no_longer_charting": 0,
@@ -26729,21 +26729,6 @@
       "failures": 0
     },
     {
-      "package_id": "com.callapp.contacts",
-      "category": "COMMUNICATION",
-      "categories": [
-        "COMMUNICATION"
-      ],
-      "countries": [
-        "uz"
-      ],
-      "best_rank": 44,
-      "first_seen": "2026-08-25T09:50:02.511Z",
-      "last_seen": "2026-08-25T09:50:02.511Z",
-      "failures": 2,
-      "unavailable_since": "2026-08-28T21:58:25.834Z"
-    },
-    {
       "package_id": "com.CarXTech.highWay",
       "category": "GAME_RACING",
       "categories": [
@@ -27139,21 +27124,6 @@
       "first_seen": "2026-08-25T09:50:02.511Z",
       "last_seen": "2026-08-25T09:50:02.511Z",
       "failures": 0
-    },
-    {
-      "package_id": "free.vpn.unblock.proxy.vpnmaster",
-      "category": "TOOLS",
-      "categories": [
-        "TOOLS"
-      ],
-      "countries": [
-        "ru"
-      ],
-      "best_rank": 44,
-      "first_seen": "2026-08-25T09:50:02.511Z",
-      "last_seen": "2026-08-25T09:50:02.511Z",
-      "failures": 2,
-      "unavailable_since": "2026-08-28T21:58:25.834Z"
     },
     {
       "package_id": "gg.stand.golda",
@@ -27687,21 +27657,6 @@
       "first_seen": "2026-08-25T09:50:02.511Z",
       "last_seen": "2026-08-25T09:50:02.511Z",
       "failures": 0
-    },
-    {
-      "package_id": "com.webbankir",
-      "category": "FINANCE",
-      "categories": [
-        "FINANCE"
-      ],
-      "countries": [
-        "ru"
-      ],
-      "best_rank": 45,
-      "first_seen": "2026-08-25T09:50:02.511Z",
-      "last_seen": "2026-08-25T09:50:02.511Z",
-      "failures": 2,
-      "unavailable_since": "2026-08-28T21:58:25.834Z"
     },
     {
       "package_id": "com.winneraktuel.com",
@@ -28744,21 +28699,6 @@
       "failures": 0
     },
     {
-      "package_id": "com.kbeq.ppc2",
-      "category": "GAME_ADVENTURE",
-      "categories": [
-        "GAME_ADVENTURE"
-      ],
-      "countries": [
-        "tr"
-      ],
-      "best_rank": 47,
-      "first_seen": "2026-08-25T09:50:02.511Z",
-      "last_seen": "2026-08-25T09:50:02.511Z",
-      "failures": 2,
-      "unavailable_since": "2026-08-28T21:58:25.834Z"
-    },
-    {
       "package_id": "com.logicapp",
       "category": "HEALTH_AND_FITNESS",
       "categories": [
@@ -29191,21 +29131,6 @@
       "first_seen": "2026-08-25T09:50:02.511Z",
       "last_seen": "2026-08-25T09:50:02.511Z",
       "failures": 0
-    },
-    {
-      "package_id": "com.craftgirl.waifusworld",
-      "category": "GAME_ADVENTURE",
-      "categories": [
-        "GAME_ADVENTURE"
-      ],
-      "countries": [
-        "ru"
-      ],
-      "best_rank": 48,
-      "first_seen": "2026-08-25T09:50:02.511Z",
-      "last_seen": "2026-08-25T09:50:02.511Z",
-      "failures": 2,
-      "unavailable_since": "2026-08-28T21:58:25.834Z"
     },
     {
       "package_id": "com.dt.trading.traffic.car.pro.driving.sim",
