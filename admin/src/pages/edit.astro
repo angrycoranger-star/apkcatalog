@@ -41,6 +41,13 @@ const categories = categoryChoices();
       .checkrow input[type=checkbox] { width: 18px; height: 18px; }
       .checkrow label { margin: 0; }
       .hidden { display: none; }
+      .genrow { display: flex; align-items: center; gap: 12px; margin-top: 10px; }
+      .genbtn { margin: 0; width: auto; height: 38px; padding: 0 16px; background: #131c31; color: #a5b4fc;
+        border: 1px solid #4f46e5; border-radius: 10px; font-size: 14px; font-weight: 500; }
+      .genbtn:disabled { opacity: .6; }
+      .genstatus { font-size: 13px; color: #94a3b8; }
+      .genstatus.err { color: #f87171; }
+      .genstatus.ok { color: #34d399; }
     </style>
   </head>
   <body>
@@ -73,7 +80,12 @@ const categories = categoryChoices();
         </div>
 
         <label for="description">Описание</label>
-        <textarea id="description" maxlength="2000"></textarea>
+        <textarea id="description" maxlength="4000"></textarea>
+        <div class="genrow">
+          <button type="button" id="gen" class="genbtn">✨ Сгенерировать через Claude</button>
+          <span class="genstatus" id="genstatus"></span>
+        </div>
+        <p class="hint">Перезапишет описание SEO-текстом на 4 языках. В поле — русский вариант.</p>
 
         <fieldset>
           <legend>Веб-версия</legend>
@@ -151,6 +163,34 @@ const categories = categoryChoices();
         if (!e.target.checked) $('webUrl').value = '';
       });
 
+      let generated = null;
+      $('gen').addEventListener('click', async () => {
+        const name = $('name').value.trim();
+        const s = $('genstatus');
+        if (!name) { s.textContent = 'Сначала введите название'; s.className = 'genstatus err'; return; }
+        const btn = $('gen');
+        btn.disabled = true; s.textContent = 'Claude пишет описание…'; s.className = 'genstatus';
+        try {
+          const res = await fetch('/api/generate', {
+            method: 'POST', headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({
+              name,
+              developer: $('developer').value.trim(),
+              categoryLabel: $('category').selectedOptions[0]?.textContent?.trim() || ''
+            })
+          });
+          const data = await res.json();
+          if (!res.ok) throw new Error(data.error || 'Ошибка генерации');
+          generated = data.translations || null;
+          if (generated && generated.ru) $('description').value = generated.ru;
+          s.textContent = 'Готово — на 4 языках. Правь русский при желании.'; s.className = 'genstatus ok';
+        } catch (err) {
+          s.textContent = err.message || 'Ошибка'; s.className = 'genstatus err';
+        } finally {
+          btn.disabled = false;
+        }
+      });
+
       async function uploadOne(file, folder) {
         const safe = file.name.replace(/[^a-zA-Z0-9._-]+/g, '_');
         const res = await upload(`${folder}/${safe}`, file, { access: 'public', handleUploadUrl: '/api/blob-token' });
@@ -194,6 +234,7 @@ const categories = categoryChoices();
             developer: $('developer').value.trim(),
             categorySlug: $('category').value,
             description: $('description').value.trim(),
+            descriptions: generated ? { ...generated, ru: $('description').value.trim() } : undefined,
             webUrl: $('hasWeb').checked ? $('webUrl').value.trim() : '',
             featured: $('featured').checked,
             pinned: $('pinned').checked,

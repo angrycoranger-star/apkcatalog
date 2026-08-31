@@ -22,7 +22,7 @@ export async function POST({ request }) {
   }
 
   const {
-    apkUrl, screenshots = [], name, developer, categorySlug, description,
+    apkUrl, screenshots = [], name, developer, categorySlug, description, descriptions,
     webUrl, featured, pinned, promoOrder, rating, ratingsCount
   } = form;
   if (!apkUrl?.startsWith('https://')) return json({ error: 'missing APK upload' }, 400);
@@ -37,7 +37,7 @@ export async function POST({ request }) {
     }
 
     const record = buildRecord({
-      form: { name, developer, categorySlug, description, screenshots, webUrl, featured, pinned, promoOrder, rating, ratingsCount },
+      form: { name, developer, categorySlug, description, descriptions, screenshots, webUrl, featured, pinned, promoOrder, rating, ratingsCount },
       apk,
       blob: { apkUrl, iconUrl },
       existingSlugs: slugs
