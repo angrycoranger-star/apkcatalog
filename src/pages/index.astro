@@ -4,7 +4,9 @@ import SearchBox from '../components/SearchBox.astro';
 import Carousel from '../components/Carousel.astro';
 import { t } from '../i18n/index.js';
 import { featuredApps, popularApps, topRatedApps, recentApps, usedCategories, getAllApps } from '../lib/apps.js';
+import { featuredCollections } from '../lib/collections.js';
 
+const collections = featuredCollections(6);
 const featured = featuredApps(14);
 const popular = popularApps(14);
 const topRated = topRatedApps(14);
@@ -79,6 +81,25 @@ const jsonLd = {
         ))}
       </ul>
     </section>
+
+    {collections.length > 0 && (
+      <section class="mt-12 px-4" aria-labelledby="collections-title">
+        <div class="mb-3 flex items-end justify-between gap-4">
+          <h2 id="collections-title" class="text-lg font-semibold tracking-tight sm:text-xl">{t('collections.title')}</h2>
+          <a href="/collections/" class="text-sm font-medium text-brand-600 hover:underline">{t('home.viewAll')}</a>
+        </div>
+        <ul class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          {collections.map((c) => (
+            <li>
+              <a href={`/collections/${c.slug}/`} class="flex h-full flex-col rounded-xl border p-4 transition-colors hover:border-brand-400 surface">
+                <span class="font-medium">{c.title}</span>
+                <span class="mt-1 text-xs text-muted">{t('collections.count', undefined, { n: c.apps.length })}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
 
     {recent.length > 0 && (
       <Carousel id="recent" title={t('home.newApps')} apps={recent} moreHref="/apps/" />

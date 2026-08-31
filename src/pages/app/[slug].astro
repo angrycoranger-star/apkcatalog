@@ -4,6 +4,7 @@ import AppIcon from '../../components/AppIcon.astro';
 import Rating from '../../components/Rating.astro';
 import Screenshots from '../../components/Screenshots.astro';
 import DownloadButton from '../../components/DownloadButton.astro';
+import Reviews from '../../components/Reviews.astro';
 import AppCard from '../../components/AppCard.astro';
 import { getAllApps, getBySlug, similarApps } from '../../lib/apps.js';
 import { t, formatNumber, formatDate, LOCALES, LANG, appUrlFor, appAlternates, navHref } from '../../i18n/index.js';
@@ -146,7 +147,9 @@ const jsonLd = [
       {app.summary && (
         <section class="mt-8" aria-labelledby="about-title">
           <h2 id="about-title" class="mb-2 text-lg font-semibold tracking-tight">{t('card.about')}</h2>
-          <p class="text-sm leading-relaxed" style="color: var(--text);">{app.summary}</p>
+          <div class="space-y-3 text-sm leading-relaxed" style="color: var(--text);">
+            {app.summary.split('\n\n').filter(Boolean).map((para) => <p>{para}</p>)}
+          </div>
         </section>
       )}
 
@@ -197,6 +200,8 @@ const jsonLd = [
           </ul>
         </section>
       )}
+
+      <Reviews slug={app.slug} />
 
       {similar.length > 0 && (
         <section class="mt-10" aria-labelledby="similar-title">

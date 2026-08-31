@@ -1,16 +1,12 @@
-name: Import F-Droid apps
+name: Import GitHub-release apps
 
-# Weekly: refresh the open-source (F-Droid) catalog. F-Droid publishes the whole
-# repository in one index, so this is a single request — no rate-limiting.
+# Weekly: refresh open-source apps that ship an APK in their GitHub releases
+# (config/github-apps.js). Each app is one API call plus one APK download.
 on:
   schedule:
-    - cron: '0 4 * * 1'
+    - cron: '0 5 * * 1'
   workflow_dispatch:
     inputs:
-      repo:
-        description: 'Repo base URL(s), comma-separated. Blank = F-Droid + IzzyOnDroid.'
-        required: false
-        default: ''
       limit:
         description: 'Max apps to import (blank = all)'
         required: false
@@ -23,7 +19,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  fdroid:
+  github-apps:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
@@ -34,10 +30,11 @@ jobs:
           cache: npm
       - run: npm ci
 
-      - name: Import F-Droid + IzzyOnDroid
+      - name: Import GitHub-release apps
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          node scripts/fdroid-import.js \
-            ${{ inputs.repo && format('--repo {0}', inputs.repo) || '' }} \
+          node scripts/github-import.js \
             ${{ inputs.limit && format('--limit {0}', inputs.limit) || '' }}
 
       - name: Validate the dataset
@@ -46,15 +43,15 @@ jobs:
       - name: Verify all four language builds
         run: npm run build:all
 
-      - name: Commit the F-Droid catalog
+      - name: Commit the GitHub-release catalog
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
-          if git diff --quiet -- data/fdroid-apps.json data/fdroid.meta.json; then
-            echo 'No F-Droid change'
+          git add data/github-apps.json data/github.meta.json public/img/github 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo 'No GitHub-release change'
             exit 0
           fi
-          count=$(node -p "require('./data/fdroid-apps.json').length")
-          git add data/fdroid-apps.json data/fdroid.meta.json
-          git commit -m "chore(data): refresh ${count} F-Droid apps"
+          count=$(node -p "require('./data/github-apps.json').length")
+          git commit -m "chore(data): refresh ${count} GitHub-release apps"
           git push

@@ -1,6 +1,7 @@
 import rawApps from '../../data/apps.json';
 import customApps from '../../data/custom-apps.json';
 import fdroidApps from '../../data/fdroid-apps.json';
+import githubApps from '../../data/github-apps.json';
 import meta from '../../data/apps.meta.json';
 import { LANG, appHref } from '../i18n/index.js';
 import { DEFAULT_LANG } from '../../config/catalog.config.js';
@@ -109,7 +110,7 @@ function mergeSources(custom, scraped) {
 }
 
 const ALL = mergeSources(
-  [...customApps, ...fdroidApps],
+  [...customApps, ...fdroidApps, ...githubApps],
   rawApps
 ).map((app) => normalize(app, LANG));
 

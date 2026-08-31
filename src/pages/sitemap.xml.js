@@ -1,4 +1,5 @@
 import { getAllApps, usedCategories, DATA_META } from '../lib/apps.js';
+import { getCollections } from '../lib/collections.js';
 
 /* Hand-rolled rather than pulled from @astrojs/sitemap: this build needs
    per-entry hreflang alternates pointing at the other language subdomains. */
@@ -53,6 +54,10 @@ export function GET({ site }) {
     ),
     ...usedCategories('game').map((entry) =>
       url(site, `/games/${entry.category.slug}/`, { lastmod: generated, priority: '0.7', changefreq: 'weekly' })
+    ),
+    url(site, '/collections/', { lastmod: generated, priority: '0.7', changefreq: 'weekly' }),
+    ...getCollections().map((c) =>
+      url(site, `/collections/${c.slug}/`, { lastmod: generated, priority: '0.6', changefreq: 'weekly' })
     ),
     ...getAllApps().map((app) =>
       appUrlEntry(app.slug, { lastmod: app.updatedAt ?? generated })

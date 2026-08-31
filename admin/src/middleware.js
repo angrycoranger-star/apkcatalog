@@ -1,7 +1,9 @@
 import { isAuthed } from './lib/auth.js';
 
-/** Public paths reachable without a session. Everything else needs the cookie. */
-const PUBLIC = new Set(['/login', '/api/login']);
+/** Public paths reachable without a session. Everything else needs the cookie.
+ *  /api/reviews is the visitors' comment/rating endpoint (GET list, POST add);
+ *  moderation (/api/reviews-recent, /api/review-delete) stays behind the cookie. */
+const PUBLIC = new Set(['/login', '/api/login', '/api/reviews']);
 
 /**
  * Gate the whole panel. An unauthenticated browser request is bounced to the
