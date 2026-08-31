@@ -1,0 +1,165 @@
+---
+import { t, API_BASE } from '../i18n/index.js';
+
+/**
+ * Visitor reviews (a comment + a 1–5 rating) for one app. The page is static, so
+ * this fetches and posts to the review service (API_BASE) client-side. Rendered
+ * only when API_BASE is configured; otherwise the whole block is omitted.
+ */
+const { slug } = Astro.props;
+
+const strings = {
+  votes: t('reviews.votes'),
+  sending: t('reviews.sending'),
+  submit: t('reviews.submit'),
+  thanks: t('reviews.thanks'),
+  empty: t('reviews.empty'),
+  needRating: t('reviews.needRating'),
+  errorSend: t('reviews.errorSend'),
+  loadError: t('reviews.loadError'),
+  userRating: t('reviews.userRating')
+};
+---
+
+{API_BASE && (
+  <section class="mt-10" aria-labelledby="reviews-title">
+    <div class="mb-3 flex flex-wrap items-center justify-between gap-2">
+      <h2 id="reviews-title" class="text-lg font-semibold tracking-tight">{t('reviews.title')}</h2>
+      <p data-user-rating class="hidden text-sm text-muted"></p>
+    </div>
+
+    <form data-review-form class="rounded-2xl border p-4 surface">
+      <p class="text-sm font-medium">{t('reviews.leaveTitle')}</p>
+
+      {/* Honeypot: hidden from people, tempting to bots. */}
+      <input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true"
+        style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0" />
+
+      <div class="mt-3 flex flex-wrap items-center gap-4">
+        <label class="text-sm text-muted" for="rv-name">{t('reviews.name')}</label>
+        <input id="rv-name" name="name" type="text" maxlength="40" placeholder={t('reviews.namePlaceholder')}
+          class="min-w-0 flex-1 rounded-lg border px-3 py-2 text-sm surface" style="background-color: var(--surface);" />
+      </div>
+
+      <div class="mt-3 flex items-center gap-3">
+        <span class="text-sm text-muted">{t('reviews.yourRating')}</span>
+        <div data-stars class="flex" role="radiogroup" aria-label={t('reviews.yourRating')}>
+          {[1, 2, 3, 4, 5].map((n) => (
+            <button type="button" data-star={n} aria-label={`${n}`} aria-checked="false" role="radio"
+              class="px-0.5 text-2xl leading-none text-slate-300 transition-colors dark:text-slate-600">★</button>
+          ))}
+        </div>
+        <input type="hidden" name="rating" value="" />
+      </div>
+
+      <textarea name="text" maxlength="1000" rows="3" placeholder={t('reviews.commentPlaceholder')}
+        class="mt-3 w-full rounded-lg border px-3 py-2 text-sm surface" style="background-color: var(--surface);"></textarea>
+
+      <div class="mt-3 flex items-center gap-3">
+        <button type="submit" data-submit
+          class="rounded-lg bg-brand-600 px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-brand-700">
+          {t('reviews.submit')}
+        </button>
+        <span data-status class="text-sm"></span>
+      </div>
+    </form>
+
+    <ul data-review-list class="mt-6 space-y-3"></ul>
+    <p data-review-empty class="mt-6 hidden text-sm text-muted">{t('reviews.empty')}</p>
+  </section>
+
+  <script define:vars={{ slug, apiBase: API_BASE, s: strings }}>
+    (() => {
+      const root = document.querySelector('[data-review-form]')?.closest('section');
+      if (!root) return;
+      const form = root.querySelector('[data-review-form]');
+      const listEl = root.querySelector('[data-review-list]');
+      const emptyEl = root.querySelector('[data-review-empty]');
+      const summaryEl = root.querySelector('[data-user-rating]');
+      const statusEl = root.querySelector('[data-status]');
+      const submitBtn = root.querySelector('[data-submit]');
+      const ratingInput = form.querySelector('input[name="rating"]');
+      const starWrap = form.querySelector('[data-stars]');
+      const stars = [...starWrap.querySelectorAll('[data-star]')];
+
+      const esc = (v) => String(v).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+      const starRow = (n) => '★★★★★'.slice(0, n) + '☆☆☆☆☆'.slice(0, 5 - n);
+      const setStatus = (m, ok) => { statusEl.textContent = m || ''; statusEl.style.color = ok ? '#16a34a' : '#dc2626'; };
+
+      function paintStars(val) {
+        stars.forEach((b) => {
+          const on = Number(b.dataset.star) <= val;
+          b.style.color = on ? '#fbbf24' : '';
+          b.classList.toggle('text-slate-300', !on);
+          b.setAttribute('aria-checked', String(Number(b.dataset.star) === val));
+        });
+      }
+      stars.forEach((b) => b.addEventListener('click', () => { ratingInput.value = b.dataset.star; paintStars(Number(b.dataset.star)); }));
+
+      function renderList(comments) {
+        if (!comments.length) { emptyEl.classList.remove('hidden'); listEl.innerHTML = ''; return; }
+        emptyEl.classList.add('hidden');
+        listEl.innerHTML = comments.map((c) => `
+          <li class="rounded-2xl border p-4 surface">
+            <div class="flex flex-wrap items-center gap-2">
+              <span class="text-sm font-semibold">${esc(c.name || '—')}</span>
+              <span style="color:#fbbf24;letter-spacing:1px" aria-label="${c.rating}/5">${starRow(c.rating || 0)}</span>
+              <span class="text-xs text-muted">${c.at ? new Date(c.at).toLocaleDateString() : ''}</span>
+            </div>
+            ${c.text ? `<p class="mt-1.5 text-sm leading-relaxed" style="white-space:pre-wrap;word-break:break-word">${esc(c.text)}</p>` : ''}
+          </li>`).join('');
+      }
+
+      function renderSummary(rating) {
+        if (rating && rating.count) {
+          summaryEl.classList.remove('hidden');
+          summaryEl.textContent = `${s.userRating}: ${rating.average} ★ · ${s.votes.replace('{n}', rating.count)}`;
+        } else {
+          summaryEl.classList.add('hidden');
+        }
+      }
+
+      async function load() {
+        try {
+          const res = await fetch(`${apiBase}/api/reviews?slug=${encodeURIComponent(slug)}`);
+          const data = await res.json();
+          if (!res.ok) throw new Error(data.error || s.loadError);
+          renderSummary(data.rating);
+          renderList(data.comments || []);
+        } catch {
+          setStatus(s.loadError, false);
+        }
+      }
+
+      form.addEventListener('submit', async (ev) => {
+        ev.preventDefault();
+        if (!ratingInput.value) { setStatus(s.needRating, false); return; }
+        submitBtn.disabled = true; setStatus(s.sending, true);
+        try {
+          const res = await fetch(`${apiBase}/api/reviews`, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({
+              slug,
+              name: form.name.value.trim(),
+              text: form.text.value.trim(),
+              rating: Number(ratingInput.value),
+              website: form.website.value
+            })
+          });
+          const data = await res.json();
+          if (!res.ok) throw new Error(data.error || s.errorSend);
+          setStatus(s.thanks, true);
+          form.text.value = ''; ratingInput.value = ''; paintStars(0);
+          await load();
+        } catch (err) {
+          setStatus(err.message || s.errorSend, false);
+        } finally {
+          submitBtn.disabled = false;
+        }
+      });
+
+      load();
+    })();
+  </script>
+)}

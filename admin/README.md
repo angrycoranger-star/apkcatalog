@@ -120,6 +120,26 @@ invented claims — matching how the catalog's own summaries are generated.
 These are stored as extra fields on the record (`web_url`, `featured`,
 `pinned`, `promo_order`) and read by the static site — no runtime needed.
 
+## Visitor reviews (comments + ratings)
+
+The admin project also hosts the **public** review service the static sites call:
+
+- `GET /api/reviews?slug=…` — a card's comments + the aggregate user rating.
+- `POST /api/reviews` — leave a comment + 1–5 rating (public, no login). Guards:
+  a honeypot field, a per-IP throttle, and length caps. Comments publish
+  immediately.
+- `GET /api/reviews-recent` / `POST /api/review-delete` — owner-only moderation,
+  surfaced on the **`/reviews`** page (delete spam; it leaves the card at once).
+
+Reviews are stored as one JSON blob per app (`reviews/<slug>.json`) in the same
+Blob store — no extra datastore to provision. (Writes are read-modify-write, fine
+for low traffic; a busy site would want an atomic store.) `/api/reviews` is CORS-open
+for GET/POST so the language sites on their own origins can call it.
+
+To switch reviews on, point the static builds at this deployment by setting
+`PUBLIC_API_BASE` (e.g. `https://apk4orge-admin.vercel.app`) in the four site
+projects. Empty → the reviews block is hidden.
+
 ## Security notes
 
 - Every route except `/login` and `/api/login` requires a valid session cookie
