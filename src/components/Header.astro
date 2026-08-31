@@ -1,7 +1,7 @@
 ---
 import SearchBox from './SearchBox.astro';
 import LanguageSwitcher from './LanguageSwitcher.astro';
-import { t } from '../i18n/index.js';
+import { t, navHref } from '../i18n/index.js';
 
 const path = Astro.url.pathname;
 const links = [
@@ -17,7 +17,7 @@ const showMobileSearch = path !== '/';
 
 <header class="sticky top-0 z-40 border-b backdrop-blur surface/95" style="background-color: color-mix(in srgb, var(--surface-raised) 92%, transparent);">
   <div class="mx-auto flex max-w-6xl items-center gap-3 px-4 py-3">
-    <a href="/" class="flex shrink-0 items-center gap-2 font-semibold tracking-tight">
+    <a href={navHref('/')} class="flex shrink-0 items-center gap-2 font-semibold tracking-tight">
       <span class="grid h-8 w-8 place-items-center rounded-lg bg-brand-600 text-sm font-bold text-white">A</span>
       <span class="hidden sm:inline">{t('site.name')}</span>
     </a>
@@ -25,7 +25,7 @@ const showMobileSearch = path !== '/';
     <nav aria-label={t('nav.menu')} class="hidden items-center gap-1 md:flex">
       {links.map((link) => (
         <a
-          href={link.href}
+          href={navHref(link.href)}
           aria-current={isActive(link.href) ? 'page' : undefined}
           class:list={[
             'rounded-lg px-3 py-2 text-sm font-medium transition-colors',
@@ -60,7 +60,7 @@ const showMobileSearch = path !== '/';
           class="absolute right-0 mt-2 w-48 rounded-xl border p-2 shadow-lg surface"
         >
           {links.map((link) => (
-            <a href={link.href} class="block rounded-lg px-3 py-2 text-sm hover:bg-brand-50 dark:hover:bg-brand-500/10">
+            <a href={navHref(link.href)} class="block rounded-lg px-3 py-2 text-sm hover:bg-brand-50 dark:hover:bg-brand-500/10">
               {link.label}
             </a>
           ))}

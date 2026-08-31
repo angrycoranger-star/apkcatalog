@@ -1,5 +1,5 @@
 ---
-import { t, CONTACT_EMAIL } from '../i18n/index.js';
+import { t, CONTACT_EMAIL, navHref } from '../i18n/index.js';
 
 const year = new Date().getFullYear();
 const legal = [
@@ -21,11 +21,11 @@ const legal = [
 
     <nav aria-label={t('nav.menu')} class="text-sm">
       <ul class="space-y-2">
-        <li><a class="hover:text-brand-600" href="/apps/">{t('nav.apps')}</a></li>
-        <li><a class="hover:text-brand-600" href="/games/">{t('nav.games')}</a></li>
-        <li><a class="hover:text-brand-600" href="/collections/">{t('nav.collections')}</a></li>
+        <li><a class="hover:text-brand-600" href={navHref('/apps/')}>{t('nav.apps')}</a></li>
+        <li><a class="hover:text-brand-600" href={navHref('/games/')}>{t('nav.games')}</a></li>
+        <li><a class="hover:text-brand-600" href={navHref('/collections/')}>{t('nav.collections')}</a></li>
         {legal.map((link) => (
-          <li><a class="hover:text-brand-600" href={link.href}>{link.label}</a></li>
+          <li><a class="hover:text-brand-600" href={navHref(link.href)}>{link.label}</a></li>
         ))}
         <li><a class="hover:text-brand-600" href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a></li>
       </ul>

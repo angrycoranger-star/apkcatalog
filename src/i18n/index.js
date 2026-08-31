@@ -41,6 +41,47 @@ export function hostFor(lang, domain = DOMAIN) {
   return `https://${LANG_HOSTS[lang] ?? lang}.${domain}`;
 }
 
+/**
+ * Per-app subdomains. When PUBLIC_APP_SUBDOMAINS=1 an app is addressed at
+ * <slug>.<lang>.<domain> (served there by the edge middleware, which rewrites
+ * to the built /app/<slug>/ page); otherwise it keeps the path form. The flag
+ * lets the whole scheme ship dark and switch on only once the wildcard domain
+ * and DNS exist.
+ */
+export const APP_SUBDOMAINS = import.meta.env.PUBLIC_APP_SUBDOMAINS === '1';
+
+/** Absolute URL of an app for a language, in whichever scheme is active. */
+export function appUrlFor(slug, lang = LANG, domain = DOMAIN) {
+  return APP_SUBDOMAINS
+    ? `https://${slug}.${LANG_HOSTS[lang] ?? lang}.${domain}/`
+    : `${hostFor(lang, domain)}/app/${slug}/`;
+}
+
+/** Link to an app on the current language: absolute subdomain, or relative path. */
+export function appHref(slug) {
+  return APP_SUBDOMAINS ? appUrlFor(slug, LANG) : `/app/${slug}/`;
+}
+
+/** hreflang alternates for one app page across every language. */
+export function appAlternates(slug, domain = DOMAIN) {
+  return LANGS.map((lang) => ({
+    lang,
+    locale: LOCALES[lang],
+    name: LANG_NAMES[lang],
+    url: appUrlFor(slug, lang, domain),
+    current: lang === LANG
+  }));
+}
+
+/**
+ * A catalog (non-app) link. Under the subdomain scheme these must be absolute
+ * to the language host, so navigating away from an app subdomain returns to the
+ * catalog instead of resolving under the app's own host; otherwise plain paths.
+ */
+export function navHref(path) {
+  return APP_SUBDOMAINS ? `${hostFor(LANG)}${path}` : path;
+}
+
 export function alternateUrls(pathname, domain = DOMAIN) {
   const path = pathname.startsWith('/') ? pathname : `/${pathname}`;
   return LANGS.map((lang) => ({

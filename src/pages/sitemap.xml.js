@@ -4,13 +4,30 @@ import { getCollections } from '../lib/collections.js';
 /* Hand-rolled rather than pulled from @astrojs/sitemap: this build needs
    per-entry hreflang alternates pointing at the other language subdomains. */
 import { LANGS } from '../../config/catalog.config.js';
-import { hostFor, LOCALES, DOMAIN } from '../i18n/index.js';
+import { hostFor, LOCALES, DOMAIN, LANG, appUrlFor } from '../i18n/index.js';
 
 function alternates(path) {
   return LANGS.map(
     (lang) =>
       `<xhtml:link rel="alternate" hreflang="${LOCALES[lang]}" href="${hostFor(lang, DOMAIN)}${path}"/>`
   ).join('');
+}
+
+/* App pages follow the active app-URL scheme (per-app subdomain or path), with
+   alternates pointing at the same app on every language. */
+function appUrlEntry(slug, { lastmod }) {
+  const alts = LANGS.map(
+    (lang) => `<xhtml:link rel="alternate" hreflang="${LOCALES[lang]}" href="${appUrlFor(slug, lang)}"/>`
+  ).join('');
+  return [
+    '<url>',
+    `<loc>${appUrlFor(slug, LANG)}</loc>`,
+    alts,
+    lastmod ? `<lastmod>${new Date(lastmod).toISOString().slice(0, 10)}</lastmod>` : '',
+    '<changefreq>weekly</changefreq>',
+    '<priority>0.6</priority>',
+    '</url>'
+  ].join('');
 }
 
 function url(site, path, { lastmod, priority, changefreq }) {
@@ -43,7 +60,7 @@ export function GET({ site }) {
       url(site, `/collections/${c.slug}/`, { lastmod: generated, priority: '0.6', changefreq: 'weekly' })
     ),
     ...getAllApps().map((app) =>
-      url(site, app.href, { lastmod: app.updatedAt ?? generated, priority: '0.6', changefreq: 'weekly' })
+      appUrlEntry(app.slug, { lastmod: app.updatedAt ?? generated })
     ),
     ...['/privacy/', '/disclaimer/', '/contact/'].map((path) =>
       url(site, path, { priority: '0.3', changefreq: 'yearly' })
