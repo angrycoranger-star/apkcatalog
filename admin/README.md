@@ -57,6 +57,7 @@ Vercel project settings for production. See `.env.example` for the full list:
 | `GITHUB_REPO` | `owner/name` of the repo to commit to. |
 | `GITHUB_BRANCH` | Branch to commit to (default `main`). |
 | `BLOB_READ_WRITE_TOKEN` | Vercel Blob token — injected automatically on Vercel once a Blob store is linked; set it only for local runs. |
+| `ANTHROPIC_API_KEY` | Optional — enables the "Generate with Claude" SEO-description button. Without it, that button returns an error and you write descriptions by hand. |
 
 Generate a secret:
 
@@ -92,6 +93,17 @@ at the same repo:
 
 Because it's a distinct project, redeploys of the admin panel don't touch the
 four static builds, and vice versa.
+
+## SEO descriptions with Claude
+
+The upload and edit forms have a **"Generate with Claude"** button. It drafts an
+original, SEO-friendly description for the app — in **all four languages at once**
+— from the name, developer and category (via `lib/seo.js` → `claude-opus-5`,
+facts-only, low effort). The Russian text lands in the field to edit; the four
+per-language texts are submitted with the card and stored in its `translations`,
+so each language subdomain gets native copy. Needs `ANTHROPIC_API_KEY`; the
+button is a no-op error without it. It writes from the facts only — no copied or
+invented claims — matching how the catalog's own summaries are generated.
 
 ## Managing, promoting and web versions
 
