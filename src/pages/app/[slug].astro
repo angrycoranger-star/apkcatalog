@@ -147,7 +147,9 @@ const jsonLd = [
       {app.summary && (
         <section class="mt-8" aria-labelledby="about-title">
           <h2 id="about-title" class="mb-2 text-lg font-semibold tracking-tight">{t('card.about')}</h2>
-          <p class="text-sm leading-relaxed" style="color: var(--text);">{app.summary}</p>
+          <div class="space-y-3 text-sm leading-relaxed" style="color: var(--text);">
+            {app.summary.split('\n\n').filter(Boolean).map((para) => <p>{para}</p>)}
+          </div>
         </section>
       )}
 

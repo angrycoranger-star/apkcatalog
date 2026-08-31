@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-26T06:16:26.485Z",
+  "generated_at": "2026-08-31T03:08:56.418Z",
   "source": "fetch-details.js",
   "sample": false,
-  "count": 1752,
+  "count": 2130,
   "languages": [
     "ru",
     "en",
@@ -13,8 +13,8 @@
   "summaries": "composed",
   "run": {
     "updated": 0,
-    "created": 575,
-    "failed": 25,
+    "created": 0,
+    "failed": 0,
     "dropped": 0,
     "llm": 0
   }

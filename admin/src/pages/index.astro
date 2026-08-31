@@ -42,6 +42,13 @@ const categories = categoryChoices();
       .checkrow input[type=checkbox] { width: 18px; height: 18px; }
       .checkrow label { margin: 0; }
       .hidden { display: none; }
+      .genrow { display: flex; align-items: center; gap: 12px; margin-top: 10px; }
+      .genbtn { margin: 0; width: auto; height: 38px; padding: 0 16px; background: #131c31; color: #a5b4fc;
+        border: 1px solid #4f46e5; border-radius: 10px; font-size: 14px; font-weight: 500; }
+      .genbtn:disabled { opacity: .6; }
+      .genstatus { font-size: 13px; color: #94a3b8; }
+      .genstatus.err { color: #f87171; }
+      .genstatus.ok { color: #34d399; }
     </style>
   </head>
   <body>
@@ -49,6 +56,7 @@ const categories = categoryChoices();
       <b>apk4orge · загрузка</b>
       <nav>
         <a href="/manage">Мои приложения</a>
+        <a href="/collections">Подборки</a>
         <a href="/reviews">Отзывы</a>
         <a href="#" id="logout">Выйти</a>
       </nav>
@@ -76,7 +84,12 @@ const categories = categoryChoices();
         </div>
 
         <label for="description">Описание</label>
-        <textarea id="description" name="description" maxlength="2000" placeholder="Пара абзацев о приложении. Показывается на карточке."></textarea>
+        <textarea id="description" name="description" maxlength="4000" placeholder="Пара абзацев о приложении. Показывается на карточке."></textarea>
+        <div class="genrow">
+          <button type="button" id="gen" class="genbtn">✨ Сгенерировать через Claude</button>
+          <span class="genstatus" id="genstatus"></span>
+        </div>
+        <p class="hint">Сгенерирует SEO-описание сразу на 4 языках из названия, разработчика и категории. В поле показывается русский вариант — правь его; остальные языки сохранятся автоматически.</p>
 
         <label for="apk">APK-файл</label>
         <input id="apk" name="apk" type="file" accept=".apk,application/vnd.android.package-archive" required />
@@ -150,6 +163,31 @@ const categories = categoryChoices();
         if (!e.target.checked) $('webUrl').value = '';
       });
 
+      // Claude-generated per-language descriptions (ru shown in the field, all four submitted).
+      let generated = null;
+      const catLabel = () => $('category').selectedOptions[0]?.textContent?.trim() || '';
+      $('gen').addEventListener('click', async () => {
+        const name = $('name').value.trim();
+        if (!name) { const s = $('genstatus'); s.textContent = 'Сначала введите название'; s.className = 'genstatus err'; return; }
+        const btn = $('gen'), s = $('genstatus');
+        btn.disabled = true; s.textContent = 'Claude пишет описание…'; s.className = 'genstatus';
+        try {
+          const res = await fetch('/api/generate', {
+            method: 'POST', headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ name, developer: $('developer').value.trim(), categoryLabel: catLabel() })
+          });
+          const data = await res.json();
+          if (!res.ok) throw new Error(data.error || 'Ошибка генерации');
+          generated = data.translations || null;
+          if (generated && generated.ru) $('description').value = generated.ru;
+          s.textContent = 'Готово — сгенерировано на 4 языках. Правь русский при желании.'; s.className = 'genstatus ok';
+        } catch (err) {
+          s.textContent = err.message || 'Ошибка'; s.className = 'genstatus err';
+        } finally {
+          btn.disabled = false;
+        }
+      });
+
       async function uploadOne(file, folder) {
         const safe = file.name.replace(/[^a-zA-Z0-9._-]+/g, '_');
         const res = await upload(`${folder}/${safe}`, file, {
@@ -165,6 +203,9 @@ const categories = categoryChoices();
         const apkFile = $('apk').files[0];
         if (!apkFile) return;
         btn.disabled = true; setStatus('Загрузка файла…'); bar.style.display = 'block'; fill.style.width = '15%';
+
+        // Keep any Russian edits made after generation; other languages stay as generated.
+        const descriptions = generated ? { ...generated, ru: $('description').value.trim() } : undefined;
 
         try {
           const apkUrl = await uploadOne(apkFile, 'apk');
@@ -185,6 +226,7 @@ const categories = categoryChoices();
               developer: $('developer').value.trim(),
               categorySlug: $('category').value,
               description: $('description').value.trim(),
+              descriptions,
               webUrl: $('hasWeb').checked ? $('webUrl').value.trim() : '',
               featured: $('featured').checked,
               pinned: $('pinned').checked,

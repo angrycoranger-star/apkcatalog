@@ -1,0 +1,59 @@
+[
+  {
+    "slug": "secure-messengers",
+    "featured": true,
+    "order": 1,
+    "apps": [
+      "org.thoughtcrime.securesms",
+      "org.telegram.messenger",
+      "com.whatsapp",
+      "com.viber.voip"
+    ],
+    "translations": {
+      "ru": {
+        "title": "Защищённые мессенджеры",
+        "intro": "Мессенджеры, где переписку защищает шифрование, а не обещания. Мы собрали приложения с проверенной репутацией: от полностью приватного Signal до популярных сервисов с приватными чатами.\n\nВыбирайте по тому, кто вам пишет: для семьи и работы — то, что уже стоит у всех, для чувствительных разговоров — что-то с оконечным шифрованием по умолчанию."
+      },
+      "en": {
+        "title": "Secure messengers",
+        "intro": "Messengers where encryption, not promises, protects your chats. We gathered apps with a proven track record — from the fully private Signal to popular services with private-chat modes.\n\nPick by who you talk to: for family and work, whatever everyone already has; for sensitive conversations, something with end-to-end encryption on by default."
+      },
+      "tr": {
+        "title": "Güvenli mesajlaşma uygulamaları",
+        "intro": "Sohbetlerinizi vaatler değil şifreleme koruyan mesajlaşma uygulamaları. Kanıtlanmış itibara sahip uygulamaları topladık: tamamen gizli Signal'dan gizli sohbet modu olan popüler servislere kadar.\n\nKiminle konuştuğunuza göre seçin: aile ve iş için herkeste zaten olan; hassas konuşmalar için uçtan uca şifrelemesi varsayılan olan."
+      },
+      "uz": {
+        "title": "Xavfsiz messenjerlar",
+        "intro": "Yozishmalaringizni va'dalar emas, shifrlash himoya qiladigan messenjerlar. Isbotlangan obro'ga ega ilovalarni to'pladik: to'liq maxfiy Signal'dan tortib maxfiy chat rejimiga ega mashhur xizmatlargacha.\n\nKim bilan yozishishingizga qarab tanlang: oila va ish uchun hammada bor bo'lgani; nozik suhbatlar uchun sukut bo'yicha uchma-uch shifrlashga ega bo'lgani."
+      }
+    }
+  },
+  {
+    "slug": "private-browsers",
+    "featured": true,
+    "order": 2,
+    "apps": [
+      "org.mozilla.firefox",
+      "com.brave.browser",
+      "com.duckduckgo.mobile.android"
+    ],
+    "translations": {
+      "ru": {
+        "title": "Браузеры без слежки",
+        "intro": "Браузеры, которые по умолчанию блокируют трекеры и не строят на вас рекламный профиль. Здесь — те, что доказали это делом: открытый Firefox с расширениями, Brave со встроенным блокировщиком и DuckDuckGo с приватным поиском.\n\nЛюбой из них — шаг от слежки Chrome без потери удобства."
+      },
+      "en": {
+        "title": "Browsers without tracking",
+        "intro": "Browsers that block trackers by default and don't build an ad profile on you. These have proven it in practice: open-source Firefox with add-ons, Brave with a built-in blocker, and DuckDuckGo with private search.\n\nAny of them is a step away from Chrome's tracking without losing convenience."
+      },
+      "tr": {
+        "title": "Takip etmeyen tarayıcılar",
+        "intro": "Varsayılan olarak izleyicileri engelleyen ve size reklam profili çıkarmayan tarayıcılar. Bunu pratikte kanıtlayanlar: eklentileriyle açık kaynaklı Firefox, yerleşik engelleyicili Brave ve gizli aramalı DuckDuckGo.\n\nHer biri, kolaylıktan ödün vermeden Chrome takibinden uzak bir adım."
+      },
+      "uz": {
+        "title": "Kuzatuvsiz brauzerlar",
+        "intro": "Sukut bo'yicha kuzatuvchilarni bloklaydigan va sizga reklama profilini tuzmaydigan brauzerlar. Buni amalda isbotlaganlar: kengaytmali ochiq kodli Firefox, o'rnatilgan bloklagichli Brave va maxfiy qidiruvli DuckDuckGo.\n\nHar biri — qulaylikni yo'qotmasdan Chrome kuzatuvidan uzoqroq qadam."
+      }
+    }
+  }
+]

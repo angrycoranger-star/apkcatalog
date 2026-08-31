@@ -189,14 +189,43 @@ source" badge, and the license on the spec table — the APKMirror-style
 "download the file here" model, but only for files a license lets us distribute.
 
 ```bash
-npm run fdroid            # one request pulls the whole F-Droid index
+npm run fdroid            # pulls F-Droid + IzzyOnDroid (one request each)
+npm run fdroid -- --repo https://f-droid.org/repo   # a single repo
 ```
+
+By default it merges two F-Droid-format repositories — the main **F-Droid**
+archive and **IzzyOnDroid** (a much larger F-Droid-compatible repo of
+open-source apps built from GitHub releases) — deduping by package id so a
+f-droid.org build wins over an IzzyOnDroid one. Pass a comma-separated `--repo`
+list to override; any F-Droid-format repo works, and the license allowlist gates
+all of them equally.
 
 `scripts/lib/fdroid.js` gates on a redistributable-license allowlist, and the
 validator fails the build if any F-Droid card carries a non-free license. Cards
 land in `data/fdroid-apps.json` (a source the Play collectors never touch) and
 merge into the same search, categories and sitemap. Full reference:
 `data/README.md`.
+
+## Open-source apps (GitHub releases)
+
+Beyond F-Droid, `config/github-apps.js` is a curated list of open-source apps
+that publish a signed APK in their **GitHub releases** — the "Obtainium" idea,
+hand-picked. For each repo the collector reads the latest release and the repo's
+SPDX license, gates on the same redistributable-license allowlist, downloads the
+APK, reads its manifest for the real package id / version / min-Android /
+permissions / SHA-256, saves the launcher icon under `public/img/github/`, and
+writes a direct-download card.
+
+```bash
+npm run github            # all repos in config/github-apps.js
+npm run github -- --limit 2 --dry-run
+GITHUB_TOKEN=… npm run github   # higher API rate limit
+```
+
+Cards land in `data/github-apps.json` (source `github`, `open_source: true`) and
+merge into the same catalog. The validator rejects any `github` card whose
+license isn't redistributable, exactly as for F-Droid. Weekly refresh:
+`.github/workflows/github-apps.yml`.
 
 ## Scheduled refreshes
 
@@ -205,6 +234,7 @@ merge into the same search, categories and sitemap. Full reference:
 | `.github/workflows/discovery.yml` | monthly (1st, 02:00 UTC) | refresh `package-ids.json` |
 | `.github/workflows/fetch-details.yml` | nightly, 03:00 UTC | refresh a chunk of `apps.json`, validate, build, commit |
 | `.github/workflows/fdroid.yml` | weekly (Mon, 04:00 UTC) | refresh the open-source (F-Droid) catalog |
+| `.github/workflows/github-apps.yml` | weekly (Mon, 05:00 UTC) | refresh open-source apps from GitHub releases |
 | `.github/workflows/ci.yml` | every push / PR | validate, smoke test, build all languages |
 
 Both data workflows commit to the repository; the push is what triggers Vercel

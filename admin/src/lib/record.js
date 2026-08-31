@@ -90,11 +90,15 @@ export function buildRecord({ form, apk, blob, existingSlugs = new Set() }) {
   if (!blob?.apkUrl?.startsWith('https://')) throw new Error('missing APK download URL');
 
   const slug = uniqueSlug(slugify(name, packageId.split('.').pop()), existingSlugs);
-  const summary = (form.description || '').trim();
 
+  // Per-language descriptions (e.g. Claude-generated) win; otherwise the single
+  // typed description is stored for every language.
+  const descriptions = form.descriptions && typeof form.descriptions === 'object' ? form.descriptions : null;
+  const fallbackSummary = (form.description || '').trim();
   const translations = {};
   for (const lang of LANGS) {
-    translations[lang] = { name, summary };
+    const perLang = descriptions && typeof descriptions[lang] === 'string' ? descriptions[lang].trim() : '';
+    translations[lang] = { name, summary: perLang || fallbackSummary };
   }
 
   const now = new Date().toISOString();
@@ -140,14 +144,18 @@ export function buildPatch({ form = {}, apk = null, blob = null, existing = {} }
     patch.category = category.id;
   }
 
-  if (typeof form.name === 'string' || typeof form.description === 'string') {
+  const descriptions = form.descriptions && typeof form.descriptions === 'object' ? form.descriptions : null;
+  if (typeof form.name === 'string' || typeof form.description === 'string' || descriptions) {
     const name = (form.name ?? '').trim();
     const summary = (form.description ?? '').trim();
     patch.translations = {};
     for (const lang of LANGS) {
       const t = {};
       if (typeof form.name === 'string') t.name = name;
-      if (typeof form.description === 'string') t.summary = summary;
+      // A per-language description (Claude-generated) wins; else the single field.
+      const perLang = descriptions && typeof descriptions[lang] === 'string' ? descriptions[lang].trim() : null;
+      if (perLang !== null) t.summary = perLang;
+      else if (typeof form.description === 'string') t.summary = summary;
       patch.translations[lang] = t;
     }
   }
