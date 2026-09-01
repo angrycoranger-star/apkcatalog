@@ -305,10 +305,18 @@ npm run serp -- --query "apk indir"           # one query
 npm run serp:selftest                         # offline parser + diff test
 ```
 
-**What to edit.** `config/serp.js` holds the queries, the geo targets (`gl`
-country, `hl` interface language, optional `uule` to pin a city), `OWN_DOMAINS`,
-and the noise threshold. A scan is one query × one target, so the number of
-requests per day is the size of that product — keep it small.
+**What to edit.** The tracked queries live in `data/serp/queries.json` and the
+geo targets in `data/serp/targets.json` (`gl` country, `hl` interface language,
+optional `uule` to pin a city) — both are plain JSON so the admin dashboard can
+edit them at runtime. `config/serp.js` holds the rest: `OWN_DOMAINS` and the
+noise threshold. A scan is one query × one target, so the number of requests per
+day is the size of that product — keep it small.
+
+**The dashboard.** The admin panel serves `/serp`: the current top-10 per query
+and geo, how far each domain moved since the previous scan, what is new and what
+dropped out, plus a box to add or remove tracked queries (it commits
+`data/serp/queries.json`, and the next scan picks the change up). See
+`admin/README.md`.
 
 **What gets reported.** Entering or leaving the top-10 always does. A
 re-ranking only does once it moves at least `moveThreshold` positions, unless

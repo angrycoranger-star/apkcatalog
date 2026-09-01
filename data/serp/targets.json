@@ -1,0 +1,5 @@
+[
+  { "id": "ru", "label": "Россия", "domain": "www.google.com", "gl": "ru", "hl": "ru" },
+  { "id": "tr", "label": "Türkiye", "domain": "www.google.com", "gl": "tr", "hl": "tr" },
+  { "id": "uz", "label": "Oʻzbekiston", "domain": "www.google.com", "gl": "uz", "hl": "uz" }
+]

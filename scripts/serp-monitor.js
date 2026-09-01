@@ -13,9 +13,9 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { setTimeout as delay } from 'node:timers/promises';
-import { QUERIES, SETTINGS, TARGETS, TOP_N } from '../config/serp.js';
+import { loadQueries, SETTINGS, TARGETS, TOP_N } from '../config/serp.js';
 import { BlockedError, randomInt, scan } from './lib/serp.js';
-import { diffRanking, formatReport } from './lib/serp-diff.js';
+import { diffRanking, formatReport, isOwn } from './lib/serp-diff.js';
 import { notifyJobSummary, notifyTelegram } from './lib/serp-notify.js';
 import { ROOT } from './lib/util.js';
 
@@ -35,7 +35,7 @@ function parseArgs(argv) {
 /** Every query × target pair to scan, after the CLI filters. */
 function plan({ query, target }) {
   const jobs = [];
-  for (const entry of QUERIES) {
+  for (const entry of loadQueries()) {
     if (query && entry.q !== query) continue;
     for (const t of TARGETS) {
       if (target && t.id !== target) continue;
@@ -78,11 +78,22 @@ const main = async () => {
     try {
       const results = await scan(job.target, job.query);
       console.error(`${results.length} results`);
-      scans[job.key] = { query: job.query, target: job.target.id, scannedAt: now.toISOString(), results };
 
       /* A first-ever scan has nothing to compare against — record it as the
          baseline rather than announcing ten "new" entries. */
       const changes = before.length ? diffRanking(before, results) : [];
+      const wasAt = new Map(before.map((r) => [r.domain, r.position]));
+      scans[job.key] = {
+        query: job.query,
+        target: job.target.id,
+        scannedAt: now.toISOString(),
+        /* previousPosition rides along with each result so the dashboard can
+           draw the movement without opening yesterday's snapshot. */
+        results: results.map((r) => ({ ...r, previousPosition: wasAt.get(r.domain) ?? null, own: isOwn(r.domain) })),
+        changes,
+        baseline: !before.length
+      };
+
       if (changes.length) reportable.push({ ...job, targetLabel: job.target.label, changes });
     } catch (error) {
       blocked++;
@@ -90,6 +101,7 @@ const main = async () => {
       /* Keep the last good ranking so tomorrow diffs against real data. */
       scans[job.key] = {
         ...(previous.scans?.[job.key] ?? { query: job.query, target: job.target.id, results: [] }),
+        changes: [],
         error: error.message,
         failedAt: now.toISOString()
       };

@@ -1,30 +1,41 @@
+import { readFileSync } from 'node:fs';
+
 /**
  * What the SERP monitor watches. Every scan is one (query × target) pair, so
  * keep the product small — this scrapes Google directly, and volume is what
  * gets an IP challenged.
  */
 
-/**
- * Search targets. `gl` is the country of the search, `hl` the interface
- * language, `domain` the Google frontend used. `uule` is optional and pins the
- * search to a city (base64 canonical-name blob Google accepts on `&uule=`);
- * leave it out for country-level results.
- */
-export const TARGETS = [
-  { id: 'ru', label: 'Россия', domain: 'www.google.com', gl: 'ru', hl: 'ru' },
-  { id: 'tr', label: 'Türkiye', domain: 'www.google.com', gl: 'tr', hl: 'tr' },
-  { id: 'uz', label: 'Oʻzbekiston', domain: 'www.google.com', gl: 'uz', hl: 'uz' }
-];
+/** Reads one of the JSON files the monitor and the admin dashboard share. */
+function loadJson(name, fallback) {
+  try {
+    const parsed = JSON.parse(readFileSync(new URL(`../data/serp/${name}`, import.meta.url), 'utf8'));
+    return Array.isArray(parsed) ? parsed : fallback;
+  } catch {
+    return fallback;
+  }
+}
 
 /**
- * Queries to track. `targets` limits a query to some of the targets above;
- * omit it to run the query everywhere.
+ * Search targets, from data/serp/targets.json. `gl` is the country of the
+ * search, `hl` the interface language, `domain` the Google frontend used.
+ * `uule` is optional and pins the search to a city (the base64 canonical-name
+ * blob Google accepts on `&uule=`); leave it out for country-level results.
+ * The file is shared with the admin dashboard, which reads it over the GitHub
+ * API to offer the geo choices when a query is added.
  */
-export const QUERIES = [
-  { q: 'скачать apk', targets: ['ru'] },
-  { q: 'apk indir', targets: ['tr'] },
-  { q: 'apk yuklab olish', targets: ['uz'] }
-];
+export const TARGETS = loadJson('targets.json', []);
+
+/**
+ * Queries to track. They live in data/serp/queries.json rather than in this
+ * file because the admin dashboard adds and removes them at runtime (it commits
+ * that file through the GitHub API); an entry is `{ q, targets? }`, where
+ * `targets` limits a query to some of the targets above and omitting it runs
+ * the query everywhere.
+ */
+export function loadQueries() {
+  return loadJson('queries.json', []).filter((entry) => entry?.q);
+}
 
 /** How deep the tracked list goes. Ten is what the notification reports. */
 export const TOP_N = 10;

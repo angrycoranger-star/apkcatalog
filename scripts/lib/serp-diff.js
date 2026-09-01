@@ -1,6 +1,7 @@
 import { OWN_DOMAINS, SETTINGS, TOP_N } from '../../config/serp.js';
 
-const isOwn = (domain) => OWN_DOMAINS.some((own) => domain === own || domain.endsWith(`.${own}`));
+/** True when a result belongs to one of OWN_DOMAINS (or a subdomain of one). */
+export const isOwn = (domain) => OWN_DOMAINS.some((own) => domain === own || domain.endsWith(`.${own}`));
 
 /**
  * Compares two rankings for one query+target and returns the changes worth
