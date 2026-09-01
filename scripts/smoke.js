@@ -35,6 +35,7 @@ try {
   ]);
   await run('scripts/fetch-details.js', [...client, '--delay', '5', '--timeout', '5000']);
   await run('scripts/fdroid-import.js', ['--index', 'scripts/fixtures/fdroid-index.json', '--repo', 'https://f-droid.org/repo']);
+  await run('scripts/openapk-import.js', ['--dir', 'scripts/fixtures/openapk']);
   await run('scripts/validate-data.js', []);
 
   const apps = await readJson(path.join(dataDir, 'apps.json'), []);
@@ -49,7 +50,15 @@ try {
   const unlicensed = fdroid.filter((a) => !a.license || a.source !== 'fdroid');
   if (unlicensed.length > 0) throw new Error(`${unlicensed.length} F-Droid cards missing a license`);
 
-  log.done(`Smoke test passed: ${packages.packages.length} package ids -> ${apps.length} scraped, ${fdroid.length} F-Droid cards.`);
+  const openapk = await readJson(path.join(dataDir, 'openapk-repos.json'), []);
+  if (openapk.length === 0) throw new Error('OpenAPK discovery produced no repos');
+  const badRepo = openapk.filter((r) => !/^[^/\s]+\/[^/\s]+$/.test(r.repo || ''));
+  if (badRepo.length > 0) throw new Error(`${badRepo.length} OpenAPK entries have a malformed repo ref`);
+
+  log.done(
+    `Smoke test passed: ${packages.packages.length} package ids -> ${apps.length} scraped, ` +
+      `${fdroid.length} F-Droid cards, ${openapk.length} OpenAPK repos.`
+  );
 } finally {
   await rm(dataDir, { recursive: true, force: true });
 }

@@ -1,14 +1,16 @@
 name: Import GitHub-release apps
 
-# Weekly: refresh open-source apps that ship an APK in their GitHub releases
-# (config/github-apps.js). Each app is one API call plus one APK download.
+# Weekly: refresh open-source apps that ship an APK in their GitHub releases.
+# Sources are the hand-picked config/github-apps.js plus everything discovered
+# from the OpenAPK list (scripts/openapk-import.js). Each app is one API call
+# plus one APK download, so the number actually imported is bounded by --limit.
 on:
   schedule:
     - cron: '0 5 * * 1'
   workflow_dispatch:
     inputs:
       limit:
-        description: 'Max apps to import (blank = all)'
+        description: 'Max apps to import (blank = 100)'
         required: false
 
 permissions:
@@ -21,7 +23,7 @@ concurrency:
 jobs:
   github-apps:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -30,12 +32,15 @@ jobs:
           cache: npm
       - run: npm ci
 
+      - name: Discover repos from OpenAPK
+        run: node scripts/openapk-import.js
+
       - name: Import GitHub-release apps
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           node scripts/github-import.js \
-            ${{ inputs.limit && format('--limit {0}', inputs.limit) || '' }}
+            --limit ${{ inputs.limit || '100' }}
 
       - name: Validate the dataset
         run: npm run data:validate
@@ -47,7 +52,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
-          git add data/github-apps.json data/github.meta.json public/img/github 2>/dev/null || true
+          git add data/github-apps.json data/github.meta.json data/openapk-repos.json data/openapk.meta.json public/img/github 2>/dev/null || true
           if git diff --cached --quiet; then
             echo 'No GitHub-release change'
             exit 0
