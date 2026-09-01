@@ -54,7 +54,21 @@ const existing = await readJson(OUT_PATH, []);
 const slugByPackage = new Map(existing.map((a) => [a.package_id, a.slug]));
 const takenSlugs = new Set(existing.map((a) => a.slug));
 
-const list = GITHUB_APPS.slice(0, limit);
+/* The hand-picked whitelist first, then anything discovered from OpenAPK
+   (scripts/openapk-import.js). De-dup by repo, case-insensitive; the manual
+   entry wins so its curated category sticks. Both feed the same licence gate +
+   APK inspection below — discovery changes only which repos we look at. */
+const discovered = await readJson(path.join(DATA_DIR, 'openapk-repos.json'), []);
+const seenRepos = new Set();
+const merged = [];
+for (const entry of [...GITHUB_APPS, ...discovered]) {
+  const key = String(entry.repo || '').toLowerCase();
+  if (!key || seenRepos.has(key)) continue;
+  seenRepos.add(key);
+  merged.push(entry);
+}
+
+const list = merged.slice(0, limit);
 const apps = [];
 let skipped = 0;
 

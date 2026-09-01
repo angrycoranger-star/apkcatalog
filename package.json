@@ -23,7 +23,8 @@
     "build:uz": "SITE_LANG=uz astro build --outDir dist/uz",
     "add-apk": "node scripts/add-apk.js",
     "fdroid": "node scripts/fdroid-import.js",
-    "github": "node scripts/github-import.js"
+    "github": "node scripts/github-import.js",
+  "openapk": "node scripts/openapk-import.js"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.3",

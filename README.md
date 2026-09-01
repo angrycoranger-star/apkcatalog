@@ -247,6 +247,30 @@ merge into the same catalog. The validator rejects any `github` card whose
 license isn't redistributable, exactly as for F-Droid. Weekly refresh:
 `.github/workflows/github-apps.yml`.
 
+### Auto-discovery from OpenAPK
+
+`config/github-apps.js` stays hand-picked, but the GitHub-releases collector can
+also pull its input from the **OpenAPK** list
+([`mobilenetworkltd/openapk`](https://github.com/mobilenetworkltd/openapk), a
+CC0 catalogue of open-source Android apps). `scripts/openapk-import.js` reads its
+per-category markdown, keeps only rows whose **Repo** link is on GitHub (Codeberg
+/ GitLab entries are dropped — the collector only understands GitHub releases),
+de-dups by repo, and writes `data/openapk-repos.json`.
+
+```bash
+npm run openapk                 # fetch the whole OpenAPK list
+npm run openapk -- --dry-run    # print the discovered repos, write nothing
+npm run openapk -- --dir path/  # parse local *.md fixtures (offline)
+```
+
+`github-import.js` then merges `config/github-apps.js` (which wins on category)
+with `data/openapk-repos.json`, so discovery only changes **which repos** are
+looked at — every one still passes the SPDX-license gate and has its real APK
+inspected before it becomes a card. Nothing from OpenAPK's own text or download
+mirror is used. The weekly `github-apps.yml` runs discovery first, then imports
+up to `--limit` apps (default 100; raise it via the workflow's manual `limit`
+input to backfill more).
+
 ## Scheduled refreshes
 
 | Workflow | Schedule | Does |
@@ -254,7 +278,7 @@ license isn't redistributable, exactly as for F-Droid. Weekly refresh:
 | `.github/workflows/discovery.yml` | monthly (1st, 02:00 UTC) | refresh `package-ids.json` |
 | `.github/workflows/fetch-details.yml` | nightly, 03:00 UTC | refresh a chunk of `apps.json`, validate, build, commit |
 | `.github/workflows/fdroid.yml` | weekly (Mon, 04:00 UTC) | refresh the open-source (F-Droid) catalog |
-| `.github/workflows/github-apps.yml` | weekly (Mon, 05:00 UTC) | refresh open-source apps from GitHub releases |
+| `.github/workflows/github-apps.yml` | weekly (Mon, 05:00 UTC) | discover repos from OpenAPK, then refresh open-source apps from GitHub releases |
 | `.github/workflows/ci.yml` | every push / PR | validate, smoke test, build all languages |
 
 Both data workflows commit to the repository; the push is what triggers Vercel
