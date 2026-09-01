@@ -1,1 +1,1980 @@
-[]
+[
+  {
+    "slug": "inkcast",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "dev.inkcast.aos",
+    "category": "TOOLS",
+    "developer": "andrew-malitchuk",
+    "version": "0.0.1",
+    "size": "9.3 MB",
+    "min_android": "8.1",
+    "license": "Apache-2.0",
+    "source_code": "https://github.com/andrew-malitchuk/inkcast-kmp",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.INTERNET",
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.ACCESS_WIFI_STATE",
+      "android.permission.CHANGE_NETWORK_STATE",
+      "android.permission.CHANGE_WIFI_STATE",
+      "android.permission.ACCESS_FINE_LOCATION",
+      "android.permission.ACCESS_COARSE_LOCATION",
+      "android.permission.NEARBY_WIFI_DEVICES",
+      "dev.inkcast.aos.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "translations": {
+      "ru": {
+        "name": "Inkcast",
+        "summary": "«Inkcast» — приложение категории «Инструменты» от разработчика andrew-malitchuk. Размер загрузки — около 9.3 MB."
+      },
+      "en": {
+        "name": "Inkcast",
+        "summary": "In the Tools section: Inkcast, by andrew-malitchuk. The download weighs about 9.3 MB."
+      },
+      "tr": {
+        "name": "Inkcast",
+        "summary": "Katalogda yer alan Araçlar kategorisinde bir Android uygulaması: Inkcast. Yayıncı: andrew-malitchuk. Dosya boyutu 9.3 MB civarında."
+      },
+      "uz": {
+        "name": "Inkcast",
+        "summary": "Ilova: Inkcast, Vositalar turkumidagi Android ilovasi. Yozuvni andrew-malitchuk yuritadi. Yuklab olish hajmi taxminan 9.3 MB."
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/andrew-malitchuk/inkcast-kmp/releases/download/v0.0.1/0.0.1.apk",
+      "checksum_sha256": "2b37c7221de9e9a99e835e5959524590a66626f40191840519ed0b999823b722",
+      "updated": "2026-04-04"
+    },
+    "added_at": "2026-04-04T10:45:11.000Z",
+    "updated": "2026-04-04T10:45:11.000Z"
+  },
+  {
+    "slug": "remotephone",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "com.remotephone",
+    "category": "TOOLS",
+    "developer": "dpk404",
+    "version": "1.1.0",
+    "size": "1.5 MB",
+    "min_android": "7.0",
+    "license": "MIT",
+    "source_code": "https://github.com/dpk404/remote-phone",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.INTERNET",
+      "android.permission.FOREGROUND_SERVICE",
+      "android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION",
+      "android.permission.POST_NOTIFICATIONS",
+      "android.permission.ACCESS_WIFI_STATE",
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.WAKE_LOCK",
+      "com.remotephone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "translations": {
+      "ru": {
+        "name": "RemotePhone",
+        "summary": "«RemotePhone» — приложение категории «Инструменты» от разработчика dpk404. Дистрибутив занимает примерно 1.5 MB."
+      },
+      "en": {
+        "name": "RemotePhone",
+        "summary": "In the Tools section: RemotePhone, by dpk404. Expect a download of roughly 1.5 MB."
+      },
+      "tr": {
+        "name": "RemotePhone",
+        "summary": "Katalogda yer alan Araçlar kategorisinde bir Android uygulaması: RemotePhone. Yayıncı: dpk404. İndirme boyutu yaklaşık 1.5 MB."
+      },
+      "uz": {
+        "name": "RemotePhone",
+        "summary": "Ilova: RemotePhone, Vositalar turkumidagi Android ilovasi. Dasturchi: dpk404. Fayl hajmi 1.5 MB atrofida."
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/dpk404/remote-phone/releases/download/v1.1.0/RemotePhone-1.1.0.apk",
+      "checksum_sha256": "221e117df4c108d329739fd8a7b3a1562b605ec71bcd8e29d8c7d29a8a67d629",
+      "updated": "2026-05-08"
+    },
+    "added_at": "2026-05-08T21:07:09.000Z",
+    "updated": "2026-05-08T21:07:09.000Z"
+  },
+  {
+    "slug": "anywherelan",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "com.anywherelan.awl",
+    "category": "TOOLS",
+    "developer": "anywherelan",
+    "version": "0.19.0",
+    "size": "63.1 MB",
+    "min_android": "7.0",
+    "license": "MPL-2.0",
+    "source_code": "https://github.com/anywherelan/awl",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.INTERNET",
+      "android.permission.CAMERA",
+      "android.permission.WAKE_LOCK",
+      "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+      "android.permission.FOREGROUND_SERVICE",
+      "android.permission.WRITE_EXTERNAL_STORAGE",
+      "android.permission.READ_EXTERNAL_STORAGE",
+      "android.permission.VIBRATE",
+      "android.permission.POST_NOTIFICATIONS",
+      "com.anywherelan.awl.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "translations": {
+      "ru": {
+        "name": "Anywherelan",
+        "summary": "«Anywherelan» — приложение категории «Инструменты» от разработчика anywherelan. Дистрибутив занимает примерно 63.1 MB."
+      },
+      "en": {
+        "name": "Anywherelan",
+        "summary": "In the Tools section: Anywherelan, by anywherelan. The download weighs about 63.1 MB."
+      },
+      "tr": {
+        "name": "Anywherelan",
+        "summary": "Katalogda yer alan Araçlar kategorisinde bir Android uygulaması: Anywherelan. Geliştirici: anywherelan. İndirme boyutu yaklaşık 63.1 MB."
+      },
+      "uz": {
+        "name": "Anywherelan",
+        "summary": "Ilova: Anywherelan, Vositalar turkumidagi Android ilovasi. Yozuvni anywherelan yuritadi. Yuklab olish hajmi taxminan 63.1 MB."
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/anywherelan/awl/releases/download/v0.19.0/awl-android-v0.19.0.apk",
+      "checksum_sha256": "78d94b0564961d296b98e34d7f24371879a88c3cb44e8082ae66e8f14e7a5d27",
+      "updated": "2026-07-18"
+    },
+    "added_at": "2026-07-18T12:12:41.000Z",
+    "updated": "2026-07-18T12:12:41.000Z"
+  },
+  {
+    "slug": "controller-for-qlc",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "com.evanh.qlc_controller",
+    "category": "TOOLS",
+    "developer": "realevanhughes",
+    "version": "1.3",
+    "size": "15.3 MB",
+    "min_android": "7.0",
+    "license": "Apache-2.0",
+    "source_code": "https://github.com/realevanhughes/qlcplus-mobile-controller",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.INTERNET",
+      "com.evanh.qlc_controller.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "translations": {
+      "ru": {
+        "name": "Controller for QLC+",
+        "summary": "Приложение «Controller for QLC+» относится к разделу «Инструменты». Издатель: realevanhughes. Размер загрузки — около 15.3 MB."
+      },
+      "en": {
+        "name": "Controller for QLC+",
+        "summary": "Listed under Tools, Controller for QLC+ is an Android app. realevanhughes maintains the listing. The download weighs about 15.3 MB."
+      },
+      "tr": {
+        "name": "Controller for QLC+",
+        "summary": "Controller for QLC+ — Android için bir Araçlar uygulaması. Geliştirici: realevanhughes. Dosya boyutu 15.3 MB civarında."
+      },
+      "uz": {
+        "name": "Controller for QLC+",
+        "summary": "Katalogning «Vositalar» bo‘limida: Controller for QLC+. Yozuvni realevanhughes yuritadi. Fayl hajmi 15.3 MB atrofida."
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/realevanhughes/qlcplus-mobile-controller/releases/download/1.3/app-release.apk",
+      "checksum_sha256": "6d4c95a0a3efd4f188e6fae2519b899de9192c343a71c770b9c3db4653acd6f7",
+      "updated": "2026-06-24"
+    },
+    "added_at": "2026-06-24T14:57:55.000Z",
+    "updated": "2026-06-24T14:57:55.000Z"
+  },
+  {
+    "slug": "wd-cable",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "com.jingcjie.wifi_direct_cable",
+    "category": "TOOLS",
+    "developer": "jingcjie",
+    "version": "2.0.1",
+    "size": "17.9 MB",
+    "min_android": "13",
+    "license": "MIT",
+    "source_code": "https://github.com/jingcjie/WDCable_flutter",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.ACCESS_WIFI_STATE",
+      "android.permission.CHANGE_WIFI_STATE",
+      "android.permission.INTERNET",
+      "android.permission.RECORD_AUDIO",
+      "android.permission.FOREGROUND_SERVICE",
+      "android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE",
+      "android.permission.WAKE_LOCK",
+      "android.permission.POST_NOTIFICATIONS",
+      "android.permission.NEARBY_WIFI_DEVICES",
+      "com.jingcjie.wifi_direct_cable.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "translations": {
+      "ru": {
+        "name": "WD Cable",
+        "summary": "«WD Cable» — приложение категории «Инструменты» от разработчика jingcjie. Размер загрузки — около 17.9 MB."
+      },
+      "en": {
+        "name": "WD Cable",
+        "summary": "In the Tools section: WD Cable, by jingcjie. The download weighs about 17.9 MB."
+      },
+      "tr": {
+        "name": "WD Cable",
+        "summary": "Katalogda yer alan Araçlar kategorisinde bir Android uygulaması: WD Cable. Kaydı jingcjie yönetiyor. Dosya boyutu 17.9 MB civarında."
+      },
+      "uz": {
+        "name": "WD Cable",
+        "summary": "Ilova: WD Cable, Vositalar turkumidagi Android ilovasi. Dasturchi: jingcjie. Yuklab olish hajmi taxminan 17.9 MB."
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/jingcjie/WDCable_flutter/releases/download/v2.0.1/app-arm64-v8a-release.apk",
+      "checksum_sha256": "73bd887c34b8bc1c12741081a008af7cf5ca65d8247a2750623baab6142bfa8a",
+      "updated": "2026-06-22"
+    },
+    "added_at": "2026-06-22T03:36:57.000Z",
+    "updated": "2026-06-22T03:36:57.000Z"
+  },
+  {
+    "slug": "perfice",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "io.perfice.app",
+    "category": "TOOLS",
+    "developer": "p0lloc",
+    "version": "0.0.19",
+    "size": "9.4 MB",
+    "min_android": "8.0",
+    "license": "MIT",
+    "source_code": "https://github.com/p0lloc/perfice",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.INTERNET",
+      "android.permission.RECEIVE_BOOT_COMPLETED",
+      "android.permission.WAKE_LOCK",
+      "android.permission.POST_NOTIFICATIONS",
+      "android.permission.health.READ_STEPS",
+      "android.permission.health.READ_HEART_RATE",
+      "android.permission.health.READ_TOTAL_CALORIES_BURNED",
+      "android.permission.health.READ_SLEEP",
+      "android.permission.health.READ_BLOOD_GLUCOSE",
+      "android.permission.health.READ_EXERCISE",
+      "android.permission.health.READ_HEIGHT",
+      "android.permission.health.READ_WEIGHT",
+      "android.permission.health.READ_HYDRATION",
+      "android.permission.health.READ_BLOOD_PRESSURE",
+      "android.permission.health.READ_NUTRITION",
+      "android.permission.health.READ_HEALTH_DATA_HISTORY",
+      "android.permission.health.READ_HEALTH_IN_BACKGROUND",
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.FOREGROUND_SERVICE",
+      "io.perfice.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "translations": {
+      "ru": {
+        "name": "Perfice",
+        "summary": "В каталоге — приложение категории «Инструменты» под названием «Perfice». За выпуск отвечает p0lloc. Дистрибутив занимает примерно 9.4 MB."
+      },
+      "en": {
+        "name": "Perfice",
+        "summary": "Perfice — an Android app in the Tools category published by p0lloc. The download weighs about 9.4 MB."
+      },
+      "tr": {
+        "name": "Perfice",
+        "summary": "Perfice — Araçlar kategorisinde bir Android uygulaması. Kaydı p0lloc yönetiyor. İndirme boyutu yaklaşık 9.4 MB."
+      },
+      "uz": {
+        "name": "Perfice",
+        "summary": "Perfice: Vositalar turkumidagi Android ilovasi. Nashriyotchi: p0lloc. Yuklab olish hajmi taxminan 9.4 MB."
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/p0lloc/perfice/releases/download/v0.0.19/app-release.apk",
+      "checksum_sha256": "2b55f7b880a5a2891ba18f80ce49c6d814eedf22ee4c49f59b2afcad89583a0d",
+      "updated": "2026-04-30"
+    },
+    "added_at": "2026-04-30T08:10:20.000Z",
+    "updated": "2026-04-30T08:10:20.000Z"
+  },
+  {
+    "slug": "ibeacon-tasker-plugin",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "io.github.smailzhu.ibeacontasker",
+    "category": "TOOLS",
+    "developer": "smailzhu",
+    "version": "0.1.0",
+    "size": "664 KB",
+    "min_android": "6.0",
+    "license": "Apache-2.0",
+    "source_code": "https://github.com/smailzhu/ibeacon-tasker-plugin",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.BLUETOOTH",
+      "android.permission.BLUETOOTH_ADMIN",
+      "android.permission.ACCESS_COARSE_LOCATION",
+      "android.permission.ACCESS_FINE_LOCATION",
+      "android.permission.ACCESS_BACKGROUND_LOCATION",
+      "android.permission.BLUETOOTH_SCAN",
+      "android.permission.BLUETOOTH_CONNECT",
+      "android.permission.FOREGROUND_SERVICE",
+      "android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE",
+      "android.permission.POST_NOTIFICATIONS"
+    ],
+    "translations": {
+      "ru": {
+        "name": "iBeacon Tasker Plugin",
+        "summary": "В каталоге — приложение категории «Инструменты» под названием «iBeacon Tasker Plugin». Разработчик — smailzhu. Дистрибутив занимает примерно 664 KB."
+      },
+      "en": {
+        "name": "iBeacon Tasker Plugin",
+        "summary": "iBeacon Tasker Plugin — an Android app in the Tools category published by smailzhu. Expect a download of roughly 664 KB."
+      },
+      "tr": {
+        "name": "iBeacon Tasker Plugin",
+        "summary": "iBeacon Tasker Plugin — Araçlar kategorisinde bir Android uygulaması. Geliştirici: smailzhu. Dosya boyutu 664 KB civarında."
+      },
+      "uz": {
+        "name": "iBeacon Tasker Plugin",
+        "summary": "iBeacon Tasker Plugin: Vositalar turkumidagi Android ilovasi. Yozuvni smailzhu yuritadi. Yuklab olish hajmi taxminan 664 KB."
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/smailzhu/ibeacon-tasker-plugin/releases/download/v0.1.0/app-release.apk",
+      "checksum_sha256": "5a3676cfbb6ccbb1ad2e6ae119c9da05ee89c6c295e4bf4fc0a28017229b9daf",
+      "updated": "2026-05-31"
+    },
+    "added_at": "2026-05-31T14:13:31.000Z",
+    "updated": "2026-05-31T14:13:31.000Z"
+  },
+  {
+    "slug": "runnnpe-bridge",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "com.zappbrannigan34.runnnpebridge",
+    "category": "TOOLS",
+    "developer": "zappbrannigan34",
+    "version": "0.1.6",
+    "size": "13.1 MB",
+    "min_android": "10",
+    "license": "Apache-2.0",
+    "source_code": "https://github.com/zappbrannigan34/ruNNNpe-bridge",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.BLUETOOTH",
+      "android.permission.BLUETOOTH_ADMIN",
+      "android.permission.BLUETOOTH_SCAN",
+      "android.permission.BLUETOOTH_CONNECT",
+      "android.permission.ACCESS_FINE_LOCATION",
+      "android.permission.FOREGROUND_SERVICE",
+      "android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE",
+      "android.permission.RECEIVE_BOOT_COMPLETED",
+      "android.permission.POST_NOTIFICATIONS",
+      "android.permission.WAKE_LOCK",
+      "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+      "android.permission.REQUEST_COMPANION_RUN_IN_BACKGROUND",
+      "android.permission.REQUEST_COMPANION_START_FOREGROUND_SERVICES_FROM_BACKGROUND",
+      "android.permission.REQUEST_COMPANION_USE_DATA_IN_BACKGROUND",
+      "android.permission.REQUEST_OBSERVE_COMPANION_DEVICE_PRESENCE",
+      "android.permission.health.READ_WEIGHT",
+      "android.permission.health.WRITE_WEIGHT",
+      "android.permission.health.READ_HEIGHT",
+      "android.permission.health.WRITE_HEIGHT",
+      "android.permission.health.READ_BASAL_METABOLIC_RATE",
+      "android.permission.health.WRITE_BASAL_METABOLIC_RATE",
+      "android.permission.health.READ_DISTANCE",
+      "android.permission.health.READ_STEPS",
+      "android.permission.health.WRITE_EXERCISE",
+      "android.permission.health.WRITE_SPEED",
+      "android.permission.health.WRITE_DISTANCE",
+      "android.permission.health.WRITE_ELEVATION_GAINED",
+      "android.permission.health.WRITE_FLOORS_CLIMBED",
+      "android.permission.health.WRITE_STEPS",
+      "android.permission.health.WRITE_STEPS_CADENCE",
+      "android.permission.health.WRITE_HEART_RATE",
+      "android.permission.health.WRITE_ACTIVE_CALORIES_BURNED",
+      "android.permission.health.WRITE_TOTAL_CALORIES_BURNED",
+      "com.zappbrannigan34.runnnpebridge.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "translations": {
+      "ru": {
+        "name": "ruNNNpe bridge",
+        "summary": "Приложение «ruNNNpe bridge» относится к разделу «Инструменты». За выпуск отвечает zappbrannigan34. Дистрибутив занимает примерно 13.1 MB."
+      },
+      "en": {
+        "name": "ruNNNpe bridge",
+        "summary": "Listed under Tools, ruNNNpe bridge is an Android app. Developer: zappbrannigan34. The download weighs about 13.1 MB."
+      },
+      "tr": {
+        "name": "ruNNNpe bridge",
+        "summary": "ruNNNpe bridge — Android için bir Araçlar uygulaması. Kaydı zappbrannigan34 yönetiyor. Dosya boyutu 13.1 MB civarında."
+      },
+      "uz": {
+        "name": "ruNNNpe bridge",
+        "summary": "Katalogning «Vositalar» bo‘limida: ruNNNpe bridge. Nashriyotchi: zappbrannigan34. Fayl hajmi 13.1 MB atrofida."
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/zappbrannigan34/ruNNNpe-bridge/releases/download/v0.1.6/ruNNNpe.bridge-v0.1.6.apk",
+      "checksum_sha256": "f83f5bbed94ff40b780486077490942b6ffd37ab9eeba3bb09f66667394b02ab",
+      "updated": "2026-03-06"
+    },
+    "added_at": "2026-03-06T06:05:09.000Z",
+    "updated": "2026-03-06T06:05:09.000Z"
+  },
+  {
+    "slug": "nfc-archiver",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "com.nfcarchiver.nfc_archiver",
+    "category": "TOOLS",
+    "developer": "mezinster",
+    "version": "1.1.1",
+    "size": "53.8 MB",
+    "min_android": "7.0",
+    "license": "MIT",
+    "source_code": "https://github.com/mezinster/nfcarchiver",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.NFC",
+      "android.permission.BLUETOOTH_SCAN",
+      "android.permission.BLUETOOTH_CONNECT",
+      "android.permission.BLUETOOTH",
+      "android.permission.BLUETOOTH_ADMIN",
+      "android.permission.READ_EXTERNAL_STORAGE",
+      "android.permission.WRITE_EXTERNAL_STORAGE",
+      "com.nfcarchiver.nfc_archiver.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "translations": {
+      "ru": {
+        "name": "NFC Archiver",
+        "summary": "Приложение «NFC Archiver» от mezinster входит в раздел «Инструменты». Размер загрузки — около 53.8 MB."
+      },
+      "en": {
+        "name": "NFC Archiver",
+        "summary": "NFC Archiver is an Android app in the Tools category. Developer: mezinster. The download weighs about 53.8 MB."
+      },
+      "tr": {
+        "name": "NFC Archiver",
+        "summary": "NFC Archiver: Araçlar kategorisinde bir Android uygulaması. Kaydı mezinster yönetiyor. Dosya boyutu 53.8 MB civarında."
+      },
+      "uz": {
+        "name": "NFC Archiver",
+        "summary": "NFC Archiver — Vositalar turkumidagi Android ilovasi. Yozuvni mezinster yuritadi. Fayl hajmi 53.8 MB atrofida."
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/mezinster/nfcarchiver/releases/download/v1.1.1/nfc-archiver-1.1.1%2B368.apk",
+      "checksum_sha256": "7f1a314c39e97d32350078bc5c812316649dc87927d3f4ca194e7927393dc2ca",
+      "updated": "2026-08-02"
+    },
+    "added_at": "2026-08-02T07:42:25.000Z",
+    "updated": "2026-08-02T07:42:25.000Z"
+  },
+  {
+    "slug": "localsend",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "org.localsend.localsend_app",
+    "category": "TOOLS",
+    "developer": "localsend",
+    "version": "1.18.2",
+    "size": "44.4 MB",
+    "min_android": "7.0",
+    "license": "Apache-2.0",
+    "source_code": "https://github.com/localsend/localsend",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.INTERNET",
+      "android.permission.READ_EXTERNAL_STORAGE",
+      "android.permission.WRITE_EXTERNAL_STORAGE",
+      "android.permission.READ_MEDIA_IMAGES",
+      "android.permission.READ_MEDIA_VIDEO",
+      "android.permission.ACCESS_MEDIA_LOCATION",
+      "android.permission.QUERY_ALL_PACKAGES",
+      "android.permission.REQUEST_INSTALL_PACKAGES",
+      "android.permission.BIND_QUICK_SETTINGS_TILE",
+      "android.permission.ACCESS_LOCAL_NETWORK",
+      "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+      "android.permission.FOREGROUND_SERVICE",
+      "android.permission.WAKE_LOCK",
+      "android.permission.RECEIVE_BOOT_COMPLETED",
+      "android.permission.POST_NOTIFICATIONS",
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.ACCESS_WIFI_STATE",
+      "android.permission.READ_MEDIA_AUDIO",
+      "org.localsend.localsend_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "translations": {
+      "ru": {
+        "name": "LocalSend",
+        "summary": "Приложение «LocalSend» относится к разделу «Инструменты». За выпуск отвечает localsend. Дистрибутив занимает примерно 44.4 MB."
+      },
+      "en": {
+        "name": "LocalSend",
+        "summary": "Listed under Tools, LocalSend is an Android app. Developer: localsend. Expect a download of roughly 44.4 MB."
+      },
+      "tr": {
+        "name": "LocalSend",
+        "summary": "LocalSend — Android için bir Araçlar uygulaması. Kaydı localsend yönetiyor. Dosya boyutu 44.4 MB civarında."
+      },
+      "uz": {
+        "name": "LocalSend",
+        "summary": "Katalogning «Vositalar» bo‘limida: LocalSend. Dasturchi: localsend. Yuklab olish hajmi taxminan 44.4 MB."
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/localsend/localsend/releases/download/v1.18.2/LocalSend-1.18.2-android-arm64v8.apk",
+      "checksum_sha256": "82ec3568fba2aa5295b9aae8b76f701d7a4703d86b9f8bad749472038fbaeab3",
+      "updated": "2026-08-21"
+    },
+    "added_at": "2026-08-21T14:02:01.000Z",
+    "updated": "2026-08-21T14:02:01.000Z"
+  },
+  {
+    "slug": "thunderbird-free-your-inbox",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "net.thunderbird.android",
+    "category": "TOOLS",
+    "developer": "thunderbird",
+    "version": "22.0",
+    "size": "10.3 MB",
+    "min_android": "6.0",
+    "license": "Apache-2.0",
+    "source_code": "https://github.com/thunderbird/thunderbird-android",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.CAMERA",
+      "android.permission.READ_CONTACTS",
+      "android.permission.POST_NOTIFICATIONS",
+      "android.permission.RECEIVE_BOOT_COMPLETED",
+      "android.permission.READ_SYNC_SETTINGS",
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.INTERNET",
+      "android.permission.VIBRATE",
+      "android.permission.WAKE_LOCK",
+      "android.permission.FOREGROUND_SERVICE",
+      "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+      "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+      "android.permission.SCHEDULE_EXACT_ALARM",
+      "android.permission.USE_BIOMETRIC",
+      "android.permission.USE_FINGERPRINT",
+      "net.thunderbird.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "translations": {
+      "ru": {
+        "name": "Thunderbird: Free Your Inbox",
+        "summary": "«Thunderbird: Free Your Inbox» — приложение категории «Инструменты» от разработчика thunderbird. Размер загрузки — около 10.3 MB."
+      },
+      "en": {
+        "name": "Thunderbird: Free Your Inbox",
+        "summary": "In the Tools section: Thunderbird: Free Your Inbox, by thunderbird. Expect a download of roughly 10.3 MB."
+      },
+      "tr": {
+        "name": "Thunderbird: Free Your Inbox",
+        "summary": "Katalogda yer alan Araçlar kategorisinde bir Android uygulaması: Thunderbird: Free Your Inbox. Kaydı thunderbird yönetiyor. Dosya boyutu 10.3 MB civarında."
+      },
+      "uz": {
+        "name": "Thunderbird: Free Your Inbox",
+        "summary": "Ilova: Thunderbird: Free Your Inbox, Vositalar turkumidagi Android ilovasi. Nashriyotchi: thunderbird. Yuklab olish hajmi taxminan 10.3 MB."
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/thunderbird/thunderbird-android/releases/download/THUNDERBIRD_22_0/thunderbird-22.0.apk",
+      "checksum_sha256": "4a1875bb1cf4293c468048e56a91d16818653f7d6e646642dff7486dfbf0732d",
+      "updated": "2026-08-11"
+    },
+    "added_at": "2026-08-11T03:59:18.000Z",
+    "updated": "2026-08-11T03:59:18.000Z"
+  },
+  {
+    "slug": "rethink-dns-firewall",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "com.celzero.bravedns",
+    "category": "TOOLS",
+    "developer": "celzero",
+    "version": "v0.5.6",
+    "size": "33.0 MB",
+    "min_android": "6.0",
+    "license": "Apache-2.0",
+    "source_code": "https://github.com/celzero/rethink-app",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.RECEIVE_BOOT_COMPLETED",
+      "android.permission.FOREGROUND_SERVICE",
+      "android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED",
+      "android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE",
+      "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.POST_NOTIFICATIONS",
+      "android.permission.CHANGE_NETWORK_STATE",
+      "android.permission.INTERNET",
+      "android.permission.ACCESS_WIFI_STATE",
+      "android.permission.ACCESS_FINE_LOCATION",
+      "android.permission.ACCESS_COARSE_LOCATION",
+      "android.permission.ACCESS_BACKGROUND_LOCATION",
+      "android.permission.QUERY_ALL_PACKAGES",
+      "android.permission.INTERACT_ACROSS_USERS",
+      "android.permission.ACCESS_LOCAL_NETWORK",
+      "com.android.vending.BILLING",
+      "android.permission.USE_BIOMETRIC",
+      "android.permission.USE_FINGERPRINT",
+      "android.permission.WAKE_LOCK",
+      "com.celzero.bravedns.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+      "android.permission.CAMERA"
+    ],
+    "translations": {
+      "ru": {
+        "name": "Rethink: DNS + Firewall",
+        "summary": "Приложение «Rethink: DNS + Firewall» относится к разделу «Инструменты». За выпуск отвечает celzero. Размер загрузки — около 33.0 MB."
+      },
+      "en": {
+        "name": "Rethink: DNS + Firewall",
+        "summary": "Listed under Tools, Rethink: DNS + Firewall is an Android app. Developer: celzero. The download weighs about 33.0 MB."
+      },
+      "tr": {
+        "name": "Rethink: DNS + Firewall",
+        "summary": "Rethink: DNS + Firewall — Android için bir Araçlar uygulaması. Kaydı celzero yönetiyor. Dosya boyutu 33.0 MB civarında."
+      },
+      "uz": {
+        "name": "Rethink: DNS + Firewall",
+        "summary": "Katalogning «Vositalar» bo‘limida: Rethink: DNS + Firewall. Nashriyotchi: celzero. Yuklab olish hajmi taxminan 33.0 MB."
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/celzero/rethink-app/releases/download/v0.5.6/rethink-67-arm64-v8a.apk",
+      "checksum_sha256": "d68c7e3e57c3fd46e6928d2f9e4308bffc72104fbb930b85b0d082aa1207b143",
+      "updated": "2026-08-09"
+    },
+    "added_at": "2026-08-09T15:46:17.000Z",
+    "updated": "2026-08-09T15:46:17.000Z"
+  },
+  {
+    "slug": "tailscale",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "com.tailscale.ipn",
+    "category": "TOOLS",
+    "developer": "tailscale",
+    "version": "1.102.3-t9329c3677-gaea8f60c0",
+    "size": "100.5 MB",
+    "min_android": "8.0",
+    "license": "BSD-3-Clause",
+    "source_code": "https://github.com/tailscale/tailscale-android",
+    "icon_url": "/img/github/tailscale.webp",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.ACCESS_WIFI_STATE",
+      "android.permission.INTERNET",
+      "android.permission.WRITE_EXTERNAL_STORAGE",
+      "android.permission.CHANGE_NETWORK_STATE",
+      "android.permission.POST_NOTIFICATIONS",
+      "android.permission.FOREGROUND_SERVICE",
+      "android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED",
+      "android.permission.QUERY_ALL_PACKAGES",
+      "android.permission.WAKE_LOCK",
+      "android.permission.RECEIVE_BOOT_COMPLETED",
+      "com.tailscale.ipn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "translations": {
+      "ru": {
+        "name": "Tailscale",
+        "summary": "Приложение «Tailscale» от tailscale входит в раздел «Инструменты». Размер загрузки — около 100.5 MB."
+      },
+      "en": {
+        "name": "Tailscale",
+        "summary": "Tailscale is an Android app in the Tools category. tailscale maintains the listing. The download weighs about 100.5 MB."
+      },
+      "tr": {
+        "name": "Tailscale",
+        "summary": "Tailscale: Araçlar kategorisinde bir Android uygulaması. Geliştirici: tailscale. İndirme boyutu yaklaşık 100.5 MB."
+      },
+      "uz": {
+        "name": "Tailscale",
+        "summary": "Tailscale — Vositalar turkumidagi Android ilovasi. Nashriyotchi: tailscale. Yuklab olish hajmi taxminan 100.5 MB."
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/tailscale/tailscale-android/releases/download/1.102.3-t9329c3677-gf19372863/tailscale-android-universal-1.102.3.apk",
+      "checksum_sha256": "ce01f538379768144d7e3f31706a8eb6038fcaae6aa3c410a83bc56113ac0763",
+      "updated": "2026-08-21"
+    },
+    "added_at": "2026-08-21T14:25:51.000Z",
+    "updated": "2026-08-21T14:25:51.000Z"
+  },
+  {
+    "slug": "home-assistant",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "io.homeassistant.companion.android.minimal",
+    "category": "TOOLS",
+    "developer": "home-assistant",
+    "version": "2026.6.5-minimal",
+    "size": "114.3 MB",
+    "min_android": "10",
+    "license": "Apache-2.0",
+    "source_code": "https://github.com/home-assistant/android",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.ACCESS_WIFI_STATE",
+      "android.permission.ACCESS_LOCAL_NETWORK",
+      "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+      "android.permission.BLUETOOTH",
+      "android.permission.BLUETOOTH_ADMIN",
+      "android.permission.BLUETOOTH_ADVERTISE",
+      "android.permission.BLUETOOTH_CONNECT",
+      "android.permission.BLUETOOTH_SCAN",
+      "android.permission.INTERNET",
+      "android.permission.VIBRATE",
+      "android.permission.RECEIVE_BOOT_COMPLETED",
+      "android.permission.ACCESS_FINE_LOCATION",
+      "android.permission.ACCESS_COARSE_LOCATION",
+      "android.permission.ACCESS_BACKGROUND_LOCATION",
+      "android.permission.CAMERA",
+      "android.permission.CALL_PHONE",
+      "android.permission.RECORD_AUDIO",
+      "android.permission.MODIFY_AUDIO_SETTINGS",
+      "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+      "android.permission.NFC",
+      "android.permission.READ_PHONE_STATE",
+      "android.permission.ACTIVITY_RECOGNITION",
+      "com.google.android.gms.permission.ACTIVITY_RECOGNITION",
+      "android.permission.ACCESS_NOTIFICATION_POLICY",
+      "android.permission.QUERY_ALL_PACKAGES",
+      "com.android.alarm.permission.SET_ALARM",
+      "android.permission.FOREGROUND_SERVICE",
+      "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+      "android.permission.FOREGROUND_SERVICE_LOCATION",
+      "android.permission.FOREGROUND_SERVICE_REMOTE_MESSAGING",
+      "android.permission.SYSTEM_ALERT_WINDOW",
+      "android.permission.WRITE_EXTERNAL_STORAGE",
+      "android.permission.WAKE_LOCK",
+      "android.permission.SCHEDULE_EXACT_ALARM",
+      "android.permission.PACKAGE_USAGE_STATS",
+      "android.permission.POST_NOTIFICATIONS",
+      "android.permission.WRITE_SETTINGS",
+      "android.car.permission.CAR_INFO",
+      "android.car.permission.CAR_ENERGY",
+      "android.car.permission.CAR_ENERGY_PORTS",
+      "android.car.permission.READ_CAR_DISPLAY_UNITS",
+      "android.car.permission.CAR_SPEED",
+      "android.permission.USE_BIOMETRIC",
+      "android.permission.USE_FINGERPRINT",
+      "io.homeassistant.companion.android.minimal.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "translations": {
+      "ru": {
+        "name": "Home Assistant",
+        "summary": "«Home Assistant» — приложение категории «Инструменты» от разработчика home-assistant. Дистрибутив занимает примерно 114.3 MB."
+      },
+      "en": {
+        "name": "Home Assistant",
+        "summary": "In the Tools section: Home Assistant, by home-assistant. The download weighs about 114.3 MB."
+      },
+      "tr": {
+        "name": "Home Assistant",
+        "summary": "Katalogda yer alan Araçlar kategorisinde bir Android uygulaması: Home Assistant. Kaydı home-assistant yönetiyor. İndirme boyutu yaklaşık 114.3 MB."
+      },
+      "uz": {
+        "name": "Home Assistant",
+        "summary": "Ilova: Home Assistant, Vositalar turkumidagi Android ilovasi. Nashriyotchi: home-assistant. Fayl hajmi 114.3 MB atrofida."
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/home-assistant/android/releases/download/2026.6.5/automotive-minimal-release.apk",
+      "checksum_sha256": "126bbf490b707d75c68999d34de9128c9ffdb813429d3b984db582e1dc64b532",
+      "updated": "2026-06-21"
+    },
+    "added_at": "2026-06-21T06:00:01.000Z",
+    "updated": "2026-06-21T06:00:01.000Z"
+  },
+  {
+    "slug": "i2pd",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "org.purplei2p.i2pd",
+    "category": "TOOLS",
+    "developer": "PurpleI2P",
+    "version": "2.61.0",
+    "size": "20.5 MB",
+    "min_android": "API 16",
+    "license": "BSD-3-Clause",
+    "source_code": "https://github.com/PurpleI2P/i2pd-android",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.WRITE_EXTERNAL_STORAGE",
+      "android.permission.READ_EXTERNAL_STORAGE",
+      "android.permission.MANAGE_EXTERNAL_STORAGE",
+      "android.permission.INTERNET",
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.FOREGROUND_SERVICE",
+      "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+      "android.permission.RECEIVE_BOOT_COMPLETED",
+      "org.purplei2p.i2pd.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "translations": {
+      "ru": {
+        "name": "i2pd",
+        "summary": "Приложение «i2pd» относится к разделу «Инструменты». За выпуск отвечает PurpleI2P. Дистрибутив занимает примерно 20.5 MB."
+      },
+      "en": {
+        "name": "i2pd",
+        "summary": "Listed under Tools, i2pd is an Android app. PurpleI2P maintains the listing. The download weighs about 20.5 MB."
+      },
+      "tr": {
+        "name": "i2pd",
+        "summary": "i2pd — Android için bir Araçlar uygulaması. Kaydı PurpleI2P yönetiyor. Dosya boyutu 20.5 MB civarında."
+      },
+      "uz": {
+        "name": "i2pd",
+        "summary": "Katalogning «Vositalar» bo‘limida: i2pd. Dasturchi: PurpleI2P. Yuklab olish hajmi taxminan 20.5 MB."
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/PurpleI2P/i2pd-android/releases/download/2.61.0/i2pd-2.61.0-universal-release.apk",
+      "checksum_sha256": "9c473b8c232923214b0db3c2ff3a1ec4246683f141ad6c73623f0ab26026a4df",
+      "updated": "2026-07-21"
+    },
+    "added_at": "2026-07-21T21:34:05.000Z",
+    "updated": "2026-07-21T21:34:05.000Z"
+  },
+  {
+    "slug": "sstv-encoder",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "om.sstvencoder",
+    "category": "TOOLS",
+    "developer": "olgamiller",
+    "version": "2.14",
+    "size": "2.8 MB",
+    "min_android": "6.0",
+    "license": "Apache-2.0",
+    "source_code": "https://github.com/olgamiller/SSTVEncoder2",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.WRITE_EXTERNAL_STORAGE",
+      "om.sstvencoder.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "translations": {
+      "ru": {
+        "name": "SSTV Encoder",
+        "summary": "Приложение «SSTV Encoder» от olgamiller входит в раздел «Инструменты». Размер загрузки — около 2.8 MB."
+      },
+      "en": {
+        "name": "SSTV Encoder",
+        "summary": "SSTV Encoder is an Android app in the Tools category. olgamiller maintains the listing. The download weighs about 2.8 MB."
+      },
+      "tr": {
+        "name": "SSTV Encoder",
+        "summary": "SSTV Encoder: Araçlar kategorisinde bir Android uygulaması. Geliştirici: olgamiller. Dosya boyutu 2.8 MB civarında."
+      },
+      "uz": {
+        "name": "SSTV Encoder",
+        "summary": "SSTV Encoder — Vositalar turkumidagi Android ilovasi. Yozuvni olgamiller yuritadi. Fayl hajmi 2.8 MB atrofida."
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/olgamiller/SSTVEncoder2/releases/download/Version2.14/app-release.apk",
+      "checksum_sha256": "1e34722bfcae778b6299c98231ce431bc3407f2028f45dc569e5156588359f78",
+      "updated": "2026-08-31"
+    },
+    "added_at": "2026-08-31T19:04:51.000Z",
+    "updated": "2026-08-31T19:04:51.000Z"
+  },
+  {
+    "slug": "evcc-solar-charging",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "io.evcc.android",
+    "category": "TOOLS",
+    "developer": "evcc-io",
+    "version": "1.5.0",
+    "size": "105.3 MB",
+    "min_android": "7.0",
+    "license": "MIT",
+    "source_code": "https://github.com/evcc-io/app",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.ACCESS_WIFI_STATE",
+      "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+      "android.permission.INTERNET",
+      "android.permission.READ_EXTERNAL_STORAGE",
+      "android.permission.SYSTEM_ALERT_WINDOW",
+      "android.permission.VIBRATE",
+      "android.permission.WRITE_EXTERNAL_STORAGE",
+      "io.evcc.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "translations": {
+      "ru": {
+        "name": "evcc - solar charging",
+        "summary": "Приложение «evcc - solar charging» относится к разделу «Инструменты». Разработчик — evcc-io. Дистрибутив занимает примерно 105.3 MB."
+      },
+      "en": {
+        "name": "evcc - solar charging",
+        "summary": "Listed under Tools, evcc - solar charging is an Android app. It is published by evcc-io. Expect a download of roughly 105.3 MB."
+      },
+      "tr": {
+        "name": "evcc - solar charging",
+        "summary": "evcc - solar charging — Android için bir Araçlar uygulaması. Geliştirici: evcc-io. Dosya boyutu 105.3 MB civarında."
+      },
+      "uz": {
+        "name": "evcc - solar charging",
+        "summary": "Katalogning «Vositalar» bo‘limida: evcc - solar charging. Dasturchi: evcc-io. Fayl hajmi 105.3 MB atrofida."
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/evcc-io/app/releases/download/1.5.0/evcc-1.5.0-fdroid.apk",
+      "checksum_sha256": "eaa5611f57d2b7bc01d51061e7ccdde2a5d75232065e24cbfafa9ca26de6755f",
+      "updated": "2026-08-31"
+    },
+    "added_at": "2026-08-31T15:35:24.000Z",
+    "updated": "2026-08-31T15:35:24.000Z"
+  },
+  {
+    "slug": "wg-auto-connect",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "de.marionoll.wgautoconnect",
+    "category": "TOOLS",
+    "developer": "MarioNoll",
+    "version": "1.1.1",
+    "size": "1.5 MB",
+    "min_android": "6.0",
+    "license": "MIT",
+    "source_code": "https://github.com/MarioNoll/WG-Auto-Connect",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.POST_NOTIFICATIONS",
+      "android.permission.RECEIVE_BOOT_COMPLETED",
+      "android.permission.FOREGROUND_SERVICE",
+      "android.permission.FOREGROUND_SERVICE_LOCATION",
+      "android.permission.ACCESS_FINE_LOCATION",
+      "android.permission.ACCESS_COARSE_LOCATION",
+      "android.permission.ACCESS_BACKGROUND_LOCATION",
+      "android.permission.CHANGE_WIFI_STATE",
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.ACCESS_WIFI_STATE",
+      "com.wireguard.android.permission.CONTROL_TUNNELS",
+      "de.marionoll.wgautoconnect.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "translations": {
+      "ru": {
+        "name": "WG Auto Connect",
+        "summary": "В каталоге — приложение категории «Инструменты» под названием «WG Auto Connect». Разработчик — MarioNoll. Размер загрузки — около 1.5 MB."
+      },
+      "en": {
+        "name": "WG Auto Connect",
+        "summary": "WG Auto Connect — an Android app in the Tools category published by MarioNoll. Expect a download of roughly 1.5 MB."
+      },
+      "tr": {
+        "name": "WG Auto Connect",
+        "summary": "WG Auto Connect — Araçlar kategorisinde bir Android uygulaması. Kaydı MarioNoll yönetiyor. İndirme boyutu yaklaşık 1.5 MB."
+      },
+      "uz": {
+        "name": "WG Auto Connect",
+        "summary": "WG Auto Connect: Vositalar turkumidagi Android ilovasi. Nashriyotchi: MarioNoll. Fayl hajmi 1.5 MB atrofida."
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/MarioNoll/WG-Auto-Connect/releases/download/1.1.1/app-release.apk",
+      "checksum_sha256": "a701108e6792f6219fa1f742ac71cb853c3b9b9770e21ef14aac35742f728a19",
+      "updated": "2026-08-31"
+    },
+    "added_at": "2026-08-31T07:40:19.000Z",
+    "updated": "2026-08-31T07:40:19.000Z"
+  },
+  {
+    "slug": "taskerha",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "com.github.db1996.taskerha",
+    "category": "TOOLS",
+    "developer": "db1996",
+    "version": "2.0.4",
+    "size": "14.6 MB",
+    "min_android": "7.0",
+    "license": "MIT",
+    "source_code": "https://github.com/db1996/TaskerHa",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.INTERNET",
+      "android.permission.ACCESS_WIFI_STATE",
+      "android.permission.ACCESS_FINE_LOCATION",
+      "android.permission.NEARBY_WIFI_DEVICES",
+      "android.permission.FOREGROUND_SERVICE",
+      "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+      "android.permission.POST_NOTIFICATIONS",
+      "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+      "android.permission.RECEIVE_BOOT_COMPLETED",
+      "com.github.db1996.taskerha.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "translations": {
+      "ru": {
+        "name": "TaskerHA",
+        "summary": "Приложение «TaskerHA» от db1996 входит в раздел «Инструменты». Дистрибутив занимает примерно 14.6 MB."
+      },
+      "en": {
+        "name": "TaskerHA",
+        "summary": "TaskerHA is an Android app in the Tools category. db1996 maintains the listing. Expect a download of roughly 14.6 MB."
+      },
+      "tr": {
+        "name": "TaskerHA",
+        "summary": "TaskerHA: Araçlar kategorisinde bir Android uygulaması. Geliştirici: db1996. İndirme boyutu yaklaşık 14.6 MB."
+      },
+      "uz": {
+        "name": "TaskerHA",
+        "summary": "TaskerHA — Vositalar turkumidagi Android ilovasi. Dasturchi: db1996. Yuklab olish hajmi taxminan 14.6 MB."
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/db1996/TaskerHa/releases/download/v2.0.4/TaskerHa.v2.0.4.apk",
+      "checksum_sha256": "af18428a823542074cf418442147b801d228d23e0d1d36e68c9ffb926462221b",
+      "updated": "2026-08-26"
+    },
+    "added_at": "2026-08-26T18:16:27.000Z",
+    "updated": "2026-08-26T18:16:27.000Z"
+  },
+  {
+    "slug": "vernet-network-analyzer",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "org.fsociety.vernet",
+    "category": "TOOLS",
+    "developer": "osociety",
+    "version": "1.3.4",
+    "size": "22.7 MB",
+    "min_android": "7.0",
+    "license": "Apache-2.0",
+    "source_code": "https://github.com/osociety/vernet",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.ACCESS_FINE_LOCATION",
+      "android.permission.ACCESS_WIFI_STATE",
+      "android.permission.INTERNET",
+      "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+      "android.permission.VIBRATE",
+      "android.permission.RECEIVE_BOOT_COMPLETED",
+      "android.permission.POST_NOTIFICATIONS",
+      "android.permission.ACCESS_NETWORK_STATE",
+      "org.fsociety.vernet.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "translations": {
+      "ru": {
+        "name": "Vernet - Network Analyzer",
+        "summary": "Приложение «Vernet - Network Analyzer» относится к разделу «Инструменты». Издатель: osociety. Дистрибутив занимает примерно 22.7 MB."
+      },
+      "en": {
+        "name": "Vernet - Network Analyzer",
+        "summary": "Listed under Tools, Vernet - Network Analyzer is an Android app. Developer: osociety. The download weighs about 22.7 MB."
+      },
+      "tr": {
+        "name": "Vernet - Network Analyzer",
+        "summary": "Vernet - Network Analyzer — Android için bir Araçlar uygulaması. Yayıncı: osociety. Dosya boyutu 22.7 MB civarında."
+      },
+      "uz": {
+        "name": "Vernet - Network Analyzer",
+        "summary": "Katalogning «Vositalar» bo‘limida: Vernet - Network Analyzer. Yozuvni osociety yuritadi. Yuklab olish hajmi taxminan 22.7 MB."
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/osociety/vernet/releases/download/v1.3.4%2B42/Vernet-v1.3.4%2B42-app-arm64-v8a-dev-release.apk",
+      "checksum_sha256": "5c4103f807a51dfd0b7e3ef08f01678970de240d165f284b058d486d085a8904",
+      "updated": "2026-08-23"
+    },
+    "added_at": "2026-08-23T15:50:25.000Z",
+    "updated": "2026-08-23T15:50:25.000Z"
+  },
+  {
+    "slug": "omn-go",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "net.basov.omngo",
+    "category": "TOOLS",
+    "developer": "mvbasov",
+    "version": "26.08.82",
+    "size": "65.4 MB",
+    "min_android": "6.0",
+    "license": "MIT",
+    "source_code": "https://github.com/mvbasov/OMN-Go",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.INTERNET",
+      "android.permission.WAKE_LOCK",
+      "android.permission.READ_EXTERNAL_STORAGE",
+      "android.permission.WRITE_EXTERNAL_STORAGE",
+      "android.permission.FOREGROUND_SERVICE",
+      "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+      "android.permission.POST_NOTIFICATIONS",
+      "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+      "com.android.launcher.permission.INSTALL_SHORTCUT",
+      "com.termux.permission.RUN_COMMAND"
+    ],
+    "translations": {
+      "ru": {
+        "name": "OMN-Go",
+        "summary": "Приложение «OMN-Go» от mvbasov входит в раздел «Инструменты». Размер загрузки — около 65.4 MB."
+      },
+      "en": {
+        "name": "OMN-Go",
+        "summary": "OMN-Go is an Android app in the Tools category. mvbasov maintains the listing. The download weighs about 65.4 MB."
+      },
+      "tr": {
+        "name": "OMN-Go",
+        "summary": "OMN-Go: Araçlar kategorisinde bir Android uygulaması. Geliştirici: mvbasov. İndirme boyutu yaklaşık 65.4 MB."
+      },
+      "uz": {
+        "name": "OMN-Go",
+        "summary": "OMN-Go — Vositalar turkumidagi Android ilovasi. Dasturchi: mvbasov. Yuklab olish hajmi taxminan 65.4 MB."
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/mvbasov/OMN-Go/releases/download/v26.08.82f/omn-go-v26.08.82-standard-universal-release.apk",
+      "checksum_sha256": "c60cc04fbea2a6f45e0cd059d1c8d56617324124c63867d5f19b65408c18e8d4",
+      "updated": "2026-08-30"
+    },
+    "added_at": "2026-08-30T19:27:18.000Z",
+    "updated": "2026-08-30T19:27:18.000Z"
+  },
+  {
+    "slug": "turtle",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "com.amrdeveloper.turtle",
+    "category": "TOOLS",
+    "developer": "AmrDeveloper",
+    "version": "2.0.12",
+    "size": "25.5 MB",
+    "min_android": "7.0",
+    "license": "MIT",
+    "source_code": "https://github.com/AmrDeveloper/Turtle",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "com.amrdeveloper.turtle.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "translations": {
+      "ru": {
+        "name": "Turtle",
+        "summary": "«Turtle» — приложение категории «Инструменты» от разработчика AmrDeveloper. Размер загрузки — около 25.5 MB."
+      },
+      "en": {
+        "name": "Turtle",
+        "summary": "In the Tools section: Turtle, by AmrDeveloper. The download weighs about 25.5 MB."
+      },
+      "tr": {
+        "name": "Turtle",
+        "summary": "Katalogda yer alan Araçlar kategorisinde bir Android uygulaması: Turtle. Geliştirici: AmrDeveloper. İndirme boyutu yaklaşık 25.5 MB."
+      },
+      "uz": {
+        "name": "Turtle",
+        "summary": "Ilova: Turtle, Vositalar turkumidagi Android ilovasi. Yozuvni AmrDeveloper yuritadi. Fayl hajmi 25.5 MB atrofida."
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/AmrDeveloper/Turtle/releases/download/2.0.12/app-universal-release.apk",
+      "checksum_sha256": "b117408924ecceba20e608b4b618512d616dbc05f30817a6f4fd2767af7e3e8d",
+      "updated": "2026-07-08"
+    },
+    "added_at": "2026-07-08T17:19:51.000Z",
+    "updated": "2026-07-08T17:19:51.000Z"
+  },
+  {
+    "slug": "taiga-mobile-nova",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "com.grappim.taigamobile",
+    "category": "TOOLS",
+    "developer": "Grigoriym",
+    "version": "2.1.5",
+    "size": "9.0 MB",
+    "min_android": "7.0",
+    "license": "Apache-2.0",
+    "source_code": "https://github.com/Grigoriym/TaigaMobileNova",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.INTERNET",
+      "android.permission.ACCESS_NETWORK_STATE",
+      "com.grappim.taigamobile.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "translations": {
+      "ru": {
+        "name": "Taiga Mobile Nova",
+        "summary": "В каталоге — приложение категории «Инструменты» под названием «Taiga Mobile Nova». За выпуск отвечает Grigoriym. Дистрибутив занимает примерно 9.0 MB."
+      },
+      "en": {
+        "name": "Taiga Mobile Nova",
+        "summary": "Taiga Mobile Nova — an Android app in the Tools category published by Grigoriym. Expect a download of roughly 9.0 MB."
+      },
+      "tr": {
+        "name": "Taiga Mobile Nova",
+        "summary": "Taiga Mobile Nova — Araçlar kategorisinde bir Android uygulaması. Geliştirici: Grigoriym. İndirme boyutu yaklaşık 9.0 MB."
+      },
+      "uz": {
+        "name": "Taiga Mobile Nova",
+        "summary": "Taiga Mobile Nova: Vositalar turkumidagi Android ilovasi. Nashriyotchi: Grigoriym. Yuklab olish hajmi taxminan 9.0 MB."
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/Grigoriym/TaigaMobileNova/releases/download/v2.1.5/app-gplay-release.apk",
+      "checksum_sha256": "23f075d6d12ce9119f0f86d6aa9a362b60ebea94789652dcf1da668cd7e1a80f",
+      "updated": "2026-08-01"
+    },
+    "added_at": "2026-08-01T19:28:01.000Z",
+    "updated": "2026-08-01T19:28:01.000Z"
+  },
+  {
+    "slug": "caniwebview",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "com.caniwebview.android",
+    "category": "TOOLS",
+    "developer": "WebView-CG",
+    "version": "1.1.0",
+    "size": "4.9 MB",
+    "min_android": "7.0",
+    "license": "Apache-2.0",
+    "source_code": "https://github.com/WebView-CG/CanIAndroidWebView",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.INTERNET",
+      "com.caniwebview.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "translations": {
+      "ru": {
+        "name": "CanIWebView",
+        "summary": "Приложение «CanIWebView» относится к разделу «Инструменты». Издатель: WebView-CG. Дистрибутив занимает примерно 4.9 MB."
+      },
+      "en": {
+        "name": "CanIWebView",
+        "summary": "Listed under Tools, CanIWebView is an Android app. Developer: WebView-CG. Expect a download of roughly 4.9 MB."
+      },
+      "tr": {
+        "name": "CanIWebView",
+        "summary": "CanIWebView — Android için bir Araçlar uygulaması. Yayıncı: WebView-CG. Dosya boyutu 4.9 MB civarında."
+      },
+      "uz": {
+        "name": "CanIWebView",
+        "summary": "Katalogning «Vositalar» bo‘limida: CanIWebView. Nashriyotchi: WebView-CG. Fayl hajmi 4.9 MB atrofida."
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/WebView-CG/CanIAndroidWebView/releases/download/v1.1.0/app-release.apk",
+      "checksum_sha256": "b54bd89445d282ea329f7d90a7da15a9686cc19f736cf90f9a8ac4e91d21877a",
+      "updated": "2026-07-26"
+    },
+    "added_at": "2026-07-26T13:34:28.000Z",
+    "updated": "2026-07-26T13:34:28.000Z"
+  },
+  {
+    "slug": "jekyllex",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "xyz.jekyllex",
+    "category": "TOOLS",
+    "developer": "jekyllex",
+    "version": "v0.2.4",
+    "size": "236.3 MB",
+    "min_android": "7.0",
+    "license": "MIT",
+    "source_code": "https://github.com/jekyllex/jekyllex-android",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.INTERNET",
+      "android.permission.POST_NOTIFICATIONS",
+      "android.permission.FOREGROUND_SERVICE",
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+      "xyz.jekyllex.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "translations": {
+      "ru": {
+        "name": "JekyllEx",
+        "summary": "«JekyllEx» — приложение категории «Инструменты» от разработчика jekyllex. Размер загрузки — около 236.3 MB."
+      },
+      "en": {
+        "name": "JekyllEx",
+        "summary": "In the Tools section: JekyllEx, by jekyllex. The download weighs about 236.3 MB."
+      },
+      "tr": {
+        "name": "JekyllEx",
+        "summary": "Katalogda yer alan Araçlar kategorisinde bir Android uygulaması: JekyllEx. Kaydı jekyllex yönetiyor. Dosya boyutu 236.3 MB civarında."
+      },
+      "uz": {
+        "name": "JekyllEx",
+        "summary": "Ilova: JekyllEx, Vositalar turkumidagi Android ilovasi. Dasturchi: jekyllex. Fayl hajmi 236.3 MB atrofida."
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/jekyllex/jekyllex-android/releases/download/v0.2.4/jekyllex-v0.2.4-universal.apk",
+      "checksum_sha256": "d25908d5f61fec06dabe6a9555a22091366d641571405c7836754df4418b3743",
+      "updated": "2025-10-11"
+    },
+    "added_at": "2025-10-11T16:55:23.000Z",
+    "updated": "2025-10-11T16:55:23.000Z"
+  },
+  {
+    "slug": "deskflow-android",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "org.tfv.deskflow",
+    "category": "TOOLS",
+    "developer": "jglanz",
+    "version": "1.0.14",
+    "size": "46.5 MB",
+    "min_android": "14",
+    "license": "MIT",
+    "source_code": "https://github.com/jglanz/deskflow-android",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.BIND_INPUT_METHOD",
+      "android.permission.INTERNET",
+      "android.permission.NEARBY_WIFI_DEVICES",
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.CHANGE_NETWORK_STATE",
+      "android.permission.ACCESS_WIFI_STATE",
+      "android.permission.CHANGE_WIFI_STATE",
+      "android.permission.RECEIVE_BOOT_COMPLETED",
+      "android.permission.POST_NOTIFICATIONS",
+      "android.permission.SYSTEM_ALERT_WINDOW",
+      "org.tfv.deskflow.CONNECTION_SERVICE_PERMISSION",
+      "org.tfv.deskflow.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "translations": {
+      "ru": {
+        "name": "Deskflow Android",
+        "summary": "«Deskflow Android» — приложение категории «Инструменты» от разработчика jglanz. Дистрибутив занимает примерно 46.5 MB."
+      },
+      "en": {
+        "name": "Deskflow Android",
+        "summary": "In the Tools section: Deskflow Android, by jglanz. The download weighs about 46.5 MB."
+      },
+      "tr": {
+        "name": "Deskflow Android",
+        "summary": "Katalogda yer alan Araçlar kategorisinde bir Android uygulaması: Deskflow Android. Kaydı jglanz yönetiyor. İndirme boyutu yaklaşık 46.5 MB."
+      },
+      "uz": {
+        "name": "Deskflow Android",
+        "summary": "Ilova: Deskflow Android, Vositalar turkumidagi Android ilovasi. Dasturchi: jglanz. Fayl hajmi 46.5 MB atrofida."
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/jglanz/deskflow-android/releases/download/v1.0.14/DeskflowAndroid-v1.0.14-signed.apk",
+      "checksum_sha256": "78259de1b7e9b806871224e93417b5ffc867b5119a6fd0b92a0157e8c580d6b8",
+      "updated": "2025-07-05"
+    },
+    "added_at": "2025-07-05T22:43:17.000Z",
+    "updated": "2025-07-05T22:43:17.000Z"
+  },
+  {
+    "slug": "azi-demo",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "io.github.fm_elpac.azi_demo",
+    "category": "TOOLS",
+    "developer": "fm-elpac",
+    "version": "0.1.1",
+    "size": "2.0 MB",
+    "min_android": "8.1",
+    "license": "MIT",
+    "source_code": "https://github.com/fm-elpac/azi",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.READ_EXTERNAL_STORAGE",
+      "android.permission.WRITE_EXTERNAL_STORAGE",
+      "android.permission.VIBRATE",
+      "android.permission.FOREGROUND_SERVICE",
+      "android.permission.INTERNET",
+      "io.github.fm_elpac.azi_demo.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "translations": {
+      "ru": {
+        "name": "Azi Demo",
+        "summary": "Приложение «Azi Demo» относится к разделу «Инструменты». За выпуск отвечает fm-elpac. Размер загрузки — около 2.0 MB."
+      },
+      "en": {
+        "name": "Azi Demo",
+        "summary": "Listed under Tools, Azi Demo is an Android app. Developer: fm-elpac. Expect a download of roughly 2.0 MB."
+      },
+      "tr": {
+        "name": "Azi Demo",
+        "summary": "Azi Demo — Android için bir Araçlar uygulaması. Kaydı fm-elpac yönetiyor. Dosya boyutu 2.0 MB civarında."
+      },
+      "uz": {
+        "name": "Azi Demo",
+        "summary": "Katalogning «Vositalar» bo‘limida: Azi Demo. Nashriyotchi: fm-elpac. Fayl hajmi 2.0 MB atrofida."
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/fm-elpac/azi/releases/download/v0.1.1/azi-demo-aarch64-release-unsigned_3.apk",
+      "checksum_sha256": "92526883472c45ed518dfa3ea7ca6e2c323672079c74d61cfc2a9293d43873c0",
+      "updated": "2025-08-23"
+    },
+    "added_at": "2025-08-23T15:41:57.000Z",
+    "updated": "2025-08-23T15:41:57.000Z"
+  },
+  {
+    "slug": "edge-gallery",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "com.google.ai.edge.gallery",
+    "category": "TOOLS",
+    "developer": "google-ai-edge",
+    "version": "1.0.18",
+    "size": "45.7 MB",
+    "min_android": "12",
+    "license": "Apache-2.0",
+    "source_code": "https://github.com/google-ai-edge/gallery",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.CAMERA",
+      "android.permission.READ_CALENDAR",
+      "android.permission.FOREGROUND_SERVICE",
+      "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+      "android.permission.INTERNET",
+      "android.permission.POST_NOTIFICATIONS",
+      "android.permission.RECORD_AUDIO",
+      "android.permission.WAKE_LOCK",
+      "android.permission.ACCESS_NETWORK_STATE",
+      "com.google.android.apps.aicore.service.BIND_SERVICE",
+      "android.permission.RECEIVE_BOOT_COMPLETED",
+      "com.google.android.c2dm.permission.RECEIVE",
+      "com.google.android.providers.gsf.permission.READ_GSERVICES",
+      "android.permission.GET_ACCOUNTS"
+    ],
+    "translations": {
+      "ru": {
+        "name": "Edge Gallery",
+        "summary": "В каталоге — приложение категории «Инструменты» под названием «Edge Gallery». Разработчик — google-ai-edge. Размер загрузки — около 45.7 MB."
+      },
+      "en": {
+        "name": "Edge Gallery",
+        "summary": "Edge Gallery — an Android app in the Tools category published by google-ai-edge. Expect a download of roughly 45.7 MB."
+      },
+      "tr": {
+        "name": "Edge Gallery",
+        "summary": "Edge Gallery — Araçlar kategorisinde bir Android uygulaması. Yayıncı: google-ai-edge. İndirme boyutu yaklaşık 45.7 MB."
+      },
+      "uz": {
+        "name": "Edge Gallery",
+        "summary": "Edge Gallery: Vositalar turkumidagi Android ilovasi. Dasturchi: google-ai-edge. Fayl hajmi 45.7 MB atrofida."
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/google-ai-edge/gallery/releases/download/1.0.18/ai-edge-gallery-sm8850.apk",
+      "checksum_sha256": "e2292eb61727102b7c7e4cf90eeca15181e73983c1c039eaab7588bd5cd035af",
+      "updated": "2026-08-10"
+    },
+    "added_at": "2026-08-10T17:18:42.000Z",
+    "updated": "2026-08-10T17:18:42.000Z"
+  },
+  {
+    "slug": "freecodecamp",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "org.freecodecamp",
+    "category": "TOOLS",
+    "developer": "freeCodeCamp",
+    "version": "7.5.6",
+    "size": "79.4 MB",
+    "min_android": "7.0",
+    "license": "BSD-3-Clause",
+    "source_code": "https://github.com/freeCodeCamp/mobile",
+    "icon_url": "/img/github/freecodecamp.png",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.INTERNET",
+      "android.permission.WAKE_LOCK",
+      "android.permission.FOREGROUND_SERVICE",
+      "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+      "android.permission.RECEIVE_BOOT_COMPLETED",
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.VIBRATE",
+      "android.permission.POST_NOTIFICATIONS",
+      "android.permission.USE_BIOMETRIC",
+      "android.permission.USE_FINGERPRINT",
+      "com.google.android.gms.permission.AD_ID",
+      "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+      "android.permission.ACCESS_ADSERVICES_AD_ID",
+      "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+      "org.freecodecamp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "translations": {
+      "ru": {
+        "name": "freeCodeCamp",
+        "summary": "Приложение «freeCodeCamp» от freeCodeCamp входит в раздел «Инструменты». Дистрибутив занимает примерно 79.4 MB."
+      },
+      "en": {
+        "name": "freeCodeCamp",
+        "summary": "freeCodeCamp is an Android app in the Tools category. Expect a download of roughly 79.4 MB."
+      },
+      "tr": {
+        "name": "freeCodeCamp",
+        "summary": "freeCodeCamp: Araçlar kategorisinde bir Android uygulaması. İndirme boyutu yaklaşık 79.4 MB."
+      },
+      "uz": {
+        "name": "freeCodeCamp",
+        "summary": "freeCodeCamp — Vositalar turkumidagi Android ilovasi. Yuklab olish hajmi taxminan 79.4 MB."
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/freeCodeCamp/mobile/releases/download/v7.5.6/71506.apk",
+      "checksum_sha256": "f0c8052e218a67186f604418c6284dd6a8a1682a56faf26f3974576c1320edcd",
+      "updated": "2026-08-05"
+    },
+    "added_at": "2026-08-05T02:58:28.000Z",
+    "updated": "2026-08-05T02:58:28.000Z"
+  },
+  {
+    "slug": "smolchat",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "io.shubham0204.smollmandroid",
+    "category": "TOOLS",
+    "developer": "shubham0204",
+    "version": "16",
+    "size": "106.3 MB",
+    "min_android": "8.0",
+    "license": "Apache-2.0",
+    "source_code": "https://github.com/shubham0204/SmolChat-Android",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.INTERNET",
+      "android.permission.RECORD_AUDIO",
+      "android.permission.WAKE_LOCK",
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.RECEIVE_BOOT_COMPLETED",
+      "android.permission.FOREGROUND_SERVICE",
+      "io.shubham0204.smollmandroid.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "translations": {
+      "ru": {
+        "name": "SmolChat",
+        "summary": "«SmolChat» — приложение категории «Инструменты» от разработчика shubham0204. Размер загрузки — около 106.3 MB."
+      },
+      "en": {
+        "name": "SmolChat",
+        "summary": "In the Tools section: SmolChat, by shubham0204. The download weighs about 106.3 MB."
+      },
+      "tr": {
+        "name": "SmolChat",
+        "summary": "Katalogda yer alan Araçlar kategorisinde bir Android uygulaması: SmolChat. Kaydı shubham0204 yönetiyor. Dosya boyutu 106.3 MB civarında."
+      },
+      "uz": {
+        "name": "SmolChat",
+        "summary": "Ilova: SmolChat, Vositalar turkumidagi Android ilovasi. Dasturchi: shubham0204. Fayl hajmi 106.3 MB atrofida."
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/shubham0204/SmolChat-Android/releases/download/v16/SmolChat_v16.apk",
+      "checksum_sha256": "9fa1c1b4e0071661ca345e52ba40db94698b94dcb6b3c81842ec37109fb3a974",
+      "updated": "2026-06-21"
+    },
+    "added_at": "2026-06-21T11:56:39.000Z",
+    "updated": "2026-06-21T11:56:39.000Z"
+  },
+  {
+    "slug": "dumpsys-packages-copycat",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "org.rubenpgrady.dpcopycat",
+    "category": "TOOLS",
+    "developer": "rubenpgrady",
+    "version": "2.1",
+    "size": "1.2 MB",
+    "min_android": "API 14",
+    "license": "Apache-2.0",
+    "source_code": "https://github.com/rubenpgrady/dpcopycat",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.QUERY_ALL_PACKAGES"
+    ],
+    "translations": {
+      "ru": {
+        "name": "Dumpsys Packages Copycat",
+        "summary": "Приложение «Dumpsys Packages Copycat» от rubenpgrady входит в раздел «Инструменты». Дистрибутив занимает примерно 1.2 MB."
+      },
+      "en": {
+        "name": "Dumpsys Packages Copycat",
+        "summary": "Dumpsys Packages Copycat is an Android app in the Tools category. Developer: rubenpgrady. Expect a download of roughly 1.2 MB."
+      },
+      "tr": {
+        "name": "Dumpsys Packages Copycat",
+        "summary": "Dumpsys Packages Copycat: Araçlar kategorisinde bir Android uygulaması. Kaydı rubenpgrady yönetiyor. Dosya boyutu 1.2 MB civarında."
+      },
+      "uz": {
+        "name": "Dumpsys Packages Copycat",
+        "summary": "Dumpsys Packages Copycat — Vositalar turkumidagi Android ilovasi. Yozuvni rubenpgrady yuritadi. Yuklab olish hajmi taxminan 1.2 MB."
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/rubenpgrady/dpcopycat/releases/download/v2.1/app-release.apk",
+      "checksum_sha256": "141c13c51cd4f957adc3ad27891e02c0fa91c3d8e1421ae11b07057b9d8b87c4",
+      "updated": "2025-01-31"
+    },
+    "added_at": "2025-01-31T18:53:40.000Z",
+    "updated": "2025-01-31T18:53:40.000Z"
+  },
+  {
+    "slug": "acode",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "com.foxdebug.acode",
+    "category": "TOOLS",
+    "developer": "Acode-Foundation",
+    "version": "1.13.3",
+    "size": "32.1 MB",
+    "min_android": "8.0",
+    "license": "MIT",
+    "source_code": "https://github.com/Acode-Foundation/Acode",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.INTERNET",
+      "android.permission.READ_EXTERNAL_STORAGE",
+      "android.permission.WRITE_EXTERNAL_STORAGE",
+      "android.permission.WRITE_MEDIA_STORAGE",
+      "android.permission.VIBRATE",
+      "android.permission.WAKE_LOCK",
+      "android.permission.FOREGROUND_SERVICE",
+      "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+      "android.permission.POST_NOTIFICATIONS",
+      "com.android.vending.BILLING",
+      "android.permission.ACCESS_NETWORK_STATE",
+      "com.foxdebug.acode.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "translations": {
+      "ru": {
+        "name": "Acode",
+        "summary": "В каталоге — приложение категории «Инструменты» под названием «Acode». Разработчик — Acode-Foundation. Размер загрузки — около 32.1 MB."
+      },
+      "en": {
+        "name": "Acode",
+        "summary": "Acode — an Android app in the Tools category published by Acode-Foundation. Expect a download of roughly 32.1 MB."
+      },
+      "tr": {
+        "name": "Acode",
+        "summary": "Acode — Araçlar kategorisinde bir Android uygulaması. Yayıncı: Acode-Foundation. Dosya boyutu 32.1 MB civarında."
+      },
+      "uz": {
+        "name": "Acode",
+        "summary": "Acode: Vositalar turkumidagi Android ilovasi. Dasturchi: Acode-Foundation. Fayl hajmi 32.1 MB atrofida."
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/Acode-Foundation/Acode/releases/download/v1.13.3/app-normal.apk",
+      "checksum_sha256": "090d30a696a846d1b75cea30470b3a615f3d52f18b7cc9cc735363ad972a5590",
+      "updated": "2026-09-01"
+    },
+    "added_at": "2026-09-01T06:48:35.000Z",
+    "updated": "2026-09-01T06:48:35.000Z"
+  },
+  {
+    "slug": "godot-editor-4",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "org.godotengine.editor.v4",
+    "category": "TOOLS",
+    "developer": "godotengine",
+    "version": "4.7.2.stable",
+    "size": "656.3 MB",
+    "min_android": "7.0",
+    "license": "MIT",
+    "source_code": "https://github.com/godotengine/godot",
+    "icon_url": "/img/github/godot-editor-4.webp",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.EYE_TRACKING_FINE",
+      "android.permission.HAND_TRACKING",
+      "android.permission.MANAGE_EXTERNAL_STORAGE",
+      "android.permission.WRITE_EXTERNAL_STORAGE",
+      "android.permission.READ_EXTERNAL_STORAGE",
+      "android.permission.INTERNET",
+      "android.permission.RECORD_AUDIO",
+      "android.permission.VIBRATE",
+      "android.permission.REQUEST_INSTALL_PACKAGES",
+      "android.permission.CAMERA",
+      "org.khronos.openxr.permission.OPENXR",
+      "org.khronos.openxr.permission.OPENXR_SYSTEM"
+    ],
+    "translations": {
+      "ru": {
+        "name": "Godot Editor 4",
+        "summary": "Приложение «Godot Editor 4» относится к разделу «Инструменты». Издатель: godotengine. Дистрибутив занимает примерно 656.3 MB."
+      },
+      "en": {
+        "name": "Godot Editor 4",
+        "summary": "Listed under Tools, Godot Editor 4 is an Android app. It is published by godotengine. Expect a download of roughly 656.3 MB."
+      },
+      "tr": {
+        "name": "Godot Editor 4",
+        "summary": "Godot Editor 4 — Android için bir Araçlar uygulaması. Geliştirici: godotengine. Dosya boyutu 656.3 MB civarında."
+      },
+      "uz": {
+        "name": "Godot Editor 4",
+        "summary": "Katalogning «Vositalar» bo‘limida: Godot Editor 4. Dasturchi: godotengine. Yuklab olish hajmi taxminan 656.3 MB."
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/godotengine/godot/releases/download/4.7.2-stable/Godot_v4.7.2-stable_android_editor.apk",
+      "checksum_sha256": "7a69ae5645f1a97ac020e6bed3b4e9ce2451b13127f5727f5fb37f6991bf8b3c",
+      "updated": "2026-08-18"
+    },
+    "added_at": "2026-08-18T16:12:28.000Z",
+    "updated": "2026-08-18T16:12:28.000Z"
+  },
+  {
+    "slug": "activity-manager",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "com.activitymanager",
+    "category": "TOOLS",
+    "developer": "sdex",
+    "version": "5.5.0",
+    "size": "5.0 MB",
+    "min_android": "6.0",
+    "license": "Apache-2.0",
+    "source_code": "https://github.com/sdex/ActivityManager",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "com.android.launcher.permission.INSTALL_SHORTCUT",
+      "android.permission.QUERY_ALL_PACKAGES",
+      "android.permission.WRITE_SECURE_SETTINGS",
+      "android.permission.REORDER_TASKS",
+      "com.activitymanager.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+      "moe.shizuku.manager.permission.API_V23"
+    ],
+    "translations": {
+      "ru": {
+        "name": "Activity Manager",
+        "summary": "В каталоге — приложение категории «Инструменты» под названием «Activity Manager». Издатель: sdex. Размер загрузки — около 5.0 MB."
+      },
+      "en": {
+        "name": "Activity Manager",
+        "summary": "Activity Manager — an Android app in the Tools category published by sdex. Expect a download of roughly 5.0 MB."
+      },
+      "tr": {
+        "name": "Activity Manager",
+        "summary": "Activity Manager — Araçlar kategorisinde bir Android uygulaması. Kaydı sdex yönetiyor. İndirme boyutu yaklaşık 5.0 MB."
+      },
+      "uz": {
+        "name": "Activity Manager",
+        "summary": "Activity Manager: Vositalar turkumidagi Android ilovasi. Nashriyotchi: sdex. Fayl hajmi 5.0 MB atrofida."
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/sdex/ActivityManager/releases/download/5.5.0/ActivityManager-5.5.0.apk",
+      "checksum_sha256": "f5ec45dec03a694ae36ffe0320573b0c631e243aed2ab120619fecdf28289dea",
+      "updated": "2026-07-17"
+    },
+    "added_at": "2026-07-17T08:16:52.000Z",
+    "updated": "2026-07-17T08:16:52.000Z"
+  },
+  {
+    "slug": "anlinux",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "exa.lnx.a",
+    "category": "TOOLS",
+    "developer": "EXALAB",
+    "version": "6.76 Stable",
+    "size": "5.9 MB",
+    "min_android": "7.0",
+    "license": "Apache-2.0",
+    "source_code": "https://github.com/EXALAB/AnLinux-Adfree",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.WAKE_LOCK",
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.RECEIVE_BOOT_COMPLETED",
+      "android.permission.FOREGROUND_SERVICE",
+      "exa.lnx.a.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "translations": {
+      "ru": {
+        "name": "AnLinux",
+        "summary": "«AnLinux» — приложение категории «Инструменты» от разработчика EXALAB. Дистрибутив занимает примерно 5.9 MB."
+      },
+      "en": {
+        "name": "AnLinux",
+        "summary": "In the Tools section: AnLinux, by EXALAB. The download weighs about 5.9 MB."
+      },
+      "tr": {
+        "name": "AnLinux",
+        "summary": "Katalogda yer alan Araçlar kategorisinde bir Android uygulaması: AnLinux. Kaydı EXALAB yönetiyor. İndirme boyutu yaklaşık 5.9 MB."
+      },
+      "uz": {
+        "name": "AnLinux",
+        "summary": "Ilova: AnLinux, Vositalar turkumidagi Android ilovasi. Dasturchi: EXALAB. Yuklab olish hajmi taxminan 5.9 MB."
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/EXALAB/AnLinux-Adfree/releases/download/v6.76/app-release.apk",
+      "checksum_sha256": "58ca2aabba04869c4dba4e6ced1bb9a4da685fdce74f8d29b72f09e06307cfa0",
+      "updated": "2026-08-30"
+    },
+    "added_at": "2026-08-30T12:52:34.000Z",
+    "updated": "2026-08-30T12:52:34.000Z"
+  },
+  {
+    "slug": "shader-editor",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "de.markusfisch.android.shadereditor",
+    "category": "TOOLS",
+    "developer": "markusfisch",
+    "version": "2.36.2",
+    "size": "3.4 MB",
+    "min_android": "6.0",
+    "license": "MIT",
+    "source_code": "https://github.com/markusfisch/ShaderEditor",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.CAMERA",
+      "android.permission.RECORD_AUDIO",
+      "android.permission.READ_EXTERNAL_STORAGE",
+      "android.permission.WRITE_EXTERNAL_STORAGE",
+      "de.markusfisch.android.shadereditor.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "translations": {
+      "ru": {
+        "name": "Shader Editor",
+        "summary": "Приложение «Shader Editor» от markusfisch входит в раздел «Инструменты». Размер загрузки — около 3.4 MB."
+      },
+      "en": {
+        "name": "Shader Editor",
+        "summary": "Shader Editor is an Android app in the Tools category. Developer: markusfisch. Expect a download of roughly 3.4 MB."
+      },
+      "tr": {
+        "name": "Shader Editor",
+        "summary": "Shader Editor: Araçlar kategorisinde bir Android uygulaması. Yayıncı: markusfisch. İndirme boyutu yaklaşık 3.4 MB."
+      },
+      "uz": {
+        "name": "Shader Editor",
+        "summary": "Shader Editor — Vositalar turkumidagi Android ilovasi. Nashriyotchi: markusfisch. Fayl hajmi 3.4 MB atrofida."
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/markusfisch/ShaderEditor/releases/download/2.36.2/app-release.apk",
+      "checksum_sha256": "48390264d7d6f69eec33bfba73dd0ae54fa8cf68cb8e4728196beb719b83a901",
+      "updated": "2026-04-21"
+    },
+    "added_at": "2026-04-21T19:36:28.000Z",
+    "updated": "2026-04-21T19:36:28.000Z"
+  }
+]
