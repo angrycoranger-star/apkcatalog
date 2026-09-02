@@ -51,8 +51,36 @@ async function getJson(url) {
 }
 
 const existing = await readJson(OUT_PATH, []);
-const slugByPackage = new Map(existing.map((a) => [a.package_id, a.slug]));
-const takenSlugs = new Set(existing.map((a) => a.slug));
+
+/* Slugs and package ids must be unique across the WHOLE catalog, not just this
+   source — validate-data.js rejects the build otherwise. Gather the slugs and
+   package ids already owned by the other sources (Play / F-Droid / custom). */
+const otherSources = [
+  ...(await readJson(path.join(DATA_DIR, 'custom-apps.json'), [])),
+  ...(await readJson(path.join(DATA_DIR, 'fdroid-apps.json'), [])),
+  ...(await readJson(path.join(DATA_DIR, 'apps.json'), []))
+];
+const otherSlugs = new Set();
+const otherPackages = new Set();
+for (const a of otherSources) {
+  if (a?.slug) otherSlugs.add(a.slug);
+  if (a?.package_id) otherPackages.add(a.package_id);
+}
+
+/* Keep an existing GitHub card's slug for URL stability — but only if another
+   source hasn't since claimed it (e.g. a Play card that slugged the same way
+   arrived in a nightly refresh). In that case drop the stored slug so the card
+   regenerates a unique one and yields the original to the stronger source. */
+const slugByPackage = new Map(
+  existing.filter((a) => a.slug && !otherSlugs.has(a.slug)).map((a) => [a.package_id, a.slug])
+);
+const takenSlugs = new Set([
+  ...existing.map((a) => a.slug).filter((s) => s && !otherSlugs.has(s)),
+  ...otherSlugs
+]);
+/* Packages emitted so far in THIS run — the file is rebuilt from scratch each
+   time, so two discovered repos shipping the same package would both land. */
+const seenPackages = new Set();
 
 /* The hand-picked whitelist first, then anything discovered from OpenAPK
    (scripts/openapk-import.js). De-dup by repo, case-insensitive; the manual
@@ -103,6 +131,13 @@ for (const entry of list) {
         skipped += 1;
         continue;
       }
+      /* Already listed by another source (Play / F-Droid), or by an earlier
+         repo in this run that ships the same package — don't duplicate it. */
+      if (otherPackages.has(apk.packageId) || seenPackages.has(apk.packageId)) {
+        log.warn(`${repo}: ${apk.packageId} already in the catalog — skipped`);
+        skipped += 1;
+        continue;
+      }
 
       const slug =
         slugByPackage.get(apk.packageId) ??
@@ -133,6 +168,7 @@ for (const entry of list) {
         slugByPackage
       });
       takenSlugs.add(card.slug);
+      seenPackages.add(card.package_id);
       apps.push(card);
       log.info(`${repo}: ${card.package_id} v${card.version} (${license})`);
     } finally {
