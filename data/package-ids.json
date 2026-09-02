@@ -432,7 +432,7 @@
       "best_rank": 1,
       "first_seen": "2026-09-01T02:05:36.028Z",
       "last_seen": "2026-09-01T02:05:36.028Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-09-01T03:57:56.735Z"
     },
     {
@@ -1238,7 +1238,7 @@
       "best_rank": 2,
       "first_seen": "2026-09-01T02:05:36.028Z",
       "last_seen": "2026-09-01T02:05:36.028Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-09-01T03:57:56.735Z"
     },
     {
@@ -2831,7 +2831,7 @@
       "best_rank": 4,
       "first_seen": "2026-09-01T02:05:36.028Z",
       "last_seen": "2026-09-01T02:05:36.028Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-09-01T03:57:56.735Z"
     },
     {
@@ -4395,7 +4395,7 @@
       "best_rank": 7,
       "first_seen": "2026-09-01T02:05:36.028Z",
       "last_seen": "2026-09-01T02:05:36.028Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-09-01T03:57:56.735Z"
     },
     {
@@ -6213,7 +6213,7 @@
       "best_rank": 9,
       "first_seen": "2026-09-01T02:05:36.028Z",
       "last_seen": "2026-09-01T02:05:36.028Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-09-01T03:57:56.735Z"
     },
     {
@@ -7579,7 +7579,7 @@
       "best_rank": 11,
       "first_seen": "2026-09-01T02:05:36.028Z",
       "last_seen": "2026-09-01T02:05:36.028Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-09-01T03:57:56.735Z"
     },
     {
@@ -9555,7 +9555,7 @@
       "best_rank": 14,
       "first_seen": "2026-09-01T02:05:36.028Z",
       "last_seen": "2026-09-01T02:05:36.028Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-09-01T03:57:56.735Z"
     },
     {
@@ -9934,7 +9934,7 @@
       "best_rank": 15,
       "first_seen": "2026-09-01T02:05:36.028Z",
       "last_seen": "2026-09-01T02:05:36.028Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-09-01T03:57:56.735Z"
     },
     {
@@ -10773,7 +10773,7 @@
       "best_rank": 16,
       "first_seen": "2026-09-01T02:05:36.028Z",
       "last_seen": "2026-09-01T02:05:36.028Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-09-01T03:57:56.735Z"
     },
     {
@@ -10816,7 +10816,7 @@
       "best_rank": 16,
       "first_seen": "2026-09-01T02:05:36.028Z",
       "last_seen": "2026-09-01T02:05:36.028Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-09-01T03:57:56.735Z"
     },
     {
@@ -11486,7 +11486,7 @@
       "best_rank": 17,
       "first_seen": "2026-09-01T02:05:36.028Z",
       "last_seen": "2026-09-01T02:05:36.028Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-09-01T03:57:56.735Z"
     },
     {
@@ -12108,7 +12108,7 @@
       "best_rank": 18,
       "first_seen": "2026-09-01T02:05:36.028Z",
       "last_seen": "2026-09-01T02:05:36.028Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-09-01T03:57:56.735Z"
     },
     {
@@ -15230,7 +15230,7 @@
       "best_rank": 23,
       "first_seen": "2026-09-01T02:05:36.028Z",
       "last_seen": "2026-09-01T02:05:36.028Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-09-01T03:57:56.735Z"
     },
     {
@@ -15259,7 +15259,7 @@
       "best_rank": 23,
       "first_seen": "2026-09-01T02:05:36.028Z",
       "last_seen": "2026-09-01T02:05:36.028Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-09-01T03:57:56.735Z"
     },
     {
@@ -16106,7 +16106,7 @@
       "best_rank": 25,
       "first_seen": "2026-09-01T02:05:36.028Z",
       "last_seen": "2026-09-01T02:05:36.028Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-09-01T03:57:56.735Z"
     },
     {
@@ -17170,7 +17170,7 @@
       "best_rank": 26,
       "first_seen": "2026-09-01T02:05:36.028Z",
       "last_seen": "2026-09-01T02:05:36.028Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-09-01T03:57:56.735Z"
     },
     {
@@ -20713,7 +20713,7 @@
       "best_rank": 33,
       "first_seen": "2026-09-01T02:05:36.028Z",
       "last_seen": "2026-09-01T02:05:36.028Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-09-01T03:57:56.735Z"
     },
     {
@@ -21138,7 +21138,7 @@
       "best_rank": 33,
       "first_seen": "2026-09-01T02:05:36.028Z",
       "last_seen": "2026-09-01T02:05:36.028Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-09-01T03:57:56.735Z"
     },
     {
@@ -21210,7 +21210,7 @@
       "best_rank": 33,
       "first_seen": "2026-09-01T02:05:36.028Z",
       "last_seen": "2026-09-01T02:05:36.028Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-09-01T03:57:56.735Z"
     },
     {
@@ -21483,7 +21483,7 @@
       "best_rank": 34,
       "first_seen": "2026-09-01T02:05:36.028Z",
       "last_seen": "2026-09-01T02:05:36.028Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-09-01T03:57:56.735Z"
     },
     {
@@ -22106,7 +22106,7 @@
       "best_rank": 35,
       "first_seen": "2026-09-01T02:05:36.028Z",
       "last_seen": "2026-09-01T02:05:36.028Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-09-01T03:57:56.735Z"
     },
     {
@@ -24089,7 +24089,7 @@
       "best_rank": 38,
       "first_seen": "2026-09-01T02:05:36.028Z",
       "last_seen": "2026-09-01T02:05:36.028Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-09-01T03:57:56.736Z"
     },
     {
@@ -24808,7 +24808,7 @@
       "best_rank": 39,
       "first_seen": "2026-09-01T02:05:36.028Z",
       "last_seen": "2026-09-01T02:05:36.028Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-09-01T03:57:56.736Z"
     },
     {
@@ -25601,7 +25601,7 @@
       "best_rank": 41,
       "first_seen": "2026-09-01T02:05:36.028Z",
       "last_seen": "2026-09-01T02:05:36.028Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-09-01T03:57:56.736Z"
     },
     {
@@ -26431,7 +26431,7 @@
       "best_rank": 42,
       "first_seen": "2026-09-01T02:05:36.028Z",
       "last_seen": "2026-09-01T02:05:36.028Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-09-01T03:57:56.736Z"
     },
     {
@@ -26769,7 +26769,7 @@
       "best_rank": 43,
       "first_seen": "2026-09-01T02:05:36.028Z",
       "last_seen": "2026-09-01T02:05:36.028Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-09-01T03:57:56.736Z"
     },
     {
@@ -28386,7 +28386,7 @@
       "best_rank": 46,
       "first_seen": "2026-09-01T02:05:36.028Z",
       "last_seen": "2026-09-01T02:05:36.028Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-09-01T03:57:56.736Z"
     },
     {
@@ -28542,7 +28542,7 @@
       "best_rank": 46,
       "first_seen": "2026-09-01T02:05:36.028Z",
       "last_seen": "2026-09-01T02:05:36.028Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-09-01T03:57:56.736Z"
     },
     {
