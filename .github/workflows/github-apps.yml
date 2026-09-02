@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
     inputs:
       limit:
-        description: 'Max apps to import (blank = 100)'
+        description: 'Max apps to import (blank = 1000)'
         required: false
 
 permissions:
@@ -40,7 +40,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           node scripts/github-import.js \
-            --limit ${{ inputs.limit || '100' }}
+            --limit ${{ inputs.limit || '1000' }}
 
       - name: Validate the dataset
         run: npm run data:validate
