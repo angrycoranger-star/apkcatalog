@@ -268,8 +268,9 @@ with `data/openapk-repos.json`, so discovery only changes **which repos** are
 looked at — every one still passes the SPDX-license gate and has its real APK
 inspected before it becomes a card. Nothing from OpenAPK's own text or download
 mirror is used. The weekly `github-apps.yml` runs discovery first, then imports
-up to `--limit` apps (default 100; raise it via the workflow's manual `limit`
-input to backfill more).
+up to `--limit` apps (default 1000 — effectively all discovered; each run
+rebuilds `github-apps.json` from scratch, so the limit must cover the whole set
+or it trims the catalog back).
 
 ## Scheduled refreshes
 
