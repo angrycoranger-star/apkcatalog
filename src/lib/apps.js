@@ -147,6 +147,25 @@ export function usedCategories(type) {
   return [...counts.values()].sort((a, b) => b.count - a.count || a.label.localeCompare(b.label));
 }
 
+/**
+ * Games/apps split into their categories for the sectioned index — biggest
+ * categories first, each with its top `perCategory` by rating and a total
+ * count so the page can link to the full per-category listing.
+ */
+export function categorySections(type, perCategory = 12) {
+  const groups = new Map();
+  for (const app of getByType(type)) {
+    if (!groups.has(app.categorySlug)) groups.set(app.categorySlug, []);
+    groups.get(app.categorySlug).push(app);
+  }
+  return usedCategories(type).map((entry) => ({
+    category: entry.category,
+    label: entry.label,
+    count: entry.count,
+    apps: sortApps(groups.get(entry.category.slug) ?? [], 'rating').slice(0, perCategory)
+  }));
+}
+
 const byRating = (a, b) =>
   (b.rating ?? 0) - (a.rating ?? 0) || (b.ratingsCount ?? 0) - (a.ratingsCount ?? 0);
 

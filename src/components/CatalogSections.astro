@@ -1,0 +1,89 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import AppGrid from './AppGrid.astro';
+import CategoryChips from './CategoryChips.astro';
+import { categorySections, usedCategories, getByType } from '../lib/apps.js';
+import { t, formatNumber } from '../i18n/index.js';
+
+/* Sectioned index for /apps/ and /games/: instead of one flat grid of every
+   entry, group by category (biggest first) with the top few each and a link to
+   the full per-category page. The per-category page keeps the sortable grid. */
+const { title, subtitle, type, base, description, breadcrumbs, perCategory = 12 } = Astro.props;
+
+const sections = categorySections(type, perCategory);
+const categories = usedCategories(type);
+const total = getByType(type).length;
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: breadcrumbs.map((crumb, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: crumb.name,
+      item: new URL(crumb.href, Astro.site).href
+    }))
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: title,
+    numberOfItems: sections.length,
+    itemListElement: sections.map((s, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      url: new URL(`${base}${s.category.slug}/`, Astro.site).href,
+      name: s.label
+    }))
+  }
+];
+---
+
+<BaseLayout title={title} description={description} jsonLd={jsonLd}>
+  <div class="mx-auto max-w-6xl px-4 py-8">
+    <nav aria-label="breadcrumb" class="mb-4 text-sm text-muted">
+      <ol class="flex flex-wrap items-center gap-1.5">
+        {breadcrumbs.map((crumb, index) => (
+          <li class="flex items-center gap-1.5">
+            {index > 0 && <span aria-hidden="true">/</span>}
+            {index === breadcrumbs.length - 1 ? (
+              <span aria-current="page" style="color: var(--text);">{crumb.name}</span>
+            ) : (
+              <a class="hover:text-brand-600" href={crumb.href}>{crumb.name}</a>
+            )}
+          </li>
+        ))}
+      </ol>
+    </nav>
+
+    <header class="mb-6">
+      <h1 class="text-2xl font-bold tracking-tight sm:text-3xl">{title}</h1>
+      <p class="mt-1.5 text-sm text-muted">{subtitle}</p>
+      <p class="mt-1 text-sm text-muted">{t('list.count')}: <span style="color: var(--text);">{formatNumber(total)}</span></p>
+    </header>
+
+    <div class="mb-8">
+      <CategoryChips categories={categories} base={base} activeSlug={null} />
+    </div>
+
+    <div class="space-y-10">
+      {sections.map((section) => (
+        <section aria-labelledby={`cat-${section.category.slug}`}>
+          <div class="mb-3 flex items-end justify-between gap-4">
+            <h2 id={`cat-${section.category.slug}`} class="text-lg font-semibold tracking-tight sm:text-xl">
+              {section.label}
+              <span class="ml-2 text-sm font-normal text-muted">{formatNumber(section.count)}</span>
+            </h2>
+            {section.count > section.apps.length && (
+              <a href={`${base}${section.category.slug}/`} class="shrink-0 text-sm font-medium text-brand-600 hover:underline">
+                {t('home.viewAll')} →
+              </a>
+            )}
+          </div>
+          <AppGrid apps={section.apps} id={`grid-${section.category.slug}`} />
+        </section>
+      ))}
+    </div>
+  </div>
+</BaseLayout>
