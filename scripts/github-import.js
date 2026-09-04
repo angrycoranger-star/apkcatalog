@@ -164,6 +164,7 @@ for (const entry of list) {
         iconUrl,
         categoryId: entry.category,
         name: entry.name,
+        description: meta.description,
         existingSlugs: takenSlugs,
         slugByPackage
       });

@@ -6,7 +6,7 @@
  */
 import { isRedistributable } from './fdroid.js';
 import { LANGS, DEFAULT_LANG, categoryById, isGameCategory } from '../../config/catalog.config.js';
-import { composeSummary } from './summarize.js';
+import { composeSummary, cleanDescription } from './summarize.js';
 import { slugify, uniqueSlug } from './util.js';
 
 export { isRedistributable };
@@ -42,7 +42,7 @@ export function repoParts(repo) {
  */
 export function buildCard({
   repo, license, sourceUrl, releaseTag, publishedAt, apk, apkUrl, iconUrl,
-  categoryId, name, existingSlugs = new Set(), slugByPackage = new Map()
+  categoryId, name, description, existingSlugs = new Set(), slugByPackage = new Map()
 }) {
   const { owner, name: repoName } = repoParts(repo);
   const displayName = name || repoName;
@@ -64,12 +64,17 @@ export function buildCard({
     contentRating: ''
   };
 
+  /* The repo's own one-line description (redistributable — the license is
+     already gated) beats a facts-only stub. English, so it shows in every
+     build until Claude localizes it. */
+  const realDesc = cleanDescription(description);
+
   const translations = {};
   for (const lang of LANGS) {
     const label = category.labels[lang] ?? category.labels[DEFAULT_LANG];
     translations[lang] = {
       name: displayName,
-      summary: composeSummary({ ...facts, name: displayName, categoryLabel: label }, lang, { hideStore: true })
+      summary: realDesc || composeSummary({ ...facts, name: displayName, categoryLabel: label }, lang, { hideStore: true })
     };
   }
 

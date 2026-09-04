@@ -245,6 +245,29 @@ const PATTERNS = {
  * `facts` needs: name, developer, categoryLabel, isGame, rating, ratingsCount,
  * installs, size, contentRating, packageId.
  */
+/**
+ * Tidy a real description from a redistributable open-source source (an F-Droid
+ * index entry, a GitHub repo description) into plain paragraph text: strip any
+ * HTML, normalize whitespace, and cap the length at a sentence boundary. Returns
+ * '' for empty input so callers can fall back to a composed, facts-only summary.
+ */
+export function cleanDescription(text, maxLen = 1800) {
+  if (typeof text !== 'string' || !text.trim()) return '';
+  let out = text
+    .replace(/<[^>]+>/g, ' ') // drop HTML tags F-Droid descriptions sometimes carry
+    .replace(/\r\n?/g, '\n')
+    .replace(/[ \t]+/g, ' ')
+    .replace(/[ \t]*\n[ \t]*/g, '\n')
+    .replace(/\n{3,}/g, '\n\n')
+    .trim();
+  if (out.length > maxLen) {
+    out = out.slice(0, maxLen);
+    const cut = Math.max(out.lastIndexOf('. '), out.lastIndexOf('\n'));
+    out = (cut > maxLen * 0.6 ? out.slice(0, cut + 1) : out).trim() + '…';
+  }
+  return out;
+}
+
 export function composeSummary(facts, lang, opts = {}) {
   const pattern = PATTERNS[lang] ?? PATTERNS.en;
   const seed = hash(`${facts.packageId}:${lang}`);

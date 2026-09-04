@@ -21,7 +21,7 @@ import path from 'node:path';
 import { readFile } from 'node:fs/promises';
 import { LANGS, DEFAULT_LANG, categoryById } from '../config/catalog.config.js';
 import { parseIndex } from './lib/fdroid.js';
-import { composeSummary } from './lib/summarize.js';
+import { composeSummary, cleanDescription } from './lib/summarize.js';
 import { DATA_DIR, readJson, writeJson, withTimeout, slugify, uniqueSlug, parseArgs, log } from './lib/util.js';
 
 const OUT_PATH = path.join(DATA_DIR, 'fdroid-apps.json');
@@ -138,12 +138,17 @@ for (const rec of chosen) {
     contentRating: ''
   };
 
+  /* Prefer the app's own F-Droid description (Free, redistributable metadata)
+     over a facts-only stub. It is usually English, so it shows in every build
+     until Claude localizes it; still far better than "Tools app, 198 KB". */
+  const realDesc = cleanDescription(rec.description || rec.summary);
+
   const translations = {};
   for (const lang of LANGS) {
     const label = category.labels[lang] ?? category.labels[DEFAULT_LANG];
     translations[lang] = {
       name: rec.name,
-      summary: composeSummary({ ...facts, name: rec.name, categoryLabel: label }, lang, { hideStore: true })
+      summary: realDesc || composeSummary({ ...facts, name: rec.name, categoryLabel: label }, lang, { hideStore: true })
     };
   }
 
