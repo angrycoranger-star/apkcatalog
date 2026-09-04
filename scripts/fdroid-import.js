@@ -79,14 +79,46 @@ for (const repo of repos) {
 log.info(`Merged ${records.length} redistributable cards from ${repos.length} repo(s)`);
 
 const existing = await readJson(OUT_PATH, []);
-/* Slugs are permanent so a card's URL never changes. */
-const slugByPackage = new Map(existing.map((a) => [a.package_id, a.slug]));
-const takenSlugs = new Set(existing.map((a) => a.slug));
+
+/* Slugs and package ids must be unique across the WHOLE catalog, not just this
+   source — validate-data.js rejects the build otherwise. Gather what the other
+   sources already own so an F-Droid card never collides with a Play / GitHub /
+   custom card; a package already covered elsewhere is skipped, not duplicated. */
+const otherSources = [
+  ...(await readJson(path.join(DATA_DIR, 'custom-apps.json'), [])),
+  ...(await readJson(path.join(DATA_DIR, 'github-apps.json'), [])),
+  ...(await readJson(path.join(DATA_DIR, 'apps.json'), []))
+];
+const otherSlugs = new Set();
+const otherPackages = new Set();
+for (const a of otherSources) {
+  if (a?.slug) otherSlugs.add(a.slug);
+  if (a?.package_id) otherPackages.add(a.package_id);
+}
+
+/* Keep an existing card's slug for URL stability — unless another source has
+   since claimed it, in which case drop it so this card regenerates a unique
+   slug and yields the original name to the stronger source. */
+const slugByPackage = new Map(
+  existing.filter((a) => a.slug && !otherSlugs.has(a.slug)).map((a) => [a.package_id, a.slug])
+);
+const takenSlugs = new Set([
+  ...existing.map((a) => a.slug).filter((s) => s && !otherSlugs.has(s)),
+  ...otherSlugs
+]);
 
 const chosen = records.slice(0, limit);
 const apps = [];
+let crossSkipped = 0;
 
 for (const rec of chosen) {
+  /* Already listed by another source (Play / GitHub / custom) — skip it so the
+     catalog carries the app once, and the build stays collision-free. */
+  if (otherPackages.has(rec.packageName)) {
+    crossSkipped += 1;
+    continue;
+  }
+
   const category = categoryById(rec.categoryId);
   const developer = rec.authorName || hostOf(rec.sourceCode) || '—';
 
@@ -157,13 +189,14 @@ const meta = {
   index_packages: total,
   redistributable: records.length,
   skipped: skippedTotal,
+  cross_source_skipped: crossSkipped,
   count: apps.length
 };
 
 if (dryRun) {
-  log.done(`Dry run: ${apps.length} F-Droid cards would be written from ${repos.length} repo(s).`);
+  log.done(`Dry run: ${apps.length} F-Droid cards would be written from ${repos.length} repo(s) (${crossSkipped} already in another source).`);
 } else {
   await writeJson(OUT_PATH, apps);
   await writeJson(META_PATH, meta);
-  log.done(`Wrote ${apps.length} F-Droid cards to data/fdroid-apps.json (${skippedTotal} non-redistributable skipped).`);
+  log.done(`Wrote ${apps.length} F-Droid cards to data/fdroid-apps.json (${skippedTotal} non-redistributable, ${crossSkipped} already in another source).`);
 }
