@@ -8,7 +8,7 @@ const { apps, id = 'app-grid', eagerCount = 4 } = Astro.props;
 {apps.length === 0 ? (
   <p class="rounded-2xl border border-dashed p-10 text-center text-sm text-muted">{t('list.empty')}</p>
 ) : (
-  <ul id={id} class="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
+  <ul id={id} class="grid grid-cols-3 gap-2.5 sm:grid-cols-4 sm:gap-3 lg:grid-cols-5">
     {apps.map((app, index) => (
       <li class="h-full" data-card data-category={app.categorySlug}>
         <AppCard app={app} eager={index < eagerCount} />
