@@ -14,13 +14,13 @@ const rail = variant === 'rail';
   data-name={app.name}
   data-updated={app.updatedAt ?? ''}
   class:list={[
-    'group relative flex flex-col rounded-2xl border p-3 transition-shadow hover:shadow-md surface',
-    rail ? 'h-full w-[10.5rem] sm:w-44' : 'h-full'
+    'group relative flex flex-col rounded-2xl border p-2.5 transition-shadow hover:shadow-md surface sm:p-3',
+    rail ? 'h-full w-[8.25rem] sm:w-44' : 'h-full'
   ]}
 >
-  <div class:list={['flex gap-3', rail ? 'w-full flex-col items-start' : 'items-start']}>
-    <AppIcon src={app.icon} alt={app.name} size={rail ? 64 : 56} eager={eager} />
-    <div class:list={['min-w-0 flex-1', rail && 'w-full']}>
+  <div class:list={['flex gap-2.5 sm:gap-3', rail ? 'w-full flex-col items-start' : 'flex-col items-start sm:flex-row sm:items-start']}>
+    <AppIcon src={app.icon} alt={app.name} size={rail ? 52 : 48} eager={eager} />
+    <div class:list={['min-w-0 flex-1', rail ? 'w-full' : 'w-full sm:w-auto']}>
       <h3 class="truncate text-sm font-semibold leading-tight">
         <a href={app.href} class="after:absolute after:inset-0 after:content-['']">
           {app.name}
@@ -34,7 +34,7 @@ const rail = variant === 'rail';
   </div>
 
   {!rail && app.summary && (
-    <p class="clamp-2 mt-3 text-xs leading-relaxed text-muted">{app.summary}</p>
+    <p class="clamp-2 mt-3 hidden text-xs leading-relaxed text-muted sm:block">{app.summary}</p>
   )}
 
   <div class:list={['mt-auto flex items-center gap-1.5 pt-3 text-[11px]', rail && 'pt-2']}>
