@@ -6,8 +6,8 @@ import { t } from '../i18n/index.js';
 const { categories, base, activeSlug = null } = Astro.props;
 ---
 
-<nav aria-label={t('filter.category')} class="-mx-4 overflow-x-auto px-4">
-  <ul class="flex w-max gap-2 pb-1">
+<nav aria-label={t('filter.category')} class="-mx-4 overflow-x-auto px-4 sm:mx-0 sm:overflow-visible sm:px-0">
+  <ul class="flex w-max gap-2 pb-1 sm:w-full sm:flex-wrap">
     <li>
       <a
         href={base}
