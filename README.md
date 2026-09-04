@@ -280,6 +280,7 @@ or it trims the catalog back).
 | `.github/workflows/fetch-details.yml` | nightly, 03:00 UTC | refresh a chunk of `apps.json`, validate, build, commit |
 | `.github/workflows/fdroid.yml` | weekly (Mon, 04:00 UTC) | refresh the open-source (F-Droid) catalog |
 | `.github/workflows/github-apps.yml` | weekly (Mon, 05:00 UTC) | discover repos from OpenAPK, then refresh open-source apps from GitHub releases |
+| `.github/workflows/serp-monitor.yml` | daily, 06:00 UTC | scrape the Google top-10 per query × geo, commit it, notify on changes |
 | `.github/workflows/ci.yml` | every push / PR | validate, smoke test, build all languages |
 
 Both data workflows commit to the repository; the push is what triggers Vercel
@@ -291,6 +292,56 @@ The nightly run therefore takes `CHUNK_LIMIT` (600) of the cards that have not
 been refreshed within `STALE_DAYS` (10), so the backlog is covered in a few
 nights and every card stays under ten days old. Both are `env:` values in the
 workflow, and a manual run can override them per invocation.
+
+## Google SERP monitor
+
+Tracks where the catalog (and everyone else) ranks in Google's top-10 for a
+handful of queries in each target country, and pings Telegram when the ranking
+moves.
+
+```bash
+npm run serp                                  # scan, diff, notify, save
+npm run serp -- --dry-run --target ru         # scan and print, write nothing
+npm run serp -- --query "apk indir"           # one query
+npm run serp:selftest                         # offline parser + diff test
+```
+
+**What to edit.** The tracked queries live in `data/serp/queries.json` and the
+geo targets in `data/serp/targets.json` (`gl` country, `hl` interface language,
+optional `uule` to pin a city) — both are plain JSON so the admin dashboard can
+edit them at runtime. `config/serp.js` holds the rest: `OWN_DOMAINS` and the
+noise threshold. A scan is one query × one target, so the number of requests per
+day is the size of that product — keep it small.
+
+**The dashboard.** The admin panel serves `/serp`: the current top-10 per query
+and geo, how far each domain moved since the previous scan, what is new and what
+dropped out, plus a box to add or remove tracked queries (it commits
+`data/serp/queries.json`, and the next scan picks the change up). See
+`admin/README.md`.
+
+**What gets reported.** Entering or leaving the top-10 always does. A
+re-ranking only does once it moves at least `moveThreshold` positions, unless
+the domain is one of `OWN_DOMAINS`, where every position counts. Own domains
+sort to the top of the message. The first scan of a query records a baseline and
+reports nothing.
+
+**State.** `data/serp/latest.json` is the current ranking; `data/serp/history/`
+keeps one snapshot per run, so a position can be traced back over time. The
+workflow commits both.
+
+**On scraping Google directly.** There is no API here — the monitor requests the
+result page and parses it. That works at this volume from an ordinary IP, but
+Google challenges datacenter ranges (GitHub Actions included) much more readily,
+and it changes its markup without warning. Both failure modes are reported
+rather than swallowed: a challenged or unparseable scan keeps the previous
+ranking, says so in the notification, and fails the run if every scan was
+blocked — an empty top-10 is never recorded as "everything dropped out". If
+captchas start showing up, set the `SERP_PROXY` secret to an outbound proxy and
+`npm i undici`; nothing else changes.
+
+**Notifications.** Set `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` (repository
+secrets for the workflow, `.env` locally). Without them the monitor still runs
+and the report goes to stdout and the workflow summary.
 
 ## Deploying to Vercel
 

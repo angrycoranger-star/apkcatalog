@@ -1,0 +1,14 @@
+[
+  { "q": "скачать apk", "targets": ["ru"] },
+  { "q": "скачать игры на андроид", "targets": ["ru"] },
+  { "q": "каталог приложений android", "targets": ["ru"] },
+  { "q": "приложения для андроид скачать бесплатно", "targets": ["ru"] },
+
+  { "q": "apk indir", "targets": ["tr"] },
+  { "q": "android oyun indir", "targets": ["tr"] },
+  { "q": "android uygulama indir", "targets": ["tr"] },
+
+  { "q": "apk yuklab olish", "targets": ["uz"] },
+  { "q": "android oyinlar yuklab olish", "targets": ["uz"] },
+  { "q": "android ilovalar", "targets": ["uz"] }
+]

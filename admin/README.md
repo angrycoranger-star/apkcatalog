@@ -32,16 +32,19 @@ admin/
       apk.js            # read manifest + icon + checksum from an .apk
       record.js         # build a custom-apps.json record (+ slug rules)
       github.js         # append the record via the GitHub Contents API
+      serp-store.js     # read the SERP rankings, read/write the tracked queries
       categories.json   # snapshot of the catalog's category taxonomy
     pages/
       login.astro       # password form
       index.astro       # the upload form (client-side Blob upload)
+      serp.astro        # Google positions dashboard + tracked-query editor
       api/
         login.js        # POST password -> sets cookie
         logout.js       # POST clears cookie
         categories.js   # GET category choices
         blob-token.js   # issues client-upload tokens (auth-gated)
         upload.js       # finalizes: inspect APK, commit the card
+        serp-queries.js # GET/POST the tracked query list
 ```
 
 ## Environment variables
@@ -151,3 +154,21 @@ projects. Empty → the reviews block is hidden.
 - Blob upload tokens are only issued to an authenticated session, and are scoped
   to `.apk` (≤512 MB) or images (≤8 MB).
 - Never commit `.env` — it's already covered by the repo's `.gitignore`.
+
+## Google positions (`/serp`)
+
+The dashboard for the SERP monitor that runs in the main repository
+(`scripts/serp-monitor.js`, daily via GitHub Actions). It shows, per tracked
+query and per geo, the current Google top-10, how far each domain moved since
+the previous scan, which domains are new to the top-10 and which fell out of it.
+Own domains are highlighted.
+
+The query list is editable here: type a query, tick the geos (none ticked means
+every geo) and it is committed to `data/serp/queries.json` in the main
+repository. The next scheduled scan picks it up — the first run for a new query
+only records a baseline, so movement shows from the following day. Removing a
+query stops the scans and leaves its recorded history alone.
+
+Reads and writes go through the same `GITHUB_TOKEN` / `GITHUB_REPO` /
+`GITHUB_BRANCH` variables as the rest of the panel; without them the page loads
+and says so rather than failing.

@@ -1,0 +1,240 @@
+---
+import { listQueries, listTargets, readLatest } from '../lib/serp-store.js';
+
+export const prerender = false;
+
+/* All three files live in the main repository; a missing token or a first run
+   before any scan should show an empty dashboard, not a 500. */
+let queries = [];
+let targets = [];
+let latest = { scans: {} };
+let loadError = null;
+try {
+  [queries, targets, latest] = await Promise.all([listQueries(), listTargets(), readLatest()]);
+} catch (error) {
+  loadError = error.message;
+}
+
+const targetById = new Map(targets.map((t) => [t.id, t]));
+const labelFor = (id) => targetById.get(id)?.label ?? id;
+
+/**
+ * One card per tracked query, with a block per geo. Scans are keyed
+ * "<target>|<query>" by the monitor; a query added since the last run simply
+ * has no scan yet and is shown as pending.
+ */
+const cards = queries.map((entry) => {
+  const ids = entry.targets?.length ? entry.targets : targets.map((t) => t.id);
+  return {
+    q: entry.q,
+    blocks: ids.map((id) => ({ id, label: labelFor(id), scan: latest.scans?.[`${id}|${entry.q}`] ?? null }))
+  };
+});
+
+const dropped = (scan) => (scan?.changes ?? []).filter((c) => c.type === 'left');
+
+/** "+3" when a domain climbed three places, "−2" when it slipped. */
+function move(result) {
+  if (result.previousPosition == null) return { kind: 'new', text: 'новый' };
+  const delta = result.previousPosition - result.position;
+  if (!delta) return null;
+  return { kind: delta > 0 ? 'up' : 'down', text: `${delta > 0 ? '▲' : '▼'}${Math.abs(delta)}` };
+}
+
+const dateFmt = new Intl.DateTimeFormat('ru-RU', { dateStyle: 'short', timeStyle: 'short', timeZone: 'UTC' });
+const when = (iso) => (iso ? `${dateFmt.format(new Date(iso))} UTC` : '—');
+const generatedAt = when(latest.generatedAt);
+---
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>apk4orge · позиции в Google</title>
+    <style>
+      :root { color-scheme: dark; }
+      body { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+        margin: 0; background: #0b1120; color: #e2e8f0; }
+      header { display: flex; align-items: center; justify-content: space-between;
+        padding: 14px 20px; border-bottom: 1px solid #1e293b; }
+      header b { font-size: 16px; }
+      header a { color: #94a3b8; font-size: 13px; text-decoration: none; margin-left: 16px; }
+      main { max-width: 900px; margin: 0 auto; padding: 24px 20px 60px; }
+      h1 { font-size: 20px; margin: 0 0 4px; }
+      .sub { color: #94a3b8; font-size: 13px; margin: 0 0 24px; }
+      .panel { border: 1px solid #1e293b; border-radius: 12px; padding: 16px; margin-bottom: 24px; background: #0f172a; }
+      .panel h2 { font-size: 14px; margin: 0 0 12px; color: #cbd5e1; font-weight: 600; }
+      .addrow { display: flex; gap: 10px; flex-wrap: wrap; }
+      input[type=text] { flex: 1 1 260px; box-sizing: border-box; border-radius: 10px; border: 1px solid #334155;
+        background: #131c31; color: #e2e8f0; padding: 10px 12px; font-size: 15px; font-family: inherit; }
+      button { border: 0; border-radius: 10px; background: #4f46e5; color: #fff; font-weight: 600;
+        font-size: 14px; padding: 0 18px; height: 42px; cursor: pointer; }
+      button:disabled { opacity: .6; cursor: default; }
+      .geos { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 12px; font-size: 13px; color: #cbd5e1; }
+      .geos label { display: flex; align-items: center; gap: 6px; }
+      .hint { color: #64748b; font-size: 12px; margin-top: 10px; }
+      .status { font-size: 13px; margin-top: 10px; min-height: 18px; }
+      .status.ok { color: #34d399; } .status.err { color: #f87171; }
+      .card { border: 1px solid #1e293b; border-radius: 12px; margin-bottom: 20px; overflow: hidden; }
+      .card > .head { display: flex; align-items: center; justify-content: space-between; gap: 12px;
+        padding: 12px 16px; background: #131c31; border-bottom: 1px solid #1e293b; }
+      .card > .head b { font-size: 15px; }
+      .drop { background: none; color: #f87171; border: 1px solid #7f1d1d; height: 30px; padding: 0 12px;
+        font-size: 12px; font-weight: 500; }
+      .block { padding: 12px 16px 16px; border-top: 1px solid #16203a; }
+      .block:first-of-type { border-top: 0; }
+      .block > .geo { display: flex; align-items: baseline; gap: 10px; margin-bottom: 8px; }
+      .block > .geo span { font-size: 12px; color: #64748b; }
+      table { width: 100%; border-collapse: collapse; font-size: 13px; }
+      td { padding: 5px 6px; border-bottom: 1px solid #16203a; vertical-align: top; }
+      tr:last-child td { border-bottom: 0; }
+      td.pos { width: 26px; color: #64748b; text-align: right; }
+      td.mv { width: 58px; }
+      td.ttl { color: #64748b; }
+      a.site { color: #e2e8f0; text-decoration: none; }
+      a.site:hover { text-decoration: underline; }
+      .own a.site { color: #a5b4fc; font-weight: 600; }
+      .tag { display: inline-block; border-radius: 6px; padding: 1px 6px; font-size: 11px; font-weight: 600; }
+      .tag.up { background: #052e1b; color: #34d399; }
+      .tag.down { background: #3b0d0d; color: #f87171; }
+      .tag.new { background: #1e1b4b; color: #a5b4fc; }
+      .warn { color: #fbbf24; font-size: 13px; }
+      .gone { color: #94a3b8; font-size: 12px; margin-top: 8px; }
+      .empty { color: #64748b; font-size: 13px; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <b>apk4orge · позиции в Google</b>
+      <nav>
+        <a href="/">Добавить</a>
+        <a href="/manage">Мои приложения</a>
+        <a href="/collections">Подборки</a>
+        <a href="/reviews">Отзывы</a>
+        <a href="#" id="logout">Выйти</a>
+      </nav>
+    </header>
+    <main>
+      <h1>Позиции в Google</h1>
+      <p class="sub">
+        Топ-10 по каждому запросу в каждом гео. Обновляется раз в сутки, последний скан: {generatedAt}.
+        Стрелка — насколько домен сдвинулся со вчерашнего дня, «новый» — впервые в топ-10.
+      </p>
+
+      {loadError && <p class="warn">Не удалось прочитать данные из репозитория: {loadError}</p>}
+
+      <div class="panel">
+        <h2>Добавить запрос</h2>
+        <div class="addrow">
+          <input type="text" id="q" placeholder="например, скачать игры на андроид" autocomplete="off" />
+          <button id="add">Отслеживать</button>
+        </div>
+        <div class="geos">
+          {targets.map((t) => (
+            <label><input type="checkbox" class="geo" value={t.id} checked />{t.label}</label>
+          ))}
+        </div>
+        <p class="hint">
+          Ни одного гео не отмечено — запрос проверяется во всех. Первый скан только запишет базу,
+          движения появятся со следующего дня.
+        </p>
+        <div class="status" id="status"></div>
+      </div>
+
+      {!cards.length && !loadError && <p class="empty">Ни одного запроса не отслеживается — добавь первый выше.</p>}
+
+      {cards.map((card) => (
+        <div class="card">
+          <div class="head">
+            <b>{card.q}</b>
+            <button class="drop" data-q={card.q}>Не отслеживать</button>
+          </div>
+          {card.blocks.map(({ label, scan }) => (
+            <div class="block">
+              <div class="geo"><b>{label}</b><span>{scan ? when(scan.scannedAt ?? scan.failedAt) : 'ещё не сканировался'}</span></div>
+              {scan?.error && <p class="warn">⚠️ последний скан не удался: {scan.error} — показана предыдущая выдача</p>}
+              {scan?.results?.length ? (
+                <table>
+                  <tbody>
+                    {scan.results.map((r) => {
+                      const m = move(r);
+                      return (
+                        <tr class={r.own ? 'own' : ''}>
+                          <td class="pos">{r.position}</td>
+                          <td class="mv">{m && <span class={`tag ${m.kind}`}>{m.text}</span>}</td>
+                          <td>
+                            <a class="site" href={r.url} target="_blank" rel="noopener nofollow">{r.domain}</a>
+                            <div class="ttl">{r.title}</div>
+                          </td>
+                        </tr>
+                      );
+                    })}
+                  </tbody>
+                </table>
+              ) : (
+                !scan?.error && <p class="empty">Данных пока нет.</p>
+              )}
+              {dropped(scan).length > 0 && (
+                <p class="gone">Выпали из топ-10: {dropped(scan).map((c) => `${c.domain} (был #${c.from})`).join(', ')}</p>
+              )}
+            </div>
+          ))}
+        </div>
+      ))}
+    </main>
+
+    <script>
+      const $ = (id) => document.getElementById(id);
+      const status = $('status');
+
+      $('logout').addEventListener('click', async (e) => {
+        e.preventDefault();
+        await fetch('/api/logout', { method: 'POST' });
+        location.href = '/login';
+      });
+
+      function say(text, kind) {
+        status.textContent = text;
+        status.className = `status ${kind ?? ''}`;
+      }
+
+      /** Every change is a commit to the repo, so the page reloads to show it. */
+      async function save(body, button) {
+        button.disabled = true;
+        try {
+          const res = await fetch('/api/serp-queries', {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify(body)
+          });
+          const json = await res.json();
+          if (!res.ok) throw new Error(json.error || `HTTP ${res.status}`);
+          say('Сохранено, обновляю…', 'ok');
+          location.reload();
+        } catch (error) {
+          say(error.message, 'err');
+          button.disabled = false;
+        }
+      }
+
+      $('add').addEventListener('click', (e) => {
+        const q = $('q').value.trim();
+        if (!q) return say('Введите запрос', 'err');
+        const targets = [...document.querySelectorAll('.geo:checked')].map((el) => el.value);
+        save({ q, targets }, e.currentTarget);
+      });
+
+      $('q').addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') $('add').click();
+      });
+
+      for (const button of document.querySelectorAll('.drop')) {
+        button.addEventListener('click', (e) => {
+          const q = e.currentTarget.dataset.q;
+          if (confirm(`Перестать отслеживать «${q}»?`)) save({ q, remove: true }, e.currentTarget);
+        });
+      }
+    </script>
+  </body>
+</html>

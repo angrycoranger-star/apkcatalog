@@ -1,0 +1,55 @@
+name: Google SERP monitor
+
+# Daily: scrape the top-10 for every query × geo in config/serp.js, commit the
+# ranking and push a notification when something moved.
+#
+# Google challenges GitHub's IP ranges far more readily than a residential one.
+# If runs start failing with "captcha", set the SERP_PROXY secret to an
+# outbound proxy URL and add `undici` to the project (the scraper needs it to
+# honour a proxy) — nothing else changes.
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+    inputs:
+      query:
+        description: 'Scan a single query (blank = all)'
+        required: false
+      target:
+        description: 'Scan a single target id, e.g. ru (blank = all)'
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: serp-monitor
+  cancel-in-progress: false
+
+jobs:
+  serp:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+
+      - name: Scan Google
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          SERP_PROXY: ${{ secrets.SERP_PROXY }}
+        run: node scripts/serp-monitor.js
+
+      - name: Commit the ranking
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add data/serp
+          git diff --staged --quiet || git commit -m "serp: daily ranking snapshot"
+          git push
