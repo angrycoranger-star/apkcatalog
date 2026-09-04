@@ -59,4 +59,15 @@ jobs:
           fi
           count=$(node -p "require('./data/github-apps.json').length")
           git commit -m "chore(data): refresh ${count} GitHub-release apps"
-          git push
+          # A long collector run can finish after main has moved (unrelated
+          # pushes race us). Rebase the data commit onto the latest main and
+          # retry — the data files never conflict with source changes.
+          pushed=false
+          for attempt in 1 2 3 4 5; do
+            if git push; then pushed=true; break; fi
+            echo "push rejected, rebasing onto origin/main (attempt ${attempt}/5)"
+            git fetch origin main
+            git rebase origin/main || { echo 'rebase conflict'; git rebase --abort; exit 1; }
+            sleep $((RANDOM % 4 + 1))
+          done
+          [ "$pushed" = true ] || { echo 'push failed after retries'; exit 1; }
