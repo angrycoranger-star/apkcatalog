@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-09-04T13:05:53.133Z",
+  "source": "fdroid-import.js",
+  "repos": [
+    "https://f-droid.org/repo",
+    "https://apt.izzysoft.de/fdroid/repo"
+  ],
+  "index_packages": 5716,
+  "redistributable": 5231,
+  "skipped": 14,
+  "cross_source_skipped": 253,
+  "count": 4978
+}
