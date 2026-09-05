@@ -1,0 +1,86 @@
+{
+  "generatedAt": "2026-09-05T06:13:44.683Z",
+  "topN": 10,
+  "scans": {
+    "ru|скачать apk": {
+      "query": "скачать apk",
+      "target": "ru",
+      "results": [],
+      "changes": [],
+      "error": "Google returned a unparseable (layout changed or soft block) page instead of results",
+      "failedAt": "2026-09-05T06:13:44.683Z"
+    },
+    "ru|скачать игры на андроид": {
+      "query": "скачать игры на андроид",
+      "target": "ru",
+      "results": [],
+      "changes": [],
+      "error": "Google returned a unparseable (layout changed or soft block) page instead of results",
+      "failedAt": "2026-09-05T06:13:44.683Z"
+    },
+    "ru|каталог приложений android": {
+      "query": "каталог приложений android",
+      "target": "ru",
+      "results": [],
+      "changes": [],
+      "error": "Google returned a unparseable (layout changed or soft block) page instead of results",
+      "failedAt": "2026-09-05T06:13:44.683Z"
+    },
+    "ru|приложения для андроид скачать бесплатно": {
+      "query": "приложения для андроид скачать бесплатно",
+      "target": "ru",
+      "results": [],
+      "changes": [],
+      "error": "Google returned a rate-limit (HTTP 429) page instead of results",
+      "failedAt": "2026-09-05T06:13:44.683Z"
+    },
+    "tr|apk indir": {
+      "query": "apk indir",
+      "target": "tr",
+      "results": [],
+      "changes": [],
+      "error": "Google returned a rate-limit (HTTP 429) page instead of results",
+      "failedAt": "2026-09-05T06:13:44.683Z"
+    },
+    "tr|android oyun indir": {
+      "query": "android oyun indir",
+      "target": "tr",
+      "results": [],
+      "changes": [],
+      "error": "Google returned a rate-limit (HTTP 429) page instead of results",
+      "failedAt": "2026-09-05T06:13:44.683Z"
+    },
+    "tr|android uygulama indir": {
+      "query": "android uygulama indir",
+      "target": "tr",
+      "results": [],
+      "changes": [],
+      "error": "Google returned a rate-limit (HTTP 429) page instead of results",
+      "failedAt": "2026-09-05T06:13:44.683Z"
+    },
+    "uz|apk yuklab olish": {
+      "query": "apk yuklab olish",
+      "target": "uz",
+      "results": [],
+      "changes": [],
+      "error": "Google returned a rate-limit (HTTP 429) page instead of results",
+      "failedAt": "2026-09-05T06:13:44.683Z"
+    },
+    "uz|android oyinlar yuklab olish": {
+      "query": "android oyinlar yuklab olish",
+      "target": "uz",
+      "results": [],
+      "changes": [],
+      "error": "Google returned a rate-limit (HTTP 429) page instead of results",
+      "failedAt": "2026-09-05T06:13:44.683Z"
+    },
+    "uz|android ilovalar": {
+      "query": "android ilovalar",
+      "target": "uz",
+      "results": [],
+      "changes": [],
+      "error": "Google returned a rate-limit (HTTP 429) page instead of results",
+      "failedAt": "2026-09-05T06:13:44.683Z"
+    }
+  }
+}
