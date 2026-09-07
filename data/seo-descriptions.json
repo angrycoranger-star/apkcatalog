@@ -1654,5 +1654,191 @@
     "en": "Automatic Advanced Settings Expander - Xposed module that auto-expands Advanced Settings in the Settings app. Never manually toggle Advanced Settings again.",
     "tr": "Automatic Advanced Settings Expander - Ayarlar uygulamasında Advanced Settings'i otomatik olarak genişleten Xposed modülü. Artık Advanced Settings'i manuel olarak geçişlemeyin.",
     "uz": "Automatic Advanced Settings Expander - Settings ilovasida Advanced sozlamalarini avtomatik kengaytiyadigan Xposed moduli. Hech qachon Advanced sozlamalarni qo'lda o'zgartirmang."
+  },
+  "InfinityLoop1309.NewPipeEnhanced": {
+    "ru": "PipePipe — YouTube клиент с улучшениями SponsorBlock, ReturnYouTubeDislike и продвинутыми функциями. Быстрее и стабильнее NewPipe с пулевыми комментариями, фильтрами поиска и фоновым воспроизведением.",
+    "en": "PipePipe - YouTube client enhanced with SponsorBlock, ReturnYouTubeDislike, and advanced features. Faster, more stable than NewPipe with bullet comments, search filters, and background playback.",
+    "tr": "PipePipe - SponsorBlock, ReturnYouTubeDislike ve ileri özellikler ile geliştirilmiş YouTube istemcisi. NewPipe'dan daha hızlı ve stabil, mermi yorumları, arama filtreleri ve arka plan oynatma ile.",
+    "uz": "PipePipe - SponsorBlock, ReturnYouTubeDislike va ilg'or xususiyatlar bilan yaxshilangan YouTube klijenti. NewPipe'dan tezroq va barqarorroq, o'q izohlar, qidiruv filtrlari va fon ijrosi bilan."
+  },
+  "S.N.A.K.E": {
+    "ru": "Worm 🐍 — простое приложение для рисования червей и змей пальцем. Поддержка мультисенсорного ввода для творческого веселья.",
+    "en": "Worm 🐍 - simple drawing app for sketching worms and snakes with your finger. Multi-touch supported for creative fun.",
+    "tr": "Worm 🐍 - parmağınızla solucanları ve yılanları çizmek için basit çizim uygulaması. Yaratıcı eğlence için çoklu dokunuş desteği.",
+    "uz": "Worm 🐍 - barmoq bilan chuvalkan va ilanlarni chizish uchun sodda chizish ilovasi. Ijodiy qiziq uchun ko'p-teginish qo'llab-quvvatlash."
+  },
+  "a2dp.Vol": {
+    "ru": "A2DP Volume — автоматически регулирует громкость мультимедиа при подключении Bluetooth. Управляйте автомобильными стереосистемами и читайте текстовые сообщения через TTS во время вождения.",
+    "en": "A2DP Volume - automatically adjusts media volume when Bluetooth connects. Control car stereo systems and read text messages via TTS while driving.",
+    "tr": "A2DP Volume - Bluetooth bağlandığında ortam sesini otomatik ayarlar. Araba stereo sistemlerini kontrol edin ve TTS aracılığıyla sürüş sırasında metin mesajlarını okuyun.",
+    "uz": "A2DP Volume - Bluetooth ulanganida media ovozini avtomatik sozlaydi. Avtomobil stereo sistemlarini boshqaring va haydovchi chiqayotganda TTS orqali matn xabarlarini o'qing."
+  },
+  "ac.mdiq.Podcini.A": {
+    "ru": "Podcini.A — расширяемый инструмент для подкастов и медиа с открытым исходным кодом. Обрабатывает подкасты, локальные медиа и удалённый контент со смарт-очередями и иерархиями громкости.",
+    "en": "Podcini.A - extensible open-source podcast and media instrument. Handles podcasts, local media, and remote content with smart play queues and volume hierarchies.",
+    "tr": "Podcini.A - genişletilebilir açık kaynak podcast ve medya enstrümanı. Akıllı oynatma kuyrukları ve ses hiyerarşileri ile podkast, yerel medya ve uzak içeriği işler.",
+    "uz": "Podcini.A - kengaytirilishi mumkin bo'lgan ochiq manba podcast va media vositasi. Aqlli ijro navbatlari va ovoz ierarxiyasi bilan podkastlarni, mahalliy mediany va uzaq kontentni qayta ishlaydi."
+  },
+  "ac.mdiq.podcini.X": {
+    "ru": "Podcini.X — плеер подкастов с открытым исходным кодом с поиском, открытием и управлением подписками. Загружайте, транслируйте или ставьте в очередь эпизоды с регулируемой скоростью воспроизведения.",
+    "en": "Podcini.X - open-source podcast player with search, discovery, and subscription management. Download, stream, or queue episodes with adjustable playback speeds.",
+    "tr": "Podcini.X - arama, keşif ve abonelik yönetimi ile açık kaynak podcast oynatıcısı. Ayarlanabilir oynatma hızlarıyla bölümleri indirin, yayınlayın veya kuyruğa alın.",
+    "uz": "Podcini.X - qidiruv, kashf va obuna boshqaruvi bilan ochiq manba podcast pleeri. Sozlanishi mumkin bo'lgan ijro tezliklari bilan qismlari yuklab oling, tranzlyatsiya qiling yoki navbatga qo'ying."
+  },
+  "ac.robinson.mediaphone": {
+    "ru": "Com-Phone Story Maker — создавайте мультимедийные рассказы, комбинируя фотографии, аудио и текст. Создавайте слайд-шоу, шаблоны и экспортируйте как фильмы или веб-версии.",
+    "en": "Com-Phone Story Maker - create multimedia narratives by combining photos, audio, and text. Build slideshows, templates, and export as movies or web versions.",
+    "tr": "Com-Phone Story Maker - fotoğrafları, sesi ve metni birleştirerek multimedya hikayeler oluşturun. Slayt gösterileri, şablonlar oluşturun ve filmler veya web versiyonları olarak dışa aktarın.",
+    "uz": "Com-Phone Story Maker - fotosuratlar, audio va matnni birlashtirib multimediya hikoyalar yarating. Slayd-show'lar, shablonlarni yarating va filmlar yoki veb-versiyalari sifatida eksport qiling."
+  },
+  "ac.stresa.uturn": {
+    "ru": "UT.urn — приложение служб расширения, обеспечивающее поддержку контента YouTube для плеера подкастов Podcini.A.",
+    "en": "UT.urn - extension service app that provides YouTube content support for Podcini.A podcast player.",
+    "tr": "UT.urn - Podcini.A podcast oynatıcısı için YouTube içeriği desteği sağlayan uzantı hizmeti uygulaması.",
+    "uz": "UT.urn - Podcini.A podcast pleyeri uchun YouTube kontent qo'llab-quvvatlashni taqdim etuvchi kengayma xizmat ilovasi."
+  },
+  "acidburn.stims": {
+    "ru": "Stims — предотвратите выключение экрана для выбранных приложений. Продолжайте слушать музыку, оставайтесь онлайн в мессенджерах или продолжайте игры с выключенным экраном для сохранения батареи.",
+    "en": "Stims - prevent screen from turning off for selected apps. Keep music playing, stay online on messengers, or continue gaming with screen off to save battery.",
+    "tr": "Stims - seçili uygulamalar için ekranın kapanmasını önleyin. Müzik çalmaya devam edin, mesajcılarda çevrimiçi kalın veya bataryayı kaydetmek için ekran kapalı oyunlara devam edin.",
+    "uz": "Stims - tanlangan ilovalar uchun ekranni o'chmasdan qo'ying. Musiqani ijro qilishni davom ettiring, xabar beruvchilarda onlayn qoling yoki batareyani saqlab olish uchun ekran o'chiqligi bilan o'yinni davom ettiring."
+  },
+  "acr.browser.lightning": {
+    "ru": "Lightning — лёгкий веб-браузер с быстрым запуском и малым объёмом. Особенности включают плавную прокрутку, блокировщик рекламы и минимальное использование ресурсов.",
+    "en": "Lightning - lightweight web browser with fast startup times and small footprint. Features smooth scrolling, ad blocker, and minimal resource usage.",
+    "tr": "Lightning - hızlı başlangıç saatleri ve küçük ayak izi ile hafif web tarayıcı. Düzgün kaydırma, reklam engelleyici ve minimal kaynak kullanımı özelliğine sahiptir.",
+    "uz": "Lightning - tez ishga tushirish vaqti va kichik izga ega yengil veb-brauzer. Silliq skrolling, reklamani blokirovka va minimal resurs foydalanishni o'z ichiga oladi."
+  },
+  "ademar.bitac": {
+    "ru": "BitAC - Bitcoin Address Checker — лёгкое приложение для быстрой проверки балансов кошельков Bitcoin. Просмотрите баланс адреса без требования функциональности кошелька.",
+    "en": "BitAC - Bitcoin Address Checker - lightweight app for quickly checking Bitcoin wallet balances. View address balance without requiring wallet functionality.",
+    "tr": "BitAC - Bitcoin Address Checker - Bitcoin cüzdan bakiyelerini hızlı bir şekilde kontrol etmek için hafif uygulama. Cüzdan işlevselliği gerektirmeden adres bakiyesini görüntüleyin.",
+    "uz": "BitAC - Bitcoin Address Checker - Bitcoin hamyon balanslarini tez tekshirish uchun yengil ilova. Hamyon funktsionalligi talab qilmasdan address balansin ko'rish."
+  },
+  "ademar.textlauncher": {
+    "ru": "Text Launcher — супер-лёгкая программа запуска, показывающая только названия приложений в простом списке. Самая быстрая программа запуска без загрузки изображений или данных.",
+    "en": "Text Launcher - ultra-lightweight launcher showing only app names in a simple list. Fastest possible launcher with no images or data loading.",
+    "tr": "Text Launcher - yalnızca uygulama adlarını basit bir listede gösteren ultra hafif başlatıcı. Resim veya veri yükleme olmadan en hızlı başlatıcı.",
+    "uz": "Text Launcher - faqat app nomlarini oddiy ro'yxatda ko'rsatadigan juda yengil pelauncher. Rasm yoki ma'lumot yuklashsiz eng tez pelauncher."
+  },
+  "agersant.polaris": {
+    "ru": "Polaris — клиент музыки для сервера музыки Polaris. Потоковая передача музыки в пути с режимом перемешивания, предварительной загрузкой песен и автономным прослушиванием.",
+    "en": "Polaris - music client for Polaris music server. Stream music on the go with shuffle mode, song preloading, and offline listening capability.",
+    "tr": "Polaris - Polaris müzik sunucusu için müzik istemcisi. Shuffle modu, şarkı ön yüklemesi ve çevrimdışı dinleme özelliği ile müzik aktarımı.",
+    "uz": "Polaris - Polaris musiqai server uchun musiqai klijenti. Shuffle rejimi, qo'g'on preload'i va oflayn tinglash imkoniyati bilan musiqai tranzlyatsiyasi."
+  },
+  "agrigolo.chubbyclick": {
+    "ru": "Chubby Click - Метроном, разработанный для музыкантов. Управляйте плейлистами, используйте tap tempo, практикуйтесь с автоматической регулировкой темпа и настраивайте акценты и отключение звука.",
+    "en": "Chubby Click - Metronome designed for musicians. Manage setlists, tap tempo, practice with auto-tempo adjustment, and customize beat accents and muting.",
+    "tr": "Chubby Click - müzisyenler için tasarlanmış metronom. Setlisted'leri yönetin, tap tempo kullanın, otomatik tempo ayarlaması ile pratik yapın ve vuruş aksentlerini ve susturmasını özelleştirin.",
+    "uz": "Chubby Click - musiqachilar uchun mo'ljallangan metronom. Setlistlarni boshqaring, tap temposidan foydalanish, avtomatik tempo sozlashlash bilan mashq qiling va urish aksentlarini va o'chirilishini sozlang."
+  },
+  "agrigolo.opendrummer": {
+    "ru": "OpenDrummer - Drum Loops — коллекция барабанных луп в различных стилях и темпах для улучшения практики. Доступна регулировка темпа с опциональным сохранением высоты звука.",
+    "en": "OpenDrummer - Drum Loops - collection of drum loops in various styles and tempos to enhance practice. Tempo adjustment available with optional pitch preservation.",
+    "tr": "OpenDrummer - Drum Loops - uygulamayı geliştirmek için çeşitli stiller ve tempolarda davul loop koleksiyonu. Opsiyonel perde koruması ile tempo ayarlaması mevcut.",
+    "uz": "OpenDrummer - Drum Loops - mashqni yaxshilash uchun turli uslub va tempolarda davul loop to'plami. Ixtiyoriy perde saqlashning mavjudligi bilan tempo sozlashni to'g'ri qilish."
+  },
+  "ai.agent1c.hitomi.open": {
+    "ru": "Open Hitomi — плавающий ёжиковый помощник с локальным интерфейсом наложения. Особенности включают интеграцию Termux, поддержку Ollama, инструменты кошелька Solana и установку чата xAI.",
+    "en": "Open Hitomi - floating hedgehog assistant with local overlay interface. Features Termux integration, Ollama support, Solana wallet tools, and xAI chat setup.",
+    "tr": "Open Hitomi - yerel kaplama arayüzüne sahip yüzen kirpi asistanı. Termux entegrasyonu, Ollama desteği, Solana cüzdan araçları ve xAI sohbet kurulumunu içerir.",
+    "uz": "Open Hitomi - mahalliy qo'shimcha interfeysi bilan suzib turgan ko'porsiyu yordamchisi. Termux integratsiyasi, Ollama qo'llab-quvvatlashi, Solana hamyon vositalar va xAI chat sozlamini o'z ichiga oladi."
+  },
+  "ai.privatebydesign.albi": {
+    "ru": "Albi — трекер здоровья, ориентированный на конфиденциальность, сохраняет все данные на устройстве. Отслеживайте вес, артериальное давление, частоту сердечных сокращений, настроение и окружность талии с интерактивными диаграммами.",
+    "en": "Albi - privacy-first health tracker keeping all data on-device. Track weight, blood pressure, heart rate, mood, and waist measurements with interactive charts.",
+    "tr": "Albi - tüm verileri cihazda tutan gizlilik odaklı sağlık izleyici. İnteraktif grafiklerle ağırlık, kan basıncı, kalp hızı, ruh hali ve bel çevresi izleyin.",
+    "uz": "Albi - barcha ma'lumotlarni qurilmada saqlovchi maxfiylik markazlashtirilgan sog'liq treking. Interaktiv diagrammalar bilan vaznı, qon bosimini, yurak urish chastotasini, ruhiyat va bel perimetri kuzating."
+  },
+  "allen.town.focus.mastodon": {
+    "ru": "FocusMastodon — клиент Mastodon с интерфейсом Material Design. Высокая кастомизируемость темы, фоновая синхронизация, мощные фильтры отключения звука, встроенная поддержка YouTube и браузер, ориентированный на читаемость.",
+    "en": "FocusMastodon - Mastodon client with Material Design UI. Highly customizable themes, background sync, powerful mute filters, native YouTube support, and readability-focused browser.",
+    "tr": "FocusMastodon - Material Design UI ile Mastodon istemcisi. Yüksek oranda özelleştirilebilir temalar, arka plan sinkronizasyonu, güçlü sessiz filtreler, yerel YouTube desteği ve okunabilirliğe odaklı tarayıcı.",
+    "uz": "FocusMastodon - Material Design UI bilan Mastodon klijenti. Yuqori darajada moslashtirilishi mumkin bo'lgan mavzular, fon sinxronizatsiyasi, kuchli jim filtrlari, yerli YouTube qo'llab-quvvatlashi va o'qiladligiga yo'naltirilgan brauzer."
+  },
+  "allen.town.focus.podcast": {
+    "ru": "FocusPodcast — плеер подкастов, ориентированный на конфиденциальность, с дизайном материала MD3. Прослушивание в режиме офлайн, поддержка SD-карты, группы подкастов, таймер сна и выбор глобальных подкастов.",
+    "en": "FocusPodcast - privacy-focused podcast player with MD3 material design. Offline listening, SD card support, podcast groups, sleep timer, and global podcast selection.",
+    "tr": "FocusPodcast - MD3 malzeme tasarımı ile gizlilik odaklı podcast oynatıcı. Çevrimdışı dinleme, SD kart desteği, podcast grupları, uyku zamanlayıcısı ve global podcast seçimi.",
+    "uz": "FocusPodcast - MD3 materiali dizayn bilan maxfiylik markazlashtirilgan podcast pleeri. Oflayn tinglash, SD karta qo'llab-quvvatlash, podcast guruhlar, uyqu tayimer va global podcast tanlash."
+  },
+  "alt.nainapps.aer": {
+    "ru": "Aer - Fork of Anemo — утилита приватного локального хранилища для Android. Скройте конфиденциальные файлы от других приложений в зашифрованном приватном хранилище.",
+    "en": "Aer - Fork of Anemo - private local storage utility for Android. Hide sensitive files from other apps in encrypted private storage.",
+    "tr": "Aer - Fork of Anemo - Android için özel yerel depolama yardımcı programı. Hassas dosyaları şifreli özel depolama alanında diğer uygulamalardan gizleyin.",
+    "uz": "Aer - Fork of Anemo - Android uchun maxsus mahalliy saqlash vositasi. Sezgili fayllarni shifrlashtirilgan maxsus saqlavda boshqa ilovalardan yashiring."
+  },
+  "alt.nainapps.sharepaste.fdroid": {
+    "ru": "Share Paste O2 — сервис обмена пастой с end-to-end шифрованием. Мобильный клиент PrivateBin с опциями истечения срока действия и сгорания при чтении для приватного обмена.",
+    "en": "Share Paste O2 - end-to-end encrypted paste sharing service. PrivateBin mobile client with expiration and burn-on-read options for private sharing.",
+    "tr": "Share Paste O2 - end-to-end şifreli yapıştırma paylaşım hizmeti. Özel paylaşım için son kullanma tarihi ve yanmada okuma seçenekleri ile PrivateBin mobil istemci.",
+    "uz": "Share Paste O2 - to'liq shifrlashtirilgan pasta ulashma xizmati. Maxsus ulashish uchun yakuniy tarixva yonish-oqishda o'qish variantlari bilan PrivateBin mobile klijenti."
+  },
+  "amirz.dngprocessor": {
+    "ru": "DNG Processor — фоновый обработчик RAW-изображений. Преобразует RAW-фотографии в JPEG, используя ускорение GPU, автоматически обрабатывая изображения, захватываемые любым приложением камеры.",
+    "en": "DNG Processor - background processor for RAW images. Converts RAW photos to JPEG using GPU acceleration, automatically processing images captured by any camera app.",
+    "tr": "DNG Processor - RAW görüntüleri için arka plan işlemci. GPU hızlandırması kullanarak RAW fotoğrafları JPEG'e dönüştürür, herhangi bir kamera uygulaması tarafından yakalanan görüntüleri otomatik olarak işler.",
+    "uz": "DNG Processor - RAW rasmlar uchun fon processori. GPU tezlashirish orqali RAW suratlarni JPEG'ga aylantiradi, har qanday kamera ilovasi tomonidan qo'lga olingan rasmlarni avtomatik qayta ishlaydi."
+  },
+  "amirz.rootless.nexuslauncher": {
+    "ru": "Rootless Pixel Launcher — программа запуска, близкая к AOSP, ориентированная на простоту и стабильность. Особенности включают поисковую строку, выбор темы на основе обоев и поддержку адаптивных значков.",
+    "en": "Rootless Pixel Launcher - close to AOSP launcher focused on simplicity and stability. Features search bar, wallpaper-based theme selection, and adaptive icon support.",
+    "tr": "Rootless Pixel Launcher - basitlik ve stabiliteye odaklanmış AOSP'ye yakın başlatıcı. Arama çubuğu, duvar kağıdı temelli tema seçimi ve uyarlanabilir simge desteği özelliğine sahiptir.",
+    "uz": "Rootless Pixel Launcher - soddalik va barqarorlikka qaratilgan AOSP'ga yaqin pelauncher. Qidiruv paneli, duvor qog'ozi asosida mavzu tanlash va moslashtirilgan icon qo'llab-quvvatlashni o'z ichiga oladi."
+  },
+  "androdns.android.leetdreams.ch.androdns": {
+    "ru": "AndroDNS — DNS-клиент для настраиваемых DNS-запросов без ограничений. Типы запросов включают A/AAAA/MX и экспериментальные типы, DNSSEC-совместимый, поддерживает различные классы запросов.",
+    "en": "AndroDNS - DNS client for customized DNS queries without restrictions. Query types include A/AAAA/MX and experimental types, DNSSEC aware, supports various query classes.",
+    "tr": "AndroDNS - kısıtlamalar olmadan özelleştirilebilir DNS sorguları için DNS istemcisi. Sorgu türleri A/AAAA/MX ve deneysel türleri içerir, DNSSEC farkında, çeşitli sorgu sınıflarını destekler.",
+    "uz": "AndroDNS - cheklashsiz moslashtirilgan DNS so'rovlar uchun DNS klijenti. So'rov turlari A/AAAA/MX va eksperimental turlarni o'z ichiga oladi, DNSSEC xabardor, turli xil so'rov siniflarini qo'llab-quvvatlab."
+  },
+  "android.jonas.fakestandby": {
+    "ru": "FakeStandby — выключайте экран при продолжении работы приложений. Сохраняйте до 20% батареи, отключив дисплей, при этом продолжая слушать музыку или оставаясь в сети.",
+    "en": "FakeStandby - turn off screen while keeping apps running. Conserve up to 20% battery power by disabling display while continuing to listen to music or stay online.",
+    "tr": "FakeStandby - uygulamaları çalışmaya devam ederken ekranı kapatın. Müzik dinlemeye devam ederken veya çevrimiçi kalırken ekranı devre dışı bırakarak %20'ye kadar pil gücünden tasarruf edin.",
+    "uz": "FakeStandby - ilovalar ishlashni davom ettirish paytida ekranni o'chiring. Musiqani tinglashni davom ettirish yoki onlayn qolish paytida ekranni o'chiring va %20 gacha batareyani saqlab oling."
+  },
+  "anonvpn.anon_next.android": {
+    "ru": "ANONguard — анонимизируйте ваше интернет-соединение, используя сервис анонимизации AN.ON. Скройте ваш IP-адрес и просматривайте конфиденциально на Android.",
+    "en": "ANONguard - anonymize your internet connection using AN.ON anonymisation service. Hide your IP address and browse privately on Android.",
+    "tr": "ANONguard - AN.ON anonimleştirme hizmeti kullanarak internet bağlantınızı anonimleştirin. IP adresinizi gizleyin ve Android'de gizli olarak göz atın.",
+    "uz": "ANONguard - AN.ON anonimlik xizmati orqali internet ulanishingizni anonimlikdagi qiling. IP-addressingizni yashiring va Android'da maxfiy ko'rish."
+  },
+  "anupam.acrylic": {
+    "ru": "Acrylic Paint — инструмент раскрашивания и рисования на основе демонстрации FingerPaint API Android. Простое приложение для рисования для творческого самовыражения.",
+    "en": "Acrylic Paint - coloring and painting tool based on Android API FingerPaint demo. Simple drawing app for creative expression.",
+    "tr": "Acrylic Paint - Android API FingerPaint demosuna dayalı boyama ve resim çizme aracı. Yaratıcı ifade için basit çizim uygulaması.",
+    "uz": "Acrylic Paint - Android API FingerPaint demo asosida boyama va chizish vositasi. Ijodiy ifoda uchun sodda chizish ilovasi."
+  },
+  "app.agneldev.kochitransitgo": {
+    "ru": "Kochi Transit Go — офлайн спутник метро для системы Кочинского метро. Включает расписания, калькулятор тарифов, локатор станций GPS и прямую трансляцию без требования интернета.",
+    "en": "Kochi Transit Go - offline metro companion for Kochi Metro system. Includes schedules, fare calculator, GPS station locator, and live tracking without internet requirement.",
+    "tr": "Kochi Transit Go - Kochi Metro sistemi için çevrimdışı metro arkadaşı. İnternet gereksinimi olmaksızın zamanlamalar, ücret hesaplayıcısı, GPS istasyonu bulacı ve canlı takip içerir.",
+    "uz": "Kochi Transit Go - Kochi Metro tizimi uchun oflayn metro hamroh. Internetga talab qilinmasdan jadvallar, haq kalkulyatori, GPS stantsiya lokatori va jonli kuzatishni o'z ichiga oladi."
+  },
+  "app.alextran.immich": {
+    "ru": "Immich — клиент резервной копии фотографий и видео, размещаемый на собственных серверах. Загружайте и организовывайте медиа с поддержкой нескольких пользователей, автоматическое резервное копирование, поддержка HEIC, отображение EXIF и теги изображений на основе ML.",
+    "en": "Immich - self-hosted photo and video backup client. Upload and organize media with multi-user support, automatic backup, HEIC support, EXIF display, and ML-based image tagging.",
+    "tr": "Immich - kendi barındırılan fotoğraf ve video yedekleme istemcisi. Çok kullanıcılı destek, otomatik yedekleme, HEIC desteği, EXIF gösterimi ve ML tabanlı görüntü etiketlemesi ile medya yükleyin ve düzenleyin.",
+    "uz": "Immich - o'z-o'zidan joylashtirilgan foto va video zaxira klijenti. Ko'p foydalanuvchi qo'llab-quvvatlash, avtomatik zaxira, HEIC qo'llab-quvvatlash, EXIF ko'rsatish va ML-asosli rasm belgilash bilan mediany yuklab oling va tashkil qiling."
+  },
+  "app.areada": {
+    "ru": "Areada — минимальный автономный читатель для файлов EPUB, PDF, TXT и FB2. Чистый интерфейс с локальными заметками, закладками, поиском, отслеживанием прогресса чтения и настраиваемыми темами.",
+    "en": "Areada - minimal offline reader for EPUB, PDF, TXT, and FB2 files. Clean interface with local notes, bookmarks, search, reading progress tracking, and customizable themes.",
+    "tr": "Areada - EPUB, PDF, TXT ve FB2 dosyaları için minimal çevrimdışı okuyucu. Yerel notlar, yer imleri, arama, okuma ilerleme izleme ve özelleştirilebilir temalarla temiz arayüz.",
+    "uz": "Areada - EPUB, PDF, TXT va FB2 fayllar uchun minimal oflayn o'qigichi. Mahalliy eslatmalar, xatcho'plar, qidiruv, o'qish taraqqiyotni kuzatish va moslashtirilishi mumkin bo'lgan mavzular bilan toza interfeys."
+  },
+  "app.atrium": {
+    "ru": "Atrium — контроллер сервера для ваших собственных машин. Управляйте Sonarr, Radarr, Lidarr, Prowlarr, Bazarr и Seerr со своего телефона без облачных учётных записей.",
+    "en": "Atrium - server controller for your own machines. Manage Sonarr, Radarr, Lidarr, Prowlarr, Bazarr, and Seerr from your phone without cloud accounts.",
+    "tr": "Atrium - kendi makineleriniz için sunucu denetleyicisi. Bulut hesapları olmadan telefonunuzdan Sonarr, Radarr, Lidarr, Prowlarr, Bazarr ve Seerr'i yönetin.",
+    "uz": "Atrium - o'zingizning mashinalar uchun server kontrolleri. Bulut hisoblock'larsiz telefoningizdan Sonarr, Radarr, Lidarr, Prowlarr, Bazarr va Seerr'ni boshqaring."
+  },
+  "app.bitbag": {
+    "ru": "Bag — приложение для личного хранилища и управления файлами. Организуйте и управляйте файлами локально с дизайном, ориентированным на конфиденциальность.",
+    "en": "Bag - personal storage and file management app. Organize and manage your files locally with privacy-focused design.",
+    "tr": "Bag - kişisel depolama ve dosya yönetimi uygulaması. Gizlilik odaklı tasarım ile dosyalarınızı yerel olarak düzenleyin ve yönetin.",
+    "uz": "Bag - shaxsiy saqlash va fayl boshqaruvi ilovasi. Maxfiylik markazlashtirilgan dizayn bilan fayllarni mahalliy tashkil qiling va boshqaring."
   }
 }
