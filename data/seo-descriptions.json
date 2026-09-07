@@ -142,5 +142,89 @@
     "en": "Test Android WebView capabilities and features. Verify web compatibility and check WebView API support. Essential tool for web developers, app developers, and quality assurance teams testing web functionality on Android.",
     "tr": "Android WebView yeteneklerini ve özelliklerini test edin. Web uyumluluğunu doğrulayın ve WebView API desteğini kontrol edin. Web geliştiricileri, uygulama geliştiricileri ve Android'de web işlevlerini test eden kalite güvence ekipleri için gerekli araç.",
     "uz": "Android WebView imkoniyatlari va xususiyatlarini test qiling. Veb moslashuvni tekshiring va WebView API qo'llab-quvvatlashni tekshiring. Veb-developers, ilova ishlab chiqaruvchilari va Android'da veb-funksiyalarni test qiladigan sifat kafolatchilar uchun zarur vosita."
+  },
+  "xyz.jekyllex": {
+    "ru": "Управляйте своим блогом Jekyll прямо с Android. Редактируйте посты, публикуйте обновления и контролируйте генератор статических сайтов в дороге. Идеально для блоггеров и разработчиков, которые нуждаются в управлении блогом с мобильного устройства.",
+    "en": "Manage your Jekyll blog directly from Android. Edit posts, publish updates, and control your static site generator on the go. Perfect for bloggers and developers who need mobile blog management.",
+    "tr": "Jekyll blogunuzu doğrudan Android'den yönetin. Gönderileri düzenleyin, güncellemeleri yayınlayın ve statik site oluşturucunuzu hareket halindeyken kontrol edin. Blog yönetimi için mobil bloggersve geliştiriciler için mükemmel.",
+    "uz": "Jekyll blogingiziAndroid'dan bevosita boshqaring. Postlarni tahrirlang, yangilanishlarni nashr qiling va statik sayt yaratuvchini harakatdayken boshqaring. Blogging boshqaruvi uchun mobil bloggerlar va ishlab chiqaruvchilar uchun ideal."
+  },
+  "org.tfv.deskflow": {
+    "ru": "Управляйте компьютером со своего телефона Android с помощью Deskflow. Беспрепятственно делитесь клавиатурой, мышью и буфером обмена между устройствами. Программное обеспечение удалённого управления для производительности и многоустройных рабочих процессов.",
+    "en": "Control your computer from your Android phone with Deskflow. Share keyboard, mouse, and clipboard across devices seamlessly. Remote control software for productivity and multi-device workflows.",
+    "tr": "Deskflow ile Android telefonunuzdan bilgisayarınızı kontrol edin. Klavye, fare ve panoyu cihazlar arasında sorunsuzca paylaşın. Üretkenlik ve çok cihazlı iş akışları için uzaktan kontrol yazılımı.",
+    "uz": "Deskflow yordamida Android telefoningizdan kompyuteringizni boshqaring. Klaviaturani, sichqonchani va buferini qurilmalar orasida sorunsuz baham oling. Samaradorlik va ko'p qurilmali ishtiromas uchun masofaviy boshqaruv dasturi."
+  },
+  "io.github.fm_elpac.azi_demo": {
+    "ru": "Библиотека инициализации и настройки Android-приложений. Оптимизируйте процессы запуска приложений и инициализацию системы с помощью фреймворка Azi. Необходимо для разработчиков, создающих окружения подобные Termux и терминальные приложения.",
+    "en": "Android application initialization and setup library. Streamline app startup processes and system initialization with Azi framework. Essential for developers building Termux-like environments and terminal applications.",
+    "tr": "Android uygulama başlatma ve kurulum kitaplığı. Azi çerçevesine sahip uygulama başlatma işlemlerini ve sistem başlatmayı kolaylaştırın. Termux benzeri ortamlar ve terminal uygulamaları oluşturan geliştiriciler için gereklidir.",
+    "uz": "Android ilovasi ishga tushish va sozlash kutubhonasi. Azi freymvorki bilan ilovani ishga tushish jarayonlarini va tizim initsializatsiyasini soddalashtiring. Termux-ga o'xshash muhitlar va terminal dasturlari yaratayotgan ishlab chiqaruvchilar uchun zarur."
+  },
+  "com.google.ai.edge.gallery": {
+    "ru": "Исследуйте локальные возможности ИИ и машинного обучения. Попробуйте запускать большие языковые модели локально на телефоне Android без облачной зависимости. Галерея практических приложений GenAI, демонстрирующих мощь граничных вычислений.",
+    "en": "Explore on-device AI and machine learning capabilities. Try running large language models locally on your Android phone without cloud dependency. Gallery of practical GenAI applications demonstrating edge computing power.",
+    "tr": "Cihazda yapılan AI ve makine öğrenme yeteneklerini keşfedin. Büyük dil modellerini Android telefonunuzda bulut bağımlılığı olmadan yerel olarak çalıştırmayı deneyin. Kenar hesaplama gücünü gösteren pratik GenAI uygulamalarının galerisi.",
+    "uz": "Qurilmada AI va mashinani o'qitish imkoniyatlarini o'rganing. Katta til modellarini Android telefoningizda bulut bog'liqliksiz lokal ishlab ko'ring. Chetidagi kompyuterlash kuchini ko'rsatadigan amaliy GenAI ilovalari galereyasi."
+  },
+  "org.freecodecamp": {
+    "ru": "Бесплатно изучайте программирование с помощью freeCodeCamp. Интерактивные курсы кодирования и учебники, доступные на мобильных устройствах. Создавайте реальные проекты и получайте сертификаты, изучая JavaScript, Python, веб-разработку и многое другое.",
+    "en": "Learn programming for free with freeCodeCamp. Interactive coding courses and tutorials accessible on mobile. Build real projects and earn certifications while learning JavaScript, Python, web development, and more.",
+    "tr": "freeCodeCamp ile ücretsiz programlama öğrenin. Mobil cihazlarda erişilebilen etkileşimli kodlama kursları ve öğreticileri. JavaScript, Python, web geliştirme ve daha fazlasını öğrenirken gerçek projeler oluşturun ve sertifikalar kazanın.",
+    "uz": "freeCodeCamp bilan bepul dasturlashni o'rganing. Mobil qurilmalarda mavjud bo'lgan interaktiv kodlash kurslarija qo'llanmalar. JavaScript, Python, veb-developmet va boshqalarni o'rganayin davomida haqiqiy loyihalar yarating va sertifikatlar oling."
+  },
+  "io.shubham0204.smollmandroid": {
+    "ru": "Запускайте большие языковые модели локально на устройстве Android с помощью SmolChat. Поддержка формата GGUF для локального вывода ИИ. Ассистент LLM, ориентированный на конфиденциальность, который работает полностью офлайн без облачных зависимостей.",
+    "en": "Run large language models locally on your Android device with SmolChat. GGUF format support for on-device AI inference. Privacy-focused LLM assistant that works completely offline without cloud dependencies.",
+    "tr": "SmolChat ile Android cihazınızda büyük dil modellerini yerel olarak çalıştırın. Cihazda yapılan AI çıkarımı için GGUF biçimi desteği. Bulut bağımlılıkları olmadan tamamen çevrimdışı çalışan gizlilik odaklı LLM asistanı.",
+    "uz": "SmolChat yordamida Android qurilmasida katta til modellarini lokal ishlab qo'ying. Qurilmada AI chiqarish uchun GGUF formati qo'llab-quvvatlashi. Bulut bog'liqliksiz doimiy oflayn ishlayotgan maxfiylik markazlashtirilgan LLM yordamchisi."
+  },
+  "org.rubenpgrady.dpcopycat": {
+    "ru": "Извлекайте и копируйте информацию пакета из системного dumpsys Android. Анализируйте разрешения приложений, компоненты и метаданные системы. Утилита для разработчиков, исследователей безопасности и системных администраторов.",
+    "en": "Extract and copy package information from Android system dumpsys. Analyze app permissions, components, and system metadata. Utility tool for developers, security researchers, and system administrators.",
+    "tr": "Android sistem dumpsys'ten paket bilgilerini çıkarın ve kopyalayın. Uygulama izinlerini, bileşenleri ve sistem meta verilerini analiz edin. Geliştiriciler, güvenlik araştırmacıları ve sistem yöneticileri için araç.",
+    "uz": "Android tizimi dumpsys'dan paket ma'lumotlarini chiqaring va nusxalashtiring. Ilovani ruxsatnomalarni, komponentlarni va tizim meta-ma'lumotlarni tahlil qiling. Ishlab chiqaruvchilar, xavfsizlik tadqiqotchilari va tizim administratorlari uchun vosita."
+  },
+  "com.foxdebug.acode": {
+    "ru": "Редактор кода для Android с подсветкой синтаксиса и поддержкой нескольких языков. Пишите, редактируйте и разрабатывайте программные проекты на мобильном устройстве. Мощный текстовый редактор с расширенными функциями для программистов в дороге.",
+    "en": "Code editor for Android with syntax highlighting and multi-language support. Write, edit, and develop software projects on your mobile device. Powerful text editor with advanced features for programmers on the go.",
+    "tr": "Söz dizimi vurgulaması ve çok dilli destek ile Android için kod editörü. Yazılım projelerini mobil cihazınızda yazın, düzenleyin ve geliştirin. Hareket halindeki programcılar için gelişmiş özellikli güçlü metin editörü.",
+    "uz": "Sintaksis belgilanishi va ko'p tilni qo'llab-quvvatlashi bilan Android uchun kod tahrirchisi. Programma loyihalarini mobil qurilmangizda yozing, tahrirlang va rivojlantiring. Harakat holatidagi programmistlar uchun ilg'or xususiyatlarga ega kuchli matn tahrirchisi."
+  },
+  "org.godotengine.editor.v4": {
+    "ru": "Разрабатывайте 2D и 3D игры на Android с помощью редактора Godot Engine. Полная среда разработки игр на мобильном устройстве. Создавайте кроссплатформенные игры и воплотите свои творческие идеи в жизнь с помощью профессиональных инструментов.",
+    "en": "Develop 2D and 3D games on Android with Godot Engine editor. Full game development environment on mobile. Create cross-platform games and bring your creative ideas to life with professional tools.",
+    "tr": "Godot Engine editörü ile Android'de 2D ve 3D oyunlar geliştirin. Mobil cihazda tam oyun geliştirme ortamı. Platformlar arası oyunlar oluşturun ve profesyonel araçlarla yaratıcı fikirlerinizi hayata geçirin.",
+    "uz": "Godot Engine tahrirchisi bilan Android'da 2D va 3D o'yinlarni rivojlantiring. Mobil qurilmada to'liq o'yin rivojlantirish muhiti. Platformalar orasidagi o'yinlar yarating va professional asboblardan foydalanib ijodiy g'oyalarningizni haqiqatga aylantirang."
+  },
+  "com.activitymanager": {
+    "ru": "Запустите любое действие и компонент Android-приложения напрямую. Исследуйте и протестируйте скрытые или альтернативные точки входа приложения. Инструмент отладки для разработчиков и опытных пользователей, управляющих компонентами приложения.",
+    "en": "Launch any Android app activity and component directly. Explore and test hidden or alternate app entry points. Debugging tool for developers and power users managing app components.",
+    "tr": "Herhangi bir Android uygulaması etkinliğini ve bileşenini doğrudan başlatın. Gizli veya alternatif uygulama giriş noktalarını keşfedin ve test edin. Uygulama bileşenlerini yönetmek için geliştiriciler ve ileri kullanıcılar için hata ayıklama aracı.",
+    "uz": "Ixtiyoriy Android ilovasi faoliyatini va komponentini to'g'ridan-to'g'ri ishga tushiring. Yashirin yoki muqobil ilovani kirish nuqtalarini o'rganing va test qiling. Ilovani komponentlarini boshqarish uchun ishlab chiqaruvchilar va tajribalı foydalanuvchilar uchun xato topish vositasi."
+  },
+  "exa.lnx.a": {
+    "ru": "Запустите дистрибутивы Linux на Android с помощью AnLinux. Окружение на основе Termux для запуска команд и программного обеспечения Linux. Идеально для разработчиков, системных администраторов и энтузиастов Linux, которые хотят оболочку Linux на мобильном устройстве.",
+    "en": "Run Linux distributions on Android with AnLinux. Termux-based environment for running Linux commands and software. Ideal for developers, system administrators, and Linux enthusiasts who want a Linux shell on mobile.",
+    "tr": "AnLinux ile Android'de Linux dağıtımlarını çalıştırın. Linux komutlarını ve yazılımını çalıştırmak için Termux tabanlı ortam. Linux kabuğunu mobil cihazda isteyengeliştiriciler, sistem yöneticileri ve Linux meraklıları için ideal.",
+    "uz": "AnLinux bilan Android'da Linux distributivlarini ishlab qo'ying. Linux buyruqlari va dasturiy ta'minotini ishlab qo'yish uchun Termux asosidagi muhit. Linux shell-ni mobil qurilmada xohlayotgan ishlab chiqaruvchilar, tizim administratorlari va Linux muxbirlar uchun ideal."
+  },
+  "de.markusfisch.android.shadereditor": {
+    "ru": "Создавайте и редактируйте шейдеры GLSL на Android. Используйте свой телефон как живые обои с пользовательскими эффектами шейдеров. Инструмент визуального программирования графики для художников и разработчиков, исследующих технологию шейдеров.",
+    "en": "Create and edit GLSL shaders on Android. Use your phone as a live wallpaper with custom shader effects. Visual graphics programming tool for artists and developers exploring shader technology.",
+    "tr": "Android'de GLSL gölgelendiricileri oluşturun ve düzenleyin. Telefonunuzu özel gölgelendirici efektleri ile dinamik duvar kağıdı olarak kullanın. Gölgelendirici teknolojisini keşfeden sanatçılar ve geliştiriciler için görsel grafik programlama aracı.",
+    "uz": "Android'da GLSL shejderlarini yarating va tahrirlang. Telefoningizni maxsus shejder effektlari bilan jonli devor qog'oziga saylantiring. Shejder texnologiyasini o'rganayotgan rassomlar va ishlab chiqaruvchilar uchun vizual grafika dasturlash vositasi."
+  },
+  "org.exbin.bined.editor.android": {
+    "ru": "Редактируйте двоичные и шестнадцатеричные файлы на Android с помощью BinEd. Анализируйте, изменяйте и проверяйте структуры файлов на уровне байтов. Необходимый инструмент для обратных инженеров, исследователей безопасности и продвинутой работы с файлами.",
+    "en": "Edit binary and hexadecimal files on Android with BinEd. Analyze, modify, and inspect file structures at the byte level. Essential tool for reverse engineers, security researchers, and advanced file manipulation.",
+    "tr": "BinEd ile Android'de ikili ve onaltılık dosyaları düzenleyin. Dosya yapılarını bayt düzeyinde analiz edin, değiştirin ve inceleyin. Ters mühendisler, güvenlik araştırmacıları ve gelişmiş dosya işlemesi için gerekli araç.",
+    "uz": "BinEd bilan Android'da ikkilik va o'n oltilik fayllarni tahrirlang. Fayl tuzilishlarini bayt darajasida tahlil qiling, o'zgartiring va ko'rib chiqing. Teskari muhandislar, xavfsizlik tadqiqotchilari va ilg'or fayl manipulyatsiyasi uchun zarur vosita."
+  },
+  "micro.repl.ma7moud3ly": {
+    "ru": "IDE MicroPython для разработки Android. Пишите и запускайте код Python прямо на устройстве. Окружение программирования встроенных систем и IoT для любителей и разработчиков.",
+    "en": "MicroPython IDE for Android development. Write and run Python code directly on your device. Embedded systems and IoT programming environment for hobbyists and developers.",
+    "tr": "Android geliştirme için MicroPython IDE. Python kodunu doğrudan cihazınızda yazın ve çalıştırın. Hobicileri ve geliştiriciler için gömülü sistemler ve IoT programlama ortamı.",
+    "uz": "Android rivojlantirish uchun MicroPython IDE. Python kodini bevosita qurilmasida yozing va ishlab qo'ying. Hobbichilar va ishlab chiqaruvchilar uchun o'rnatilgan tizimlar va IoT dasturlash muhiti."
   }
 }
