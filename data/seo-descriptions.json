@@ -334,5 +334,113 @@
     "en": "Extract individual frames from videos and create photo galleries. Save video frames as high-quality images. Useful video-to-image conversion tool for creating stills from videos.",
     "tr": "Videolardan ayrı çerçeveleri çıkarın ve fotoğraf galeriler oluşturun. Video karesini yüksek kaliteli görüntüler olarak kaydedin. Videolardan duruş oluşturmak için yararlı video-to-görüntü dönüşüm aracı.",
     "uz": "Video-lardan individual kadrlarni chiqarib chiqing va fotosuratlar galereyalarini yarating. Video kadrlarini yuqori sifatli rasmlar sifatida saqlang. Video-lardan turinishi yaratish uchun foydali video-rasm konversiya vositasi."
+  },
+  "ch.betzengineering.openvine": {
+    "ru": "Снимайте видео короткой формы мгновенно на устройстве Android. Создавайте контент социальных сетей с быстрой записью и редактированием. Простое видеоприложение для создания контента в стиле TikTok в дороге.",
+    "en": "Capture short-form videos instantly on your Android device. Create social media content with quick recording and editing. Simple video app for TikTok-style content creation on the go.",
+    "tr": "Android cihazınızda kısa form videoları anında yakalayın. Hızlı kayıt ve düzenlemesi ile sosyal medya içeriği oluşturun. TikTok tarzı içerik oluşturma için basit video uygulaması.",
+    "uz": "Android qurilmasida qisqa shakldagi videolarni darhol tushing oling. Tez yozish va tahrirlash bilan ijtimoiy media kontenti yarating. TikTok-style kontenti yaratish uchun basit video ilovasi."
+  },
+  "com.haseeb.recorder": {
+    "ru": "Профессиональный рекордер экрана с опциями микрофона и внутреннего аудио. Дизайн Material You для современной эстетики Android. Записывайте учебные материалы, демонстрации и геймплей с кристально чистым качеством.",
+    "en": "Professional screen recorder with microphone and internal audio options. Material You design for modern Android aesthetics. Record tutorials, demos, and gaming footage with crystal-clear quality.",
+    "tr": "Mikrofon ve dahili ses seçenekleri ile profesyonel ekran kaydedici. Modern Android estetikleri için Material You tasarımı. Öğreticiler, demolar ve oyun görüntülerini kristal berrak kalitede kaydedin.",
+    "uz": "Mikrofon va ichki ovoz variantlari bilan professional ekran yozuvchi. Zamonaviy Android estetikasi uchun Material You dizayni. Qo'llanmalar, demonstratsiyalar va o'yin foydalanish shakllarini kristall toza sifat bilan yozing."
+  },
+  "com.googol.android.apps.photos": {
+    "ru": "Лёгкое и быстрое приложение галереи фотографий для Android. Эффективно организуйте фотографии и видео с помощью умных функций. Создано с помощью Jetpack Compose для плавной производительности на любом устройстве.",
+    "en": "Lightweight and fast photo gallery app for Android. Organize photos and videos efficiently with smart features. Built with Jetpack Compose for smooth performance on any device.",
+    "tr": "Android için hafif ve hızlı fotoğraf galerisi uygulaması. Akıllı özellikler ile fotoğraf ve videoları verimli bir şekilde organize edin. Herhangi bir cihazda sorunsuz performans için Jetpack Compose ile oluşturuldu.",
+    "uz": "Android uchun yengil va tez fotosuratlar galereya ilovasi. Aqlli xususiyatlar bilan rasmlar va videolarni samarali tashkil qiling. Istalgan qurilmada silliq samaradorlik uchun Jetpack Compose bilan qurilgan."
+  },
+  "com.omardotdev.lumi": {
+    "ru": "Очаровательное приложение с кошачьей тематикой для любителей кошек и энтузиастов домашних животных. Милый интерфейс с интерактивными функциями и очаровательными кошачьими впечатлениями. Идеально для релаксации и развлечения.",
+    "en": "An adorable cat-themed mobile app for cat lovers and pet enthusiasts. Cute interface with interactive features and charming cat experiences. Perfect for relaxation and entertainment.",
+    "tr": "Kedi severler ve evcil hayvan meraklıları için sevimli kedi temalı mobil uygulama. Etkileşimli özellikler ve büyüleyici kedi deneyimleri ile sevimli arayüz. Rahatlama ve eğlence için mükemmel.",
+    "uz": "Mushukni sevuvchilar va uy hayvonlari muxbirlar uchun ajoyib mushuk mavzusidagi mobil ilovasi. Interaktiv xususiyatlari va zarfli mushuk tajribalar bilan sevimli interfeys. Relaksatsiya va o'yin-kulgili uchun ideal."
+  },
+  "biz.binarysolutions.imageconverter": {
+    "ru": "Преобразуйте изображения между несколькими форматами: BMP, GIF, JPG, PNG, TIF, WEBP. Пакетная обработка и оптимизация качества для эффективного управления изображениями. Необходимый инструмент для фотографов и дизайнеров.",
+    "en": "Convert images between multiple formats: BMP, GIF, JPG, PNG, TIF, WEBP. Batch processing and quality optimization for efficient image management. Essential tool for photographers and designers.",
+    "tr": "Resimleri birden fazla format arasında dönüştürün: BMP, GIF, JPG, PNG, TIF, WEBP. Verimli görüntü yönetimi için toplu işlem ve kalite optimizasyonu. Fotoğrafçılar ve tasarımcılar için gerekli araç.",
+    "uz": "Rasmlarni bir nechta format orasida aylantiring: BMP, GIF, JPG, PNG, TIF, WEBP. Samarali rasm boshqaruvi uchun toplu ishlovlash va sifat optimalashlash. Fotosuratchilar va dizaynerlar uchun zarur vosita."
+  },
+  "deckers.thibault.aves": {
+    "ru": "Приложение галереи и обозревателя метаданных, созданное с помощью Flutter. Просматривайте, организуйте и исследуйте фотографии с подробными метаданными. Мощный просмотрщик изображений для фотографов и цифровых архивариусов.",
+    "en": "Advanced image manipulation tool with extensive features. Crop, resize, apply filters, perform OCR, and more. Professional-grade image processing for photographers and designers.",
+    "tr": "Flutter ile oluşturulan galeri ve meta veri keşif uygulaması. Ayrıntılı meta veriler ile fotoğrafları göz atın, organize edin ve keşfedin. Fotoğrafçılar ve dijital arşivler için güçlü görüntü görüntüleyici.",
+    "uz": "Flutter bilan qurilgan galereya va meta-ma'lumot keşf ilovasi. Ayrıntilash meta-ma'lumotlar bilan rasmlarni ko'rish, tashkil qilish va o'rganing. Fotosuratchilar va raqamli arxivlar uchun kuchli rasm ko'rish."
+  },
+  "ru.tech.imageresizershrinker": {
+    "ru": "Продвинутый инструмент манипуляции изображениями с обширными функциями. Обрезайте, изменяйте размер, применяйте фильтры, выполняйте OCR и многое другое. Обработка изображений профессионального уровня для фотографов и дизайнеров.",
+    "en": "Advanced image manipulation tool with extensive features. Crop, resize, apply filters, perform OCR, and more. Professional-grade image processing for photographers and designers.",
+    "tr": "Kapsamlı özellikleri ile ileri görüntü işleme aracı. Kırp, yeniden boyutlandır, filtreler uygula, OCR gerçekleştir ve daha fazlası. Fotoğrafçılar ve tasarımcılar için profesyonel düzey görüntü işleme.",
+    "uz": "Keng xususiyatlari bilan ilg'or rasm manipulyatsiya vositasi. Kesib tashlash, o'lchamini o'zgartirish, filterlarni qo'llash, OCR bajarish va boshqalar. Fotosuratchilar va dizaynerlar uchun professional darajada rasm ishlovlash."
+  },
+  "com.dot.gallery": {
+    "ru": "Современное приложение галереи медиа, созданное с помощью Jetpack Compose. Просматривайте и организуйте фотографии и видео с интуитивным интерфейсом. Быстрая, отзывчивая галерея для управления вашей коллекцией медиа.",
+    "en": "Modern media gallery app built with Jetpack Compose. Browse and organize photos and videos with intuitive interface. Fast, responsive gallery for managing your media collection.",
+    "tr": "Jetpack Compose ile oluşturulan modern medya galerisi uygulaması. Sezgisel arayüz ile fotoğraf ve videoları göz atın ve organize edin. Medya koleksiyonunuzu yönetmek için hızlı, duyarlı galeri.",
+    "uz": "Jetpack Compose bilan qurilgan zamonaviy media galereya ilovasi. Sezgili interfeys bilan rasmlar va videolarni ko'rish va tashkil qiling. Sizning media to'plamingizni boshqarish uchun tez, sezgili galereya."
+  },
+  "com.perol.asdpl.play.pixivez": {
+    "ru": "Клиент Pixiv третьей стороны для Android с современным дизайном. Просматривайте и открывайте произведения искусства без требований прокси. Расширенные функции для изучения цифрового искусства сообщества Pixiv.",
+    "en": "Third-party Pixiv client for Android with modern design. Browse and discover artwork without proxy requirements. Enhanced features for exploring digital art from the Pixiv community.",
+    "tr": "Modern tasarım ile Android için Pixiv istemcisi. Proxy gereksinimleri olmadan sanat eserlerini göz atın ve keşfedin. Pixiv topluluğundan dijital sanatı keşfetmek için gelişmiş özellikler.",
+    "uz": "Zamonaviy dizayn bilan Android uchun Pixiv mijozsi. Prokurator talablari siz san'at asarlarini ko'rish va kashf qiling. Pixiv jamiyatining raqamli san'atini o'rgash uchun rivojlangan xususiyatlar."
+  },
+  "site.leos.apps.lespas": {
+    "ru": "Приложение фотоальбома для пользователей Nextcloud. Организуйте и управляйте фотографиями, хранящимися в Nextcloud. Бесшовная интеграция с Nextcloud для приватного хранения и обмена фотографиями.",
+    "en": "Photo album app for Nextcloud users. Organize and manage your photos stored in Nextcloud. Seamless integration with Nextcloud for private photo storage and sharing.",
+    "tr": "Nextcloud kullanıcıları için fotoğraf albümü uygulaması. Nextcloud'da depolanan fotoğraflarınızı organize edin ve yönetin. Özel fotoğraf depolama ve paylaşım için Nextcloud ile kesintisiz entegrasyon.",
+    "uz": "Nextcloud foydalanuvchilari uchun fotosuratlar albomi ilovasi. Nextcloud'da saqlangan rasmlarni tashkil qiling va boshqaring. Shaxsiy fotosuratlar saqlash va baham oling uchun Nextcloud bilan uzluksiz integratsiya."
+  },
+  "io.github.subhamtyagi.ocr": {
+    "ru": "Приложение OCR на основе Tesseract для извлечения текста из изображений. Преобразуйте фотографии в редактируемый текст с помощью оптического распознавания символов. Необходимый инструмент для студентов, профессионалов и цифровизации документов.",
+    "en": "Tesseract-based OCR app for extracting text from images. Convert photos to editable text with optical character recognition. Essential tool for students, professionals, and document digitization.",
+    "tr": "Resimlerden metin çıkarmak için Tesseract tabanlı OCR uygulaması. Optik karakter tanıma ile fotoğrafları düzenlenebilir metne dönüştürün. Öğrenciler, profesyoneller ve belge dijitalleştirme için gerekli araç.",
+    "uz": "Rasmlardan matnni chiqarish uchun Tesseract asosidagi OCR ilovasi. Optik belgilarni tanish orqali fotosuratlarni tahrirlash mumkin bo'lgan matniga aylantiring. Talabalar, mutaxassislar va hujjat raqamlantirish uchun zarur vosita."
+  },
+  "fr.oupson.jxlviewer": {
+    "ru": "Просмотрщик изображений JPEG XL и библиотека для Android. Просматривайте файлы современных форматов изображений с высокой сжатием и качеством. Исследуйте технологию изображений нового поколения для фотографов и технических энтузиастов.",
+    "en": "JPEG XL image viewer and library for Android. View modern image format files with high compression and quality. Explore next-generation image technology for photographers and tech enthusiasts.",
+    "tr": "Android için JPEG XL görüntü görüntüleyici ve kitaplığı. Yüksek sıkıştırma ve kalite ile modern görüntü biçimi dosyalarını görün. Fotoğrafçılar ve teknoloji meraklıları için yeni nesil görüntü teknolojisini keşfedin.",
+    "uz": "Android uchun JPEG XL rasm ko'rish va kutubhonasi. Yuqori siqish va sifat bilan zamonaviy rasm formati fayllarini ko'ring. Fotosuratchilar va texnika muxbirlar uchun yangi avlod rasm texnologiyasini o'rganing."
+  },
+  "com.shinydiscoballsdev.kifossk": {
+    "ru": "Лёгкий браузер FOSS для отображения панелей инструментов и веб-контента. Идеально для создания устройств только для отображения и информационных терминалов. Минимальное потребление ресурсов для приложений отображения 24/7.",
+    "en": "Lightweight FOSS kiosk browser for displaying dashboards and web content. Perfect for creating display-only devices and information terminals. Minimal resource consumption for 24/7 display applications.",
+    "tr": "Kontrol panelleri ve web içeriğini görüntülemek için hafif FOSS kiosk tarayıcı. Yalnızca görüntüleme cihazları ve bilgi terminallerini oluşturmak için mükemmel. 24/7 görüntü uygulamaları için minimal kaynak tüketimi.",
+    "uz": "Boshqaruv panellari va veb kontentini ko'rsatish uchun yengil FOSS kiosk brauzeri. Faqat ko'rsatish qurilmalari va ma'lumot terminallari yaratish uchun ideal. 24/7 ko'rsatish ilovalari uchun minimal resurs iste'mol."
+  },
+  "ink.hifuu.rusend_next": {
+    "ru": "Вдохновленный Gmail клиент электронной почты Flutter для службы Resend.com. Отправляйте и управляйте электронной почтой с помощью красивого, современного интерфейса. Оптимизированный опыт электронной почты с использованием платформы электронной почты Resend.",
+    "en": "Gmail-inspired Flutter email client for Resend.com service. Send and manage emails with a beautiful, modern interface. Streamlined email experience using the Resend email platform.",
+    "tr": "Gmail'den ilham alan Resend.com hizmeti için Flutter e-posta istemcisi. Güzel, modern arayüz ile e-posta gönderin ve yönetin. Resend e-posta platformunu kullanan akılcı e-posta deneyimi.",
+    "uz": "Resend.com xizmati uchun Gmail-dan ilhomlanmagan Flutter e-pochta klijenti. Go'zal, zamonaviy interfeys bilan e-pochtani yuboring va boshqaring. Resend elektron pochta platformasidan foydalanib optimalashtirilgan e-pochta tajribasi."
+  },
+  "dev.astoris.ursa": {
+    "ru": "Собственный клиент Uptime Kuma для мониторинга и оповещений Android. Мониторинг сервера в режиме реального времени с поддержкой нескольких серверов. FOSS мониторинг с уведомлениями UnifiedPush и без зависимости Firebase.",
+    "en": "Native Uptime Kuma client for Android monitoring and alerts. Real-time server monitoring with multi-server support. FOSS monitoring with UnifiedPush notifications and no Firebase dependency.",
+    "tr": "Android izleme ve uyarıları için yerel Uptime Kuma istemcisi. Çok sunucu desteği ile gerçek zamanlı sunucu izlemesi. UnifiedPush bildirimleri ve Firebase bağımlılığı olmadan FOSS izlemesi.",
+    "uz": "Android kuzatish va ogohlantirish uchun mahalliy Uptime Kuma klijenti. Ko'p server qo'llab-quvvatlashi bilan real-time server kuzatishi. UnifiedPush bildirishnomalar va Firebase bog'liqligisiz FOSS kuzatish."
+  },
+  "com.ericlowry.dnstoggle": {
+    "ru": "Быстро переключайте параметры Private DNS на панели быстрых параметров Android. Простая утилита для простого управления конфигурацией DNS. Необходимо для управления параметрами конфиденциальности DNS без глубоких меню системы.",
+    "en": "Quickly toggle Private DNS settings from Android Quick Settings panel. Simple utility for easy DNS configuration management. Essential for controlling privacy DNS settings without deep system menus.",
+    "tr": "Android Hızlı Ayarlar panelinden Özel DNS ayarlarını hızlı bir şekilde değiştirin. Kolay DNS yapılandırması yönetimi için basit yardımcı program. Derin sistem menüleri olmadan gizlilik DNS ayarlarını kontrol etmek için gerekli.",
+    "uz": "Android Tez Sozlamalar panelidan Shaxsiy DNS sozlamalarini tez almashtirish. Oson DNS konfiguratsiya boshqaruvi uchun basit vosita. Chuqur tizim menylari siz maxfiylik DNS sozlamalarini boshqarish uchun zarur."
+  },
+  "org.opendataensemble.formulus": {
+    "ru": "Платформа с открытым исходным кодом для сбора данных на мобильных устройствах в режиме офлайн. Создавайте опросы на местах и приложения сбора данных для исследователей и рабочих. Надежная синхронизация данных и управление даже с ограниченным подключением.",
+    "en": "Open-source platform for offline-first mobile data collection. Build field surveys and data collection apps for researchers and workers. Reliable data sync and management even with limited connectivity.",
+    "tr": "Çevrimdışı-ilk mobil veri toplama için açık kaynak platform. Araştırmacılar ve çalışanlar için alan anketleri ve veri toplama uygulamaları oluşturun. Sınırlı bağlantı ile bile güvenilir veri sinkronizasyonu ve yönetimi.",
+    "uz": "Oflayn-birinchi mobil ma'lumot to'plash uchun ochiq manbai platforma. Tadqiqotchilar va ishchilar uchun dalamlarda so'rovnomalar va ma'lumot to'plash ilovalari yarating. Cheklangan ulanish bilan ham xavfsiz ma'lumot sinkronizatsiyasi va boshqaruvi."
+  },
+  "com.meow.lnctattendance": {
+    "ru": "Приложение отслеживания посещаемости и предсказания для студентов. Мониторьте посещаемость класса и предсказывайте академическую успеваемость. Необходимый инструмент для успеха студентов и отслеживания управления классом.",
+    "en": "Attendance tracker and prediction app for students. Monitor class attendance and predict academic performance. Essential tool for student success and class management tracking.",
+    "tr": "Öğrenciler için katılım takibi ve tahmin uygulaması. Sınıf katılımını izleyin ve akademik performansı tahmin edin. Öğrenci başarısı ve sınıf yönetimi takibi için gerekli araç.",
+    "uz": "Talabalar uchun qatnashish kuzatish va bashorat ilovasi. Sinf qatnashishini kuzating va akademik samaradorlikni bashorat qiling. Talaba muvaffaqiyati va sinf boshqaruvi kuzatish uchun zarur vosita."
   }
 }
