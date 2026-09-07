@@ -1,0 +1,74 @@
+{
+  "dev.inkcast.aos": {
+    "ru": "Inkcast — открытое приложение-компаньон для ридера CrossPoint Reader, написанное на Kotlin Multiplatform. Помогает управлять устройством и синхронизировать материалы для чтения прямо со смартфона.\n\nПроект с открытым исходным кодом: его можно свободно изучать, собирать и дорабатывать.",
+    "en": "Inkcast is an open-source companion app for the CrossPoint Reader, built with Kotlin Multiplatform. It lets you manage the device and sync your reading material straight from your phone.\n\nThe full source code is open, so you can inspect, build and extend it freely.",
+    "tr": "Inkcast, CrossPoint Reader için Kotlin Multiplatform ile geliştirilmiş açık kaynaklı bir yardımcı uygulamadır. Cihazı yönetmenizi ve okuma içeriğinizi doğrudan telefonunuzdan senkronize etmenizi sağlar.\n\nKaynak kodu tamamen açıktır; inceleyebilir, derleyebilir ve geliştirebilirsiniz.",
+    "uz": "Inkcast — CrossPoint Reader uchun Kotlin Multiplatform’da yozilgan ochiq kodli hamroh ilova. U qurilmani boshqarish va o‘qish materiallarini to‘g‘ridan-to‘g‘ri telefondan sinxronlash imkonini beradi.\n\nManba kodi to‘liq ochiq: uni erkin o‘rganish, yig‘ish va kengaytirish mumkin."
+  },
+  "com.remotephone": {
+    "ru": "RemotePhone позволяет отображать экран Android-телефона и управлять им с рабочего стола Linux по Wi-Fi — без кабеля и без включённой отладки по USB. Удобно, когда нужно управлять телефоном, не выпуская из рук клавиатуру и мышь.\n\nПриложение с открытым исходным кодом, работает по локальной сети.",
+    "en": "RemotePhone mirrors your Android screen and lets you control the phone from a Linux desktop over Wi-Fi — no cable and no USB debugging required. Handy when you want to drive your phone without leaving your keyboard and mouse.\n\nIt is open-source and works over your local network.",
+    "tr": "RemotePhone, Android ekranınızı yansıtır ve telefonu Wi-Fi üzerinden bir Linux masaüstünden kontrol etmenizi sağlar — kablo ya da USB hata ayıklama gerekmez. Klavye ve farenizden ayrılmadan telefonu kullanmak için pratiktir.\n\nUygulama açık kaynaklıdır ve yerel ağınız üzerinden çalışır.",
+    "uz": "RemotePhone Android ekranini aks ettiradi va telefonni Wi-Fi orqali Linux ish stolidan boshqarish imkonini beradi — kabel ham, USB orqali disk raskadrovka ham kerak emas. Klaviatura va sichqonchani tark etmasdan telefonni boshqarish uchun qulay.\n\nIlova ochiq kodli va mahalliy tarmoq orqali ishlaydi."
+  },
+  "com.anywherelan.awl": {
+    "ru": "Anywherelan объединяет ваши устройства в единую защищённую частную сеть — mesh-VPN с шифрованием, а также встроенный SOCKS5-прокси (сервер и клиент). Устройства видят друг друга напрямую, где бы они ни находились.\n\nОткрытый исходный код, никакой центральной инфраструктуры и слежки.",
+    "en": "Anywherelan links your devices into a single secure private network — an encrypted mesh VPN with a built-in SOCKS5 proxy (server and client). Your devices reach each other directly, wherever they are.\n\nOpen-source, with no central infrastructure and no tracking.",
+    "tr": "Anywherelan, cihazlarınızı tek bir güvenli özel ağda birleştirir — şifreli bir mesh VPN ve yerleşik SOCKS5 proxy (sunucu ve istemci). Cihazlarınız nerede olursa olsun birbirine doğrudan ulaşır.\n\nAçık kaynaklıdır; merkezi altyapı ve takip yoktur.",
+    "uz": "Anywherelan qurilmalaringizni yagona xavfsiz shaxsiy tarmoqqa birlashtiradi — shifrlangan mesh-VPN va o‘rnatilgan SOCKS5 proksi (server va mijoz). Qurilmalar qayerda bo‘lishidan qat’i nazar bir-biriga to‘g‘ridan-to‘g‘ri ulanadi.\n\nOchiq kodli, markaziy infratuzilma va kuzatuvsiz."
+  },
+  "com.evanh.qlc_controller": {
+    "ru": "Controller for QLC+ — приложение для управления базовыми функциями системы сценического освещения QLC+ прямо с Android-устройства. Пригодится, чтобы дистанционно запускать сцены и эффекты во время выступления.\n\nПроект с открытым исходным кодом.",
+    "en": "Controller for QLC+ lets you control the basic functions of the QLC+ stage-lighting software straight from your Android device. Useful for triggering scenes and effects remotely during a show.\n\nThe project is open-source.",
+    "tr": "Controller for QLC+, QLC+ sahne aydınlatma yazılımının temel işlevlerini doğrudan Android cihazınızdan kontrol etmenizi sağlar. Gösteri sırasında sahneleri ve efektleri uzaktan tetiklemek için kullanışlıdır.\n\nProje açık kaynaklıdır.",
+    "uz": "Controller for QLC+ — QLC+ sahna yoritish dasturining asosiy funksiyalarini to‘g‘ridan-to‘g‘ri Android qurilmangizdan boshqarish imkonini beruvchi ilova. Chiqish paytida sahnalar va effektlarni masofadan ishga tushirish uchun qulay.\n\nLoyiha ochiq kodli."
+  },
+  "com.jingcjie.wifi_direct_cable": {
+    "ru": "WD Cable передаёт файлы, сообщения и данные между устройствами напрямую по Wi-Fi Direct — без интернета, роутеров и облаков. Соединение «точка-точка» получается быстрее и стабильнее привычных способов.\n\nОткрытый исходный код, всё остаётся только между вашими устройствами.",
+    "en": "WD Cable transfers files, messages and data between devices directly over Wi-Fi Direct — no internet, no routers, no cloud. The peer-to-peer link is faster and more stable than the usual methods.\n\nOpen-source, and everything stays strictly between your devices.",
+    "tr": "WD Cable; dosyaları, mesajları ve verileri cihazlar arasında doğrudan Wi-Fi Direct üzerinden aktarır — internet, yönlendirici veya bulut gerekmez. Uçtan uca bağlantı, alışılmış yöntemlerden daha hızlı ve kararlıdır.\n\nAçık kaynaklıdır ve her şey yalnızca cihazlarınız arasında kalır.",
+    "uz": "WD Cable fayllar, xabarlar va ma’lumotlarni qurilmalar o‘rtasida to‘g‘ridan-to‘g‘ri Wi-Fi Direct orqali uzatadi — internet, router yoki bulut kerak emas. Nuqtadan-nuqtaga ulanish odatiy usullardan tezroq va barqarorroq.\n\nOchiq kodli, hamma narsa faqat qurilmalaringiz o‘rtasida qoladi."
+  },
+  "io.perfice.app": {
+    "ru": "Perfice — приложение для самоотслеживания: помогает вести дневник привычек, показателей и повседневных данных, чтобы замечать закономерности и следить за прогрессом. Интерфейс построен на Svelte 5.\n\nПроект с открытым исходным кодом, ваши данные остаются у вас.",
+    "en": "Perfice is a self-tracking app: log your habits, metrics and everyday data to spot patterns and follow your progress over time. The interface is built with Svelte 5.\n\nIt is open-source, and your data stays with you.",
+    "tr": "Perfice bir öz-takip uygulamasıdır: alışkanlıklarınızı, ölçümlerinizi ve günlük verilerinizi kaydederek örüntüleri fark eder ve ilerlemenizi zaman içinde takip edersiniz. Arayüz Svelte 5 ile geliştirilmiştir.\n\nAçık kaynaklıdır ve verileriniz sizde kalır.",
+    "uz": "Perfice — o‘z-o‘zini kuzatish ilovasi: odatlar, ko‘rsatkichlar va kundalik ma’lumotlarni yozib borib, qonuniyatlarni payqash va vaqt o‘tishi bilan taraqqiyotni kuzatish mumkin. Interfeys Svelte 5’da qurilgan.\n\nOchiq kodli, ma’lumotlaringiz o‘zingizda qoladi."
+  },
+  "io.github.smailzhu.ibeacontasker": {
+    "ru": "iBeacon Tasker Plugin — плагин для Tasker, который сканирует сигналы iBeacon и позволяет запускать по ним автоматизации. Например, включать сценарий, когда телефон оказывается рядом с определённой меткой.\n\nПроект с открытым исходным кодом; требует установленного Tasker.",
+    "en": "iBeacon Tasker Plugin scans for iBeacon advertisements and lets Tasker trigger automations from them — for example, running a task when your phone comes near a specific beacon.\n\nOpen-source; requires the Tasker app.",
+    "tr": "iBeacon Tasker Plugin, iBeacon yayınlarını tarar ve Tasker'ın bunlara göre otomasyon tetiklemesini sağlar — örneğin, telefonunuz belirli bir işaretçiye yaklaştığında bir görev çalıştırmak gibi.\n\nAçık kaynaklıdır; Tasker uygulamasını gerektirir.",
+    "uz": "iBeacon Tasker Plugin iBeacon signallarini skanerlaydi va Tasker’ga ular asosida avtomatlashtirishlarni ishga tushirish imkonini beradi — masalan, telefon ma’lum bir belgiga yaqinlashganda vazifani bajarish.\n\nOchiq kodli; Tasker ilovasi talab qilinadi."
+  },
+  "com.zappbrannigan34.runnnpebridge": {
+    "ru": "ruNNNpe bridge автоматически передаёт данные с беговой дорожки NPE RUNN в Google Health Connect и синхронизирует тренировки в фоне. Ваши забеги попадают в общую историю здоровья без ручного ввода.\n\nПроект с открытым исходным кодом.",
+    "en": "ruNNNpe bridge automatically forwards telemetry from an NPE RUNN treadmill to Google Health Connect and syncs your workouts in the background. Your runs land in your health history with no manual entry.\n\nThe project is open-source.",
+    "tr": "ruNNNpe bridge, NPE RUNN koşu bandından gelen telemetriyi otomatik olarak Google Health Connect'e aktarır ve antrenmanlarınızı arka planda senkronize eder. Koşularınız elle giriş yapmadan sağlık geçmişinize işlenir.\n\nProje açık kaynaklıdır.",
+    "uz": "ruNNNpe bridge NPE RUNN yugurish yo‘lakchasidan kelayotgan telemetriyani avtomatik ravishda Google Health Connect’ga uzatadi va mashg‘ulotlarni fonda sinxronlaydi. Yugurishlaringiz qo‘lda kiritmasdan sog‘liq tarixiga tushadi.\n\nLoyiha ochiq kodli."
+  },
+  "com.nfcarchiver.nfc_archiver": {
+    "ru": "NFC Archiver хранит данные распределённо — прямо на NFC-метках, разбивая архив на несколько тегов. Приложение на Flutter работает на Android и iOS.\n\nПроект с открытым исходным кодом, для необычного офлайн-хранения данных.",
+    "en": "NFC Archiver stores data in a distributed way — directly on NFC tags, splitting an archive across several tags. The Flutter app runs on both Android and iOS.\n\nOpen-source, for an unusual take on offline data storage.",
+    "tr": "NFC Archiver, verileri dağıtık biçimde saklar — doğrudan NFC etiketleri üzerinde, bir arşivi birkaç etikete bölerek. Flutter uygulaması hem Android hem de iOS'ta çalışır.\n\nÇevrimdışı veri saklamaya alışılmadık bir yaklaşım sunan açık kaynaklı bir uygulamadır.",
+    "uz": "NFC Archiver ma’lumotlarni taqsimlangan holda — bevosita NFC teglarida saqlaydi, arxivni bir nechta tegga bo‘lib. Flutter ilovasi Android va iOS’da ishlaydi.\n\nOflayn ma’lumot saqlashga o‘ziga xos yondashuv taklif etuvchi ochiq kodli ilova."
+  },
+  "org.localsend.localsend_app": {
+    "ru": "LocalSend — открытая кроссплатформенная альтернатива AirDrop: отправляйте файлы и сообщения между устройствами по локальной сети, без интернета и без аккаунтов. Работает между Android, iOS, Windows, macOS и Linux.\n\nПередача идёт напрямую и шифруется — данные не уходят в облако.",
+    "en": "LocalSend is an open-source, cross-platform alternative to AirDrop: send files and messages between devices over your local network, with no internet and no accounts. It works across Android, iOS, Windows, macOS and Linux.\n\nTransfers are direct and encrypted — nothing goes to the cloud.",
+    "tr": "LocalSend, AirDrop'a açık kaynaklı ve çok platformlu bir alternatiftir: dosyaları ve mesajları yerel ağınız üzerinden, internet ve hesap olmadan cihazlar arasında gönderin. Android, iOS, Windows, macOS ve Linux arasında çalışır.\n\nAktarımlar doğrudan ve şifrelidir — hiçbir şey buluta gitmez.",
+    "uz": "LocalSend — AirDrop’ga ochiq kodli, ko‘p platformali muqobil: fayllar va xabarlarni mahalliy tarmoq orqali, internetsiz va hisobsiz qurilmalar o‘rtasida yuboring. Android, iOS, Windows, macOS va Linux o‘rtasida ishlaydi.\n\nUzatishlar to‘g‘ridan-to‘g‘ri va shifrlangan — hech narsa bulutga ketmaydi."
+  },
+  "net.thunderbird.android": {
+    "ru": "Thunderbird для Android — бесплатное почтовое приложение с открытым исходным кодом от команды Thunderbird (ранее известное как K-9 Mail). Поддерживает несколько аккаунтов, папки, поиск и работу с любыми IMAP/POP3-провайдерами.\n\nНикакой рекламы и слежки — почта под вашим контролем.",
+    "en": "Thunderbird for Android is a free, open-source email app from the Thunderbird team (formerly K-9 Mail). It supports multiple accounts, folders, search and any IMAP/POP3 provider.\n\nNo ads and no tracking — your inbox stays under your control.",
+    "tr": "Thunderbird for Android, Thunderbird ekibinden gelen ücretsiz ve açık kaynaklı bir e-posta uygulamasıdır (eskiden K-9 Mail). Birden fazla hesabı, klasörleri, aramayı ve her türlü IMAP/POP3 sağlayıcısını destekler.\n\nReklam ve takip yok — gelen kutunuz sizin kontrolünüzde kalır.",
+    "uz": "Thunderbird for Android — Thunderbird jamoasidan bepul, ochiq kodli e-pochta ilovasi (avval K-9 Mail deb nomlangan). Bir nechta hisob, papkalar, qidiruv va istalgan IMAP/POP3 provayderini qo‘llab-quvvatlaydi.\n\nReklama va kuzatuvsiz — pochtangiz sizning nazoratingizda qoladi."
+  },
+  "com.celzero.bravedns": {
+    "ru": "Rethink: DNS + Firewall — открытый инструмент приватности «всё в одном»: DNS-клиент (DNS-over-HTTPS, DNS-over-Tor, DNSCrypt), файрвол для контроля доступа приложений в сеть, прокси WireGuard и трекер соединений. Помогает блокировать слежку и видеть, куда обращаются ваши приложения.\n\nБез root, с открытым исходным кодом.",
+    "en": "Rethink: DNS + Firewall is an all-in-one open-source privacy tool: a DNS client (DNS-over-HTTPS, DNS-over-Tor, DNSCrypt), a firewall to control which apps reach the network, a WireGuard proxifier and a connection tracker. It helps block tracking and see exactly where your apps connect.\n\nNo root required, fully open-source.",
+    "tr": "Rethink: DNS + Firewall, hepsi bir arada açık kaynaklı bir gizlilik aracıdır: bir DNS istemcisi (DNS-over-HTTPS, DNS-over-Tor, DNSCrypt), hangi uygulamaların ağa erişeceğini denetleyen bir güvenlik duvarı, bir WireGuard proxy'si ve bir bağlantı izleyici. Takibi engellemeye ve uygulamalarınızın nereye bağlandığını görmeye yardımcı olur.\n\nRoot gerektirmez, tamamen açık kaynaklıdır.",
+    "uz": "Rethink: DNS + Firewall — hammasi birida ochiq kodli maxfiylik vositasi: DNS mijoz (DNS-over-HTTPS, DNS-over-Tor, DNSCrypt), qaysi ilovalar tarmoqqa kirishini nazorat qiluvchi fayervol, WireGuard proksisi va ulanishlar kuzatuvchisi. U kuzatuvni bloklash va ilovalaringiz qayerga ulanishini ko‘rishga yordam beradi.\n\nRoot talab qilinmaydi, to‘liq ochiq kodli."
+  }
+}
