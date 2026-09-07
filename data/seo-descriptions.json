@@ -442,5 +442,77 @@
     "en": "Attendance tracker and prediction app for students. Monitor class attendance and predict academic performance. Essential tool for student success and class management tracking.",
     "tr": "Öğrenciler için katılım takibi ve tahmin uygulaması. Sınıf katılımını izleyin ve akademik performansı tahmin edin. Öğrenci başarısı ve sınıf yönetimi takibi için gerekli araç.",
     "uz": "Talabalar uchun qatnashish kuzatish va bashorat ilovasi. Sinf qatnashishini kuzating va akademik samaradorlikni bashorat qiling. Talaba muvaffaqiyati va sinf boshqaruvi kuzatish uchun zarur vosita."
+  },
+  "com.asksakis.freegate": {
+    "ru": "Клиент Android для системы видеонаблюдения Frigate NVR. Просматривайте камеры безопасности, уведомления и живые потоки. Автоматическое переключение LAN/WAN с push-оповещениями и без облачной зависимости.",
+    "en": "Android client for Frigate NVR surveillance system. View security cameras, notifications, and live streams. Automatic LAN/WAN switching with push alerts and no cloud dependency.",
+    "tr": "Frigate NVR gözetim sistemi için Android istemcisi. Güvenlik kameralarını, bildirimleri ve canlı akışları görüntüleyin. Push uyarıları ile otomatik LAN/WAN anahtarı ve bulut bağımlılığı yok.",
+    "uz": "Frigate NVR kuzatish tizimi uchun Android klijenti. Xavfsizlik kameralarini, bildirishnomalarni va jonli oqimlarni ko'ring. Push ogohlantirish bilan avtomatik LAN/WAN o'tishi va bulut bog'liqligisiz."
+  },
+  "com.kasumic.vpndetector": {
+    "ru": "Продвинутая утилита обнаружения VPN, прокси и туннелей для Android. Анализируйте сетевые интерфейсы, параметры MTU и системные API. Необходимый инструмент безопасности для проверки конфиденциальности подключения и туннелирования.",
+    "en": "Advanced VPN, proxy, and tunnel detection utility for Android. Analyze network interfaces, MTU settings, and system APIs. Essential security tool for verifying connection privacy and tunneling.",
+    "tr": "Android için ileri VPN, proxy ve tünel algılama yardımcı programı. Ağ arabirimlerini, MTU ayarlarını ve sistem API'lerini analiz edin. Bağlantı gizliliği ve tünellemeyi doğrulamak için gerekli güvenlik aracı.",
+    "uz": "Android uchun ilg'or VPN, prokurator va tunel aniqlash vositasi. Tarmoq interfeyslarini, MTU sozlamalarini va tizim API'larni tahlil qiling. Ulanish maxfiyligini va tunnellashtirishni tekshirish uchun zarur xavfsizlik vositasi."
+  },
+  "com.umut.irischat": {
+    "ru": "Современный клиент IRC с акцентом на конфиденциальность для Android. Безопасно подключайтесь к сетям IRC и серверам чата. Лёгкий клиент обмена сообщениями для сообществ и форумов с открытым исходным кодом.",
+    "en": "Modern IRC client with privacy focus for Android. Connect to IRC networks and chat servers securely. Lightweight messaging client for open-source communities and forums.",
+    "tr": "Android için gizlilik odaklı modern IRC istemcisi. IRC ağlarına ve sohbet sunucularına güvenli bir şekilde bağlanın. Açık kaynak toplulukları ve forumları için hafif mesajlaşma istemcisi.",
+    "uz": "Android uchun maxfiylik markazlashtirilgan zamonaviy IRC klijenti. IRC tarmoqlariga va chat serverlarina xavfsiz ulanish. Ochiq manbai jamiiyatlari va forumlar uchun yengil xabarlar klijenti."
+  },
+  "ir.ammari.nodelook": {
+    "ru": "Приложение NodeLook Android для мониторинга узлов и исследования сети. Отслеживайте сетевые узлы и системные ресурсы. Утилита для разработчиков и сетевых администраторов.",
+    "en": "NodeLook Android app for node monitoring and network exploration. Track network nodes and system resources. Utility for developers and network administrators.",
+    "tr": "Node izlemesi ve ağ keşfi için NodeLook Android uygulaması. Ağ düğümlerini ve sistem kaynaklarını takip edin. Geliştiriciler ve ağ yöneticileri için yardımcı program.",
+    "uz": "Node kuzatish va tarmoq keşf uchun NodeLook Android ilovasi. Tarmoq tugunlarini va tizim resurslarini kuzating. Ishlab chiqaruvchilar va tarmoq administratorlari uchun vosita."
+  },
+  "de.volksverpetzer.app": {
+    "ru": "Читайте статьи проверки фактов и анализ от Volksverpetzer. Будьте в курсе с помощью расследовательской журналистики на мобильном. Приложение проверки новостей и опровержения дезинформации.",
+    "en": "Read fact-checking articles and analysis from Volksverpetzer. Stay informed with investigative journalism on your mobile. News verification and misinformation fact-checking app.",
+    "tr": "Volksverpetzer'den gerçek kontrol makalelerini ve analiz okuyun. Mobil cihazda araştırma gazeteciliği ile haberdar kalın. Haber doğrulama ve yanlış bilgi kontrol uygulaması.",
+    "uz": "Volksverpetzer'dan haqiqat tekshirish maqolalarini va tahlil o'qing. Mobil cihazda tadqiqot jurnalizmasi bilan xabardor bo'lin. Xabar tekshirish va noto'g'ri ma'lumot kontrol ilovasi."
+  },
+  "com.concealnetwork.concealmobile": {
+    "ru": "Conceal Mobile - приложение Android с акцентом на конфиденциальность и безопасность. Защитите цифровые коммуникации и данные. Инструменты шифрования и конфиденциальности для безопасного мобильного опыта.",
+    "en": "Conceal Mobile - privacy and security focused Android application. Protect your digital communications and data. Encryption and privacy tools for secure mobile experience.",
+    "tr": "Conceal Mobile - gizlilik ve güvenlik odaklı Android uygulaması. Dijital iletişiminizi ve verilerinizi koruyun. Güvenli mobil deneyim için şifreleme ve gizlilik araçları.",
+    "uz": "Conceal Mobile - maxfiylik va xavfsizlik markazlashtirilgan Android ilovasi. Sizning raqamli aloqalaringizni va ma'lumotlaringizni himoya qiling. Xavfsiz mobil tajriba uchun shifrlash va maxfiylik asboblar."
+  },
+  "io.github.sak.read.it.later": {
+    "ru": "Приложение Read Later для сохранения и организации статей для чтения позже. Создано с помощью Tauri для лёгкой производительности. Чтение в режиме офлайн и управление статьями для занятых читателей.",
+    "en": "Read Later app for saving and organizing articles to read later. Built with Tauri for lightweight performance. Offline reading and article management for busy readers.",
+    "tr": "Daha sonra okuması için makaleleri kaydetmek ve düzenlemek için Daha Sonra Oku uygulaması. Hafif performans için Tauri ile oluşturuldu. Meşgul okuyucular için çevrimdışı okuma ve makale yönetimi.",
+    "uz": "Keyinroq o'qish uchun maqolalarni saqlash va tashkil qilish uchun Keyinroq O'qish ilovasi. Yengil samaradorlik uchun Tauri bilan qurilgan. Mashg'ul o'quvchilar uchun oflayn o'qish va makola boshqaruvi."
+  },
+  "com.nizarmah.igatha": {
+    "ru": "Приложение для отправки SOS и сигналов чрезвычайной ситуации в случаях бедствий и конфликтов. Отправляйте сигналы бедствия без подключения к интернету. Система экстренного оповещения, подобная цифровой ракете для кризисных ситуаций.",
+    "en": "Offline SOS and emergency signaling app for disasters and conflicts. Send distress signals without internet connectivity. Emergency alert system like a digital flare gun for crisis situations.",
+    "tr": "Felaketler ve çatışmalar için çevrimdışı SOS ve acil sinyal uygulaması. İnternet bağlantısı olmadan sıkıntı sinyalleri gönderin. Kriz durumları için dijital flaş gibi acil uyarı sistemi.",
+    "uz": "Bala-apati va to'qnashuvlar uchun oflayn SOS va favqulodda signal ilovasi. Internetga ulanmasdan bala signallarini yuboring. Bosqichma-bosqich vaziyatlar uchun raqamli flaer-shlarni o'xshash favqulodda ogohlantirish tizimi."
+  },
+  "me.sanao1006.mint.release": {
+    "ru": "Лёгкий клиент Misskey Android для подключения к экземплярам Misskey. Просматривайте децентрализованную социальную сеть с быстрым, отзывчивым интерфейсом. Клиент социальной сети с открытым исходным кодом.",
+    "en": "Lightweight Misskey Android client for connecting to Misskey instances. Browse the decentralized social network with fast, responsive interface. Open-source social networking client.",
+    "tr": "Misskey örneklerine bağlanmak için hafif Misskey Android istemcisi. Hızlı, duyarlı arayüz ile merkezi olmayan sosyal ağa göz atın. Açık kaynak sosyal ağ istemcisi.",
+    "uz": "Misskey misollari bilan ulanish uchun yengil Misskey Android klijenti. Tez, sezgili interfeys bilan markazsiz ijtimoiy tarmoqqa ko'rish. Ochiq manbai ijtimoiy tarmoq klijenti."
+  },
+  "com.rafaelfelipeac.replyradar": {
+    "ru": "Reply Radar отслеживает сообщения, на которые вам нужно ответить. Организуйте разговоры и не забудьте важные ответы. Менеджер личной коммуникации для оперативного ответа.",
+    "en": "Reply Radar keeps track of messages you need to respond to. Organize conversations and never forget important replies. Personal communication manager for staying responsive.",
+    "tr": "Reply Radar, cevap vermeniz gereken mesajları takip eder. Sohbetleri organize edin ve önemli yanıtları unutmayın. Duyarlı kalmak için kişisel iletişim yöneticisi.",
+    "uz": "Reply Radar javob berishingiz kerak bo'lgan xabarlarni kuzatadi. Suhbatlarni tashkil qiling va muhim javoblarni unutmang. Sezgili qolish uchun shaxsiy aloqa menejer."
+  },
+  "com.nowichat": {
+    "ru": "Приложение чата с возможностями сетевого взаимодействия Bluetooth. Зашифрованный обмен сообщениями с гибридной криптографией. Автономная коммуникация для децентрализованных разговоров без интернета.",
+    "en": "Chat app with Bluetooth mesh networking capabilities. Encrypted messaging with hybrid cryptography. Offline communication for decentralized conversations without internet.",
+    "tr": "Bluetooth ağ iletişim yetenekleri ile sohbet uygulaması. Hibrid şifreleme ile şifreli mesajlaşma. İnternet olmadan merkezi olmayan sohbetler için çevrimdışı iletişim.",
+    "uz": "Bluetooth mesh tarmoq aloqa imkoniyatlari bilan chat ilovasi. Hibrid shifrlash bilan shifrlangan xabarlar. Internet siz markazsiz suhbatlar uchun oflayn aloqa."
+  },
+  "dev.mozzius.graysky": {
+    "ru": "Graysky - клиент Bluesky для iOS и Android. Просматривайте децентрализованную социальную сеть. Современный интерфейс для изучения открытого сетевого социального протокола.",
+    "en": "Graysky - Bluesky client for iOS and Android. Browse the decentralized social network. Modern interface for exploring the open web social protocol.",
+    "tr": "Graysky - iOS ve Android için Bluesky istemcisi. Merkezi olmayan sosyal ağa göz atın. Açık web sosyal protokolünü keşfetmek için modern arayüz.",
+    "uz": "Graysky - iOS va Android uchun Bluesky klijenti. Markazsiz ijtimoiy tarmoqqa ko'rish. Ochiq veb ijtimoiy protokolni o'rgash uchun zamonaviy interfeys."
   }
 }
