@@ -2,6 +2,7 @@ import rawApps from '../../data/apps.json';
 import customApps from '../../data/custom-apps.json';
 import fdroidApps from '../../data/fdroid-apps.json';
 import githubApps from '../../data/github-apps.json';
+import seoDescriptions from '../../data/seo-descriptions.json';
 import meta from '../../data/apps.meta.json';
 import { LANG, appHref } from '../i18n/index.js';
 import { DEFAULT_LANG } from '../../config/catalog.config.js';
@@ -19,11 +20,17 @@ function normalize(app, lang) {
   const category = categoryById(app.category);
   const name = tr.name || app.package_id;
 
+  /* A per-language SEO description written into data/seo-descriptions.json
+     (keyed by package id) wins over the collector's own summary. The store is
+     never touched by the collectors, so these survive a weekly re-import. */
+  const seo = seoDescriptions[app.package_id];
+  const seoSummary = seo && typeof seo[lang] === 'string' ? seo[lang].trim() : '';
+
   return {
     slug: app.slug,
     packageId: app.package_id,
     name,
-    summary: tr.summary || '',
+    summary: seoSummary || tr.summary || '',
     icon: app.icon_url || '',
     screenshots: Array.isArray(app.screenshots) ? app.screenshots : [],
     category,
