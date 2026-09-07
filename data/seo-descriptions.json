@@ -1018,5 +1018,155 @@
     "en": "Photo album organizer with tagging and categorization. Organize photos by date, location, and custom tags. Personal photo management.",
     "tr": "Etiketleme ve kategorileştirme ile fotoğraf albümü organizatörü. Fotoğrafları tarih, konum ve özel etiketlere göre organize edin. Kişisel fotoğraf yönetimi.",
     "uz": "Belgilash va kategoriyalashtirishbilan foto albomi organizer. Fotosuratlarni sana, joylashuv va maxsus teglarga ko'ra tashkil qiling. Shaxsiy fotosurat boshqaruvi."
+  },
+  "com.inspiredandroid.braincup": {
+    "ru": "Тренер памяти, концентрации и математики для упражнения мозга. Улучшайте когнитивные навыки с ежедневными вызовами. Образовательная игра тренировки мозга.",
+    "en": "Memory, focus, and math trainer for brain exercise. Improve cognitive skills with daily challenges. Educational brain training game.",
+    "tr": "Beyin egzersizi için bellek, odak ve matematik antrenörü. Günlük zorluklar ile bilişsel becerilerinizi geliştirin. Eğitimsel beyin eğitim oyunu.",
+    "uz": "Miyani mashq qilish uchun xotira, fokus va matematika treneri. Kunlik challanjlar bilan kognitiv ko'nikmalarni yaxshilang. Ta'lim miyani o'qitish o'yini."
+  },
+  "com.debojitsantra.backlogtracker": {
+    "ru": "Отслеживайте невыполненные работы и ожидающие задачи по проектам. Организуйте очереди учёбы, рабочие элементы и привычки. Менеджер задач и организатор невыполненных работ.",
+    "en": "Track backlogs and pending tasks across projects. Organize study queues, work items, and habits. Task management and backlog organizer.",
+    "tr": "Projeler arasında birikmiş işleri ve bekleyen görevleri takip edin. Çalışma kuyruklarını, iş öğelerini ve alışkanlıkları organize edin. Görev yönetimi ve birikmiş iş organizatörü.",
+    "uz": "Proyektlar orasida birikgan ishlar va kutib turgan vazifalarni kuzating. O'qish navbatlarini, ish qismlarini va odatlarni tashkil qiling. Vazifa boshqaruvi va birikma ishtiromas organizer."
+  },
+  "com.example.deeplviewer": {
+    "ru": "Неофициальное приложение переводчика DeepL для Android. Переводите текст с помощью AI-переводчика. Утилита языкового перевода.",
+    "en": "Unofficial DeepL translator app for Android. Translate text with AI-powered translation service. Language translation utility.",
+    "tr": "Android için resmi olmayan DeepL çevirmen uygulaması. AI tarafından desteklenen çevirmen hizmetine sahip metin çevirin. Dil çevirisi yardımcı programı.",
+    "uz": "Android uchun rasmi bo'lmagan DeepL tarjimon ilovasi. AI-quvvatlanmagan tarjima xizmati bilan matnni tarjima qiling. Til tarjima vositasi."
+  },
+  "com.kaleedtc.privacium": {
+    "ru": "Откройте для себя инструменты и приложения, уважающие конфиденциальность. Найдите альтернативы с открытым исходным кодом основным приложениям. Образование в области конфиденциальности и открытие инструментов.",
+    "en": "Discover privacy-respecting tools and applications. Find open-source alternatives to mainstream apps. Privacy education and tool discovery.",
+    "tr": "Gizliliği koruyan araçları ve uygulamaları keşfedin. Ana uygulamalara açık kaynak alternatiflerini bulun. Gizlilik eğitimi ve araç keşfi.",
+    "uz": "Maxfiylikni hurmat qiluvchi asboblar va ilovallarni kashf qiling. Asosiy ilovalarga ochiq manbai alternativalarni toping. Maxfiylik ta'limi va asbob kashfi."
+  },
+  "com.phoebesoftware.xrooster": {
+    "ru": "Приложение расписания школы для управления расписанием MyX/Xedule. Просмотр расписания уроков и расписания занятий. Утилита школьного расписания.",
+    "en": "School schedule app for MyX/Xedule rooster management. View timetables and class schedules. School scheduling utility.",
+    "tr": "MyX/Xedule roosteri yönetimi için okul programı uygulaması. Timetable'ları ve sınıf çizelgelerini görüntüleyin. Okul planlama yardımcı programı.",
+    "uz": "MyX/Xedule rooster boshqaruvi uchun maktab jadval ilovasi. Timetabllarni va sinf jadvallarini ko'ring. Maktab rejalashtirish vositasi."
+  },
+  "io.privkey.keep": {
+    "ru": "Пороговый подписант FROST для протокола Nostr с поддержкой NIP-55. Безопасные цифровые подписи с несколькими сторонами. Утилита подписания криптовалют.",
+    "en": "FROST threshold signer for Nostr protocol with NIP-55 support. Secure multi-party digital signatures. Cryptocurrency signing utility.",
+    "tr": "NIP-55 desteği ile Nostr protokolü için FROST eşik imzacısı. Güvenli çok taraflı dijital imzalar. Kripto imzalama yardımcı programı.",
+    "uz": "NIP-55 qo'llab-quvvatlashi bilan Nostr protokoli uchun FROST boshlang'ich imzalauvchi. Xavfsiz ko'p tomonli raqamli imzolar. Cryptocurrency imzalash vositasi."
+  },
+  "com.vauth.salty": {
+    "ru": "Безопасное шифрование автономных сообщений для Android. Шифруйте текст с подходом offline-first. Инструмент шифрования приватных сообщений.",
+    "en": "Secure offline message encryption for Android. Encrypt text with offline-first approach. Private message encryption tool.",
+    "tr": "Android için güvenli çevrimdışı ileti şifreleme. Çevrimdışı-ilk yaklaşım ile metni şifreleyin. Özel ileti şifreleme aracı.",
+    "uz": "Android uchun xavfsiz oflayn xabar shifrlash. Oflayn-birinchi yondashuv bilan matnni shifrlang. Shaxsiy xabar shifrlash vositasi."
+  },
+  "com.cryptosafe.app": {
+    "ru": "Шифрование AES-256-GCM с Argon2 для безопасного шифрования текста. Полностью офлайн без отслеживания. Инструмент криптографии.",
+    "en": "AES-256-GCM encryption with Argon2 for secure text encryption. Completely offline with no tracking. Cryptography tool.",
+    "tr": "Güvenli metin şifreleme için AES-256-GCM Argon2 ile şifreleme. Takip olmadan tamamen çevrimdışı. Şifreleme aracı.",
+    "uz": "Xavfsiz matn shifrlash uchun AES-256-GCM Argon2 shifrlash. Kuzatilmay doimiy oflayn. Kriptografiya vositasi."
+  },
+  "org.disspair.disspair": {
+    "ru": "Инструмент тестирования безопасности Bluetooth для авторизованных сред. Тестируйте протоколы Classic и BLE. Утилита исследования безопасности.",
+    "en": "Bluetooth security testing tool for authorized environments. Test Classic and BLE protocols. Security research utility.",
+    "tr": "Yetkili ortamlar için Bluetooth güvenlik testi aracı. Classic ve BLE protokollerini test edin. Güvenlik araştırması yardımcı programı.",
+    "uz": "Ruxsat berilgan muhitlar uchun Bluetooth xavfsizlik testi vositasi. Klassik va BLE protokollarini test qiling. Xavfsizlik tadqiqoti vositasi."
+  },
+  "com.roundsalmon4.appverifier": {
+    "ru": "Проверяйте установленные приложения по базам данных подписей. Проверьте подлинность и целостность приложения. Инструмент проверки безопасности приложений.",
+    "en": "Verify installed apps against signature databases. Check app authenticity and integrity. Application security verification tool.",
+    "tr": "İmza veritabanlarına karşı yüklü uygulamaları doğrulayın. Uygulama orijinalliğini ve bütünlüğünü kontrol edin. Uygulama güvenliği doğrulama aracı.",
+    "uz": "Imzo ma'lumotlar bazalariga qarab o'rnatilgan ilovalari tekshiring. Ilovani aslililigini va butunligini tekshiring. Ilovani xavfsizlik tekshirish vositasi."
+  },
+  "com.pgpony.android": {
+    "ru": "Приватное шифрование OpenPGP для Android с поддержкой аппаратных ключей. Интеграция password-store без отслеживания. Инструмент шифрования электронной почты.",
+    "en": "Private OpenPGP encryption for Android with hardware key support. Password-store integration without tracking. Email encryption tool.",
+    "tr": "Donanım anahtarı desteği ile Android için özel OpenPGP şifreleme. İzleme olmadan password-store entegrasyonu. E-posta şifreleme aracı.",
+    "uz": "Apparat kalit qo'llab-quvvatlashi bilan Android uchun shaxsiy OpenPGP shifrlash. Kuzatilmay password-store integratsiyasi. E-pochta shifrlash vositasi."
+  },
+  "org.privacyguides.verifiedapps": {
+    "ru": "Внесите свой вклад в базу данных проверенных приложений Privacy Guides. Отправляйте и проверяйте приложения, уважающие конфиденциальность. Проверка приложения сообществом.",
+    "en": "Contribute to Privacy Guides verified apps database. Submit and verify privacy-respecting applications. Community app verification.",
+    "tr": "Privacy Guides doğrulanmış uygulamalar veritabanına katkıda bulunun. Gizliliği koruyan uygulamaları gönder ve doğrula. Topluluk uygulaması doğrulaması.",
+    "uz": "Privacy Guides tasdiqlangan ilovalari ma'lumotlar bazasiga hissa qo'shing. Maxfiylikni hurmat qiluvchi ilovalalarni yuborish va tekshiring. Jamiati ilovasi tekshirish."
+  },
+  "de.seemoo.at_tracking_detection.release": {
+    "ru": "Защита от отслеживания AirTag и Find My. Обнаруживайте и оповещайте о приближении AirTag. Инструмент безопасности против отслеживания.",
+    "en": "Protect against AirTag and Find My tracking. Detect and alert on AirTag proximity. Anti-tracking security tool.",
+    "tr": "AirTag ve Find My izlemeye karşı koruma. AirTag yakınlığını algılayın ve uyarı verin. Anti-izleme güvenlik aracı.",
+    "uz": "AirTag va Find My kuzatishdan himoya. AirTag yaqinligini aniqlang va ogohlantiring. Anti-kuzatish xavfsizlik vositasi."
+  },
+  "org.fsociety.vernet": {
+    "ru": "Анализатор сетей и инструмент мониторинга для кросс-платформного использования. Мониторьте сетевой трафик и анализируйте пакеты. Утилита сетевой диагностики.",
+    "en": "Network analyzer and monitoring tool for cross-platform use. Monitor network traffic and analyze packets. Network diagnostics utility.",
+    "tr": "Çapraz platform kullanımı için ağ analiz aracı ve izleme aracı. Ağ trafiğini izleyin ve paketleri analiz edin. Ağ tanıları yardımcı programı.",
+    "uz": "Platformalar orasidagi ishlatish uchun tarmoq tahlilchisi va kuzatish vositasi. Tarmoq trafikini kuzating va paketlarni tahlil qiling. Tarmoq diagnostika vositasi."
+  },
+  "com.zaneschepke.wireguardautotunnel": {
+    "ru": "Клиент WireGuard VPN с автоматическим туннелированием и режимом блокировки. Поддержка AmneziaWG для повышенной конфиденциальности. Управление FOSS VPN.",
+    "en": "WireGuard VPN client with auto-tunneling and lockdown mode. AmneziaWG support for enhanced privacy. FOSS VPN management.",
+    "tr": "Otomatik tunelleme ve kilitleme modu ile WireGuard VPN istemcisi. Geliştirilmiş gizlilik için AmneziaWG desteği. FOSS VPN yönetimi.",
+    "uz": "Avtomatik tunnellash va blokirovka rejimi bilan WireGuard VPN klijenti. Rivojlangan maxfiylik uchun AmneziaWG qo'llab-quvvatlashi. FOSS VPN boshqaruvi."
+  },
+  "protectedwp.safespace": {
+    "ru": "Защищённый рабочий профиль для разделения личных и рабочих данных. Изолируйте рабочие приложения и файлы. Инструмент разделения устройства.",
+    "en": "Protected work profile for separating personal and work data. Isolate work applications and files. Device compartmentalization tool.",
+    "tr": "Kişisel ve iş verilerini ayırmak için korumalı çalışma profili. İş uygulamalarını ve dosyalarını yalıtın. Cihaz bölümlendirme aracı.",
+    "uz": "Shaxsiy va ish ma'lumotlarini ajratish uchun himoyalangan ish profili. Ish ilovalari va fayllarni izolyatsiya qiling. Qurilma bo'limlashtirish vositasi."
+  },
+  "hidden.protectedwp.safespace": {
+    "ru": "Скрытый рабочий профиль для продвинутого разделения. Скрывайте рабочие приложения от обычного вида устройства. Продвинутое разделение конфиденциальности.",
+    "en": "Hidden work profile for advanced compartmentalization. Conceal work applications from regular device view. Advanced privacy compartmentalization.",
+    "tr": "Gelişmiş bölümlendirme için gizli çalışma profili. İş uygulamalarını normal cihaz görünümünden gizleyin. Gelişmiş gizlilik bölümlendirmesi.",
+    "uz": "Rivojlangan bo'limlashtirish uchun yashirin ish profili. Ish ilovalari oddiy qurilma ko'rinishidan yashiring. Rivojlangan maxfiylik bo'limlashtirish."
+  },
+  "ephemeralwp.safespace": {
+    "ru": "Эфемерный рабочий профиль, который исчезает после использования. Временное разделение для временной работы. Изоляция конфиденциальности на основе сеанса.",
+    "en": "Ephemeral work profile that disappears after use. Temporary compartmentalization for temporary work. Session-based privacy isolation.",
+    "tr": "Kullanımdan sonra kaybolan kısa ömürlü çalışma profili. Geçici çalışma için geçici bölümlendirme. Oturum tabanlı gizlilik yalıtımı.",
+    "uz": "Ishlatilgandan keyin yo'qolgan vaqtinchalik ish profili. Vaqtinchalik ish uchun vaqtinchalik bo'limlashtirish. Sessiya asosida maxfiylik izolyatsiyasi."
+  },
+  "com.greenart7c3.nostrsigner": {
+    "ru": "Amber - подписант Nostr для безопасного управления ключами. Управляйте цифровыми подписями для протокола Nostr. Инструмент управления ключами криптовалют.",
+    "en": "Amber - Nostr signer for secure key management. Manage digital signatures for Nostr protocol. Cryptocurrency key management tool.",
+    "tr": "Amber - Nostr imzalaması güvenli anahtar yönetimi için. Nostr protokolü için dijital imzaları yönetin. Kripto anahtar yönetim aracı.",
+    "uz": "Amber - xavfsiz kalit boshqaruvi uchun Nostr imzalayvchi. Nostr protokoli uchun raqamli imzolarni boshqaring. Cryptocurrency kalit boshqaruv vositasi."
+  },
+  "com.inspiredandroid.screenfilter": {
+    "ru": "Фильтр синего света и защитник экрана для комфорта глаз. Уменьшите яркость экрана и излучение синего света. Утилита ухода за глазами.",
+    "en": "Blue light filter and screen protector for eye comfort. Reduce screen brightness and blue light emission. Eye care utility.",
+    "tr": "Göz rahatlığı için mavi ışık filtresi ve ekran koruyucu. Ekran parlaklığını ve mavi ışık emisyonunu azaltın. Göz bakım yardımcı programı.",
+    "uz": "Ko'z rahati uchun ko'k yorug'lik filtresi va ekran himoyachi. Ekran yorqinligini va ko'k yorug'lik emissiyasini kamaytiring. Ko'z g'amxorligi vositasi."
+  },
+  "com.example.antennapod": {
+    "ru": "Плеер подкастов для подписки на подкасты и управления ими. Созданно с помощью Material Design 3. Менеджер подкастов с открытым исходным кодом.",
+    "en": "Podcast player for subscribing to and managing podcasts. Built with Material Design 3. Open-source podcast manager.",
+    "tr": "Podcastlara abone olmak ve yönetmek için podcast oynatıcı. Material Design 3 ile oluşturuldu. Açık kaynak podcast yöneticisi.",
+    "uz": "Podcastlarga obuna bo'lish va boshqarish uchun podcast player. Material Design 3 bilan qurilgan. Ochiq manbai podcast menejer."
+  },
+  "com.bnyro.eclair": {
+    "ru": "Проигрыватель видео и аудио для потоковой передачи и локального воспроизведения. Поддержка нескольких форматов и кодеков. Мультимедийный плеер.",
+    "en": "Video and audio player for streaming and local playback. Support for multiple formats and codecs. Multimedia player.",
+    "tr": "Akış ve yerel oynatma için video ve ses oynatıcı. Birden fazla format ve codec desteği. Multimedya oynatıcı.",
+    "uz": "Stream va mahalliy oynatish uchun video va ovoz player. Ko'p format va codec qo'llab-quvvatlashi. Multimedia player."
+  },
+  "org.poloproject.timeago": {
+    "ru": "Приложение отслеживания времени для регистрации рабочих часов и деятельности. Отслеживайте производительность и использование времени. Управление личным временем.",
+    "en": "Time tracking app for logging work hours and activities. Track productivity and time usage. Personal time management.",
+    "tr": "Çalışma saatlerini ve aktiviteleri kaydetmek için zaman izleme uygulaması. Üretkenliği ve zaman kullanımını izleyin. Kişisel zaman yönetimi.",
+    "uz": "Ish soatlari va faoliyatlarni yozish uchun vaqt kuzatish ilovasi. Samaradorlikni va vaqt foydalanishini kuzating. Shaxsiy vaqt boshqaruvi."
+  },
+  "org.dvb.webnews": {
+    "ru": "Средство чтения веб-новостей для RSS и Atom-ленты. Подпишитесь на источники новостей и читайте статьи. Приложение агрегирования новостей.",
+    "en": "Web news reader for RSS and Atom feeds. Subscribe to news sources and read articles. News aggregation application.",
+    "tr": "RSS ve Atom beslemeleri için web haber okuyucu. Haber kaynaklarına abone olun ve makaleleri okuyun. Haber toplayıcı uygulaması.",
+    "uz": "RSS va Atom beslemeleri uchun veb yangilik o'quvchi. Yangilik manbalariga obuna bo'ling va maqolalarni o'qing. Yangilik aggregation ilovasi."
+  },
+  "com.example.yalantis": {
+    "ru": "Библиотека анимации и компонентов UI для разработчиков Android. Создавайте красивые анимированные интерфейсы. Витрина компонентов разработки.",
+    "en": "Animation and UI component library for Android developers. Build beautiful animated interfaces. Development component showcase.",
+    "tr": "Android geliştiricileri için animasyon ve UI bileşeni kitaplığı. Güzel animasyonlu arayüzler oluşturun. Geliştirme bileşeni vitrin.",
+    "uz": "Android ishlab chiqaruvchilari uchun animatsiya va UI komponent kutubxonasi. Go'zal animate qilingan interfayslar yarating. Rivojlantirish komponent vitrin."
   }
 }
