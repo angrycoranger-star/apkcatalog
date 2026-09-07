@@ -1840,5 +1840,233 @@
     "en": "Bag - personal storage and file management app. Organize and manage your files locally with privacy-focused design.",
     "tr": "Bag - kişisel depolama ve dosya yönetimi uygulaması. Gizlilik odaklı tasarım ile dosyalarınızı yerel olarak düzenleyin ve yönetin.",
     "uz": "Bag - shaxsiy saqlash va fayl boshqaruvi ilovasi. Maxfiylik markazlashtirilgan dizayn bilan fayllarni mahalliy tashkil qiling va boshqaring."
+  },
+  "app.appuntis.comaps": {
+    "ru": "CoMaps — приложение коммунальных карт, ориентированное на конфиденциальность, на основе OpenStreetMap. Автономная навигация без трекеров. Форк Organic Maps с приверженностью прозрачности и некоммерческой направленности.",
+    "en": "CoMaps - privacy-focused community maps app based on OpenStreetMap. Offline navigation without trackers. Fork of Organic Maps with commitment to transparency and being non-profit.",
+    "tr": "CoMaps - OpenStreetMap tabanlı gizlilik odaklı topluluk haritalar uygulaması. İzci olmayan çevrimdışı navigasyon. Şeffaflığa ve kâr amacı gütmeyene olan bağlılıkla Organic Maps'ün fork'u.",
+    "uz": "CoMaps - OpenStreetMap asosida maxfiylik markazlashtirilgan hamjamiyat xaritalar ilovasi. Trazerlar siz oflayn navigatsiyasi. Shaffoflik va tikka nisbatasiz bosh'lashtni muvaffaqiyatga Organic Maps'ning fork'i."
+  },
+  "app.crescentcash.src": {
+    "ru": "Crescent Cash — простой, безопасный, бездоверительный кошелёк Bitcoin Cash. Отправляйте монеты на Cash Accounts по имени пользователя или традиционные адреса Bitcoin Cash. Некастодиальный и контролируемый пользователем.",
+    "en": "Crescent Cash - simple, secure, trustless Bitcoin Cash wallet. Send coins to Cash Accounts by username or traditional Bitcoin Cash addresses. Non-custodial and user-controlled.",
+    "tr": "Crescent Cash - basit, güvenli, güvensiz Bitcoin Cash cüzdanı. Paraları Cash Accounts'a kullanıcı adıyla veya geleneksel Bitcoin Cash adreslerine gönderin. Saklamacı olmayan ve kullanıcı denetiminde.",
+    "uz": "Crescent Cash - sodda, xavfsiz, bezdor Bitcoin Cash hamyon. Tangalarni Cash Accounts'ga foydalanuvchi nomi bo'ylab yoki an'anaviy Bitcoin Cash addresslariga yuboring. Saklovchi siz va foydalanuvchi nazoratida."
+  },
+  "app.crossword.yourealwaysbe.forkyz": {
+    "ru": "Forkyz — приложение кроссвордов с поддержкой нескольких форматов. Импортируйте головоломки из файлов AcrossLite (.puz), JPZ, IPuz или загружайте напрямую. Современная совместимость Android с новыми функциями.",
+    "en": "Forkyz - crossword puzzle app with multiple format support. Import puzzles from AcrossLite (.puz), JPZ, IPuz files or download directly. Modern Android compatibility with new features.",
+    "tr": "Forkyz - çok format destekli krostiş bulmaca uygulaması. AcrossLite (.puz), JPZ, IPuz dosyalarından bulmacaları içe aktarın veya doğrudan indirin. Yeni özelliklerle modern Android uyumluluğu.",
+    "uz": "Forkyz - ko'p format qo'llab-quvvatlash bilan krossvord bulmaca ilovasi. AcrossLite (.puz), JPZ, IPuz fayllardan bulamcalarni import qiling yoki to'g'ridan-to'g'ri yuklab oling. Yangi xususiyatlar bilan zamonaviy Android muvofaqiyati."
+  },
+  "app.crossword.yourealwaysbe.forkyzscanner": {
+    "ru": "Forkyz Scanner — вспомогательное приложение для сканирования кроссвордов. Сканируйте с камеры, файлов изображений или PDF с OpenCV и Tesseract OCR. Отредактируйте результаты и поделитесь с другими приложениями.",
+    "en": "Forkyz Scanner - companion app for scanning crossword puzzles. Scan from camera, image files, or PDF with OpenCV and Tesseract OCR. Edit results and share with other apps.",
+    "tr": "Forkyz Scanner - krostiş bulmacalarını tarama için yardımcı uygulama. Kameradan, görüntü dosyalarından veya OpenCV ve Tesseract OCR ile PDF'den tarama yapın. Sonuçları düzenleyin ve diğer uygulamalarla paylaşın.",
+    "uz": "Forkyz Scanner - krossvord bulamcalarni skanerlash uchun hamroh ilova. Kamera, rasm fayllar yoki OpenCV va Tesseract OCR bilan PDF'dan skanerlang. Natijalarni tahrir qiling va boshqa ilovalar bilan ulashing."
+  },
+  "app.dumdum": {
+    "ru": "DumDum — простой, минималистичный клиент прокси. Подключитесь к прокси SOCKS/HTTP/HTTPS с чистым, универсальным дизайном, основанным на VpnService.",
+    "en": "DumDum - simple, minimalistic proxy client. Connect to SOCKS/HTTP/HTTPS proxies with clean, universal design based on VpnService.",
+    "tr": "DumDum - basit, minimalist proxy istemcisi. VpnService'e dayalı temiz, evrensel tasarımla SOCKS/HTTP/HTTPS proxy'lerine bağlanın.",
+    "uz": "DumDum - sodda, minimalist proxy klijenti. VpnService asosida toza, universal dizayn bilan SOCKS/HTTP/HTTPS proxy'lariga ulanish."
+  },
+  "app.easy.launcher": {
+    "ru": "Easy Launcher — минимальная программа запуска на основе текста с быстрым доступом к избранному. Скройте приложения, переименуйте приложения, безопасность отпечатков пальцев, интернет-разрешения не требуются.",
+    "en": "Easy Launcher - minimal text-based launcher with favorite quick access. Hide apps, rename apps, fingerprint security, no internet permissions required.",
+    "tr": "Easy Launcher - favori hızlı erişim ile minimal metin tabanlı başlatıcı. Uygulamaları gizleyin, uygulamaları yeniden adlandırın, parmak izi güvenliği, internet izni gerekli değil.",
+    "uz": "Easy Launcher - sevim tez kirish bilan minimal matn asosli pelauncher. Ilovalarni yashiring, ilovalarni qayta nomlang, barmoq izi xavfsizligi, internet ruxsati kerak emas."
+  },
+  "app.eduroam.geteduroam": {
+    "ru": "geteduroam — настройте сеть WiFi eduroam, используя профили учреждения. Выберите профиль eduroam CAT и предоставьте учетные данные для автоматической настройки сети.",
+    "en": "geteduroam - configure eduroam WiFi network using institutional profiles. Select eduroam CAT profile and provide credentials for automatic network setup.",
+    "tr": "geteduroam - kurumsal profilleri kullanarak eduroam WiFi ağını yapılandırın. Eduroam CAT profilini seçin ve otomatik ağ kurulumu için kimlik bilgilerini sağlayın.",
+    "uz": "geteduroam - muassasa profillaridan foydalanib eduroam WiFi tarmoqni konfiguratsiya qiling. geteduroam CAT profilini tanlang va avtomatik tarmoq sozlash uchun asoslarni taqdim eting."
+  },
+  "app.fayaz.otgmaster": {
+    "ru": "OTG Master — подключайте VeraCrypt-зашифрованное USB-хранилище на Android без рута. Читайте сырые секторы, разблокируйте тома, выставляйте расшифрованную файловую систему через DocumentsProvider.",
+    "en": "OTG Master - mount VeraCrypt-encrypted USB storage on Android without root. Read raw sectors, unlock volumes, expose decrypted filesystem via DocumentsProvider.",
+    "tr": "OTG Master - VeraCrypt şifreli USB depolama alanını root olmadan Android'ye monte edin. Ham sektörleri okuyun, birimlerin kilidini açın, şifresi çözülmüş dosya sistemini DocumentsProvider aracılığıyla açığa çıkarın.",
+    "uz": "OTG Master - VeraCrypt shifrlashtirilgan USB saqlavni root siz Android'ga munt qiling. Toza sektorlarni o'qing, tom'larni qulfdan chiqaring, shifri ochirilgan fayl tizimini DocumentsProvider orqali ochib qo'ying."
+  },
+  "app.fedilab.castlab": {
+    "ru": "CastLab — передавайте фотографии, видео и аудио на устройства DLNA/UPnP и FCast. Автоматическое обнаружение устройств, общий доступ экрана, управление плейлистом и извлечение видео из Интернета.",
+    "en": "CastLab - cast photos, videos, and audio to DLNA/UPnP and FCast devices. Automatic device discovery, screen sharing, playlist management, and web video extraction.",
+    "tr": "CastLab - fotoğrafları, videoları ve sesi DLNA/UPnP ve FCast cihazlarına gönderin. Otomatik cihaz bulma, ekran paylaşımı, oynatma listesi yönetimi ve web video çıkarma.",
+    "uz": "CastLab - suratlar, videolar va audiolarni DLNA/UPnP va FCast qurilmalarga yuboring. Avtomatik qurilma aniqlash, ekran ulashish, ijro navbati boshqaruvi va veb videoni chiqarish."
+  },
+  "app.fedilab.fediplan": {
+    "ru": "Fediplan — запланируйте сообщения на Mastodon и Pleroma с поддержкой нескольких учётных записей. Планируйте свои посты в социальных сетях заранее.",
+    "en": "Fediplan - schedule messages on Mastodon and Pleroma with multi-account support. Plan your social media posts in advance.",
+    "tr": "Fediplan - Mastodon ve Pleroma üzerinde çok hesap desteği ile iletileri planlayın. Sosyal medya gönderilerinizi önceden planlayın.",
+    "uz": "Fediplan - Mastodon va Pleroma'da ko'p akkaunt qo'llab-quvvatlash bilan xabarlarni rejalashtiring. Ijtimoiy media postlarini oldindan rejalashtiring."
+  },
+  "app.fedilab.mobilizon": {
+    "ru": "Mobilizon — управляйте событиями, профилями и группами. Создавайте страницы мероприятий, ищите события по ключевому слову/месту/дате и создавайте сообщество в децентрализованной сети.",
+    "en": "Mobilizon - manage events, profiles, and groups. Create event pages, search events by keyword/place/date, and build community with decentralized network.",
+    "tr": "Mobilizon - etkinlikleri, profilleri ve grupları yönetin. Etkinlik sayfaları oluşturun, etkinlikleri anahtar sözcük/yer/tarih ile arayın ve merkezi olmayan ağda toplum oluşturun.",
+    "uz": "Mobilizon - tadbirlarni, profillarni va guruhlarni boshqaring. Tadbirga sahifalarni yarating, tadbirlarni kalit so'z/joy/sana bo'ylab izlang va markazsiz tarmoq'da jamiyat yarating."
+  },
+  "app.fedilab.nitterizeme": {
+    "ru": "UntrackMe — перенаправляйте отслеживающие URL на приватные альтернативы. Преобразуйте ссылки Twitter, YouTube, Instagram в Nitter, Invidious, Bibliogram.",
+    "en": "UntrackMe - redirect tracking URLs to privacy-friendly alternatives. Transform Twitter, YouTube, Instagram links to Nitter, Invidious, Bibliogram.",
+    "tr": "UntrackMe - izleme URL'lerini gizlilik dostu alternatiflere yönlendirin. Twitter, YouTube, Instagram bağlantılarını Nitter, Invidious, Bibliogram'a dönüştürün.",
+    "uz": "UntrackMe - tracking URL'larni maxfiylik-do'st alternatiflarga yo'naltig. Twitter, YouTube, Instagram havolalarini Nitter, Invidious, Bibliogram'ga aylantiring."
+  },
+  "app.fedilab.nitterizemelite": {
+    "ru": "UntrackMe Lite — лёгкая версия для обмена чистыми ссылками. Удаляйте параметры отслеживания из URL-адресов Twitter, YouTube, Instagram и Google Maps.",
+    "en": "UntrackMe Lite - lightweight version for sharing clean links. Strip tracking parameters from Twitter, YouTube, Instagram, and Google Maps URLs.",
+    "tr": "UntrackMe Lite - temiz bağlantıları paylaşmak için hafif sürüm. Twitter, YouTube, Instagram ve Google Maps URL'lerinden izleme parametrelerini kaldırın.",
+    "uz": "UntrackMe Lite - toza havolalarni ulashish uchun yengil versiya. Twitter, YouTube, Instagram va Google Maps URL'laridan tracking parametrlarini o'chirib tashlang."
+  },
+  "app.fedilab.openmaps": {
+    "ru": "OpenMultiMaps — отображайте карты из OpenStreetMap с быстрым переключением. Просматривайте карты по категориям: Путешествия, Жизненные навыки, Хобби, Региональные, Вклады.",
+    "en": "OpenMultiMaps - display maps from OpenStreetMap with quick switching. Browse maps in categories: Trips, Life-skills, Hobbies, Regional, Contributions.",
+    "tr": "OpenMultiMaps - OpenStreetMap'ten haritaları hızlı geçişle görüntüleyin. Haritaları kategorilere göz atın: Geziler, Yaşam Becerileri, Hobiler, Bölgesel, Katkılar.",
+    "uz": "OpenMultiMaps - OpenStreetMap'dan xaritalarni tez o'tish bilan ko'rsating. Xaritalarni kategoriyalar bo'ylab ko'rish: Sayohatlar, Hayot-ko'nikmalari, Hobiler, Mintaqaviy, Hissa."
+  },
+  "app.flicky": {
+    "ru": "Flicky — клиент F-Droid с интерфейсом, удобным для телевизора. Просматривайте и устанавливайте приложения с большим интерфейсом, оптимизированным для экранов телевизора.",
+    "en": "Flicky - F-Droid client with TV-friendly UI. Browse and install apps with large interface optimized for television screens.",
+    "tr": "Flicky - TV dostu UI ile F-Droid istemcisi. Televon ekranları için optimize edilmiş büyük arayüz ile uygulamaları göz atın ve yükleyin.",
+    "uz": "Flicky - TV-do'st UI bilan F-Droid klijenti. Televiz ekranlari uchun optimallashtirilgan katta interfeys bilan ilovalarni ko'rish va o'rnash."
+  },
+  "app.floatdeck": {
+    "ru": "FloatDeck — живые обои с эффектом 3D параллакса, используя гироскоп. Отображайте плавающие портреты персонажей с настраиваемыми шаблонами и поддержкой экрана блокировки.",
+    "en": "FloatDeck - live wallpaper with 3D parallax depth effect using gyroscope. Display floating character portraits with customizable templates and lock screen support.",
+    "tr": "FloatDeck - jiroskop kullanan 3D parallaks derinlik efektine sahip canlı duvar kağıdı. Özelleştirilebilir şablonlar ve kilit ekranı desteği ile yüzen karakter portrelerini gösterin.",
+    "uz": "FloatDeck - jiroskop'dan foydalanib 3D parallaks chuqurlik effekti bilan jonli duvor qog'ozi. Moslashtirilishi mumkin bo'lgan shablonlar va qulfli ekran qo'llab-quvvatlash bilan suzib turgan shakl portretlarini ko'rsating."
+  },
+  "app.fluffy": {
+    "ru": "Fluffy — лёгкий менеджер файлов для телефонов, планшетов, Android TV. Поддержка архивов (ZIP, 7z, TAR, TGZ), зашифрованные архивы, фоновые задачи, интерфейс, удобный для телевизора.",
+    "en": "Fluffy - lightweight file manager for phones, tablets, Android TV. Archive support (ZIP, 7z, TAR, TGZ), encrypted archives, background tasks, TV-friendly UI.",
+    "tr": "Fluffy - telefonlar, tabletler, Android TV için hafif dosya yöneticisi. Arşiv desteği (ZIP, 7z, TAR, TGZ), şifreli arşivler, arka plan görevleri, TV dostu UI.",
+    "uz": "Fluffy - telefonlar, planshetlar, Android TV uchun yengil fayl boshqaruvchi. Arxiv qo'llab-quvvatlash (ZIP, 7z, TAR, TGZ), shifrlashtirilgan arxivlar, fon vazifalar, TV-do'st UI."
+  },
+  "app.getknit.knit": {
+    "ru": "Knit — автономный мессенджер, подключающийся напрямую через WiFi Aware и Bluetooth. Без интернета, без учётных записей, без центрального сервера. Сообщения передаются с устройства на устройство.",
+    "en": "Knit - offline messenger connecting directly over WiFi Aware and Bluetooth. No internet, no accounts, no central server. Messages hop device-to-device.",
+    "tr": "Knit - WiFi Aware ve Bluetooth üzerinden doğrudan bağlanan çevrimdışı messenger. İnternet yok, hesap yok, merkezi sunucu yok. Mesajlar cihazdan cihaza atlar.",
+    "uz": "Knit - WiFi Aware va Bluetooth orqali to'g'ridan-to'g'ri ulanadigan oflayn messenger. Internet yo'q, akkaunt yo'q, markazi server yo'q. Xabarlar qurilmadan qurilmaga sakrash."
+  },
+  "app.govroam.getgovroam": {
+    "ru": "getgovroam — настройте сеть WiFi govroam для государственных учреждений. Подобно geteduroam с поддержкой профиля учреждения для государственных учреждений.",
+    "en": "getgovroam - configure govroam WiFi network for government institutions. Similar to geteduroam with institutional profile support for government agencies.",
+    "tr": "getgovroam - hükümet kurumları için govroam WiFi ağını yapılandırın. Hükümet kuruluşları için kurumsal profil desteği ile geteduroam'a benzer.",
+    "uz": "getgovroam - davlat muassasalari uchun govroam WiFi tarmoqni konfiguratsiya qiling. Davlat muassasalari uchun muassasa profili qo'llab-quvvatlash bilan geteduroam'ga o'xshash."
+  },
+  "app.halma": {
+    "ru": "Halma — классическая настольная игра и китайские шашки (Sternhalma) в одном приложении. Играйте против ИИ или локально с до 5 другими игроками со стратегическим геймплеем.",
+    "en": "Halma - classic board game and Chinese Checkers (Sternhalma) in one app. Play against AI or locally with up to 5 other players with strategy gameplay.",
+    "tr": "Halma - klasik masa oyunu ve Çince Dame (Sternhalma) bir uygulamada. AI'ye karşı oynayın veya strateji oyunuyla 5 diğer oyuncu ile yerel olarak oynayın.",
+    "uz": "Halma - klassik stol o'yini va Xitoy Checkers (Sternhalma) bir ilovada. AI'ga qarshi yoki strategiya o'yini bilan 5 boshqa o'yinchi bilan mahalliy o'ynash."
+  },
+  "app.hkTransport": {
+    "ru": "HK Transport — данные о транспорте Гонконга, включая автобус, МТР, минивэн, трамвай, лёгкий поезд и паром. Информация в реальном времени на основе данных правительства Гонконга.",
+    "en": "HK Transport - Hong Kong transport data including Bus, MTR, Minibus, Tram, Light Rail, and Ferry. Real-time information powered by HK government data.",
+    "tr": "HK Transport - Otobüs, MTR, Minibüs, Tramvay, Hafif Ray ve Feribot dahil olmak üzere Hong Kong taşıma verileri. Hong Kong hükümet verileri tarafından desteklenen gerçek zamanlı bilgiler.",
+    "uz": "HK Transport - Avtobus, MTR, Minibus, Tramvay, Yengil Temir Yo'l va Ferry o'z ichiga olgan Gonkong transport ma'lumotlari. Gonkong hukumati ma'lumotlari tomonidan qo'llab-quvvatlanuvchi real vaqt ma'lumotlar."
+  },
+  "app.hypostats": {
+    "ru": "HypoStats — приложение для отслеживания гипогликемии для записи эпизодов гипо. Запишите лечение, пересмотрите историю и анализируйте закономерности с полной защитой конфиденциальности.",
+    "en": "HypoStats - hypoglycemia tracking app for recording hypo episodes. Note treatments, review history, and analyze patterns with full privacy protection.",
+    "tr": "HypoStats - hypo bölümleri kaydetmek için hipoglisemi izleme uygulaması. Tedavileri not edin, geçmişi gözden geçirin ve tam gizlilik koruması ile desenler analiz edin.",
+    "uz": "HypoStats - gipo epizodlarini qayd qilish uchun gipoglikemiyani kuzatish ilovasi. Davolashlarni qayd qiling, tarixni qayta ko'rish va to'liq maxfiylik himoyasi bilan namunalarni tahlil qiling."
+  },
+  "app.intra": {
+    "ru": "Intra — экспериментальный инструмент DNS-over-HTTPS, шифрующий поиски доменов. Протестируйте сервисы DNS Cloudflare и Google с визуализацией производительности сервера.",
+    "en": "Intra - experimental DNS-over-HTTPS tool encrypting domain lookups. Test Cloudflare and Google DNS services with server performance visualization.",
+    "tr": "Intra - alan adı aramalarını şifreleyen deneysel DNS-over-HTTPS aracı. Sunucu performansı görselleştirmesi ile Cloudflare ve Google DNS hizmetlerini test edin.",
+    "uz": "Intra - domen qidiruvasini shifrlayuvchi eksperimental DNS-over-HTTPS vositasi. Sunucu ishlashini vizualizatsiya qilish bilan Cloudflare va Google DNS xizmatlarini sinovdan o'tkazish."
+  },
+  "app.ladefuchs.android": {
+    "ru": "Ladefuchs — мгновенно найдите самые дешёвые тарифы зарядки электромобилей. Поиск тарифов зарядки, ориентированный на немецкий рынок для электромобилей.",
+    "en": "Ladefuchs - find cheapest EV charging plans instantly. German-focused charging market finder for electric vehicles.",
+    "tr": "Ladefuchs - en ucuz EV şarj planlarını anında bulun. Elektrikli araçlar için Almanya odaklı şarj pazarı bulucu.",
+    "uz": "Ladefuchs - eng arzon EV zaryadlash rejalarini darhol toping. Elektromobil uchun Germaniya markazidagi zaryadlash bozori topgichi."
+  },
+  "app.linkclear": {
+    "ru": "Link Clear — удаляйте параметры отслеживания из URL-адресов, используя набор правил ClearURLs. Работает в режиме офлайн, вставьте или поделитесь ссылками, чтобы получить чистые URL-адреса одним действием.",
+    "en": "Link Clear - strip tracking parameters from URLs using ClearURLs ruleset. Works offline, paste or share links to get clean URLs with one action.",
+    "tr": "Link Clear - ClearURLs ruleset kullanarak URL'lerden izleme parametrelerini kaldırın. Çevrimdışı çalışır, temiz URL'ler almak için bağlantıları yapıştırın veya paylaşın.",
+    "uz": "Link Clear - ClearURLs qoidalar to'plamini ishlatib URL'lardan tracking parametrlarini o'chirib tashlang. Oflayn ishlaydi, toza URL'larni olish uchun havolalarni qo'yish yoki ulashing."
+  },
+  "app.lonecloud.prism": {
+    "ru": "Prism — распределитель UnifiedPush, использующий push-сервер Mozilla. Контролируйте почтовый ящик Proton Mail и маршрутизируйте уведомления на Signal, Telegram или приложение Prism.",
+    "en": "Prism - UnifiedPush distributor using Mozilla's push server. Monitor Proton Mail inbox and route notifications to Signal, Telegram, or Prism app.",
+    "tr": "Prism - Mozilla'nın push sunucusunu kullanan UnifiedPush dağıtıcısı. Proton Mail gelen kutusunu izleyin ve bildirimleri Signal, Telegram veya Prism uygulamasına yönlendirin.",
+    "uz": "Prism - Mozilla'ning push serverini ishlatadigan UnifiedPush distributeri. Proton Mail qabul qutisini kuzating va bildirishnomalarni Signal, Telegram yoki Prism ilovasiga yo'naltig."
+  },
+  "app.marmalade.tts": {
+    "ru": "Marmalade TTS — естественный нейронный движок преобразования текста в речь. Установите в качестве системного TTS для всех приложений. Приватная обработка на устройстве с опциональными облачными голосами.",
+    "en": "Marmalade TTS - natural neural text-to-speech engine. Set as system TTS for all apps. Private on-device processing with optional cloud voices.",
+    "tr": "Marmalade TTS - doğal sinirsel metin-konuşma motoru. Tüm uygulamalar için sistem TTS olarak ayarlayın. Opsiyonel bulut seçenekleri ile cihazda özel işleme.",
+    "uz": "Marmalade TTS - natural neural matn-nutq dvigateya. Barcha ilovalar uchun tizim TTS sifatida o'rnating. Ixtiyoriy bulut ovozlari bilan qurilmada xususiy qayta ishlash."
+  },
+  "app.maskan.chat": {
+    "ru": "Maskan — приватное приложение чата с поддержкой нескольких провайдеров ИИ. Используйте свои ключи API от OpenAI, Claude, Gemini, DeepSeek или локальных моделей (Ollama). Зашифровано, без прокси.",
+    "en": "Maskan - private multi-provider AI chat app. Bring your own API keys from OpenAI, Claude, Gemini, DeepSeek, or local models (Ollama). Encrypted, no proxy.",
+    "tr": "Maskan - özel çok sağlayıcılı AI sohbet uygulaması. Kendi API anahtarlarını OpenAI, Claude, Gemini, DeepSeek veya yerel modellerden (Ollama) getirin. Şifreli, proxy yok.",
+    "uz": "Maskan - maxsus ko'p-provider AI chat ilovasi. OpenAI, Claude, Gemini, DeepSeek yoki mahalliy modellardan (Ollama) o'z API kalitlarini olib keling. Shifrlashtirilgan, proksi yo'q."
+  },
+  "app.mcevoy.syncrecordapp": {
+    "ru": "SyncRecord — преобразуйте смартфоны в синхронизированный массив микрофонов для акустических исследований. Многоустройственное захватывание аудио с временной синхронизацией с использованием сигналов PRBS.",
+    "en": "SyncRecord - transform smartphones into synchronized microphone array for acoustic research. Multi-device audio acquisition with temporal alignment using PRBS signals.",
+    "tr": "SyncRecord - akustik araştırma için telefonları senkronize mikrofonlu diziye dönüştürün. PRBS sinyalleri kullanarak zamansal hizalama ile çok cihazlı ses yakalanması.",
+    "uz": "SyncRecord - akustik tadqiqotlar uchun smartfonlarni sinxronlashtirilgan mikrofonli massivga aylantiring. PRBS signallari ishlatib vaqtli tekshirish bilan ko'p qurilma audio qo'lga olish."
+  },
+  "app.mlauncher": {
+    "ru": "Multi Launcher — программа запуска Android на основе текста, приоритизирующая читаемость и управление. Большие текстовые кнопки вместо значков с настраиваемыми жестами.",
+    "en": "Multi Launcher - text-based Android launcher prioritizing readability and control. Large text buttons instead of icons with customizable gestures.",
+    "tr": "Multi Launcher - okunabilirliği ve kontrolü öncelleştiren metne dayalı Android başlatıcı. Özelleştirilebilir hareketlerle simgeler yerine büyük metin düğmeleri.",
+    "uz": "Multi Launcher - o'qiladligini va boshqaruvni prioritet qiladigan matn-asosli Android pelauncher. Moslashtirilishi mumkin bo'lgan harakatlari bilan icon o'rniga katta matn tugmalar."
+  },
+  "app.motionui.android": {
+    "ru": "Motion-UI — клиент Android для NVR обнаружения движения с визуализацией прямой трансляции. Запишите обнаружение движения, автоматический запуск по расписанию или обнаружению присутствия.",
+    "en": "Motion-UI - Android client for motion detection NVR with live stream visualization. Record motion detection, auto-start based on schedule or presence detection.",
+    "tr": "Motion-UI - canlı akış görselleştirmesi ile hareket algılama NVR için Android istemcisi. Hareket algılamayı kaydedin, takvime veya varlık algılamasına dayalı otomatik başlatma.",
+    "uz": "Motion-UI - jonli stream vizualizatsiyasi bilan motion aniqlash NVR uchun Android klijenti. Motion aniqlashni yozib oling, takvim yoki mavjudlik aniqlashiga asoslangan avtomatik ishga tushirish."
+  },
+  "app.murinelauncher": {
+    "ru": "Murine Launcher — современный лёгкий форк Launcher3 с улучшенным опытом AOSP. Минималистичный, полированный интерфейс с необходимой настройкой.",
+    "en": "Murine Launcher - modern lightweight Launcher3 fork with enhanced AOSP experience. Minimalistic, polished interface with essential customization.",
+    "tr": "Murine Launcher - geliştirilmiş AOSP deneyimi ile modern hafif Launcher3 fork'u. Temel özelleştirme ile minimalist, cilalanmış arayüz.",
+    "uz": "Murine Launcher - yaxshilangan AOSP tajribasi bilan zamonaviy yengil Launcher3 fork'i. Zarur moslashtirish bilan minimalist, polirlanmagan interfeys."
+  },
+  "app.myzel394.alibi": {
+    "ru": "Alibi — фоновый видеорегистратор, сохраняющий последние 30 минут. Сохраняйте записи по запросу с полностью настраиваемыми параметрами. Интернет не требуется.",
+    "en": "Alibi - background video recorder keeping last 30 minutes. Save recordings at your request with fully configurable settings. No internet required.",
+    "tr": "Alibi - son 30 dakikayı tutan arka plan video kaydedici. Tamamen yapılandırılabilir ayarlarla isteğe bağlı olarak kayıtları kaydedin. İnternet gerekli değil.",
+    "uz": "Alibi - oxirgi 30 daqiqani saqlovchi fon video rekorder. To'liq moslashtirilishi mumkin bo'lgan sozlamalar bilan so'rovda yozuvlarni saqlang. Internet talab qilinmaydi."
+  },
+  "app.nightdrop": {
+    "ru": "Night Drop — мессенджер 1:1, ориентированный на конфиденциальность, через Tor. Анонимные идентичности, end-to-end зашифрованы с Signal Double Ratchet, одноранговая сеть, локальное хранилище.",
+    "en": "Night Drop - privacy-first 1:1 messenger over Tor. Anonymous identities, end-to-end encrypted with Signal Double Ratchet, peer-to-peer, local storage.",
+    "tr": "Night Drop - Tor üzerinde gizlilik odaklı 1:1 messenger. Anonim kimlikler, Signal Double Ratchet ile end-to-end şifreli, eşler arası, yerel depolama.",
+    "uz": "Night Drop - Tor orqali maxfiylik markazlashtirilgan 1:1 messenger. Anonim identifikatsiyalar, Signal Double Ratchet bilan end-to-end shifrlashtirilgan, peer-to-peer, mahalliy saqlash."
+  },
+  "app.notesr": {
+    "ru": "NoteSR — приложение для зашифрованных заметок с локальным хранилищем. Шифрование AES-256 для заметок и вложений. Без учётной записи, без облака, без отслеживания.",
+    "en": "NoteSR - encrypted notes app with local storage. AES-256 encryption for notes and attachments. No account, no cloud, no tracking.",
+    "tr": "NoteSR - yerel depolama ile şifreli not uygulaması. Notlar ve ekler için AES-256 şifreleme. Hesap yok, bulut yok, izleme yok.",
+    "uz": "NoteSR - mahalliy saqlanish bilan shifrlashtirilgan eslatma ilovasi. Eslatmalar va ilovalari uchun AES-256 shifrlash. Akkaunt yo'q, bulut yo'q, kuzatish yo'q."
+  },
+  "app.olauncher": {
+    "ru": "Olauncher — чистая, быстрая, лёгкая программа запуска с ежедневными обоями. Жесты скольжения для доступа к приложениям и уведомлениям. Двойной кран для блокировки экрана.",
+    "en": "Olauncher - clean, fast, lightweight launcher with daily wallpaper. Swipe gestures for app access and notifications. Double tap to lock screen.",
+    "tr": "Olauncher - günlük duvar kağıdı ile temiz, hızlı, hafif başlatıcı. Uygulama erişimi ve bildirimler için kaydırma hareketleri. Ekranı kilitlemek için çift dokunuş.",
+    "uz": "Olauncher - kunlik duvor qog'ozi bilan toza, tez, yengil pelauncher. App kirishish va bildirishnomalar uchun surish harakatlari. Ekranni qulflab olish uchun ikki bosish."
+  },
+  "app.onloc.android": {
+    "ru": "Onloc — трекер местоположения и восстановления устройства. Местоположение в реальном времени, мгновенный звонок, удалённая блокировка и сообщение для потерянных устройств.",
+    "en": "Onloc - device location and recovery tracker. Real-time location, instant ring, remote lock and message for lost devices.",
+    "tr": "Onloc - cihaz konum ve kurtarma izleyici. Gerçek zamanlı konum, anında çaldırma, kayıp cihazlar için uzaktan kilit ve ileti.",
+    "uz": "Onloc - qurilma joylashtuv va tiklab olish treking. Real vaqt joylashtuv, darhol qo'ng'iroq, yo'qolgan qurilmalar uchun uzaq qulflab olish va xabar."
+  },
+  "app.openkuma": {
+    "ru": "OpenKuma — приватный клиент Android для мониторинга Uptime Kuma. Доступ только для чтения к статусу здоровья сервиса, отслеживание инцидентов в реальном времени, оповещения об истечении сертификатов.",
+    "en": "OpenKuma - private Android client for Uptime Kuma monitoring. Read-only access to service health status, real-time incident tracking, certificate expiry alerts.",
+    "tr": "OpenKuma - Uptime Kuma izlemesi için özel Android istemcisi. Hizmet sağlık durumuna salt okunur erişim, gerçek zamanlı olay izleme, sertifika sona erme uyarıları.",
+    "uz": "OpenKuma - Uptime Kuma kuzatish uchun maxsus Android klijenti. Xizmat sog'liq holatiga faqat o'qish kirishi, real vaqt hodisa kuzatish, sertifikat yakunlash ogohlantirish."
   }
 }
