@@ -48,8 +48,6 @@ export async function generateDescriptions({ name, developer, categoryLabel, pac
     model: 'claude-opus-5',
     max_tokens: 4000,
     system: SYSTEM_PROMPT,
-    // A short marketing blurb is a light task — keep spend low per generation.
-    output_config: { effort: 'low' },
     messages: [{ role: 'user', content: prompt }]
   });
 
