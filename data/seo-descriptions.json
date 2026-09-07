@@ -694,5 +694,155 @@
     "en": "Alkaa - task management and to-do list app. Organize tasks, set priorities, and track completion. Productivity tool for managing daily tasks and projects.",
     "tr": "Alkaa - görev yönetimi ve yapılacaklar listesi uygulaması. Görevleri organize edin, öncelikleri belirleyin ve tamamlamayı takip edin. Günlük görevler ve projeleri yönetmek için üretkenlik aracı.",
     "uz": "Alkaa - vazifa boshqaruv va qilish kerak ro'yxat ilovasi. Vazifalarni tashkil qiling, prioritetlarni o'rnating va bajarilishni kuzating. Kunlik vazifalar va loyihalarni boshqarish uchun samaradorlik vositasi."
+  },
+  "com.akylas.documentscanner": {
+    "ru": "Сканирование документов с OCR и распознаванием карточек. Сканируйте документы, квитанции и визитные карточки. Локальное сканирование и управление документами.",
+    "en": "Document scanning with OCR and card recognition. Scan documents, receipts, and business cards. Offline scanning and document management.",
+    "tr": "OCR ve kart tanıma ile belge taraması. Belgeleri, makbuzları ve kartvizitlari tarayın. Çevrimdışı tarama ve belge yönetimi.",
+    "uz": "OCR va karta tanish bilan hujjat skanerlash. Hujjatlar, cheklar va vizitka kartalarni skaner. Oflayn skanerlash va hujjat boshqaruvi."
+  },
+  "com.hotstuff": {
+    "ru": "Менеджер домашней инвентаризации для отслеживания предметов домашнего обихода и ценностей. Управление инвентарем вне сети без зависимости облака. Организуйте ваши вещи с помощью подробного отслеживания.",
+    "en": "Home inventory manager for tracking household items and valuables. Offline inventory management without cloud dependency. Organize your possessions with detailed tracking.",
+    "tr": "Ev eşyaları ve değerli eşyaları takip etmek için ev envanteri yöneticisi. Bulut bağımlılığı olmayan çevrimdışı envanter yönetimi. İmlerin ayrıntılı takip ile organize edin.",
+    "uz": "Uy narsalari va qadrli buyumlari kuzatish uchun uy inventar menejer. Bulut bog'liqligisiz oflayn inventar boshqaruvi. Narsalaringizni batafsil kuzatish bilan tashkil qiling."
+  },
+  "de.yukigasai.obsidiantodowidget": {
+    "ru": "Виджет Android для отображения списков дел Obsidian markdown. Показывайте ваши задачи на главном экране из Obsidian хранилища. Виджет производительности для пользователей Obsidian.",
+    "en": "Android widget for displaying Obsidian markdown to-do lists. Show your tasks on the home screen from Obsidian vault. Productivity widget for Obsidian users.",
+    "tr": "Obsidian markdown yapılacaklar listelerini görüntülemek için Android widget. Ana ekrandan Obsidian kasanızdan görevlerinizi gösterin. Obsidian kullanıcıları için üretkenlik widget.",
+    "uz": "Obsidian markdown qilish kerak ro'yxatlari ko'rsatish uchun Android widget. Obsidian vault-dan asosiy ekranda vazifalarni ko'rsating. Obsidian foydalanuvchilari uchun samaradorlik widget."
+  },
+  "org.p1graph.pitchvis": {
+    "ru": "Анализатор музыкальной высоты с визуализацией в реальном времени. Анализируйте аудиосигналы и просматривайте частоты высоты. Аудиоинструмент для музыкантов и студентов музыки.",
+    "en": "Musical pitch analyzer with real-time visualization. Analyze audio signals and view pitch frequencies. Audio tool for musicians and music students.",
+    "tr": "Gerçek zamanlı görselleştirme ile müzik tonu analiz aracı. Ses sinyallerini analiz edin ve perde frekanslarını görüntüleyin. Müzisyenler ve müzik öğrencileri için ses aracı.",
+    "uz": "Real-time visualizatsiya bilan musiqaviy pitch tahlilchisi. Ovoz signallarini tahlil qiling va pitch chastotalarini ko'ring. Musiqachilar va musiqaviy talabalar uchun ovoz vositasi."
+  },
+  "com.vaishnavmandlik.librestatus": {
+    "ru": "Сохраняйте обновления статуса WhatsApp в режиме офлайн без интернета или объявлений. Приложение с открытым исходным кодом без трекеров. Средство сохранения статуса, ориентированное на конфиденциальность.",
+    "en": "Save WhatsApp status updates offline without internet or ads. Open-source app with no trackers. Privacy-focused status saver.",
+    "tr": "WhatsApp durumu güncellemelerini internet veya reklamlar olmadan çevrimdışı olarak kaydedin. Trackerlar olmayan açık kaynak uygulama. Gizlilik odaklı durum kaydedici.",
+    "uz": "WhatsApp holat yangilanishlarini internet yoki reklamalsiz oflayn saqlang. Trackerlar siz ochiq manbai ilovasi. Maxfiylik markazlashtirilgan holat saqlayuvchi."
+  },
+  "com.tharunbirla.librecuts": {
+    "ru": "Редактор видео с открытым исходным кодом для Android с простотой и эффективностью. Редактируйте видео с помощью основных инструментов и эффектов. Бесплатное редактирование видео на устройстве Android.",
+    "en": "Open-source video editor for Android with simplicity and efficiency. Edit videos with essential tools and effects. Free video editing on your Android device.",
+    "tr": "Android için basitlik ve verimlilik ile açık kaynak video editörü. Temel araçlar ve efektler ile videoları düzenleyin. Android cihazınızda ücretsiz video düzenleme.",
+    "uz": "Android uchun soddalik va samaradorlik bilan ochiq manbai video tahrirchi. Asosiy asboblar va effektlar bilan videolarni tahrirlang. Android qurilmasida bepul video tahrirlash."
+  },
+  "com.safrone.trackexploder": {
+    "ru": "Извлекайте и переделывайте обучающие треки барбершоп квартетов. Изолируйте голосовые партии и независимо меняйте темп. Аудиоинструмент для певцов барбершопа.",
+    "en": "Extract and remix barbershop quartet learning tracks. Isolate voice parts and change tempo independently. Audio tool for barbershop singers.",
+    "tr": "Barbershop dörtlüsü öğrenme parçalarını çıkarın ve remix edin. Ses parçalarını izole edin ve tempoyu bağımsız olarak değiştirin. Barber dükkanı şarkıcıları için ses aracı.",
+    "uz": "Barbershop to'rtlikni o'qitish yo'llarni chiqarish va remix qiling. Ovoz qismlarini izole qiling va tempoyu mustaqil o'zgartiring. Barbershop qo'shiqlarilar uchun ovoz vositasi."
+  },
+  "com.antivocale.app": {
+    "ru": "Транскрипция голосовых сообщений на устройстве без требования интернета. Транскрибируйте голосовые заметки в текст офлайн. Инструмент преобразования голоса в текст, ориентированный на конфиденциальность.",
+    "en": "On-device voice message transcription with no internet required. Transcribe voice notes to text offline. Privacy-focused voice-to-text tool.",
+    "tr": "İnternet gerektirmediği cihazda sesli mesaj dökümü. Sesli notları çevrimdışı olarak metne dökümü yapın. Gizlilik odaklı konuşma-to-metin aracı.",
+    "uz": "Internet talab qilmaydigan qurilmada ovoz xabari transkripsiyasi. Ovoz eslatmalarini oflayn matn-ga transkript qiling. Maxfiylik markazlashtirilgan ovoz-matn vositasi."
+  },
+  "com.googol.android.apps.oneplayer": {
+    "ru": "Универсальный медиаплеер со всеми аудио- и видеоформатами. Воспроизведение вне сети с дизайном offline-first. Универсальный медиаплеер для музыки и видео.",
+    "en": "All-in-one media player supporting all audio and video formats. Offline playback with offline-first design. Universal media player for music and videos.",
+    "tr": "Tüm ses ve video formatlarını destekleyen hepsi-bir-arada medya oynatıcı. Çevrimdışı oynatma çevrimdışı tasarımla. Müzik ve videolar için evrensel medya oynatıcı.",
+    "uz": "Barcha ovoz va video formatlarni qo'llab-quvvatchi hamma-bir-yerde media player. Oflayn oynatish oflayn-birinchi dizayn bilan. Musiqaviy va videolar uchun universal media player."
+  },
+  "com.phnem.vetro": {
+    "ru": "Менеджер списка просмотра для фильмов, сериалов и аниме. Сохраняйте и организуйте библиотеку развлечений локально. Трекер личного развлечения.",
+    "en": "Watchlist manager for movies, TV shows, and anime. Store and organize your entertainment library locally. Personal entertainment tracker.",
+    "tr": "Filmler, TV şovları ve anime için izlenecek liste yöneticisi. Eğlence kitaplığınızı yerel olarak saklayın ve organize edin. Kişisel eğlence tracker.",
+    "uz": "Filmlar, TV shoulari va anime uchun ko'rish ro'yxati menejer. Eglantirish kutubhonangsini mahalliy saqlang va tashkil qiling. Shaxsiy eglantirish kuzatuvchisi."
+  },
+  "com.chmouel.noisetimer": {
+    "ru": "Генератор успокаивающих белых, розовых и коричневых шумов с таймером сна. Автономные звуки окружающей среды для релаксации и сна. Минимальное приложение для открытого исходного кода.",
+    "en": "Calming white, pink, and brown noise generator with sleep timer. Offline ambient sounds for relaxation and sleep. Minimal, private open-source noise app.",
+    "tr": "Uyku zamanlayıcılı rahatlatan beyaz, pembe ve kahverengi gürültü oluşturucu. Relaksasyon ve uyku için çevrimdışı ortam sesleri. Minimal, özel açık kaynak gürültü uygulaması.",
+    "uz": "Uyqu taymerli tinchlik beradigan oq, pushti va jigarrang shovqin generatori. Relaksatsiya va uyqu uchun oflayn ambient seslari. Minimal, shaxsiy ochiq manbai shovqin ilovasi."
+  },
+  "com.biketrackd.app": {
+    "ru": "Велосипедный спидометр и GPS-трекер с офлайн-картами. Записывайте велосипедные поездки с экспортом GPX и отображением погоды. Приложение для тренировки и отслеживания велосипедов.",
+    "en": "Cycling speedometer and GPS tracker with offline maps. Record bike rides with GPX export and weather display. Bicycle training and tracking app.",
+    "tr": "Çevrimdışı haritalarla dönersel hız saati ve GPS izleyici. GPX dışa aktarma ve hava durumu görüntülemesi ile bisiklet gezilerini kaydedin. Bisiklet eğitimi ve takip uygulaması.",
+    "uz": "Oflayn xaritalar bilan velosiped speedometri va GPS kuzatuvchi. GPX eksporti va hava holati ko'rsatilishi bilan velosiped chiqishlarini yozing. Velosiped o'qitish va kuzatish ilovasi."
+  },
+  "studip_uni_passau.femtopedia.de.unipassaustudip": {
+    "ru": "Интеграция StudIP для студентов Пассауского университета. Получайте доступ к учебным материалам и ресурсам университета. Приложение университета на базе Flutter.",
+    "en": "StudIP integration for University of Passau students. Access course materials and university resources. Flutter-based university app.",
+    "tr": "Passau Üniversitesi öğrencileri için StudIP entegrasyonu. Kurs materyallerine ve üniversite kaynaklarına erişin. Flutter tabanlı üniversite uygulaması.",
+    "uz": "Passau Universiteti talabalar uchun StudIP integratsiyasi. Kurs materiallari va universitet resurslariga kirish. Flutter asosidagi universitet ilovasi."
+  },
+  "com.demosten.srednabg": {
+    "ru": "Трекер камер контроля скорости для зон контроля секции Болгарии. Мониторьте ограничения среднего уровня в реальном времени. Приложение навигации для болгарских водителей.",
+    "en": "Speed camera tracker for Bulgaria's section control zones. Monitor average speed limits in real-time. Navigation app for Bulgarian drivers.",
+    "tr": "Bulgaristan'ın bölüm kontrol bölgeleri için hız kamerası izleyici. Ortalama hız limitlerini gerçek zamanlı olarak izleyin. Bulgar sürücüleri için navigasyon uygulaması.",
+    "uz": "Bolgaristanning bo'lim kontroli zonalar uchun tezlik kamera kuzatuvchi. O'rtacha tezlik chegaralarini real-time-da kuzating. Bolgar haydovchilari uchun navigatsiya ilovasi."
+  },
+  "ca.voiditswarranty.roadtripradar": {
+    "ru": "Дисплей погодного радара для дорожных поездок, показывающий бури впереди. Отслеживайте осадки как системы погоды самолётов. Инструмент планирования путешествий для водителей.",
+    "en": "Weather radar display for road trips showing storms ahead. Track precipitation like airplane weather systems. Travel planning tool for drivers.",
+    "tr": "Yol gezileri için öncede fırtınaları gösteren hava radarı görüntüleme. Uçak hava sistemleri gibi yağışları takip edin. Sürücüler için seyahat planlama aracı.",
+    "uz": "Yo'l sayohatlar uchun oldinda bo'ronlarni ko'rsatadigan ob-hava radar ko'rsatilishi. Samolyot ob-hava tizimlari kabi yog'un yag'larni kuzating. Haydovchilar uchun sayohat rejalashtirish vositasi."
+  },
+  "trailence.org": {
+    "ru": "Приложение навигации троп и пеших прогулок с офлайн-картами. Исследуйте маршруты пеших прогулок и открытые тропы. Инструмент навигации для туристов и любителей активного отдыха.",
+    "en": "Trail and hiking navigation app with offline maps. Explore hiking routes and outdoor trails. Navigation tool for hikers and outdoor enthusiasts.",
+    "tr": "Çevrimdışı haritalarla iz ve yürüyüş navigasyon uygulaması. Yürüyüş rotalarını ve açık hava izlerini keşfedin. Yürüyüşçüler ve açık hava meraklıları için navigasyon aracı.",
+    "uz": "Oflayn xaritalar bilan yo'l va peshaviy sayohat navigatsiya ilovasi. Peshaviy sayohat yo'llarini va ochiq hava yo'llarini o'rganing. Peshaviy sayohatchilar va ochiq hava muxbirlar uchun navigatsiya vositasi."
+  },
+  "com.kylecorry.trail_sense": {
+    "ru": "Помощь при выживании в дикой природе, используя датчики телефона для навигации и ориентации. Компас, клинометр и мониторинг погоды. Инструмент выживания на открытом воздухе для туристов.",
+    "en": "Wilderness survival aid using phone sensors for navigation and orientation. Compass, inclinometer, and weather monitoring. Outdoor survival tool for hikers.",
+    "tr": "Navigasyon ve oryantasyon için telefon sensörleri kullanan vahşi hayat hayatta kalma yardımı. Pusula, eğim ölçer ve hava durumu izlemesi. Yürüyüşçüler için açık hava hayatta kalma aracı.",
+    "uz": "Navigatsiya va orientatsiya uchun telefon sensorlarini ishlatadigan vahshi hayot omon qolish yordami. Kompas, clinometer va ob-hava monitoringi. Peshaviy sayohatchilar uchun ochiq hava omon qolish vositasi."
+  },
+  "org.nitri.opentopo": {
+    "ru": "Средство просмотра OpenTopoMap для Android с отображением топографических карт. Исследуйте данные высоты и визуализацию местности. Инструмент картографирования для туристов и геологов.",
+    "en": "OpenTopoMap viewer for Android displaying topographic maps. Explore elevation data and terrain visualization. Mapping tool for hikers and geologists.",
+    "tr": "Topografik haritalar görüntüleyen Android için OpenTopoMap görüntüleyici. Yükseklik verileri ve arazi görselleştirmesini keşfedin. Yürüyüşçüler ve jeologlar için haritalama aracı.",
+    "uz": "Topografik xaritalarni ko'rsatadigan Android uchun OpenTopoMap ko'ruvchi. Balandlik ma'lumotlari va terrain visualizatsiyasini o'rganing. Peshaviy sayohatchilar va geologlar uchun xarita vositasi."
+  },
+  "net.vonforst.evmap": {
+    "ru": "Найдите станции зарядки электромобилей на карте Android. Интеграция с базами данных GoingElectric и OpenChargeMap. Приложение навигации для водителей EV.",
+    "en": "Find electric vehicle charging stations on Android map. Integration with GoingElectric and OpenChargeMap databases. Navigation app for EV drivers.",
+    "tr": "Android haritasında elektrikli araç şarj istasyonlarını bulun. GoingElectric ve OpenChargeMap veritabanları ile entegrasyon. EV sürücüleri için navigasyon uygulaması.",
+    "uz": "Android xaritasida elektr mashinasining quvvat berilish stantsiyalarini toping. GoingElectric va OpenChargeMap ma'lumotlar bazalarini integratsiya. EV haydovchilari uchun navigatsiya ilovasi."
+  },
+  "de.storchp.opentracks.osmplugin.offline": {
+    "ru": "Плагин панели инструментов OSM для трекера GPS-активности OpenTracks. Автономные карты для отслеживания тренировок и деятельности. Спутник навигации для OpenTracks.",
+    "en": "OSM dashboard plugin for OpenTracks GPS activity tracker. Offline maps for tracking workouts and activities. Navigation companion for OpenTracks.",
+    "tr": "OpenTracks GPS aktivite izleyici için OSM pano plugin'i. Antrenmanları ve aktiviteleri takip etmek için çevrimdışı haritalar. OpenTracks için navigasyon yardımcısı.",
+    "uz": "OpenTracks GPS aktivlik kuzatuvchisi uchun OSM pano plaginasi. Mashqlar va faoliyatlarni kuzatish uchun oflayn xaritalar. OpenTracks uchun navigatsiya yordamchisi."
+  },
+  "info.zamojski.soft.towercollector": {
+    "ru": "Внесите свой вклад в OpenCellID и BeaconDB, собирая данные о вышках сотовой связи. Отобразите инфраструктуру мобильной сети. Утилита картографирования сети с краудсорсингом.",
+    "en": "Contribute to OpenCellID and BeaconDB by collecting cell tower data. Map mobile network infrastructure. Crowdsourced network mapping utility.",
+    "tr": "Hücre kulesi verilerini toplayarak OpenCellID ve BeaconDB'ye katkıda bulunun. Mobil ağ altyapısını harita yapın. Kitle kaynağı ağ haritalama yardımcı programı.",
+    "uz": "Selulyar minora ma'lumotlarini yig'ib OpenCellID va BeaconDB-ga hissa qo'shing. Mobil tarmoq infratuzilmasini xarita. Turli xil tarmoq xarita vositasi."
+  },
+  "cgeo.geocaching": {
+    "ru": "Мощное приложение для геокэшинга для поиска и логирования кэшей по всему миру. Управление кэшем вне сети и поддержка изображений спойлеров. Необходимый инструмент для геокэшеров.",
+    "en": "Powerful geocaching app for finding and logging cache locations worldwide. Offline cache management and spoiler image support. Essential tool for geocachers.",
+    "tr": "Dünya çapında önbellek konumlarını bulmak ve kaydetmek için güçlü geocaching uygulaması. Çevrimdışı önbellek yönetimi ve spoiler görüntüsü desteği. Geocachers için gerekli araç.",
+    "uz": "Dunyo bo'ylab cache joylashlarini topish va yozish uchun kuchli geocaching ilovasi. Oflayn cache boshqaruvi va spoiler rasm qo'llab-quvvatlashi. Geocachers uchun zarur vosita."
+  },
+  "dev.kerballone.spamblocker": {
+    "ru": "Блокируйте спам-вызовы, SMS-сообщения и уведомления на Android. Блокировщик звонков и SMS с фильтрацией уведомлений. Инструмент конфиденциальности и безопасности для сокращения нежелательной коммуникации.",
+    "en": "Block spam calls, SMS messages, and notifications on Android. Call and SMS blocker with notification filtering. Privacy and safety tool for reducing unwanted communications.",
+    "tr": "Android'de spam çağrıları, SMS mesajlarını ve bildirimleri engelleyin. Bildirim filtreleme ile çağrı ve SMS engelleme aracı. İstenmeyen iletişimi azaltmak için gizlilik ve güvenlik aracı.",
+    "uz": "Android'da spam chaqiriqlarni, SMS xabarlarni va bildirishnomalarni blokirovka qiling. Bildirishnoma filtrlash bilan chaqiriq va SMS blokirovka. Noxohlash aloqasini kamaytirish uchun maxfiylik va xavfsizlik vositasi."
+  },
+  "com.dresos.dressecurecomms": {
+    "ru": "Защищённый обмен сообщениями de-Googled без Firebase или трекеров. Приватный обмен сообщениями, звонки и контакты. Офлайн-коммуникация без служб Google.",
+    "en": "De-Googled secure messaging with no Firebase or trackers. Private messaging, calls, and contacts. Offline-capable communications without Google services.",
+    "tr": "Firebase veya trackerlar olmayan de-Googled güvenli mesajlaşma. Özel mesajlaşma, aramalar ve kişiler. Google hizmetleri olmadan çevrimdışı iletişim.",
+    "uz": "Firebase yoki trackerlar siz de-Googled xavfsiz xabar. Shaxsiy xabar, chaqiriqlar va kontaktlar. Google xizmatlari siz oflayn aloqa."
+  },
+  "com.harshalbhatia.whatsopen": {
+    "ru": "Откройте чаты WhatsApp с любым номером телефона без сохранения контакта. Быстрый доступ для начала разговоров. Утилита обмена сообщениями для удобного контакта.",
+    "en": "Open WhatsApp chats with any phone number without saving contact. Quick access to start conversations. Messaging utility for reaching contacts easily.",
+    "tr": "Kişi kaydetmeden herhangi bir telefon numarası ile WhatsApp sohbetlerini açın. Konuşmaları başlamak için hızlı erişim. Kolay iletişim kurmak için mesajlaşma yardımcı programı.",
+    "uz": "Kontakt saqlamsdan istalgan telefon raqami bilan WhatsApp chatlari oching. Suhbatlarni boshlash uchun tez kirish. Kontaktlarni osonlikcha ulanish uchun xabar vositasi."
   }
 }
