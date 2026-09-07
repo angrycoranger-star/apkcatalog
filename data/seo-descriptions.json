@@ -226,5 +226,113 @@
     "en": "MicroPython IDE for Android development. Write and run Python code directly on your device. Embedded systems and IoT programming environment for hobbyists and developers.",
     "tr": "Android geliştirme için MicroPython IDE. Python kodunu doğrudan cihazınızda yazın ve çalıştırın. Hobicileri ve geliştiriciler için gömülü sistemler ve IoT programlama ortamı.",
     "uz": "Android rivojlantirish uchun MicroPython IDE. Python kodini bevosita qurilmasida yozing va ishlab qo'ying. Hobbichilar va ishlab chiqaruvchilar uchun o'rnatilgan tizimlar va IoT dasturlash muhiti."
+  },
+  "net.shaytech.groceries": {
+    "ru": "Отслеживайте покупки продуктов и управляйте списками покупок. Мониторьте расходы на продукты и организуйте приемы пищи с помощью умной категоризации. Держите свою кладовую в порядке и сократите пищевые отходы с помощью интеллектуального отслеживания продуктов.",
+    "en": "Track grocery purchases and manage shopping lists. Monitor food expenses and organize meals with smart categorization. Keep your pantry organized and reduce food waste with intelligent grocery tracking.",
+    "tr": "Продовольственные покупки отслеживайте и списки покупок управляйте. Gıda harcamalarınızı izleyin ve akıllı kategorileştirme ile öğünleri organize edin. Kilerinizdeki ürünleri organize tutun ve akıllı alışveriş izleme ile gıda atıklarını azaltın.",
+    "uz": "Oziq-ovqat xaridlarini kuzating va xaridor ro'yxatlarini boshqaring. Oziq-ovqat xarajatlarini kuzating va aqlli kategoriyalashtirishni bilan ovqatlarni tashkil qiling. Ombor-qaramodan tuzilgan va aqlli oziq-ovqat kuzatish bilan oziq-ovqat chegirmasini kamaytiring."
+  },
+  "com.lorenzovainigli.foodexpirationdates": {
+    "ru": "Отслеживайте даты истечения срока действия пищи и предотвращайте пищевые отходы. Узнайте, когда ваша пища истекает, и получайте напоминания до того, как предметы испортятся. Умное отслеживание сроков для экономии денег и улучшения управления кухней.",
+    "en": "Track food expiration dates and prevent food waste. Know when your food expires and get reminders before items go bad. Smart expiration tracking to save money and improve kitchen management.",
+    "tr": "Gıda son kullanma tarihleri takip edin ve gıda atıklarını önleyin. Gıdanız ne zaman biteceğini bilin ve öğeler bozulmadan önce hatırlatıcılar alın. Para tasarrufu ve mutfak yönetimini iyileştirmek için akıllı son tarih takibi.",
+    "uz": "Oziq-ovqat tugash sanalarini kuzating va oziq-ovqat chegirmasini oldini oling. Sizning oziq-ovqatingiz qachon tugashini bilib oling va mahsulotlar yomonlashishidan oldin reminder olish. Pul tejash va oshxona boshqaruvini yaxshilash uchun aqlli tugash sanasi kuzatish."
+  },
+  "org.gibsonify.gibsonify": {
+    "ru": "Собирайте данные о питании, используя метод Гибсона для оценки рациона. Отслеживайте питательные вещества, анализируйте пищевые привычки и улучшайте пищевые выборы. Необходимо для студентов питания, диетологов и исследователей здоровья.",
+    "en": "Collect nutritional data using Gibson's method for dietary assessment. Track nutrients, analyze food patterns, and improve dietary choices. Essential for nutrition students, dietitians, and health researchers.",
+    "tr": "Gibson yöntemi kullanarak diyet değerlendirmesi için beslenme verilerini toplayın. Besinleri takip edin, gıda kalıplarını analiz edin ve diyetsel seçimleri geliştirin. Beslenme öğrencileri, diyetisyenler ve sağlık araştırmacıları için gereklidir.",
+    "uz": "Dieta baholash uchun Gibson usulidan foydalanib oziq-ovqat ma'lumotlarini yig'ing. Oziq-ovqatlarni kuzating, oziq-ovqat qoliplarini tahlil qiling va oziq-ovqat tanlovlarini yaxshilang. Oziq-ovqat talabalar, dietologlar va sog'lik tadqiqotchilari uchun zarur."
+  },
+  "com.yepgoryo.EggReturnsHome": {
+    "ru": "Помогите яйцу найти дорогу домой в этой очаровательной игре платформер. Простой, но увлекательный геймплей с яркой графикой. Восхитительная инди-игра, идеальная для случайных игр и всех возрастов.",
+    "en": "Help an egg find its way home in this charming platformer game. Simple yet engaging gameplay with colorful graphics. A delightful indie game perfect for casual gaming and all ages.",
+    "tr": "Bir yumurtanın bu büyüleyici platformer oyununda eve gitmesine yardım edin. Renkli grafikler ile basit ama ilgi çekici oyun oyunu. Rasgele oyunlar ve tüm yaşlar için mükemmel bir harika bağımsız oyun.",
+    "uz": "Tuxumni bu o'zini-qizg'aling platformer o'yinda uyga topshirishga yordam bering. Rang-barang grafikasi bilan oddiy lekin jalb qiluvchi o'yun o'yini. Tasodifiy o'yinlar va barcha yoshlar uchun ajoyib independent o'yin."
+  },
+  "com.rama.chipdefense_copper": {
+    "ru": "Защитите свой микропроцессор в этой игре защиты башни. Стратегическая игра с темой компьютерного чипа. Увлекательный геймплей защиты башни с системами обновления и сложными уровнями.",
+    "en": "Defend your microprocessor in this tower defense game. Strategy game with a computer chip theme. Engaging tower defense gameplay with upgrade systems and challenging levels.",
+    "tr": "Bu kule savunma oyununda mikroişlemcinizi koruyun. Bilgisayar çipi temasıyla strateji oyunu. Yükseltme sistemleri ve zorluk seviyeleri ile ilgi çekici kule savunma oyun oyunu.",
+    "uz": "Ushbu minora himoya o'yinida mikroprotsessoringizni himoya qiling. Kompyuter chippsi mavzusi bilan strategiya o'yini. Upgrade tizimlari va qiyin darajalar bilan jalb qiluvchi minora himoya o'yuni o'yini."
+  },
+  "com.wordtracer.app": {
+    "ru": "Решайте кроссворд-подобные головоломки со словами. Найдите скрытые слова и расширьте свой словарный запас. Мозговые головоломки со словами, которые бросают вызов и развлекают любителей слов.",
+    "en": "Solve crossword-like word puzzle games. Find hidden words and build your vocabulary. Brain-teasing word puzzles that challenge and entertain word lovers.",
+    "tr": "Çapraz bulmaca benzeri kelime oyunlarını çözün. Gizli kelimeleri bulun ve kelime dağarcığınızı geliştirin. Kelime severlerle karşı koyan ve eğlendiren beyin zorlayan kelime bulmacaları.",
+    "uz": "Crossword-o'xshash so'z jumboqlari yechish. Yashirin so'zlarni toping va so'z to'plami rivojlantirilish. So'z sevuvchilar bilan qarama-qarshi koying va qizikla etadigan miyani o'tkazgan so'z jumboqlari."
+  },
+  "com.itsfrz.tictactoe": {
+    "ru": "Играйте в классическую игру Крестики-нолики на устройстве Android. Бросьте вызов ИИ-противникам или играйте с друзьями. Вневременная стратегическая игра, которая быстро играется и легко учится.",
+    "en": "Play the classic Tic Tac Toe game on your Android device. Challenge AI opponents or play with friends. Timeless strategy game that's quick to play and easy to learn.",
+    "tr": "Android cihazınızda klasik Tic Tac Toe oyununu oynayın. AI rakiplerine karşı gelin veya arkadaşlarınızla oynayın. Hızlı oynanabilen ve öğrenilmesi kolay zamansız strateji oyunu.",
+    "uz": "Android qurilmasida klassik Tic Tac Toe o'yini o'ynang. AI raqiblariga karshi chiqing yoki do'stlar bilan o'ynang. Tez o'ynanishi va osongina o'rganish mumkin bo'lgan vaqtsiz strategiya o'yini."
+  },
+  "com.unciv.app": {
+    "ru": "Испытайте Civilization V, переосмысленную для мобильных приложений с помощью Unciv. Пошаговая стратегическая игра с цивилизациями, ресурсами и деревьями технологий. Полный геймплей Civ V адаптирован для Android без рекламы или платежных стен.",
+    "en": "Experience Civilization V reimagined for mobile with Unciv. Turn-based strategy game with civilizations, resources, and technology trees. Full Civ V gameplay adapted for Android with no ads or paywalls.",
+    "tr": "Unciv ile mobil için yeniden tasarlanan Civilization V'yi deneyimleyin. Uygarlıklar, kaynaklar ve teknoloji ağaçları ile sıra tabanlı strateji oyunu. Reklamı veya ödeme duvarı olmadan Android için uyarlanan tam Civ V oyun oyunu.",
+    "uz": "Unciv bilan mobil uchun qayta ishlab chiqilgan Civilization V-ni sinab ko'ring. Tsivilizatsiya, manba va texnologiya daraxtlari bilan navbatma-navbat strategiya o'yini. Reklama yoki to'lov devori siz Android uchun moslashtirish to'liq Civ V o'yun o'yuni."
+  },
+  "com.dede.android_eggs": {
+    "ru": "Собирайте скрытые пасхальные яйца из системы Android и приложений. Откройте для себя секретные функции и скрытые шутки. Забавная коллекция сюрпризов системы Android для любознательных пользователей.",
+    "en": "Collect hidden Easter eggs from Android system and apps. Discover secret features and hidden jokes. Fun collection of Android system surprises for curious users.",
+    "tr": "Android sisteminden ve uygulamalarından gizli Paskalya yumurtalarını toplayın. Gizli özellikler ve gizli şakaları keşfedin. Meraklı kullanıcılar için Android sistem sürprizlerinin eğlenceli koleksiyonu.",
+    "uz": "Android tizimi va ilovalarga yashirin Pasxa tuxumlarini yig'ing. Maxfiy xususiyatlar va yashirin hazilllarni kashf qiling. Qiziqarli foydalanuvchilar uchun Android tizimi surprizlarining qiziqarli to'plami."
+  },
+  "de.chadenas.cpudefense": {
+    "ru": "Игра защиты башни с темой микропроцессора. Постройте и обновите защиту, чтобы защитить свой ЦП. Стратегический геймплей с уникальной эстетикой оборудования и сложными волнами.",
+    "en": "Tower defense game with a microprocessor theme. Build and upgrade defenses to protect your CPU. Strategic gameplay with unique hardware aesthetic and challenging waves.",
+    "tr": "Mikroişlemci temasıyla kule savunma oyunu. Çekinizi korumak için savunmaları inşa edin ve yükseltin. Benzersiz donanım estetik ve zorluk dalgaları ile stratejik oyun oyunu.",
+    "uz": "Mikroprotsessor mavzusi bilan minora himoya o'yini. Sizning CPU-ingizni himoya qilish uchun muddaatlarni qurilish va yuksalting. Noyob apparat estitikasi va qiyin to'lqinlari bilan strategiya o'yun o'yuni."
+  },
+  "io.github.divverent.aaaaxy": {
+    "ru": "Исследуйте невозможные пространства в этом нелинейном 2D-платформере-головоломке. Пересекайте головокружительные уровни с творческим дизайном головоломок. Инновационный платформер, бросающий вызов восприятию и пространственному мышлению.",
+    "en": "Explore impossible spaces in this nonlinear 2D puzzle platformer. Traverse mind-bending levels with creative puzzle design. Innovative platformer challenging perception and spatial reasoning.",
+    "tr": "Bu doğrusal olmayan 2D bulmaca platformer oyununda imkansız alanlara keşfet. Yaratıcı bulmaca tasarımı ile zihin kırıcı seviyeleri geçin. Algılaşma ve uzamsal akıl yürütme mücadelesi veren yenilikçi platformer.",
+    "uz": "Ushbu nolinear 2D bulmaca platformer o'yinida mumkin bo'lmagan bo'shliqlarni o'rganing. Ijodiy bulmaca dizayni bilan aql buzadigan darajalarni kesib o'tish. Idrakning va fazoviy tafakkur bilan kurashayotgan innovative platformer."
+  },
+  "org.andstatus.game2048": {
+    "ru": "Играйте в 2048, увлекательную головоломку с объединением чисел. Объедините плитки, чтобы достичь 2048 и побить высокие баллы. Классическая игра-головоломка со скользящими плитками, доступная на Android, созданная на современном игровом движке.",
+    "en": "Play 2048, the addictive number-combining puzzle game. Combine tiles to reach 2048 and beat high scores. Classic sliding puzzle game available on Android built with modern game engine.",
+    "tr": "2048, bağımlılık yapan sayı birleştirme oyununu oynayın. Kutucukları 2048'e ulaşmak ve yüksek puanları yenmek için birleştirin. Android'de bulunan modern oyun motoru ile oluşturulan klasik kayma bulmaca oyunu.",
+    "uz": "2048 qo'shishi mumkin bo'lgan raqam bulmacasi o'yini o'ynang. Plitka 2048'ga borib yuqori ballarni yengish uchun birlashtiring. Android'da mavjud bo'lgan zamonaviy o'yin mexanizmi bilan qurilgan klassik siljish bulmaca o'yini."
+  },
+  "com.blockdrop.game": {
+    "ru": "BlockDrop — кроссплатформенная игра-головоломка с падающими блоками. Отзывчивые элементы управления с несколькими темами и отслеживанием баллов. Классическая игра-головоломка, созданная с помощью Flutter для плавной производительности мобильных устройств.",
+    "en": "BlockDrop - cross-platform falling block puzzle game. Responsive controls with multiple themes and score tracking. Casual puzzle game built with Flutter for smooth mobile performance.",
+    "tr": "BlockDrop - çapraz platform düşen blok bulmaca oyunu. Birden fazla tema ve puan takibi ile duyarlı kontroller. Mobil performans iyiliği için Flutter ile oluşturulan casual bulmaca oyunu.",
+    "uz": "BlockDrop - ko'p platformli tushadigan blok bulmaca o'yini. Bir nechta temalar va ball kuzatish bilan sezgili kontroller. Mobil samaradorlikning silliqliyi uchun Flutter bilan qurilgan casual bulmaca o'yini."
+  },
+  "com.github.msx80.doorsofdoom": {
+    "ru": "Войдите в Doors of Doom — сложную экшн-игру с исследованиями. Навигируйте по опасным коридорам и таинственным камерам. Вдохновленный ретро подземелье-краулер со стратегическим боем.",
+    "en": "Enter Doors of Doom - a challenging action game with exploration. Navigate through dangerous corridors and mysterious chambers. Retro-inspired dungeon crawler with strategic combat.",
+    "tr": "Doom Kapıları - keşif ile zorlayıcı aksiyon oyunu girin. Tehlikeli koridorlar ve gizemli odaları gezin. Stratejik savaş ile retro-ilhamlı zindan keşifçi.",
+    "uz": "Doom Qapilari - tadqiqot bilan kuchli aksiyon o'yini kirish. Xavfli koridorlar va sirli kameralar orqali navigatsiya. Strategik kurash bilan retro-ilhomlanmish dungeon keşfchi."
+  },
+  "com.tailgunnerx.piccollage": {
+    "ru": "Создавайте красивые фотоколлажи и произведения смешанной техники. Объедините несколько фотографий с художественными эффектами и макетами. Творческий инструмент редактирования фотографий для создания персонализированного визуального искусства.",
+    "en": "Create beautiful photo collages and mixed media artwork. Combine multiple photos with artistic effects and layouts. Creative photo editing tool for making personalized visual art.",
+    "tr": "Güzel fotoğraf kolajları ve karma ortam sanat eserleri oluşturun. Sanatsal efektler ve düzenler ile birden fazla fotoğrafı birleştirin. Kişiselleştirilmiş görsel sanat yapmak için yaratıcı fotoğraf düzenleme aracı.",
+    "uz": "Qo'shimcha fotosuratlar kollanji va aralash media san'at asarlari yarating. Badiiy effektlar va tartiblar bilan bir nechta rasmlarni birlashtiring. Shaxsiy visual san'at yaratish uchun ijodiy fotosuratni tahrirlash vositasi."
+  },
+  "art.tessell.editor": {
+    "ru": "Создавайте сложные мозаики полигонов с помощью интерактивного редактора Tessella. Генерируйте геометрические узоры и исследуйте математику мощения. Профессиональный инструмент проектирования мозаики для художников и математиков.",
+    "en": "Create intricate polygon tessellations with Tessella interactive editor. Generate geometric art patterns and explore tiling mathematics. Professional tessellation design tool for artists and mathematicians.",
+    "tr": "Tessella interaktif editörü ile karmaşık çokgen tessellasyonları oluşturun. Geometrik sanat desenleri oluşturun ve döşeme matematiğini keşfedin. Sanatçılar ve matematikçiler için profesyonel tessellation tasarım aracı.",
+    "uz": "Tessella interaktiv tahrirchisi bilan murakkab ko'pburchak tessellatsiyalarini yarating. Geometrik san'at naqshlarini yarating va plitkani matematikasini o'rganing. Rassomlar va matematiklar uchun professional tessellation dizayn vositasi."
+  },
+  "com.guillot.phylactere": {
+    "ru": "Добавляйте облачки с речью комиксов к своим фотографиям и создавайте эффекты мультфильмов. Превратите обычные изображения в комические полосы с диалогом. Забавный инструмент редактирования фотографий для создания юмористических визуальных историй.",
+    "en": "Add comic speech bubbles to your photos and create cartoon effects. Transform ordinary pictures into comic strips with dialogue. Fun photo editing tool for creating humorous visual stories.",
+    "tr": "Fotoğraflarınıza çizgi roman konuşma baloncukları ekleyin ve karikatür efektleri oluşturun. Sıradan resimleri diyaloglu çizgi roman şeritlerine dönüştürün. Mizahi görsel hikayeler oluşturmak için eğlenceli fotoğraf düzenleme aracı.",
+    "uz": "Rasmlaringizga komiks nutq o'pkalari qo'shing va multfilm effektlarini yarating. Oddiy rasmlarni dialogli komiks chiziqlariga aylantiring. Hazilliy visual hikoyalar yaratish uchun qiziqarli fotosuratni tahrirlash vositasi."
+  },
+  "com.tailgunnerx.frameextractor": {
+    "ru": "Извлекайте отдельные кадры из видео и создавайте галереи фотографий. Сохраняйте кадры видео как высококачественные изображения. Полезный инструмент преобразования видео в изображение для создания кадров из видео.",
+    "en": "Extract individual frames from videos and create photo galleries. Save video frames as high-quality images. Useful video-to-image conversion tool for creating stills from videos.",
+    "tr": "Videolardan ayrı çerçeveleri çıkarın ve fotoğraf galeriler oluşturun. Video karesini yüksek kaliteli görüntüler olarak kaydedin. Videolardan duruş oluşturmak için yararlı video-to-görüntü dönüşüm aracı.",
+    "uz": "Video-lardan individual kadrlarni chiqarib chiqing va fotosuratlar galereyalarini yarating. Video kadrlarini yuqori sifatli rasmlar sifatida saqlang. Video-lardan turinishi yaratish uchun foydali video-rasm konversiya vositasi."
   }
 }
