@@ -70,5 +70,77 @@
     "en": "Rethink: DNS + Firewall is an all-in-one open-source privacy tool: a DNS client (DNS-over-HTTPS, DNS-over-Tor, DNSCrypt), a firewall to control which apps reach the network, a WireGuard proxifier and a connection tracker. It helps block tracking and see exactly where your apps connect.\n\nNo root required, fully open-source.",
     "tr": "Rethink: DNS + Firewall, hepsi bir arada açık kaynaklı bir gizlilik aracıdır: bir DNS istemcisi (DNS-over-HTTPS, DNS-over-Tor, DNSCrypt), hangi uygulamaların ağa erişeceğini denetleyen bir güvenlik duvarı, bir WireGuard proxy'si ve bir bağlantı izleyici. Takibi engellemeye ve uygulamalarınızın nereye bağlandığını görmeye yardımcı olur.\n\nRoot gerektirmez, tamamen açık kaynaklıdır.",
     "uz": "Rethink: DNS + Firewall — hammasi birida ochiq kodli maxfiylik vositasi: DNS mijoz (DNS-over-HTTPS, DNS-over-Tor, DNSCrypt), qaysi ilovalar tarmoqqa kirishini nazorat qiluvchi fayervol, WireGuard proksisi va ulanishlar kuzatuvchisi. U kuzatuvni bloklash va ilovalaringiz qayerga ulanishini ko‘rishga yordam beradi.\n\nRoot talab qilinmaydi, to‘liq ochiq kodli."
+  },
+  "com.tailscale.ipn": {
+    "ru": "Безопасный удалённый доступ к вашим устройствам из любого места. Подключитесь к домашней сети, серверам и устройствам с помощью зашифрованной сетки VPN Tailscale. Идеально для удалённой работы, администрирования систем и доступа к личным устройствам в дороге.",
+    "en": "Secure remote access to your devices anywhere. Connect to your home network, servers, and devices seamlessly with Tailscale's encrypted mesh VPN. Perfect for remote work, system administration, and accessing personal devices while traveling.",
+    "tr": "Aygıtlarınıza herhangi bir yerden güvenli uzaktan erişim. Tailscale'in şifreli mesh VPN'si ile ev ağınıza, sunuculara ve cihazlara sorunsuzca bağlanın. Uzaktan çalışma, sistem yönetimi ve seyahat sırasında kişisel cihazlara erişim için mükemmel.",
+    "uz": "O'zingizning qurilmalaringizga xavfsiz masofaviy kirish. Tailscale'ning shifrlangan mesh VPN'i yordamida uy tarmog'i, serverlar va qurilmalariga aloqa qiling. Masofaviy ish, tizim boshqaruvi va sayohat paytida shaxsiy qurilmalarga kirish uchun ideal."
+  },
+  "io.homeassistant.companion.android.minimal": {
+    "ru": "Управляйте умным домом откуда угодно с помощью Home Assistant Companion. Мониторьте и автоматизируйте устройства IoT, освещение, термостаты и системы безопасности в режиме реального времени. Создавайте мощные автоматизации и держите весь дом подключённым и интеллектуальным.",
+    "en": "Control your smart home from anywhere with Home Assistant Companion. Monitor and automate your IoT devices, lights, thermostats, and security systems in real-time. Build powerful automations and keep your entire home connected and intelligent.",
+    "tr": "Home Assistant Companion ile akıllı evinizi herhangi bir yerden kontrol edin. IoT cihazlarını, ışıkları, termostatları ve güvenlik sistemlerini gerçek zamanlı olarak izleyin ve otomatikleştirin. Güçlü otomasyonlar oluşturun ve tüm evinizi bağlantılı ve akıllı tutun.",
+    "uz": "Home Assistant Companion yordamida aqli uyingizni hech joydan boshqaring. IoT qurilmalarini, yoritgichlarni, termostatlari va xavfsizlik tizimlarini real vaqtda kuzating va avtomatlashtiring. Kuchli avtomatsiyalar yarating va butun uyingizni bog'langan va aqlli saqlang."
+  },
+  "org.purplei2p.i2pd": {
+    "ru": "Анонимный интернет-серфинг и приватная коммуникация с маршрутизатором i2pd. Присоединитесь к сети I2P для зашифрованных, децентрализованных соединений. Идеально для пользователей, заботящихся о конфиденциальности и нуждающихся в анонимном веб-доступе и одноранговой коммуникации.",
+    "en": "Anonymous internet browsing and private communication with i2pd router. Join the I2P network for encrypted, decentralized connections. Ideal for privacy-conscious users who need anonymous web access and peer-to-peer communication.",
+    "tr": "i2pd yönlendiricisi ile anonim internet taraması ve özel iletişim. Şifreli, merkezi olmayan bağlantılar için I2P ağına katılın. Gizlilik konusunda dikkatli olan ve anonim web erişimi ile eşler arası iletişime ihtiyaç duyan kullanıcılar için ideal.",
+    "uz": "i2pd marshrutlayuvchi yordamida anonim internet-brauzing va maxfiy muloqot. Shifrlangan, markazlashtirilmagan bog'lanishlar uchun I2P tarmog'iga qo'shiling. Maxfiylik haqida g'amkor foydalanuvchilar va anonim veb-kirish hamda hamkasblar orasidagi aloqa uchun ideal."
+  },
+  "com.craxiom.networksurveyplus": {
+    "ru": "Продвинутый инструмент анализа и обследования сотовой сети для устройств с правами администратора. Мониторьте сигналы 5G, 4G LTE и производительность мобильной сети. Необходимо для инженеров сетей, исследователей и технических энтузиастов, изучающих сотовую инфраструктуру.",
+    "en": "Advanced cellular network analysis and survey tool for rooted devices. Monitor 5G, 4G LTE signals, and mobile network performance. Essential for network engineers, researchers, and tech enthusiasts studying cellular infrastructure.",
+    "tr": "Rooted cihazlar için ileri hücresel ağ analizi ve araştırma aracı. 5G, 4G LTE sinyallerini ve mobil ağ performansını izleyin. Hücresel altyapıyı inceleyen ağ mühendisleri, araştırmacılar ve teknoloji meraklıları için gereklidir.",
+    "uz": "Ildiz algan qurilmalar uchun ilg'or selulyar tarmoq tahlili va tadqiqot vositasi. 5G, 4G LTE signallarini va mobil tarmoq samaradorligini kuzating. Selulyar infratuzilmani o'rganayotgan tarmoq muhandislari, tadqiqotchilar va texnika ishqibozlari uchun zarur."
+  },
+  "com.xlzhen.sharefileserver": {
+    "ru": "Мгновенно делитесь файлами через локальную сеть с Android. Превратите свой телефон в файловый сервер и делитесь документами, фотографиями и медиа с другими устройствами. Быстраяпередача файлов по беспроводной сети без зависимости от облака.",
+    "en": "Share files instantly across your local network from Android. Turn your phone into a file server and share documents, photos, and media with other devices. Fast, wireless file transfer without cloud dependency.",
+    "tr": "Android'den dosyaları yerel ağ üzerinden anında paylaşın. Telefonunuzu bir dosya sunucusuna dönüştürün ve belgeleri, fotoğrafları ve medyayı diğer cihazlarla paylaşın. Bulut bağımlılığı olmadan hızlı, kablosuz dosya aktarımı.",
+    "uz": "Android'dan mahalliy tarmoq orqali fayllarni darhol baham oling. Telefoningizni fayl serveriga aylantiring va hujjatlar, rasmlar va media-ni boshqa qurilmalar bilan baham oling. Bulut bog'liqliksiz tez, simsiz fayl uzatish."
+  },
+  "om.sstvencoder": {
+    "ru": "Отправляйте изображения через SSTV (медленное телевидение) любителям радиолюбителей. Кодируйте фотографии и передавайте их с помощью радиочастот коротких волн. Идеально для радиолюбителей, исследующих цифровые коротковолновые радиокоммуникации.",
+    "en": "Send images via SSTV (Slow Scan Television) with amateur radio enthusiasts. Encode photos and transmit them using shortwave radio frequencies. Perfect for radio hobbyists exploring digital ham radio communications.",
+    "tr": "SSTV (Yavaş Tarama Televizyonu) yoluyla görüntüleri radyo meraklılarıyla gönderin. Fotoğrafları kodlayın ve kısa dalga radyo frekansları kullanarak iletin. Dijital amatör radyo iletişimini keşfeden radyo hobicileri için mükemmel.",
+    "uz": "Rasm yuboringlarini SSTV (Sekin skanerlash televizi) orqali radio muxbir bilashadi. Fotosuratlarni kodlayin va qisqa to'lqin radyo chastotalari yordamida uzating. Raqamli radiolar orqali aloqa qilishni o'rganayotgan radyo hobicilari uchun ideal."
+  },
+  "io.evcc.android": {
+    "ru": "Оптимизируйте солнечную зарядку для вашего электромобиля с помощью evcc. Отслеживайте производство энергии и интеллектуально управляйте расписанием зарядки EV. Идеально для экологичных водителей, максимизирующих использование возобновляемой энергии и минимизирующих затраты на электроэнергию.",
+    "en": "Optimize solar charging for your electric vehicle with evcc. Monitor energy production and manage EV charging schedules intelligently. Perfect for eco-conscious drivers maximizing renewable energy usage and minimizing electricity costs.",
+    "tr": "evcc ile elektrikli araçınız için güneş şarjını optimize edin. Enerji üretimini izleyin ve EV şarj programlarını akıllıca yönetin. Yenilenebilir enerji kullanımını en üst düzeye çıkaran ve elektrik maliyetlerini en aza indiren çevre bilinci olan sürücüler için mükemmel.",
+    "uz": "evcc yordamida elektrmobil uchun quyosh zaryadini optimallash. Energiya ishlab chiqarish va EV zaryadlash jadvallarini aqlli boshqaring. Qayta tiklanuvchi energiyadan foydalanishni maksimallashtiruvchi va elektr xarajatlarini minimallashtiruvchi atrof-muhit sezgili haydovchilar uchun ideal."
+  },
+  "de.marionoll.wgautoconnect": {
+    "ru": "Автоматическое подключение туннелей WireGuard VPN при запуске устройства или изменении сети. Бесшовная защита VPN с автоматическим переподключением при переключении WiFi или мобильных сетей. Конфиденциальность и безопасность упрощены благодаря постоянному шифрованию.",
+    "en": "Auto-connect WireGuard VPN tunnels on device startup or network changes. Seamless VPN protection with automatic reconnection when switching WiFi or mobile networks. Privacy and security made simple with always-on encryption.",
+    "tr": "Cihaz başlatıldığında veya ağ değişikliklerinde WireGuard VPN tünellerini otomatik olarak bağlayın. WiFi veya mobil ağlara geçerken otomatik yeniden bağlanma ile kesintisiz VPN koruması. Her zaman açık şifreleme ile basitleştirilmiş gizlilik ve güvenlik.",
+    "uz": "Qurilma ishga tushganda yoki tarmoq o'zgarishlarida WireGuard VPN tunellarini avtomatik ulanish. WiFi yoki mobil tarmoqlarga o'tish paytida avtomatik qayta ulanish bilan uzluksiz VPN himoyasi. Doim yoqilgan shifrlash bilan soddalashtirilgan maxfiylik va xavfsizlik."
+  },
+  "net.basov.omngo": {
+    "ru": "Заметки Markdown в режиме офлайн с синхронизацией на разные платформы. Пишите, организуйте и получайте доступ к вашим заметкам в любом месте без интернета. Создано на Go для производительности и конфиденциальности - ваши заметки остаются на вашем устройстве по умолчанию.",
+    "en": "Offline-first markdown notes with cross-platform sync. Write, organize, and access your notes anywhere without internet. Built with Go for performance and privacy - your notes stay on your device by default.",
+    "tr": "Çapraz platform senkronizasyonlu çevrimdışı markdown notları. Notlarınızı internet olmadan her yerden yazın, düzenleyin ve erişin. Performans ve gizlilik için Go ile oluşturuldu - notlarınız varsayılan olarak cihazınızda kalır.",
+    "uz": "Platformalar orasidagi sinkronizatsiya bilan oflayn markdown yozuvlari. Yozuvlarni internet siz hech joydan yozing, tashkil qiling va ularga kirish. Samaradorlik va maxfiylik uchun Go-da qurilgan - yozuvlaringiz sukut bo'yicha qurilmada qoladi."
+  },
+  "com.amrdeveloper.turtle": {
+    "ru": "Изучайте и практикуйте язык программирования Turtle на мобильном устройстве. Язык, вдохновленный Python, для программирования GPU и CPU на Android. Исследуйте вычислительную математику и параллельную обработку с интуитивным мобильным интерфейсом.",
+    "en": "Learn and practice Turtle programming language on mobile. A Python-inspired language for GPU and CPU programming on Android. Explore computational mathematics and parallel processing with an intuitive mobile interface.",
+    "tr": "Android'de Turtle programlama dilini öğrenin ve pratik yapın. GPU ve CPU programlaması için Python'dan esinlenen bir dil. Sezgisel bir mobil arayüz ile hesaplamalı matematik ve paralel işlemeyi keşfedin.",
+    "uz": "Mobil qurilmada Turtle dasturlash tilini o'rganing va praktika qiling. Android'da GPU va CPU dasturlash uchun Python'dan ilhomlanmagan til. Sezgili mobil interfeysni bilan hisoblash matematikasi va parallel ishlanishni o'rganing."
+  },
+  "com.grappim.taigamobile": {
+    "ru": "Управляйте проектами с помощью системы Taiga agile на ходу. Отслеживайте задачи, истории пользователей и спринты с вашего устройства Android. Сотрудничайте с командой и оставайтесь организованными с помощью этого помощника управления проектами с открытым исходным кодом.",
+    "en": "Manage projects with Taiga agile system on the go. Track tasks, user stories, and sprints from your Android device. Collaborate with your team and stay organized with this open-source project management companion.",
+    "tr": "Taiga çevik sistemini kullanarak projeleri yönetin. Android cihazınızdan görevleri, kullanıcı hikayelerini ve sprintleri takip edin. Ekibinizle işbirliği yapın ve bu açık kaynak proje yönetimi yardımcısı ile organize kalın.",
+    "uz": "Taiga aqlli tizimini ishlatib loyihalarni boshqaring. Android qurilmasidan vazifalar, foydalanuvchi hikoyalari va sprintlarni kuzating. Jamoa bilan hamkorlik qiling va bu ochiq manbali loyihalar boshqaruvi yordamchisi bilan tartibda qolin."
+  },
+  "com.caniwebview.android": {
+    "ru": "Протестируйте возможности и функции Android WebView. Проверьте совместимость веб-сайтов и поддержку API WebView. Необходимый инструмент для веб-разработчиков, разработчиков приложений и команд обеспечения качества, тестирующих веб-функциональность на Android.",
+    "en": "Test Android WebView capabilities and features. Verify web compatibility and check WebView API support. Essential tool for web developers, app developers, and quality assurance teams testing web functionality on Android.",
+    "tr": "Android WebView yeteneklerini ve özelliklerini test edin. Web uyumluluğunu doğrulayın ve WebView API desteğini kontrol edin. Web geliştiricileri, uygulama geliştiricileri ve Android'de web işlevlerini test eden kalite güvence ekipleri için gerekli araç.",
+    "uz": "Android WebView imkoniyatlari va xususiyatlarini test qiling. Veb moslashuvni tekshiring va WebView API qo'llab-quvvatlashni tekshiring. Veb-developers, ilova ishlab chiqaruvchilari va Android'da veb-funksiyalarni test qiladigan sifat kafolatchilar uchun zarur vosita."
   }
 }
