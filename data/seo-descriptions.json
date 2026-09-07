@@ -844,5 +844,179 @@
     "en": "Open WhatsApp chats with any phone number without saving contact. Quick access to start conversations. Messaging utility for reaching contacts easily.",
     "tr": "Kişi kaydetmeden herhangi bir telefon numarası ile WhatsApp sohbetlerini açın. Konuşmaları başlamak için hızlı erişim. Kolay iletişim kurmak için mesajlaşma yardımcı programı.",
     "uz": "Kontakt saqlamsdan istalgan telefon raqami bilan WhatsApp chatlari oching. Suhbatlarni boshlash uchun tez kirish. Kontaktlarni osonlikcha ulanish uchun xabar vositasi."
+  },
+  "hu.kadatsoft.smsreply": {
+    "ru": "Приложение автоответа SMS для автоматических ответов на сообщения. Устанавливайте пользовательские ответы на входящие SMS-сообщения. Автоматизация сообщений для занятых пользователей.",
+    "en": "SMS auto-reply app for automatic message responses. Set custom replies for incoming SMS messages. Message automation for busy users.",
+    "tr": "Otomatik SMS yanıtı uygulaması için otomatik yanıt mesajları. Gelen SMS mesajları için özel yanıtlar ayarlayın. Meşgul kullanıcılar için ileti otomasyonu.",
+    "uz": "Avtomatik SMS javob ilovasi avtomatik xabar javobları uchun. Kiruvchi SMS xabarlar uchun maxsus javoblarni o'rnating. Band foydalanuvchilar uchun xabar avtomatsiyasi."
+  },
+  "io.github.sms2email.sms2email": {
+    "ru": "Пересылайте SMS-сообщения по электронной почте через сервер SMTP. Получайте текстовые сообщения и управляйте ими через электронную почту. Утилита пересылки сообщений.",
+    "en": "Forward SMS messages to email via SMTP server. Receive and manage text messages through email. Message forwarding utility.",
+    "tr": "SMS mesajlarını SMTP sunucusu aracılığıyla e-postaya gönderin. E-posta aracılığıyla metin mesajları alın ve yönetin. İleti iletme yardımcı programı.",
+    "uz": "SMS xabarlarini SMTP serveri orqali e-pochtaga yo'naltiring. E-pochta orqali matn xabarlarini oling va boshqaring. Xabar yo'naltirish vositasi."
+  },
+  "com.xxxx.parcel": {
+    "ru": "Автоматически анализируйте коды получения посылок из SMS-сообщений. Извлекайте информацию о доставке и показывайте на главном экране. Помощник уведомлений курьера.",
+    "en": "Parse parcel pickup codes from SMS messages automatically. Extract delivery information and show on home screen. Courier notification helper.",
+    "tr": "SMS mesajlarından otomatik olarak parsel alma kodlarını ayrıştırın. Teslimat bilgilerini çıkarın ve ana ekranda gösterin. Kurye bildirimi yardımcısı.",
+    "uz": "SMS xabarlardan avtomatik ravishda to'plam olish kodlarini tahlil qiling. Yetkazib berish ma'lumotlarini chiqaring va asosiy ekranda ko'rsating. Kurier bildirishnoma yordamchisi."
+  },
+  "com.lulu786.Alternate": {
+    "ru": "Приложение Caller ID с акцентом на конфиденциальность без беспорядка контактов. Определяйте неизвестных звонящих локально без их сохранения. Утилита идентификации звонящих React Native.",
+    "en": "Caller ID app with privacy focus and no contact clutter. Identify unknown callers locally without saving them. React Native caller identification utility.",
+    "tr": "Gizlilik odaklı ve kişi karmaşası olmayan Caller ID uygulaması. Bilinmeyen arayanları yerel olarak tanımlayın. React Native arayıcı kimlik tanıma yardımcı programı.",
+    "uz": "Maxfiylik markazlashtirilgan va kontakt karamsisi siz Caller ID ilovasi. Noma'lum chaqiruvchilarni mahalliy aniqlang. React Native chaqiruvchi identifikatsiya vositasi."
+  },
+  "spam.blocker": {
+    "ru": "Блокируйте нежелательные звонки и SMS-сообщения на Android. Фильтрация звонков и SMS для спокойствия. Утилита блокировки спама.",
+    "en": "Block unwanted calls and SMS messages on Android. Call and SMS filtering for peace of mind. Spam blocking utility.",
+    "tr": "Android'de istenmeyen çağrıları ve SMS mesajlarını engelleyin. Gönül rahatlığı için arama ve SMS filtreleme. Spam engelleme yardımcı programı.",
+    "uz": "Android'da noxohlash chaqiriqlar va SMS xabarlarni blokirovka qiling. Tinchlik uchun chaqiriq va SMS filtrlash. Spam blokirovka vositasi."
+  },
+  "com.tutpro.baresip": {
+    "ru": "SIP-клиент для Android с использованием библиотеки baresip. VoIP-звонки и голосовая коммуникация. Лёгкое приложение VoIP.",
+    "en": "SIP client for Android using baresip library. VoIP calling and voice communication. Lightweight VoIP application.",
+    "tr": "Baresip kütüphanesini kullanarak Android için SIP istemcisi. VoIP araması ve ses iletişimi. Hafif VoIP uygulaması.",
+    "uz": "Baresip kutubhonasini ishlatib Android uchun SIP klijenti. VoIP chaqiriq va ovoz aloqasi. Yengil VoIP ilovasi."
+  },
+  "tech.bogomolov.incomingsmsgateway": {
+    "ru": "Пересылайте входящие SMS-сообщения на конечные точки HTTP URL. Интеграция веб-перехватчика для обработки SMS. Автоматизация и маршрутизация сообщений.",
+    "en": "Forward incoming SMS messages to HTTP URL endpoints. Webhook integration for SMS processing. Message automation and routing.",
+    "tr": "Gelen SMS mesajlarını HTTP URL uç noktalarına gönderin. SMS işleme için webhook entegrasyonu. İleti otomasyon ve yönlendirme.",
+    "uz": "Kiruvchi SMS xabarlarni HTTP URL endpointlariga yo'naltiring. SMS ishlovlash uchun webhook integratsiyasi. Xabar avtomatsiyasi va yo'naltirish."
+  },
+  "com.talsk.amadz": {
+    "ru": "Современное приложение для звонков, созданное с помощью Jetpack Compose и Material Design 3. Альтернатива приложению телефона по умолчанию с расширенными функциями. Дозвонщик производственного уровня.",
+    "en": "Modern calling app built with Jetpack Compose and Material Design 3. Alternative to default phone app with advanced features. Production-grade dialer.",
+    "tr": "Jetpack Compose ve Material Design 3 ile oluşturulan modern çağrı uygulaması. Gelişmiş özellikli varsayılan telefon uygulamasının alternatifi. Üretim sınıfı arayıcı.",
+    "uz": "Jetpack Compose va Material Design 3 bilan qurilgan zamonaviy chaqiriq ilovasi. Rivojlangan xususiyatlari bilan default telefon ilovasining muqobili. Production-grade dialer."
+  },
+  "de.kaiserdragon.callforwardingstatus": {
+    "ru": "Просмотр и управление статусом переадресации вызовов. Проверьте активные правила переадресации и параметры. Утилита маршрутизации телефонных звонков.",
+    "en": "View and manage call forwarding status. Check active forwarding rules and settings. Phone call routing utility.",
+    "tr": "Çağrı yönlendirmesi durumunu görüntüleyin ve yönetin. Etkin yönlendirme kurallarını ve ayarlarını kontrol edin. Telefon çağrı yönlendirme yardımcı programı.",
+    "uz": "Chaqiriq yo'naltirish holatini ko'ring va boshqaring. Faol yo'naltirish qoidalari va sozlamalarni tekshiring. Telefon chaqiriq yo'naltirish vositasi."
+  },
+  "com.yourname.pdftoolkit": {
+    "ru": "Редактор PDF, ориентированный на конфиденциальность, для объединения, разделения и сжатия PDF. 100% офлайн-обработка без требования интернета. Манипуляция PDF на устройстве.",
+    "en": "Privacy-first PDF editor for merging, splitting, and compressing PDFs. 100% offline processing with no internet required. On-device PDF manipulation.",
+    "tr": "PDF'leri birleştirmek, bölmek ve sıkıştırmak için gizlilik odaklı PDF editörü. %100 çevrimdışı işlem internet olmadan. Cihaz üzerinde PDF işlemesi.",
+    "uz": "PDF'larni birlashtirishva, bo'lishish va siqishish uchun maxfiylik markazlashtirilgan PDF tahrirchi. 100% oflayn ishlovlash internet siz. Qurilmada PDF manipulyatsiyasi."
+  },
+  "com.chmouel.liseur": {
+    "ru": "Средство чтения EPUB и клиент Calibre-web с вдохновленным Kindle опытом чтения. Приложение для чтения с открытым исходным кодом. Управление и чтение электронных книг.",
+    "en": "EPUB reader and Calibre-web client with Kindle-inspired reading experience. Open-source reading application. E-book management and reading.",
+    "tr": "Kindle tarafından ilham alan okuma deneyimi ile EPUB okuyucu ve Calibre-web istemcisi. Açık kaynak okuma uygulaması. E-kitap yönetimi ve okuma.",
+    "uz": "Kindle-dan ilhomlanmagan o'qish tajribasi bilan EPUB o'quvchi va Calibre-web klijenti. Ochiq manbai o'qish ilovasi. E-kitob boshqaruvi va o'qish."
+  },
+  "com.abezb.thirukuraldaily": {
+    "ru": "Ежедневный виджет стихов Тирукурала для тамильской литературы. Красивый интерфейс флэш-карт с поддержкой кросс-платформы. Приложение поэзии и мудрости.",
+    "en": "Daily Thirukkural verses widget for Tamil literature. Beautiful flashcard interface with cross-platform support. Poetry and wisdom app.",
+    "tr": "Tamil edebiyatı için günlük Thirukkural ayetleri widget'ı. Platformlar arası destek ile güzel flashcard arayüzü. Şiir ve bilgelik uygulaması.",
+    "uz": "Tamil adabiyoti uchun kunlik Thirukkural oyatlari widget'i. Platformalar orasida qo'llab-quvvatli chiroyli flashcard interfeysi. Sheir va hikmat ilovasi."
+  },
+  "dev.wceng.sufei": {
+    "ru": "Минималистичное приложение классической китайской поэзии на основе Material 3. Красивый иммерсивный опыт чтения китайских стихов. Средство чтения сборников поэзии.",
+    "en": "Minimalist Chinese classical poetry app based on Material 3. Beautiful immersive reading experience for Chinese poems. Poetry collection reader.",
+    "tr": "Material 3 tabanlı minimalist Çin klasik şiiri uygulaması. Çin şiirleri için güzel immersive okuma deneyimi. Şiir koleksiyonu okuyucusu.",
+    "uz": "Material 3 asosidagi minimalist Xitoy klassik sheiri ilovasi. Xitoy sheirlari uchun go'zal immersive o'qish tajribasi. Sheir to'plami o'quvchisi."
+  },
+  "de.lolo.rssreader": {
+    "ru": "Средство чтения RSS-канала для подписки на новости и обновления блогов. Анализируйте и отображайте RSS-каналы в организованном макете. Приложение агрегатора новостей.",
+    "en": "RSS feed reader for subscribing to news and blog updates. Parse and display RSS feeds in organized layout. News aggregator application.",
+    "tr": "Haber ve blog güncellemelerine abone olmak için RSS beslemesi okuyucu. RSS beslemelerini organize edilmiş düzende ayrıştırın ve görüntüleyin. Haber toplayıcı uygulaması.",
+    "uz": "Yangiliklar va blog yangilanishlariga obuna bo'lish uchun RSS feed o'quvchi. RSS beslenmasini organize qilingan ko'rinishshda tahlil qiling va ko'rsating. Yangilik aggregator ilovasi."
+  },
+  "com.nikhilsi.gitavani": {
+    "ru": "Средство чтения Бхагавад Гиты со звуком на санскрите и несколькими учёными. Офлайн-первый без зависимостей. Средство чтения духовных текстов.",
+    "en": "Bhagavad Gita reader with Sanskrit audio and multiple scholars. Offline-first with zero dependencies. Spiritual text reader.",
+    "tr": "Sanskrit sesi ve birden fazla bilginie ile Bhagavad Gita okuyucu. Hiçbir bağımlılık olmayan çevrimdışı-ilk. Ruhani metin okuyucu.",
+    "uz": "Sanskrit ovozi va bir nechta olimlar bilan Bhagavad Gita o'quvchi. Nol bog'liqligisiz oflayn-birinchi. Ruhiy matn o'quvchisi."
+  },
+  "com.kaleedtc.nitterium": {
+    "ru": "Приватный Twitter/X обёртка с использованием Nitter. Просматривайте Twitter без аккаунта или входа. Клиент социальных сетей без рекламы.",
+    "en": "Privacy-focused Twitter/X wrapper using Nitter. Browse Twitter without account or login. Ad-free social media client.",
+    "tr": "Nitter kullanarak gizlilik odaklı Twitter/X sarmalayıcı. Hesap veya giriş olmadan Twitter'ı göz atın. Reklamsız sosyal medya istemcisi.",
+    "uz": "Nitter-dan foydalanib maxfiylik markazlashtirilgan Twitter/X wrapper. Hisob yoki login siz Twitter-ni ko'rish. Reklama-free ijtimoiy media klijenti."
+  },
+  "org.cis_india.wsreader": {
+    "ru": "Читайте книги общественного достояния из проекта Wikisource. Получайте доступ к свободно лицензированным литературным произведениям. Средство чтения цифровой библиотеки.",
+    "en": "Read public domain books from Wikisource project. Access freely licensed literary works. Digital library reader.",
+    "tr": "Wikisource projesinden kamu malı kitapları okuyun. Serbestçe lisanslanmış edebi eserlere erişin. Dijital kütüphane okuyucu.",
+    "uz": "Wikisource loyihadan jamoaviy domen kitoblarini o'qing. Bepul litsenziyalangan adabiy asarlarga kirish. Raqamli kutubxona o'quvchisi."
+  },
+  "app.komikku": {
+    "ru": "Бесплатное и открытое средство чтения манги для Android. Просматривайте мангу с плавной прокруткой и кэшированием. Приложение агрегатора манги.",
+    "en": "Free and open-source manga reader for Android. Browse manga with smooth scrolling and caching. Manga aggregator application.",
+    "tr": "Android için ücretsiz ve açık kaynak manga okuyucu. Sorunsuz kaydırma ve önbellekleme ile mangayı göz atın. Manga toplayıcı uygulaması.",
+    "uz": "Android uchun bepul va ochiq manbai manga o'quvchi. Silliq scrolling va caching bilan mangani ko'rish. Manga aggregator ilovasi."
+  },
+  "com.inspiredandroid.linuxcommandbibliotheca": {
+    "ru": "Библиотека команд Linux с 2 млн+ загрузок. Изучайте основы Linux и исследуйте документацию команд. Приложение справочника команд.",
+    "en": "Linux command library with 2M+ downloads. Learn Linux basics and explore command documentation. Command reference application.",
+    "tr": "2M+ indirme ile Linux komut kitaplığı. Linux temellerini öğrenin ve komut belgelerini keşfedin. Komut referans uygulaması.",
+    "uz": "2M+ yuklanma bilan Linux buyruq kutubxonasi. Linux asoslarini o'rganing va buyruq hujjatlarini o'rganing. Buyruq reference ilovasi."
+  },
+  "at.tomtasche.reader.foss": {
+    "ru": "Средство чтения документов OpenOffice и LibreOffice для файлов ODF. Просмотр документов Office на Android. Средство чтения формата открытого документа.",
+    "en": "OpenOffice and LibreOffice document reader for ODF files. View office documents on Android. Open document format reader.",
+    "tr": "ODF dosyaları için OpenOffice ve LibreOffice belge okuyucu. Android'de ofis belgelerini görüntüleyin. Açık belge formatı okuyucusu.",
+    "uz": "ODF fayllar uchun OpenOffice va LibreOffice hujjat o'quvchi. Android'da ofis hujjatlarini ko'ring. Ochiq hujjat formati o'quvchisi."
+  },
+  "org.handmadeideas.floccus": {
+    "ru": "Синхронизируйте закладки приватно на разных браузерах и устройствах. Синхронизация закладок на основе облака без отслеживания. Менеджер закладок кросс-устройства.",
+    "en": "Sync bookmarks privately across browsers and devices. Cloud-based bookmark synchronization without tracking. Cross-device bookmark manager.",
+    "tr": "Tarayıcılar ve cihazlar arasında yer imlerine özel olarak senkronize edin. Takip olmayan bulut tabanlı yer imi senkronizasyonu. Cihaz arası yer imi yöneticisi.",
+    "uz": "Taraygichlar va qurilmalar orasida xakerlarni shaxsiy sinkronizatsiya qiling. Kuzatilmay bulut tabanlı yer imi sinkronizatsiyasi. Cross-device yer imi menejer."
+  },
+  "de.reimardoeffinger.quickdic": {
+    "ru": "Приложение офлайн-словаря для Android с загружаемыми языковыми базами данных. Быстрый поиск слов без интернета. Справка многоязычного словаря.",
+    "en": "Offline dictionary app for Android with downloadable language databases. Quick word lookups without internet. Multilingual dictionary reference.",
+    "tr": "İndirilebilir dil veritabanları ile Android için çevrimdışı sözlük uygulaması. İnternet olmadan hızlı sözcük aramaları. Çok dilli sözlük referansı.",
+    "uz": "Yuklanishi mumkin bo'lgan til ma'lumotlar bazasi bilan Android uchun oflayn lug'at ilovasi. Internet siz tez so'z izlanishlari. Ko'p tillik lug'at reference."
+  },
+  "ru.iska9der.flabr": {
+    "ru": "Клиент Habr, созданный с помощью Flutter для просмотра технических статей и новостей. Мобильное средство чтения русского сообщества технологий. Агрегатор технических новостей.",
+    "en": "Habr client built with Flutter for browsing tech articles and news. Russian tech community mobile reader. Tech news aggregator.",
+    "tr": "Tech makaleleri ve haberleri taramak için Flutter ile oluşturulan Habr istemcisi. Rus teknoloji topluluğu mobil okuyucusu. Teknoloji haber toplayıcısı.",
+    "uz": "Tech maqolalari va yangiliklar uchun Flutter bilan qurilgan Habr klijenti. Rus texnologiya jamiati mobil o'quvchisi. Texnologiya yangilik aggregator."
+  },
+  "io.github.snd_r.komelia": {
+    "ru": "Клиент Komga для управления коллекциями цифровых библиотек. Средство чтения комиксов и манги для домашних медиа-серверов. Управление комиксами.",
+    "en": "Komga media client for managing digital library collections. Comics and manga reader for home media servers. Comic book management.",
+    "tr": "Dijital kütüphane koleksiyonlarını yönetmek için Komga medya istemcisi. Ev medya sunucuları için komik ve manga okuyucu. Çizgi roman yönetimi.",
+    "uz": "Raqamli kutubxona to'plamlarini boshqarish uchun Komga media klijenti. Uy media serverlari uchun komiks va manga o'quvchi. Komiks kitob boshqaruvi."
+  },
+  "m.co.rh.id.a_news_provider": {
+    "ru": "Приложение агрегирования новостей для кураторства и чтения новостных историй. Управление персонализированным потоком новостей. Мобильное средство чтения новостей.",
+    "en": "News aggregation app for curating and reading news stories. Personalized news feed management. Mobile news reader.",
+    "tr": "Haber hikayelerini küratör yapmak ve okumak için haber toplayıcı uygulaması. Kişiselleştirilmiş haber beslemesi yönetimi. Mobil haber okuyucu.",
+    "uz": "Yangilik hikoyalarini kurator qilish va o'qish uchun yangilik aggregation ilovasi. Shaxsiylashtirish yangilik beslenma boshqaruvi. Mobil yangilik o'quvchi."
+  },
+  "com.example.calculator": {
+    "ru": "Научный калькулятор с расширенными функциями и памятью. Выполняйте сложные математические расчёты. Калькулятор класса рабочего стола.",
+    "en": "Scientific calculator with advanced functions and memory. Perform complex mathematical calculations. Desktop-class calculator.",
+    "tr": "Gelişmiş işlevler ve bellek ile bilimsel hesap makinesi. Karmaşık matematiksel hesaplamalar gerçekleştirin. Masaüstü sınıfı hesap makinesi.",
+    "uz": "Rivojlangan funksiyalari va xotirasi bilan ilmiy kalkulyator. Murakkab matematik hisoblarini bajarish. Desktop-sinf kalkulyator."
+  },
+  "org.woheller.bom": {
+    "ru": "Приложение списка материалов (BOM) для управления электроникой и деталями. Организуйте компоненты и отслеживайте инвентари. Управление аппаратными проектами.",
+    "en": "Bill of Materials (BOM) app for electronics and parts management. Organize components and track inventories. Hardware project management.",
+    "tr": "Elektronik ve parça yönetimi için Malzeme Listesi (BOM) uygulaması. Bileşenleri organize edin ve envanteri takip edin. Donanım proje yönetimi.",
+    "uz": "Elektronika va qismlar boshqaruvi uchun Materiallar Ro'yxati (BOM) ilovasi. Komponentlarni tashkil qiling va inventarlarni kuzating. Apparat loyihalar boshqaruvi."
+  },
+  "com.example.studyapp": {
+    "ru": "Приложение-компаньон для учёбы с флэш-картами и функциями викторины. Создавайте учебные колоды и отслеживайте прогресс. Образовательный инструмент обучения.",
+    "en": "Study companion app with flashcards and quiz features. Create learning decks and track progress. Educational learning tool.",
+    "tr": "Flashcard ve quiz özellikleri ile çalışma yardımcısı uygulaması. Öğrenme destelerini oluşturun ve ilerlemeyi izleyin. Eğitimsel öğrenme aracı.",
+    "uz": "Flashcard va quiz xususiyatlari bilan o'qish yordamchi ilovasi. O'qitish deklarlarini yarating va progresni kuzating. Ta'lim o'qitish vositasi."
+  },
+  "com.example.photoalbum": {
+    "ru": "Органайзер фотоальбома с разметкой и категоризацией. Организуйте фотографии по дате, местоположению и пользовательским тегам. Управление личными фотографиями.",
+    "en": "Photo album organizer with tagging and categorization. Organize photos by date, location, and custom tags. Personal photo management.",
+    "tr": "Etiketleme ve kategorileştirme ile fotoğraf albümü organizatörü. Fotoğrafları tarih, konum ve özel etiketlere göre organize edin. Kişisel fotoğraf yönetimi.",
+    "uz": "Belgilash va kategoriyalashtirishbilan foto albomi organizer. Fotosuratlarni sana, joylashuv va maxsus teglarga ko'ra tashkil qiling. Shaxsiy fotosurat boshqaruvi."
   }
 }
