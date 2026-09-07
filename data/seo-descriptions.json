@@ -2068,5 +2068,221 @@
     "en": "OpenKuma - private Android client for Uptime Kuma monitoring. Read-only access to service health status, real-time incident tracking, certificate expiry alerts.",
     "tr": "OpenKuma - Uptime Kuma izlemesi için özel Android istemcisi. Hizmet sağlık durumuna salt okunur erişim, gerçek zamanlı olay izleme, sertifika sona erme uyarıları.",
     "uz": "OpenKuma - Uptime Kuma kuzatish uchun maxsus Android klijenti. Xizmat sog'liq holatiga faqat o'qish kirishi, real vaqt hodisa kuzatish, sertifikat yakunlash ogohlantirish."
+  },
+  "app.simple.soundcenter": {
+    "ru": "Felicity Music Player — высокопроизводительный аудиоплеер для аудиофилов. Пользовательский аудиомодуль с двойным декодером, продвинутым DSP, низким использованием ЦП. Захватывающий опыт прослушивания.",
+    "en": "Felicity Music Player - high-performance audio player for audiophiles. Custom audio engine with dual decoder, advanced DSP, low CPU usage. Immersive listening experience.",
+    "tr": "Felicity Music Player - audiophile'ler için yüksek performanslı ses oynatıcı. Dual decoder ile özel ses motoru, gelişmiş DSP, düşük CPU kullanımı. Büyüleyici dinleme deneyimi.",
+    "uz": "Felicity Music Player - audiofil'lar uchun yuqori ishlashli ovoz pleri. Dual decoder bilan shaxsiy audio dvigatel, ilg'or DSP, past CPU foydalanish. Jalb qiluvchi tinglash tajribasi."
+  },
+  "app.simple.inure": {
+    "ru": "Inure App Manager — мощный менеджер и анализатор приложений. Просматривайте все приложения, получайте доступ к сервисам и действиям, статистике использования, заметкам приложений, эмулятору терминала с командами.",
+    "en": "Inure App Manager - powerful application manager and analyzer. View all apps, access services and activities, usage stats, app notes, terminal emulator with commands.",
+    "tr": "Inure App Manager - güçlü uygulama yöneticisi ve analiz aracı. Tüm uygulamaları görüntüleyin, hizmetlere ve etkinliklere erişim, kullanım istatistikleri, uygulama notları, komut ile terminal emülatörü.",
+    "uz": "Inure App Manager - kuchli ilova menejer va tahlil vositasi. Barcha ilovalarni ko'rish, xizmat va faoliyatlariga kirish, foydalanish statistikasi, ilova eslatmalari, buyruqlar bilan terminal emulyatori."
+  },
+  "app.slauncher": {
+    "ru": "Slauncher — минимальная программа запуска, снижающая отвлечения. Чистый, простой интерфейс, разработанный для сосредоточенного использования устройства.",
+    "en": "Slauncher - minimal launcher reducing distractions. Clean, simple interface designed for focused device usage.",
+    "tr": "Slauncher - dikkat dağılmalarını azaltan minimal başlatıcı. Odaklanmış cihaz kullanımı için tasarlanmış temiz, basit arayüz.",
+    "uz": "Slauncher - abai soladishlarni kamaytiruvchi minimal pelauncher. Fokusli qurilma foydalanish uchun mo'ljallangan toza, sodda interfeys."
+  },
+  "app.smallthingz.reverb": {
+    "ru": "Reverb — прокручивающийся аудиобуфер, сохраняющий последние моменты звука. Сохраняйте аудио вручную с буфером, поддерживаемым диском, потоковый экспорт WAV, инструменты воспроизведения, настраиваемое сохранение.",
+    "en": "Reverb - rolling audio buffer keeping last moments of sound. Save audio manually with disk-backed buffer, streamed WAV export, playback tools, configurable retention.",
+    "tr": "Reverb - sesin son anlarını tutan yuvarlanan ses tamponu. Disk destekli ara belleği ile sesi manuel olarak kaydedin, akışlı WAV dışa aktarma, oynatma araçları, yapılandırılabilir saklama.",
+    "uz": "Reverb - ovozning oxirgi momentlarini saqlovchi aylanuvchi audio bufer. Disk qo'llab-quvvalashtirilgan bufer bilan ovozni qo'lda saqlang, oqim WAV eksport, ijro vositalar, moslashtirilishi mumkin bo'lgan saqlash."
+  },
+  "app.smarttube.fdroid": {
+    "ru": "SmartTube F-Droid — просматривайте медиа-контент со своими правилами на Android TV. Настраиваемый опыт просмотра контента.",
+    "en": "SmartTube F-Droid - browse media content with your own rules on Android TV. Customizable content viewing experience.",
+    "tr": "SmartTube F-Droid - Android TV'de kendi kurallarınızla medya içeriğine göz atın. Özelleştirilebilir içerik görüntüleme deneyimi.",
+    "uz": "SmartTube F-Droid - Android TV'da o'z qoidalaringiz bilan media kontentga ko'rish. Moslashtirilishi mumkin bo'lgan kontent ko'rish tajribasi."
+  },
+  "app.smarzaro.foss4g2024.schedule": {
+    "ru": "FOSS4G 2024 Schedule — расписание конференции Free and Open Source Software for Geospatial. Отслеживайте сеансы, выступающих и доклады.",
+    "en": "FOSS4G 2024 Schedule - conference schedule for Free and Open Source Software for Geospatial. Track sessions, speakers, and talks.",
+    "tr": "FOSS4G 2024 Schedule - Geospatial için Free and Open Source Software konferansı programı. Oturumları, konuşmacıları ve konuşmaları takip edin.",
+    "uz": "FOSS4G 2024 Schedule - Geospatial uchun Free and Open Source Software konferensiyasi jadv. Seanslarni, suhbatdorlariini va gaplariini kuzating."
+  },
+  "app.soundcenter.player": {
+    "ru": "Sound Center — современный аудиоплеер, сочетающий локальную музыку и потоковую передачу. Управляйте автономной библиотекой, подкастами и потоками в одном приложении.",
+    "en": "Sound Center - modern audio player combining local music and streaming. Manage offline library, podcasts, and streams in one application.",
+    "tr": "Sound Center - yerel müzik ve akışını birleştiren modern ses oynatıcı. Çevrimdışı kütüphaneyi, podcast'leri ve akışları bir uygulamada yönetin.",
+    "uz": "Sound Center - mahalliy musiqani va oqimini birlashtiruvchi zamonaviy ovoz pleeri. Oflayn kutubxonani, podkastlarni va oqimlarni bir ilovada boshqarish."
+  },
+  "app.soundtree": {
+    "ru": "SoundTree Recorder — персональный аудиорегистратор с акцентом на закладки. Записывайте аудио M4A с волновой формой, отмечайте моменты, иерархическое дерево тем, автоматическое резервное копирование на внешний диск.",
+    "en": "SoundTree Recorder - personal audio recorder with bookmark emphasis. Record M4A audio with waveform, drop marks, hierarchical topic tree, automatic backup to external drive.",
+    "tr": "SoundTree Recorder - yer imleri üzerinde yoğunlaşan kişisel ses kaydedici. M4A sesi dalga formuyla kaydedin, işaretler bırakın, hiyerarşik konu ağacı, dış sürücüye otomatik yedekleme.",
+    "uz": "SoundTree Recorder - xatcho'p ta'kidi bilan shaxsiy ovoz rekorder. M4A ovozni dalga formuyla yozib oling, belgilrni tashlang, ierarxik mavzu daraxt, tashqi diskga avtomatik zaxira."
+  },
+  "app.status.mobile": {
+    "ru": "Status — приватный мессенджер, крипто-кошелёк и браузер. End-to-end зашифрованный обмен сообщениями, самостоятельно хранимый кошелёк, децентрализованный чат и сообщества.",
+    "en": "Status - privacy messenger, crypto wallet, and browser. End-to-end encrypted messaging, self-custodial wallet, decentralized chat and communities.",
+    "tr": "Status - gizlilik mesajı, kripto cüzdanı ve tarayıcısı. End-to-end şifreli mesajlaşma, kendi sahibi olan cüzdan, merkezi olmayan sohbet ve topluluklar.",
+    "uz": "Status - maxfiylik messenger, kripto hamyon va brauzer. End-to-end shifrlashtirilgan xabar, shaxsiy sahiblik hamyon, markazsiz chat va hamjamiyatlar."
+  },
+  "app.sterna": {
+    "ru": "Sterna Mail — приватный почтовый клиент для JMAP и IMAP. Автоконфигурация учётных записей, поддержка JMAP, без отслеживания, без рекламы. Полностью открытый исходный код GPLv3.",
+    "en": "Sterna Mail - private email client for JMAP and IMAP. Auto-configure accounts, JMAP support, no tracking, no ads. Full GPLv3 open source.",
+    "tr": "Sterna Mail - JMAP ve IMAP için özel e-posta istemcisi. Otomatik hesap yapılandırması, JMAP desteği, izleme yok, reklam yok. Tam GPLv3 açık kaynak.",
+    "uz": "Sterna Mail - JMAP va IMAP uchun maxsus email klijenti. Avtomatik akkaunt konfiguratsiyasi, JMAP qo'llab-quvvatlashi, kuzatish yo'q, reklama yo'q. To'liq GPLv3 ochiq manba."
+  },
+  "app.subster": {
+    "ru": "Subster — музыкальная игра-вечеринка для вашего сервера Subsonic. Угадывайте песни из вашей коллекции вслепую на временной шкале. Работает с Navidrome, Airsonic, Gonic.",
+    "en": "Subster - music party game for your Subsonic server. Guess songs from your collection blind on a timeline. Works with Navidrome, Airsonic, Gonic.",
+    "tr": "Subster - Subsonic sunucunuz için müzik partisi oyunu. Koleksiyonunuzdaki şarkıları bir zaman çizelgesinde kör olarak tahmin edin. Navidrome, Airsonic, Gonic ile çalışır.",
+    "uz": "Subster - Subsonic serveringiz uchun musiqai partiya o'yini. Koleksiyonungizdan qo'g'onlarni jadval bo'ylab ko'z bandlashtirib toping. Navidrome, Airsonic, Gonic bilan ishlaydi."
+  },
+  "app.sudroid.raagadb": {
+    "ru": "RaagaDB — полный каталог карнатических раг. Мелакартха и Джаня раги с концепциями UMID16/UMID12 для изучения теории музыки.",
+    "en": "RaagaDB - comprehensive Carnatic Raag database. Melakartha and Janya raags with UMID16/UMID12 concepts for music theory study.",
+    "tr": "RaagaDB - kapsamlı Carnatic Raag veritabanı. Müzik teorisi çalışması için UMID16/UMID12 konseptleri ile Melakartha ve Janya raag'ları.",
+    "uz": "RaagaDB - to'liq Carnatic Raag ma'lumotlar bazasi. Musiqai nazariya ta'limi uchun UMID16/UMID12 kontsepsiyalari bilan Melakartha va Janya raag'lar."
+  },
+  "app.tice.TICE.production": {
+    "ru": "TICE — безопасный обмен GPS-местоположением для встреч. Делитесь живым местоположением с друзьями, семьёй, группами, сохраняя конфиденциальность. Карта в реальном времени с обменом сообщениями.",
+    "en": "TICE - secure GPS location sharing for meetups. Share live location with friends, family, groups while preserving privacy. Real-time map with messaging.",
+    "tr": "TICE - buluşmalar için güvenli GPS konum paylaşımı. Arkadaşlar, aile, gruplarla canlı konumu paylaşın ve gizliliği koruyun. İleti ile gerçek zamanlı harita.",
+    "uz": "TICE - uchrashuvlar uchun xavfsiz GPS joylashtuv ulashish. Do'stlar, oila, guruhlar bilan jonli joylashni ulashing, maxfiylikni saqlab oling. Xabar bilan real vaqt xaritasi."
+  },
+  "app.traced_it": {
+    "ru": "traced it — простое приложение заметок с временными метками и количествами. Идеально для ведения дневника, логирования тренировок, отслеживания добавок, измерения рецептов.",
+    "en": "traced it - simple timestamp notes app with quantities. Perfect for journaling, workout logging, supplement tracking, recipe measurements.",
+    "tr": "traced it - miktar ile basit zaman damgası not uygulaması. Günlük tutma, antrenman kayıt, supplement izleme, reçete ölçümleri için mükemmel.",
+    "uz": "traced it - miqdorli sodda timestamp eslatma ilovasi. Jurnali, workout logging, supplement kuzatish, retsept o'lchovlar uchun juda yaxshi."
+  },
+  "app.tryst": {
+    "ru": "Tryst — приватный интимный дневник, сохраняющий все данные на вашем телефоне. Без учётной записи, без синхронизации, без интернета. Зашифрованная база данных SQLCipher с зашифрованным хранилищем фотографий.",
+    "en": "Tryst - private intimate journal keeping all data on your phone. No account, no sync, no internet. Encrypted SQLCipher database with encrypted photo storage.",
+    "tr": "Tryst - tüm verileri telefonunuza kaydeden özel intim günlük. Hesap yok, senkronizasyon yok, internet yok. Şifreli fotoğraf depolaması ile şifreli SQLCipher veritabanı.",
+    "uz": "Tryst - barcha ma'lumotlarni telefoningizga saqlovchi maxsus intim jurnali. Akkaunt yo'q, sinxronizatsiya yo'q, internet yo'q. Shifrlashtirilgan foto saqlanish bilan shifrlashtirilgan SQLCipher ma'lumotlar bazasi."
+  },
+  "app.tujice.jergasColombia": {
+    "ru": "Jargons Colombia — колумбийский испанский словарь со сленгом и коренными терминами. Поймите местный язык без интернета. Необходимо для жителей и посетителей.",
+    "en": "Jargons Colombia - Colombian Spanish dictionary with slang and indigenous terms. Understand local language without internet. Essential for residents and visitors.",
+    "tr": "Jargons Colombia - argo ve yerli terimler ile Kolombiya İspanyolca sözlüğü. İnternet olmadan yerel dili anlayın. Sakinler ve ziyaretçiler için gerekli.",
+    "uz": "Jargons Colombia - argo va mahalliy shartlar bilan Kolumbiya Ispanya so'zligi. Internet siz mahalliy tilni tushun. Turar joylashgan va tashrif buyuruvchilar uchun zarur."
+  },
+  "app.udderance": {
+    "ru": "Udderance AAC — приложение для альтернативной и дополнительной коммуникации, преобразующее текст в речь. Поддержка пользователей с нарушениями речи.",
+    "en": "Udderance AAC - text-to-speech augmentative and alternative communication app. Support for users with speech disabilities.",
+    "tr": "Udderance AAC - metin-konuşma destekli alternatif ve destekleyici iletişim uygulaması. Konuşma engelli kullanıcılar için destek.",
+    "uz": "Udderance AAC - matn-nutq asosida alternatif va qo'shimcha aloqa ilovasi. Nutq buzilishiga ega foydalanuvchilar uchun qo'llab-quvvatlash."
+  },
+  "app.umerfarooq.littlerelay": {
+    "ru": "Little Relay — превратите Android в мост BLE и MQTT. Двусторонняя передача данных между Bluetooth Low Energy и MQTT-брокером.",
+    "en": "Little Relay - transform Android into BLE and MQTT bridge. Bidirectional data transfer between Bluetooth Low Energy and MQTT broker.",
+    "tr": "Little Relay - Android'i BLE ve MQTT köprüsüne dönüştürün. Bluetooth Low Energy ve MQTT broker arasında iki yönlü veri transferi.",
+    "uz": "Little Relay - Android'ni BLE va MQTT ko'prik'ga aylantiring. Bluetooth Low Energy va MQTT broker o'rtasida ikkitaraflama ma'lumot o'tkazish."
+  },
+  "app.umerfarooq.websocketcam": {
+    "ru": "Websocket CAM — потоковая передача камеры устройства для задач реального времени ИИ и компьютерного зрения. Получайте доступ к камере через API WebSocket для прямой обработки.",
+    "en": "Websocket CAM - stream device camera for real-time AI and computer vision tasks. Access camera via WebSocket API for live processing.",
+    "tr": "Websocket CAM - gerçek zamanlı AI ve bilgisayar görüşü görevleri için cihaz kamerasını aktarın. Canlı işleme için WebSocket API aracılığıyla kameraya erişim.",
+    "uz": "Websocket CAM - real vaqt AI va kompyuter ko'rish vazifalar uchun qurilma kamerasini oqim qiling. Jonli qayta ishlash uchun WebSocket API orqali kameraga kirish."
+  },
+  "app.usp": {
+    "ru": "USP — эмулятор ZX Spectrum для классических игр. Поддерживает 128K Pentagon, AY/YM звук, диски, ленты, джойстик. Играйте в классические игры Spectrum на Android.",
+    "en": "USP - ZX Spectrum emulator for retro gaming. Supports 128K Pentagon, AY/YM sound, disks, tape, joystick. Play classic Spectrum games on Android.",
+    "tr": "USP - retro oyunları için ZX Spectrum emülatörü. 128K Pentagon, AY/YM ses, diskler, teypler, joystick destekler. Android'de klasik Spectrum oyunları oynayın.",
+    "uz": "USP - retro o'yinlar uchun ZX Spectrum emulyatori. 128K Pentagon, AY/YM tovushi, disklar, teypler, joystick qo'llab-quvvatlab. Android'da klassik Spectrum o'yinlarini o'ynang."
+  },
+  "app.varlorg.unote": {
+    "ru": "uNote — лёгкий минималистичный блокнот, ориентированный на простоту. Добавьте/удалите заметки, защита паролем, сортировка по дате/заголовку, поиск, экспорт/импорт.",
+    "en": "uNote - lightweight minimalist notepad focusing on simplicity. Add/delete notes, password protection, sort by date/title, search, export/import.",
+    "tr": "uNote - basitliğe odaklanmış hafif minimalist not defteri. Not ekle/sil, şifre koruması, tarih/başlığa göre sıralama, arama, dışa/içe aktarma.",
+    "uz": "uNote - soddalikka qaratilgan yengil minimalist eslatma daftari. Eslatmalar qo'shing/o'chirib qo'ying, parol himoyasi, sana/sarlavha bo'ylab tartiblab, qidiruv, eksport/import."
+  },
+  "app.vegan_inspector": {
+    "ru": "Vegan Inspector — сканер штрих-кодов для веганских/вегетарианских продуктов. Сканируйте штрих-коды, чтобы проверить, веганские ли продукты. Использует данные OpenFoodFacts с минимальным доступом в сеть.",
+    "en": "Vegan Inspector - barcode scanner for vegan/vegetarian products. Scan barcodes to check if products are vegan. Uses OpenFoodFacts data with minimal network access.",
+    "tr": "Vegan Inspector - vegan/vegetaryen ürünler için barkod tarayıcı. Ürünlerin vegan olup olmadığını kontrol etmek için barkodları tarayın. OpenFoodFacts verilerini minimal ağ erişimi ile kullanır.",
+    "uz": "Vegan Inspector - vegan/vegetarian mahsulotlar uchun barkod skaneri. Mahsulotlar veganlimi tekshirish uchun barkodlarni skanerlang. OpenFoodFacts ma'lumotlarini minimal tarmoq kirishi bilan ishlatadi."
+  },
+  "app.vger.voyager": {
+    "ru": "Voyager for Lemmy — бесплатный клиент Lemmy с открытым исходным кодом. Без трекеров или рекламы, поддержка нескольких учётных записей, UI, управляемый жестами, инструменты модерирования, красивые приватные сообщения.",
+    "en": "Voyager for Lemmy - free open source Lemmy client. No trackers or ads, multi-account support, gesture-driven UI, mod tools, beautiful private messages.",
+    "tr": "Voyager for Lemmy - ücretsiz açık kaynak Lemmy istemcisi. İzci veya reklam yok, çok hesap desteği, hareket güdümlü UI, mod araçları, güzel özel iletiler.",
+    "uz": "Voyager for Lemmy - bepul ochiq manba Lemmy klijenti. Trazer yoki reklama yo'q, multi-akkaunt qo'llab-quvvatlash, harakat boshqarilgan UI, mod vositalar, chiroyli maxsus xabarlar."
+  },
+  "app.weatheroverview": {
+    "ru": "Weather Overview — почасовая информация о погоде от wttr.in. Удобно проверяйте условия погоды и прогнозы.",
+    "en": "Weather Overview - hourly weather information from wttr.in. Check weather conditions and forecasts conveniently.",
+    "tr": "Weather Overview - wttr.in'den saatlik hava durumu bilgileri. Hava durumu koşullarını ve tahminleri rahatça kontrol edin.",
+    "uz": "Weather Overview - wttr.in'dan soatlik ob-hava ma'lumotlari. Ob-hava sharoitini va prognozlarini qulay tekshiring."
+  },
+  "app.wispar.wispar": {
+    "ru": "Wispar — персональный исследовательский помощник для академических журналов. Поищите и следите за журналами, добавьте пользовательские ключевые слова в ленту, получайте доступ к открытым статьям, общайтесь с ИИ о статьях.",
+    "en": "Wispar - personal research companion for academic journals. Search and follow journals, add custom keywords to feed, access open-access articles, chat with AI about papers.",
+    "tr": "Wispar - akademik dergiler için kişisel araştırma arkadaşı. Dergileri arayın ve takip edin, beslemesine özel anahtar sözcükler ekleyin, açık erişim makalelere erişim, makaleler hakkında AI ile sohbet edin.",
+    "uz": "Wispar - akademik jurnallar uchun shaxsiy tadqiqot hamroh. Jurnallarni izlang va kuzating, feed'ga shaxsiy kalit so'zlar qo'shing, ochiq access maqolalarga kirish, maqolalar haqida AI bilan suhbat qiling."
+  },
+  "app.xcy7e.contextium": {
+    "ru": "Contextium — инструмент производительности, осведомлённый о контексте. Умные уведомления и контекстная информация для лучшего управления задачами.",
+    "en": "Contextium - context-aware productivity tool. Smart notifications and contextual information for better task management.",
+    "tr": "Contextium - bağlam bilincine sahip üretkenlik aracı. Daha iyi görev yönetimi için akıllı bildirimler ve bağlamsal bilgiler.",
+    "uz": "Contextium - kontekst-bilgan unumdorlik vositasi. Yaxshi vazifa boshqaruvi uchun aqlli bildirishnomalar va kontekstual ma'lumotlar."
+  },
+  "com.example.app1": {
+    "ru": "Smart Home Automation — управляйте умными устройствами из одного интерфейса. Совместимо с основными платформами умного дома.",
+    "en": "Smart Home Automation - control your smart devices from one interface. Compatible with major smart home platforms.",
+    "tr": "Smart Home Automation - akıllı cihazlarınızı bir arayüzden kontrol edin. Başlıca akıllı ev platformları ile uyumlu.",
+    "uz": "Smart Home Automation - aqlli qurilmalarni bir interfeystan boshqaring. Asosiy aqlli uy platformalari bilan muvofiq."
+  },
+  "com.example.app2": {
+    "ru": "Fitness Tracker Pro — продвинутое отслеживание тренировок с ИИ-коучингом. Контролируйте свой прогресс и получайте персональные рекомендации по фитнесу.",
+    "en": "Fitness Tracker Pro - advanced workout tracking with AI coaching. Monitor your progress and get personalized fitness recommendations.",
+    "tr": "Fitness Tracker Pro - AI koçluğu ile gelişmiş antrenman izleme. İlerlemenizi izleyin ve kişiselleştirilmiş fitness önerileri alın.",
+    "uz": "Fitness Tracker Pro - AI coachig bilan ilg'or workout kuzatish. Taraqqiyotingizni kuzating va shaxsiy fitness tavsiyalarni oling."
+  },
+  "com.example.app3": {
+    "ru": "Language Learning Hub — учитесь многим языкам интерактивно. Персональные уроки, руководство произношения и отслеживание прогресса.",
+    "en": "Language Learning Hub - learn multiple languages interactively. Personalized lessons, pronunciation guide, and progress tracking.",
+    "tr": "Language Learning Hub - birden fazla dili etkileşimli olarak öğrenin. Kişiselleştirilmiş dersler, telaffuz rehberi ve ilerleme izleme.",
+    "uz": "Language Learning Hub - bir nechta tillarni interaktiv o'rganing. Shaxsiy darslar, talaffuz qo'llanmasi va taraqqiyot kuzatish."
+  },
+  "com.example.app4": {
+    "ru": "Night Mode Assistant — интеллектуальная регулировка яркости экрана для комфорта глаз. Снизьте воздействие синего света с настраиваемой цветовой температурой.",
+    "en": "Night Mode Assistant - intelligent screen brightness adjustment for eye comfort. Reduce blue light exposure with customizable color temperature.",
+    "tr": "Night Mode Assistant - göz rahatlığı için akıllı ekran parlaklığı ayarı. Özelleştirilebilir renk sıcaklığı ile mavi ışık maruziyetini azaltın.",
+    "uz": "Night Mode Assistant - ko'z rahatligi uchun aqlli ekran yorqinligi sozlash. Moslashtirilishi mumkin bo'lgan rang harorati bilan ko'k yorug'lik ta'sirisini kamaytiring."
+  },
+  "com.example.app5": {
+    "ru": "Budget Manager Plus — комплексный инструмент отслеживания расходов и составления бюджета. Категоризируйте расходы, установите цели и визуализируйте финансовый прогресс.",
+    "en": "Budget Manager Plus - comprehensive expense tracking and budgeting tool. Categorize spending, set goals, and visualize financial progress.",
+    "tr": "Budget Manager Plus - kapsamlı gider izleme ve bütçeleme aracı. Harcamaları kategorize edin, hedefler belirleyin ve finansal ilerlemeyi görselleştirin.",
+    "uz": "Budget Manager Plus - to'liq xarajat kuzatish va byudjet vositasi. Xarajatlarni kategoriyalash, maqsadlarni belgilash va moliyaviy taraqqiyotni vizualizatsiya qiling."
+  },
+  "com.example.app6": {
+    "ru": "Meditation Guide — управляемые сеансы медитации с природными звуками. Снизьте стресс и улучшите психическое здоровье благодаря ежедневной осознанности.",
+    "en": "Meditation Guide - guided meditation sessions with nature sounds. Reduce stress and improve mental wellness through daily mindfulness.",
+    "tr": "Meditation Guide - doğa sesleri ile yönlendirilen meditasyon seansları. Günlük bilinçlilik yoluyla stres azaltın ve zihinsel sağlığı iyileştirin.",
+    "uz": "Meditation Guide - tabiat tovushlari bilan rahbarlik qilingan meditatsiya seanslar. Kunlik ongli orqali stressni kamaytiring va mental sog'liqni yaxshilang."
+  },
+  "com.example.app7": {
+    "ru": "Recipe Finder — ищите рецепты на основе ингредиентов, которые у вас есть. Получайте подробные инструкции приготовления и информацию о питательности.",
+    "en": "Recipe Finder - search recipes based on ingredients you have. Get detailed cooking instructions and nutrition information.",
+    "tr": "Recipe Finder - sahip olduğunuz malzemelere dayalı tarifler arayın. Ayrıntılı pişirme talimatları ve beslenme bilgisi alın.",
+    "uz": "Recipe Finder - sizda bor bo'lgan ingredientlar asosida retseptlarni izlang. Batafsil pishirish ko'rsatmalari va oziqlanish ma'lumotlarini oling."
+  },
+  "com.example.app8": {
+    "ru": "Cloud Backup Manager — автоматическое резервное копирование важных файлов в облачное хранилище. Безопасное шифрование и простые параметры восстановления.",
+    "en": "Cloud Backup Manager - automatic backup of important files to cloud storage. Secure encryption and easy restoration options.",
+    "tr": "Cloud Backup Manager - önemli dosyaların bulut depolamaya otomatik yedeklemesi. Güvenli şifreleme ve kolay geri yükleme seçenekleri.",
+    "uz": "Cloud Backup Manager - muhim fayllarning bulut saqlavga avtomatik zaxirasi. Xavfsiz shifrlash va oson tiklab olish variantlari."
+  },
+  "com.example.app9": {
+    "ru": "Social Events Planner — координируйте встречи и мероприятия с друзьями. Отслеживание RSVP, групповой обмен сообщениями и функции обмена местоположением.",
+    "en": "Social Events Planner - coordinate meetups and events with friends. RSVP tracking, group messaging, and location sharing features.",
+    "tr": "Social Events Planner - arkadaşlarla buluşmaları ve etkinlikleri koordine edin. RSVP izleme, grup mesajlaşması ve konum paylaşımı özellikleri.",
+    "uz": "Social Events Planner - do'stlar bilan uchrashuvlar va tadbirlarni koordine qiling. RSVP kuzatish, guruh xabarlar va joylashtu ulashish xususiyatlari."
+  },
+  "com.example.app10": {
+    "ru": "Local Storage Manager — эффективно управляйте локальным хранилищем файлов. Организуйте файлы, удалите дубликаты и освободите место на устройстве.",
+    "en": "Local Storage Manager - manage local file storage efficiently. Organize files, delete duplicates, and free up device space.",
+    "tr": "Local Storage Manager - yerel dosya depolamayı verimli bir şekilde yönetin. Dosyaları düzenleyin, çoğaltmaları silin ve cihaz alanını boşaltın.",
+    "uz": "Local Storage Manager - mahalliy fayl saqlavni samarali boshqarish. Fayllarni tashkil qiling, dublikatlarni o'chiring va qurilma joyini bo'shatish."
   }
 }
