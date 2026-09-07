@@ -1168,5 +1168,491 @@
     "en": "Animation and UI component library for Android developers. Build beautiful animated interfaces. Development component showcase.",
     "tr": "Android geliştiricileri için animasyon ve UI bileşeni kitaplığı. Güzel animasyonlu arayüzler oluşturun. Geliştirme bileşeni vitrin.",
     "uz": "Android ishlab chiqaruvchilari uchun animatsiya va UI komponent kutubxonasi. Go'zal animate qilingan interfayslar yarating. Rivojlantirish komponent vitrin."
+  },
+  "org.eu.mumulhl.ciyue.full": {
+    "ru": "Ciyue — лёгкое приложение словаря Mdict с поддержкой на Android, Windows и Linux. Просматривайте и ищите словари в режиме офлайн с быстрым поиском.",
+    "en": "Ciyue - lightweight Mdict dictionary app with cross-platform support for Android, Windows, and Linux. Browse and search dictionaries offline with fast lookup performance.",
+    "tr": "Ciyue - Android, Windows ve Linux desteği olan hafif Mdict sözlük uygulaması. Hızlı arama performansı ile sözlüklere çevrimdışı göz atın ve arama yapın.",
+    "uz": "Ciyue - Android, Windows va Linux bo'yicha ko'p platformali qo'llab-quvvatlash bilan yengil Mdict lug'at ilovasi. Tez qidiruv bilan oflayn sözluklarga kirish va izlash."
+  },
+  "com.daklok.biblelockscreen": {
+    "ru": "Bible Lock Screen — отображайте ежедневные стихи из Библии на обоях экрана блокировки. Вдохновляющие Писания обновляются каждый день для утреннего размышления.",
+    "en": "Bible Lock Screen - display daily Bible verses on your lock screen wallpaper. Inspirational scripture refreshes each day for morning devotion.",
+    "tr": "Bible Lock Screen - kilit ekranı duvar kağıdında günlük İncil ayetlerini görüntüleyin. İlham verici yazılar her gün sabah ibadetine yenilenir.",
+    "uz": "Bible Lock Screen - qulfli ekran devorida kunlik Bibliya oyatlarini ko'rsating. Ilham beruvchi Yozuvlar har kuni ertalab ibodat uchun yangilanadi."
+  },
+  "com.schwegelbin.openbible": {
+    "ru": "OpenBible — минималистичный читатель Библии без отвлечений для Android. Читайте Писание с чистой типографией и только самыми необходимыми функциями.",
+    "en": "OpenBible - minimal, distraction-free Bible reader for Android. Read scripture with clean typography and essential features only.",
+    "tr": "OpenBible - Android için dikkat dağıtıcı unsurlar olmayan minimal İncil okuyucu. İncil'i temiz tipografi ve yalnızca gerekli özelliklerle okuyun.",
+    "uz": "OpenBible - Android uchun minimal, abai soladigan Bibliya o'qigichi. Bibliya yo'lvonini toza tipografiya va faqat muhim xususiyatlar bilan o'qing."
+  },
+  "id.thony.android.quranlite": {
+    "ru": "Qur'an Lite — приложение Коран минимального размера для Android со всеми сохранёнными функциями. Чтение в режиме офлайн без лишнего и ненужных функций.",
+    "en": "Qur'an Lite - minimal-size Qur'an app for Android with full functionality preserved. Offline reading without bloat or unnecessary features.",
+    "tr": "Qur'an Lite - tüm işlevsellik korunarak Android için minimum boyutlu Kuran uygulaması. Şişkinlik veya gereksiz özellikler olmadan çevrimdışı okuma.",
+    "uz": "Qur'an Lite - Android uchun barcha funktsionalligi saqlangan minimal o'lchamdagi Qur'on ilovasi. Ortiqcha yoki keraksiz xususiyatlarsiz oflayn o'qish."
+  },
+  "yuku.alkitab": {
+    "ru": "Quick Bible — приложение Библии с открытым исходным кодом для Android с быстрой производительностью. Простой интерфейс для чтения и изучения Писания.",
+    "en": "Quick Bible - open-source Bible app for Android with fast performance. Simple interface for scripture reading and study.",
+    "tr": "Quick Bible - Android için hızlı performansla açık kaynak İncil uygulaması. İncil okuma ve çalışması için basit arayüz.",
+    "uz": "Quick Bible - Android uchun tez ishlash bilan ochiq manba Bibliya ilovasi. Bibliya o'qish va ta'limi uchun sodda interfeys."
+  },
+  "com.mehmetakiftutuncu.muezzin": {
+    "ru": "Muezzin — приложение для молитвы по исламу для Android. Точное ежедневное расписание молитв с уведомлениями о времени намаза и направлении Киблы по местоположению.",
+    "en": "Muezzin - Islamic prayer times app for Android. Accurate daily prayer schedule with notifications for Salah times and location-based Qibla direction.",
+    "tr": "Muezzin - Android için İslami namaz saatleri uygulaması. Namaz saatleri için bildirimler ve konum temelli Kible yönü ile doğru günlük namaz takvimi.",
+    "uz": "Muezzin - Android uchun Islom namozi vaqtlari ilovasi. Namoz vaqtlari va joylashuvga asoslangan Qibla yo'nalishi uchun bildirishnomalar bilan aniq kunlik namoz jadvali."
+  },
+  "com.saionji.mysensor": {
+    "ru": "My Sensor — приложение мониторинга качества воздуха, которое получает данные PM и экологические данные от sensor.community. Отображайте показания загрязнения в реальном времени и метрики температуры/влажности/давления на телефоне.",
+    "en": "My Sensor - air quality monitoring app that retrieves PM and environmental data from sensor.community. Display real-time pollution readings and temperature/humidity/pressure metrics on your phone.",
+    "tr": "My Sensor - sensor.community'den PM ve çevre verilerini alan hava kalitesi izleme uygulaması. Telefonunuzda gerçek zamanlı kirlilik okumalarını ve sıcaklık/nem/basınç metriklerini görüntüleyin.",
+    "uz": "My Sensor - sensor.community'dan PM va atrof-muhit ma'lumotlarini oladigan havo sifatini kuzatish ilovasi. Telefoningizda real vaqt iflosi o'qishlari va temperatura/namlik/bosim metrikalarini ko'rsating."
+  },
+  "com.StudyDesk.app": {
+    "ru": "StudyDesk — планировщик учёбы, разработанный для борьбы с прокрастинацией. Календарь экзаменов, таймер Pomodoro, приоритизация задач и предложения о дальнейших действиях на основе ваших курсов и заданий.",
+    "en": "StudyDesk - study planner designed to combat procrastination. Features exam calendar, Pomodoro timer, task prioritization, and next-up suggestions based on your courses and assignments.",
+    "tr": "StudyDesk - ertelemeyle mücadele için tasarlanmış çalışma planlayıcısı. Sınav takvimi, Pomodoro zamanlayıcısı, görev öncelik sıralaması ve kurslarınız ve ödevlerinize dayalı sonraki öneriler.",
+    "uz": "StudyDesk - ertalashtirish bilan kurashish uchun mo'ljallangan o'qish rejalashtirgichi. Imtihon taqvimi, Pomodoro taimer, vazifa prioritetlari va sizning kurslar va topshiriqlaringizga asoslangan keyingi takliflar."
+  },
+  "space.o4bit.projectasteria.foss": {
+    "ru": "Project Asteria — приложение астрономии, которое приносит APOD NASA (Астрономическая картина дня) на ваш телефон Android. Откройте удивительные космические снимки и узнайте о Вселенной.",
+    "en": "Project Asteria - astronomy app that brings NASA's APOD (Astronomy Picture of the Day) to your Android phone. Discover amazing space photos and learn about the universe.",
+    "tr": "Project Asteria - NASA'nın APOD'sini (Günün Astronomi Resmi) Android telefonunuza getiren astronomi uygulaması. Harika uzay fotoğraflarını keşfedin ve evren hakkında bilgi edinin.",
+    "uz": "Project Asteria - NASA'ning APOD'ini (Kun Astronomiya Rasmi) Android telefoningizga olib keladigan astronomiya ilovasi. Ajoyib kosmik suratlarni kashf eting va koinot haqida bilib oling."
+  },
+  "prz.rutedu.app": {
+    "ru": "RUTEdu — образовательное приложение Android для русских школьников. Получайте доступ к образовательным материалам и ресурсам, адаптированным для российской системы образования.",
+    "en": "RUTEdu - educational Android app for Russian school students. Access educational materials and resources tailored for the Russian education system.",
+    "tr": "RUTEdu - Rus okul öğrencileri için eğitim amaçlı Android uygulaması. Rus eğitim sistemine uyarlanmış eğitim materyalleri ve kaynaklarına erişim.",
+    "uz": "RUTEdu - Rus maktab o'quvchilari uchun ta'limiy Android ilovasi. Rus ta'lim tizimiga moslashtirilgan ta'limiy materiallar va resurslardan foydalanish."
+  },
+  "com.procrastilearn.app": {
+    "ru": "ProcrastiLearn — приложение производительности, которое блокирует приложения социальных сетей (TikTok и т. д.) за повторяющимся изучением карточек с интервалом. Изучайте словарный запас, предотвращая бесконечное прокручивание. Поддерживает импорт Anki и опциональные переводы ИИ. Локальное, без рекламы.",
+    "en": "ProcrastiLearn - productivity app that gates social media apps (TikTok, etc.) behind spaced-repetition flashcard reviews. Learn vocabulary while preventing doomscrolling. Supports Anki import and optional AI translations. Local, ad-free.",
+    "tr": "ProcrastiLearn - sosyal medya uygulamalarını (TikTok vb.) aralıklı tekrarlama flashcard yorumları arkasında kapatan üretkenlik uygulaması. Doomscrolling'i önlerken kelime bilgisini öğrenin. Anki içe aktarmayı ve isteğe bağlı AI çevirilerini destekler. Yerel, reklamsız.",
+    "uz": "ProcrastiLearn - ijtimoiy media ilovalarini (TikTok va h.z.) oraliq takroriy flash-karta sharhlari orqasida blokirovkalovchi unumdorlik ilovasi. Baquvvat o'qish yo'lini oldini olib, lug'atni o'rganing. Anki importini va ixtiyoriy AI tarjimalarini qo'llab-quvvatlaydi. Mahalliy, reklamsiz."
+  },
+  "com.ispindle.plotter": {
+    "ru": "iSpindle Plotter — приложение Android для домашних пивоваров, которое сопрягается с гидрометром iSpindle по WiFi. Отображайте показания ферментации и калибруйте измерения наклона и плотности в реальном времени.",
+    "en": "iSpindle Plotter - Android app for home brewers that pairs with iSpindle hydrometer over WiFi. Plot fermentation readings and calibrate tilt-to-gravity measurements in real-time.",
+    "tr": "iSpindle Plotter - iSpindle hidrometresi ile WiFi üzerinden eşleşen ev yapımı bira üreticileri için Android uygulaması. Fermantasyon okumalarını çizin ve gerçek zamanlı eğim-yoğunluk ölçümlerini kalibre edin.",
+    "uz": "iSpindle Plotter - WiFi orqali iSpindle gidrometri bilan juftlashtirgan uy pivovarlari uchun Android ilovasi. Fermentatsiya o'qishlari va real vaqt eğim-tortishiga asoslangan o'lchovlarni tekshirish."
+  },
+  "io.github.wifi_password_manager": {
+    "ru": "WiFi Password Manager — простое приложение для управления паролями WiFi на Android с использованием Shizuku или root-доступа. Просматривайте и управляйте сохранёнными учётными данными сети легко.",
+    "en": "WiFi Password Manager - simple app to manage WiFi passwords on Android using Shizuku or root access. View and manage saved network credentials easily.",
+    "tr": "WiFi Password Manager - Shizuku veya root erişimini kullanan Android'de WiFi parolalarını yönetmek için basit uygulama. Kaydedilmiş ağ kimlik bilgilerini kolayca görüntüleyin ve yönetin.",
+    "uz": "WiFi Password Manager - Shizuku yoki root kirish orqali Android'da WiFi parollarini boshqarish uchun sodda ilova. Saqlangan tarmoq asoslarini osongina ko'rish va boshqarish."
+  },
+  "com.aistudio.snoredetector.afkwd": {
+    "ru": "Snore Detector — приложение с открытым исходным кодом, которое обнаруживает и записывает храп во время сна. Контролируйте схемы сна и делитесь данными для анализа здоровья.",
+    "en": "Snore Detector - open-source app that detects and records snoring during sleep. Monitor sleep patterns and share data for health analysis.",
+    "tr": "Snore Detector - uykuda horlamayı algılayan ve kaydeden açık kaynak uygulaması. Uyku düzenini izleyin ve sağlık analizi için verileri paylaşın.",
+    "uz": "Snore Detector - uyqu paytida horlatishni aniqlagan va yozuvlaydigan ochiq manba ilovasi. Uyqu namunalarini kuzating va sog'liq tahlili uchun ma'lumotlarni ulashing."
+  },
+  "io.github.anrinion.baseline": {
+    "ru": "Baseline — приложение отслеживания здоровья для мониторинга метрик физической подготовки и данных о благополучии. Регистрируйте тренировки и отслеживайте прогресс вашего здоровья во времени.",
+    "en": "Baseline - health tracking app for monitoring fitness metrics and wellness data. Log workouts and track your health progress over time.",
+    "tr": "Baseline - fitness metriklerini ve wellness verilerini izlemek için sağlık takip uygulaması. Antrenmanları kaydedin ve sağlık ilerlemenizi zaman içinde takip edin.",
+    "uz": "Baseline - fitness metrikalarini va sog'liq ma'lumotlarini kuzatish uchun sog'liq tracking ilovasi. Mashqlarni qayd qiling va sog'liq taraqqiyotingizni vaqt o'tishi bilan kuzating."
+  },
+  "com.monkopedia.healthdisconnect": {
+    "ru": "Health Disconnect — приложение, ориентированное на конфиденциальность, для просмотра и визуализации данных Health Connect. Создавайте пользовательские диаграммы, анализируйте метрики и экспортируйте записи о здоровье на локально на устройстве.",
+    "en": "Health Disconnect - privacy-focused app for browsing and visualizing your Health Connect data. Build custom charts, analyze metrics, and export health entries—all on-device.",
+    "tr": "Health Disconnect - Health Connect verilerinizi tarama ve görselleştirmek için gizlilik odaklı uygulama. Özel grafikler oluşturun, metrikleri analiz edin ve sağlık girdilerini dışa aktarın — tamamı cihazda.",
+    "uz": "Health Disconnect - Health Connect ma'lumotlarini ko'rish va vizualizatsiya qilish uchun maxfiylik markazlashtirilgan ilova. Shaxsiy chartalarni yarating, metrikalarni tahlil qiling va sog'liq yozuvlarini eksport qiling — hammasi qurilmada."
+  },
+  "com.dasp.worldcup2026": {
+    "ru": "2026 Football Fixtures Widget — виджет Android, отображающий предстоящие матчи и расписание чемпионата мира по футболу FIFA 2026.",
+    "en": "2026 Football Fixtures Widget - Android widget displaying upcoming 2026 FIFA World Cup football matches and schedules.",
+    "tr": "2026 Football Fixtures Widget - Gelecek 2026 FIFA Dünya Kupası futbol maçlarını ve takvimlerini gösteren Android widget'ı.",
+    "uz": "2026 Football Fixtures Widget - 2026 FIFA Jahon Chempionati futbol o'yinlari va jadvallarini ko'rsatadigan Android vidjet."
+  },
+  "de.dennisguse.opentracks.playstore": {
+    "ru": "OpenTracks — приложение отслеживания GPS для регистрации бега, езды на велосипеде и пеших прогулок. Записывайте маршруты, отслеживайте расстояния и анализируйте производительность физической подготовки.",
+    "en": "OpenTracks - GPS tracking app for logging running, cycling, and hiking activities. Record routes, track distances, and analyze fitness performance.",
+    "tr": "OpenTracks - koşu, bisiklet ve yürüyüş etkinliklerini kaydedici GPS takip uygulaması. Rotaları kaydedin, mesafeleri takip edin ve fitness performansını analiz edin.",
+    "uz": "OpenTracks - yugurish, velosipedda minish va piyoda safrlarni qayd qilish uchun GPS tracking ilovasi. Marshrutlarni yozib oling, masofalarni kuzating va fizik idman ishlashini tahlil qiling."
+  },
+  "com.futsch1.medtimer": {
+    "ru": "MedTimer — приложение напоминания о лекарствах для Android. Установите расписание приёма таблеток и получайте уведомления о приёме лекарств вовремя.",
+    "en": "MedTimer - medication reminder app for Android. Set pill schedules and receive notifications to take your medications on time.",
+    "tr": "MedTimer - Android için ilaç hatırlatıcı uygulaması. İlaç takvimlerini ayarlayın ve ilaçlarınızı zamanında almak için bildirimler alın.",
+    "uz": "MedTimer - Android uchun dori eslatma ilovasi. Dori jadvali belgilang va dorilarni vaqtida olish uchun bildirishnomalarni oling."
+  },
+  "io.github.friesi23.mhabit": {
+    "ru": "Table Habit — умный трекер привычек, созданный с помощью Flutter. Отслеживайте ежедневные привычки с интеллектуальной оценкой, синхронизацией WebDAV для резервного копирования и дизайном, ориентированным на автономную работу. Работает на Android, iOS, Windows, macOS и Linux.",
+    "en": "Table Habit - smart habit tracker built with Flutter. Track daily habits with intelligent scoring, WebDAV sync for backup, and offline-first design. Works on Android, iOS, Windows, macOS, and Linux.",
+    "tr": "Table Habit - Flutter ile oluşturulmuş akıllı alışkanlık izleyici. Akıllı puanlama, yedekleme için WebDAV senkronizasyonu ve çevrimdışı öncelikli tasarım ile günlük alışkanlıkları takip edin. Android, iOS, Windows, macOS ve Linux üzerinde çalışır.",
+    "uz": "Table Habit - Flutter bilan qurilgan aqlli odobni treking. Aqlli skorlash, zaxira uchun WebDAV sinxronizatsiyasi va oflayn-birinchi dizayn bilan kunlik odoblarni kuzating. Android, iOS, Windows, macOS va Linux'da ishlaydi."
+  },
+  "com.presley.flexify": {
+    "ru": "Flexify — трекер тренировок, ориентированный на автономную работу, для силовых и кардиотренировок. Логируйте упражнения, отслеживайте прогресс с помощью графиков, установите таймеры отдыха и настройте темы. Создано с помощью Flutter для надёжной автономной работы.",
+    "en": "Flexify - offline-first workout tracker for strength and cardio training. Log exercises, track progress with graphs, set rest timers, and customize themes. Built with Flutter for reliable offline performance.",
+    "tr": "Flexify - kuvvet ve kardiyotrenmanı için çevrimdışı öncelikli antrenman izleyici. Egzersizleri kaydedin, grafiklerle ilerlemeyi takip edin, rest zamanlayıcılarını ayarlayın ve temaları özelleştirin. Güvenilir çevrimdışı performans için Flutter ile oluşturuldu.",
+    "uz": "Flexify - kuch va kardio mashq uchun oflayn-birinchi workout treking. Mashqlarni qayd qiling, grafiklar bilan taraqqiyotni kuzating, dam taimer belgilang va mavzularni sozlang. Ishonchli oflayn ishlash uchun Flutter bilan qurilgan."
+  },
+  "de.lukasneugebauer.nextcloudcookbook": {
+    "ru": "Nextcloud Cookbook — клиент Android для приложения Nextcloud Cookbook. Синхронизируйте, просматривайте и организовывайте рецепты, хранящиеся на сервере Nextcloud.",
+    "en": "Nextcloud Cookbook - Android client for Nextcloud Cookbook app. Sync, browse, and organize recipes stored on your Nextcloud server.",
+    "tr": "Nextcloud Cookbook - Nextcloud Cookbook uygulaması için Android istemcisi. Nextcloud sunucunuzda depolanan tarifleri senkronize edin, tarama yapın ve düzenleyin.",
+    "uz": "Nextcloud Cookbook - Nextcloud Cookbook ilovasi uchun Android klijenti. Nextcloud serveringizda saqlangan retseptlarni sinxronize qiling, ko'rish va tashkil qiling."
+  },
+  "com.quitter.app": {
+    "ru": "Quitter — приватный трекер трезвости и преодоления зависимости, работающий в режиме офлайн. Регистрируйте ежедневные вехи, записи в журнал, цели восстановления и создавайте пользовательские этапы избавления от зависимости без облачной синхронизации или обмена данными.",
+    "en": "Quitter - private, offline sobriety and addiction recovery tracker. Log daily milestones, journal entries, recovery goals, and build custom quit journeys without cloud sync or data sharing.",
+    "tr": "Quitter - özel, çevrimdışı sobriyet ve bağımlılıktan kurtulma izleyici. Günlük dönüm noktalarını, dergi girdilerini, kurtarma hedeflerini kaydedin ve bulut senkronizasyonu veya veri paylaşımı olmadan özel bırakma yolculuğu oluşturun.",
+    "uz": "Quitter - xususiy, oflayn alfahollik va qayta tiklash treking. Kunlik mesonlarni, jurnal yozuvlarini, qayta tiklash maqsadlarini qayd qiling va bulut sinxronizatsiyasi yoki ma'lumot ulashasiz shaxsiy tugatish sayohatlari qurang."
+  },
+  "com.presley.fit_book": {
+    "ru": "FitBook — приложение отслеживания питания и калорий, ориентированное на автономную работу, созданное с помощью Flutter. Сканируйте штрих-коды, ищите в базе данных продуктов, отслеживайте макронутриенты и контролируйте прогресс с помощью графиков. Работает полностью в режиме офлайн.",
+    "en": "FitBook - offline-first nutrition and calorie tracking app built with Flutter. Scan barcodes, search food database, track macros, and monitor progress with graphs. Works completely offline.",
+    "tr": "FitBook - Flutter ile oluşturulmuş çevrimdışı öncelikli beslenme ve kalori takip uygulaması. Barkodları tarayın, gıda veritabanında arama yapın, makroları takip edin ve grafiklerle ilerlemeyi izleyin. Tamamen çevrimdışı olarak çalışır.",
+    "uz": "FitBook - Flutter bilan qurilgan oflayn-birinchi nutrisyon va kalori tracking ilovasi. Barkodlarni skanerlang, oziqlanish bazasida izlang, makro'larni kuzating va grafiklar bilan taraqqiyotni kuzating. To'lik oflayn ishlaydi."
+  },
+  "net.pgaskin.batterytile": {
+    "ru": "Battery Tile — быстрая плитка настроек для Android, отображающая информацию о батарее в реальном времени. Показывает текущий процент, температуру, состояние зарядки и оставшееся время.",
+    "en": "Battery Tile - quick settings tile for Android displaying real-time battery information. Shows current percentage, temperature, charging status, and time remaining.",
+    "tr": "Battery Tile - Android için gerçek zamanlı pil bilgilerini gösteren hızlı ayarlar döşemesi. Mevcut yüzdeyi, sıcaklığı, şarj durumunu ve kalan zamanı gösterir.",
+    "uz": "Battery Tile - real vaqt batareya ma'lumotlarini ko'rsatadigan Android uchun tez sozlama plitasi. Joriy foizni, haroratni, zaryadlash holatini va qolgan vaqtni ko'rsatadi."
+  },
+  "com.tideo.autobrightness": {
+    "ru": "Tideo Auto Brightness — замена адаптивной яркости Android на Kotlin. Использует детерминированную математику вместо непрозрачного машинного обучения. Особенности включают живое построение графиков, автоподгонку кривой, масштабирование циркадного ритма и гибридное затемнение для снижения напряжения глаз.",
+    "en": "Tideo Auto Brightness - Kotlin replacement for Android's adaptive brightness. Uses deterministic math instead of opaque machine learning. Features live graphing, auto curve fitting, circadian rhythm scaling, and hybrid dimming to reduce eye strain.",
+    "tr": "Tideo Auto Brightness - Android'in uyarlanabilir parlaklığı için Kotlin değiştiricisi. Opak makine öğrenmesi yerine belirleyici matematik kullanır. Göz yorgunluğunu azaltmak için canlı grafikleme, otomatik eğri uydurma, sirkadiyen ritimskalası ve hibrit karartma özelliklerine sahiptir.",
+    "uz": "Tideo Auto Brightness - Android adaptive yorqinligi uchun Kotlin almashtirgi. Opaq mashinali o'rganish o'rniga deterministik matematikadan foydalanadi. Real vaqt grafiklashni, avto egri sozlashni, sirkadian ritm masштabilashni va ko'z zarb kamaytirish uchun hibrid karartishni o'z ichiga oladi."
+  },
+  "com.retekey": {
+    "ru": "ReteKey — стандартно совместимая корейская клавиатура Hangul для Android, оптимизированная для разработчиков. Поддерживает ввод с аппаратной клавиатуры и эффективный ввод корейского текста.",
+    "en": "ReteKey - standard-compliant Korean Hangul keyboard for Android optimized for developers. Supports hardware keyboard input and efficient Korean text entry.",
+    "tr": "ReteKey - geliştiriciler için optimize edilmiş Android uyumlu Korece Hangul klavyesi. Donanım klavyesi girişini ve etkili Korece metin girişini destekler.",
+    "uz": "ReteKey - ishlab chiqaruvchilar uchun optimallashtirilgan Android uchun standart muvofiq Koreya Hangul klaviaturasi. Donaniy klaviatura kirish va samarali Koreya matn kirish qo'llab-quvvatlaydi."
+  },
+  "com.colourswift.safehaven": {
+    "ru": "Safe Haven — приложение альтернативного магазина приложений с открытым исходным кодом для Android с проверенными приложениями с открытым исходным кодом. Предоставляет безопасную альтернативу Google Play с встроенной защитой от вредоноса.",
+    "en": "Safe Haven - open-source alternative app store for Android with verified, open-source apps. Provides secure alternative to Google Play with built-in malware protection.",
+    "tr": "Safe Haven - doğrulanmış açık kaynak uygulamalarıyla Android için açık kaynak alternatif uygulama mağazası. Google Play'e yerleşik kötü amaçlı yazılım koruması ile güvenli alternatif sağlar.",
+    "uz": "Safe Haven - Android uchun verifikatsiyalangan ochiq manba ilovalar bilan ochiq manba alternativ app-store. Google Play'ga o'rnatilgan zararli dastur himoyasi bilan xavfsiz alternativni taqdim etadi."
+  },
+  "dev.serika.camerasilencer": {
+    "ru": "Camera Silencer — лёгкое приложение Android для отключения звука затвора камеры. Утилита с небольшим объёмом памяти для бесшумной фотографии.",
+    "en": "Camera Silencer - lightweight Android app to disable camera shutter sounds. Small footprint utility for silent photography.",
+    "tr": "Camera Silencer - kamera kapanış sesini devre dışı bırakmak için hafif Android uygulaması. Sessiz fotoğrafçılık için küçük ayakprint yardımcı programı.",
+    "uz": "Camera Silencer - kamera tutash tovushini o'chirish uchun yengil Android ilovasi. Jim fototsentralik uchun kichik izlarni qoldiruvchi vosita."
+  },
+  "com.shubhang.loophole": {
+    "ru": "Loophole — плитка быстрых настроек Android для включения/отключения параметров разработчика за один кран. Решает конфликт между банковскими приложениями и работой разработки.",
+    "en": "Loophole - Android quick settings tile to toggle Developer Options in one tap. Solves the conflict between banking apps and development work.",
+    "tr": "Loophole - Geliştirici Seçeneklerini bir dokunuşla açıp kapatmak için Android hızlı ayarlar döşemesi. Bankacılık uygulamaları ve geliştirme çalışmaları arasındaki çatışmayı çözer.",
+    "uz": "Loophole - Developer Variantlarini bir bosish bilan o'chirib-yoqish uchun Android tez sozlama plitasi. Bank ilovalar va ishlab chiqarish ishi orasidagi konfliktni hal qiladi."
+  },
+  "dev.zwander.installwithoptions": {
+    "ru": "Install with Options — использует Shizuku для установки APK на устройстве с параметрами расширенной установки. Установите несколько разделов, выберите версию приложения и настройте параметры установки.",
+    "en": "Install with Options - uses Shizuku to install APKs on-device with advanced installation options. Install multiple splits, select app version, and customize installation parameters.",
+    "tr": "Install with Options - ileri kurulum seçenekleriyle cihazda APK yüklemek için Shizuku kullanır. Birden fazla bölüm yükleyin, uygulama sürümünü seçin ve kurulum parametrelerini özelleştirin.",
+    "uz": "Install with Options - cihazda rivojlangan o'rnatish variantlari bilan APK o'rnatish uchun Shizuku'dan foydalanadi. Bir nechta ajralishlarni o'rnating, app versiyasini tanlang va o'rnatish parametrlarini sozlang."
+  },
+  "com.tk.quicksearch": {
+    "ru": "Quick Search — универсальное приложение поиска Android для поиска приложений, ярлыков, контактов, файлов, событий календаря, заметок, параметров и результатов веб-поиска в одном месте.",
+    "en": "Quick Search - universal Android search app for finding apps, shortcuts, contacts, files, calendar events, notes, settings, and web results all in one place.",
+    "tr": "Quick Search - uygulamaları, kısayolları, kişileri, dosyaları, takvim etkinliklerini, notları, ayarları ve web sonuçlarını tek bir yerde bulmak için evrensel Android arama uygulaması.",
+    "uz": "Quick Search - ilovalar, qisqartmalar, kontaktlar, fayllar, taqvim hodisalari, eslatmalar, sozlamalar va veb natijalari bir joyda izlash uchun universal Android search ilovasi."
+  },
+  "k4ustu3h.monocons.izzy": {
+    "ru": "Monocons — пакет монохромных брендовых значков для программы запуска Android. Чистый, последовательный дизайн значков для минималистичных домашних экранов.",
+    "en": "Monocons - monochrome brand icon pack for Android launchers. Clean, consistent icon design for minimalist home screens.",
+    "tr": "Monocons - Android başlatıcılar için monokrom marka simgesi paketi. Minimalist ana ekranlar için temiz, tutarlı simge tasarımı.",
+    "uz": "Monocons - Android pelaunchers uchun monokrom brend icon-paketi. Minimalist bosh ekranlari uchun toza, izchil icon dizayni."
+  },
+  "fumi.day.literallauncher": {
+    "ru": "Literal Launcher — лёгкая, текстовая программа запуска Android для минималистичных домашних экранов. Быстрая, эффективная альтернатива традиционным программам запуска на основе значков.",
+    "en": "Literal Launcher - lightweight, text-based Android launcher for minimalist home screens. Fast, efficient alternative to traditional icon-based launchers.",
+    "tr": "Literal Launcher - minimalist ana ekranlar için hafif, metine dayalı Android başlatıcı. Geleneksel simge tabanlı başlatıcılara hızlı, verimli alternatif.",
+    "uz": "Literal Launcher - minimalist bosh ekranlari uchun yengil, matn-asosli Android pelauncher. An'anaviy icon-asosli pelaucherslarga tez, samarali alternativ."
+  },
+  "tk.zwander.lockscreenwidgets": {
+    "ru": "Lockscreen Widgets — добавьте интерактивные виджеты на экран блокировки Android. Отображайте информацию и управляйте приложениями без разблокировки устройства.",
+    "en": "Lockscreen Widgets - add interactive widgets to your Android lock screen. Display information and control apps without unlocking your device.",
+    "tr": "Lockscreen Widgets - Android kilit ekranınıza etkileşimli widget'lar ekleyin. Cihazınızın kilidini açmadan bilgi gösterin ve uygulamaları kontrol edin.",
+    "uz": "Lockscreen Widgets - Android qulfli ekraningizga interaktiv vidjetlarni qo'shing. Qurilmangizni qulfdan chiqarmasdan ma'lumot ko'rsating va ilovalarni boshqaring."
+  },
+  "com.bl4ckswordsman.cerberustiles": {
+    "ru": "Cerberus Tiles — добавьте дополнительные плитки быстрых параметров на устройство Google Pixel. Настройте быстрые параметры с дополнительными элементами управления и переключателями.",
+    "en": "Cerberus Tiles - add extra quick settings tiles to your Google Pixel device. Customize Quick Settings with additional controls and toggles.",
+    "tr": "Cerberus Tiles - Google Pixel cihazınıza ekstra hızlı ayarlar döşemeleri ekleyin. Hızlı Ayarları ek kontroller ve geçişlerle özelleştirin.",
+    "uz": "Cerberus Tiles - Google Pixel qurilmangizga qo'shimcha tez sozlamalar plitalarini qo'shing. Qo'shimcha nazorat va o'tkilar bilan Tez sozlamalarni moslashtiring."
+  },
+  "me.haroldmartin.golwallpaper": {
+    "ru": "GoL Screensaver — экран заставки Conway's Game of Life для устройств e-ink Android Onyx Boox. Красивый анимированный дисплей клеточного автомата.",
+    "en": "GoL Screensaver - Conway's Game of Life screensaver for Onyx Boox e-ink Android devices. Beautiful animated cellular automaton display.",
+    "tr": "GoL Screensaver - Onyx Boox e-ink Android cihazları için Conway'in Yaşam Oyunu ekran koruyucu. Güzel animasyonlu hücresel otomat ekranı.",
+    "uz": "GoL Screensaver - Onyx Boox e-ink Android qurilmalari uchun Conway's Life O'yini ekran qo'rg'ovchisi. Chiroyli animatsiyalashtirilgan hujayra avtomatining ekrani."
+  },
+  "com.minimo.launcher": {
+    "ru": "Minimo Launcher — чистая, разгруженная программа запуска Android, приоритизирующая функциональность. Минималистичный интерфейс только с необходимыми функциями.",
+    "en": "Minimo Launcher - clean, de-cluttered Android launcher prioritizing functionality. Minimalist interface with essential features only.",
+    "tr": "Minimo Launcher - işlevselliği öncelleştiren temiz, dağınık olmayan Android başlatıcı. Yalnızca temel özellikleri olan minimalist arayüz.",
+    "uz": "Minimo Launcher - funksionalligi prioritet qiladigan toza, shunday andrоyd pelauncher. Faqat zarur xususiyatlar bilan minimal interfeys."
+  },
+  "one.oktw.muzeipixivsource": {
+    "ru": "Muzei Pixiv Source — получает красивые произведения искусства с Pixiv и устанавливает их в качестве обоев Android. Автоматическая ежедневная ротация обоев с контентом художественного сообщества.",
+    "en": "Muzei Pixiv Source - fetches beautiful artwork from Pixiv and sets it as your Android wallpaper. Automatic daily wallpaper rotation with art community content.",
+    "tr": "Muzei Pixiv Source - Pixiv'den güzel sanat eserlerini getirir ve Android duvar kağıdınız olarak ayarlar. Sanat topluluğu içeriği ile otomatik günlük duvar kağıdı rotasyonu.",
+    "uz": "Muzei Pixiv Source - Pixiv'dan chiroyli sanʻat asarlarini olib, Android devor qog'ozi sifatida o'rnatadi. Sanʻat hamjamiyati kontenti bilan avtomatik kunlik duvor qog'ozi aylanishi."
+  },
+  "de.theiling.neatlauncher": {
+    "ru": "NeatLauncher — эффективная, удобная программа запуска Android с аккуратным дизайном интерфейса. Продуктивный опыт домашнего экрана без лишнего.",
+    "en": "NeatLauncher - efficient, convenient Android launcher with neat interface design. Productive home screen experience without bloat.",
+    "tr": "NeatLauncher - düzgün arayüz tasarımı ile verimli, uygun Android başlatıcı. Şişkinlik olmadan üretken ana ekran deneyimi.",
+    "uz": "NeatLauncher - toza interfeys dizayni bilan samarali, qulaylastilgan Android pelauncher. Ortiqcha siz minimalanmagan unumdor bosh ekran tajribasi."
+  },
+  "app.lawnchair.lawnicons": {
+    "ru": "Lawnicons — пакет монохромных контурных брендовых значков для программы запуска Android. Последовательный, современный дизайн значков для настраиваемых домашних экранов.",
+    "en": "Lawnicons - monochrome outlined brand icon pack for Android launchers. Consistent, modern icon design for customizable home screens.",
+    "tr": "Lawnicons - Android başlatıcıları için monokrom belirtilen marka simge paketi. Özelleştirilebilir ana ekranlar için tutarlı, modern simge tasarımı.",
+    "uz": "Lawnicons - Android pelaucherlar uchun monokrom belgilangan brend icon-paketi. Moslashtirilishi mumkin bo'lgan bosh ekranlari uchun izchil, zamonaviy icon dizayni."
+  },
+  "app.simple.peri": {
+    "ru": "Peristyle — передовой менеджер обоев для Android с пользовательским интерфейсом в стиле glassmorphic. Отмечайте фотографии, автоматически чередуйте обои, применяйте пользовательские эффекты, управляйте несколькими папками, встроенный выбор живых обоев.",
+    "en": "Peristyle - advanced wallpaper manager for Android with glassmorphic UI. Tag photos, auto-rotate wallpapers, apply custom effects, manage multiple folders, native live wallpaper picker.",
+    "tr": "Peristyle - glassmorphic UI ile Android için ileri duvar kağıdı yöneticisi. Fotoğrafları etiketleyin, duvar kağıtlarını otomatik döndürün, özel efektler uygulayın, birden fazla klasörü yönetin, yerel canlı duvar kağıdı seçici.",
+    "uz": "Peristyle - glassmorphic UI bilan Android uchun ilg'or duvor qog'ozi boshqaruvchisi. Suratlarni belgilang, duvor qog'ozini avtomatik aylantiring, shaxsiy effektlarni qo'llang, bir nechta papkalarni boshqaring, yerli jonli duvor qog'ozi tanlagichi."
+  },
+  "com.kieronquinn.app.classicpowermenu": {
+    "ru": "Classic Power Menu — меню питания замены для Android с современным стилем. Заменяет меню питания системы по умолчанию настраиваемыми параметрами.",
+    "en": "Classic Power Menu - replacement power menu for Android with modern styling. Replaces the default system power menu with customizable options.",
+    "tr": "Classic Power Menu - modern stil ile Android için güç menüsü değiştirmesi. Varsayılan sistem güç menüsünü özelleştirilebilir seçeneklerle değiştirir.",
+    "uz": "Classic Power Menu - zamonaviy stil bilan Android uchun quvvat menyusi almashtirilmasi. Default sistem quvvat menyusini moslashtirilishi mumkin bo'lgan variantlar bilan almashtirib."
+  },
+  "de.markusfisch.android.pielauncher": {
+    "ru": "Pie Launcher — инновационная программа запуска Android, использующая динамическое круговое меню вместо сеток значков. Уникальный интерфейс меню на основе окружности для быстрого доступа к приложениям.",
+    "en": "Pie Launcher - innovative Android launcher using dynamic pie menu instead of icon grids. Unique circular menu interface for fast app access.",
+    "tr": "Pie Launcher - simge ızgaraları yerine dinamik pasta menüsü kullanan yenilikçi Android başlatıcı. Hızlı uygulama erişimi için benzersiz dairesel menü arayüzü.",
+    "uz": "Pie Launcher - icon gridi o'rniga dinamik piy menyusidan foydalanadigan innovatsion Android pelauncher. Tez app kirish uchun o'ziga xos dumaloq menyusi interfeysi."
+  },
+  "cat.mvmike.minimalcalendarwidget": {
+    "ru": "MinCal Widget — минимальный виджет календаря для домашних экранов Android. Чистое, простое отображение календаря без ненужных функций.",
+    "en": "MinCal Widget - minimal calendar widget for Android home screens. Clean, simple calendar display without unnecessary features.",
+    "tr": "MinCal Widget - Android ana ekranları için minimal takvim widget'ı. Gereksiz özellikler olmayan temiz, basit takvim ekranı.",
+    "uz": "MinCal Widget - Android bosh ekranlari uchun minimal taqvim vidjet. Keraksiz xususiyatlarsiz toza, sodda taqvim ko'rinishi."
+  },
+  "net.nhiroki.bluelinesolarinfo": {
+    "ru": "Blue Line Solar Info — отображает информацию о солнце и луне на вашем устройстве Android. Просмотрите время восхода/заката, фазы луны и солнечные данные.",
+    "en": "Blue Line Solar Info - displays sun and moon information on your Android device. View sunrise/sunset times, moon phases, and solar data.",
+    "tr": "Blue Line Solar Info - Android cihazınızda güneş ve ay bilgilerini gösterir. Gün doğumu/batışı saatlerini, ay evrelerini ve güneş verilerini görüntüleyin.",
+    "uz": "Blue Line Solar Info - Android qurilmangizda quyosh va oy ma'lumotlarini ko'rsatadi. Quyosh chiqishi/botishi vaqtlari, oy fazalari va quyosh ma'lumotlarini ko'rish."
+  },
+  "com.theissenmatthias.remind_me": {
+    "ru": "Remind Me — простое приложение для напоминания на следующие 24 часа. Быстрые напоминания о задачах без сложного планирования или интеграции календаря.",
+    "en": "Remind Me - simple reminder app for the next 24 hours. Quick task reminders without complex scheduling or calendar integration.",
+    "tr": "Remind Me - sonraki 24 saat için basit hatırlatıcı uygulaması. Karmaşık zamanlama veya takvim entegrasyonu olmadan hızlı görev hatırlatıcıları.",
+    "uz": "Remind Me - keyingi 24 soat uchun sodda eslatma ilovasi. Murakkab jadvallash yoki taqvim integratsiyasiz tez vazifa eslatmalari."
+  },
+  "org.roto": {
+    "ru": "Roto — приложение Android для отображения и обмена расписанием в режиме одного взгляда. Создавайте пользовательские расписания для школы, работы или организаций и просматривайте в режиме офлайн.",
+    "en": "Roto - Android app for displaying and sharing rotas and schedules at a glance. Build custom rotas for school, work, or organizations and view offline.",
+    "tr": "Roto - roasta ve takvimlerini bir bakışta göstermek ve paylaşmak için Android uygulaması. Okul, çalışma veya kuruluşlar için özel rotalar oluşturun ve çevrimdışı olarak görüntüleyin.",
+    "uz": "Roto - rotas va jadvallarni bir qarashda ko'rsatish va ulashing uchun Android ilovasi. Maktab, ish yoki tashkilotlar uchun shaxsiy rotaslar yarating va oflayn ko'rish."
+  },
+  "com.shpak.quicktimer": {
+    "ru": "Quick Timer — минимальное приложение таймера Android без Activity. Ультралёгкий таймер на основе уведомлений для простых задач синхронизации.",
+    "en": "Quick Timer - minimal Android timer app without an Activity. Ultra-lightweight notification-based timer for simple timing tasks.",
+    "tr": "Quick Timer - Activity olmayan minimal Android zamanlayıcı uygulaması. Basit zamanlama görevleri için ultra hafif bildirime dayalı zamanlayıcı.",
+    "uz": "Quick Timer - Activity siz minimal Android taimer ilovasi. Sodda vaqt belgilash vazifalari uchun ultra-yengil bildirishnoma-asosli taimer."
+  },
+  "org.projectsolutus.pomozen": {
+    "ru": "Pomozen — современное приложение таймера Pomodoro, разработанное для повышения производительности. Используйте сосредоточенные интервалы работы и короткие перерывы для структурирования дня и повышения концентрации.",
+    "en": "Pomozen - modern Pomodoro timer app designed to boost productivity. Use focused work intervals and short breaks to structure your day and increase focus.",
+    "tr": "Pomozen - üretkenliği artırmak için tasarlanmış modern Pomodoro zamanlayıcı uygulaması. Gününüzü yapılandırmak ve odaklanmayı artırmak için odaklanmış çalışma aralıklarını ve kısa molallarını kullanın.",
+    "uz": "Pomozen - unumdorlikni oshirish uchun mo'ljallangan zamonaviy Pomodoro taimer ilovasi. Kunni tuzimlab va fokusni oshirish uchun diqqatga joylashtirilgan ish oraliqlarini va qisqa vaqf-oraliqlaridan foydalanish."
+  },
+  "org.avmedia.gshockGoogleSync": {
+    "ru": "Casio G-Shock Smart Sync — синхронизируйте и управляйте данными для смарт-часов Casio G-Shock. Управляйте параметрами часов и просматривайте уведомления на подключенных G-Shock.",
+    "en": "Casio G-Shock Smart Sync - sync and manage data for your Casio G-Shock smartwatch. Control watch settings and view notifications on your connected G-Shock.",
+    "tr": "Casio G-Shock Smart Sync - Casio G-Shock akıllı saatiniz için verileri senkronize edin ve yönetin. Saat ayarlarını kontrol edin ve bağlı G-Shock'unuzda bildirimleri görüntüleyin.",
+    "uz": "Casio G-Shock Smart Sync - Casio G-Shock smartwatchingiz uchun ma'lumotlarni sinxronize qiling va boshqaring. Soatning sozlamalarini kontrol qiling va ulangan G-Shock'ingizda bildirishnomalarni ko'rish."
+  },
+  "hu.vmiklos.plees_tracker": {
+    "ru": "plees-tracker — простой трекер сна для вашего телефона Android. Регистрируйте сеансы сна и отслеживайте режимы сна во времени.",
+    "en": "plees-tracker - simple sleep tracker for your Android phone. Log sleep sessions and track sleep patterns over time.",
+    "tr": "plees-tracker - Android telefonunuz için basit uyku izleyici. Uyku seanslarını kaydedin ve uyku düzenini zaman içinde takip edin.",
+    "uz": "plees-tracker - Android telefoningiz uchun sodda uyqu treking. Uyqu seanslarini qayd qiling va uyqu namunalarini vaqt o'tishi bilan kuzating."
+  },
+  "com.nathanatos.Cuppa": {
+    "ru": "Cuppa - Tea Timer — простое приложение таймера чая, созданное с помощью Flutter. Установите время заваривания и получайте уведомления, когда ваш чай готов. Работает на Android и iOS.",
+    "en": "Cuppa - Tea Timer - simple tea timer app built with Flutter. Set brew times and get notifications when your tea is ready. Works on Android and iOS.",
+    "tr": "Cuppa - Tea Timer - Flutter ile oluşturulmuş basit çay zamanlayıcı uygulaması. Demleme sürelerini ayarlayın ve çayınız hazır olduğunda bildirimler alın. Android ve iOS'te çalışır.",
+    "uz": "Cuppa - Tea Timer - Flutter bilan qurilgan sodda choy taimer ilovasi. Pashni vaqtlarni belgilang va choyingiz tayyor bo'lganida bildirishnomalarni oling. Android va iOS'da ishlaydi."
+  },
+  "io.naox.inbe": {
+    "ru": "Inner Breeze — приложение для медитации дыхания Вима Хофа, созданное с помощью Flutter. Управляемые упражнения дыхания для снятия стресса и осознанности.",
+    "en": "Inner Breeze - Wim Hof breathing meditation app built with Flutter. Guided breathwork exercises for stress relief and mindfulness.",
+    "tr": "Inner Breeze - Flutter ile oluşturulmuş Wim Hof nefes meditasyon uygulaması. Stres rahatlaması ve bilinç için rehberli nefes egzersizleri.",
+    "uz": "Inner Breeze - Flutter bilan qurilgan Wim Hof nefas meditatsiya ilovasi. Stress rejalashuvi va ongli bo'lish uchun rehbarli nefas mashqlari."
+  },
+  "com.sztorm.notecalendar": {
+    "ru": "Note Calendar — простое приложение календаря заметок для Android для организации мыслей и задач. Объедините календарь и ведение заметок в одном интерфейсе.",
+    "en": "Note Calendar - simple Android note calendar app for organizing thoughts and tasks. Combine calendar and note-taking in one interface.",
+    "tr": "Note Calendar - düşünceler ve görevleri organize etmek için basit Android not takvimi uygulaması. Takvimi ve not almayı tek bir arayüzde birleştirin.",
+    "uz": "Note Calendar - fikrlar va vazifalarni tashkil qilish uchun sodda Android eslatma taqvimi ilovasi. Taqvim va eslatma yozuvini bir interfeysta birlashtiring."
+  },
+  "net.diffengine.romandigitalclock": {
+    "ru": "RomanDigital — приложение цифровых часов и виджет, отображающий время римскими цифрами. Уникальная эстетика для домашних экранов Android.",
+    "en": "RomanDigital - digital clock app and widget displaying time in Roman numerals. Unique aesthetic for Android home screens.",
+    "tr": "RomanDigital - zaman Roma rakamları ile görüntüleyen dijital saat uygulaması ve widget. Android ana ekranları için benzersiz estetik.",
+    "uz": "RomanDigital - vaqtni Rim raqamlari bilan ko'rsatadigan raqamli soat ilovasi va vidjet. Android bosh ekranlari uchun o'ziga xos estetika."
+  },
+  "de.jepfa.bdt": {
+    "ru": "Break.Down.Timer — приложение таймера перерывов для производительности. Управляйте интервалами работы и перерывов для поддержания концентрации и предотвращения выгорания.",
+    "en": "Break.Down.Timer - break timer app for productivity. Manage work and break intervals to maintain focus and prevent burnout.",
+    "tr": "Break.Down.Timer - üretkenlik için break zamanlayıcı uygulaması. Odaklanmayı sürdürmek ve tükenmişliği önlemek için çalışma ve mola aralıklarını yönetin.",
+    "uz": "Break.Down.Timer - unumdorlik uchun break taimer ilovasi. Fokusni saqlab, charchashuvi oldini olish uchun ish va vaqf-oraliqlarni boshqarish."
+  },
+  "com.musheer360.swiftslate": {
+    "ru": "SwiftSlate — сервис доступности Android для преобразования текста с помощью ИИ. Преобразуйте выбранный текст с помощью ИИ для грамматики, тона и стиля.",
+    "en": "SwiftSlate - Android accessibility service for AI-powered text transformation. Transform selected text with AI assistance for grammar, tone, and style.",
+    "tr": "SwiftSlate - yapay zeka destekli metin dönüşümü için Android erişilebilirlik hizmeti. Gramer, ton ve stil için yapay zeka yardımı ile seçilen metni dönüştürün.",
+    "uz": "SwiftSlate - AI-powered matn trансformatsiyasi uchun Android accessibility hizmati. Tanlangan matnni gramma, ohang va uslub uchun AI yordami bilan aylantiring."
+  },
+  "com.pyu.koremd": {
+    "ru": "KoreMD (Really)? — простой редактор Markdown для Android с японским интерфейсом. Лёгкое минималистичное приложение для заметок Markdown.",
+    "en": "KoreMD (Really)? - simple Markdown editor for Android with Japanese interface. Lightweight, minimal markdown note-taking app.",
+    "tr": "KoreMD (Really)? - Japonca arayüze sahip Android için basit Markdown editörü. Hafif, minimal markdown not alma uygulaması.",
+    "uz": "KoreMD (Really)? - Yapon interfeysi bilan Android uchun sodda Markdown muharrir. Yengil, minimal markdown eslatma yozish ilovasi."
+  },
+  "SVS.pdfinspector": {
+    "ru": "PDF Inspector — инспектор и редактор элементов PDF в стиле DevTools для Android. Проверяйте, анализируйте и редактируйте PDF-документы, как DevTools браузера.",
+    "en": "PDF Inspector - DevTools-style PDF element inspector and editor for Android. Inspect, analyze, and edit PDF documents like a browser DevTools.",
+    "tr": "PDF Inspector - Android için DevTools stilinde PDF öğe inceleme ve düzenleme aracı. Tarayıcı DevTools gibi PDF belgeleri inceleyin, analiz edin ve düzenleyin.",
+    "uz": "PDF Inspector - Android uchun DevTools uslubidagi PDF element inchikova va muharrir. Brauzer DevTools kabi PDF hujjatlarni kuzating, tahlil qiling va tahrir qiling."
+  },
+  "off.kys.backtalk": {
+    "ru": "Backtalk — инструмент для заметок, который преобразует ваш внутренний монолог в доступный для поиска диалог. Общайтесь с собой, чтобы организовать мысли и идеи.",
+    "en": "Backtalk - note-taking tool that transforms your internal monologue into searchable dialogue. Chat with yourself to organize thoughts and ideas.",
+    "tr": "Backtalk - iç monoloğunuzu aranabilir diyaloğa dönüştüren not alma aracı. Düşüncelerinizi ve fikirlerinizi organize etmek için kendinizle sohbet edin.",
+    "uz": "Backtalk - sizning ichki monologingizni qidirilishi mumkin bo'lgan dialogga aylantiruvchi eslatma yozish vositasi. Fikrlar va g'oyalarni tashkil qilish uchun o'zingiz bilan suhbat qiling."
+  },
+  "com.xnotes": {
+    "ru": "xnotes — приложение рукописных заметок и эскизов для Android с поддержкой стилуса. Оцифруйте рукописные заметки с инструментами рисования и аннотации.",
+    "en": "xnotes - handwriting notes and sketching app for Android with stylus support. Digitize handwritten notes with drawing and annotation tools.",
+    "tr": "xnotes - stylus desteği ile Android için el yazısı notları ve çizim uygulaması. Çizim ve ek açıklama araçları ile el yazısı notları dijitalleştirin.",
+    "uz": "xnotes - stylus qo'llab-quvvatlash bilan Android uchun qo'l yozilgan eslatmalar va sketchda ilovasi. Rasm va izoh vositalari bilan qo'l yozilgan eslatmalarni raqamlashtiring."
+  },
+  "com.markleaf.notes": {
+    "ru": "Markleaf — лёгкое приложение для заметок Markdown, ориентированное на локальное хранилище, для Android. Пишите, организуйте и синхронизируйте свои заметки в формате Markdown.",
+    "en": "Markleaf - lightweight, local-first Markdown note app for Android. Write, organize, and sync your notes in Markdown format.",
+    "tr": "Markleaf - Android için hafif, yerel öncelikli Markdown not uygulaması. Not'larınızı Markdown biçiminde yazın, organize edin ve senkronize edin.",
+    "uz": "Markleaf - Android uchun yengil, mahalliy-birinchi Markdown eslatma ilovasi. Eslatmalarni Markdown formatida yozing, tashkil qiling va sinxronize qiling."
+  },
+  "com.isotjs.todosian": {
+    "ru": "Todosian — минималистичное приложение для списков дел, ориентированное на локальное хранилище, интегрированное с Obsidian Tasks. Управляйте своими делами в Markdown с дизайном, ориентированным на конфиденциальность.",
+    "en": "Todosian - minimalist local-first todo app integrated with Obsidian Tasks. Manage your to-dos in Markdown with privacy-focused design.",
+    "tr": "Todosian - Obsidian Tasks ile entegre edilmiş minimalist yerel öncelikli yapılacak uygulaması. Gizlilik odaklı tasarım ile Markdown'da yapılacakları yönetin.",
+    "uz": "Todosian - Obsidian Tasks bilan integratsiyalashtirilgan minimalist mahalliy-birinchi qilish ilovasi. Maxfiylik markazlashtirilgan dizayn bilan Markdown'da qilish ishlarini boshqaring."
+  },
+  "org.kaorun.nouto": {
+    "ru": "Nouto — приложение для заметок Android с поддержкой Rich Text Editor. Создавайте форматированные заметки с параметрами стилизации и форматирования текста.",
+    "en": "Nouto - Android note-taking app with Rich Text Editor support. Create formatted notes with text styling and formatting options.",
+    "tr": "Nouto - Rich Text Editor desteği ile Android not alma uygulaması. Metin stili ve biçimlendirme seçenekleri ile biçimlendirilmiş notlar oluşturun.",
+    "uz": "Nouto - Rich Text Editor qo'llab-quvvatlash bilan Android eslatma ilovasi. Matn uslubi va formatlash variantlari bilan formatlashtirilgan eslatmalarni yarating."
+  },
+  "fumi.day.literalmemo": {
+    "ru": "Literal Memo — простое приложение для записей на основе файлов Markdown с синхронизацией GitHub. Пишите записи в Markdown и синхронизируйте их со своим репозиторием GitHub.",
+    "en": "Literal Memo - simple, file-based Markdown memo app with GitHub sync. Write memos in Markdown and sync them to your GitHub repository.",
+    "tr": "Literal Memo - GitHub senkronizasyonu ile basit, dosya tabanlı Markdown memo uygulaması. Memo'ları Markdown'da yazın ve GitHub deponuza senkronize edin.",
+    "uz": "Literal Memo - GitHub sinxronizatsiyasi bilan sodda, fayl-asosli Markdown memo ilovasi. Memo'larni Markdown'da yozing va GitHub repozitoriyangizga sinxronize qiling."
+  },
+  "org.thegandabherunda.openjot": {
+    "ru": "OpenJot — минимальное приложение для дневника с открытым исходным кодом, разработанное для конфиденциальности. Все записи дневника хранятся безопасно на устройстве, никогда не синхронизируются с облаком.",
+    "en": "OpenJot - minimal, open-source journaling app designed for privacy. All journal entries stored securely on-device, never synced to cloud.",
+    "tr": "OpenJot - gizlilik için tasarlanmış minimal, açık kaynak günlük uygulaması. Tüm günlük girdileri cihazda güvenli bir şekilde depolanır, hiçbir zaman buluta senkronize edilmez.",
+    "uz": "OpenJot - maxfiylik uchun mo'ljallangan minimal, ochiq manba jurnali ilovasi. Barcha jurnal yozuvlari qurilmada xavfsiz saqlanadi, hech qachon bulutga sinxronize qilinmaydi."
+  },
+  "com.sinxn.mydiary": {
+    "ru": "My Diary — простое приложение дневника Android для ежедневного личного дневника. Записывайте свои мысли, воспоминания и впечатления в личный дневник.",
+    "en": "My Diary - simple Android diary app for daily personal journaling. Record your thoughts, memories, and experiences in a private diary.",
+    "tr": "My Diary - günlük kişisel defter tutma için basit Android günlük uygulaması. Düşüncelerinizi, anılarınızı ve deneyimlerinizi özel bir defter'de kaydedin.",
+    "uz": "My Diary - kunlik shaxsiy jurnali uchun sodda Android dnevnik ilovasi. Fikrlar, xotiralari va tajribalarni maxsus dnevnikka qayd qiling."
+  },
+  "com.deepanjanxyz.notepad": {
+    "ru": "Elite Memo Pro — простое приложение для заметок на Android. Быстрые записи, списки и организация заметок без ненужных функций.",
+    "en": "Elite Memo Pro - simple note-taking app for Android. Quick memos, lists, and note organization without unnecessary features.",
+    "tr": "Elite Memo Pro - Android için basit not alma uygulaması. Gereksiz özellikler olmayan hızlı memo, listeler ve not organizasyonu.",
+    "uz": "Elite Memo Pro - Android uchun sodda eslatma yozish ilovasi. Keraksiz xususiyatlarsiz tez memo, ro'yxat va eslatma tashkili."
+  },
+  "com.qq7te.totalrecall": {
+    "ru": "Total Recall — приложение для памяти, ориентированное на конфиденциальность, захватывающее фото, текст и данные о местоположении. Ваш личный помощник памяти с автономным хранилищем.",
+    "en": "Total Recall - privacy-focused memory app capturing photos, text, and location data. Your personal memory assistant with offline-first storage.",
+    "tr": "Total Recall - fotoğraf, metin ve konum verilerini yakalayan gizlilik odaklı bellek uygulaması. Çevrimdışı öncelikli depolama ile kişisel bellek asistanınız.",
+    "uz": "Total Recall - foto, matn va joylashtuv ma'lumotlarini qo'llab-quvvatlovchi maxfiylik markazlashtirilgan xotira ilovasi. Oflayn-birinchi saqlanish bilan sizning shaxsiy xotira yordamchisi."
+  },
+  "rkr.simplekeyboard.inputmethod": {
+    "ru": "Simple Keyboard — лёгкий метод ввода клавиатуры Android с минимальными функциями. Быстрая, отзывчивая клавиатура без лишнего.",
+    "en": "Simple Keyboard - lightweight Android keyboard input method with minimal features. Fast, responsive keyboard without bloat.",
+    "tr": "Simple Keyboard - minimal özelliklerle hafif Android klavyesi giriş yöntemi. Şişkinlik olmadan hızlı, duyarlı klavyesi.",
+    "uz": "Simple Keyboard - minimal xususiyatlari bilan yengil Android klaviatura kirish usuli. Ortiqcha siz minimalanmagan tez, sezgili klaviatura."
+  },
+  "io.github.auag0.disableaudiofocus": {
+    "ru": "DisableAudioFocus — модуль Xposed для Android для отключения обработки аудиофокуса. Запретить другим приложениям прерывать вашу музыку или подкасты.",
+    "en": "DisableAudioFocus - Xposed module for Android to disable audio focus handling. Prevent other apps from interrupting your music or podcasts.",
+    "tr": "DisableAudioFocus - ses odağı işlemesini devre dışı bırakmak için Android Xposed modülü. Diğer uygulamaların müzik veya podcast'lerinizi kesmesini önleyin.",
+    "uz": "DisableAudioFocus - ovoz fokus qayta ishlashni o'chirib qo'yish uchun Android Xposed moduli. Boshqa ilovalar musiqangizni yoki podkastlaringizni to'xtamagan qilib qo'ying."
+  },
+  "eu.rafareborn.biometricbypass": {
+    "ru": "Biometric Bypass — модуль LSPosed/Xposed для пропуска подтверждения биометрии на Android 10+. Ускорьте разблокировку лица, пропустив шаг подтверждения.",
+    "en": "Biometric Bypass - LSPosed/Xposed module to skip biometric confirmation on Android 10+. Fast-forward face unlock by bypassing confirmation step.",
+    "tr": "Biometric Bypass - Android 10+ üzerinde biyometrik onayı atlamak için LSPosed/Xposed modülü. Onay adımını atlayarak yüz kilidini açma hızını artırın.",
+    "uz": "Biometric Bypass - Android 10+ da biometrik tasdiqlashni o'tkazib yubor uchun LSPosed/Xposed moduli. Onay qadamini o'tkazib, yuz qulfini ochish tezligini oshiring."
+  },
+  "com.rifsxd.processhook": {
+    "ru": "Process Hook — модуль Xposed для разблокировки скрытых функций и параметров в приложениях Android. Получите доступ к ограниченным параметрам и функциям отладки.",
+    "en": "Process Hook - Xposed module to unlock hidden features and options in Android apps. Gain access to restricted settings and debug functions.",
+    "tr": "Process Hook - Android uygulamalarında gizli özellikleri ve seçenekleri açmak için Xposed modülü. Kısıtlanmış ayarlar ve hata ayıklama işlevlerine erişim sağlayın.",
+    "uz": "Process Hook - Android ilovalarida yashirin xususiyatlari va variantlarni buklashni yechish uchun Xposed moduli. Cheklangan sozlamalar va debug funktsiyalariga kirish qo'lga oling."
+  },
+  "de.binarynoise.Template": {
+    "ru": "RotationControl — набор небольших модулей Xposed для настройки устройства Android. Точная настройка различного поведения и параметров системы.",
+    "en": "RotationControl - collection of small Xposed modules for Android device customization. Fine-tune various system behaviors and options.",
+    "tr": "RotationControl - Android cihazı özelleştirmesi için küçük Xposed modüllerinin koleksiyonu. Çeşitli sistem davranışlarını ve seçeneklerini ince ayarla.",
+    "uz": "RotationControl - Android qurilma sozlashlari uchun kichik Xposed modullarining to'plami. Turli xil tizim xatti-harakatlarini va variantlarni aniq sozlash."
+  },
+  "de.buttercookie.disabletargetapiblock": {
+    "ru": "Disable Target API Block — модуль Xposed, удаляющий блокировку установки Android 14 для более старых версий приложений. Установите устаревшие APK, несмотря на ограничения уровня API.",
+    "en": "Disable Target API Block - Xposed module removing Android 14's installation block for older app versions. Install legacy APKs despite API level restrictions.",
+    "tr": "Disable Target API Block - Android 14'ün eski uygulama sürümleri için yükleme bloğunu kaldıran Xposed modülü. API seviyesi kısıtlamalarına rağmen eski APK'ları yükleyin.",
+    "uz": "Disable Target API Block - Android 14'ning eski app versiyalari uchun o'rnatish blokirini o'chiraydigan Xposed moduli. API darajasi cheklashlariga qaramay, eski APK'larni o'rnating."
+  },
+  "com.asyjaiz.A12blur": {
+    "ru": "Notification Shade Transparency — модуль LSPosed для прозрачности элементов области уведомлений. Настройте внешний вид панели уведомлений с прозрачными эффектами.",
+    "en": "Notification Shade Transparency - LSPosed module to make notification shade elements transparent. Customize notification panel appearance with transparency effects.",
+    "tr": "Notification Shade Transparency - bildirim gölgesi öğelerini şeffaf hale getirmek için LSPosed modülü. Şeffaflık efektleri ile bildirim panelinin görünümünü özelleştirin.",
+    "uz": "Notification Shade Transparency - bildirishnoma tungi elementlarini shaffof qilish uchun LSPosed moduli. Shaffoflik effektlari bilan bildirishnoma panelining ko'rinishini moslashtirib."
+  },
+  "ru.bluecat.android.xposed.mods.appsettings": {
+    "ru": "App Settings Reborn — ветвь оригинального модуля Xposed App Settings с поддержкой Android 8.0+. Настраивайте разрешения приложений и параметры для каждого приложения.",
+    "en": "App Settings Reborn - fork of the original App Settings Xposed module with Android 8.0+ support. Configure app permissions and settings per-app.",
+    "tr": "App Settings Reborn - Android 8.0+ desteği ile orijinal App Settings Xposed modülü çatallama. Uygulama izinlerini ve uygulama başına ayarları yapılandırın.",
+    "uz": "App Settings Reborn - Android 8.0+ qo'llab-quvvatlash bilan asl App Settings Xposed modulining shoxasi. App ruxsatnomalarini va app-bo'yicha sozlamalarni konfiguratsiya qiling."
+  },
+  "de.tu_darmstadt.seemoo.nfcgate": {
+    "ru": "NFCGate — приложение набора инструментов для исследования NFC для Android. Анализируйте, перехватывайте и воспроизводите коммуникации NFC для исследования и тестирования.",
+    "en": "NFCGate - NFC research toolkit application for Android. Analyze, intercept, and replay NFC communications for research and testing.",
+    "tr": "NFCGate - Android için NFC araştırma araç kiti uygulaması. NFC iletişimlerini analiz edin, kesin ve yeniden oynatın araştırma ve test için.",
+    "uz": "NFCGate - Android uchun NFC tadqiqot vositalari to'plami ilovasi. NFC aloqalarini tahlil qiling, kesib oling va tadqiqot va sinov uchun qayta ijro etish."
+  },
+  "com.thinkdifferent.anywebview": {
+    "ru": "AnyWebView — гибкая реализация WebView для разработки приложений Android. Используйте любой установленный механизм WebView в своих приложениях.",
+    "en": "AnyWebView - flexible WebView implementation for Android app development. Use any installed WebView engine in your applications.",
+    "tr": "AnyWebView - Android uygulama geliştirmesi için esnek WebView uygulaması. Uygulamalarınızda yüklü herhangi bir WebView motorunu kullanın.",
+    "uz": "AnyWebView - Android ilova ishlab chiqarish uchun moslashtirilishi mumkin bo'lgan WebView amalga oshirish. Aplikatsiyalaringizda o'rnatilgan har qanday WebView двигателini ishlating."
+  },
+  "de.binarynoise.AutomaticAdvancedSettingsExpander": {
+    "ru": "Automatic Advanced Settings Expander — модуль Xposed, который автоматически развёртывает Advanced Settings в приложении Settings. Никогда больше не переключайте Advanced Settings вручную.",
+    "en": "Automatic Advanced Settings Expander - Xposed module that auto-expands Advanced Settings in the Settings app. Never manually toggle Advanced Settings again.",
+    "tr": "Automatic Advanced Settings Expander - Ayarlar uygulamasında Advanced Settings'i otomatik olarak genişleten Xposed modülü. Artık Advanced Settings'i manuel olarak geçişlemeyin.",
+    "uz": "Automatic Advanced Settings Expander - Settings ilovasida Advanced sozlamalarini avtomatik kengaytiyadigan Xposed moduli. Hech qachon Advanced sozlamalarni qo'lda o'zgartirmang."
   }
 }
