@@ -514,5 +514,185 @@
     "en": "Graysky - Bluesky client for iOS and Android. Browse the decentralized social network. Modern interface for exploring the open web social protocol.",
     "tr": "Graysky - iOS ve Android için Bluesky istemcisi. Merkezi olmayan sosyal ağa göz atın. Açık web sosyal protokolünü keşfetmek için modern arayüz.",
     "uz": "Graysky - iOS va Android uchun Bluesky klijenti. Markazsiz ijtimoiy tarmoqqa ko'rish. Ochiq veb ijtimoiy protokolni o'rgash uchun zamonaviy interfeys."
+  },
+  "net.primal.android": {
+    "ru": "Primal - клиент nostr для децентрализованной социальной сети. Просматривайте сети протокола nostr с акцентом на конфиденциальность. Устойчивый к цензуре обмен сообщениями и социальные сети.",
+    "en": "Primal - nostr client for decentralized social networking. Browse nostr protocol networks with privacy focus. Censorship-resistant messaging and social media.",
+    "tr": "Primal - merkezi olmayan sosyal ağlar için nostr istemcisi. Gizlilik odaklı nostr protokolü ağlarına göz atın. Sansüre dayanıklı mesajlaşma ve sosyal medya.",
+    "uz": "Primal - markazsiz ijtimoiy tarmoq uchun nostr klijenti. Maxfiylik markazlashtirilgan nostr protokol tarmoqlariga ko'rish. Senzur qarshilik xabarlar va ijtimoiy media."
+  },
+  "dev.zwander.mastodonredirect": {
+    "ru": "Приложение переадресации Mastodon, которое переключает намерения между клиентами Mastodon. Бесшовная интеграция для пользователей Mastodon. Утилита для управления несколькими экземплярами клиента Mastodon.",
+    "en": "Mastodon redirect app that handles intent switching between Mastodon clients. Seamless integration for Mastodon users. Utility for managing multiple Mastodon client instances.",
+    "tr": "Mastodon istemcileri arasında amaç anahtarlaması gerçekleştiren Mastodon yönlendirme uygulaması. Mastodon kullanıcıları için kesintisiz entegrasyon. Birden fazla Mastodon istemci örneğini yönetmek için yardımcı program.",
+    "uz": "Mastodon kliyentlari orasida maqsad o'tkazish o'tkaydigan Mastodon qayta yo'naltirish ilovasi. Mastodon foydalanuvchilari uchun uzluksiz integratsiya. Bir nechta Mastodon mijoz misollari boshqarish vositasi."
+  },
+  "com.github.frimtec.android.securesmsproxy": {
+    "ru": "Приложение безопасного прокси SMS, защищающее SMS-сообщения с помощью шифрования. Управляйте текстовыми сообщениями безопасно и приватно. Инструмент конфиденциальности для конфиденциальной связи через SMS.",
+    "en": "Secure SMS proxy app protecting SMS messages with encryption. Manage text messages securely and privately. Privacy tool for sensitive SMS communications.",
+    "tr": "SMS mesajlarını şifreleme ile koruyan güvenli SMS proxy uygulaması. Metin mesajlarını güvenli ve özel olarak yönetin. Hassas SMS iletişimi için gizlilik aracı.",
+    "uz": "SMS xabarlarini shifrlash bilan himoya qiladigan xavfsiz SMS prokurator ilovasi. Matn xabarlarni xavfsiz va shaxsiy tarzda boshqaring. Sezgili SMS aloqasi uchun maxfiylik vositasi."
+  },
+  "org.cheeserobot.btcwidget": {
+    "ru": "Виджет Bitcoin, показывающий цены криптовалют и обновления в реальном времени. Мониторьте стоимость BTC прямо с главного экрана. Быстрая проверка цены крипто для инвесторов Bitcoin.",
+    "en": "Bitcoin widget showing live cryptocurrency prices and updates. Monitor BTC value directly from your home screen. Quick crypto price checker for Bitcoin investors.",
+    "tr": "Canlı kripto para fiyatlarını ve güncellemelerini gösteren Bitcoin widget'ı. BTC değerini ana ekrandan doğrudan izleyin. Bitcoin yatırımcıları için hızlı kripto fiyatı kontrol aracı.",
+    "uz": "Jonli crypta narxlarini va yangilanishlarni ko'rsatadigan Bitcoin widget'i. BTC qiymatini asosiy ekrandan bevosita kuzating. Bitcoin investorlari uchun tez crypto narx tekshiruvchi."
+  },
+  "cz.jancejka.spayddecoder": {
+    "ru": "Утилита декодера SPAY D-code для данных платежей. Декодируйте и анализируйте информацию о платежах из QR-кодов. Утилита для обработки и проверки цифровых платежей.",
+    "en": "SPAY D-code decoder utility for payment data. Decode and analyze payment information from QR codes. Utility for digital payment processing and verification.",
+    "tr": "Ödeme verilerine yönelik SPAY D-kod çözücü yardımcı programı. QR kodlarından ödeme bilgilerini dekode edin ve analiz edin. Dijital ödeme işleme ve doğrulama yardımcı programı.",
+    "uz": "To'lov ma'lumotlari uchun SPAY D-kod dekoder vositasi. QR kodlaridan to'lov ma'lumotlarini dekod qiling va tahlil qiling. Raqamli to'lov ishlovlash va tekshirish vositasi."
+  },
+  "com.serranoie.app.minus": {
+    "ru": "Приложение Minus для отслеживания и управления финансами. Инструмент планирования бюджета и мониторинга расходов. Управление личными финансами для отдельных лиц.",
+    "en": "Minus app for tracking and managing finances. Budget planning and expense monitoring tool. Personal finance management for individuals.",
+    "tr": "Finansmanı takip etmek ve yönetmek için Minus uygulaması. Bütçe planlaması ve harcama izleme aracı. Bireyler için kişisel finans yönetimi.",
+    "uz": "Moliyalarni kuzatish va boshqarish uchun Minus ilovasi. Byudjet rejalashtirish va xarajat kuzatish vositasi. Shaxslar uchun shaxsiy moliya boshqaruvi."
+  },
+  "com.mablanco.pricegrab": {
+    "ru": "Приложение сравнения цен и помощника покупок. Сравните цены продуктов в разных магазинах. Инструмент умного шоппинга для поиска лучших предложений и скидок.",
+    "en": "Price comparison and shopping assistant app. Compare product prices across stores. Smart shopping tool for finding best deals and discounts.",
+    "tr": "Fiyat karşılaştırması ve alışveriş asistanı uygulaması. Ürün fiyatlarını mağazalar arasında karşılaştırın. En iyi fırsatları ve indirimler bulmak için akıllı alışveriş aracı.",
+    "uz": "Narx taqqoslash va xaridor yordamchi ilovasi. Mahsulot narxlarini dokonlar orasida taqqoslang. Eng yaxshi takliflar va chegirmalarni topish uchun aqlli xaridor vositasi."
+  },
+  "io.github.govin9.duenot": {
+    "ru": "DueNot - менеджер задач и списков дел. Организуйте задачи, установите напоминания и отслеживайте сроки. Инструмент производительности для управления персональными и профессиональными задачами.",
+    "en": "DueNot - task and to-do list manager. Organize tasks, set reminders, and track deadlines. Productivity tool for personal and professional task management.",
+    "tr": "DueNot - görev ve yapılacaklar listesi yöneticisi. Görevleri organize edin, anımsatıcıları ayarlayın ve son tarihleri takip edin. Kişisel ve profesyonel görev yönetimi için üretkenlik aracı.",
+    "uz": "DueNot - vazifa va qilish kerak ro'yxati menejer. Vazifalarni tashkil qiling, eslatmalarni o'rnating va muddatlari kuzating. Shaxsiy va professional vazifa boshqaruvi uchun samaradorlik vositasi."
+  },
+  "app.zornslemma.mypricelog": {
+    "ru": "Приложение отслеживания и регистрации цен для мониторинга цен продуктов во времени. Ведите историю изменений цен. Личная база данных цен для умных решений при покупках.",
+    "en": "Price tracking and logging app for monitoring product prices over time. Keep history of price changes. Personal price database for smart shopping decisions.",
+    "tr": "Zaman içinde ürün fiyatlarını izlemek için fiyat takibi ve günlüğü uygulaması. Fiyat değişiklikleri tarihini tutun. Akıllı alışveriş kararları için kişisel fiyat veritabanı.",
+    "uz": "Vaqt o'tish bilan mahsulot narxlarini kuzatish uchun narx kuzatish va yozuv ilovasi. Narx o'zgarishlarining tarixini saqlang. Aqli xaridor qarorlari uchun shaxsiy narx ma'lumotlar bazasi."
+  },
+  "com.vermont.possin": {
+    "ru": "Приложение системы POS и обработки платежей для предприятий. Управляйте продажами, транзакциями и товарно-материальными запасами. Мобильное решение для торговой точки розничной торговли и коммерции.",
+    "en": "POS system and payment processing app for businesses. Manage sales, transactions, and inventory. Mobile point-of-sale solution for retail and commerce.",
+    "tr": "İşletmeler için POS sistemi ve ödeme işleme uygulaması. Satışları, işlemleri ve envanteri yönetin. Perakende ve ticaret için mobil satış noktası çözümü.",
+    "uz": "Ish uchun POS tizimi va to'lov ishlovlash ilovasi. Sotishlar, tranzaksiyalar va inventorni boshqaring. Chakana savdo va tijorat uchun mobil sotish nuqtasi yechimi."
+  },
+  "com.huntercoles.pokerpayout": {
+    "ru": "Калькулятор выплат в покер и анализатор шансов. Рассчитайте выигрыши, проанализируйте вероятности карт. Утилита для игроков в покер, отслеживающих статистику и шансы.",
+    "en": "Poker payout calculator and odds analyzer. Calculate winnings, analyze hand probabilities. Utility for poker players tracking stats and odds.",
+    "tr": "Poker payout hesaplayıcı ve oran analiz edici. Kazançları hesaplayın, kart olasılıklarını analiz edin. Poker oyuncuları için istatistik ve oran takip yardımcı programı.",
+    "uz": "Poker to'lov kalkulyatori va odds tahlilchisi. Yutug'ini hisoblang, karta ehtimollarini tahlil qiling. Poker o'yinchilari uchun statistika va odds kuzatish vositasi."
+  },
+  "io.github.dorumrr.happytaxes": {
+    "ru": "Приложение помощника по расчету и подаче налогов. Упростите подготовку налогов и расчеты. Инструмент управления личными налогами для более простого налогового сезона.",
+    "en": "Tax calculation and filing assistant app. Simplify tax preparation and calculations. Personal tax management tool for easier tax season.",
+    "tr": "Vergi hesaplama ve dosyalama asistanı uygulaması. Vergi hazırlığını ve hesaplamaları basitleştirin. Daha kolay vergi sezonuили kişisel vergi yönetimi aracı.",
+    "uz": "Soliq hisoblash va fayl qilish yordamchi ilovasi. Soliq tayyorlash va hisob-kitobni soddalashtiring. Osonroq soliq mavsumi uchun shaxsiy soliq boshqaruv vositasi."
+  },
+  "com.example.financemanager": {
+    "ru": "Приложение финансового менеджера для личного финансового планирования и отслеживания. Управляйте бюджетами, расходами и целями сбережений. Полное решение для личных финансов.",
+    "en": "Finance manager app for personal financial planning and tracking. Manage budgets, expenses, and savings goals. Complete personal finance solution.",
+    "tr": "Kişisel finansal planlama ve takip için finansal yönetim uygulaması. Bütçeleri, giderleri ve tasarruf hedeflerini yönetin. Tam kişisel finans çözümü.",
+    "uz": "Shaxsiy moliya rejalashtirish va kuzatish uchun moliya menejer ilovasi. Byudjetlar, xarajatlar va tejash maqsadlarini boshqaring. To'liq shaxsiy moliya yechimi."
+  },
+  "io.horizontalsystems.bankwallet": {
+    "ru": "Bank Wallet - многовалютный криптокошелек для управления цифровыми активами. Безопасное хранилище крипто и управление транзакциями. Универсальный кошелек для Bitcoin, Ethereum и других криптовалют.",
+    "en": "Bank Wallet - multi-cryptocurrency wallet for managing digital assets. Secure crypto storage and transaction management. Universal wallet for Bitcoin, Ethereum, and other cryptocurrencies.",
+    "tr": "Bank Wallet - dijital varlıkları yönetmek için çok kripto para cüzdanı. Güvenli kripto depolama ve işlem yönetimi. Bitcoin, Ethereum ve diğer kripto paralar için evrensel cüzdan.",
+    "uz": "Bank Wallet - raqamli aktivlarni boshqarish uchun ko'p crypta qo'rg'on. Xavfsiz crypto saqlash va tranzaksiya boshqaruvi. Bitcoin, Ethereum va boshqa cryptocurrenciyalar uchun universal qo'rg'on."
+  },
+  "com.brentpanther.bitcoinwidget": {
+    "ru": "Виджет Bitcoin для обновления цен в реальном времени и отслеживания криптовалют. Отображайте стоимость Bitcoin на главном экране. Простой виджет для инвесторов и энтузиастов Bitcoin.",
+    "en": "Bitcoin widget for live price updates and cryptocurrency tracking. Display Bitcoin value on your home screen. Simple widget for Bitcoin investors and enthusiasts.",
+    "tr": "Canlı fiyat güncellemeleri ve kripto para takibi için Bitcoin widget'ı. Ana ekranda Bitcoin değerini görüntüleyin. Bitcoin yatırımcıları ve meraklıları için basit widget.",
+    "uz": "Jonli narx yangilanishlari va cryptocurrency kuzatish uchun Bitcoin widget'i. Ana ekranda Bitcoin qiymatini ko'rsating. Bitcoin investorlari va muxbirlar uchun sodda widget."
+  },
+  "com.starry.greenstash": {
+    "ru": "Green Stash - приложение отслеживания сбережений и достижения целей. Установите финансовые цели и отслеживайте прогресс. Менеджер личных сбережений для накопления богатства.",
+    "en": "Green Stash - savings tracker and goal achievement app. Set financial goals and track progress. Personal savings manager for building wealth.",
+    "tr": "Green Stash - tasarruf takibi ve hedef başarısı uygulaması. Mali hedefler belirleyin ve ilerlemeyi izleyin. Zenginlik inşa etmek için kişisel tasarruf yöneticisi.",
+    "uz": "Green Stash - tejash kuzatish va maqsad ta'minot ilovasi. Moliya maqsadlarini o'rnating va progresni kuzating. Boylik qurilish uchun shaxsiy tejash menejer."
+  },
+  "com.dreautall.waterflyiii": {
+    "ru": "Клиент Firefly III для управления личными финансами на Android. Подключитесь к своему экземпляру Firefly III. Отслеживание финансов и бюджетирование с поддержкой самостоятельного размещённого бэкенда.",
+    "en": "Firefly III client for personal finance management on Android. Connect to your Firefly III instance. Finance tracking and budgeting with self-hosted backend support.",
+    "tr": "Android'de kişisel finans yönetimi için Firefly III istemcisi. Firefly III örneğinize bağlanın. Kendinden barındırılan arka uç desteği ile finans takibi ve bütçeleme.",
+    "uz": "Android'da shaxsiy moliya boshqaruvi uchun Firefly III klijenti. Firefly III misoli bilan ulanish. O'z-o'zini joylashtiradigan backend qo'llab-quvvatlashi bilan moliya kuzatish va byudjetlash."
+  },
+  "cash.p.terminal": {
+    "ru": "Приложение платежного терминала для обработки криптовалют и цифровых платежей. Безопасно принимайте платежи на своем устройстве. Решение мобильной обработки платежей.",
+    "en": "Payment terminal app for processing cryptocurrency and digital payments. Accept payments securely on your device. Mobile payment processing solution.",
+    "tr": "Kripto para ve dijital ödeme işlemesi için ödeme terminali uygulaması. Cihazınızda güvenli ödeme alın. Mobil ödeme işleme çözümü.",
+    "uz": "Cryptocurrency va raqamli to'lovlarni ishlovlash uchun to'lov terminal ilovasi. Qurilmangizda to'lovlarni xavfsiz oling. Mobil to'lov ishlovlash yechimi."
+  },
+  "app.michaelwuensch.bitbanana": {
+    "ru": "Bit Banana - кошелек и менеджер узлов Bitcoin и Lightning Network. Управляйте транзакциями Bitcoin и платежами Lightning. Кошелек Bitcoin с самостоятельным управлением и расширенными функциями.",
+    "en": "Bit Banana - Bitcoin and Lightning Network wallet and node manager. Manage Bitcoin transactions and Lightning payments. Self-custody Bitcoin wallet with advanced features.",
+    "tr": "Bit Banana - Bitcoin ve Lightning Network cüzdanı ve düğüm yöneticisi. Bitcoin işlemleri ve Lightning ödemelerini yönetin. Gelişmiş özelliklere sahip kendi kendine saklama Bitcoin cüzdanı.",
+    "uz": "Bit Banana - Bitcoin va Lightning Network qo'rg'on va node menejer. Bitcoin tranzaksiyalari va Lightning to'lovlarini boshqaring. Ilg'or xususiyatlari bilan o'z-o'zini saqlash Bitcoin qo'rg'oni."
+  },
+  "com.georgeyt9769.cardabase": {
+    "ru": "Cardabase - обозреватель блокчейна Cardano и просмотрщик кошелька. Мониторьте адреса и транзакции Cardano. Утилита DeFi и блокчейна для пользователей Cardano.",
+    "en": "Cardabase - Cardano blockchain explorer and wallet viewer. Monitor Cardano addresses and transactions. DeFi and blockchain utility for Cardano users.",
+    "tr": "Cardabase - Cardano blockchain explorer'ı ve cüzdan görüntüleyicisi. Cardano adreslerini ve işlemlerini izleyin. Cardano kullanıcıları için DeFi ve blockchain yardımcı programı.",
+    "uz": "Cardabase - Cardano blockchain explorer va qo'rg'on ko'ruvchi. Cardano manzillari va tranzaksiyalarini kuzating. Cardano foydalanuvchilari uchun DeFi va blockchain vositasi."
+  },
+  "com.codesail.market_monk": {
+    "ru": "Market Monk - анализ рынка криптовалют и торговые сигналы. Мониторьте рынки крипто и получайте торговые оповещения. Инструмент технического анализа для инвесторов криптовалют.",
+    "en": "Market Monk - cryptocurrency market analysis and trading signals. Monitor crypto markets and get trading alerts. Technical analysis tool for cryptocurrency investors.",
+    "tr": "Market Monk - kripto para pazarı analizi ve ticaret sinyalleri. Kripto pazarlarını izleyin ve ticaret uyarıları alın. Kripto para yatırımcıları için teknik analiz aracı.",
+    "uz": "Market Monk - cryptocurrency bozor tahlili va savdo signallari. Crypto bozorlarini kuzating va savdo ogohlantirish olish. Cryptocurrency investorlari uchun texnik tahlil vositasi."
+  },
+  "trading.tacticaladvantage": {
+    "ru": "Tactical Advantage - приложение анализа торговли и стратегии для финансовых рынков. Анализируйте движения цен и возможности торговли. Инструмент технического анализа для активных трейдеров.",
+    "en": "Tactical Advantage - trading analysis and strategy app for financial markets. Analyze price movements and trading opportunities. Technical analysis tool for active traders.",
+    "tr": "Tactical Advantage - finansal piyasalar için ticaret analizi ve strateji uygulaması. Fiyat hareketlerini ve ticaret fırsatlarını analiz edin. Aktif tüccarlar için teknik analiz aracı.",
+    "uz": "Tactical Advantage - moliya bozorlar uchun savdo tahlili va strategiya ilovasi. Narx harakatlarini va savdo imkoniyatlarini tahlil qiling. Faol treydorlar uchun texnik tahlil vositasi."
+  },
+  "finance.valet.regtest": {
+    "ru": "Valet Finance - инструмент регрессионного тестирования и анализа Bitcoin. Протестируйте финансовые стратегии в сети Bitcoin. Утилита разработки и анализа для разработчиков Bitcoin.",
+    "en": "Valet Finance - Bitcoin regression testing and analysis tool. Test financial strategies on Bitcoin network. Development and analysis utility for Bitcoin developers.",
+    "tr": "Valet Finance - Bitcoin regresyon testi ve analiz aracı. Bitcoin ağında finansal stratejileri test edin. Bitcoin geliştiricileri için geliştirme ve analiz yardımcı programı.",
+    "uz": "Valet Finance - Bitcoin regressiya testi va tahlil vositasi. Bitcoin tarmog'ida moliya strategiyalarini test qiling. Bitcoin ishlab chiqaruvchilari uchun rivojlantirish va tahlil vositasi."
+  },
+  "com.baruckis.kriptofolio": {
+    "ru": "Kriptofolio - трекер портфеля криптовалют и менеджер. Отслеживайте ваши криптоинвестиции и активы. Инструмент анализа портфеля для управления криптоактивами.",
+    "en": "Kriptofolio - cryptocurrency portfolio tracker and manager. Track your crypto investments and holdings. Portfolio analysis tool for crypto asset management.",
+    "tr": "Kriptofolio - kripto para portföyü takibi ve yöneticisi. Kripto yatırımlarınızı ve varlıklarınızı takip edin. Kripto varlık yönetimi için portföy analiz aracı.",
+    "uz": "Kriptofolio - cryptocurrency portfel kuzatish va menejer. Sizning crypto investitsiyalari va aktivlarini kuzating. Crypto aktivlarni boshqarish uchun portfolio tahlil vositasi."
+  },
+  "com.goodify.matrixtinz.app": {
+    "ru": "Matrix Tinz - клиент чата Matrix для обмена сообщениями и коммуникации. Подключитесь к серверам Matrix и сетям чата. Клиент обмена сообщениями с открытым исходным кодом для децентрализованной коммуникации.",
+    "en": "Matrix Tinz - Matrix chat client for messaging and communication. Connect to Matrix servers and chat networks. Open-source messaging client for decentralized communication.",
+    "tr": "Matrix Tinz - mesajlaşma ve iletişim için Matrix sohbet istemcisi. Matrix sunucularına ve sohbet ağlarına bağlanın. Merkezi olmayan iletişim için açık kaynak mesajlaşma istemcisi.",
+    "uz": "Matrix Tinz - xabarlar va aloqa uchun Matrix chat klijenti. Matrix serverlari va chat tarmoqlariga ulanish. Markazsiz aloqa uchun ochiq manbai xabar klijenti."
+  },
+  "dev.cipher.notes": {
+    "ru": "Cipher Notes - приложение для зашифрованного ведения записей и дневника. Безопасно сохраняйте заметки с помощью шифрования. Управление заметками, ориентированное на конфиденциальность, для конфиденциальной информации.",
+    "en": "Cipher Notes - encrypted note-taking and journaling app. Store notes securely with encryption. Privacy-focused note management for sensitive information.",
+    "tr": "Cipher Notes - şifreli not alma ve günlük uygulaması. Notları şifreleme ile güvenli bir şekilde saklayın. Hassas bilgiler için gizlilik odaklı not yönetimi.",
+    "uz": "Cipher Notes - shifrlangan yozuv va zhurnal ilovasi. Yozuvlarni shifrlash bilan xavfsiz saqlang. Senzitiv ma'lumot uchun maxfiylik markazlashtirilgan yozuv boshqaruvi."
+  },
+  "com.biohazard786.quickupi": {
+    "ru": "QuickUPI - быстрое и простое приложение для платежей UPI для Индии. Совершайте мгновенные платежи и денежные переводы через UPI. Упрощённое решение платежей для быстрых транзакций.",
+    "en": "QuickUPI - fast and easy UPI payment app for India. Make instant payments and money transfers via UPI. Simplified payment solution for quick transactions.",
+    "tr": "QuickUPI - Hindistan için hızlı ve kolay UPI ödeme uygulaması. UPI aracılığıyla anlık ödemeler ve para transferleri yapın. Hızlı işlemler için basitleştirilmiş ödeme çözümü.",
+    "uz": "QuickUPI - Hindiston uchun tez va oson UPI to'lov ilovasi. UPI orqali oniy to'lovlar va pul o'tkazishlarini amalga oshiring. Tez tranzaksiyalar uchun soddalashtirilgan to'lov yechimi."
+  },
+  "org.paperwise.app": {
+    "ru": "Paperwise - приложение для цифрового ведения записей и управления документами. Организуйте документы, заметки и файлы. Цифровое рабочее пространство для организации информации.",
+    "en": "Paperwise - digital note-taking and document management app. Organize documents, notes, and files. Digital workspace for organizing information.",
+    "tr": "Paperwise - dijital not alma ve belge yönetimi uygulaması. Belgeleri, notları ve dosyaları organize edin. Bilgileri organize etmek için dijital çalışma alanı.",
+    "uz": "Paperwise - raqamli yozuv va hujjat boshqaruv ilovasi. Hujjatlar, yozuvlar va fayllarni tashkil qiling. Ma'lumotni tashkil qilish uchun raqamli ish maydoni."
+  },
+  "devs.org.calculator": {
+    "ru": "Калькулятор разработчика - продвинутый калькулятор для программирования и технических расчётов. Поддержка нескольких систем счисления и функций программирования. Утилита для разработчиков и инженеров.",
+    "en": "Developer Calculator - advanced calculator for programming and technical calculations. Support for multiple number bases and programming functions. Utility for developers and engineers.",
+    "tr": "Developer Calculator - programlama ve teknik hesaplamalar için ileri hesap makinesi. Birden fazla sayı tabanı ve programlama işlevleri desteği. Geliştiriciler ve mühendisler için yardımcı program.",
+    "uz": "Developer Calculator - dasturlash va texnik hisob-kitoblar uchun ilg'or kalkulyator. Bir nechta raqam asoslari va dasturlash funksiyalarini qo'llab-quvvatli. Ishlab chiqaruvchilar va muhandislar uchun vosita."
+  },
+  "com.escodro.alkaa": {
+    "ru": "Alkaa - приложение для управления задачами и списков дел. Организуйте задачи, установите приоритеты и отслеживайте выполнение. Инструмент производительности для управления ежедневными задачами и проектами.",
+    "en": "Alkaa - task management and to-do list app. Organize tasks, set priorities, and track completion. Productivity tool for managing daily tasks and projects.",
+    "tr": "Alkaa - görev yönetimi ve yapılacaklar listesi uygulaması. Görevleri organize edin, öncelikleri belirleyin ve tamamlamayı takip edin. Günlük görevler ve projeleri yönetmek için üretkenlik aracı.",
+    "uz": "Alkaa - vazifa boshqaruv va qilish kerak ro'yxat ilovasi. Vazifalarni tashkil qiling, prioritetlarni o'rnating va bajarilishni kuzating. Kunlik vazifalar va loyihalarni boshqarish uchun samaradorlik vositasi."
   }
 }
