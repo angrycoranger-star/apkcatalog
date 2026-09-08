@@ -100,6 +100,69 @@ const list = merged.slice(0, limit);
 const apps = [];
 let skipped = 0;
 
+/**
+ * Search for app icon in GitHub repository at common locations.
+ * Tries to find icon file in standard Android project paths.
+ */
+async function findIconInRepo(repo, branch = 'main') {
+  const iconPaths = [
+    // Android native projects
+    'app/src/main/res/mipmap-xxxhdpi/ic_launcher.png',
+    'app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp',
+    'app/src/main/res/mipmap-xxhdpi/ic_launcher.png',
+    'app/src/main/res/mipmap-hdpi/ic_launcher.png',
+    // Flutter projects
+    'android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png',
+    'android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp',
+    // React Native
+    'android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png',
+    // Generic locations
+    'assets/icon.png',
+    'assets/icon.webp',
+    'icon.png',
+    'app/icon.png',
+    'res/icon.png',
+    'resources/icon.png'
+  ];
+
+  for (const iconPath of iconPaths) {
+    try {
+      const url = `https://raw.githubusercontent.com/${repo}/${branch}/${iconPath}`;
+      const response = await withTimeout(fetch(url), 5000, 'icon fetch');
+
+      if (response.ok && response.headers.get('content-type')?.includes('image')) {
+        const buffer = Buffer.from(await response.arrayBuffer());
+        const ext = iconPath.endsWith('.webp') ? 'webp' : 'png';
+        return { buffer, ext, path: iconPath };
+      }
+    } catch (e) {
+      // Continue to next path
+    }
+  }
+
+  // Try common branches if main doesn't work
+  for (const altBranch of ['master', 'develop']) {
+    if (altBranch === branch) continue;
+
+    for (const iconPath of iconPaths.slice(0, 3)) {
+      try {
+        const url = `https://raw.githubusercontent.com/${repo}/${altBranch}/${iconPath}`;
+        const response = await withTimeout(fetch(url), 5000, 'icon fetch');
+
+        if (response.ok && response.headers.get('content-type')?.includes('image')) {
+          const buffer = Buffer.from(await response.arrayBuffer());
+          const ext = iconPath.endsWith('.webp') ? 'webp' : 'png';
+          return { buffer, ext, path: iconPath };
+        }
+      } catch (e) {
+        // Continue
+      }
+    }
+  }
+
+  return null;
+}
+
 for (const entry of list) {
   const repo = entry.repo;
   try {
@@ -144,13 +207,28 @@ for (const entry of list) {
         (buildCard({ repo, apk, categoryId: entry.category, name: entry.name, existingSlugs: takenSlugs, slugByPackage }).slug);
 
       let iconUrl = '';
-      if (apk.icon && !dryRun) {
+      let iconData = apk.icon;
+
+      // Try to find icon in GitHub repo if APK doesn't have one
+      if (!iconData) {
+        try {
+          const [owner, repoName] = repo.split('/');
+          const foundIcon = await findIconInRepo(repo);
+          if (foundIcon) {
+            iconData = { data: foundIcon.buffer, ext: foundIcon.ext };
+          }
+        } catch (e) {
+          // Silently continue without icon
+        }
+      }
+
+      if (iconData && !dryRun) {
         await mkdir(ICON_DIR, { recursive: true });
-        const ext = apk.icon.ext === 'webp' ? 'webp' : 'png';
-        await writeFile(path.join(ICON_DIR, `${slug}.${ext}`), apk.icon.data);
+        const ext = iconData.ext === 'webp' ? 'webp' : 'png';
+        await writeFile(path.join(ICON_DIR, `${slug}.${ext}`), iconData.data);
         iconUrl = `/img/github/${slug}.${ext}`;
-      } else if (apk.icon) {
-        iconUrl = `/img/github/${slug}.${apk.icon.ext === 'webp' ? 'webp' : 'png'}`;
+      } else if (iconData) {
+        iconUrl = `/img/github/${slug}.${iconData.ext === 'webp' ? 'webp' : 'png'}`;
       }
 
       const card = buildCard({
