@@ -65,6 +65,14 @@ const categories = categoryChoices();
       .parse-status.loading { color: #94a3b8; }
       .parse-status.ok { color: #34d399; }
       .parse-status.err { color: #f87171; }
+      .result-item { display: flex; align-items: center; gap: 8px; padding: 8px 12px;
+        border-left: 3px solid; border-radius: 4px; margin-top: 8px; font-size: 13px; }
+      .result-item.ok { border-color: #34d399; background: #06422720; }
+      .result-item.skip { border-color: #f59e0b; background: #92400e20; }
+      .result-item.err { border-color: #f87171; background: #7f1d1d20; }
+      .result-item.ok { color: #34d399; }
+      .result-item.skip { color: #f59e0b; }
+      .result-item.err { color: #f87171; }
 
       .empty { color: #64748b; text-align: center; padding: 40px 20px; font-size: 14px; }
       .section { display: none; }
@@ -86,13 +94,32 @@ const categories = categoryChoices();
 
       <div class="tabs">
         <div class="tab active" data-tab="list">📋 Список</div>
-        <div class="tab" data-tab="add">➕ Добавить</div>
+        <div class="tab" data-tab="batch">📦 Массовый импорт</div>
+        <div class="tab" data-tab="add">➕ Добавить одно</div>
       </div>
 
       <!-- Список приложений -->
       <div class="section list active" id="list-section">
         <div id="list" class="list"></div>
         <div class="empty" id="empty">Пока нет ни одного приложения. Добавь первое!</div>
+      </div>
+
+      <!-- Массовый импорт -->
+      <div class="section" id="batch-section">
+        <div class="form">
+          <h2>Массовый импорт APK файлов</h2>
+          <p style="color: #94a3b8; font-size: 13px; margin: 0 0 16px;">
+            Выбери сразу 5-20 APK файлов. Они парсятся, создаются приложения, а ты потом поправишь детали.
+          </p>
+
+          <label for="apks_batch">📦 Выбери несколько APK файлов</label>
+          <input id="apks_batch" type="file" accept=".apk" multiple />
+
+          <button id="batch-btn" type="button">📥 Импортировать</button>
+          <div class="status" id="batch-status"></div>
+
+          <div id="batch-results" style="margin-top: 20px;"></div>
+        </div>
       </div>
 
       <!-- Форма добавления -->
@@ -321,6 +348,69 @@ const categories = categoryChoices();
         } catch (err) {
           parseStatus.textContent = `❌ Ошибка: ${err.message}`;
           parseStatus.className = 'parse-status err';
+        }
+      });
+
+      // Batch import
+      $('batch-btn').addEventListener('click', async () => {
+        const files = $('apks_batch').files;
+        if (!files.length) {
+          setStatus('Выбери APK файлы!', 'err');
+          return;
+        }
+
+        $('batch-btn').disabled = true;
+        const status = $('batch-status');
+        status.textContent = `Импортирую ${files.length} файлов...`;
+        status.className = 'status';
+
+        try {
+          const formData = new FormData();
+          for (const file of files) {
+            formData.append('apks', file);
+          }
+
+          const res = await fetch('/api/batch-import', {
+            method: 'POST',
+            body: formData
+          });
+
+          const data = await res.json();
+          if (!res.ok) throw new Error(data.error);
+
+          // Показываем результаты
+          const resultsDiv = $('batch-results');
+          resultsDiv.innerHTML = `<h3 style="margin: 0 0 12px; font-size: 14px;">
+            Результаты: ✅ ${data.imported}, ⊘ ${data.skipped}, ❌ ${data.total - data.imported - data.skipped}
+          </h3>`;
+
+          if (data.results?.length > 0) {
+            const items = data.results.map(r => {
+              const icon = r.status === 'imported' ? '✅' : r.status === 'skipped' ? '⊘' : '❌';
+              const info = r.status === 'imported'
+                ? `${r.package} v${r.version}`
+                : r.message;
+              return `<div class="result-item ${r.status}">${icon} ${esc(r.file)}<br><span style="opacity: 0.7;">${esc(info)}</span></div>`;
+            }).join('');
+            resultsDiv.innerHTML += items;
+          }
+
+          status.textContent = `✅ Импортировано: ${data.imported}`;
+          status.className = 'status ok';
+
+          // Очищаем форму
+          $('apks_batch').value = '';
+
+          // Перезагружаем список через 1 сек
+          setTimeout(() => {
+            document.querySelector('[data-tab="list"]').click();
+            loadApps();
+          }, 1000);
+        } catch (err) {
+          status.textContent = 'Ошибка: ' + err.message;
+          status.className = 'status err';
+        } finally {
+          $('batch-btn').disabled = false;
         }
       });
 
