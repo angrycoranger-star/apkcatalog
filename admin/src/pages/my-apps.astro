@@ -61,6 +61,10 @@ const categories = categoryChoices();
       .status { margin-top: 12px; font-size: 13px; }
       .status.ok { color: #34d399; }
       .status.err { color: #f87171; }
+      .parse-status { font-size: 13px; margin-top: 4px; }
+      .parse-status.loading { color: #94a3b8; }
+      .parse-status.ok { color: #34d399; }
+      .parse-status.err { color: #f87171; }
 
       .empty { color: #64748b; text-align: center; padding: 40px 20px; font-size: 14px; }
       .section { display: none; }
@@ -122,6 +126,10 @@ const categories = categoryChoices();
 
           <label for="icon_url">URL иконки</label>
           <input id="icon_url" type="url" placeholder="https://example.com/icon.png" />
+
+          <label for="apk_file">📦 Загрузить APK (автоматически распарсит версию, размер, иконку)</label>
+          <input id="apk_file" type="file" accept=".apk" />
+          <div class="parse-status" id="parse-status"></div>
 
           <label for="download_url">URL для скачивания APK</label>
           <input id="download_url" type="url" placeholder="https://example.com/app.apk" />
@@ -276,6 +284,45 @@ const categories = categoryChoices();
         s.textContent = msg;
         s.className = 'status ' + kind;
       }
+
+      // Parse APK
+      $('apk_file').addEventListener('change', async (e) => {
+        const file = e.target.files[0];
+        if (!file) return;
+
+        const parseStatus = $('parse-status');
+        parseStatus.textContent = 'Парсю APK...';
+        parseStatus.className = 'parse-status loading';
+
+        try {
+          const formData = new FormData();
+          formData.append('apk', file);
+
+          const res = await fetch('/api/parse-apk', {
+            method: 'POST',
+            body: formData
+          });
+
+          if (!res.ok) {
+            const err = await res.json();
+            throw new Error(err.error);
+          }
+
+          const data = await res.json();
+
+          // Заполняем поля автоматически
+          if (data.version) $('version').value = data.version;
+          if (data.size) $('size').value = data.size;
+          if (data.min_android) $('min_android').value = data.min_android;
+          if (data.checksum_sha256) $('checksum').value = data.checksum_sha256;
+
+          parseStatus.textContent = `✅ Распарсено: v${data.version}, ${data.size}${data.has_icon ? ', есть иконка' : ''}`;
+          parseStatus.className = 'parse-status ok';
+        } catch (err) {
+          parseStatus.textContent = `❌ Ошибка: ${err.message}`;
+          parseStatus.className = 'parse-status err';
+        }
+      });
 
       // Initial load
       loadApps();
