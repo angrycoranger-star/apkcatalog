@@ -1,0 +1,284 @@
+---
+export const prerender = false;
+import { categoryChoices } from '../lib/record.js';
+const categories = categoryChoices();
+---
+
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>apk4orge · Мои приложения</title>
+    <style>
+      * { box-sizing: border-box; }
+      :root { color-scheme: light dark; }
+      body { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+        margin: 0; background: #0b1120; color: #e2e8f0; }
+      header { display: flex; align-items: center; justify-content: space-between;
+        padding: 14px 20px; border-bottom: 1px solid #1e293b; }
+      header b { font-size: 16px; }
+      header nav a { color: #94a3b8; font-size: 13px; text-decoration: none; margin-left: 16px; cursor: pointer; }
+      main { max-width: 900px; margin: 0 auto; padding: 24px 20px 60px; }
+      h1 { font-size: 20px; margin: 0 0 4px; }
+      .sub { color: #94a3b8; font-size: 13px; margin: 0 0 20px; }
+
+      .tabs { display: flex; gap: 12px; margin-bottom: 24px; border-bottom: 1px solid #1e293b; }
+      .tab { padding: 12px 0; border-bottom: 2px solid transparent; color: #94a3b8; cursor: pointer; font-size: 14px; }
+      .tab.active { border-bottom-color: #4f46e5; color: #e2e8f0; }
+
+      .list { display: flex; flex-direction: column; gap: 10px; }
+      .item { display: flex; align-items: center; gap: 12px; padding: 12px; border: 1px solid #1e293b;
+        border-radius: 12px; background: #0f1626; }
+      .item img { width: 44px; height: 44px; border-radius: 10px; object-fit: cover; background: #1e293b; flex: none; }
+      .item .meta { flex: 1; min-width: 0; }
+      .item .name { font-weight: 600; font-size: 15px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+      .item .small { color: #94a3b8; font-size: 12px; margin-top: 2px; }
+      .actions { display: flex; gap: 8px; flex: none; }
+      .actions button { font-size: 13px; padding: 7px 12px; border-radius: 9px; border: 1px solid #334155;
+        background: #131c31; color: #e2e8f0; cursor: pointer; }
+      .actions .del { border-color: #7f1d1d; color: #fca5a5; }
+
+      .form { max-width: 600px; background: #0f1626; padding: 20px; border-radius: 12px; border: 1px solid #1e293b; }
+      .form h2 { font-size: 16px; margin: 0 0 16px; }
+      label { display: block; font-size: 13px; margin: 12px 0 4px; color: #cbd5e1; }
+      input, select, textarea { width: 100%; box-sizing: border-box; border-radius: 8px; border: 1px solid #334155;
+        background: #131c31; color: #e2e8f0; padding: 8px 10px; font-size: 14px; font-family: inherit; }
+      textarea { min-height: 80px; resize: vertical; }
+      .row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+      .row > * { display: contents; }
+      .row label { grid-column: 1; }
+      .row input { grid-column: 1; }
+      .row label:nth-of-type(2) { grid-column: 2; }
+      .row input:nth-of-type(2) { grid-column: 2; }
+      .row select { grid-column: 2; }
+
+      .form button { margin-top: 16px; width: 100%; padding: 10px; border: none; border-radius: 8px;
+        background: #4f46e5; color: #fff; font-weight: 600; cursor: pointer; font-size: 14px; }
+      .form button:disabled { opacity: .6; cursor: default; }
+
+      .status { margin-top: 12px; font-size: 13px; }
+      .status.ok { color: #34d399; }
+      .status.err { color: #f87171; }
+
+      .empty { color: #64748b; text-align: center; padding: 40px 20px; font-size: 14px; }
+      .section { display: none; }
+      .section.active { display: block; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <b>apk4orge · мои приложения</b>
+      <nav>
+        <a href="/manage">← Все приложения</a>
+        <a href="#" id="logout">Выйти</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Мои приложения</h1>
+      <p class="sub">Добавляй, редактируй и удаляй свои приложения. Изменения появляются на сайте через 1–2 минуты.</p>
+
+      <div class="tabs">
+        <div class="tab active" data-tab="list">📋 Список</div>
+        <div class="tab" data-tab="add">➕ Добавить</div>
+      </div>
+
+      <!-- Список приложений -->
+      <div class="section list active" id="list-section">
+        <div id="list" class="list"></div>
+        <div class="empty" id="empty">Пока нет ни одного приложения. Добавь первое!</div>
+      </div>
+
+      <!-- Форма добавления -->
+      <div class="section" id="add-section">
+        <div class="form">
+          <h2>Добавить приложение</h2>
+
+          <label for="name">Название приложения *</label>
+          <input id="name" type="text" placeholder="например: Мой Калькулятор" required />
+
+          <label for="package">Package ID *</label>
+          <input id="package" type="text" placeholder="com.example.myapp" required />
+
+          <div class="row">
+            <label for="developer">Разработчик</label>
+            <label for="category">Категория *</label>
+            <input id="developer" type="text" placeholder="You" />
+            <select id="category" required>
+              {categories.map((c) => <option value={c.slug}>{c.label}</option>)}
+            </select>
+          </div>
+
+          <label for="version">Версия</label>
+          <input id="version" type="text" value="1.0.0" />
+
+          <label for="size">Размер (например: 5.2 MB)</label>
+          <input id="size" type="text" placeholder="5.2 MB" />
+
+          <label for="min_android">Min Android версия (например: 8.0)</label>
+          <input id="min_android" type="text" placeholder="8.0" />
+
+          <label for="icon_url">URL иконки</label>
+          <input id="icon_url" type="url" placeholder="https://example.com/icon.png" />
+
+          <label for="download_url">URL для скачивания APK</label>
+          <input id="download_url" type="url" placeholder="https://example.com/app.apk" />
+
+          <label for="checksum">SHA-256 контрольная сумма (опционально)</label>
+          <input id="checksum" type="text" placeholder="abc123..." />
+
+          <button id="add-btn" type="button">Добавить приложение</button>
+          <div class="status" id="status"></div>
+        </div>
+      </div>
+    </main>
+
+    <script>
+      const $ = (id) => document.getElementById(id);
+      const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+
+      // Tabs
+      document.querySelectorAll('.tab').forEach(tab => {
+        tab.addEventListener('click', () => {
+          document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+          document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+          tab.classList.add('active');
+          const target = document.getElementById(tab.dataset.tab + '-section');
+          if (target) target.classList.add('active');
+        });
+      });
+
+      // Logout
+      $('logout').addEventListener('click', async (e) => {
+        e.preventDefault();
+        await fetch('/api/logout', { method: 'POST' });
+        location.href = '/login';
+      });
+
+      // Load apps
+      async function loadApps() {
+        try {
+          const res = await fetch('/api/my-apps?action=list', { method: 'POST' });
+          const data = await res.json();
+          if (!res.ok) throw new Error(data.error);
+          render(data.apps || []);
+        } catch (err) {
+          $('list').innerHTML = `<div class="empty">Ошибка: ${esc(err.message)}</div>`;
+        }
+      }
+
+      function render(apps) {
+        const list = $('list');
+        const empty = $('empty');
+
+        if (!apps.length) {
+          list.innerHTML = '';
+          empty.style.display = 'block';
+          return;
+        }
+
+        empty.style.display = 'none';
+        list.innerHTML = apps.map(a => `
+          <div class="item">
+            <img src="${esc(a.icon_url)}" alt="" onerror="this.style.visibility='hidden'" />
+            <div class="meta">
+              <div class="name">${esc(a.name || a.translations?.en?.name || '?')}</div>
+              <div class="small">${esc(a.developer || '—')} · v${esc(a.version || '?')} · ${esc(a.package_id)}</div>
+            </div>
+            <div class="actions">
+              <button onclick="editApp('${esc(a.slug)}')">Править</button>
+              <button class="del" onclick="deleteApp('${esc(a.slug)}', '${esc(a.translations?.en?.name || a.name || 'App')}')">Удалить</button>
+            </div>
+          </div>
+        `).join('');
+      }
+
+      function editApp(slug) {
+        alert(`Редактирование придёт позже! Slug: ${slug}`);
+      }
+
+      async function deleteApp(slug, name) {
+        if (!confirm(`Удалить "${name}"?`)) return;
+
+        try {
+          const res = await fetch('/api/my-apps?action=delete', {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ slug })
+          });
+
+          if (!res.ok) throw new Error('Ошибка удаления');
+          loadApps();
+        } catch (err) {
+          alert('Ошибка: ' + err.message);
+        }
+      }
+
+      // Add app
+      $('add-btn').addEventListener('click', async () => {
+        const name = $('name').value.trim();
+        const package_id = $('package').value.trim();
+        const category = $('category').value;
+
+        if (!name || !package_id || !category) {
+          setStatus('Заполни название, package ID и категорию!', 'err');
+          return;
+        }
+
+        $('add-btn').disabled = true;
+        setStatus('Добавляю...', '');
+
+        try {
+          const res = await fetch('/api/my-apps?action=add', {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({
+              name,
+              package_id,
+              category,
+              developer: $('developer').value || 'You',
+              version: $('version').value || '1.0.0',
+              size: $('size').value,
+              min_android: $('min_android').value,
+              icon_url: $('icon_url').value,
+              download_url: $('download_url').value,
+              checksum_sha256: $('checksum').value
+            })
+          });
+
+          const data = await res.json();
+          if (!res.ok) throw new Error(data.error);
+
+          // Очищаем форму
+          ['name', 'package', 'developer', 'version', 'size', 'min_android', 'icon_url', 'download_url', 'checksum'].forEach(id => {
+            const el = $(id);
+            if (el) el.value = '';
+          });
+          $('version').value = '1.0.0';
+          $('category').value = categories[0]?.slug;
+
+          setStatus(`✅ Приложение добавлено! Slug: ${data.slug}`, 'ok');
+
+          // Переключаемся на список и перезагружаем
+          document.querySelector('[data-tab="list"]').click();
+          setTimeout(loadApps, 500);
+        } catch (err) {
+          setStatus('Ошибка: ' + err.message, 'err');
+        } finally {
+          $('add-btn').disabled = false;
+        }
+      });
+
+      function setStatus(msg, kind) {
+        const s = $('status');
+        s.textContent = msg;
+        s.className = 'status ' + kind;
+      }
+
+      // Initial load
+      loadApps();
+    </script>
+  </body>
+</html>
