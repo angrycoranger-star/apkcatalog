@@ -55,5 +55,51 @@
     "promo_order": 1,
     "rating": 4.7,
     "ratings_count": 1200
+  },
+  {
+    "slug": "my-photo-editor",
+    "custom": true,
+    "package_id": "com.example.photo",
+    "category": "MEDIA",
+    "developer": "You",
+    "version": "1.0.0",
+    "size": "8.5 MB",
+    "min_android": "9.0",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "CAMERA",
+      "READ_STORAGE",
+      "WRITE_STORAGE"
+    ],
+    "translations": {
+      "en": {
+        "name": "My Photo Editor",
+        "summary": "My Photo Editor is a media app for Android. Edit photos with ease."
+      },
+      "ru": {
+        "name": "My Photo Editor",
+        "summary": "My Photo Editor - приложение для редактирования фото на Android."
+      },
+      "tr": {
+        "name": "My Photo Editor",
+        "summary": "My Photo Editor, Android için bir fotoğraf editörü uygulamasıdır."
+      },
+      "uz": {
+        "name": "My Photo Editor",
+        "summary": "My Photo Editor Android uchun foto muharrir ilova."
+      }
+    },
+    "open_source": false,
+    "source": "custom",
+    "source_code": "",
+    "download": {
+      "type": "direct",
+      "url": "https://example.com/MyPhotoEditor.apk",
+      "checksum_sha256": "",
+      "updated": "2026-09-10"
+    },
+    "added_at": "2026-09-10T08:50:54.441Z",
+    "updated": "2026-09-10T08:50:57.098Z"
   }
 ]
