@@ -3778,5 +3778,209 @@
     "en": "CodeCatcher picks confirmation codes out of incoming SMS.\n\nA code can be copied at once or forwarded — to a relative whose message arrived on your number, for instance. It can also be read aloud, so you do not have to squint at it.\n\nThe source code is open.",
     "tr": "CodeCatcher, gelen SMS'lerdeki doğrulama kodlarını yakalar.\n\nKod hemen kopyalanabilir ya da iletilebilir; örneğin iletisi sizin numaranıza gelen bir yakınınıza. Ayrıca sesli okunabilir, böylece kodu gözle ayıklamanız gerekmez.\n\nKaynak kodu açıktır.",
     "uz": "CodeCatcher kelgan SMS lardan tasdiqlash kodlarini ajratib oladi.\n\nKodni darhol nusxalash yoki uzatish mumkin — masalan, xabari sizning raqamingizga kelgan qarindoshingizga. Ovoz chiqarib o'qish ham bor, shunda kodni ko'z bilan ajratish shart emas.\n\nManba kodi ochiq."
+  },
+  "co.electriccoin.zcash.foss": {
+    "ru": "Zodl — кошелёк для криптовалюты Zcash, в которой суммы и адреса переводов скрыты шифрованием.\n\nПриложение устроено так, чтобы разбираться в устройстве блокчейна не требовалось: отправить и принять средства можно, не вникая в то, как это работает внутри.\n\nИсходный код открыт.",
+    "en": "Zodl is a wallet for Zcash, the cryptocurrency that hides transaction amounts and addresses behind encryption.\n\nThe app is built so that you do not need to understand how blockchains work: sending and receiving funds does not require grasping the machinery underneath.\n\nThe source code is open.",
+    "tr": "Zodl, işlem tutarlarını ve adreslerini şifreleyerek gizleyen kripto para birimi Zcash için bir cüzdandır.\n\nUygulama, blok zincirinin nasıl çalıştığını bilmenizi gerektirmeyecek biçimde kurulmuştur: para göndermek ve almak için alttaki düzeneği kavramanız gerekmez.\n\nKaynak kodu açıktır.",
+    "uz": "Zodl — o'tkazma summalari va manzillarini shifrlash bilan yashiradigan Zcash kriptovalyutasi uchun hamyon.\n\nIlova blokcheyn tuzilishini bilish shart bo'lmaydigan qilib ishlangan: mablag' yuborish va qabul qilish uchun ichki mexanizmni tushunish talab qilinmaydi.\n\nManba kodi ochiq."
+  },
+  "co.epitre.aelf_lectures": {
+    "ru": "Приложение AELF даёт тексты католического богослужения на каждый день в литургическом переводе: чтения мессы и часы — утреню, третий, шестой и девятый часы, вечерню.\n\nТексты доступны на нужную дату, поэтому следить за литургическим календарём отдельно не приходится.\n\nИсходный код открыт.",
+    "en": "The AELF app carries the Catholic liturgy for each day in the liturgical translation: the readings of the Mass and the hours — lauds, terce, sext, none and vespers.\n\nThe texts are available for any given date, so there is no need to follow the liturgical calendar separately.\n\nThe source code is open.",
+    "tr": "AELF uygulaması, her gün için Katolik ayinini litürjik çeviriyle sunar: Ayin okumaları ve saatler — lauds, terce, sext, none ve vespers.\n\nMetinler istenen tarihe göre açılır; böylece litürjik takvimi ayrıca izlemeniz gerekmez.\n\nKaynak kodu açıktır.",
+    "uz": "AELF ilovasi katolik ibodatining har kunlik matnlarini liturgik tarjimada beradi: messa o'qishlari va soatlar — ertalabki, uchinchi, oltinchi, to'qqizinchi soatlar va oqshom ibodati.\n\nMatnlar kerakli sanaga ochiladi, shuning uchun liturgik kalendarni alohida kuzatish shart emas.\n\nManba kodi ochiq."
+  },
+  "co.garmax.materialflashlight": {
+    "ru": "Material Flashlight светит вспышкой камеры или белым экраном — источник выбирается отдельным модулем.\n\nЕсть стробоскоп с настраиваемым интервалом, режим мигания в такт музыке и сигнал SOS. Включать фонарь можно виджетом или кнопкой в панели быстрых настроек.\n\nИсходный код открыт.",
+    "en": "Material Flashlight lights up the camera flash or the screen — the source is chosen as a separate module.\n\nThere is a stroboscope with an adjustable interval, a mode that blinks in time with music, and an SOS signal. The torch can be switched on from a widget or a quick settings tile.\n\nThe source code is open.",
+    "tr": "Material Flashlight, kamera flaşını ya da ekranı yakar; kaynak ayrı bir modül olarak seçilir.\n\nAralığı ayarlanabilen bir stroboskop, müziğe uyarak yanıp sönen bir kip ve bir SOS işareti vardır. El feneri bir widget'tan ya da hızlı ayarlar kutucuğundan açılabilir.\n\nKaynak kodu açıktır.",
+    "uz": "Material Flashlight kamera chaqnog'i yoki ekran bilan yoritadi — manba alohida modul sifatida tanlanadi.\n\nOralig'i sozlanadigan stroboskop, musiqa ohangida miltillash tartibi va SOS signali bor. Fonarni vidjet yoki tezkor sozlamalar tugmasi orqali yoqish mumkin.\n\nManba kodi ochiq."
+  },
+  "co.prestosole.clima": {
+    "ru": "Clima показывает прогноз погоды на восемь дней, опираясь на данные Open-Meteo.\n\nЕдиницы переключаются между метрическими и имперскими, есть тёмное оформление. Интерфейс намеренно сведён к минимуму.\n\nПриложение требует Android 6.0 или новее. Исходный код открыт.",
+    "en": "Clima shows an eight-day forecast, drawing on data from Open-Meteo.\n\nUnits switch between metric and imperial, and there is a dark theme. The interface is deliberately kept minimal.\n\nThe app requires Android 6.0 or later. The source code is open.",
+    "tr": "Clima, Open-Meteo verilerine dayanarak sekiz günlük tahmin gösterir.\n\nBirimler metrik ile imperial arasında değişir ve koyu tema vardır. Arayüz bilinçli olarak en aza indirilmiştir.\n\nUygulama Android 6.0 veya sonrasını gerektirir. Kaynak kodu açıktır.",
+    "uz": "Clima Open-Meteo ma'lumotlariga tayanib, sakkiz kunlik ob-havo bashoratini ko'rsatadi.\n\nBirliklar metrik va imperial orasida almashadi, qorong'i bezak bor. Interfeys ataylab eng sodda holatga keltirilgan.\n\nIlova Android 6.0 yoki undan yangisini talab qiladi. Manba kodi ochiq."
+  },
+  "co.timsmart.vouchervault": {
+    "ru": "Voucher Vault хранит подарочные сертификаты, ваучеры и карты лояльности.\n\nПоддерживаются разные виды штрихкодов, а если кода нет — можно сохранить номер обычным текстом. По каждой карте видно, что на ней осталось.\n\nИсходный код открыт.",
+    "en": "Voucher Vault keeps gift cards, vouchers and loyalty cards together.\n\nSeveral barcode types are supported, and where there is no barcode the number can be stored as plain text. Each card shows what is left on it.\n\nThe source code is open.",
+    "tr": "Voucher Vault, hediye kartlarını, kuponları ve sadakat kartlarını bir arada tutar.\n\nBirkaç barkod türü desteklenir; barkod yoksa numara düz metin olarak saklanabilir. Her kartta üzerinde ne kaldığı görünür.\n\nKaynak kodu açıktır.",
+    "uz": "Voucher Vault sovg'a sertifikatlari, vaucherlar va sodiqlik kartalarini bir joyda saqlaydi.\n\nTurli xil shtrix-kodlar qo'llab-quvvatlanadi, kod bo'lmasa raqamni oddiy matn sifatida saqlash mumkin. Har bir kartada nima qolgani ko'rinadi.\n\nManba kodi ochiq."
+  },
+  "code.alimiracle.image_meta_cleaner": {
+    "ru": "Image Meta Cleaner убирает из фотографий служебные данные, которые записываются в файл при съёмке.\n\nВ них попадает то, чем делиться обычно не собираются: координаты места съёмки, модель устройства, дата и время.\n\nПриложение работает на нескольких платформах. Исходный код открыт.",
+    "en": "Image Meta Cleaner strips the metadata that a camera writes into an image file.\n\nThat metadata carries things you rarely mean to share: where the photo was taken, which device took it, the date and time.\n\nThe app runs on several platforms. The source code is open.",
+    "tr": "Image Meta Cleaner, kameranın görüntü dosyasına yazdığı üstverileri kaldırır.\n\nBu üstveride genellikle paylaşmayı düşünmediğiniz şeyler bulunur: fotoğrafın çekildiği konum, cihaz modeli, tarih ve saat.\n\nUygulama birden çok platformda çalışır. Kaynak kodu açıktır.",
+    "uz": "Image Meta Cleaner suratlardan kamera faylga yozadigan xizmat ma'lumotlarini olib tashlaydi.\n\nUlar orasida odatda ulashish ko'zda tutilmagan narsalar bo'ladi: surat olingan joy koordinatalari, qurilma modeli, sana va vaqt.\n\nIlova bir nechta platformada ishlaydi. Manba kodi ochiq."
+  },
+  "codes.swee.diceapp": {
+    "ru": "Dice App бросает игральные кости — простая замена настоящему кубику, когда его нет под рукой.\n\nИсходный код открыт.",
+    "en": "Dice App rolls dice — a straightforward stand-in when there is no real die to hand.\n\nThe source code is open.",
+    "tr": "Dice App zar atar — elinizin altında gerçek bir zar yokken yalın bir yerine geçer.\n\nKaynak kodu açıktır.",
+    "uz": "Dice App zar tashlaydi — qo'l ostida haqiqiy kubik bo'lmaganda sodda o'rinbosar.\n\nManba kodi ochiq."
+  },
+  "codes.swistak.batterymonitor": {
+    "ru": "Battery Monitor показывает состояние аккумулятора: заряд, а также сведения, которые обычно скрыты в системных меню.\n\nО важных изменениях приложение сообщает уведомлением, так что за экраном следить не нужно.\n\nИсходный код открыт.",
+    "en": "Battery Monitor shows the state of the battery: the charge, along with details normally buried in system menus.\n\nIt reports the changes that matter through notifications, so you do not have to keep watching the screen.\n\nThe source code is open.",
+    "tr": "Battery Monitor, pilin durumunu gösterir: şarj düzeyi ve normalde sistem menülerinde gizli kalan ayrıntılar.\n\nÖnemli değişiklikleri bildirimlerle haber verir; böylece ekranı sürekli izlemeniz gerekmez.\n\nKaynak kodu açıktır.",
+    "uz": "Battery Monitor batareya holatini ko'rsatadi: quvvat darajasi va odatda tizim menyularida yashiringan ma'lumotlar.\n\nMuhim o'zgarishlar haqida bildirishnoma orqali xabar beradi, shuning uchun ekranni doim kuzatish shart emas.\n\nManba kodi ochiq."
+  },
+  "com.Ace777.tidy": {
+    "ru": "Tidy ведёт задачи, в том числе повторяющиеся — ежедневные, еженедельные и ежемесячные.\n\nПодзадачи вкладываются одна в другую без ограничения по глубине, так что крупное дело можно разобрать настолько подробно, насколько нужно. По списку работает поиск.\n\nИсходный код открыт.",
+    "en": "Tidy manages tasks, including recurring ones — daily, weekly or monthly.\n\nSubtasks nest inside each other without a depth limit, so a large job can be broken down as finely as it needs to be. The list is searchable.\n\nThe source code is open.",
+    "tr": "Tidy, yinelenen görevler dâhil olmak üzere görevleri yönetir — günlük, haftalık ya da aylık.\n\nAlt görevler derinlik sınırı olmadan iç içe geçer; böylece büyük bir iş gerektiği kadar ayrıntılı bölünebilir. Liste içinde arama yapılabilir.\n\nKaynak kodu açıktır.",
+    "uz": "Tidy vazifalarni, jumladan takrorlanadiganlarini ham yuritadi — kunlik, haftalik va oylik.\n\nQuyi vazifalar chuqurlik cheklovisiz bir-birining ichiga joylashadi, shuning uchun katta ishni kerakli darajada mayda bo'laklarga ajratish mumkin. Ro'yxat bo'ylab qidiruv ishlaydi.\n\nManba kodi ochiq."
+  },
+  "com.Arturo254.opentune": {
+    "ru": "OpenTune — клиент YouTube Music в оформлении Material Design 3.\n\nВоспроизведение идёт без рекламы и продолжается, когда приложение свёрнуто. Есть развёрнутый поиск, вход в свою учётную запись и работа с собственной фонотекой, в том числе офлайн.\n\nИсходный код открыт.",
+    "en": "OpenTune is a YouTube Music client styled after Material Design 3.\n\nPlayback runs without ads and continues when the app is in the background. There is advanced search, sign-in to your account, and library management, offline included.\n\nThe source code is open.",
+    "tr": "OpenTune, Material Design 3 ile biçimlendirilmiş bir YouTube Music istemcisidir.\n\nÇalma reklamsızdır ve uygulama arka plandayken sürer. Gelişmiş arama, hesabınıza giriş ve çevrimdışı da dâhil kitaplık yönetimi vardır.\n\nKaynak kodu açıktır.",
+    "uz": "OpenTune — Material Design 3 uslubidagi YouTube Music mijozi.\n\nIjro reklamasiz ketadi va ilova yig'ilganda ham davom etadi. Kengaytirilgan qidiruv, hisobga kirish va kutubxona bilan ishlash, jumladan oflayn rejimda ham bor.\n\nManba kodi ochiq."
+  },
+  "com.Colota": {
+    "ru": "Colota записывает координаты и отправляет их на ваш собственный сервер по HTTP или HTTPS — никаким сторонним службам данные не передаются.\n\nБез сети приложение продолжает вести запись и отправит накопленное позже. Можно задавать геозоны и получать отметку о входе в них и выходе.\n\nИсходный код открыт.",
+    "en": "Colota records your position and sends it to a server of your own over HTTP or HTTPS — nothing goes to any third-party service.\n\nWithout a connection it keeps recording and sends what it gathered later. Geofences can be set, with entries and exits marked.\n\nThe source code is open.",
+    "tr": "Colota, konumunuzu kaydeder ve HTTP ya da HTTPS üzerinden kendi sunucunuza gönderir; hiçbir üçüncü taraf hizmete veri gitmez.\n\nBağlantı yokken kaydetmeyi sürdürür ve biriktirdiğini sonra gönderir. Coğrafi sınırlar tanımlanabilir; giriş ve çıkışlar işaretlenir.\n\nKaynak kodu açıktır.",
+    "uz": "Colota joylashuvni yozib boradi va uni HTTP yoki HTTPS orqali o'z serveringizga yuboradi — hech qanday uchinchi tomon xizmatiga ma'lumot ketmaydi.\n\nTarmoq bo'lmasa yozishda davom etadi va to'plaganini keyinroq yuboradi. Geozonalarni belgilash va ularga kirish-chiqishni qayd etish mumkin.\n\nManba kodi ochiq."
+  },
+  "com.DartChecker": {
+    "ru": "Dart Checker ведёт счёт в дартсе — в одиночной игре и в компании.\n\nОстаток очков пересчитывается сам после каждого броска, поэтому считать в уме или на доске больше не нужно.\n\nИсходный код открыт.",
+    "en": "Dart Checker keeps score at darts, alone or with company.\n\nThe remaining score is worked out after each throw, so there is no more counting in your head or on a board.\n\nThe source code is open.",
+    "tr": "Dart Checker, tek başına ya da arkadaşlarla dart oynarken puanları tutar.\n\nKalan puan her atıştan sonra kendiliğinden hesaplanır; böylece kafadan ya da tahtada hesap yapmaya gerek kalmaz.\n\nKaynak kodu açıktır.",
+    "uz": "Dart Checker darts o'yinida hisob yuritadi — yolg'iz o'ynaganda ham, davrada ham.\n\nQolgan ochkolar har bir otishdan keyin o'zi qayta hisoblanadi, shuning uchun xayolda yoki doskada sanash shart emas.\n\nManba kodi ochiq."
+  },
+  "com.LAPARCELA.nihonoari": {
+    "ru": "Nihonoari помогает выучить японские азбуки — хирагану и катакану — и закрепить их упражнениями.\n\nРекламы, встроенных покупок и сбора данных в приложении нет.\n\nИсходный код открыт.",
+    "en": "Nihonoari helps you memorise the Japanese syllabaries — hiragana and katakana — and practise them.\n\nThere are no adverts, no in-app purchases and no data collection.\n\nThe source code is open.",
+    "tr": "Nihonoari, Japonca hece alfabelerini — hiragana ve katakana — ezberlemenize ve alıştırma yapmanıza yardım eder.\n\nReklam, uygulama içi satın alma ve veri toplama yoktur.\n\nKaynak kodu açıktır.",
+    "uz": "Nihonoari yapon alifbolari — xiragana va katakanani yodlashga va mashq qilishga yordam beradi.\n\nReklama, ilova ichidagi xaridlar va ma'lumot yig'ish yo'q.\n\nManba kodi ochiq."
+  },
+  "com.MNPDigital.holidayz": {
+    "ru": "Holidayz показывает государственные праздники и выходные дни разных стран.\n\nПригодится, когда нужно понять, работает ли в другой стране банк или офис партнёров, или спланировать поездку по длинным выходным.\n\nИсходный код открыт.",
+    "en": "Holidayz lists public holidays and days off around the world.\n\nIt helps when you need to know whether a bank or a partner's office is open in another country, or when planning a trip around a long weekend.\n\nThe source code is open.",
+    "tr": "Holidayz, dünya genelindeki resmî tatilleri ve izin günlerini listeler.\n\nBaşka bir ülkede bir bankanın ya da iş ortağınızın ofisinin açık olup olmadığını bilmeniz gerektiğinde veya uzun bir hafta sonuna göre gezi planlarken işe yarar.\n\nKaynak kodu açıktır.",
+    "uz": "Holidayz turli mamlakatlarning davlat bayramlari va dam olish kunlarini ko'rsatadi.\n\nBoshqa mamlakatda bank yoki hamkorlar ofisi ishlayotganini bilish kerak bo'lganda yoki uzun dam olish kunlariga sayohat rejalashtirganda asqotadi.\n\nManba kodi ochiq."
+  },
+  "com.MarcosDiez.shareviahttp": {
+    "ru": "Share via HTTP раздаёт файлы с телефона по сети: получателю достаточно открыть ссылку в браузере, ставить что-либо ему не нужно.\n\nПриложение не создаёт значка в списке программ — оно появляется только в меню «Поделиться», откуда его и вызывают.\n\nИсходный код открыт.",
+    "en": "Share via HTTP serves files from the phone over the network: the other person only has to open a link in a browser, with nothing to install.\n\nThe app puts no icon in the app list — it appears only in the share menu, which is where you call it from.\n\nThe source code is open.",
+    "tr": "Share via HTTP, telefondaki dosyaları ağ üzerinden sunar: karşı tarafın yalnızca tarayıcıda bir bağlantı açması yeter, bir şey kurması gerekmez.\n\nUygulama, uygulama listesine simge koymaz; yalnızca paylaş menüsünde görünür ve oradan çağrılır.\n\nKaynak kodu açıktır.",
+    "uz": "Share via HTTP telefondagi fayllarni tarmoq orqali tarqatadi: qabul qiluvchi brauzerda havolani ochsa kifoya, hech narsa o'rnatish shart emas.\n\nIlova dasturlar ro'yxatida belgi yaratmaydi — u faqat \"Ulashish\" menyusida chiqadi va o'sha yerdan chaqiriladi.\n\nManba kodi ochiq."
+  },
+  "com.NightDreamGames.Grade.ly": {
+    "ru": "Graded ведёт учёт школьных и университетских оценок и считает средний балл.\n\nПриложение подстраивается под принятую у вас систему оценивания, поэтому подойдёт и там, где баллы ставят по шкале, непохожей на привычную.\n\nИсходный код открыт.",
+    "en": "Graded keeps track of school and university marks and works out the average.\n\nIt adapts to whichever grading system you use, so it fits places where marks are given on an unfamiliar scale.\n\nThe source code is open.",
+    "tr": "Graded, okul ve üniversite notlarını kaydeder ve ortalamayı hesaplar.\n\nKullandığınız not sistemine uyum sağlar; bu yüzden notların alışılmadık bir ölçekle verildiği yerlere de uyar.\n\nKaynak kodu açıktır.",
+    "uz": "Graded maktab va universitet baholarini hisobga oladi va o'rtacha ballni hisoblaydi.\n\nIlova sizda qabul qilingan baholash tizimiga moslashadi, shuning uchun baholar odatdagidan farqli shkalada qo'yiladigan joylarga ham to'g'ri keladi.\n\nManba kodi ochiq."
+  },
+  "com.Sommerlichter.social": {
+    "ru": "koyu.space — приложение сообщества koyu.space, которое работает на Mastodon.\n\nЧерез него ведут переписку и читают ленту в федивёрсе — сети независимых серверов, связанных между собой.\n\nИсходный код открыт.",
+    "en": "koyu.space is the app for the koyu.space community, which runs on Mastodon.\n\nYou use it to post and follow along in the fediverse, the network of independent servers that talk to one another.\n\nThe source code is open.",
+    "tr": "koyu.space, Mastodon üzerinde çalışan koyu.space topluluğunun uygulamasıdır.\n\nOnunla, birbiriyle konuşan bağımsız sunucular ağı olan fediverse'te paylaşım yapar ve akışı izlersiniz.\n\nKaynak kodu açıktır.",
+    "uz": "koyu.space — Mastodon asosida ishlaydigan koyu.space hamjamiyatining ilovasi.\n\nU orqali bir-biri bilan bog'langan mustaqil serverlar tarmog'i — fediversda yozishasiz va lentani o'qiysiz.\n\nManba kodi ochiq."
+  },
+  "com.a10miaomiao.bilimiao": {
+    "ru": "bilimiao — сторонний клиент площадки Bilibili.\n\nРолики смотрятся и скачиваются, есть подборки популярного и рекомендованного. Отдельная возможность — «машина времени»: она показывает, что было популярным в разные прошлые периоды.\n\nПриложение сделано не Bilibili. Исходный код открыт.",
+    "en": "bilimiao is a third-party client for Bilibili.\n\nVideos can be watched and downloaded, and there are lists of popular and recommended clips. One distinctive feature is a time machine that shows what was popular in earlier periods.\n\nThe app is not made by Bilibili. The source code is open.",
+    "tr": "bilimiao, Bilibili için üçüncü taraf bir istemcidir.\n\nVideolar izlenip indirilebilir; popüler ve önerilen listeler bulunur. Ayırt edici özelliklerinden biri, geçmiş dönemlerde neyin popüler olduğunu gösteren bir zaman makinesidir.\n\nUygulama Bilibili tarafından yapılmamıştır. Kaynak kodu açıktır.",
+    "uz": "bilimiao — Bilibili maydonchasining uchinchi tomon mijozi.\n\nRoliklarni ko'rish va yuklab olish mumkin, mashhur va tavsiya etilganlar to'plamlari bor. Alohida imkoniyat — \"vaqt mashinasi\": u o'tgan davrlarda nima mashhur bo'lganini ko'rsatadi.\n\nIlova Bilibili tomonidan qilinmagan. Manba kodi ochiq."
+  },
+  "com.a4a.g8invoicing": {
+    "ru": "g8 выставляет счета, готовит коммерческие предложения и накладные.\n\nПредложение или накладную можно превратить в счёт, не вводя данные заново, — документы связаны между собой.\n\nПриложение с открытым исходным кодом.",
+    "en": "g8 issues invoices and prepares quotes and delivery notes.\n\nA quote or a delivery note can be turned into an invoice without re-entering anything — the documents are linked to one another.\n\nThe app is open source.",
+    "tr": "g8, fatura keser ve teklif ile irsaliye hazırlar.\n\nBir teklif ya da irsaliye, hiçbir şeyi yeniden girmeden faturaya dönüştürülebilir; belgeler birbirine bağlıdır.\n\nUygulama açık kaynaklıdır.",
+    "uz": "g8 hisob-fakturalar chiqaradi, tijorat takliflari va yuk xatlarini tayyorlaydi.\n\nTaklif yoki yuk xatini ma'lumotlarni qaytadan kiritmasdan hisob-fakturaga aylantirish mumkin — hujjatlar o'zaro bog'langan.\n\nIlova ochiq kodli."
+  },
+  "com.aa.mynotes": {
+    "ru": "My Notes ведёт текстовые заметки.\n\nПриложение работает без сети, поэтому записи доступны в любой момент, независимо от связи.\n\nИсходный код открыт.",
+    "en": "My Notes keeps text notes.\n\nIt works offline, so your notes are available at any moment, whatever the connection.\n\nThe source code is open.",
+    "tr": "My Notes, metin notları tutar.\n\nÇevrimdışı çalışır; böylece notlarınıza bağlantıdan bağımsız olarak her an ulaşabilirsiniz.\n\nKaynak kodu açıktır.",
+    "uz": "My Notes matnli eslatmalar yuritadi.\n\nIlova tarmoqsiz ishlaydi, shuning uchun yozuvlar aloqadan qat'i nazar istalgan paytda ochiq bo'ladi.\n\nManba kodi ochiq."
+  },
+  "com.aaronjwood.portauthority": {
+    "ru": "Port Authority быстро сканирует порты и находит устройства в локальной сети.\n\nПо каждому найденному узлу показываются сведения о его сетевых настройках — то, что нужно при разборе домашней сети или проверке, какие службы открыты наружу.\n\nИсходный код открыт.",
+    "en": "Port Authority scans ports quickly and discovers hosts on your local network.\n\nFor each host it found, it shows details about its network configuration — what you need when mapping a home network or checking which services are exposed.\n\nThe source code is open.",
+    "tr": "Port Authority, bağlantı noktalarını hızla tarar ve yerel ağdaki cihazları bulur.\n\nBulduğu her makine için ağ yapılandırmasına dair ayrıntıları gösterir; bir ev ağını çözerken ya da hangi hizmetlerin dışarı açık olduğunu denetlerken gereken bilgiler bunlardır.\n\nKaynak kodu açıktır.",
+    "uz": "Port Authority portlarni tez skanerlaydi va mahalliy tarmoqdagi qurilmalarni topadi.\n\nTopilgan har bir tugun uchun uning tarmoq sozlamalari haqidagi ma'lumot ko'rsatiladi — uy tarmog'ini tahlil qilishda yoki qaysi xizmatlar tashqariga ochiqligini tekshirishda kerak bo'ladigan narsalar.\n\nManba kodi ochiq."
+  },
+  "com.abast.homebot": {
+    "ru": "HomeBot переназначает долгое нажатие кнопки «Домой» на другое действие.\n\nНа неё можно повесить запуск приложения, открытие веб-страницы или включение фонарика.\n\nИсходный код открыт.",
+    "en": "HomeBot remaps the long press of the home button to something else.\n\nIt can launch an app, open a web page, or switch on the flashlight.\n\nThe source code is open.",
+    "tr": "HomeBot, ana ekran düğmesine uzun basmayı başka bir işleme bağlar.\n\nBir uygulama açabilir, bir web sayfası gösterebilir ya da el fenerini yakabilir.\n\nKaynak kodu açıktır.",
+    "uz": "HomeBot \"Uy\" tugmasini uzoq bosishni boshqa amalga bog'laydi.\n\nUnga ilova ochish, veb-sahifaga o'tish yoki fonarni yoqishni biriktirish mumkin.\n\nManba kodi ochiq."
+  },
+  "com.abhijitvalluri.android.fitnotifications": {
+    "ru": "Fit Notifications пересылает уведомления с телефона на браслет или часы Fitbit.\n\nБез него на экран устройства попадают только сообщения из приложений, которые Fitbit поддерживает сам; здесь же доходит всё остальное.\n\nОсобых разрешений приложение не требует. Исходный код открыт.",
+    "en": "Fit Notifications forwards notifications from the phone to a Fitbit tracker or watch.\n\nWithout it, only the apps Fitbit supports itself reach the device's screen; with it, everything else gets through too.\n\nNo special permissions are required. The source code is open.",
+    "tr": "Fit Notifications, telefondaki bildirimleri bir Fitbit bilekliğe ya da saate iletir.\n\nOnsuz, cihazın ekranına yalnızca Fitbit'in kendi desteklediği uygulamaların iletileri düşer; onunla birlikte geri kalanı da ulaşır.\n\nÖzel izin gerektirmez. Kaynak kodu açıktır.",
+    "uz": "Fit Notifications telefondagi bildirishnomalarni Fitbit bilaguzugi yoki soatiga uzatadi.\n\nUsiz qurilma ekraniga faqat Fitbit o'zi qo'llab-quvvatlaydigan ilovalarning xabarlari tushadi; u bilan esa qolgani ham yetib boradi.\n\nMaxsus ruxsatlar talab qilinmaydi. Manba kodi ochiq."
+  },
+  "com.absinthe.libchecker": {
+    "ru": "LibChecker показывает, из каких сторонних библиотек собраны установленные приложения.\n\nВидно и то, под какую архитектуру процессора собрана программа, — это объясняет, почему одно приложение работает на устройстве, а другое отказывается ставиться.\n\nИсходный код открыт.",
+    "en": "LibChecker shows which third-party libraries the apps on your device are built from.\n\nIt also reveals the processor architecture a program was compiled for — which explains why one app runs on your device while another refuses to install.\n\nThe source code is open.",
+    "tr": "LibChecker, cihazınızdaki uygulamaların hangi üçüncü taraf kitaplıklardan kurulduğunu gösterir.\n\nAyrıca bir programın hangi işlemci mimarisi için derlendiğini de ortaya koyar; bu da neden bir uygulamanın cihazınızda çalışırken başkasının kurulmadığını açıklar.\n\nKaynak kodu açıktır.",
+    "uz": "LibChecker o'rnatilgan ilovalar qanday uchinchi tomon kutubxonalaridan yig'ilganini ko'rsatadi.\n\nDastur qaysi protsessor arxitekturasi uchun yig'ilgani ham ko'rinadi — bu nega bir ilova qurilmada ishlashi, boshqasi esa o'rnatilmasligini tushuntiradi.\n\nManba kodi ochiq."
+  },
+  "com.acho.chat.app": {
+    "ru": "Acho — лёгкий клиент к социальной сети Acho.\n\nИсходный код открыт.",
+    "en": "Acho is a lightweight client for the Acho social network.\n\nThe source code is open.",
+    "tr": "Acho, Acho sosyal ağı için hafif bir istemcidir.\n\nKaynak kodu açıktır.",
+    "uz": "Acho — Acho ijtimoiy tarmog'i uchun yengil mijoz.\n\nManba kodi ochiq."
+  },
+  "com.acktarius.concealauthenticator": {
+    "ru": "Conceal Authenticator создаёт одноразовые коды TOTP для двухэтапного входа.\n\nХранилище кодов зашифровано, доступ к нему закрывается отпечатком пальца или другой биометрией устройства.\n\nИсходный код открыт.",
+    "en": "Conceal Authenticator generates one-time TOTP codes for two-step sign-in.\n\nThe store of codes is encrypted, and access to it is locked behind the device's fingerprint or other biometrics.\n\nThe source code is open.",
+    "tr": "Conceal Authenticator, iki aşamalı giriş için tek kullanımlık TOTP kodları üretir.\n\nKodların tutulduğu kasa şifrelidir ve erişim, cihazın parmak izi ya da başka bir biyometrik yöntemiyle kilitlenir.\n\nKaynak kodu açıktır.",
+    "uz": "Conceal Authenticator ikki bosqichli kirish uchun bir martalik TOTP kodlarini yaratadi.\n\nKodlar ombori shifrlangan, unga kirish esa barmoq izi yoki qurilmaning boshqa biometrikasi bilan qulflanadi.\n\nManba kodi ochiq."
+  },
+  "com.acszo.redomi.repo": {
+    "ru": "Redomi открывает ссылку на песню из одного музыкального сервиса в том, которым пользуетесь вы.\n\nЗа сопоставление отвечает song.link. Готовую ссылку можно отправить дальше — собеседник откроет её в своём сервисе.\n\nЭто неофициальный клиент. Исходный код открыт.",
+    "en": "Redomi opens a song link from one music service in the service you actually use.\n\nThe matching is done through song.link. The converted link can be passed on, so the other person opens it in their own service.\n\nThis is an unofficial client. The source code is open.",
+    "tr": "Redomi, bir müzik hizmetinden gelen şarkı bağlantısını sizin kullandığınız hizmette açar.\n\nEşleştirmeyi song.link yapar. Dönüştürülen bağlantı iletilebilir; karşı taraf onu kendi hizmetinde açar.\n\nBu resmî olmayan bir istemcidir. Kaynak kodu açıktır.",
+    "uz": "Redomi bir musiqa xizmatidagi qo'shiq havolasini siz foydalanadigan xizmatda ochadi.\n\nMoslashtirishni song.link bajaradi. Tayyor havolani uzatish mumkin — suhbatdoshingiz uni o'z xizmatida ochadi.\n\nBu norasmiy mijoz. Manba kodi ochiq."
+  },
+  "com.activitytrace": {
+    "ru": "Activity Trace ведёт поиск сразу по уведомлениям, событиям службы доступности и файлам на устройстве.\n\nВсё собранное хранится в зашифрованном виде: база закрыта SQLCipher с шифром AES-256-CBC, а ключ лежит в хранилище Android Keystore.\n\nНи облака, ни учётной записи, ни обращений к ИИ здесь нет. Исходный код открыт.",
+    "en": "Activity Trace searches across notifications, accessibility events and indexed files at once.\n\nEverything it gathers is stored encrypted: the database is sealed with SQLCipher using AES-256-CBC, and the key lives in the Android Keystore.\n\nThere is no cloud, no account and no AI involved. The source code is open.",
+    "tr": "Activity Trace, bildirimler, erişilebilirlik olayları ve dizinlenmiş dosyalar arasında aynı anda arama yapar.\n\nTopladığı her şey şifreli saklanır: veritabanı AES-256-CBC kullanan SQLCipher ile kapatılır ve anahtar Android Keystore'da durur.\n\nBulut, hesap ya da yapay zekâ söz konusu değildir. Kaynak kodu açıktır.",
+    "uz": "Activity Trace bildirishnomalar, maxsus imkoniyatlar xizmati voqealari va qurilmadagi fayllar bo'ylab bir vaqtda qidiradi.\n\nYig'ilgan hamma narsa shifrlangan holda saqlanadi: baza AES-256-CBC shifri bilan SQLCipher orqali yopiladi, kalit esa Android Keystore da yotadi.\n\nBulut ham, hisob ham, sun'iy intellektga murojaat ham yo'q. Manba kodi ochiq."
+  },
+  "com.acutis.firewall": {
+    "ru": "Acutis Firewall перекрывает доступ к сайтам для взрослых, вредоносным и опасным ресурсам — это родительский контроль на уровне сети.\n\nФильтрация идёт целиком на устройстве, поэтому просматриваемые адреса не уходят на сторонний сервер.\n\nИсходный код открыт.",
+    "en": "Acutis Firewall blocks adult sites, malware and dangerous addresses — parental control at the network level.\n\nThe filtering happens entirely on the device, so the addresses you visit are not sent to an outside server.\n\nThe source code is open.",
+    "tr": "Acutis Firewall, yetişkin sitelerini, kötücül yazılımı ve tehlikeli adresleri engeller; ağ düzeyinde bir ebeveyn denetimidir.\n\nSüzme tümüyle cihazda yapılır; bu yüzden ziyaret ettiğiniz adresler dışarıdaki bir sunucuya gönderilmez.\n\nKaynak kodu açıktır.",
+    "uz": "Acutis Firewall kattalar uchun saytlar, zararli va xavfli manzillarga kirishni to'sadi — bu tarmoq darajasidagi ota-ona nazorati.\n\nFiltrlash butunlay qurilmada bajariladi, shuning uchun ko'rilgan manzillar tashqi serverga ketmaydi.\n\nManba kodi ochiq."
+  },
+  "com.addictologs": {
+    "ru": "AddictoLogs ведёт учёт того, сколько вы потребляете веществ, вызывающих привыкание, — сахара, кофе, табака, алкоголя.\n\nЗаписи накапливаются, и привычка становится видимой в цифрах.\n\nИнтерфейс пока только на французском, переводы на другие языки в планах. Исходный код открыт.",
+    "en": "AddictoLogs tracks how much of an addictive substance you consume — sugar, coffee, tobacco, alcohol.\n\nThe entries accumulate, and the habit becomes visible as numbers.\n\nThe interface is in French for now, with translations planned. The source code is open.",
+    "tr": "AddictoLogs, bağımlılık yapan maddeleri ne kadar tükettiğinizi kaydeder: şeker, kahve, tütün, alkol.\n\nKayıtlar birikir ve alışkanlık sayılarla görünür hâle gelir.\n\nArayüz şimdilik yalnızca Fransızcadır; çeviriler planlanmaktadır. Kaynak kodu açıktır.",
+    "uz": "AddictoLogs qaram qiladigan moddalarni — shakar, kofe, tamaki, alkogolni qancha iste'mol qilishingizni hisobga oladi.\n\nYozuvlar to'planib boradi va odat raqamlarda ko'rinadigan bo'ladi.\n\nInterfeys hozircha faqat fransuz tilida, boshqa tillarga tarjima rejada. Manba kodi ochiq."
+  },
+  "com.addismaptransit.app": {
+    "ru": "AddisMapTransit прокладывает маршруты по Аддис-Абебе от двери до двери, учитывая городской транспорт: автобусы Anbessa и Sheger, маршрутки и лёгкое метро.\n\nПоказываются и запасные варианты пути, если основной не подходит.\n\nИнтерфейс переведён на несколько языков, включая амхарский. Исходный код открыт.",
+    "en": "AddisMapTransit plans door-to-door routes across Addis Ababa using the city's transport: Anbessa and Sheger buses, minibuses and the light rail.\n\nAlternative routes are offered when the first one does not suit.\n\nThe interface is translated into several languages, Amharic among them. The source code is open.",
+    "tr": "AddisMapTransit, Addis Ababa'da kapıdan kapıya rotalar çıkarır ve şehrin ulaşımını kullanır: Anbessa ile Sheger otobüsleri, minibüsler ve hafif raylı sistem.\n\nİlki uymadığında alternatif güzergâhlar da sunulur.\n\nArayüz, Amharca dâhil birkaç dile çevrilmiştir. Kaynak kodu açıktır.",
+    "uz": "AddisMapTransit Addis-Abebada eshikdan eshikkacha marshrutlar quradi va shahar transportini hisobga oladi: Anbessa va Sheger avtobuslari, mikroavtobuslar va yengil metro.\n\nAsosiysi to'g'ri kelmasa, muqobil yo'llar ham ko'rsatiladi.\n\nInterfeys bir necha tilga, jumladan amhar tiliga tarjima qilingan. Manba kodi ochiq."
+  },
+  "com.adeeteya.digital_calculator": {
+    "ru": "Digital Calculator считает в привычном виде и работает с внешней клавиатурой, подключённой по Bluetooth.\n\nЕсть быстрые сочетания для частых действий и отдельный раздел с историей вычислений, куда можно вернуться за прежним результатом.\n\nОформление выдержано в неоморфном стиле. Исходный код открыт.",
+    "en": "Digital Calculator does ordinary arithmetic and works with an external keyboard over Bluetooth.\n\nThere are shortcuts for common operations and a separate history section, so you can go back to an earlier result.\n\nThe styling follows the neumorphic look. The source code is open.",
+    "tr": "Digital Calculator, olağan aritmetiği yapar ve Bluetooth ile bağlanan bir dış klavyeyle çalışır.\n\nSık kullanılan işlemler için kısayollar ve ayrı bir geçmiş bölümü vardır; böylece önceki bir sonuca dönebilirsiniz.\n\nGörünüm neumorfik biçimi izler. Kaynak kodu açıktır.",
+    "uz": "Digital Calculator odatdagidek hisoblaydi va Bluetooth orqali ulangan tashqi klaviatura bilan ishlaydi.\n\nTez-tez ishlatiladigan amallar uchun qisqa tugmalar va alohida hisoblar tarixi bo'limi bor, shuning uchun avvalgi natijaga qaytish mumkin.\n\nBezagi neomorf uslubida. Manba kodi ochiq."
+  },
+  "com.adeeteya.font_gallery": {
+    "ru": "Font Gallery показывает, как выглядят разные шрифтовые семейства в их начертаниях — при смене насыщенности, наклона и размера.\n\nОбразцы смотрятся в светлом и тёмном оформлении, так что видно, как шрифт ведёт себя на обоих фонах.\n\nИсходный код открыт.",
+    "en": "Font Gallery shows how different font families look across their variations — weight, style and size.\n\nSamples can be viewed in light and dark mode, so you see how a typeface behaves against both backgrounds.\n\nThe source code is open.",
+    "tr": "Font Gallery, farklı yazı tipi ailelerinin çeşitlemelerini — kalınlık, biçem ve boyut — nasıl göründüğünü gösterir.\n\nÖrnekler açık ve koyu kipte görülebilir; böylece bir yazı tipinin her iki zeminde nasıl durduğunu anlarsınız.\n\nKaynak kodu açıktır.",
+    "uz": "Font Gallery turli shrift oilalari o'z ko'rinishlarida — qalinlik, qiyalik va o'lcham o'zgarganda — qanday ko'rinishini ko'rsatadi.\n\nNamunalarni yorug' va qorong'i bezakda ko'rish mumkin, shunda shrift ikkala fonda qanday turishi ma'lum bo'ladi.\n\nManba kodi ochiq."
+  },
+  "com.adeeteya.markdown_editor": {
+    "ru": "Markdown Editor открывает и правит файлы с расширением .md прямо с устройства.\n\nРазметку видно так, как она будет выглядеть после обработки, поэтому править текст можно не держа в голове, во что превратится каждый символ.\n\nИсходный код открыт.",
+    "en": "Markdown Editor opens and edits .md files straight from the device.\n\nThe markup is shown as it will look once rendered, so you can edit without holding in your head what each symbol turns into.\n\nThe source code is open.",
+    "tr": "Markdown Editor, .md dosyalarını doğrudan cihazdan açar ve düzenler.\n\nİşaretleme, işlendikten sonra nasıl görüneceğiyle gösterilir; böylece her simgenin neye dönüşeceğini aklınızda tutmadan düzenleme yapabilirsiniz.\n\nKaynak kodu açıktır.",
+    "uz": "Markdown Editor .md kengaytmali fayllarni to'g'ridan-to'g'ri qurilmadan ochadi va tahrirlaydi.\n\nBelgilash qayta ishlangandan keyin qanday ko'rinishi bilan chiqadi, shuning uchun har bir belgi nimaga aylanishini yodda tutmasdan tahrirlash mumkin.\n\nManba kodi ochiq."
   }
 }
