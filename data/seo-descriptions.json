@@ -4186,5 +4186,209 @@
     "en": "CircleToSearch App lets you search for what is on your screen: you circle the part you mean, and the search runs on it.\n\nThe gesture is familiar from newer phones, and this app brings it to other devices.\n\nThe source code is open.",
     "tr": "CircleToSearch App, ekranınızdakini aramanızı sağlar: ilgilendiğiniz bölümü çember içine alırsınız ve arama onun üzerinden yapılır.\n\nBu hareket yeni telefonlardan tanıdıktır; uygulama onu başka cihazlara da taşır.\n\nKaynak kodu açıktır.",
     "uz": "CircleToSearch App ekranda ko'rinayotgan narsa bo'yicha qidirish imkonini beradi: kerakli qismni aylantirib belgilaysiz va shu bo'yicha so'rov ketadi.\n\nBu usul yangi telefonlardan tanish, bu ilova esa uni boshqa qurilmalarga ham olib keladi.\n\nManba kodi ochiq."
+  },
+  "com.akslabs.cloudgallery": {
+    "ru": "Chitralaya CloudGallery хранит фотографии в Telegram, используя его как место для резервных копий.\n\nСнимки уходят в ваш собственный чат и остаются доступными, даже если с телефоном что-то случится. Название происходит от санскритского слова, означающего «дом изображений».\n\nИсходный код открыт.",
+    "en": "Chitralaya CloudGallery stores photos in Telegram, using it as the place your backups live.\n\nPictures go into a chat of your own and stay available even if something happens to the phone. The name comes from a Sanskrit word meaning house of images.\n\nThe source code is open.",
+    "tr": "Chitralaya CloudGallery, fotoğrafları Telegram'da saklar ve orayı yedeklerinizin durduğu yer olarak kullanır.\n\nResimler kendi sohbetinize gider ve telefonunuzun başına bir şey gelse bile erişilebilir kalır. Ad, Sanskritçede \"görüntüler evi\" anlamına gelen sözcükten gelir.\n\nKaynak kodu açıktır.",
+    "uz": "Chitralaya CloudGallery suratlarni Telegram'da saqlaydi va uni zaxira nusxalar joyi sifatida ishlatadi.\n\nSuratlar o'z chatingizga ketadi va telefonga bir narsa bo'lsa ham ochiq qoladi. Nomi sanskrit tilidagi \"tasvirlar uyi\" degan so'zdan olingan.\n\nManba kodi ochiq."
+  },
+  "com.akylas.aard2": {
+    "ru": "OSS-Dict — офлайн-словарь: словарные базы хранятся на устройстве, поэтому поиск работает без сети и без обращений наружу.\n\nЭто продолжение проекта Aard 2 с оформлением по Material Design и доработками, рассчитанными на долгое чтение.\n\nИсходный код открыт.",
+    "en": "OSS-Dict is an offline dictionary: the dictionary files live on the device, so lookups work without a connection and without calling out anywhere.\n\nIt is a continuation of Aard 2, with Material design and refinements aimed at comfortable reading.\n\nThe source code is open.",
+    "tr": "OSS-Dict bir çevrimdışı sözlüktür: sözlük dosyaları cihazda durur, bu yüzden aramalar bağlantı olmadan ve dışarı istek gönderilmeden çalışır.\n\nAard 2 projesinin devamıdır; Material tasarım ve rahat okumaya yönelik iyileştirmeler getirir.\n\nKaynak kodu açıktır.",
+    "uz": "OSS-Dict — oflayn lug'at: lug'at bazalari qurilmada saqlanadi, shuning uchun qidiruv tarmoqsiz va tashqariga murojaatsiz ishlaydi.\n\nBu Aard 2 loyihasining davomi, bezagi Material Design uslubida va uzoq o'qishga mo'ljallangan yaxshilanishlar bilan.\n\nManba kodi ochiq."
+  },
+  "com.akylas.enforcedoze": {
+    "ru": "EnforceDoze включает режим глубокого сна сразу после того, как гаснет экран, не дожидаясь, пока система решит это сама.\n\nЗаодно отключаются датчики движения — иначе телефон в кармане считает себя активным и выходит из режима, теряя всю экономию заряда.\n\nИсходный код открыт.",
+    "en": "EnforceDoze turns on Doze the moment the screen goes off, instead of waiting for the system to decide on its own.\n\nIt also disables the motion sensors — otherwise a phone in your pocket counts itself as in use and leaves the mode, losing the battery saving.\n\nThe source code is open.",
+    "tr": "EnforceDoze, ekran kapanır kapanmaz Doze kipini açar; sistemin kendi kararını beklemez.\n\nAyrıca hareket algılayıcılarını kapatır — yoksa cebinizdeki telefon kendini etkin sayar ve kipten çıkarak sağlanan pil tasarrufunu yitirir.\n\nKaynak kodu açıktır.",
+    "uz": "EnforceDoze chuqur uyqu tartibini ekran o'chgan zahoti yoqadi, tizim o'zi hal qilishini kutmaydi.\n\nShu bilan birga harakat sensorlari o'chiriladi — aks holda cho'ntakdagi telefon o'zini faol deb hisoblab, tartibdan chiqadi va tejalgan quvvat yo'qoladi.\n\nManba kodi ochiq."
+  },
+  "com.alaskalinuxuser.criticalvelocity": {
+    "ru": "Critical Velocity — игра о подъёме из туннеля рушащейся планеты на повреждённом корабле.\n\nДвигатели отказывают, и удержать корабль на курсе становится всё труднее.\n\nИсходный код открыт.",
+    "en": "Critical Velocity is a game about climbing out of a tunnel on a collapsing planet in a damaged ship.\n\nThe thrusters are failing, which makes holding your course steadily harder.\n\nThe source code is open.",
+    "tr": "Critical Velocity, çöken bir gezegendeki tünelden hasarlı bir gemiyle yükselmeyi konu alan bir oyundur.\n\nİticiler bozulmaktadır ve rotayı korumak giderek zorlaşır.\n\nKaynak kodu açıktır.",
+    "uz": "Critical Velocity — qulab tushayotgan sayyoradagi tunneldan shikastlangan kemada ko'tarilish haqidagi o'yin.\n\nDvigatellar ishdan chiqmoqda va kemani yo'nalishda ushlab turish tobora qiyinlashadi.\n\nManba kodi ochiq."
+  },
+  "com.alaskalinuxuser.hourglass": {
+    "ru": "Hourglass — таймер на промежуток от одной секунды до часа.\n\nПосле запуска приложение можно закрыть: отсчёт продолжится, а уведомление в строке состояния будет напоминать, что время идёт.\n\nИсходный код открыт.",
+    "en": "Hourglass is a timer for anything from one second to an hour.\n\nOnce started, the app can be closed: the count carries on, and a status bar notification keeps reminding you that it is running.\n\nThe source code is open.",
+    "tr": "Hourglass, bir saniyeden bir saate kadar süreler için bir zamanlayıcıdır.\n\nBaşlattıktan sonra uygulamayı kapatabilirsiniz: sayım sürer ve durum çubuğundaki bildirim çalıştığını hatırlatır.\n\nKaynak kodu açıktır.",
+    "uz": "Hourglass — bir soniyadan bir soatgacha bo'lgan oraliq uchun taymer.\n\nIshga tushirgandan keyin ilovani yopish mumkin: sanoq davom etadi, holat qatoridagi bildirishnoma esa vaqt ketayotganini eslatib turadi.\n\nManba kodi ochiq."
+  },
+  "com.alaskalinuxuser.justchess": {
+    "ru": "JustChess — шахматы против несложного движка, написанного самим автором, или против человека на одном устройстве.\n\nЕсть подсказка хода, если позиция зашла в тупик.\n\nИсходный код открыт.",
+    "en": "JustChess is chess against a simple engine the author wrote, or against another person on the same device.\n\nA move suggestion is available when a position has you stuck.\n\nThe source code is open.",
+    "tr": "JustChess, geliştiricinin kendi yazdığı yalın bir motora karşı ya da aynı cihazda başka bir kişiye karşı satranç sunar.\n\nBir konumda sıkıştığınızda hamle önerisi alabilirsiniz.\n\nKaynak kodu açıktır.",
+    "uz": "JustChess — muallifning o'zi yozgan oddiy dvigatelga qarshi yoki bitta qurilmada boshqa odam bilan shaxmat.\n\nVaziyat chigallashsa, yurish bo'yicha maslahat bor.\n\nManba kodi ochiq."
+  },
+  "com.alaskalinuxuser.rilcontrol": {
+    "ru": "Ril Control останавливает и запускает системную службу ril-daemon, которая отвечает за связь с радиомодулем телефона.\n\nПриложение делалось под конкретный случай — LG G4 с прошивкой AOSCP на базе Android Oreo, где эту службу иногда приходится перезапускать вручную.\n\nИсходный код открыт.",
+    "en": "Ril Control stops and starts the ril-daemon system service, which handles the phone's radio interface.\n\nThe app was written for a particular case — an LG G4 running the AOSCP build of Android Oreo, where that service sometimes has to be restarted by hand.\n\nThe source code is open.",
+    "tr": "Ril Control, telefonun telsiz arayüzünü yöneten ril-daemon sistem hizmetini durdurur ve başlatır.\n\nUygulama belirli bir durum için yazılmıştır: Android Oreo tabanlı AOSCP sürümünü çalıştıran LG G4'te bu hizmetin bazen elle yeniden başlatılması gerekir.\n\nKaynak kodu açıktır.",
+    "uz": "Ril Control telefonning radiomoduli bilan aloqa uchun javob beradigan ril-daemon tizim xizmatini to'xtatadi va ishga tushiradi.\n\nIlova aniq bir holat uchun yozilgan — Android Oreo asosidagi AOSCP proshivkasidagi LG G4, unda bu xizmatni ba'zan qo'lda qayta ishga tushirishga to'g'ri keladi.\n\nManba kodi ochiq."
+  },
+  "com.alaskalinuxuser.shipcaptainandcrew": {
+    "ru": "Ship Captain and Crew — классическая игра в кости на компанию до четырёх человек.\n\nИсход почти целиком зависит от броска: мастерство здесь почти ни при чём. Раньше в неё играли на деньги или на желание.\n\nИсходный код открыт.",
+    "en": "Ship Captain and Crew is a classic dice game for up to four players.\n\nThe outcome rests almost entirely on the roll; skill barely comes into it. In times past it was played for money or for forfeits.\n\nThe source code is open.",
+    "tr": "Ship Captain and Crew, en fazla dört kişilik klasik bir zar oyunudur.\n\nSonuç neredeyse tümüyle zara bağlıdır; becerinin payı çok azdır. Eskiden para ya da ceza karşılığı oynanırdı.\n\nKaynak kodu açıktır.",
+    "uz": "Ship Captain and Crew — to'rt kishigacha bo'lgan davra uchun klassik zar o'yini.\n\nNatija deyarli butunlay tashlashga bog'liq, mahoratning o'rni kam. Ilgari bu o'yin pulga yoki shartga o'ynalgan.\n\nManba kodi ochiq."
+  },
+  "com.albertobonacina.wassword": {
+    "ru": "Wassword создаёт стойкие пароли и парольные фразы.\n\nДлину и набор используемых символов задаёте вы, поэтому пароль можно подогнать под требования конкретного сайта.\n\nИсходный код открыт.",
+    "en": "Wassword generates strong passwords and passphrases.\n\nYou set the length and the character set, so a password can be shaped to whatever a particular site demands.\n\nThe source code is open.",
+    "tr": "Wassword, güçlü parolalar ve parola cümleleri üretir.\n\nUzunluğu ve kullanılacak karakter kümesini siz belirlersiniz; böylece parola, belirli bir sitenin koşullarına göre biçimlendirilebilir.\n\nKaynak kodu açıktır.",
+    "uz": "Wassword mustahkam parollar va parol iboralarini yaratadi.\n\nUzunlik va ishlatiladigan belgilar to'plamini o'zingiz belgilaysiz, shuning uchun parolni muayyan sayt talablariga moslash mumkin.\n\nManba kodi ochiq."
+  },
+  "com.albertodiaz.valencia_transit_reloaded": {
+    "ru": "Valencia Transit Reloaded показывает расписание общественного транспорта Валенсии и Аликанте.\n\nДанные берутся из тех же источников, что и в официальных приложениях перевозчиков. Сейчас поддерживаются Metrovalencia и линии TRAM.\n\nИсходный код открыт.",
+    "en": "Valencia Transit Reloaded shows public transport information for the Valencia and Alicante areas.\n\nThe data comes from the same sources the operators' official apps use. At present Metrovalencia and the TRAM lines are supported.\n\nThe source code is open.",
+    "tr": "Valencia Transit Reloaded, Valensiya ve Alicante bölgelerinin toplu taşıma bilgilerini gösterir.\n\nVeriler, işletmelerin resmî uygulamalarının kullandığı kaynaklardan gelir. Şu anda Metrovalencia ve TRAM hatları desteklenmektedir.\n\nKaynak kodu açıktır.",
+    "uz": "Valencia Transit Reloaded Valensiya va Alikante hududlari jamoat transporti jadvalini ko'rsatadi.\n\nMa'lumotlar tashuvchilarning rasmiy ilovalari foydalanadigan manbalardan olinadi. Hozircha Metrovalencia va TRAM liniyalari qo'llab-quvvatlanadi.\n\nManba kodi ochiq."
+  },
+  "com.alexkang.loopboard": {
+    "ru": "LoopBoard — звуковая панель, которую вы наполняете сами: записи с микрофона или файлы из памяти раскладываются по кнопкам.\n\nЛюбой звук можно проиграть один раз или зациклить, накладывая петли друг на друга.\n\nИсходный код открыт.",
+    "en": "LoopBoard is a sound board you fill yourself: recordings from the microphone or files from storage are laid out as buttons.\n\nAny sound can be played once or looped, with loops layered over one another.\n\nThe source code is open.",
+    "tr": "LoopBoard, kendi doldurduğunuz bir ses panosudur: mikrofon kayıtları ya da depolamadaki dosyalar düğmeler hâlinde dizilir.\n\nHer ses bir kez çalınabilir ya da döngüye alınabilir; döngüler üst üste katmanlanır.\n\nKaynak kodu açıktır.",
+    "uz": "LoopBoard — o'zingiz to'ldiradigan ovoz paneli: mikrofondan yozuvlar yoki xotiradagi fayllar tugmalarga taqsimlanadi.\n\nHar qanday ovozni bir marta ijro etish yoki aylantirib, halqalarni bir-birining ustiga qo'yish mumkin.\n\nManba kodi ochiq."
+  },
+  "com.alovoa.expo": {
+    "ru": "Alovoa — приложение платформы знакомств с тем же названием.\n\nПроект задуман как открытая площадка, где люди ищут знакомства и общение, а устройство сервиса открыто для проверки.\n\nИсходный код открыт.",
+    "en": "Alovoa is the app for the dating platform of the same name.\n\nThe project is meant as an open platform where people look for new acquaintances, with the workings of the service open to inspection.\n\nThe source code is open.",
+    "tr": "Alovoa, aynı adlı tanışma platformunun uygulamasıdır.\n\nProje, insanların yeni tanışıklıklar aradığı açık bir platform olarak tasarlanmıştır; hizmetin işleyişi de incelemeye açıktır.\n\nKaynak kodu açıktır.",
+    "uz": "Alovoa — shu nomdagi tanishuv platformasining ilovasi.\n\nLoyiha odamlar tanishuv va muloqot izlaydigan ochiq maydoncha sifatida o'ylangan, xizmatning ishlash tartibi esa tekshirish uchun ochiq.\n\nManba kodi ochiq."
+  },
+  "com.alxgnon.postwriter": {
+    "ru": "Post Writer — приложение для письма без отвлечений: на экране только текст, который вы пишете.\n\nКогда запись готова, её отправляют кнопкой, и поле очищается под следующую.\n\nИсходный код открыт.",
+    "en": "Post Writer is a writing app without distractions: the screen holds nothing but the text you are writing.\n\nWhen a piece is finished you submit it with a button, and the field clears for the next one.\n\nThe source code is open.",
+    "tr": "Post Writer, dikkat dağıtmayan bir yazma uygulamasıdır: ekranda yazdığınız metinden başka bir şey yoktur.\n\nBir metin bitince düğmeyle gönderirsiniz ve alan bir sonraki için temizlenir.\n\nKaynak kodu açıktır.",
+    "uz": "Post Writer — chalg'imasdan yozish uchun ilova: ekranda siz yozayotgan matndan boshqa hech narsa yo'q.\n\nYozuv tayyor bo'lgach, uni tugma bilan jo'natasiz va maydon keyingisi uchun tozalanadi.\n\nManba kodi ochiq."
+  },
+  "com.amanoteam.flonne": {
+    "ru": "Goregram — сборка клиента Telegram с изменённым поведением.\n\nСообщения можно сохранять и копировать даже в чатах, где владелец включил запрет на это. Значок приложения меняется на свой.\n\nИсходный код открыт.",
+    "en": "Goregram is a build of the Telegram client with altered behaviour.\n\nMessages can be saved and copied even in chats where the owner has switched that off. The app icon can be replaced with one of your own.\n\nThe source code is open.",
+    "tr": "Goregram, davranışı değiştirilmiş bir Telegram istemcisi sürümüdür.\n\nSahibinin kapattığı sohbetlerde bile iletiler kaydedilip kopyalanabilir. Uygulama simgesi kendi seçtiğinizle değiştirilebilir.\n\nKaynak kodu açıktır.",
+    "uz": "Goregram — xatti-harakati o'zgartirilgan Telegram mijozi yig'masi.\n\nXabarlarni egasi buni taqiqlagan chatlarda ham saqlash va nusxalash mumkin. Ilova belgisini o'zinikiga almashtirsa bo'ladi.\n\nManba kodi ochiq."
+  },
+  "com.amanoteam.kahon": {
+    "ru": "Kahon — сборка браузера с изменёнными ограничениями для расширений.\n\nОграничения на частоту обращений, заданные для отдельных расширений, не применяются, а число одновременных загрузок увеличено.\n\nИсходный код открыт.",
+    "en": "Kahon is a browser build with the limits placed on extensions changed.\n\nThe per-extension rate limits are not applied, and the number of concurrent downloads is raised.\n\nThe source code is open.",
+    "tr": "Kahon, eklentilere konulan sınırların değiştirildiği bir tarayıcı sürümüdür.\n\nEklenti başına hız sınırları uygulanmaz ve aynı anda yapılabilen indirme sayısı artırılmıştır.\n\nKaynak kodu açıktır.",
+    "uz": "Kahon — kengaytmalar uchun cheklovlari o'zgartirilgan brauzer yig'masi.\n\nAyrim kengaytmalarga qo'yilgan murojaat chastotasi cheklovlari qo'llanmaydi, bir vaqtdagi yuklashlar soni esa oshirilgan.\n\nManba kodi ochiq."
+  },
+  "com.amanoteam.kurt": {
+    "ru": "Just Delete Me показывает, как удалить учётную запись на разных сайтах и сервисах.\n\nСправочник собран проектом JustDeleteMe.xyz: по каждой площадке описано, что для этого нужно сделать и насколько это просто.\n\nИсходный код открыт.",
+    "en": "Just Delete Me shows how to delete your account on various sites and services.\n\nThe directory comes from the JustDeleteMe.xyz project: for each platform it describes what has to be done and how hard it is.\n\nThe source code is open.",
+    "tr": "Just Delete Me, çeşitli site ve hizmetlerde hesabınızı nasıl sileceğinizi gösterir.\n\nDizin JustDeleteMe.xyz projesinden gelir: her platform için ne yapılması gerektiğini ve bunun ne kadar kolay olduğunu anlatır.\n\nKaynak kodu açıktır.",
+    "uz": "Just Delete Me turli sayt va xizmatlarda hisobni qanday o'chirishni ko'rsatadi.\n\nMa'lumotnoma JustDeleteMe.xyz loyihasi tomonidan yig'ilgan: har bir maydoncha uchun nima qilish kerakligi va bu qanchalik oson ekani tasvirlangan.\n\nManba kodi ochiq."
+  },
+  "com.amirsteinbeck.taskmate": {
+    "ru": "TaskMate ведёт список задач: их добавляют, правят, удаляют и убирают в архив.\n\nВыполненное уходит вниз само, так что впереди остаётся то, чем ещё предстоит заняться.\n\nОформление следует Material Design. Исходный код открыт.",
+    "en": "TaskMate keeps a task list: tasks can be added, edited, deleted and archived.\n\nCompleted ones sort themselves to the bottom, so what remains in front of you is what is still to do.\n\nThe styling follows Material Design. The source code is open.",
+    "tr": "TaskMate bir görev listesi tutar: görevler eklenir, düzenlenir, silinir ve arşivlenir.\n\nTamamlananlar kendiliğinden aşağı iner; böylece önünüzde yalnızca yapılacaklar kalır.\n\nGörünüm Material Design'ı izler. Kaynak kodu açıktır.",
+    "uz": "TaskMate vazifalar ro'yxatini yuritadi: ularni qo'shish, tahrirlash, o'chirish va arxivga olish mumkin.\n\nBajarilganlari o'zi pastga tushadi, shuning uchun oldingizda hali qilinishi kerak bo'lgani qoladi.\n\nBezagi Material Design uslubida. Manba kodi ochiq."
+  },
+  "com.ammar.sharing": {
+    "ru": "Sharing передаёт файлы и приложения между устройствами через браузер: принимающей стороне ничего ставить не нужно, достаточно открыть страницу.\n\nОба устройства должны быть в одной сети. То, что присылают из браузера, складывается в папку Sharing в памяти телефона.\n\nИсходный код открыт.",
+    "en": "Sharing moves files and apps between devices through a browser: the receiving side installs nothing, it just opens a page.\n\nBoth devices have to be on the same network. Whatever comes in from the browser lands in a Sharing folder in the phone's storage.\n\nThe source code is open.",
+    "tr": "Sharing, dosyaları ve uygulamaları cihazlar arasında tarayıcı üzerinden aktarır: alıcı tarafın bir şey kurması gerekmez, yalnızca bir sayfa açar.\n\nİki cihazın aynı ağda olması gerekir. Tarayıcıdan gelenler, telefonun depolamasındaki Sharing klasörüne düşer.\n\nKaynak kodu açıktır.",
+    "uz": "Sharing fayllar va ilovalarni qurilmalar orasida brauzer orqali uzatadi: qabul qiluvchi tomon hech narsa o'rnatmaydi, shunchaki sahifani ochadi.\n\nIkkala qurilma bir tarmoqda bo'lishi kerak. Brauzerdan kelgan narsalar telefon xotirasidagi Sharing papkasiga tushadi.\n\nManba kodi ochiq."
+  },
+  "com.ammar.wallflow": {
+    "ru": "WallFlow подбирает обои для экрана из коллекций wallhaven.cc и Reddit.\n\nОформление построено на Material Design 3, а разметка рассчитана и на широкие экраны — планшеты и раскладные устройства.\n\nИсходный код открыт.",
+    "en": "WallFlow finds wallpapers from the wallhaven.cc and Reddit collections.\n\nIt is built on Material Design 3, and the layout accounts for wide screens such as tablets and foldables.\n\nThe source code is open.",
+    "tr": "WallFlow, wallhaven.cc ve Reddit koleksiyonlarından duvar kâğıtları bulur.\n\nMaterial Design 3 üzerine kuruludur ve düzeni tabletler ile katlanabilir cihazlar gibi geniş ekranları da gözetir.\n\nKaynak kodu açıktır.",
+    "uz": "WallFlow ekran uchun fon rasmlarini wallhaven.cc va Reddit to'plamlaridan tanlaydi.\n\nBezagi Material Design 3 ga qurilgan, joylashuvi esa planshet va buklanadigan qurilmalar kabi keng ekranlarni ham hisobga oladi.\n\nManba kodi ochiq."
+  },
+  "com.ammar.wallflow.plus": {
+    "ru": "WallFlow Plus — сборка WallFlow, подбирающая обои из коллекций wallhaven.cc и Reddit.\n\nОформление следует Material Design 3, разметка подстраивается под широкие экраны планшетов.\n\nИсходный код открыт.",
+    "en": "WallFlow Plus is a build of WallFlow, sourcing wallpapers from the wallhaven.cc and Reddit collections.\n\nIt follows Material Design 3, and the layout adapts to the wide screens of tablets.\n\nThe source code is open.",
+    "tr": "WallFlow Plus, duvar kâğıtlarını wallhaven.cc ve Reddit koleksiyonlarından alan bir WallFlow sürümüdür.\n\nMaterial Design 3'ü izler ve düzeni tabletlerin geniş ekranlarına uyum sağlar.\n\nKaynak kodu açıktır.",
+    "uz": "WallFlow Plus — fon rasmlarini wallhaven.cc va Reddit to'plamlaridan oladigan WallFlow yig'masi.\n\nBezagi Material Design 3 uslubida, joylashuvi planshetlarning keng ekranlariga moslashadi.\n\nManba kodi ochiq."
+  },
+  "com.amnesica.clearclipboard": {
+    "ru": "ClearClipboard очищает буфер обмена одним нажатием на значок.\n\nСтирается только то, что лежит в буфере сейчас: на прежние скопированные записи, если система их хранит, приложение не влияет.\n\nИсходный код открыт.",
+    "en": "ClearClipboard empties the clipboard with a single tap on its icon.\n\nOnly the current contents are cleared: if the system keeps a history of earlier copies, the app does not touch it.\n\nThe source code is open.",
+    "tr": "ClearClipboard, simgesine tek dokunuşla panoyu boşaltır.\n\nYalnızca o anki içerik silinir: sistem önceki kopyaların geçmişini tutuyorsa uygulama ona dokunmaz.\n\nKaynak kodu açıktır.",
+    "uz": "ClearClipboard belgisiga bir marta tegish bilan almashish buferini tozalaydi.\n\nFaqat hozir buferda turgani o'chiriladi: tizim avvalgi nusxalar tarixini saqlasa, ilova unga tegmaydi.\n\nManba kodi ochiq."
+  },
+  "com.amnesica.kryptey": {
+    "ru": "KryptEY шифрует переписку независимо от того, какой мессенджер вы используете и поддерживает ли он шифрование сам.\n\nТекст шифруется до отправки и расшифровывается у получателя, а сервера приложению не требуется.\n\nИсходный код открыт.",
+    "en": "KryptEY encrypts conversations regardless of which messenger you use or whether it offers encryption itself.\n\nText is encrypted before it is sent and decrypted at the other end, and the app needs no server of its own.\n\nThe source code is open.",
+    "tr": "KryptEY, hangi mesajlaşma uygulamasını kullandığınızdan ya da onun kendi şifreleme sunup sunmadığından bağımsız olarak yazışmaları şifreler.\n\nMetin gönderilmeden önce şifrelenir, karşı tarafta çözülür ve uygulamanın kendine ait bir sunucuya ihtiyacı yoktur.\n\nKaynak kodu açıktır.",
+    "uz": "KryptEY qaysi messenjerdan foydalanishingiz va u o'zi shifrlashni qo'llab-quvvatlashidan qat'i nazar, yozishmalarni shifrlaydi.\n\nMatn yuborilishidan oldin shifrlanadi va qabul qiluvchida ochiladi, ilovaga esa o'z serveri kerak emas.\n\nManba kodi ochiq."
+  },
+  "com.amrdeveloper.linkhub": {
+    "ru": "LinkHub хранит сохранённые ссылки и раскладывает их по папкам.\n\nЭто удобнее закладок браузера, когда ссылок много и они относятся к разным делам.\n\nРекламы в приложении нет. Исходный код открыт.",
+    "en": "LinkHub stores saved links and sorts them into folders.\n\nIt is easier than browser bookmarks once there are many links belonging to different concerns.\n\nThere are no ads. The source code is open.",
+    "tr": "LinkHub, kaydedilen bağlantıları saklar ve onları klasörlere ayırır.\n\nFarklı işlere ait çok sayıda bağlantı olduğunda tarayıcı yer imlerinden daha kullanışlıdır.\n\nReklam yoktur. Kaynak kodu açıktır.",
+    "uz": "LinkHub saqlangan havolalarni saqlaydi va ularni papkalarga taqsimlaydi.\n\nHavolalar ko'p va turli ishlarga tegishli bo'lganda brauzer xatcho'plaridan qulayroq.\n\nReklama yo'q. Manba kodi ochiq."
+  },
+  "com.anant.fitbuddy": {
+    "ru": "FitBuddy ведёт дневник питания: съеденное вносят фотографией или текстом, а языковая модель прикидывает состав и калорийность.\n\nОтдельными наборами подключаются региональные блюда и распорядок дня, так что подсчёт ближе к тому, что вы действительно едите.\n\nПриложение бесплатное, с открытым исходным кодом.",
+    "en": "FitBuddy keeps a food diary: you enter a meal as a photo or as text, and a language model estimates what it contained.\n\nRegion packs add local dishes and daily routines, so the estimates sit closer to what you actually eat.\n\nThe app is free and open source.",
+    "tr": "FitBuddy bir beslenme günlüğü tutar: bir öğünü fotoğrafla ya da yazıyla girersiniz ve bir dil modeli içeriğini tahmin eder.\n\nBölge paketleri yerel yemekleri ve günlük düzenleri ekler; böylece tahminler gerçekte yediklerinize daha yakın olur.\n\nUygulama ücretsizdir ve kaynak kodu açıktır.",
+    "uz": "FitBuddy ovqatlanish kundaligini yuritadi: yeganingizni surat yoki matn bilan kiritasiz, til modeli esa uning tarkibini chamalaydi.\n\nAlohida to'plamlar mintaqaviy taomlar va kun tartibini qo'shadi, shuning uchun hisob siz chindan yeydigan narsaga yaqinroq bo'ladi.\n\nIlova bepul, manba kodi ochiq."
+  },
+  "com.andreiapps.diesimu": {
+    "ru": "Die Simulator бросает игральную кость.\n\nСейчас кость одна; автор планирует добавить возможность бросать несколько сразу.\n\nИсходный код открыт.",
+    "en": "Die Simulator rolls a die.\n\nFor now there is just the one; the author plans to add the option of rolling several at once.\n\nThe source code is open.",
+    "tr": "Die Simulator bir zar atar.\n\nŞimdilik tek bir zar var; geliştirici aynı anda birkaç zar atma seçeneğini eklemeyi planlıyor.\n\nKaynak kodu açıktır.",
+    "uz": "Die Simulator zar tashlaydi.\n\nHozircha zar bitta; muallif bir vaqtda bir nechtasini tashlash imkonini qo'shishni rejalashtirgan.\n\nManba kodi ochiq."
+  },
+  "com.android.adbkeyboard": {
+    "ru": "ADBKeyBoard — виртуальная клавиатура, которая принимает текст через системные широковещательные команды.\n\nЭто позволяет вводить текст на телефоне с компьютера по adb — в том числе символы, которых нет на обычной клавиатуре устройства.\n\nИсходный код открыт.",
+    "en": "ADBKeyBoard is a virtual keyboard that receives text through system broadcast intents.\n\nThat lets you type into the phone from a computer over adb — including characters the device's own keyboard does not offer.\n\nThe source code is open.",
+    "tr": "ADBKeyBoard, metni sistem yayın niyetleriyle alan sanal bir klavyedir.\n\nBu, telefona bilgisayardan adb üzerinden yazmanızı sağlar; cihazın kendi klavyesinde bulunmayan karakterler de buna dâhildir.\n\nKaynak kodu açıktır.",
+    "uz": "ADBKeyBoard — matnni tizim keng tarqatuv buyruqlari orqali qabul qiladigan virtual klaviatura.\n\nBu telefonga kompyuterdan adb orqali matn kiritish imkonini beradi — jumladan qurilmaning o'z klaviaturasida yo'q belgilarni ham.\n\nManba kodi ochiq."
+  },
+  "com.android.geto": {
+    "ru": "Geto выключает режим разработчика при запуске выбранных приложений и включает обратно, когда они закрыты.\n\nЭто нужно потому, что банковские программы часто отказываются работать, если параметры разработчика включены, а ходить за этим в настройки каждый раз утомительно.\n\nИсходный код открыт.",
+    "en": "Geto switches Developer Options off when a chosen app is launched, and back on once it is closed.\n\nBanking apps often refuse to run while those options are enabled, and going into the settings each time gets tiresome.\n\nThe source code is open.",
+    "tr": "Geto, seçtiğiniz bir uygulama açıldığında Geliştirici Seçenekleri'ni kapatır, uygulama kapanınca yeniden açar.\n\nBankacılık uygulamaları bu seçenekler etkinken çoğu zaman çalışmayı reddeder ve her seferinde ayarlara gitmek yorucudur.\n\nKaynak kodu açıktır.",
+    "uz": "Geto tanlangan ilovalar ishga tushganda dasturchi tartibini o'chiradi va ular yopilgach qayta yoqadi.\n\nBu kerak, chunki bank dasturlari dasturchi sozlamalari yoqiq bo'lsa ko'pincha ishlashdan bosh tortadi, har safar sozlamalarga kirish esa charchatadi.\n\nManba kodi ochiq."
+  },
+  "com.android.gpstest.osmdroid": {
+    "ru": "GPSTest показывает, какие спутники сейчас видит устройство, и с каким качеством принимает их сигнал.\n\nПриложение пригодится, когда нужно понять, почему навигация работает плохо: видно, сколько спутников в зоне видимости и какие спутниковые системы поддерживает сам аппарат.\n\nИсходный код открыт.",
+    "en": "GPSTest shows which satellites your device can currently see and how well it is receiving them.\n\nIt helps when you need to work out why navigation is behaving badly: you can see how many satellites are in view and which satellite systems the hardware supports.\n\nThe source code is open.",
+    "tr": "GPSTest, cihazınızın o an hangi uyduları gördüğünü ve sinyali ne kadar iyi aldığını gösterir.\n\nYol tarifinin neden kötü çalıştığını anlamanız gerektiğinde işe yarar: görüş alanındaki uydu sayısını ve donanımın hangi uydu sistemlerini desteklediğini görürsünüz.\n\nKaynak kodu açıktır.",
+    "uz": "GPSTest qurilma hozir qaysi sun'iy yo'ldoshlarni ko'rayotganini va ularning signalini qanday sifatda qabul qilayotganini ko'rsatadi.\n\nNavigatsiya nega yomon ishlayotganini tushunish kerak bo'lganda asqotadi: ko'rinish zonasida nechta yo'ldosh borligi va qurilma qaysi yo'ldosh tizimlarini qo'llab-quvvatlashi ko'rinadi.\n\nManba kodi ochiq."
+  },
+  "com.android.shellms": {
+    "ru": "ShellMS отправляет SMS командой из оболочки ADB.\n\nПриложение рассчитано на тех, кто работает с телефоном из командной строки, — например, чтобы слать сообщения из скрипта. Без знакомства с ADB оно не нужно.\n\nИсходный код открыт.",
+    "en": "ShellMS sends an SMS from an ADB shell command.\n\nIt is aimed at people who drive the phone from a command line — sending messages from a script, for instance. Without knowing what ADB is, you have no use for it.\n\nThe source code is open.",
+    "tr": "ShellMS, bir ADB kabuk komutuyla SMS gönderir.\n\nTelefonu komut satırından yöneten kişiler için düşünülmüştür; örneğin bir betikten ileti göndermek için. ADB'yi bilmiyorsanız size gerekmez.\n\nKaynak kodu açıktır.",
+    "uz": "ShellMS ADB qobig'idagi buyruq orqali SMS yuboradi.\n\nIlova telefonni buyruq qatoridan boshqaradiganlarga mo'ljallangan — masalan, skriptdan xabar yuborish uchun. ADB bilan tanish bo'lmasa, u kerak emas.\n\nManba kodi ochiq."
+  },
+  "com.android.talkback": {
+    "ru": "TalkBack — служба специальных возможностей для незрячих и слабовидящих: она озвучивает происходящее на экране и отвечает звуком и вибрацией.\n\nУправление устройством при этом идёт на слух: приложение проговаривает, на какой элемент попал палец, и что с ним можно сделать.\n\nИсходный код открыт.",
+    "en": "TalkBack is an accessibility service for blind and vision-impaired users: it speaks what is on screen and answers with sound and vibration.\n\nThe device is then operated by ear: the app says which element your finger is on and what can be done with it.\n\nThe source code is open.",
+    "tr": "TalkBack, görme engelli ve az gören kullanıcılar için bir erişilebilirlik hizmetidir: ekrandakini seslendirir, ses ve titreşimle yanıt verir.\n\nCihaz böylece kulakla kullanılır: uygulama parmağınızın hangi ögenin üzerinde olduğunu ve onunla ne yapılabileceğini söyler.\n\nKaynak kodu açıktır.",
+    "uz": "TalkBack — ko'zi ojiz va kam ko'radigan foydalanuvchilar uchun maxsus imkoniyatlar xizmati: u ekrandagini ovoz bilan aytadi va tovush hamda tebranish bilan javob beradi.\n\nQurilma shu tariqa quloq bilan boshqariladi: ilova barmog'ingiz qaysi elementda turganini va u bilan nima qilish mumkinligini aytib boradi.\n\nManba kodi ochiq."
+  },
+  "com.android.xrayfa": {
+    "ru": "XrayFA — клиент к Xray-core, который направляет трафик через прокси-сервер.\n\nПоддерживается несколько протоколов подключения, так что приложение подойдёт к разным вариантам серверов.\n\nИсходный код открыт.",
+    "en": "XrayFA is a client for Xray-core, routing traffic through a proxy server.\n\nSeveral connection protocols are supported, so it fits a range of server setups.\n\nThe source code is open.",
+    "tr": "XrayFA, trafiği bir vekil sunucu üzerinden yönlendiren Xray-core istemcisidir.\n\nBirden çok bağlantı protokolü desteklenir; bu yüzden farklı sunucu kurulumlarına uyar.\n\nKaynak kodu açıktır.",
+    "uz": "XrayFA — trafikni proksi-server orqali yo'naltiradigan Xray-core mijozi.\n\nBir nechta ulanish protokoli qo'llab-quvvatlanadi, shuning uchun ilova turli server variantlariga to'g'ri keladi.\n\nManba kodi ochiq."
+  },
+  "com.androidcrypt": {
+    "ru": "androidcrypt открывает зашифрованные контейнеры VeraCrypt на телефоне.\n\nКонтейнер, созданный на Windows, macOS или Linux, открывается здесь же; новый тоже можно создать прямо на устройстве.\n\nИсходный код открыт.",
+    "en": "androidcrypt opens VeraCrypt containers on the phone.\n\nA container created on Windows, macOS or Linux opens here as well, and a new one can be created on the device itself.\n\nThe source code is open.",
+    "tr": "androidcrypt, VeraCrypt kapsayıcılarını telefonda açar.\n\nWindows, macOS ya da Linux'ta oluşturulmuş bir kapsayıcı burada da açılır; yenisi de doğrudan cihazda oluşturulabilir.\n\nKaynak kodu açıktır.",
+    "uz": "androidcrypt shifrlangan VeraCrypt konteynerlarini telefonda ochadi.\n\nWindows, macOS yoki Linux da yaratilgan konteyner shu yerda ochiladi; yangisini ham qurilmaning o'zida yaratish mumkin.\n\nManba kodi ochiq."
+  },
+  "com.androidfromfrankfurt.workingtimealert": {
+    "ru": "Working Time Alert считает, сколько вы уже отработали за день, и когда пора заканчивать.\n\nВводится время начала работы и продолжительность перерыва, дальше приложение считает само.\n\nИсходный код открыт.",
+    "en": "Working Time Alert works out how long you have been working today and when it is time to leave.\n\nYou enter when you started and how long your break was; the app takes it from there.\n\nThe source code is open.",
+    "tr": "Working Time Alert, bugün ne kadar süredir çalıştığınızı ve ne zaman çıkma vaktinin geldiğini hesaplar.\n\nİşe başlama saatinizi ve mola sürenizi girersiniz; gerisini uygulama hesaplar.\n\nKaynak kodu açıktır.",
+    "uz": "Working Time Alert bugun qancha ishlaganingizni va qachon ketish vaqti kelganini hisoblaydi.\n\nIshni boshlagan vaqt va tanaffus davomiyligi kiritiladi, qolganini ilova o'zi hisoblaydi.\n\nManba kodi ochiq."
+  },
+  "com.andsi.airlyrics": {
+    "ru": "AirLyrics показывает текст песни поверх других приложений, синхронно с воспроизведением.\n\nПриложение само определяет, что сейчас играет, и ищет слова в сети — например, через NetEase Cloud Music.\n\nИсходный код открыт.",
+    "en": "AirLyrics shows song lyrics floating above other apps, in time with the playback.\n\nIt detects what is currently playing and looks the words up online — through NetEase Cloud Music, among others.\n\nThe source code is open.",
+    "tr": "AirLyrics, şarkı sözlerini çalmayla eşzamanlı olarak diğer uygulamaların üzerinde gösterir.\n\nO an ne çaldığını kendisi saptar ve sözleri çevrimiçi arar; kaynaklardan biri NetEase Cloud Music'tir.\n\nKaynak kodu açıktır.",
+    "uz": "AirLyrics qo'shiq matnini ijro bilan bir vaqtda, boshqa ilovalar ustida ko'rsatadi.\n\nIlova hozir nima ijro etilayotganini o'zi aniqlaydi va so'zlarni tarmoqdan qidiradi — masalan, NetEase Cloud Music orqali.\n\nManba kodi ochiq."
   }
 }
