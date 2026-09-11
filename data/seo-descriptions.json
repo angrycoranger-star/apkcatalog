@@ -3982,5 +3982,209 @@
     "en": "Markdown Editor opens and edits .md files straight from the device.\n\nThe markup is shown as it will look once rendered, so you can edit without holding in your head what each symbol turns into.\n\nThe source code is open.",
     "tr": "Markdown Editor, .md dosyalarını doğrudan cihazdan açar ve düzenler.\n\nİşaretleme, işlendikten sonra nasıl görüneceğiyle gösterilir; böylece her simgenin neye dönüşeceğini aklınızda tutmadan düzenleme yapabilirsiniz.\n\nKaynak kodu açıktır.",
     "uz": "Markdown Editor .md kengaytmali fayllarni to'g'ridan-to'g'ri qurilmadan ochadi va tahrirlaydi.\n\nBelgilash qayta ishlangandan keyin qanday ko'rinishi bilan chiqadi, shuning uchun har bir belgi nimaga aylanishini yodda tutmasdan tahrirlash mumkin.\n\nManba kodi ochiq."
+  },
+  "com.adgad.kboard": {
+    "ru": "kboard — клавиатура, которая вставляет заранее заготовленные фразы одним нажатием.\n\nНаборы фраз составляются заранее, так что типовые ответы не приходится набирать каждый раз заново.\n\nИсходный код открыт.",
+    "en": "kboard is a keyboard that inserts prepared phrases with a single tap.\n\nThe sets of phrases are put together in advance, so stock replies do not have to be typed out each time.\n\nThe source code is open.",
+    "tr": "kboard, önceden hazırlanmış ifadeleri tek dokunuşla ekleyen bir klavyedir.\n\nİfade kümeleri önceden hazırlanır; böylece kalıp yanıtları her seferinde yeniden yazmanız gerekmez.\n\nKaynak kodu açıktır.",
+    "uz": "kboard — oldindan tayyorlangan iboralarni bir tegishda qo'yadigan klaviatura.\n\nIboralar to'plami oldindan tuziladi, shuning uchun odatiy javoblarni har safar qaytadan yozish shart emas.\n\nManba kodi ochiq."
+  },
+  "com.adguard.android.contentblocker": {
+    "ru": "AdGuard Content Blocker убирает рекламу в двух браузерах — Яндекс Браузере и Samsung Internet.\n\nRoot-доступ для этого не нужен: блокировка работает через штатный механизм этих браузеров, поэтому на другие приложения она не распространяется.\n\nИсходный код открыт.",
+    "en": "AdGuard Content Blocker removes ads in two browsers — Yandex Browser and Samsung Internet.\n\nNo root access is needed: the blocking works through those browsers' own content-blocking mechanism, which is also why it does not extend to other apps.\n\nThe source code is open.",
+    "tr": "AdGuard Content Blocker, iki tarayıcıda — Yandex Browser ve Samsung Internet — reklamları kaldırır.\n\nRoot erişimi gerekmez: engelleme, bu tarayıcıların kendi içerik engelleme düzeneğiyle çalışır; bu yüzden başka uygulamaları kapsamaz.\n\nKaynak kodu açıktır.",
+    "uz": "AdGuard Content Blocker ikkita brauzerda — Yandex Browser va Samsung Internet da reklamani olib tashlaydi.\n\nBuning uchun root huquqi kerak emas: bloklash shu brauzerlarning o'z mexanizmi orqali ishlaydi, shu sababli boshqa ilovalarga tegishli emas.\n\nManba kodi ochiq."
+  },
+  "com.adiamas.umpireassistant": {
+    "ru": "Umpire Assistant помогает судье вести счёт в бейсболе, софтболе и кикболе.\n\nСчитаются подачи — болы и страйки, — набранные очки и общее состояние матча, так что держать всё в голове или на механическом счётчике не нужно.\n\nИсходный код открыт.",
+    "en": "Umpire Assistant helps officials keep score in baseball, softball and kickball.\n\nIt tracks the pitch count — balls and strikes — the runs scored and the state of the game, so none of it has to be held in your head or on a mechanical clicker.\n\nThe source code is open.",
+    "tr": "Umpire Assistant, beyzbol, softbol ve kickball hakemlerinin skoru tutmasına yardım eder.\n\nAtış sayısını — top ve vuruş — sayıları ve maçın genel durumunu izler; böylece bunları kafanızda ya da mekanik sayaçta tutmanız gerekmez.\n\nKaynak kodu açıktır.",
+    "uz": "Umpire Assistant hakamga beysbol, softbol va kikbolda hisob yuritishga yordam beradi.\n\nUzatishlar — bollar va straykllar, to'plangan ochkolar va o'yinning umumiy holati hisoblanadi, shuning uchun bularning barchasini yodda yoki mexanik sanagichda saqlash shart emas.\n\nManba kodi ochiq."
+  },
+  "com.adilhanney.no_more_background": {
+    "ru": "NoMoreBackground управляет тем, каким приложениям разрешено работать в фоне.\n\nДоступ выдаётся через adb, Shizuku или root — без них система такие ограничения задать не даёт. Замысел простой: случайной программе доставки незачем что-то делать, пока вы ею не пользуетесь.\n\nИсходный код открыт.",
+    "en": "NoMoreBackground controls which apps are allowed to run in the background.\n\nAccess is granted through adb, Shizuku or root — without one of those, the system will not let you set such limits. The idea is simple: some random takeaway app has no business doing anything while you are not using it.\n\nThe source code is open.",
+    "tr": "NoMoreBackground, hangi uygulamaların arka planda çalışabileceğini denetler.\n\nErişim adb, Shizuku ya da root ile verilir; bunlar olmadan sistem böyle sınırlar koymanıza izin vermez. Fikir yalın: rastgele bir yemek uygulamasının siz kullanmazken bir şey yapması gerekmez.\n\nKaynak kodu açıktır.",
+    "uz": "NoMoreBackground qaysi ilovalarga fonda ishlashga ruxsat berilganini boshqaradi.\n\nHuquq adb, Shizuku yoki root orqali beriladi — ularsiz tizim bunday cheklovlarni qo'yishga yo'l qo'ymaydi. G'oya sodda: tasodifiy yetkazib berish ilovasi siz ishlatmayotganda nimadir qilishi shart emas.\n\nManba kodi ochiq."
+  },
+  "com.adilhanney.ricochlime": {
+    "ru": "Ricochlime — игра, в которой снаряды отскакивают от стен и поражают наступающих монстров.\n\nПопасть напрямую чаще всего нельзя, поэтому приходится рассчитывать угол отскока.\n\nИгра сделана на Flutter с движком Flame. Исходный код открыт.",
+    "en": "Ricochlime is a game where your projectiles bounce off the walls to hit advancing monsters.\n\nA direct shot is usually not available, so the angle of the ricochet is what you are really aiming.\n\nThe game is made with Flutter and the Flame engine. The source code is open.",
+    "tr": "Ricochlime, mermilerinizin duvarlardan sekerek ilerleyen canavarlara isabet ettiği bir oyundur.\n\nDoğrudan atış çoğunlukla mümkün değildir; asıl nişan aldığınız şey sekme açısıdır.\n\nOyun Flutter ve Flame motoruyla yapılmıştır. Kaynak kodu açıktır.",
+    "uz": "Ricochlime — o'qlar devorlardan qaytib, yaqinlashayotgan maxluqlarga tegadigan o'yin.\n\nTo'g'ridan-to'g'ri urish ko'pincha imkonsiz, shuning uchun qaytish burchagini hisoblashga to'g'ri keladi.\n\nO'yin Flutter va Flame dvigateli yordamida yaratilgan. Manba kodi ochiq."
+  },
+  "com.adilhanney.saber": {
+    "ru": "Saber — приложение для рукописных заметок: писать в нём предполагается пером или пальцем, а не набирать текст.\n\nИнтерфейс сведён к простому и понятному, но при этом в нём есть возможности, рассчитанные именно на письмо от руки.\n\nИсходный код открыт.",
+    "en": "Saber is a notes app built for handwriting: you write in it with a stylus or a finger rather than typing.\n\nThe interface is kept simple and intuitive, while still offering features aimed specifically at writing by hand.\n\nThe source code is open.",
+    "tr": "Saber, el yazısı için yapılmış bir not uygulamasıdır: içine yazı yazmak yerine kalemle ya da parmakla yazarsınız.\n\nArayüz sade ve anlaşılır tutulmuştur; yine de özellikle elle yazmaya yönelik özellikler sunar.\n\nKaynak kodu açıktır.",
+    "uz": "Saber — qo'lda yozish uchun mo'ljallangan eslatmalar ilovasi: unda matn terilmaydi, qalam yoki barmoq bilan yoziladi.\n\nInterfeys sodda va tushunarli qilingan, shu bilan birga aynan qo'lda yozishga qaratilgan imkoniyatlar bor.\n\nManba kodi ochiq."
+  },
+  "com.aditya1875.pokeverse": {
+    "ru": "Pokéverse — справочник по покемонам: характеристики, способности и другие сведения по каждому.\n\nПоиск и фильтры помогают найти нужного, а собственную коллекцию можно вести отдельным списком.\n\nИсходный код открыт.",
+    "en": "Pokéverse is a Pokémon reference: stats, abilities and other details for each one.\n\nSearch and filters help you find a particular one, and your own collection can be kept as a separate list.\n\nThe source code is open.",
+    "tr": "Pokéverse bir Pokémon başvuru kaynağıdır: her biri için istatistikler, yetenekler ve diğer ayrıntılar.\n\nArama ve süzgeçler aradığınızı bulmayı kolaylaştırır; kendi koleksiyonunuzu ayrı bir liste olarak tutabilirsiniz.\n\nKaynak kodu açıktır.",
+    "uz": "Pokéverse — pokemonlar bo'yicha ma'lumotnoma: har biri uchun ko'rsatkichlar, qobiliyatlar va boshqa ma'lumotlar.\n\nQidiruv va filtrlar keraklisini topishga yordam beradi, o'z to'plamingizni esa alohida ro'yxat sifatida yuritish mumkin.\n\nManba kodi ochiq."
+  },
+  "com.adonai.manman": {
+    "ru": "Man Man открывает справочные страницы Linux — те самые manpages — прямо с телефона.\n\nСтраницы берутся с mankier.com: их можно искать, читать и сохранять, чтобы вернуться к ним без сети.\n\nИсходный код открыт.",
+    "en": "Man Man opens Linux manual pages — the familiar manpages — from the phone.\n\nThe pages come from mankier.com: you can search them, read them and save them to come back offline.\n\nThe source code is open.",
+    "tr": "Man Man, Linux kılavuz sayfalarını — bildiğimiz manpage'leri — telefondan açar.\n\nSayfalar mankier.com'dan gelir: arayabilir, okuyabilir ve çevrimdışı dönmek üzere kaydedebilirsiniz.\n\nKaynak kodu açıktır.",
+    "uz": "Man Man Linux qo'llanma sahifalarini — o'sha manpage larni telefondan ochadi.\n\nSahifalar mankier.com dan olinadi: ularni qidirish, o'qish va tarmoqsiz qaytish uchun saqlash mumkin.\n\nManba kodi ochiq."
+  },
+  "com.adresilo.android": {
+    "ru": "Adresilo ищет места по описанию на обычном языке, а не по точному адресу.\n\nУ каждого результата есть кнопки для дальнейших действий — например, скопировать координаты, чтобы вставить их в другое приложение.\n\nИсходный код открыт.",
+    "en": "Adresilo searches for places using ordinary language rather than an exact address.\n\nEach result carries buttons for what comes next — copying the coordinates to paste into another app, for instance.\n\nThe source code is open.",
+    "tr": "Adresilo, yerleri tam adres yerine gündelik dille arar.\n\nHer sonucun yanında sonraki adım için düğmeler bulunur; örneğin koordinatları kopyalayıp başka bir uygulamaya yapıştırmak için.\n\nKaynak kodu açıktır.",
+    "uz": "Adresilo joylarni aniq manzil emas, oddiy til bilan tavsiflab qidiradi.\n\nHar bir natijada keyingi amallar uchun tugmalar bor — masalan, koordinatalarni nusxalab, boshqa ilovaga qo'yish uchun.\n\nManba kodi ochiq."
+  },
+  "com.aefyr.sai.fdroid": {
+    "ru": "SAI ставит и выгружает раздельные APK — приложения, которые поставляются не одним файлом, а набором.\n\nУстановка идёт обычным способом, через root или через Shizuku, если стандартный установщик с таким набором не справляется.\n\nИсходный код открыт.",
+    "en": "SAI installs and exports split APKs — apps that ship as a set of files rather than a single one.\n\nInstallation goes through the standard Android API, through root, or through Shizuku when the ordinary installer cannot handle the set.\n\nThe source code is open.",
+    "tr": "SAI, bölünmüş APK'ları — tek dosya yerine bir küme hâlinde dağıtılan uygulamaları — kurar ve dışa aktarır.\n\nKurulum standart Android API'si, root ya da sıradan yükleyicinin bu kümeyle baş edemediği durumlarda Shizuku üzerinden yapılır.\n\nKaynak kodu açıktır.",
+    "uz": "SAI bo'lingan APK fayllarni — bitta fayl emas, to'plam sifatida keladigan ilovalarni o'rnatadi va chiqaradi.\n\nO'rnatish odatdagi yo'l bilan, root orqali yoki standart o'rnatuvchi bunday to'plamni uddalay olmaganda Shizuku yordamida ketadi.\n\nManba kodi ochiq."
+  },
+  "com.aeidolon.vaultexplorer": {
+    "ru": "Vault Explorer открывает зашифрованные контейнеры прямо на устройстве: VeraCrypt и TrueCrypt, LUKS, BitLocker, а также Cryptomator, gocryptfs и CryFS.\n\nСодержимое можно просматривать, не расшифровывая контейнер целиком на диск.\n\nИсходный код открыт.",
+    "en": "Vault Explorer opens encrypted containers on the device itself: VeraCrypt and TrueCrypt, LUKS, BitLocker, plus Cryptomator, gocryptfs and CryFS.\n\nThe contents can be browsed without decrypting the whole container to disk first.\n\nThe source code is open.",
+    "tr": "Vault Explorer, şifreli kapsayıcıları doğrudan cihazda açar: VeraCrypt ve TrueCrypt, LUKS, BitLocker, ayrıca Cryptomator, gocryptfs ve CryFS.\n\nİçerik, kapsayıcının tamamını diske çözmeden gezilebilir.\n\nKaynak kodu açıktır.",
+    "uz": "Vault Explorer shifrlangan konteynerlarni to'g'ridan-to'g'ri qurilmada ochadi: VeraCrypt va TrueCrypt, LUKS, BitLocker, shuningdek Cryptomator, gocryptfs va CryFS.\n\nTarkibni butun konteynerni diskka shifrdan chiqarmasdan ko'rish mumkin.\n\nManba kodi ochiq."
+  },
+  "com.aerotoad.thud": {
+    "ru": "Thud собирает новости из нескольких источников и лент RSS в одну мозаичную ленту.\n\nЗамысел в том, чтобы не обходить десяток сайтов по очереди: всё, за чем вы следите, оказывается на одном экране.\n\nИсходный код открыт.",
+    "en": "Thud gathers news from several sources and RSS feeds into a single mosaic-like view.\n\nThe idea is to save you the round of a dozen sites: everything you follow ends up on one screen.\n\nThe source code is open.",
+    "tr": "Thud, birkaç kaynaktan ve RSS akışından gelen haberleri tek bir mozaik görünümde toplar.\n\nAmaç, bir düzine siteyi tek tek dolaşmaktan kurtarmak: izlediğiniz her şey tek ekranda toplanır.\n\nKaynak kodu açıktır.",
+    "uz": "Thud bir nechta manba va RSS lentalaridan yangiliklarni bitta mozaikali lentaga yig'adi.\n\nG'oya o'nlab saytni navbat bilan aylanib chiqmaslik: kuzatadigan hamma narsangiz bitta ekranda to'planadi.\n\nManba kodi ochiq."
+  },
+  "com.afkanerd.deku": {
+    "ru": "Deku SMS — приложение для обычных SMS, которое умеет шифровать переписку от отправителя до получателя.\n\nЕсли на обеих сторонах стоит Deku, сообщения идут зашифрованными по тем же сотовым каналам; в остальных случаях они остаются обычными SMS.\n\nИсходный код открыт.",
+    "en": "Deku SMS is an app for ordinary SMS that can encrypt messages end to end.\n\nWhen both sides have Deku installed, the messages travel encrypted over the same cellular channel; otherwise they stay plain SMS.\n\nThe source code is open.",
+    "tr": "Deku SMS, sıradan SMS'ler için yapılmış, iletileri uçtan uca şifreleyebilen bir uygulamadır.\n\nİki taraf da Deku kullanıyorsa iletiler aynı hücresel kanaldan şifreli geçer; kullanmıyorsa sıradan SMS olarak kalır.\n\nKaynak kodu açıktır.",
+    "uz": "Deku SMS — oddiy SMS uchun mo'ljallangan, yozishmalarni jo'natuvchidan qabul qiluvchigacha shifrlay oladigan ilova.\n\nIkkala tomonda ham Deku bo'lsa, xabarlar o'sha uyali kanallar orqali shifrlangan holda ketadi; aks holda oddiy SMS bo'lib qoladi.\n\nManba kodi ochiq."
+  },
+  "com.afollestad.nocknock": {
+    "ru": "Nock Nock проверяет, отвечают ли ваши сайты и серверы, обращаясь к ним через заданные промежутки времени.\n\nЕсли ответ перестал приходить или пришёл с ошибкой, приложение сообщит об этом — так о падении сайта узнаёшь раньше, чем от посетителей.\n\nИсходный код открыт.",
+    "en": "Nock Nock checks whether your sites and servers are answering, calling them at an interval you choose.\n\nIf a response stops arriving or comes back with an error, the app tells you — so you hear about an outage before your visitors do.\n\nThe source code is open.",
+    "tr": "Nock Nock, sitelerinizin ve sunucularınızın yanıt verip vermediğini, seçtiğiniz aralıklarla onlara istek göndererek denetler.\n\nYanıt gelmeyi bırakırsa ya da hata dönerse uygulama sizi haberdar eder; böylece bir kesintiyi ziyaretçilerinizden önce öğrenirsiniz.\n\nKaynak kodu açıktır.",
+    "uz": "Nock Nock saytlaringiz va serverlaringiz javob berayotganini belgilangan oraliqlarda so'rov yuborib tekshiradi.\n\nJavob kelmay qolsa yoki xato bilan qaytsa, ilova xabar beradi — shunda sayt ishlamayotganini tashrif buyuruvchilardan oldin bilib olasiz.\n\nManba kodi ochiq."
+  },
+  "com.agatamessina.quandointv": {
+    "ru": "QuandoInTV показывает, когда и на каком канале идут телепередачи, фильмы и сериалы.\n\nПриложение работает на Android 7.0 и новее. Исходный код открыт.",
+    "en": "QuandoInTV shows when and on which channel television programmes, films and series are broadcast.\n\nThe app runs on Android 7.0 and later. The source code is open.",
+    "tr": "QuandoInTV, televizyon programlarının, filmlerin ve dizilerin ne zaman ve hangi kanalda yayımlandığını gösterir.\n\nUygulama Android 7.0 ve sonrasında çalışır. Kaynak kodu açıktır.",
+    "uz": "QuandoInTV teleko'rsatuvlar, filmlar va seriallar qachon va qaysi kanalda ketishini ko'rsatadi.\n\nIlova Android 7.0 va undan yangi versiyalarda ishlaydi. Manba kodi ochiq."
+  },
+  "com.agatamessina.webinspector": {
+    "ru": "WebInspector разбирает страницу по указанному адресу прямо с телефона: показывает её структуру DOM, сообщения консоли и сетевые запросы.\n\nЭто то, что обычно смотрят в инструментах разработчика настольного браузера, — здесь доступно без компьютера.\n\nИсходный код открыт.",
+    "en": "WebInspector examines the page at a given address straight from the phone: its DOM structure, the console messages and the network requests.\n\nThese are the things you would normally open desktop developer tools for — available here without a computer.\n\nThe source code is open.",
+    "tr": "WebInspector, verilen adresteki sayfayı doğrudan telefondan inceler: DOM yapısını, konsol iletilerini ve ağ isteklerini gösterir.\n\nBunlar normalde masaüstü geliştirici araçlarında baktığınız şeylerdir; burada bilgisayar olmadan erişilebilir.\n\nKaynak kodu açıktır.",
+    "uz": "WebInspector ko'rsatilgan manzildagi sahifani to'g'ridan-to'g'ri telefonda tahlil qiladi: uning DOM tuzilmasi, konsol xabarlari va tarmoq so'rovlarini ko'rsatadi.\n\nBular odatda ish stoli brauzerining dasturchi vositalarida ko'riladigan narsalar — bu yerda kompyutersiz ochiladi.\n\nManba kodi ochiq."
+  },
+  "com.agateau.burgerparty": {
+    "ru": "Burger Party — игра о работе в бургерной: заказы приходят один за другим, и бургер нужно собрать точно и быстро.\n\nЧем дальше по уровням, тем больше посетителей и сложнее заказы.\n\nИсходный код открыт.",
+    "en": "Burger Party is a game about running a burger restaurant: orders come in one after another, and each burger has to be assembled correctly and fast.\n\nThe further through the levels you get, the more customers arrive and the more elaborate the orders become.\n\nThe source code is open.",
+    "tr": "Burger Party, bir hamburgerci işletmekle ilgili bir oyundur: siparişler arka arkaya gelir ve her hamburgerin doğru ve hızlı hazırlanması gerekir.\n\nBölümlerde ilerledikçe müşteri sayısı artar ve siparişler karmaşıklaşır.\n\nKaynak kodu açıktır.",
+    "uz": "Burger Party — burgerxonada ishlash haqidagi o'yin: buyurtmalar ketma-ket keladi va burgerni aniq hamda tez yig'ish kerak.\n\nBosqichlar o'tgan sari mijozlar ko'payadi va buyurtmalar murakkablashadi.\n\nManba kodi ochiq."
+  },
+  "com.agateau.catgenerator": {
+    "ru": "Cat Avatar Generator собирает аватары из рисунков художника Давида Ревуа — тех самых, что он сделал для комикса Pepper and Carrot.\n\nПолученную картинку можно поставить вместо фотографии профиля.\n\nИсходный код открыт.",
+    "en": "Cat Avatar Generator builds avatars from artwork by David Revoy — the drawings he made for the Pepper and Carrot comic.\n\nThe resulting picture can be used in place of a profile photo.\n\nThe source code is open.",
+    "tr": "Cat Avatar Generator, David Revoy'un çizimlerinden — Pepper and Carrot çizgi romanı için yaptığı resimlerden — avatarlar üretir.\n\nOrtaya çıkan resim, profil fotoğrafı yerine kullanılabilir.\n\nKaynak kodu açıktır.",
+    "uz": "Cat Avatar Generator rassom David Revuaning rasmlaridan — uning Pepper and Carrot komiksi uchun chizganlaridan avatarlar yig'adi.\n\nHosil bo'lgan rasmni profil surati o'rniga qo'yish mumkin.\n\nManba kodi ochiq."
+  },
+  "com.agateau.tinywheels.android": {
+    "ru": "Pixel Wheels — гоночная игра с видом сверху в ретро-оформлении: цель обычная, прийти первым.\n\nНа трассах разбросаны бонусы: одни разгоняют вашу машину, другие мешают соперникам.\n\nИсходный код открыт.",
+    "en": "Pixel Wheels is a top-down retro racing game with the usual goal: finish first.\n\nBonuses are scattered around the tracks — some speed your car up, others slow the competition down.\n\nThe source code is open.",
+    "tr": "Pixel Wheels, yukarıdan görünümlü retro bir yarış oyunudur; amaç her zamanki gibi birinci bitirmektir.\n\nPistlere bonuslar serpiştirilmiştir: kimi arabanızı hızlandırır, kimi rakipleri yavaşlatır.\n\nKaynak kodu açıktır.",
+    "uz": "Pixel Wheels — tepadan ko'rinadigan retro uslubdagi poyga o'yni, maqsad odatdagidek birinchi kelish.\n\nTrassalarda bonuslar sochilgan: ba'zilari mashinangizni tezlashtiradi, boshqalari raqiblarga xalaqit beradi.\n\nManba kodi ochiq."
+  },
+  "com.agepony.app": {
+    "ru": "AgePony шифрует файлы и сообщения по современному формату age.\n\nЗашифрованное открывается только тем, для кого предназначено, так что пересылать такие файлы можно и через обычные каналы. Приложение также подписывает данные, подтверждая авторство.\n\nИсходный код открыт.",
+    "en": "AgePony encrypts files and messages using the modern age encryption format.\n\nWhat you encrypt can be opened only by its intended recipient, so such files can travel over ordinary channels. The app also signs data to vouch for who produced it.\n\nThe source code is open.",
+    "tr": "AgePony, dosyaları ve iletileri çağdaş age şifreleme biçimiyle şifreler.\n\nŞifrelediğiniz şeyi yalnızca hedeflenen kişi açabilir; bu yüzden böyle dosyalar sıradan kanallardan da gönderilebilir. Uygulama ayrıca verileri imzalayarak kimin ürettiğini doğrular.\n\nKaynak kodu açıktır.",
+    "uz": "AgePony fayllar va xabarlarni zamonaviy age formati bo'yicha shifrlaydi.\n\nShifrlangan narsani faqat u mo'ljallangan odam ocha oladi, shuning uchun bunday fayllarni oddiy kanallar orqali ham uzatish mumkin. Ilova shuningdek ma'lumotni imzolab, uning muallifini tasdiqlaydi.\n\nManba kodi ochiq."
+  },
+  "com.ah.taplock": {
+    "ru": "TapLock блокирует экран двойным касанием — не нужно тянуться к кнопке питания.\n\nЭто удобно, когда телефон в одной руке, и бережёт саму кнопку, которая на старых устройствах изнашивается первой.\n\nИсходный код открыт.",
+    "en": "TapLock locks the screen with a double tap, so you do not have to reach for the power button.\n\nThat helps when the phone is in one hand, and it spares the button itself — often the first thing to wear out on an older device.\n\nThe source code is open.",
+    "tr": "TapLock, ekranı çift dokunuşla kilitler; güç düğmesine uzanmanız gerekmez.\n\nTelefon tek elinizdeyken işe yarar ve eski cihazlarda genellikle ilk yıpranan parça olan düğmeyi de korur.\n\nKaynak kodu açıktır.",
+    "uz": "TapLock ekranni ikki marta tegish bilan qulflaydi — quvvat tugmasiga cho'zilish shart emas.\n\nTelefon bir qo'lda bo'lganda qulay va eski qurilmalarda birinchi bo'lib ishdan chiqadigan tugmaning o'zini ham asraydi.\n\nManba kodi ochiq."
+  },
+  "com.ahad.macat": {
+    "ru": "maCat ведёт личный каталог одежды, обуви и украшений.\n\nКаждая вещь снимается на фотографию, а гардероб листается вертикально во весь экран — по одной вещи за раз.\n\nИсходный код открыт.",
+    "en": "maCat keeps a personal catalogue of clothes, shoes and jewellery.\n\nEach item is photographed, and the wardrobe is browsed full-screen with a vertical swipe, one item at a time.\n\nThe source code is open.",
+    "tr": "maCat, kıyafetler, ayakkabılar ve takılar için kişisel bir katalog tutar.\n\nHer parça fotoğraflanır; gardırop tam ekranda, dikey kaydırmayla ve teker teker gezilir.\n\nKaynak kodu açıktır.",
+    "uz": "maCat kiyim, poyabzal va taqinchoqlarning shaxsiy katalogini yuritadi.\n\nHar bir buyum suratga olinadi, garderob esa to'liq ekranda, vertikal surish bilan — bittadan ko'riladi.\n\nManba kodi ochiq."
+  },
+  "com.ahorcado": {
+    "ru": "Ahorcado — игра в виселицу: нужно угадать скрытое слово, называя буквы.\n\nСлово берётся случайным образом из сети или из встроенного списка.\n\nИсходный код открыт.",
+    "en": "Ahorcado is a game of hangman: you guess a hidden word by naming letters.\n\nThe word is drawn at random from the web or from a built-in list.\n\nThe source code is open.",
+    "tr": "Ahorcado bir adam asmaca oyunudur: harfleri söyleyerek gizli sözcüğü bulmaya çalışırsınız.\n\nSözcük, ağdan ya da yerleşik bir listeden rastgele seçilir.\n\nKaynak kodu açıktır.",
+    "uz": "Ahorcado — dor o'yini: harflarni aytib, yashirilgan so'zni topish kerak.\n\nSo'z tarmoqdan yoki ichki ro'yxatdan tasodifiy olinadi.\n\nManba kodi ochiq."
+  },
+  "com.aipos.aipospm": {
+    "ru": "AIPOS Password Manager хранит пароли, ключи к программным интерфейсам и секреты для двухэтапного входа.\n\nПриложение работает полностью без сети: данные никуда не отправляются и остаются на устройстве.\n\nОформление следует Material Design. Исходный код открыт.",
+    "en": "AIPOS Password Manager stores passwords, API keys and two-factor secrets.\n\nIt works entirely offline: nothing is sent anywhere and the data stays on the device.\n\nThe styling follows Material Design. The source code is open.",
+    "tr": "AIPOS Password Manager, parolaları, API anahtarlarını ve iki aşamalı doğrulama gizlerini saklar.\n\nTümüyle çevrimdışı çalışır: hiçbir şey bir yere gönderilmez ve veriler cihazda kalır.\n\nGörünüm Material Design'ı izler. Kaynak kodu açıktır.",
+    "uz": "AIPOS Password Manager parollar, dasturiy interfeys kalitlari va ikki bosqichli kirish sirlarini saqlaydi.\n\nIlova butunlay tarmoqsiz ishlaydi: hech narsa hech qayerga yuborilmaydi va ma'lumotlar qurilmada qoladi.\n\nBezagi Material Design uslubida. Manba kodi ochiq."
+  },
+  "com.aisleron": {
+    "ru": "Aisleron ведёт списки покупок — как для обычного похода в магазин, так и для отдельного случая.\n\nСписки составляются заранее, чтобы в магазине не вспоминать, что ещё было нужно.\n\nИсходный код открыт.",
+    "en": "Aisleron keeps shopping lists, both for the weekly run and for a particular occasion.\n\nThe lists are put together beforehand, so you are not trying to remember in the aisle what else was needed.\n\nThe source code is open.",
+    "tr": "Aisleron, hem haftalık alışveriş hem de özel bir durum için alışveriş listeleri tutar.\n\nListeler önceden hazırlanır; böylece reyonda başka ne gerekiyordu diye düşünmezsiniz.\n\nKaynak kodu açıktır.",
+    "uz": "Aisleron xarid ro'yxatlarini yuritadi — odatdagi do'kon safari uchun ham, alohida holat uchun ham.\n\nRo'yxatlar oldindan tuziladi, shunda do'konda yana nima kerak edi deb eslashga to'g'ri kelmaydi.\n\nManba kodi ochiq."
+  },
+  "com.aistra.hail": {
+    "ru": "Hail замораживает приложения: они остаются установленными, но перестают запускаться и работать в фоне, пока не понадобятся.\n\nПриём выручает с программами, которыми пользуются изредка, но удалять их нельзя.\n\nПриложение свободное, с открытым исходным кодом.",
+    "en": "Hail freezes apps: they stay installed but stop launching and running in the background until you need them.\n\nThe approach helps with programs you open occasionally but cannot remove.\n\nThe app is free software with open source code.",
+    "tr": "Hail, uygulamaları dondurur: kurulu kalırlar ama siz onlara ihtiyaç duyana dek açılmayı ve arka planda çalışmayı bırakırlar.\n\nBu yaklaşım, ara sıra açtığınız ama kaldıramadığınız programlarda işe yarar.\n\nUygulama özgür yazılımdır ve kaynak kodu açıktır.",
+    "uz": "Hail ilovalarni muzlatadi: ular o'rnatilgan holicha qoladi, lekin kerak bo'lgunga qadar ishga tushmaydi va fonda ishlamaydi.\n\nBu usul kamdan-kam ishlatiladigan, lekin o'chirib bo'lmaydigan dasturlarda asqotadi.\n\nIlova erkin dasturiy ta'minot, manba kodi ochiq."
+  },
+  "com.aj.wa.contact.adder": {
+    "ru": "WA Adder добавляет номер в телефонную книгу, чтобы с ним можно было начать переписку в WhatsApp.\n\nБез записи в контактах WhatsApp не даёт написать новому собеседнику, и приложение обходит именно это неудобство.\n\nИсходный код открыт.",
+    "en": "WA Adder puts a number into the address book so that a WhatsApp conversation with it can be started.\n\nWithout a contact entry WhatsApp will not let you message someone new, and this app works around exactly that.\n\nThe source code is open.",
+    "tr": "WA Adder, bir numarayı rehbere ekler; böylece o numarayla WhatsApp'ta yazışma başlatılabilir.\n\nRehberde kayıt olmadan WhatsApp yeni birine ileti göndermenize izin vermez; uygulama tam olarak bunu aşar.\n\nKaynak kodu açıktır.",
+    "uz": "WA Adder raqamni telefon kitobiga qo'shadi, shunda u bilan WhatsApp'da yozishishni boshlash mumkin bo'ladi.\n\nKontaktlarda yozuv bo'lmasa, WhatsApp yangi suhbatdoshga yozishga yo'l qo'ymaydi, ilova aynan shu noqulaylikni chetlab o'tadi.\n\nManba kodi ochiq."
+  },
+  "com.aka.alarm": {
+    "ru": "aka Alarm будит не в одну назначенную минуту, а внутри получасового окна, которое вы задаёте.\n\nПриложение выбирает момент в этом промежутке, и подъём получается мягче, чем при резком звонке в фиксированное время.\n\nИсходный код открыт.",
+    "en": "aka Alarm wakes you within a thirty-minute window you choose, rather than at one fixed minute.\n\nIt picks a moment inside that window, which makes getting up gentler than being jolted awake at an exact time.\n\nThe source code is open.",
+    "tr": "aka Alarm, sizi tek bir sabit dakikada değil, seçtiğiniz otuz dakikalık aralık içinde uyandırır.\n\nO aralıkta bir an seçer; böylece kalkmak, belirli bir saatte ansızın uyandırılmaktan daha yumuşak olur.\n\nKaynak kodu açıktır.",
+    "uz": "aka Alarm belgilangan bir daqiqada emas, siz tanlagan yarim soatlik oraliq ichida uyg'otadi.\n\nIlova shu oraliqdan bir paytni tanlaydi va turish qat'iy vaqtdagi keskin jiringlashga qaraganda yumshoqroq bo'ladi.\n\nManba kodi ochiq."
+  },
+  "com.akansh.fileserversuit": {
+    "ru": "ShareX раздаёт файлы с телефона через веб-интерфейс: получателю достаточно открыть страницу в браузере.\n\nЕсть закрытый режим, когда доступ открыт не ко всему, а также запрет на изменение файлов и папок. История передач сохраняется.\n\nИсходный код открыт.",
+    "en": "ShareX serves files from the phone through a web interface: the other person only has to open a page in a browser.\n\nThere is a private mode that limits what is shared, and an option to forbid modifying files and folders. A transfer history is kept.\n\nThe source code is open.",
+    "tr": "ShareX, telefondaki dosyaları bir web arayüzü üzerinden sunar: karşı tarafın yalnızca tarayıcıda bir sayfa açması yeter.\n\nPaylaşılanı sınırlayan özel bir kip ve dosya ile klasörlerin değiştirilmesini yasaklayan bir seçenek vardır. Aktarım geçmişi tutulur.\n\nKaynak kodu açıktır.",
+    "uz": "ShareX telefondagi fayllarni veb-interfeys orqali tarqatadi: qabul qiluvchi brauzerda sahifani ochsa kifoya.\n\nHammasiga emas, faqat bir qismiga ruxsat beradigan yopiq tartib, shuningdek fayl va papkalarni o'zgartirishni taqiqlash imkoni bor. Uzatishlar tarixi saqlanadi.\n\nManba kodi ochiq."
+  },
+  "com.akdev.nofbeventscraper": {
+    "ru": "NoFb Event Scraper достаёт сведения о мероприятии из Facebook, не требуя учётной записи.\n\nПриложение не обращается к программному интерфейсу Facebook: оно открывает страницу события и вынимает из неё дату, место и описание.\n\nИсходный код открыт.",
+    "en": "NoFb Event Scraper pulls the details of an event out of Facebook without requiring an account.\n\nIt does not use the Facebook API: it opens the event page and extracts the date, the place and the description from it.\n\nThe source code is open.",
+    "tr": "NoFb Event Scraper, bir etkinliğin ayrıntılarını hesap gerektirmeden Facebook'tan çeker.\n\nFacebook API'sini kullanmaz: etkinlik sayfasını açar ve tarihi, yeri ve açıklamayı oradan ayıklar.\n\nKaynak kodu açıktır.",
+    "uz": "NoFb Event Scraper tadbir haqidagi ma'lumotni hisobsiz, Facebook dan ajratib oladi.\n\nIlova Facebook dasturiy interfeysiga murojaat qilmaydi: u tadbir sahifasini ochib, undan sana, joy va tavsifni oladi.\n\nManba kodi ochiq."
+  },
+  "com.akexorcist.ruammij": {
+    "ru": "Ruam Mij проверяет установленные приложения на признаки, которые обычно указывают на неладное.\n\nОтдельно отмечаются программы, поставленные из ненадёжных источников, и те, что без явной причины пользуются службой специальных возможностей, — через неё приложение видит всё, что происходит на экране.\n\nИсходный код открыт.",
+    "en": "Ruam Mij checks the installed apps for the signs that usually mean trouble.\n\nIt flags apps installed from unsafe sources, and those using the accessibility service without a clear reason — that service lets an app see everything on screen.\n\nThe source code is open.",
+    "tr": "Ruam Mij, kurulu uygulamaları genellikle sorun anlamına gelen belirtiler açısından denetler.\n\nGüvenli olmayan kaynaklardan kurulmuş uygulamaları ve açık bir neden olmadan erişilebilirlik hizmetini kullananları işaretler; o hizmet, bir uygulamanın ekrandaki her şeyi görmesini sağlar.\n\nKaynak kodu açıktır.",
+    "uz": "Ruam Mij o'rnatilgan ilovalarni odatda xavf belgisi bo'lgan alomatlar bo'yicha tekshiradi.\n\nIshonchsiz manbalardan o'rnatilgan dasturlar va aniq sababsiz maxsus imkoniyatlar xizmatidan foydalanayotganlari alohida belgilanadi — bu xizmat orqali ilova ekrandagi hamma narsani ko'radi.\n\nManba kodi ochiq."
+  },
+  "com.aks_labs.tulsi": {
+    "ru": "Tulsi Gallery — галерея для просмотра снимков и видео с устройства.\n\nПриложение не собирает данные и не показывает рекламу: всё, что оно открывает, остаётся на телефоне.\n\nИсходный код открыт.",
+    "en": "Tulsi Gallery is a gallery for the photos and videos on your device.\n\nIt collects no data and shows no ads: everything it opens stays on the phone.\n\nThe source code is open.",
+    "tr": "Tulsi Gallery, cihazınızdaki fotoğraf ve videolar için bir galeridir.\n\nVeri toplamaz ve reklam göstermez: açtığı her şey telefonda kalır.\n\nKaynak kodu açıktır.",
+    "uz": "Tulsi Gallery — qurilmadagi surat va videolarni ko'rish uchun galereya.\n\nIlova ma'lumot to'plamaydi va reklama ko'rsatmaydi: u ochadigan hamma narsa telefonda qoladi.\n\nManba kodi ochiq."
+  },
+  "com.akshayaap.touchdroid": {
+    "ru": "TouchDroid превращает телефон в сенсорную панель и клавиатуру для компьютера с Windows: управление идёт по локальной сети.\n\nНа компьютере при этом должна быть запущена ответная часть — TouchServer.\n\nИсходный код открыт.",
+    "en": "TouchDroid turns the phone into a touchpad and keyboard for a Windows computer, controlling it over the local network.\n\nThe matching part, TouchServer, has to be running on the computer.\n\nThe source code is open.",
+    "tr": "TouchDroid, telefonu bir Windows bilgisayar için dokunmatik yüzey ve klavyeye dönüştürür; denetim yerel ağ üzerinden yapılır.\n\nBilgisayarda karşılık gelen bölümün, TouchServer'ın çalışıyor olması gerekir.\n\nKaynak kodu açıktır.",
+    "uz": "TouchDroid telefonni Windows kompyuteri uchun sensorli panel va klaviaturaga aylantiradi, boshqaruv mahalliy tarmoq orqali ketadi.\n\nKompyuterda esa javob beruvchi qism — TouchServer ishlab turishi kerak.\n\nManba kodi ochiq."
+  },
+  "com.akslabs.circletosearch": {
+    "ru": "CircleToSearch App даёт поиск по тому, что видно на экране: нужный участок обводят, и по нему идёт запрос.\n\nПриём знаком по новым телефонам, а это приложение приносит его и на другие устройства.\n\nИсходный код открыт.",
+    "en": "CircleToSearch App lets you search for what is on your screen: you circle the part you mean, and the search runs on it.\n\nThe gesture is familiar from newer phones, and this app brings it to other devices.\n\nThe source code is open.",
+    "tr": "CircleToSearch App, ekranınızdakini aramanızı sağlar: ilgilendiğiniz bölümü çember içine alırsınız ve arama onun üzerinden yapılır.\n\nBu hareket yeni telefonlardan tanıdıktır; uygulama onu başka cihazlara da taşır.\n\nKaynak kodu açıktır.",
+    "uz": "CircleToSearch App ekranda ko'rinayotgan narsa bo'yicha qidirish imkonini beradi: kerakli qismni aylantirib belgilaysiz va shu bo'yicha so'rov ketadi.\n\nBu usul yangi telefonlardan tanish, bu ilova esa uni boshqa qurilmalarga ham olib keladi.\n\nManba kodi ochiq."
   }
 }
