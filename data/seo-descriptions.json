@@ -3592,5 +3592,191 @@
     "en": "Bible Verse App offers a Bible verse for each day, in several languages.\n\nThe verse appears in a home screen widget and arrives as a notification, and one you like can be passed on to someone.\n\nThe source code is open.",
     "tr": "Bible Verse App, her gün için birkaç dilde bir İncil ayeti sunar.\n\nAyet ana ekran widget'ında görünür ve bildirim olarak gelir; beğendiğiniz birini birine gönderebilirsiniz.\n\nKaynak kodu açıktır.",
     "uz": "Bible Verse App har kun uchun bir necha tilda Bibliya oyatini beradi.\n\nOyat asosiy ekrandagi vidjetda chiqadi va bildirishnoma sifatida keladi, yoqqanini esa birovga yuborish mumkin.\n\nManba kodi ochiq."
+  },
+  "ch.logixisland.anuto": {
+    "ru": "Anuto TD — игра в жанре tower defense: на пути противников расставляют башни, которые не дают им пройти.\n\nГрафика нарисована от руки, а управление сделано плавным.\n\nИсходный код открыт.",
+    "en": "Anuto TD is a tower defence game: you place towers along the enemies' path to stop them getting through.\n\nThe graphics are hand-drawn and the play is smooth.\n\nThe source code is open.",
+    "tr": "Anuto TD, bir kule savunma oyunudur: düşmanların geçtiği yol boyunca kuleler yerleştirip ilerlemelerini engellersiniz.\n\nGrafikler elle çizilmiştir ve oynanış akıcıdır.\n\nKaynak kodu açıktır.",
+    "uz": "Anuto TD — minora himoyasi janridagi o'yin: dushmanlar yo'liga ularni o'tkazmaydigan minoralar qo'yiladi.\n\nGrafika qo'lda chizilgan, boshqaruv silliq qilingan.\n\nManba kodi ochiq."
+  },
+  "ch.mydoli.focal": {
+    "ru": "FoCal ведёт фотодневник: каждый день в него добавляется снимок, и со временем набирается календарь из кадров.\n\nЗамысел в том, чтобы дневник было легко вести регулярно, а потом приятно пересматривать — год складывается в единую картину.\n\nПриложение свободное, с открытым исходным кодом.",
+    "en": "FoCal keeps a photo diary: a picture goes in each day, and over time the entries build into a calendar of images.\n\nThe idea is to make journalling easy to keep up with and rewarding to look back on — a year gathers into a single view.\n\nThe app is free software with open source code.",
+    "tr": "FoCal, bir fotoğraf günlüğü tutar: her gün bir resim eklenir ve zamanla kayıtlar görüntülerden oluşan bir takvime dönüşür.\n\nAmaç, günlük tutmayı sürdürmesi kolay ve geriye bakması keyifli kılmak; bir yıl tek bir görünümde toplanır.\n\nUygulama özgür yazılımdır ve kaynak kodu açıktır.",
+    "uz": "FoCal foto kundalik yuritadi: har kuni unga bitta surat qo'shiladi va vaqt o'tib yozuvlar kadrlar kalendariga aylanadi.\n\nG'oya shundaki, kundalikni muntazam yuritish oson, keyin qayta ko'rish esa yoqimli bo'lsin — bir yil yagona manzaraga yig'iladi.\n\nIlova erkin dasturiy ta'minot, manba kodi ochiq."
+  },
+  "ch.nilsgrob.android.bluemoon": {
+    "ru": "Bluemoon ведёт календарь менструального цикла.\n\nЗаписи остаются на устройстве — это важно для данных такого рода, которые не стоит отдавать посторонним сервисам.\n\nПриложение с открытым исходным кодом.",
+    "en": "Bluemoon keeps a menstrual cycle calendar.\n\nThe records stay on the device — which matters for data of this kind, the sort you would rather not hand to an outside service.\n\nThe app is open source.",
+    "tr": "Bluemoon, âdet döngüsü takvimi tutar.\n\nKayıtlar cihazda kalır; bu tür veriler için bu önemlidir, çünkü bunları dışarıdaki bir hizmete vermek istemezsiniz.\n\nUygulama açık kaynaklıdır.",
+    "uz": "Bluemoon hayz sikli kalendarini yuritadi.\n\nYozuvlar qurilmada qoladi — bunday turdagi ma'lumotlar uchun bu muhim, chunki ularni begona xizmatlarga bergingiz kelmaydi.\n\nIlova ochiq kodli."
+  },
+  "ch.pec0ra.suspension_setup": {
+    "ru": "Suspension Setup хранит настройки подвески горного велосипеда и показывает, как они менялись.\n\nНастроек можно вести несколько — под разные велосипеды или разные трассы, — и по каждой видно, что выставлено на вилке.\n\nИсходный код открыт.",
+    "en": "Suspension Setup stores the suspension settings of a mountain bike and shows how they have changed.\n\nSeveral setups can be kept side by side — for different bikes or different trails — and each records what the fork is set to.\n\nThe source code is open.",
+    "tr": "Suspension Setup, bir dağ bisikletinin süspansiyon ayarlarını saklar ve bunların zaman içinde nasıl değiştiğini gösterir.\n\nBirden çok kurulum yan yana tutulabilir — farklı bisikletler ya da farklı parkurlar için — ve her biri ön amortisörün ayarını kaydeder.\n\nKaynak kodu açıktır.",
+    "uz": "Suspension Setup tog' velosipedi amortizatori sozlamalarini saqlaydi va ular qanday o'zgarganini ko'rsatadi.\n\nBir nechta sozlamani yonma-yon yuritish mumkin — turli velosipedlar yoki turli yo'llar uchun — har birida vilkaga nima qo'yilgani ko'rinadi.\n\nManba kodi ochiq."
+  },
+  "ch.rmy.android.http_shortcuts": {
+    "ru": "HTTP Request Shortcuts выносит на домашний экран ярлыки и виджеты, которые отправляют HTTP-запросы.\n\nНажатие на такой ярлык обращается к нужному адресу — к REST-интерфейсу, веб-службе или любому другому URL. Это удобно для домашней автоматизации: свет или розетку можно включить прямо с рабочего стола, не открывая приложение.\n\nИсходный код открыт.",
+    "en": "HTTP Request Shortcuts puts shortcuts and widgets on the home screen that fire off HTTP requests.\n\nTapping one calls the address you gave it — a REST API, a web service or any other URL. It suits home automation: a light or a socket can be switched from the desktop without opening an app.\n\nThe source code is open.",
+    "tr": "HTTP Request Shortcuts, ana ekrana HTTP istekleri gönderen kısayollar ve widget'lar koyar.\n\nBirine dokunmak, verdiğiniz adrese — bir REST API'sine, bir web hizmetine ya da başka bir URL'ye — istek gönderir. Ev otomasyonu için uygundur: bir lamba ya da priz, uygulama açmadan masaüstünden anahtarlanabilir.\n\nKaynak kodu açıktır.",
+    "uz": "HTTP Request Shortcuts asosiy ekranga HTTP so'rovlarini yuboradigan yorliq va vidjetlar qo'yadi.\n\nBunday yorliqni bosish siz ko'rsatgan manzilga — REST interfeysi, veb-xizmat yoki boshqa URL ga murojaat qiladi. Uy avtomatikasi uchun qulay: chiroq yoki rozetkani ilovani ochmasdan, ish stolidan yoqish mumkin.\n\nManba kodi ochiq."
+  },
+  "ch.rmy.android.statusbar_tacho": {
+    "ru": "Status Bar Speedometer показывает текущую скорость по данным GPS значком в строке состояния.\n\nСкорость видна всё время, поверх любого приложения, — например, во время навигации или когда телефон лежит на панели.\n\nИсходный код открыт.",
+    "en": "Status Bar Speedometer shows your current speed from GPS as an icon in the status bar.\n\nThe reading stays visible over any app — during navigation, say, or with the phone propped on the dashboard.\n\nThe source code is open.",
+    "tr": "Status Bar Speedometer, GPS'ten alınan anlık hızınızı durum çubuğunda bir simge olarak gösterir.\n\nDeğer her uygulamanın üzerinde görünür kalır; örneğin yol tarifi sırasında ya da telefon gösterge paneline dayalıyken.\n\nKaynak kodu açıktır.",
+    "uz": "Status Bar Speedometer joriy tezlikni GPS ma'lumotlari asosida holat qatoridagi belgi sifatida ko'rsatadi.\n\nTezlik har qanday ilova ustida doim ko'rinib turadi — masalan, navigatsiya paytida yoki telefon panelda yotganda.\n\nManba kodi ochiq."
+  },
+  "ch.seto.kanjirecog": {
+    "ru": "Kanji draw распознаёт японские иероглифы, нарисованные пальцем на экране.\n\nЭто выручает изучающих язык: чтобы найти незнакомый кандзи в словаре, не нужно знать его чтение — достаточно перерисовать знак.\n\nИсходный код открыт.",
+    "en": "Kanji draw recognises Japanese characters drawn with a finger on the screen.\n\nIt helps language learners: to look an unfamiliar kanji up in a dictionary you do not need to know its reading — copying the shape is enough.\n\nThe source code is open.",
+    "tr": "Kanji draw, ekrana parmakla çizilen Japonca karakterleri tanır.\n\nDil öğrenenlerin işine yarar: bilmediğiniz bir kanjiyi sözlükte aramak için okunuşunu bilmeniz gerekmez, şeklini çizmeniz yeter.\n\nKaynak kodu açıktır.",
+    "uz": "Kanji draw ekranda barmoq bilan chizilgan yapon iyerogliflarini taniydi.\n\nBu tilni o'rganayotganlarga asqotadi: notanish kandzini lug'atdan topish uchun uning o'qilishini bilish shart emas, belgini chizib ko'rsatish kifoya.\n\nManba kodi ochiq."
+  },
+  "ch.simonste.jasstafel": {
+    "ru": "Jass board ведёт счёт в ясс — карточной игре, распространённой в Швейцарии.\n\nПоддерживаются разные варианты подсчёта: Schieber, Coiffeur, Differenzler и Molotov, — так что таблица подстраивается под то, во что вы играете.\n\nИсходный код открыт.",
+    "en": "Jass board keeps score in Jass, the card game played across Switzerland.\n\nSeveral scoring variants are supported — Schieber, Coiffeur, Differenzler and Molotov — so the sheet matches whichever game you are playing.\n\nThe source code is open.",
+    "tr": "Jass board, İsviçre'de yaygın bir kâğıt oyunu olan Jass'ta puanları tutar.\n\nFarklı puanlama türleri desteklenir — Schieber, Coiffeur, Differenzler ve Molotov — böylece tablo oynadığınız oyuna uyar.\n\nKaynak kodu açıktır.",
+    "uz": "Jass board Shveytsariyada keng tarqalgan karta o'yini yassda hisob yuritadi.\n\nTurli hisoblash variantlari qo'llab-quvvatlanadi: Schieber, Coiffeur, Differenzler va Molotov — shuning uchun jadval siz o'ynayotgan o'yinga moslashadi.\n\nManba kodi ochiq."
+  },
+  "ch.swissbitcoinpay.checkout": {
+    "ru": "Swiss Bitcoin Pay принимает оплату в биткоинах в заведении — кафе, баре, магазине.\n\nПродавец вводит сумму в своей валюте, а покупатель сканирует появившийся QR-код или прикладывает устройство.\n\nИсходный код открыт.",
+    "en": "Swiss Bitcoin Pay takes Bitcoin payments in a business — a café, a bar, a shop.\n\nThe seller types the amount in the local currency, and the customer scans the QR code that appears or taps their device.\n\nThe source code is open.",
+    "tr": "Swiss Bitcoin Pay, bir işletmede — kafede, barda, dükkânda — Bitcoin ödemesi alır.\n\nSatıcı tutarı yerel para biriminde girer; müşteri de beliren QR kodu tarar ya da cihazını okutur.\n\nKaynak kodu açıktır.",
+    "uz": "Swiss Bitcoin Pay muassasada — kafe, bar, do'konda — bitkoinda to'lovni qabul qiladi.\n\nSotuvchi summani o'z valyutasida kiritadi, xaridor esa chiqqan QR kodni skanerlaydi yoki qurilmasini tekkizadi.\n\nManba kodi ochiq."
+  },
+  "ch.thgoebel.spartathlonapp": {
+    "ru": "Приложение сопровождает Spartathlon — сверхмарафон из Афин в Спарту.\n\nВнутри расписание забега и отчёты с дистанции, так что пригодится и спортсменам, и группе поддержки, и волонтёрам на пунктах.\n\nИсходный код открыт.",
+    "en": "This app accompanies the Spartathlon, the ultra-distance race from Athens to Sparta.\n\nIt carries the race schedule and reports from the course, which makes it useful to runners, their support crews and the volunteers at the stations alike.\n\nThe source code is open.",
+    "tr": "Bu uygulama, Atina'dan Sparta'ya uzanan ultra mesafe koşusu Spartathlon'a eşlik eder.\n\nİçinde yarış programı ve parkurdan raporlar bulunur; bu da onu koşuculara, destek ekiplerine ve istasyonlardaki gönüllülere yararlı kılar.\n\nKaynak kodu açıktır.",
+    "uz": "Ilova Afinadan Spartagacha bo'lgan o'ta uzoq masofa poygasi — Spartathlonga hamroh bo'ladi.\n\nIchida poyga jadvali va masofadan hisobotlar bor, shuning uchun sportchilarga ham, qo'llab-quvvatlash guruhiga ham, punktlardagi ko'ngillilarga ham asqotadi.\n\nManba kodi ochiq."
+  },
+  "ch.threema.app.libre": {
+    "ru": "Threema Libre — сборка мессенджера Threema, собранная целиком из открытого исходного кода и без проприетарных библиотек.\n\nПереписка защищена сквозным шифрованием, а для регистрации не нужен номер телефона.\n\nДля работы требуется лицензия Threema Shop, которая покупается отдельно на shop.threema.ch.",
+    "en": "Threema Libre is a build of the Threema messenger assembled entirely from open source, without proprietary libraries.\n\nConversations are end-to-end encrypted, and no phone number is required to sign up.\n\nA Threema Shop licence is required to use it, bought separately at shop.threema.ch.",
+    "tr": "Threema Libre, Threema mesajlaşma uygulamasının tümüyle açık kaynaktan, özel mülk kitaplıklar olmadan derlenmiş bir sürümüdür.\n\nYazışmalar uçtan uca şifrelenir ve kaydolmak için telefon numarası gerekmez.\n\nKullanmak için shop.threema.ch adresinden ayrıca satın alınan bir Threema Shop lisansı gerekir.",
+    "uz": "Threema Libre — Threema messenjerining butunlay ochiq koddan, mulkiy kutubxonalarsiz yig'ilgan versiyasi.\n\nYozishmalar uchdan-uchgacha shifrlanadi, ro'yxatdan o'tish uchun telefon raqami kerak emas.\n\nIshlatish uchun shop.threema.ch saytidan alohida sotib olinadigan Threema Shop litsenziyasi talab qilinadi."
+  },
+  "ch.tiim.markdown_widget": {
+    "ru": "Markdown Widget выводит содержимое файла markdown на домашний экран.\n\nПриложение задумывалось для тех, кто ведёт заметки в Obsidian, но покажет любой файл markdown с устройства — например, список дел, который вы правите на компьютере.\n\nВиджет намеренно оформлен просто. Исходный код открыт.",
+    "en": "Markdown Widget shows the contents of a markdown file on your home screen.\n\nIt was meant for people who keep notes in Obsidian, but it will display any markdown file on the device — a to-do list you edit on a computer, for instance.\n\nThe widget is deliberately plain. The source code is open.",
+    "tr": "Markdown Widget, bir markdown dosyasının içeriğini ana ekranınızda gösterir.\n\nNotlarını Obsidian'da tutanlar düşünülerek yapılmıştır ama cihazdaki herhangi bir markdown dosyasını gösterir; örneğin bilgisayarda düzenlediğiniz bir yapılacaklar listesini.\n\nWidget bilinçli olarak yalındır. Kaynak kodu açıktır.",
+    "uz": "Markdown Widget markdown faylining mazmunini asosiy ekranga chiqaradi.\n\nIlova Obsidian'da eslatma yuritadiganlar uchun o'ylangan, lekin qurilmadagi istalgan markdown faylini ko'rsatadi — masalan, kompyuterda tahrirlaydigan vazifalar ro'yxatini.\n\nVidjet ataylab sodda bezatilgan. Manba kodi ochiq."
+  },
+  "ch.ulys.k19player": {
+    "ru": "K-19 Player проигрывает музыку с сервера OpenSubsonic — то есть с вашей собственной фонотеки, поднятой дома.\n\nПодойдёт любой сервер, поддерживающий OpenSubsonic; больше всего приложение проверялось с Navidrome.\n\nНаписано на Flutter, оформление следует Material 3. Исходный код открыт.",
+    "en": "K-19 Player plays music from an OpenSubsonic server — your own library, hosted at home.\n\nAny server speaking OpenSubsonic should work; testing has mostly been done against Navidrome.\n\nIt is written in Flutter and follows Material 3. The source code is open.",
+    "tr": "K-19 Player, bir OpenSubsonic sunucusundaki müziği çalar — yani evde barındırdığınız kendi kitaplığınızı.\n\nOpenSubsonic konuşan her sunucu çalışmalıdır; denemeler daha çok Navidrome ile yapılmıştır.\n\nFlutter ile yazılmıştır ve Material 3'ü izler. Kaynak kodu açıktır.",
+    "uz": "K-19 Player OpenSubsonic serveridagi musiqani ijro etadi — ya'ni uyda joylashtirilgan o'z fonotekangizni.\n\nOpenSubsonic ni qo'llab-quvvatlaydigan har qanday server mos keladi; ilova ko'proq Navidrome bilan sinalgan.\n\nFlutter tilida yozilgan, bezagi Material 3 uslubida. Manba kodi ochiq."
+  },
+  "chat.delta.lite": {
+    "ru": "ArcaneChat — децентрализованный мессенджер: сообщения идут через обычную электронную почту, а не через центральный сервер компании.\n\nНачать переписку можно сразу, без номера телефона и других личных данных.\n\nИсходный код открыт.",
+    "en": "ArcaneChat is a decentralised messenger: messages travel over ordinary email rather than through one company's central server.\n\nYou can start straight away, with no phone number or other personal details required.\n\nThe source code is open.",
+    "tr": "ArcaneChat, merkezî olmayan bir mesajlaşma uygulamasıdır: iletiler tek bir şirketin merkezî sunucusu yerine sıradan e-posta üzerinden gider.\n\nTelefon numarası ya da başka kişisel bilgi gerekmeden hemen başlayabilirsiniz.\n\nKaynak kodu açıktır.",
+    "uz": "ArcaneChat — markazlashmagan messenjer: xabarlar kompaniyaning markaziy serveri emas, oddiy elektron pochta orqali ketadi.\n\nYozishishni darrov boshlash mumkin, telefon raqami va boshqa shaxsiy ma'lumotlar kerak emas.\n\nManba kodi ochiq."
+  },
+  "chat.jmp.simmanager": {
+    "ru": "JMP SIM Manager управляет переходником JMP eSIM Adapter — съёмным чипом, который приносит поддержку eSIM на устройства, где её нет.\n\nПереходник вставляется в обычный слот SIM-карты, а приложение настраивает, какой профиль eSIM на нём использовать.\n\nПриложение свободное, с открытым исходным кодом.",
+    "en": "JMP SIM Manager drives the JMP eSIM Adapter, a removable chip that brings eSIM support to devices that lack it.\n\nThe adapter goes into an ordinary SIM slot, and the app configures which eSIM profile it should use.\n\nThe app is free and open source.",
+    "tr": "JMP SIM Manager, eSIM desteği olmayan cihazlara bu desteği getiren çıkarılabilir bir yonga olan JMP eSIM Adapter'ı yönetir.\n\nAdaptör sıradan bir SIM yuvasına takılır; uygulama da üzerinde hangi eSIM profilinin kullanılacağını ayarlar.\n\nUygulama ücretsizdir ve kaynak kodu açıktır.",
+    "uz": "JMP SIM Manager JMP eSIM Adapter — eSIM qo'llab-quvvatlashi yo'q qurilmalarga uni olib keladigan olinadigan chipni boshqaradi.\n\nAdapter oddiy SIM-karta uyasiga qo'yiladi, ilova esa unda qaysi eSIM profili ishlatilishini sozlaydi.\n\nIlova bepul, manba kodi ochiq."
+  },
+  "chat.schildi.android": {
+    "ru": "SchildiChat Next — клиент сети Matrix, построенный на основе приложения Element X.\n\nЭто переписанная с нуля версия SchildiChat, и авторы честно называют её бета-версией: часть возможностей прежнего приложения сюда ещё не перенесена.\n\nИсходный код открыт.",
+    "en": "SchildiChat Next is a Matrix client built on the Element X app.\n\nIt is a ground-up rewrite of SchildiChat, and the authors call it a beta outright: some features of the older app have not been carried over yet.\n\nThe source code is open.",
+    "tr": "SchildiChat Next, Element X uygulaması üzerine kurulmuş bir Matrix istemcisidir.\n\nSchildiChat'in sıfırdan yeniden yazılmış hâlidir ve geliştiriciler onu açıkça beta olarak adlandırır: eski uygulamanın bazı özellikleri henüz taşınmamıştır.\n\nKaynak kodu açıktır.",
+    "uz": "SchildiChat Next — Element X ilovasi asosida qurilgan Matrix tarmog'i mijozi.\n\nBu SchildiChat ning noldan qayta yozilgan versiyasi va mualliflar uni ochiq beta deb ataydi: eski ilovaning ba'zi imkoniyatlari hali ko'chirilmagan.\n\nManba kodi ochiq."
+  },
+  "chat.simplex.app": {
+    "ru": "SimpleX Chat — мессенджер, в котором у пользователя нет идентификатора: ни номера телефона, ни имени, ни даже случайного номера, по которому можно было бы связать разговоры между собой.\n\nВместо адресов используются одноразовые ссылки и коды приглашения, а переписка идёт через серверы, которые не знают, кто с кем общается.\n\nБезопасность приложения проверяла компания Trail of Bits в ноябре 2022 года. Исходный код открыт.",
+    "en": "SimpleX Chat is a messenger where the user has no identifier at all: no phone number, no username, not even a random number that could tie conversations together.\n\nInstead of addresses it uses one-time links and invitation codes, and messages pass through servers that do not know who is talking to whom.\n\nThe security of the app was assessed by Trail of Bits in November 2022. The source code is open.",
+    "tr": "SimpleX Chat, kullanıcının hiçbir tanımlayıcısının olmadığı bir mesajlaşma uygulamasıdır: ne telefon numarası, ne kullanıcı adı, hatta konuşmaları birbirine bağlayabilecek rastgele bir numara bile yok.\n\nAdresler yerine tek kullanımlık bağlantılar ve davet kodları kullanılır; iletiler ise kimin kiminle konuştuğunu bilmeyen sunuculardan geçer.\n\nUygulamanın güvenliği Kasım 2022'de Trail of Bits tarafından değerlendirilmiştir. Kaynak kodu açıktır.",
+    "uz": "SimpleX Chat — foydalanuvchining umuman identifikatori yo'q messenjer: na telefon raqami, na nom, hatto suhbatlarni bir-biriga bog'lay oladigan tasodifiy raqam ham yo'q.\n\nManzillar o'rniga bir martalik havolalar va taklif kodlari ishlatiladi, xabarlar esa kim kim bilan gaplashayotganini bilmaydigan serverlar orqali o'tadi.\n\nIlova xavfsizligini 2022 yil noyabrida Trail of Bits kompaniyasi tekshirgan. Manba kodi ochiq."
+  },
+  "chromahub.rhythm.app": {
+    "ru": "Rhythm — музыкальный проигрыватель, который работает и с файлами на устройстве, и с музыкой из сети.\n\nОформление построено на Material You и подхватывает цвета системной темы.\n\nПриложение с открытым исходным кодом.",
+    "en": "Rhythm is a music player that handles both files on the device and music from online sources.\n\nIts look is built on Material You and follows the system's colour theme.\n\nThe app is open source.",
+    "tr": "Rhythm, hem cihazdaki dosyaları hem çevrimiçi kaynaklardan gelen müziği çalan bir oynatıcıdır.\n\nGörünümü Material You üzerine kuruludur ve sistemin renk temasını izler.\n\nUygulama açık kaynaklıdır.",
+    "uz": "Rhythm — ham qurilmadagi fayllar, ham tarmoqdagi musiqa bilan ishlaydigan musiqa pleyeri.\n\nBezagi Material You ga qurilgan va tizim mavzusi ranglarini oladi.\n\nIlova ochiq kodli."
+  },
+  "cityfreqs.com.pilfershushjammer": {
+    "ru": "PilferShush Jammer занимает микрофон, чтобы другие приложения не могли им воспользоваться.\n\nПриём пассивный: приложение само ничего не слушает и не записывает — оно лишь держит микрофон занятым, пока включено.\n\nИсходный код открыт.",
+    "en": "PilferShush Jammer holds the microphone open so other apps cannot use it.\n\nThe technique is passive: the app itself neither listens nor records — it only keeps the microphone occupied while it runs.\n\nThe source code is open.",
+    "tr": "PilferShush Jammer, mikrofonu meşgul tutarak başka uygulamaların onu kullanmasını engeller.\n\nYöntem edilgendir: uygulamanın kendisi ne dinler ne kaydeder; yalnızca çalıştığı sürece mikrofonu meşgul tutar.\n\nKaynak kodu açıktır.",
+    "uz": "PilferShush Jammer mikrofonni band qilib turadi, shunda boshqa ilovalar undan foydalana olmaydi.\n\nUsul passiv: ilovaning o'zi hech narsani tinglamaydi va yozmaydi — u faqat yoqilgan vaqtda mikrofonni band saqlaydi.\n\nManba kodi ochiq."
+  },
+  "cl.coders.faketraveler": {
+    "ru": "FakeTraveler подменяет местоположение устройства на выбранное вами.\n\nТочка указывается на карте или вводится координатами. Это нужно, когда не хочется отдавать приложению настоящее местоположение или когда собственную программу надо проверить в другой стране.\n\nИсходный код открыт.",
+    "en": "FakeTraveler reports a location of your choosing instead of the device's real one.\n\nThe point is picked on a map or typed in as coordinates. It helps when you would rather not give an app your real position, or when you need to test your own app as if it were abroad.\n\nThe source code is open.",
+    "tr": "FakeTraveler, cihazın gerçek konumu yerine sizin seçtiğiniz konumu bildirir.\n\nNokta harita üzerinde seçilir ya da koordinat olarak girilir. Bir uygulamaya gerçek konumunuzu vermek istemediğinizde ya da kendi uygulamanızı başka bir ülkedeymiş gibi denemeniz gerektiğinde işe yarar.\n\nKaynak kodu açıktır.",
+    "uz": "FakeTraveler qurilmaning haqiqiy joylashuvi o'rniga siz tanlagan joyni ko'rsatadi.\n\nNuqta xaritada belgilanadi yoki koordinata sifatida kiritiladi. Bu ilovaga haqiqiy joylashuvingizni bergingiz kelmaganda yoki o'z dasturingizni boshqa mamlakatdagidek sinash kerak bo'lganda asqotadi.\n\nManba kodi ochiq."
+  },
+  "clavirom.keyboard": {
+    "ru": "ClaviRom — клавиатура для миноритарных языков Швейцарии, собранная на основе HeliBoard, который, в свою очередь, вырос из OpenBoard и клавиатуры AOSP.\n\nРазрешение на доступ в интернет приложение не запрашивает, поэтому набранный текст технически не может уйти наружу.\n\nИсходный код открыт.",
+    "en": "ClaviRom is a keyboard for Switzerland's minority languages, built on HeliBoard, which in turn grew out of OpenBoard and the AOSP keyboard.\n\nIt does not request internet permission, so what you type has no technical way of leaving the device.\n\nThe source code is open.",
+    "tr": "ClaviRom, İsviçre'nin azınlık dilleri için, HeliBoard temel alınarak yapılmış bir klavyedir; HeliBoard da OpenBoard ve AOSP klavyesinden türemiştir.\n\nİnternet izni istemez; bu yüzden yazdıklarınızın cihazdan çıkması teknik olarak olanaksızdır.\n\nKaynak kodu açıktır.",
+    "uz": "ClaviRom — Shveytsariyaning kam sonli tillari uchun HeliBoard asosida yig'ilgan klaviatura; HeliBoard esa o'z navbatida OpenBoard va AOSP klaviaturasidan o'sib chiqqan.\n\nIlova internetga ruxsat so'ramaydi, shuning uchun yozilgan matn texnik jihatdan tashqariga chiqa olmaydi.\n\nManba kodi ochiq."
+  },
+  "cloud.valetudo.companion": {
+    "ru": "Valetudo Companion находит в домашней сети роботы-пылесосы с прошивкой Valetudo — версии 2021.08.0 и новее.\n\nПоиск идёт по Bonjour и Zeroconf, найденные пылесосы собираются в список, откуда открывается панель управления каждым.\n\nИсходный код открыт.",
+    "en": "Valetudo Companion finds robot vacuums running Valetudo — version 2021.08.0 and later — on your home network.\n\nDiscovery goes through Bonjour and Zeroconf; the vacuums it finds are listed, and each one's control panel opens from there.\n\nThe source code is open.",
+    "tr": "Valetudo Companion, ev ağınızda Valetudo çalıştıran robot süpürgeleri bulur — 2021.08.0 ve sonraki sürümleri.\n\nKeşif Bonjour ve Zeroconf üzerinden yapılır; bulunan süpürgeler bir listede toplanır ve her birinin denetim paneli oradan açılır.\n\nKaynak kodu açıktır.",
+    "uz": "Valetudo Companion uy tarmog'ida Valetudo proshivkasidagi robot changyutgichlarni topadi — 2021.08.0 va undan yangi versiyalarini.\n\nQidiruv Bonjour va Zeroconf orqali ketadi, topilgan changyutgichlar ro'yxatga yig'iladi va har birining boshqaruv paneli o'sha yerdan ochiladi.\n\nManba kodi ochiq."
+  },
+  "cn.a10miaomiao.bilidown": {
+    "ru": "BiliDownOut достаёт с устройства видео, скачанные приложением bilibili, и сохраняет их как обычные файлы.\n\nЭто нужно потому, что скачанное внутри самого приложения лежит в служебном виде и другими плеерами не открывается.\n\nИсходный код открыт.",
+    "en": "BiliDownOut extracts videos downloaded by the bilibili app and saves them as ordinary files.\n\nThis is needed because what the app downloads is stored in an internal form that other players cannot open.\n\nThe source code is open.",
+    "tr": "BiliDownOut, bilibili uygulamasının indirdiği videoları cihazdan çıkarır ve onları sıradan dosyalar olarak kaydeder.\n\nBuna gerek duyulur çünkü uygulamanın indirdikleri, başka oynatıcıların açamadığı iç bir biçimde saklanır.\n\nKaynak kodu açıktır.",
+    "uz": "BiliDownOut bilibili ilovasi yuklab olgan videolarni qurilmadan ajratib oladi va ularni oddiy fayl sifatida saqlaydi.\n\nBu kerak, chunki ilova ichida yuklangan narsa xizmat ko'rinishida yotadi va boshqa pleyerlar uni ocholmaydi.\n\nManba kodi ochiq."
+  },
+  "cn.ac.lz233.tarnhelm": {
+    "ru": "Tarnhelm вычищает из ссылок следящие параметры — те длинные хвосты, по которым отправителя и получателя связывают со статистикой.\n\nОчистка происходит в момент, когда ссылкой делятся из другого приложения, так что отдельных действий не требуется.\n\nИсходный код открыт.",
+    "en": "Tarnhelm strips tracking parameters out of links — the long tails that tie whoever sends and opens them to someone's analytics.\n\nThe cleaning happens as the link is shared from another app, so there is nothing extra to do.\n\nThe source code is open.",
+    "tr": "Tarnhelm, bağlantılardaki izleme parametrelerini temizler; gönderen ve açan kişiyi birinin istatistiklerine bağlayan o uzun kuyrukları.\n\nTemizlik, bağlantı başka bir uygulamadan paylaşılırken yapılır; ayrıca bir işlem gerekmez.\n\nKaynak kodu açıktır.",
+    "uz": "Tarnhelm havolalardan kuzatuv parametrlarini tozalaydi — jo'natuvchi va ochuvchini kimningdir statistikasiga bog'laydigan o'sha uzun dumlarni.\n\nTozalash havola boshqa ilovadan ulashilayotgan paytda bajariladi, shuning uchun qo'shimcha harakat talab qilinmaydi.\n\nManba kodi ochiq."
+  },
+  "cn.rbc.termuc": {
+    "ru": "TermuC — среда разработки на C и C++, работающая поверх терминала Termux.\n\nСам Termux и компилятор clang ставятся отдельно: они дают сборку программ и подсказки по коду, а TermuC добавляет редактор и привычный вид среды.\n\nИсходный код открыт.",
+    "en": "TermuC is a C and C++ development environment running on top of the Termux terminal.\n\nTermux itself and the clang compiler are installed separately: they provide the build and the language server, while TermuC adds an editor and the shape of an IDE.\n\nThe source code is open.",
+    "tr": "TermuC, Termux uçbirimi üzerinde çalışan bir C ve C++ geliştirme ortamıdır.\n\nTermux'un kendisi ve clang derleyicisi ayrıca kurulur: bunlar derlemeyi ve dil sunucusunu sağlar, TermuC ise bir düzenleyici ve tanıdık bir geliştirme ortamı görünümü ekler.\n\nKaynak kodu açıktır.",
+    "uz": "TermuC — Termux terminali ustida ishlaydigan C va C++ dasturlash muhiti.\n\nTermux ning o'zi va clang kompilyatori alohida o'rnatiladi: ular dasturni yig'ish va kod bo'yicha maslahatlarni beradi, TermuC esa muharrir va odatiy muhit ko'rinishini qo'shadi.\n\nManba kodi ochiq."
+  },
+  "cn.super12138.todo": {
+    "ru": "VerveDo — список дел в оформлении Material 3 Expressive.\n\nЗадачам задаётся приоритет, так что важное видно сразу. Подойдёт и для школьных заданий, и для обычных бытовых напоминаний.\n\nИсходный код открыт.",
+    "en": "VerveDo is a to-do list styled after Material 3 Expressive.\n\nTasks can be given a priority, so the important ones stand out. It works for school homework as much as for everyday reminders.\n\nThe source code is open.",
+    "tr": "VerveDo, Material 3 Expressive'e göre biçimlendirilmiş bir yapılacaklar listesidir.\n\nGörevlere öncelik verilebilir; böylece önemli olanlar öne çıkar. Okul ödevleri için de gündelik hatırlatmalar için de uygundur.\n\nKaynak kodu açıktır.",
+    "uz": "VerveDo — Material 3 Expressive uslubidagi vazifalar ro'yxati.\n\nVazifalarga ustuvorlik beriladi, shuning uchun muhimi darrov ko'rinadi. Maktab vazifalari uchun ham, kundalik eslatmalar uchun ham mos.\n\nManba kodi ochiq."
+  },
+  "co.adityarajput.alarmetrics": {
+    "ru": "Alarmetrics считает, сколько раз вы откладываете будильники, напоминания и события календаря.\n\nПриложение читает уведомления и само распознаёт отложенные, так что вручную ничего отмечать не нужно. Со временем видно, что откладывается чаще всего.\n\nИсходный код открыт.",
+    "en": "Alarmetrics counts how often you snooze alarms, reminders and calendar events.\n\nIt reads notifications and recognises the snoozed ones by itself, so nothing has to be logged by hand. Over time you can see what gets put off most.\n\nThe source code is open.",
+    "tr": "Alarmetrics, alarmları, hatırlatmaları ve takvim etkinliklerini ne sıklıkta ertelediğinizi sayar.\n\nBildirimleri okur ve ertelenenleri kendisi tanır; bu yüzden elle bir şey kaydetmeniz gerekmez. Zamanla neyin en çok ertelendiği görünür.\n\nKaynak kodu açıktır.",
+    "uz": "Alarmetrics budilnik, eslatma va kalendar voqealarini necha marta keyinga surganingizni hisoblaydi.\n\nIlova bildirishnomalarni o'qiydi va keyinga surilganlarini o'zi taniydi, shuning uchun qo'lda hech narsa belgilash shart emas. Vaqt o'tib, nima ko'proq keyinga surilishi ko'rinadi.\n\nManba kodi ochiq."
+  },
+  "co.adityarajput.fileflow": {
+    "ru": "FileFlow время от времени просматривает файлы и раскладывает их по вашим правилам.\n\nПод какие файлы применять правило, задаётся регулярным выражением, а что с ними делать — выбирается отдельно.\n\nИсходный код открыт.",
+    "en": "FileFlow scans your files from time to time and sorts them according to rules you set.\n\nWhich files a rule applies to is described by a regular expression, and what happens to them is chosen separately.\n\nThe source code is open.",
+    "tr": "FileFlow, dosyalarınızı zaman zaman tarar ve belirlediğiniz kurallara göre düzenler.\n\nBir kuralın hangi dosyalara uygulanacağı düzenli ifadeyle tanımlanır; onlara ne yapılacağı ise ayrıca seçilir.\n\nKaynak kodu açıktır.",
+    "uz": "FileFlow vaqti-vaqti bilan fayllarni ko'rib chiqadi va ularni siz belgilagan qoidalar bo'yicha tartiblaydi.\n\nQoida qaysi fayllarga tegishli ekani muntazam ifoda bilan beriladi, ular bilan nima qilish esa alohida tanlanadi.\n\nManba kodi ochiq."
+  },
+  "co.adityarajput.notifilter": {
+    "ru": "NotiFilter отслеживает уведомления и тихо убирает те, что подходят под заданные вами условия.\n\nУсловие описывается регулярным выражением, поэтому можно отсечь конкретный тип назойливых сообщений от приложения, не отключая его уведомления целиком.\n\nИсходный код открыт.",
+    "en": "NotiFilter watches notifications and quietly deals with the ones that match conditions you set.\n\nA condition is written as a regular expression, so you can cut out one kind of nagging message from an app without silencing its notifications altogether.\n\nThe source code is open.",
+    "tr": "NotiFilter, bildirimleri izler ve belirlediğiniz koşullara uyanları sessizce ele alır.\n\nKoşul düzenli ifadeyle yazılır; böylece bir uygulamanın rahatsız edici belirli bir ileti türünü, tüm bildirimlerini susturmadan ayıklayabilirsiniz.\n\nKaynak kodu açıktır.",
+    "uz": "NotiFilter bildirishnomalarni kuzatadi va siz belgilagan shartlarga mos kelganlarini jimgina olib tashlaydi.\n\nShart muntazam ifoda bilan yoziladi, shuning uchun ilovaning bildirishnomalarini butunlay o'chirmasdan, bezovta qiladigan muayyan turdagi xabarlarni kesib tashlash mumkin.\n\nManba kodi ochiq."
+  },
+  "co.appreactor.news": {
+    "ru": "News читает ленты RSS и Atom и синхронизируется с вашим сервером — Nextcloud News или Miniflux.\n\nПодписки и отметки о прочитанном хранятся на сервере, которым распоряжаетесь вы, поэтому список лент один и тот же на всех устройствах.\n\nЭто неофициальное приложение, к Nextcloud отношения не имеющее. Исходный код открыт.",
+    "en": "News reads RSS and Atom feeds and syncs with your own server — Nextcloud News or Miniflux.\n\nSubscriptions and read marks live on a server you control, so the list of feeds is the same across your devices.\n\nThis is not an official Nextcloud client. The source code is open.",
+    "tr": "News, RSS ve Atom akışlarını okur ve kendi sunucunuzla — Nextcloud News ya da Miniflux ile — eşitlenir.\n\nAbonelikler ve okundu işaretleri sizin denetimizdeki bir sunucuda durur; böylece akış listesi tüm cihazlarınızda aynı olur.\n\nBu, resmî bir Nextcloud istemcisi değildir. Kaynak kodu açıktır.",
+    "uz": "News RSS va Atom lentalarini o'qiydi va o'z serveringiz — Nextcloud News yoki Miniflux bilan sinxronlanadi.\n\nObunalar va o'qilgan belgilari siz boshqaradigan serverda saqlanadi, shuning uchun lentalar ro'yxati barcha qurilmalaringizda bir xil bo'ladi.\n\nBu rasmiy Nextcloud mijozi emas. Manba kodi ochiq."
+  },
+  "co.ec.cnsyn.codecatcher": {
+    "ru": "CodeCatcher выхватывает коды подтверждения из входящих SMS.\n\nКод можно сразу скопировать или переслать — например, родственнику, которому сообщение пришло на ваш номер. Есть и озвучивание, чтобы код не приходилось разбирать глазами.\n\nИсходный код открыт.",
+    "en": "CodeCatcher picks confirmation codes out of incoming SMS.\n\nA code can be copied at once or forwarded — to a relative whose message arrived on your number, for instance. It can also be read aloud, so you do not have to squint at it.\n\nThe source code is open.",
+    "tr": "CodeCatcher, gelen SMS'lerdeki doğrulama kodlarını yakalar.\n\nKod hemen kopyalanabilir ya da iletilebilir; örneğin iletisi sizin numaranıza gelen bir yakınınıza. Ayrıca sesli okunabilir, böylece kodu gözle ayıklamanız gerekmez.\n\nKaynak kodu açıktır.",
+    "uz": "CodeCatcher kelgan SMS lardan tasdiqlash kodlarini ajratib oladi.\n\nKodni darhol nusxalash yoki uzatish mumkin — masalan, xabari sizning raqamingizga kelgan qarindoshingizga. Ovoz chiqarib o'qish ham bor, shunda kodni ko'z bilan ajratish shart emas.\n\nManba kodi ochiq."
   }
 }
