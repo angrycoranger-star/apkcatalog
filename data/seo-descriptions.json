@@ -3400,5 +3400,197 @@
     "en": "Nounours is a teddy bear on the screen to play with: you pull him by the head, paws, ears and tummy, spin him around, or shake the phone.\n\nHe answers each action with an animation of his own. The toy is meant for children.\n\nThe source code is open.",
     "tr": "Nounours, ekranda oynayabileceğiniz bir oyuncak ayıdır: başından, patilerinden, kulaklarından ve karnından çekersiniz, döndürürsünüz ya da telefonu sallarsınız.\n\nHer harekete kendi animasyonuyla karşılık verir. Oyuncak çocuklar için tasarlanmıştır.\n\nKaynak kodu açıktır.",
     "uz": "Nounours — ekranda o'ynash mumkin bo'lgan yumshoq ayiqcha: uni boshidan, panjalaridan, quloqlaridan va qornidan tortasiz, aylantirasiz yoki telefonni silkitasiz.\n\nHar bir harakatga u o'z animatsiyasi bilan javob beradi. O'yinchoq bolalarga mo'ljallangan.\n\nManba kodi ochiq."
+  },
+  "ca.snoe.deedum": {
+    "ru": "deedum открывает страницы сети Gemini — сетевого протокола, который занимает место между gopher и вебом.\n\nGemini создавался совместно и намеренно устроен проще веба: страницы там текстовые, без сценариев и отслеживания, и при этом богаче, чем позволял старый gopher.\n\nИсходный код открыт.",
+    "en": "deedum opens pages on Gemini, a network protocol that sits between gopher and the web.\n\nGemini was designed collaboratively and is deliberately simpler than the web: its pages are text, without scripts or tracking, yet richer than old gopher allowed.\n\nThe source code is open.",
+    "tr": "deedum, gopher ile web arasında duran bir ağ protokolü olan Gemini'nin sayfalarını açar.\n\nGemini ortaklaşa tasarlanmıştır ve bilinçli olarak web'den yalındır: sayfaları metindir, betik ve izleme içermez, yine de eski gopher'ın izin verdiğinden zengindir.\n\nKaynak kodu açıktır.",
+    "uz": "deedum gopher bilan veb orasida turadigan tarmoq protokoli — Gemini sahifalarini ochadi.\n\nGemini birgalikda ishlab chiqilgan va ataylab vebdan soddaroq qilingan: undagi sahifalar matnli, skript va kuzatuvsiz, shu bilan birga eski gopher imkon berganidan boyroq.\n\nManba kodi ochiq."
+  },
+  "ca.toadlybroodle.minimalist": {
+    "ru": "MinimaList ведёт списки задач и заметки в виде структуры с вложенными пунктами, и всё хранится на устройстве.\n\nПриложение выходило в Google Play в 2018 году под названием sublist, а потом было заброшено; эта версия — его продолжение.\n\nИсходный код открыт.",
+    "en": "MinimaList keeps tasks and notes as an outline of nested items, and everything stays on the device.\n\nThe app was published on Google Play in 2018 as sublist and later abandoned; this version continues it.\n\nThe source code is open.",
+    "tr": "MinimaList, görevleri ve notları iç içe maddelerden oluşan bir taslak olarak tutar ve her şey cihazda kalır.\n\nUygulama 2018'de Google Play'de sublist adıyla yayımlanmış, sonra bırakılmıştı; bu sürüm onun devamıdır.\n\nKaynak kodu açıktır.",
+    "uz": "MinimaList vazifalar va eslatmalarni ichma-ich bandlardan iborat tuzilma ko'rinishida yuritadi, hamma narsa qurilmada qoladi.\n\nIlova 2018 yilda Google Play'da sublist nomi bilan chiqqan, keyin tashlab qo'yilgan edi; bu versiya uning davomi.\n\nManba kodi ochiq."
+  },
+  "ca.vaults.randomlydie": {
+    "ru": "Randomly/Die выдаёт случайные значения в разном виде: бросает кости, подкидывает монету, генерирует числа в шестнадцатеричной и двоичной записи.\n\nЕсть и менее обычные режимы — выбрать музыкальную ноту, вытянуть эмодзи или предоставить случаю решение, которое вы не можете принять сами.\n\nИсходный код открыт.",
+    "en": "Randomly/Die produces random values in various shapes: it rolls dice, flips coins and generates numbers in hexadecimal and binary.\n\nThere are less ordinary modes too — pick a musical note, draw an emoji, or leave a decision you cannot make to chance.\n\nThe source code is open.",
+    "tr": "Randomly/Die, rastgele değerleri çeşitli biçimlerde üretir: zar atar, yazı tura yapar, onaltılık ve ikilik tabanda sayı üretir.\n\nDaha sıra dışı kipler de vardır — bir müzik notası seçmek, emoji çekmek ya da veremediğiniz bir kararı şansa bırakmak.\n\nKaynak kodu açıktır.",
+    "uz": "Randomly/Die tasodifiy qiymatlarni turli ko'rinishda beradi: zar tashlaydi, tanga otadi, o'n oltilik va ikkilik sanoqda sonlar hosil qiladi.\n\nKamroq uchraydigan tartiblar ham bor — musiqa notasini tanlash, emoji tortish yoki o'zingiz qabul qila olmagan qarorni tasodifga qoldirish.\n\nManba kodi ochiq."
+  },
+  "camp.werewolf.infraarcana": {
+    "ru": "Infra Arcana — рогалик, действие которого происходит в начале двадцатого века.\n\nГерой спускается в логово секты под названием «Церковь звёздной мудрости» и исследует подземелья под её святилищем. Как и положено жанру, уровни каждый раз строятся заново, а смерть здесь окончательна.\n\nИсходный код открыт.",
+    "en": "Infra Arcana is a roguelike set in the early twentieth century.\n\nYou descend into the lair of a cult called the Church of Starry Wisdom and explore what lies buried beneath its grounds. As the genre demands, the levels are generated afresh each time and death is permanent.\n\nThe source code is open.",
+    "tr": "Infra Arcana, yirminci yüzyılın başında geçen bir roguelike'tır.\n\nYıldızlı Bilgelik Kilisesi adlı bir tarikatın inine inip kutsal alanlarının altında gömülü olanı araştırırsınız. Türün gereği olarak bölümler her seferinde yeniden üretilir ve ölüm kalıcıdır.\n\nKaynak kodu açıktır.",
+    "uz": "Infra Arcana — yigirmanchi asr boshida kechadigan roguelike o'yin.\n\nQahramon \"Yulduzli donolik cherkovi\" nomli sektaning uyasiga tushadi va uning ziyoratgohi ostidagi yer ostini o'rganadi. Janr talabiga ko'ra, bosqichlar har safar qaytadan quriladi va o'lim qaytarilmaydi.\n\nManba kodi ochiq."
+  },
+  "cat.naval.atalaya": {
+    "ru": "Atalaya показывает, к какой именно вышке сотовой связи подключён телефон.\n\nВидно идентификаторы соты, тип используемой технологии связи и задействованные диапазоны частот — то, что обычно скрыто в служебных меню.\n\nПриложение с открытым исходным кодом.",
+    "en": "Atalaya shows which cell tower the phone is actually connected to.\n\nIt displays the cell identifiers, the radio technology in use and the frequency bands in play — details normally buried in service menus.\n\nThe app is open source.",
+    "tr": "Atalaya, telefonun tam olarak hangi baz istasyonuna bağlı olduğunu gösterir.\n\nHücre kimliklerini, kullanılan radyo teknolojisini ve devredeki frekans bantlarını görüntüler; bunlar normalde servis menülerinde gizli kalan ayrıntılardır.\n\nUygulama açık kaynaklıdır.",
+    "uz": "Atalaya telefon aynan qaysi uyali aloqa minorasiga ulanganini ko'rsatadi.\n\nUyacha identifikatorlari, ishlatilayotgan aloqa texnologiyasi turi va band qilingan chastota diapazonlari ko'rinadi — bular odatda xizmat menyularida yashiringan ma'lumotlar.\n\nIlova ochiq kodli."
+  },
+  "cat.naval.florae": {
+    "ru": "Florae напоминает об уходе за комнатными растениями: поливе, подкормке и прочих регулярных делах.\n\nДля каждого растения заводится своя запись со своим расписанием, поэтому кактус и папоротник не будут поливаться по одному графику.\n\nДанные остаются на устройстве. Исходный код открыт.",
+    "en": "Florae reminds you to look after your plants: watering, feeding and the other recurring chores.\n\nEach plant gets its own entry with its own schedule, so a cactus and a fern are not watered to the same rhythm.\n\nThe data stays on the device. The source code is open.",
+    "tr": "Florae, bitkilerinizle ilgilenmeyi hatırlatır: sulama, besleme ve düzenli yinelenen diğer işler.\n\nHer bitkinin kendi kaydı ve kendi programı olur; böylece bir kaktüsle bir eğrelti otu aynı ritimde sulanmaz.\n\nVeriler cihazda kalır. Kaynak kodu açıktır.",
+    "uz": "Florae xonaki o'simliklarni parvarish qilishni eslatadi: sug'orish, oziqlantirish va boshqa muntazam ishlar.\n\nHar bir o'simlik uchun o'z yozuvi va o'z jadvali bo'ladi, shuning uchun kaktus bilan paporotnik bir xil oraliqda sug'orilmaydi.\n\nMa'lumotlar qurilmada qoladi. Manba kodi ochiq."
+  },
+  "cat.pantsu.nyaapantsu": {
+    "ru": "NyaaPantsu ищет раздачи на площадке NyaaPantsu и позволяет выкладывать туда свои.\n\nИсходный код открыт.",
+    "en": "NyaaPantsu searches the NyaaPantsu site and lets you upload to it directly.\n\nThe source code is open.",
+    "tr": "NyaaPantsu, NyaaPantsu sitesinde arama yapar ve doğrudan oraya yükleme yapmanıza izin verir.\n\nKaynak kodu açıktır.",
+    "uz": "NyaaPantsu NyaaPantsu maydonchasida qidiradi va u yerga o'zingiznikini yuklash imkonini beradi.\n\nManba kodi ochiq."
+  },
+  "cc.calliope.mini": {
+    "ru": "Приложение программирует Calliope mini — учебную микроплату, на которой школьники собирают первые проекты.\n\nПрограмма составляется в несколько шагов и отправляется на плату: так можно заставить её передавать сообщения, управлять роботом или реагировать на датчики.\n\nИсходный код открыт.",
+    "en": "This app programs the Calliope mini, the educational microcontroller board pupils build their first projects on.\n\nA program is put together in a few steps and sent to the board, which can then pass messages, drive a robot or respond to its sensors.\n\nThe source code is open.",
+    "tr": "Bu uygulama, öğrencilerin ilk projelerini yaptığı eğitim amaçlı mikrodenetleyici kartı Calliope mini'yi programlar.\n\nProgram birkaç adımda hazırlanıp karta gönderilir; kart böylece ileti gönderebilir, bir robotu sürebilir ya da algılayıcılarına tepki verebilir.\n\nKaynak kodu açıktır.",
+    "uz": "Ilova o'quvchilar birinchi loyihalarini yig'adigan o'quv mikroplatasi — Calliope mini ni dasturlaydi.\n\nDastur bir necha bosqichda tuziladi va plataga yuboriladi: shundan keyin u xabar uzatishi, robotni boshqarishi yoki sensorlariga javob berishi mumkin.\n\nManba kodi ochiq."
+  },
+  "cc.chenhe.qqnotifyevo": {
+    "ru": "QQ Notification Evolution переделывает уведомления мессенджера QQ в современный вид.\n\nПоддерживаются обычный QQ, Tim и QQ Lite. Сообщения раскладываются по отдельным каналам уведомлений, как это принято в новых версиях Android.\n\nИсходный код открыт.",
+    "en": "QQ Notification Evolution reshapes the notifications of the QQ messenger into a modern form.\n\nThe original QQ, Tim and QQ Lite are supported. Messages are sorted into separate notification channels, as newer Android versions expect.\n\nThe source code is open.",
+    "tr": "QQ Notification Evolution, QQ mesajlaşma uygulamasının bildirimlerini çağdaş bir biçime dönüştürür.\n\nÖzgün QQ, Tim ve QQ Lite desteklenir. İletiler, yeni Android sürümlerinin beklediği gibi ayrı bildirim kanallarına ayrılır.\n\nKaynak kodu açıktır.",
+    "uz": "QQ Notification Evolution QQ messenjeri bildirishnomalarini zamonaviy ko'rinishga keltiradi.\n\nOddiy QQ, Tim va QQ Lite qo'llab-quvvatlanadi. Xabarlar yangi Android versiyalarida qabul qilinganidek, alohida bildirishnoma kanallariga ajratiladi.\n\nManba kodi ochiq."
+  },
+  "cc.echonet.coolmicapp": {
+    "ru": "Cool Mic ведёт прямую трансляцию звука с телефона на сервер Icecast.\n\nЗвук берётся с микрофона устройства или с линейного входа, а вещать можно на любой сервер Icecast — как на публичный, так и на свой.\n\nПриложение с открытым исходным кодом.",
+    "en": "Cool Mic live-streams audio from the phone to an Icecast server.\n\nThe sound comes from the device's microphone or from a line-in jack, and it can be sent to any Icecast server, public or your own.\n\nThe app is open source.",
+    "tr": "Cool Mic, telefondan bir Icecast sunucusuna canlı ses yayını yapar.\n\nSes, cihazın mikrofonundan ya da hat girişinden alınır ve herhangi bir Icecast sunucusuna — herkese açık ya da kendinizinkine — gönderilebilir.\n\nUygulama açık kaynaklıdır.",
+    "uz": "Cool Mic telefondan Icecast serveriga jonli ovoz uzatadi.\n\nOvoz qurilma mikrofonidan yoki chiziqli kirishdan olinadi, uzatishni esa istalgan Icecast serveriga — ommaviysiga ham, o'zingiznikiga ham qilish mumkin.\n\nIlova ochiq kodli."
+  },
+  "cc.goll.caff": {
+    "ru": "Caff добавляет в панель быстрых настроек кнопку, которая не даёт экрану гаснуть.\n\nНажатие включает режим, а повторные нажатия перебирают доступные интервалы — можно оставить экран включённым на несколько минут или до отключения вручную.\n\nИсходный код открыт.",
+    "en": "Caff adds a quick settings tile that keeps the display from switching off.\n\nA tap turns the mode on, and further taps cycle through the available intervals — a few minutes, or until you switch it off yourself.\n\nThe source code is open.",
+    "tr": "Caff, ekranın kapanmasını önleyen bir hızlı ayarlar kutucuğu ekler.\n\nBir dokunuş kipi açar, sonraki dokunuşlar kullanılabilir süreler arasında dolaşır — birkaç dakika ya da siz kapatana dek.\n\nKaynak kodu açıktır.",
+    "uz": "Caff tezkor sozlamalar paneliga ekranning o'chishiga yo'l qo'ymaydigan tugma qo'shadi.\n\nBir tegish tartibni yoqadi, keyingi tegishlar mavjud oraliqlarni aylantiradi — bir necha daqiqa yoki o'zingiz o'chirgunga qadar.\n\nManba kodi ochiq."
+  },
+  "cc.kafuu.bilidownload": {
+    "ru": "BVD скачивает видео с площадки bilibili: ролики пользователей, аниме, сериалы и фильмы.\n\nИз видео можно вытащить звуковую дорожку в формате AAC, если нужна только она.\n\nИсходный код открыт.",
+    "en": "BVD downloads video from bilibili: user uploads, anime, series and films.\n\nThe audio track can be extracted from a video as AAC, when that is all you need.\n\nThe source code is open.",
+    "tr": "BVD, bilibili'den video indirir: kullanıcı yüklemeleri, anime, diziler ve filmler.\n\nYalnızca sese ihtiyacınız varsa, ses parçası videodan AAC olarak çıkarılabilir.\n\nKaynak kodu açıktır.",
+    "uz": "BVD bilibili maydonchasidan video yuklab oladi: foydalanuvchilar roliklari, anime, seriallar va filmlar.\n\nFaqat ovoz kerak bo'lsa, uni videodan AAC formatida ajratib olish mumkin.\n\nManba kodi ochiq."
+  },
+  "cc.narumi.chaldea.fdroid": {
+    "ru": "Chaldea помогает планировать ресурсы в игре Fate/Grand Order: какие материалы понадобятся для прокачки персонажей и что стоит собрать на текущих событиях.\n\nПриложение работает не только на Android, но и на iOS, Windows, macOS, Linux и в браузере.\n\nИсходный код открыт.",
+    "en": "Chaldea plans resources for Fate/Grand Order: which materials your servants will need and what is worth farming during current events.\n\nIt runs not only on Android but on iOS, Windows, macOS, Linux and the web.\n\nThe source code is open.",
+    "tr": "Chaldea, Fate/Grand Order için kaynak planlaması yapar: hizmetkârlarınızın hangi malzemelere ihtiyaç duyacağı ve güncel etkinliklerde neyin toplanmaya değer olduğu.\n\nYalnızca Android'de değil; iOS, Windows, macOS, Linux ve web üzerinde de çalışır.\n\nKaynak kodu açıktır.",
+    "uz": "Chaldea Fate/Grand Order o'yinida resurslarni rejalashtiradi: qahramonlarni kuchaytirish uchun qanday materiallar kerak bo'lishi va joriy tadbirlarda nimani yig'ish arzishini ko'rsatadi.\n\nIlova Android'dan tashqari iOS, Windows, macOS, Linux va brauzerda ham ishlaydi.\n\nManba kodi ochiq."
+  },
+  "cc.occm.app": {
+    "ru": "occm — клиент Mastodon, настроенный под сервер occm.\n\nСреди отличий — свои личные сообщения: переписку можно вести как один на один, так и группой.\n\nПриложение выросло из клиента Moshidon. Исходный код открыт.",
+    "en": "occm is a Mastodon client tailored to the occm server.\n\nAmong its differences is its own take on direct messages: conversations can be one-to-one or in a group.\n\nThe app is a fork of the Moshidon client. The source code is open.",
+    "tr": "occm, occm sunucusuna göre uyarlanmış bir Mastodon istemcisidir.\n\nFarklarından biri doğrudan iletilere kendi yaklaşımıdır: yazışmalar bire bir ya da grup hâlinde olabilir.\n\nUygulama Moshidon istemcisinden türemiştir. Kaynak kodu açıktır.",
+    "uz": "occm — occm serveriga moslangan Mastodon mijozi.\n\nFarqlaridan biri — shaxsiy xabarlarga o'z yondashuvi: yozishmalarni birma-bir yoki guruh bo'lib olib borish mumkin.\n\nIlova Moshidon mijozidan o'sib chiqqan. Manba kodi ochiq."
+  },
+  "cc.polysfaer.stochapop": {
+    "ru": "Stochastic Reminder шлёт напоминания по недельному расписанию, причём часть из них приходит в случайный момент внутри заданного промежутка.\n\nДни недели и временные рамки задаёте вы, а точное время случайного напоминания приложение выбирает само — так к нему сложнее привыкнуть и перестать замечать.\n\nИсходный код открыт.",
+    "en": "Stochastic Reminder sends reminders on a weekly schedule, with some of them arriving at a random moment inside a window you set.\n\nYou choose the days and the time range; the app picks the exact moment for the random ones — which makes them harder to get used to and tune out.\n\nThe source code is open.",
+    "tr": "Stochastic Reminder, haftalık bir programla hatırlatmalar gönderir; bunların bir kısmı belirlediğiniz aralık içinde rastgele bir anda gelir.\n\nGünleri ve zaman aralığını siz seçersiniz; rastgele olanların tam anını uygulama belirler — bu da onlara alışıp görmezden gelmenizi zorlaştırır.\n\nKaynak kodu açıktır.",
+    "uz": "Stochastic Reminder eslatmalarni haftalik jadval bo'yicha yuboradi, ularning bir qismi esa siz belgilagan oraliq ichida tasodifiy paytda keladi.\n\nHafta kunlari va vaqt oralig'ini siz belgilaysiz, tasodifiylarining aniq vaqtini ilova o'zi tanlaydi — shu sababli ularga ko'nikib, e'tibor bermay qo'yish qiyinroq.\n\nManba kodi ochiq."
+  },
+  "cc.sovellus.vrcaa": {
+    "ru": "VRChat Android Assistant даёт доступ к учётной записи VRChat с телефона, когда вы не в гарнитуре.\n\nМожно править профиль, следить за списком друзей и видеть, кто сейчас в сети.\n\nИсходный код открыт.",
+    "en": "VRChat Android Assistant gives you access to your VRChat account from the phone, away from the headset.\n\nYou can edit your profile, keep an eye on your friends list and see who is online.\n\nThe source code is open.",
+    "tr": "VRChat Android Assistant, başlık takılı değilken VRChat hesabınıza telefondan erişim verir.\n\nProfilinizi düzenleyebilir, arkadaş listenizi izleyebilir ve kimin çevrimiçi olduğunu görebilirsiniz.\n\nKaynak kodu açıktır.",
+    "uz": "VRChat Android Assistant garnitura taqilmaganda VRChat hisobingizga telefondan kirish imkonini beradi.\n\nProfilni tahrirlash, do'stlar ro'yxatini kuzatish va kim tarmoqda ekanini ko'rish mumkin.\n\nManba kodi ochiq."
+  },
+  "cc.zachy.pulse": {
+    "ru": "Pulse связывает часы Garmin с телефоном по Bluetooth и держит все данные на устройстве.\n\nНи учётной записи, ни фирменного приложения производителя, ни облака для работы не нужно — показатели с часов остаются у вас.\n\nЭто ответвление Gadgetbridge, переделанное только под Garmin и с новым оформлением. Исходный код открыт.",
+    "en": "Pulse pairs a Garmin watch with your phone over Bluetooth and keeps all the data on the device.\n\nNo account, no vendor app and no cloud are needed — the readings from the watch stay with you.\n\nIt is a Garmin-only fork of Gadgetbridge with a new look. The source code is open.",
+    "tr": "Pulse, bir Garmin saatini telefonunuzla Bluetooth üzerinden eşleştirir ve tüm verileri cihazda tutar.\n\nHesap, üreticinin uygulaması ya da bulut gerekmez — saatten gelen veriler sizde kalır.\n\nGadgetbridge'in yalnızca Garmin için uyarlanmış, yeni görünümlü bir çatallamasıdır. Kaynak kodu açıktır.",
+    "uz": "Pulse Garmin soatini telefon bilan Bluetooth orqali bog'laydi va barcha ma'lumotlarni qurilmada saqlaydi.\n\nNa hisob, na ishlab chiqaruvchining ilovasi, na bulut kerak bo'ladi — soatdagi ko'rsatkichlar sizda qoladi.\n\nBu Gadgetbridge ning faqat Garmin uchun moslangan, yangi ko'rinishdagi ayrilmasi. Manba kodi ochiq."
+  },
+  "cf.playhi.freezeyou": {
+    "ru": "FreezeYou! замораживает приложения: программа остаётся установленной, но перестаёт работать в фоне, слать уведомления и расходовать батарею.\n\nРазморозить её можно в любой момент, когда она действительно понадобится, — это удобно с теми приложениями, которыми пользуются редко, но удалить совсем нельзя.\n\nИсходный код открыт.",
+    "en": "FreezeYou! freezes apps: a program stays installed but stops running in the background, sending notifications and draining the battery.\n\nIt can be thawed the moment you actually need it — useful for apps you rarely open but cannot remove altogether.\n\nThe source code is open.",
+    "tr": "FreezeYou!, uygulamaları dondurur: program kurulu kalır ama arka planda çalışmayı, bildirim göndermeyi ve pil harcamayı bırakır.\n\nGerçekten gerektiği anda çözülebilir; nadiren açtığınız ama tümüyle kaldıramadığınız uygulamalar için işe yarar.\n\nKaynak kodu açıktır.",
+    "uz": "FreezeYou! ilovalarni muzlatadi: dastur o'rnatilgan holicha qoladi, lekin fonda ishlashdan, bildirishnoma yuborishdan va batareya sarflashdan to'xtaydi.\n\nChinakamiga kerak bo'lgan paytda uni qayta yoqish mumkin — kamdan-kam ochiladigan, lekin butunlay o'chirib bo'lmaydigan ilovalar uchun qulay.\n\nManba kodi ochiq."
+  },
+  "cf.theonewiththebraid.guerrilla_mail": {
+    "ru": "Guerrilla Mail даёт временный почтовый ящик через сервис guerrillamail.com.\n\nТакой адрес выручает, когда почта нужна только для разового подтверждения регистрации, а отдавать настоящий ящик не хочется.\n\nИсходный код открыт.",
+    "en": "Guerrilla Mail provides a temporary mailbox through the guerrillamail.com service.\n\nSuch an address helps when you need mail only for a one-off sign-up confirmation and would rather not hand over your real one.\n\nThe source code is open.",
+    "tr": "Guerrilla Mail, guerrillamail.com hizmeti üzerinden geçici bir posta kutusu verir.\n\nBöyle bir adres, postaya yalnızca tek seferlik bir kayıt onayı için ihtiyacınız olduğunda ve gerçek adresinizi vermek istemediğinizde işe yarar.\n\nKaynak kodu açıktır.",
+    "uz": "Guerrilla Mail guerrillamail.com xizmati orqali vaqtinchalik pochta qutisini beradi.\n\nBunday manzil pochta faqat bir martalik ro'yxatdan o'tishni tasdiqlash uchun kerak bo'lganda va haqiqiy qutingizni bergingiz kelmaganda asqotadi.\n\nManba kodi ochiq."
+  },
+  "ch.abertschi.adfree": {
+    "ru": "Ad-Free приглушает звуковую рекламу в приложениях.\n\nПроект исследовательский: автор делал его, чтобы показать слабые места в том, как звуковая реклама устроена на Android. Это доказательство возможности, а не законченный продукт.\n\nИсходный код открыт.",
+    "en": "Ad-Free mutes audio advertising inside apps.\n\nThe project is a research one: the author built it to show up weaknesses in the way audio advertising works on Android. It is a proof of concept rather than a finished product.\n\nThe source code is open.",
+    "tr": "Ad-Free, uygulamalardaki sesli reklamları susturur.\n\nProje bir araştırma çalışmasıdır: geliştirici bunu, Android'de sesli reklamın işleyişindeki zayıflıkları göstermek için yapmıştır. Bitmiş bir ürün değil, bir kavram kanıtıdır.\n\nKaynak kodu açıktır.",
+    "uz": "Ad-Free ilovalardagi ovozli reklamani o'chiradi.\n\nLoyiha tadqiqot xarakterida: muallif uni Android'da ovozli reklama qanday tuzilganidagi zaif joylarni ko'rsatish uchun yaratgan. Bu tugallangan mahsulot emas, imkoniyat isboti.\n\nManba kodi ochiq."
+  },
+  "ch.abertschi.waterme.water_me": {
+    "ru": "Water Me напоминает поливать комнатные растения.\n\nКаждое растение заводится со своим именем, фотографией и частотой полива, так что напоминания приходят по отдельному графику.\n\nПриложение написано на Flutter и работает без удалённого сервера. Исходный код открыт.",
+    "en": "Water Me reminds you to water your plants.\n\nEach plant is added with a name, a picture and its own watering frequency, so the reminders follow separate schedules.\n\nThe app is written in Flutter and works without a remote server. The source code is open.",
+    "tr": "Water Me, bitkilerinizi sulamanızı hatırlatır.\n\nHer bitki bir ad, bir fotoğraf ve kendi sulama sıklığıyla eklenir; böylece hatırlatmalar ayrı programları izler.\n\nUygulama Flutter ile yazılmıştır ve uzak bir sunucu olmadan çalışır. Kaynak kodu açıktır.",
+    "uz": "Water Me xonaki o'simliklarni sug'orishni eslatadi.\n\nHar bir o'simlik o'z nomi, surati va sug'orish chastotasi bilan qo'shiladi, shuning uchun eslatmalar alohida jadval bo'yicha keladi.\n\nIlova Flutter tilida yozilgan va masofaviy serversiz ishlaydi. Manba kodi ochiq."
+  },
+  "ch.bailu.aat": {
+    "ru": "AAT записывает тренировки и походы: маршрут виден вживую на карте и на приборной панели с показателями.\n\nТреки сохраняются в обычном формате GPX, поэтому их можно открыть в других программах. Карты работают и офлайн — как загруженные тайлы, так и подготовленные заранее наборы.\n\nИсходный код открыт.",
+    "en": "AAT records activities and hikes: the route is shown live on a map and on a dashboard of readings.\n\nTracks are stored as ordinary GPX files, so other programs can open them. Maps work offline as well, both as tile sets and as prepared offline maps.\n\nThe source code is open.",
+    "tr": "AAT, etkinlikleri ve yürüyüşleri kaydeder: rota, harita üzerinde ve göstergelerin bulunduğu bir panoda canlı olarak görünür.\n\nİzler sıradan GPX dosyaları olarak saklanır, böylece başka programlarda açılabilir. Haritalar çevrimdışı da çalışır; hem döşeme kümeleri hem önceden hazırlanmış haritalar olarak.\n\nKaynak kodu açıktır.",
+    "uz": "AAT mashg'ulot va yurishlarni yozib boradi: marshrut xaritada va ko'rsatkichlar panelida jonli ko'rinadi.\n\nTreklar oddiy GPX formatida saqlanadi, shuning uchun ularni boshqa dasturlarda ochish mumkin. Xaritalar oflayn ham ishlaydi — yuklangan plitkalar ham, oldindan tayyorlangan to'plamlar ham.\n\nManba kodi ochiq."
+  },
+  "ch.blinkenlights.android.vanilla": {
+    "ru": "Vanilla Music — проигрыватель с простым интерфейсом, близким к стандартному плееру Android.\n\nМузыку можно слушать по папкам, собирать очередь воспроизведения и переключать треки встряхиванием телефона. Форматы поддерживаются те же, что и системным плеером.\n\nИсходный код открыт.",
+    "en": "Vanilla Music is a player with a plain interface, close to Android's stock music app.\n\nYou can browse by folder, build a queue, and skip tracks by shaking the phone. It handles the same audio formats as the system player.\n\nThe source code is open.",
+    "tr": "Vanilla Music, Android'in yerleşik müzik uygulamasına yakın, yalın arayüzlü bir oynatıcıdır.\n\nKlasöre göre gezebilir, bir çalma kuyruğu kurabilir ve telefonu sallayarak parça atlayabilirsiniz. Sistem oynatıcısının desteklediği ses biçimlerini destekler.\n\nKaynak kodu açıktır.",
+    "uz": "Vanilla Music — Android'ning standart pleyeriga yaqin, sodda interfeysli musiqa pleyeri.\n\nPapkalar bo'yicha tinglash, ijro navbatini yig'ish va telefonni silkitib trek almashtirish mumkin. Formatlar tizim pleyeri qo'llab-quvvatlaydiganlari bilan bir xil.\n\nManba kodi ochiq."
+  },
+  "ch.blinkenlights.android.vanillaplug": {
+    "ru": "Дополнение запускает проигрыватель Vanilla Music, как только в телефон вставляют наушники.\n\nСлужба ждёт системного события о подключении гарнитуры и открывает плеер сама, так что музыка начинается без лишних действий.\n\nДля работы нужен установленный Vanilla Music. Исходный код открыт.",
+    "en": "This add-on starts the Vanilla Music player as soon as headphones are plugged into the phone.\n\nA service waits for the system's headset-plug event and opens the player itself, so the music begins without further action.\n\nIt requires Vanilla Music to be installed. The source code is open.",
+    "tr": "Bu eklenti, telefona kulaklık takılır takılmaz Vanilla Music oynatıcısını başlatır.\n\nBir hizmet, sistemin kulaklık takma olayını bekler ve oynatıcıyı kendisi açar; böylece müzik başka bir işlem gerekmeden başlar.\n\nVanilla Music'in kurulu olmasını gerektirir. Kaynak kodu açıktır.",
+    "uz": "Qo'shimcha telefonga quloqchin ulangan zahoti Vanilla Music pleyerini ishga tushiradi.\n\nXizmat tizimning quloqchin ulanishi haqidagi xabarini kutadi va pleyerni o'zi ochadi, shuning uchun musiqa qo'shimcha harakatsiz boshlanadi.\n\nIshlashi uchun Vanilla Music o'rnatilgan bo'lishi kerak. Manba kodi ochiq."
+  },
+  "ch.bubendorf.locusaddon.gsakdatabase": {
+    "ru": "Дополнение связывает базу тайников GSAK с картографическим приложением Locus.\n\nGSAK — программа для работы с геокешингом: в ней правят конечные точки тайников, добавляют заметки и вспомогательные точки, переносят тайники между базами. Это дополнение открывает такую базу прямо в Locus, на карте.\n\nИсходный код открыт.",
+    "en": "This add-on connects a GSAK geocache database to the Locus mapping app.\n\nGSAK is a geocache management program where you edit final waypoints, add notes and auxiliary points, and import or export caches. The add-on brings such a database into Locus, on the map.\n\nThe source code is open.",
+    "tr": "Bu eklenti, bir GSAK geocache veritabanını Locus harita uygulamasına bağlar.\n\nGSAK, geocache yönetim programıdır; son yol noktalarını düzenlediğiniz, not ve yardımcı noktalar eklediğiniz, cache'leri içe ve dışa aktardığınız yer. Eklenti böyle bir veritabanını harita üzerinde Locus'a taşır.\n\nKaynak kodu açıktır.",
+    "uz": "Qo'shimcha GSAK geokesh bazasini Locus xarita ilovasi bilan bog'laydi.\n\nGSAK — geokeshing bilan ishlash dasturi: unda yashirin joylarning oxirgi nuqtalari tahrirlanadi, izohlar va yordamchi nuqtalar qo'shiladi, keshlar bazalar orasida ko'chiriladi. Bu qo'shimcha shunday bazani to'g'ridan-to'g'ri Locus xaritasida ochadi.\n\nManba kodi ochiq."
+  },
+  "ch.cryptobit.letterbox": {
+    "ru": "LetterBox — игра для знакомства с буквами: на экране появляется животное, а задача — выбрать подходящую букву.\n\nИсходный код открыт.",
+    "en": "LetterBox is a game for learning letters: an animal appears on screen and the task is to pick the matching letter.\n\nThe source code is open.",
+    "tr": "LetterBox, harfleri öğrenmek için bir oyundur: ekranda bir hayvan belirir ve görev, ona uyan harfi bulmaktır.\n\nKaynak kodu açıktır.",
+    "uz": "LetterBox — harflar bilan tanishish o'yni: ekranda hayvon paydo bo'ladi, vazifa esa mos harfni tanlash.\n\nManba kodi ochiq."
+  },
+  "ch.digitale_gesellschaft.winterkongress.schedule": {
+    "ru": "Приложение показывает программу Winterkongress 2026 — конференции о цифровых правах, которая проходит 20 и 21 февраля.\n\nМероприятие организуют объединение Digitale Gesellschaft и культурный центр Rote Fabrik.\n\nИсходный код открыт.",
+    "en": "This app carries the programme for Winterkongress 2026, a conference on digital rights held on 20 and 21 February.\n\nThe event is run jointly by the Digitale Gesellschaft association and the Rote Fabrik cultural centre.\n\nThe source code is open.",
+    "tr": "Bu uygulama, 20-21 Şubat'ta düzenlenen dijital haklar konferansı Winterkongress 2026'nın programını taşır.\n\nEtkinlik, Digitale Gesellschaft derneği ile Rote Fabrik kültür merkezinin ortak yapımıdır.\n\nKaynak kodu açıktır.",
+    "uz": "Ilova 20 va 21 fevralda o'tadigan raqamli huquqlar konferensiyasi Winterkongress 2026 dasturini ko'rsatadi.\n\nTadbirni Digitale Gesellschaft uyushmasi va Rote Fabrik madaniyat markazi birgalikda tashkil etadi.\n\nManba kodi ochiq."
+  },
+  "ch.famoser.mensa": {
+    "ru": "Приложение показывает меню студенческих столовых ETH и Цюрихского университета — на сегодня, на текущую неделю и на следующую.\n\nУ каждого блюда есть фотография и подробности, включая сведения об аллергенах. Список столовых сортируется так, как удобно вам.\n\nИсходный код открыт.",
+    "en": "This app shows the menus of the ETH and University of Zurich canteens — for today, this week and next.\n\nEach dish comes with a picture and details, allergy information included. The list of canteens can be sorted to suit you.\n\nThe source code is open.",
+    "tr": "Bu uygulama, ETH ve Zürih Üniversitesi yemekhanelerinin menülerini gösterir — bugün, bu hafta ve gelecek hafta için.\n\nHer yemeğin bir fotoğrafı ve ayrıntıları vardır; alerji bilgileri de buna dâhildir. Yemekhane listesi size uyacak biçimde sıralanabilir.\n\nKaynak kodu açıktır.",
+    "uz": "Ilova ETH va Syurix universiteti talabalar oshxonalari menyusini ko'rsatadi — bugunga, shu haftaga va keyingi haftaga.\n\nHar bir taomning surati va tafsilotlari, jumladan allergenlar haqidagi ma'lumot bor. Oshxonalar ro'yxatini o'zingizga qulay tarzda saralash mumkin.\n\nManba kodi ochiq."
+  },
+  "ch.gassenarbeit.bern.your.rights": {
+    "ru": "«Deine Rechte» объясняет, какие права есть у человека при встрече с полицией, прокуратурой и частными охранными службами в Швейцарии.\n\nСправочник исходит из того, что и у этих служб есть границы полномочий: зная их, проще держаться спокойно и не поддаваться давлению.\n\nПриложение подготовлено организацией социальной уличной работы в Берне. Исходный код открыт.",
+    "en": "Deine Rechte explains what rights you have when dealing with the police, prosecutors and private security services in Switzerland.\n\nIts premise is that these services have limits too: knowing them makes it easier to stay calm and harder to be intimidated.\n\nThe app comes from a street social work organisation in Bern. The source code is open.",
+    "tr": "Deine Rechte, İsviçre'de polisle, savcılarla ve özel güvenlik hizmetleriyle karşılaştığınızda hangi haklara sahip olduğunuzu anlatır.\n\nÇıkış noktası şudur: bu birimlerin de yetki sınırları vardır; bunları bilmek sakin kalmayı kolaylaştırır ve yıldırılmayı zorlaştırır.\n\nUygulama Bern'deki bir sokak sosyal çalışması kuruluşunca hazırlanmıştır. Kaynak kodu açıktır.",
+    "uz": "\"Deine Rechte\" Shveytsariyada politsiya, prokuratura va xususiy qo'riqlash xizmatlari bilan uchrashganda odamning qanday huquqlari borligini tushuntiradi.\n\nMa'lumotnoma shundan kelib chiqadi: bu xizmatlarning ham vakolat chegarasi bor; ularni bilgan odam osonroq xotirjam qoladi va bosimga kamroq beriladi.\n\nIlova Berndagi ko'cha ijtimoiy ishi tashkiloti tomonidan tayyorlangan. Manba kodi ochiq."
+  },
+  "ch.hgdev.toposuite": {
+    "ru": "TopoSuite помогает геодезистам вычислять координаты новых точек по сделанным измерениям.\n\nВ приложении собраны расчёты, которые обычно нужны в поле, — от засечек до пересчёта координат, — так что часть работы можно выполнить прямо на месте.\n\nИсходный код открыт.",
+    "en": "TopoSuite helps land surveyors work out the coordinates of new points from their measurements.\n\nIt gathers the calculations usually needed in the field — intersections, resections, coordinate conversions — so part of the work can be done on the spot.\n\nThe source code is open.",
+    "tr": "TopoSuite, haritacıların ölçümlerinden yeni noktaların koordinatlarını hesaplamasına yardım eder.\n\nArazide genellikle gereken hesapları bir araya getirir — kestirmeler, geriden kestirme, koordinat dönüşümleri — böylece işin bir bölümü yerinde yapılabilir.\n\nKaynak kodu açıktır.",
+    "uz": "TopoSuite geodezistlarga o'lchovlar asosida yangi nuqtalar koordinatalarini hisoblashga yordam beradi.\n\nIlovada dala ishida odatda kerak bo'ladigan hisob-kitoblar to'plangan — kesishmalardan koordinatalarni qayta hisoblashgacha — shuning uchun ishning bir qismini joyning o'zida bajarish mumkin.\n\nManba kodi ochiq."
+  },
+  "ch.ihdg.calendarcolor": {
+    "ru": "Calendar Color меняет цвет календаря в Android 6 и новее — того, который сам по себе перекрасить нельзя.\n\nПриложение проверялось на календарях с сервера Baikal. Автор предупреждает: приложение Google Calendar показывает заданный цвет с небольшим отличием от выбранного.\n\nИсходный код открыт.",
+    "en": "Calendar Color changes the colour of a calendar on Android 6 and later — one that cannot otherwise be recoloured.\n\nIt has been tested with calendars served by Baikal. The author notes that the Google Calendar app renders the colour slightly differently from what you pick.\n\nThe source code is open.",
+    "tr": "Calendar Color, Android 6 ve sonrasında bir takvimin rengini değiştirir; başka türlü rengi değiştirilemeyen bir takvimin.\n\nBaikal sunucusundan gelen takvimlerle sınanmıştır. Geliştirici, Google Takvim uygulamasının rengi seçtiğinizden biraz farklı gösterdiğini belirtir.\n\nKaynak kodu açıktır.",
+    "uz": "Calendar Color Android 6 va undan yangi versiyalarda kalendar rangini o'zgartiradi — o'zicha qayta bo'yab bo'lmaydiganini.\n\nIlova Baikal serveridagi kalendarlarda sinalgan. Muallif ogohlantiradi: Google Calendar ilovasi belgilangan rangni tanlanganidan biroz farqli ko'rsatadi.\n\nManba kodi ochiq."
+  },
+  "ch.joshuah.bibleverseapp": {
+    "ru": "Bible Verse App присылает библейский стих на каждый день, на нескольких языках.\n\nСтих выводится виджетом на домашний экран и приходит уведомлением, а понравившийся можно отправить кому-нибудь.\n\nИсходный код открыт.",
+    "en": "Bible Verse App offers a Bible verse for each day, in several languages.\n\nThe verse appears in a home screen widget and arrives as a notification, and one you like can be passed on to someone.\n\nThe source code is open.",
+    "tr": "Bible Verse App, her gün için birkaç dilde bir İncil ayeti sunar.\n\nAyet ana ekran widget'ında görünür ve bildirim olarak gelir; beğendiğiniz birini birine gönderebilirsiniz.\n\nKaynak kodu açıktır.",
+    "uz": "Bible Verse App har kun uchun bir necha tilda Bibliya oyatini beradi.\n\nOyat asosiy ekrandagi vidjetda chiqadi va bildirishnoma sifatida keladi, yoqqanini esa birovga yuborish mumkin.\n\nManba kodi ochiq."
   }
 }
