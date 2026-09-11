@@ -3016,5 +3016,197 @@
     "en": "IED is Minesweeper moved into three dimensions: instead of a square with eight neighbours, you get a cube where each cell has twenty-six.\n\nThe cubes come in several sizes, so the difficulty grows with the volume you have to hold in your head.\n\nThe source code is open.",
     "tr": "IED, üç boyuta taşınmış bir Mayın Tarlasıdır: sekiz komşulu bir kare yerine, her hücresinin yirmi altı komşusu olan bir küp.\n\nKüpler farklı boyutlarda gelir; zorluk da kafanızda tutmanız gereken hacimle birlikte artar.\n\nKaynak kodu açıktır.",
     "uz": "IED — uch o'lchovga ko'chirilgan mina qidiruvchi: sakkiz qo'shnisi bor katak o'rniga, har bir katagining yigirma oltita qo'shnisi bo'lgan kub.\n\nKublar turli o'lchamda bo'ladi, shuning uchun qiyinlik xayolda tutish kerak bo'lgan hajm bilan birga oshadi.\n\nManba kodi ochiq."
+  },
+  "at.krixec.rosary": {
+    "ru": "Rosarium ведёт по молитвам розария, подсказывая, что читается на каждом шаге.\n\nАвтор делал упор на удобство чтения: переходы между десятками устроены так, чтобы не сбиваться и не искать место, на котором остановился.\n\nИсходный код открыт.",
+    "en": "Rosarium guides you through the prayers of the rosary, showing what comes at each step.\n\nThe author's emphasis is on the reading experience: the transitions between decades are laid out so you do not lose your place.\n\nThe source code is open.",
+    "tr": "Rosarium, tespih dualarında size yol gösterir ve her adımda neyin okunacağını belirtir.\n\nGeliştirici okuma deneyimine ağırlık vermiştir: onluklar arasındaki geçişler, kaldığınız yeri kaybetmeyecek biçimde düzenlenmiştir.\n\nKaynak kodu açıktır.",
+    "uz": "Rosarium rozariy ibodatlari bo'ylab yetaklaydi va har bir bosqichda nima o'qilishini ko'rsatadi.\n\nMuallif o'qish qulayligiga urg'u bergan: o'nliklar orasidagi o'tishlar to'xtagan joyingizni yo'qotmaydigan qilib tuzilgan.\n\nManba kodi ochiq."
+  },
+  "at.linuxtage.Eventfahrplan": {
+    "ru": "Приложение показывает программу Grazer Linuxtage — ежегодной двухдневной конференции об открытом программном обеспечении и оборудовании, которая проходит в австрийском Граце.\n\nВ пятницу на конференции идут мастер-классы, в расписании видно, что и когда начинается.\n\nИсходный код открыт.",
+    "en": "This app carries the programme for the Grazer Linuxtage, the annual two-day conference on open source software and hardware held in Graz, Austria.\n\nFridays at the conference are given over to workshops, and the schedule shows what starts when.\n\nThe source code is open.",
+    "tr": "Bu uygulama, Avusturya'nın Graz kentinde düzenlenen, açık kaynaklı yazılım ve donanım üzerine yıllık iki günlük konferans Grazer Linuxtage'ın programını taşır.\n\nKonferansta cuma günleri atölyelere ayrılmıştır; programda neyin ne zaman başladığı görünür.\n\nKaynak kodu açıktır.",
+    "uz": "Ilova Avstriyaning Gras shahrida o'tadigan, ochiq dasturiy ta'minot va uskunalarga bag'ishlangan yillik ikki kunlik Grazer Linuxtage konferensiyasi dasturini ko'rsatadi.\n\nKonferensiyada juma kunlari mahorat darslariga ajratilgan, jadvalda nima qachon boshlanishi ko'rinadi.\n\nManba kodi ochiq."
+  },
+  "at.manuelbichler.octalsuntime": {
+    "ru": "Octal Sun Time показывает время в восьмеричной солнечной системе счёта — сутками здесь считается промежуток между двумя солнечными полуночями, а само время делится на восемь частей вместо привычных двадцати четырёх часов.\n\nПоскольку отсчёт привязан к солнцу, показания зависят от выбранной точки на карте.\n\nИсходный код открыт.",
+    "en": "Octal Sun Time shows the time in an octal solar system: a day is the span between two consecutive solar midnights, and it is divided into eight parts instead of the usual twenty-four hours.\n\nBecause the reckoning follows the sun, the reading depends on the location you pick.\n\nThe source code is open.",
+    "tr": "Octal Sun Time, saati sekizlik güneş sisteminde gösterir: bir gün, ardışık iki güneş gece yarısı arasındaki süredir ve alışıldık yirmi dört saat yerine sekiz parçaya bölünür.\n\nSayım güneşe bağlı olduğundan, gösterge seçtiğiniz konuma göre değişir.\n\nKaynak kodu açıktır.",
+    "uz": "Octal Sun Time vaqtni sakkizlik quyosh tizimida ko'rsatadi: bu yerda sutka ikki quyosh yarim tuni orasidagi oraliq hisoblanadi va odatdagi yigirma to'rt soat o'rniga sakkiz qismga bo'linadi.\n\nHisob quyoshga bog'langani uchun ko'rsatkich siz tanlagan joyga qarab o'zgaradi.\n\nManba kodi ochiq."
+  },
+  "at.or.at.plugoffairplane": {
+    "ru": "Plug Off Airplane выключает режим полёта, когда к телефону подключают кабель USB.\n\nЗамысел в том, чтобы режим полёта хотя бы раз в сутки гарантированно снимался — например, дома на зарядке, — и телефон не остался надолго без связи незаметно для владельца.\n\nПриложение совсем небольшое. Исходный код открыт.",
+    "en": "Plug Off Airplane switches airplane mode off when a USB cable is plugged into the phone.\n\nThe idea is that airplane mode comes off at least once a day for certain — on the charger at home, say — so the phone does not sit cut off without its owner noticing.\n\nThe app is very small. The source code is open.",
+    "tr": "Plug Off Airplane, telefona USB kablosu takıldığında uçak kipini kapatır.\n\nAmaç, uçak kipinin günde en az bir kez kesin olarak kalkması — örneğin evde şarjdayken — ve telefonun sahibi fark etmeden uzun süre bağlantısız kalmaması.\n\nUygulama çok küçüktür. Kaynak kodu açıktır.",
+    "uz": "Plug Off Airplane telefonga USB kabeli ulanganda parvoz tartibini o'chiradi.\n\nMaqsad — parvoz tartibi kuniga kamida bir marta aniq olib tashlanishi, masalan uyda quvvat olayotganda, va telefon egasi sezmagan holda uzoq vaqt aloqasiz qolmasligi.\n\nIlova juda kichik. Manba kodi ochiq."
+  },
+  "at.priv.graf.zazentimer": {
+    "ru": "Zazen Meditation Timer отсчитывает время медитации и составляется из нескольких отрезков — например, сидение, ходьба, снова сидение.\n\nПереходы отмечаются записями настоящего колокола. Отсчёт продолжается, когда экран погашен, поэтому таймер не собьётся посреди сидения.\n\nИсходный код открыт.",
+    "en": "Zazen Meditation Timer counts out a meditation session built from several sections — sitting, walking, sitting again, for instance.\n\nTransitions are marked with recordings of a real bell. The count keeps running with the screen off, so the timer will not falter mid-session.\n\nThe source code is open.",
+    "tr": "Zazen Meditation Timer, birkaç bölümden kurulu bir meditasyon oturumunu sayar — örneğin oturma, yürüme, yeniden oturma.\n\nGeçişler gerçek bir çan kaydıyla işaretlenir. Sayım ekran kapalıyken de sürer; böylece zamanlayıcı oturumun ortasında şaşmaz.\n\nKaynak kodu açıktır.",
+    "uz": "Zazen Meditation Timer bir nechta bo'lakdan tuzilgan meditatsiya mashg'ulotini sanaydi — masalan, o'tirish, yurish, yana o'tirish.\n\nO'tishlar haqiqiy qo'ng'iroq yozuvlari bilan belgilanadi. Sanoq ekran o'chiq holda ham davom etadi, shuning uchun taymer mashg'ulot o'rtasida adashmaydi.\n\nManba kodi ochiq."
+  },
+  "at.techbee.jtx": {
+    "ru": "jtx Board держит в одном месте три вида записей стандарта iCalendar: дневниковые записи, заметки и задачи.\n\nЗаписи связываются между собой, так что заметка может относиться к задаче, а задача — к записи в дневнике.\n\nДля синхронизации с собственным сервером CalDAV приложение работает в паре с DAVx⁵. Исходный код открыт.",
+    "en": "jtx Board keeps three kinds of iCalendar entries in one place: journals, notes and tasks.\n\nEntries can be linked to one another, so a note can belong to a task and a task to a journal entry.\n\nFor syncing with your own CalDAV server it works together with DAVx⁵. The source code is open.",
+    "tr": "jtx Board, iCalendar standardının üç tür kaydını tek yerde tutar: günlükler, notlar ve görevler.\n\nKayıtlar birbirine bağlanabilir; böylece bir not bir göreve, bir görev de bir günlük kaydına ait olabilir.\n\nKendi CalDAV sunucunuzla eşitleme için DAVx⁵ ile birlikte çalışır. Kaynak kodu açıktır.",
+    "uz": "jtx Board iCalendar standartining uch turdagi yozuvini bir joyda saqlaydi: kundalik yozuvlari, eslatmalar va vazifalar.\n\nYozuvlarni bir-biriga bog'lash mumkin, shunda eslatma vazifaga, vazifa esa kundalik yozuviga tegishli bo'ladi.\n\nO'z CalDAV serveringiz bilan sinxronlash uchun ilova DAVx⁵ bilan juftlikda ishlaydi. Manba kodi ochiq."
+  },
+  "at.tomtasche.reader": {
+    "ru": "OpenDocument Reader открывает документы, созданные в LibreOffice и OpenOffice, и позволяет вносить в них правки с телефона.\n\nПоддерживаются форматы OpenDocument — текстовые документы, таблицы и презентации, — то есть файлы, которые обычные офисные приложения на телефоне часто показывают неправильно.\n\nИсходный код открыт.",
+    "en": "OpenDocument Reader opens documents made in LibreOffice and OpenOffice and lets you edit them from the phone.\n\nIt handles the OpenDocument formats — text documents, spreadsheets and presentations — the kind of files that ordinary mobile office apps often render badly.\n\nThe source code is open.",
+    "tr": "OpenDocument Reader, LibreOffice ve OpenOffice'te oluşturulmuş belgeleri açar ve telefondan düzenlemenize izin verir.\n\nOpenDocument biçimlerini — metin belgeleri, hesap tabloları ve sunumlar — işler; bunlar sıradan mobil ofis uygulamalarının çoğu zaman hatalı gösterdiği dosyalardır.\n\nKaynak kodu açıktır.",
+    "uz": "OpenDocument Reader LibreOffice va OpenOffice da yaratilgan hujjatlarni ochadi va ularni telefondan tahrirlash imkonini beradi.\n\nOpenDocument formatlari — matn hujjatlari, jadvallar va taqdimotlar — qo'llab-quvvatlanadi; bular oddiy mobil ofis ilovalari ko'pincha noto'g'ri ko'rsatadigan fayllar.\n\nManba kodi ochiq."
+  },
+  "atm.nasaimages": {
+    "ru": "NASA Images показывает случайный снимок из открытой медиатеки NASA вместе с его описанием и сопутствующими сведениями.\n\nПонравившийся кадр можно скачать или отправить кому-нибудь.\n\nИсходный код открыт.",
+    "en": "NASA Images pulls a random picture from NASA's public image and video library and shows it with its description and related details.\n\nA picture you like can be downloaded or passed on to someone.\n\nThe source code is open.",
+    "tr": "NASA Images, NASA'nın açık görüntü ve video kitaplığından rastgele bir resim seçer ve onu açıklaması ile ilgili bilgileriyle birlikte gösterir.\n\nBeğendiğiniz bir kare indirilebilir ya da birine gönderilebilir.\n\nKaynak kodu açıktır.",
+    "uz": "NASA Images NASA ning ochiq surat va video kutubxonasidan tasodifiy kadrni oladi va uni tavsifi hamda tegishli ma'lumotlari bilan ko'rsatadi.\n\nYoqqan kadrni yuklab olish yoki birovga yuborish mumkin.\n\nManba kodi ochiq."
+  },
+  "atm.rocketguardian": {
+    "ru": "Rocket Guardian — игра, в которой нужно защищать город от падающих сверху зомби.\n\nИсходный код открыт.",
+    "en": "Rocket Guardian is a game in which you defend a city from zombies falling out of the sky.\n\nThe source code is open.",
+    "tr": "Rocket Guardian, gökten düşen zombilere karşı bir şehri savunduğunuz bir oyundur.\n\nKaynak kodu açıktır.",
+    "uz": "Rocket Guardian — tepadan tushayotgan zombilardan shaharni himoya qilish kerak bo'lgan o'yin.\n\nManba kodi ochiq."
+  },
+  "au.com.wallaceit.reddinator": {
+    "ru": "Reddinator выносит ленту Reddit на домашний экран виджетом.\n\nВ виджете показывается любой выбранный субреддит: его можно найти поиском или взять из списка популярных, а те, к которым возвращаетесь чаще всего, сохранить отдельно.\n\nИсходный код открыт.",
+    "en": "Reddinator puts a Reddit feed on your home screen as a widget.\n\nThe widget can show any subreddit — found by search or picked from the popular ones — and the ones you return to most can be saved separately.\n\nThe source code is open.",
+    "tr": "Reddinator, bir Reddit akışını widget olarak ana ekranınıza koyar.\n\nWidget istediğiniz subreddit'i gösterebilir; arayarak bulabilir ya da popüler olanlardan seçebilirsiniz, en sık döndüklerinizi ayrıca kaydedebilirsiniz.\n\nKaynak kodu açıktır.",
+    "uz": "Reddinator Reddit lentasini vidjet sifatida asosiy ekranga chiqaradi.\n\nVidjetda istalgan subreddit ko'rsatiladi: uni qidirib topish yoki mashhurlari ro'yxatidan olish mumkin, eng ko'p qaytadiganlaringizni alohida saqlab qo'ysa bo'ladi.\n\nManba kodi ochiq."
+  },
+  "au.id.colby.nfcquicksettings": {
+    "ru": "NFC Quick Settings показывает, включён ли сейчас NFC, и переключает его за минимальное число нажатий.\n\nПолезно, если NFC приходится включать и выключать регулярно, а идти за этим каждый раз в настройки долго.\n\nПриложение небольшое, с открытым исходным кодом.",
+    "en": "NFC Quick Settings shows whether NFC is currently on and toggles it in as few taps as possible.\n\nIt helps if you switch NFC on and off regularly and find the trip into the settings each time tedious.\n\nThe app is small and open source.",
+    "tr": "NFC Quick Settings, NFC'nin o an açık olup olmadığını gösterir ve onu mümkün olan en az dokunuşla açıp kapatır.\n\nNFC'yi düzenli olarak açıp kapatıyorsanız ve her seferinde ayarlara gitmeyi zahmetli buluyorsanız işinize yarar.\n\nUygulama küçüktür ve kaynak kodu açıktır.",
+    "uz": "NFC Quick Settings NFC hozir yoqilganmi yoki yo'qmi ko'rsatadi va uni eng kam bosish bilan almashtiradi.\n\nNFC ni muntazam yoqib-o'chirib turadigan, har safar sozlamalarga kirishni uzoq deb biladiganlar uchun qulay.\n\nIlova kichik, manba kodi ochiq."
+  },
+  "audio.omgsoundboard": {
+    "ru": "OMGSoundboard собирает короткие звуки на одном экране, чтобы включать нужный в нужный момент.\n\nСобственные наборы можно составить самому, добавив свои записи.\n\nИсходный код открыт.",
+    "en": "OMGSoundboard puts short sound clips on a single screen so you can fire off the right one at the right moment.\n\nYou can build your own boards by adding your own recordings.\n\nThe source code is open.",
+    "tr": "OMGSoundboard, kısa ses kliplerini tek bir ekranda toplar; böylece doğru olanı doğru anda çalabilirsiniz.\n\nKendi kayıtlarınızı ekleyerek kendi panolarınızı oluşturabilirsiniz.\n\nKaynak kodu açıktır.",
+    "uz": "OMGSoundboard qisqa ovozlarni bitta ekranga yig'adi, shunda keraklisini kerakli paytda yoqish mumkin bo'ladi.\n\nO'z yozuvlaringizni qo'shib, o'zingizning to'plamlaringizni tuzishingiz mumkin.\n\nManba kodi ochiq."
+  },
+  "aws.apps.usbDeviceEnumerator": {
+    "ru": "USB Device Info перечисляет USB-устройства, подключённые к телефону в режиме хоста.\n\nПо каждому видно класс устройства, путь в системе, идентификаторы производителя и модели (VID и PID) и список интерфейсов — то, что нужно, когда разбираешься, почему устройство не определяется.\n\nИсходный код открыт.",
+    "en": "USB Device Info lists the USB devices attached to the phone in host mode.\n\nFor each one it shows the device class, its path in the system, the vendor and product identifiers (VID and PID) and the list of interfaces — the details you need when working out why something is not being recognised.\n\nThe source code is open.",
+    "tr": "USB Device Info, ana makine kipinde telefona bağlı USB aygıtlarını listeler.\n\nHer biri için aygıt sınıfını, sistemdeki yolunu, üretici ve ürün kimliklerini (VID ve PID) ve arayüz listesini gösterir; bir aygıtın neden tanınmadığını çözerken gereken ayrıntılar bunlardır.\n\nKaynak kodu açıktır.",
+    "uz": "USB Device Info xost tartibida telefonga ulangan USB qurilmalarni sanab beradi.\n\nHar biri uchun qurilma sinfi, tizimdagi yo'li, ishlab chiqaruvchi va mahsulot identifikatorlari (VID va PID) hamda interfeyslar ro'yxati ko'rsatiladi — qurilma nega aniqlanmayotganini tushunishda kerak bo'ladigan ma'lumotlar.\n\nManba kodi ochiq."
+  },
+  "axp.tool.apkextractor": {
+    "ru": "Apk Extractor достаёт установочные файлы APK из уже установленных на телефоне приложений, в том числе тех, что пришли из магазина.\n\nВыгружаются почти все программы, включая системные. Для платных приложений понадобится root-доступ.\n\nИсходный код открыт.",
+    "en": "Apk Extractor pulls the APK files out of apps already installed on the phone, including ones that came from the store.\n\nAlmost everything can be extracted, system apps included. Paid apps require root access.\n\nThe source code is open.",
+    "tr": "Apk Extractor, telefonda kurulu uygulamaların APK dosyalarını çıkarır; mağazadan gelenler de buna dâhildir.\n\nSistem uygulamaları da içinde olmak üzere neredeyse her şey çıkarılabilir. Ücretli uygulamalar için root erişimi gerekir.\n\nKaynak kodu açıktır.",
+    "uz": "Apk Extractor telefonga allaqachon o'rnatilgan ilovalardan, jumladan do'kondan kelganlaridan ham APK fayllarni ajratib oladi.\n\nDeyarli hamma dastur, shu jumladan tizim ilovalari ham chiqariladi. Pullik ilovalar uchun root huquqi kerak bo'ladi.\n\nManba kodi ochiq."
+  },
+  "background.work.around": {
+    "ru": "BackgroundWorkAround помогает другим приложениям продолжать работать в фоне на прошивках, которые агрессивно выгружают их из памяти.\n\nЭто заметно на телефонах, где система ради экономии батареи закрывает будильники, трекеры и мессенджеры раньше, чем следовало бы.\n\nИсходный код открыт.",
+    "en": "BackgroundWorkAround helps other apps keep running in the background on firmware that aggressively kills them.\n\nIt matters on phones where the system, in the name of battery life, shuts down alarms, trackers and messengers earlier than it should.\n\nThe source code is open.",
+    "tr": "BackgroundWorkAround, uygulamaları saldırgan biçimde sonlandıran yazılımlarda diğer uygulamaların arka planda çalışmayı sürdürmesine yardım eder.\n\nBu, sistemin pil ömrü adına alarmları, izleyicileri ve mesajlaşma uygulamalarını olması gerekenden erken kapattığı telefonlarda önem kazanır.\n\nKaynak kodu açıktır.",
+    "uz": "BackgroundWorkAround ilovalarni keskin yopib tashlaydigan proshivkalarda boshqa dasturlarning fonda ishlashda davom etishiga yordam beradi.\n\nBu tizim batareyani tejash uchun budilnik, kuzatuvchi va messenjerlarni kerakidan erta yopadigan telefonlarda sezilarli bo'ladi.\n\nManba kodi ochiq."
+  },
+  "barilyuk.batterytemperature": {
+    "ru": "BatteryTemperatureDisplay постоянно показывает температуру аккумулятора.\n\nЗначение выводится значком в строке состояния и дублируется в уведомлении, так что видно его и во время работы с другими приложениями.\n\nИсходный код открыт.",
+    "en": "BatteryTemperatureDisplay keeps the battery temperature on screen at all times.\n\nThe reading appears as an icon in the status bar and is repeated in a notification, so it stays visible while you use other apps.\n\nThe source code is open.",
+    "tr": "BatteryTemperatureDisplay, pil sıcaklığını her an ekranda tutar.\n\nDeğer, durum çubuğunda bir simge olarak görünür ve bir bildirimde yinelenir; böylece başka uygulamaları kullanırken de görünür kalır.\n\nKaynak kodu açıktır.",
+    "uz": "BatteryTemperatureDisplay batareya haroratini doimo ekranda ko'rsatib turadi.\n\nQiymat holat qatorida belgi sifatida chiqadi va bildirishnomada takrorlanadi, shuning uchun boshqa ilovalar bilan ishlayotganda ham ko'rinib turadi.\n\nManba kodi ochiq."
+  },
+  "barilyuk.mobilosignal": {
+    "ru": "MobiloSignal постоянно показывает уровень сигнала сотовой сети в дБм — точным числом, а не привычными палочками.\n\nЗначение выводится значком в строке состояния и дублируется в уведомлении, поэтому видно его и во время работы с другими приложениями. Это удобно, когда ищешь место с устойчивым приёмом.\n\nИсходный код открыт.",
+    "en": "MobiloSignal keeps the cellular signal strength on screen in dBm — an exact figure rather than the usual bars.\n\nThe reading appears as a status bar icon and is repeated in a notification, so it stays visible while you use other apps. Handy when you are hunting for a spot with steady reception.\n\nThe source code is open.",
+    "tr": "MobiloSignal, hücresel sinyal gücünü dBm cinsinden sürekli gösterir — alışıldık çubuklar yerine kesin bir sayı olarak.\n\nDeğer durum çubuğunda bir simge olarak görünür ve bir bildirimde yinelenir; böylece başka uygulamaları kullanırken de görünür kalır. Sağlam çekim yeri ararken işe yarar.\n\nKaynak kodu açıktır.",
+    "uz": "MobiloSignal uyali tarmoq signali kuchini dBm da doimo ko'rsatib turadi — odatdagi tayoqchalar emas, aniq son ko'rinishida.\n\nQiymat holat qatorida belgi sifatida chiqadi va bildirishnomada takrorlanadi, shuning uchun boshqa ilovalar bilan ishlayotganda ham ko'rinadi. Barqaror qabul qiladigan joy qidirganda qulay.\n\nManba kodi ochiq."
+  },
+  "barilyuk.texetescribe": {
+    "ru": "TeXeTeScribe открывает и правит текстовые файлы — то, чего в Android из коробки нет.\n\nПапка с файлами при этом работает как блокнот: записи лежат рядом, но остаются обычными файлами, которые прочтёт любой редактор и без этого приложения.\n\nИсходный код открыт.",
+    "en": "TeXeTeScribe opens and edits plain text files — something Android does not provide out of the box.\n\nA folder of files doubles as a notebook: the entries sit together, yet stay ordinary files that any editor can read without this app.\n\nThe source code is open.",
+    "tr": "TeXeTeScribe, düz metin dosyalarını açar ve düzenler; Android'in kutudan çıkmayan bir yeteneği.\n\nDosyaların bulunduğu klasör aynı zamanda bir defter gibi çalışır: kayıtlar bir arada durur ama bu uygulama olmadan da herhangi bir düzenleyicinin okuyabileceği sıradan dosyalar olarak kalır.\n\nKaynak kodu açıktır.",
+    "uz": "TeXeTeScribe matnli fayllarni ochadi va tahrirlaydi — Android'da qutidan chiqqan holida yo'q imkoniyat.\n\nFayllar turgan papka ayni paytda daftar vazifasini o'taydi: yozuvlar yonma-yon turadi, lekin bu ilovasiz ham har qanday muharrir o'qiy oladigan oddiy fayl bo'lib qoladi.\n\nManba kodi ochiq."
+  },
+  "be.bhasher.mobileinpact": {
+    "ru": "MobileInpact — неофициальный клиент французского издания NextInpact.\n\nСтатьи загружаются через ленту RSS и сохраняются на устройстве, поэтому читать их можно и без сети — например, в метро.\n\nПриложение сделано не редакцией издания. Исходный код открыт.",
+    "en": "MobileInpact is an unofficial client for the French publication NextInpact.\n\nArticles are fetched through the RSS feed and stored on the device, so they can be read offline — on the underground, for instance.\n\nThe app is not made by the publication itself. The source code is open.",
+    "tr": "MobileInpact, Fransız yayın organı NextInpact için resmî olmayan bir istemcidir.\n\nYazılar RSS akışı üzerinden alınır ve cihazda saklanır; böylece çevrimdışıyken de, örneğin metroda okunabilir.\n\nUygulama yayın organının kendisi tarafından yapılmamıştır. Kaynak kodu açıktır.",
+    "uz": "MobileInpact — fransuz nashri NextInpact uchun norasmiy mijoz.\n\nMaqolalar RSS lentasi orqali yuklanadi va qurilmada saqlanadi, shuning uchun ularni tarmoqsiz ham, masalan metroda o'qish mumkin.\n\nIlova nashrning o'zi tomonidan qilinmagan. Manba kodi ochiq."
+  },
+  "be.casperverswijvelt.unifiedinternetqs": {
+    "ru": "Better Internet Tiles возвращает в панель быстрых настроек отдельные переключатели Wi-Fi и мобильного интернета вместо объединённой кнопки «Интернет».\n\nПриложению нужен доступ к оболочке, который выдаётся через Shizuku или root.\n\nИсходный код открыт.",
+    "en": "Better Internet Tiles restores separate Wi-Fi and mobile data toggles to the quick settings panel, in place of the combined \"Internet\" button.\n\nThe app needs shell access, granted either through Shizuku or through root.\n\nThe source code is open.",
+    "tr": "Better Internet Tiles, birleşik \"İnternet\" düğmesi yerine hızlı ayarlar paneline ayrı Wi-Fi ve mobil veri anahtarlarını geri getirir.\n\nUygulama, Shizuku ya da root ile verilen kabuk erişimine ihtiyaç duyar.\n\nKaynak kodu açıktır.",
+    "uz": "Better Internet Tiles tezkor sozlamalar paneliga birlashtirilgan \"Internet\" tugmasi o'rniga alohida Wi-Fi va mobil internet almashtirgichlarini qaytaradi.\n\nIlovaga Shizuku yoki root orqali beriladigan qobiqqa kirish huquqi kerak.\n\nManba kodi ochiq."
+  },
+  "be.chvp.nanoledger": {
+    "ru": "NanoLedger вносит операции в бухгалтерию, которая ведётся обычным текстовым файлом: поддерживается синтаксис ledger и hledger.\n\nВсе проводки из файла можно просмотреть, а новую добавить в пару действий — при вводе подставляются счета и суммы, уже встречавшиеся раньше.\n\nИсходный код открыт.",
+    "en": "NanoLedger enters transactions into plain text accounting, supporting both the ledger and hledger syntax.\n\nYou can look through every transaction in the file and add a new one in a couple of steps — accounts and amounts you have used before are suggested as you type.\n\nThe source code is open.",
+    "tr": "NanoLedger, düz metin muhasebesine işlem girer; hem ledger hem hledger sözdizimini destekler.\n\nDosyadaki tüm işlemleri gözden geçirebilir ve birkaç adımda yenisini ekleyebilirsiniz; yazarken daha önce kullandığınız hesaplar ve tutarlar önerilir.\n\nKaynak kodu açıktır.",
+    "uz": "NanoLedger oddiy matn faylida yuritiladigan buxgalteriyaga amallarni kiritadi: ledger va hledger sintaksisi qo'llab-quvvatlanadi.\n\nFayldagi barcha o'tkazmalarni ko'rib chiqish va yangisini bir necha amalda qo'shish mumkin — kiritish paytida ilgari uchragan hisoblar va summalar taklif etiladi.\n\nManba kodi ochiq."
+  },
+  "be.digitalia.fosdem": {
+    "ru": "FOSDEM Companion показывает программу FOSDEM — крупной конференции о свободном программном обеспечении, которая ежегодно проходит в Брюсселе.\n\nРасписание скачивается целиком и дальше открывается без сети. Доклады просматриваются по дням и по тематическим потокам.\n\nИсходный код открыт.",
+    "en": "FOSDEM Companion carries the programme for FOSDEM, the large free software conference held in Brussels each year.\n\nThe schedule downloads in full and then opens without a connection. Sessions can be browsed by day and by track.\n\nThe source code is open.",
+    "tr": "FOSDEM Companion, her yıl Brüksel'de düzenlenen büyük özgür yazılım konferansı FOSDEM'in programını taşır.\n\nProgram bütünüyle indirilir ve sonrasında bağlantı olmadan açılır. Oturumlar güne ve konu başlığına göre gezilebilir.\n\nKaynak kodu açıktır.",
+    "uz": "FOSDEM Companion har yili Bryusselda o'tadigan yirik erkin dasturiy ta'minot konferensiyasi FOSDEM dasturini ko'rsatadi.\n\nJadval to'liq yuklab olinadi va keyin tarmoqsiz ochiladi. Ma'ruzalarni kunlar va mavzu yo'nalishlari bo'yicha ko'rish mumkin.\n\nManba kodi ochiq."
+  },
+  "be.humanoids.webthingify": {
+    "ru": "Webthingify выставляет датчики телефона наружу как web thing — устройство, которое понимает шлюз Mozilla IoT.\n\nПриложение поднимает на телефоне веб-сервер и обновляет показания фоновой службой, так что данные доступны, пока телефон включён.\n\nИсходный код открыт.",
+    "en": "Webthingify exposes the phone's sensors as a web thing — a device the Mozilla IoT gateway understands.\n\nThe app runs a web server on the phone and refreshes the readings from a foreground service, so the data stays available as long as the phone is on.\n\nThe source code is open.",
+    "tr": "Webthingify, telefonun algılayıcılarını Mozilla IoT ağ geçidinin anladığı bir web thing olarak dışarı açar.\n\nUygulama telefonda bir web sunucusu çalıştırır ve değerleri bir ön plan hizmetiyle tazeler; böylece telefon açık olduğu sürece veriler erişilebilir kalır.\n\nKaynak kodu açıktır.",
+    "uz": "Webthingify telefon sensorlarini Mozilla IoT shlyuzi tushunadigan web thing sifatida tashqariga ochadi.\n\nIlova telefonda veb-server ishga tushiradi va ko'rsatkichlarni fon xizmati orqali yangilab turadi, shuning uchun telefon yoqiq turganda ma'lumotlar ochiq qoladi.\n\nManba kodi ochiq."
+  },
+  "be.knars.netflixtoimdb": {
+    "ru": "NI ищет фильм или сериал на IMDb, когда вы делитесь им из приложения Netflix.\n\nДостаточно нажать «Поделиться» в Netflix и выбрать это приложение — название откроется на IMDb, в браузере или в самом приложении IMDb, если оно установлено.\n\nИсходный код открыт.",
+    "en": "NI looks a title up on IMDb when you share it from the Netflix app.\n\nTap share in Netflix and pick this app: the title opens on IMDb, either in a browser or in the IMDb app if you have it installed.\n\nThe source code is open.",
+    "tr": "NI, Netflix uygulamasından bir yapımı paylaştığınızda onu IMDb'de arar.\n\nNetflix'te paylaş düğmesine dokunup bu uygulamayı seçmeniz yeterli: yapım IMDb'de, tarayıcıda ya da kuruluysa IMDb uygulamasında açılır.\n\nKaynak kodu açıktır.",
+    "uz": "NI Netflix ilovasidan film yoki serialni ulashganingizda uni IMDb da qidiradi.\n\nNetflix'da \"Ulashish\" tugmasini bosib, shu ilovani tanlash kifoya — nom IMDb da, brauzerda yoki o'rnatilgan bo'lsa IMDb ilovasida ochiladi.\n\nManba kodi ochiq."
+  },
+  "be.moraine.yapl": {
+    "ru": "YAPL — лётная книжка для пилотов: учёт налёта, который остаётся на вашем устройстве.\n\nУчётной записи и облака здесь нет, сеть для работы не нужна и слежки тоже нет — записи о полётах никуда не уходят.\n\nПодходит и профессиональным пилотам, и авиации общего назначения. Исходный код открыт.",
+    "en": "YAPL is a flight logbook for pilots, keeping your hours on your own device.\n\nThere is no account and no cloud, no network is needed, and there is no tracking — the flight records go nowhere.\n\nIt suits professional pilots and general aviation alike. The source code is open.",
+    "tr": "YAPL, pilotlar için bir uçuş kayıt defteridir; saatlerinizi kendi cihazınızda tutar.\n\nHesap ve bulut yoktur, çalışmak için ağ gerekmez ve izleme de yoktur — uçuş kayıtları hiçbir yere gitmez.\n\nHem profesyonel pilotlara hem genel havacılığa uygundur. Kaynak kodu açıktır.",
+    "uz": "YAPL — uchuvchilar uchun parvoz daftari: uchish soatlari hisobi o'z qurilmangizda qoladi.\n\nHisob ham, bulut ham yo'q, ishlash uchun tarmoq kerak emas va kuzatuv ham yo'q — parvoz yozuvlari hech qayerga ketmaydi.\n\nHam kasbiy uchuvchilarga, ham umumiy aviatsiyaga mos. Manba kodi ochiq."
+  },
+  "be.mygod.vpnhotspot_foss": {
+    "ru": "VPN Hotspot раздаёт другим устройствам не просто интернет, а соединение через VPN, поднятый на телефоне.\n\nРаздача идёт точкой доступа, системным режимом модема или повторителем. Это выручает с техникой, которая сама подключаться к VPN не умеет, — телевизорами, приставками, старыми устройствами.\n\nДля работы нужен root-доступ. Исходный код открыт.",
+    "en": "VPN Hotspot shares not just the internet with other devices, but the VPN connection running on the phone.\n\nSharing goes through a hotspot, the system tethering, or a repeater. It helps with hardware that cannot connect to a VPN on its own — televisions, set-top boxes, older devices.\n\nRoot access is required. The source code is open.",
+    "tr": "VPN Hotspot, diğer cihazlarla yalnızca interneti değil, telefonda çalışan VPN bağlantısını paylaşır.\n\nPaylaşım bir erişim noktası, sistemin internet paylaşımı ya da bir yineleyici üzerinden yapılır. Kendi başına VPN'e bağlanamayan donanımlarda — televizyonlar, kutu cihazlar, eski aygıtlar — işe yarar.\n\nRoot erişimi gerekir. Kaynak kodu açıktır.",
+    "uz": "VPN Hotspot boshqa qurilmalarga shunchaki internetni emas, telefonda ishlayotgan VPN ulanishini tarqatadi.\n\nTarqatish kirish nuqtasi, tizim modem tartibi yoki takrorlagich orqali ketadi. Bu o'zi VPN ga ulana olmaydigan texnika — televizorlar, pristavkalar, eski qurilmalar uchun asqotadi.\n\nIshlash uchun root huquqi kerak. Manba kodi ochiq."
+  },
+  "be.ppareit.swiftp_free": {
+    "ru": "FTP Server поднимает на телефоне сервер FTP, чтобы открыть его файлы с компьютера по сети — без кабеля.\n\nСлово Demo в названии ярлыка означает лишь то, что сборка бесплатная, а не ограниченная по возможностям.\n\nИсходный код открыт.",
+    "en": "FTP Server runs an FTP server on the phone so its files can be reached from a computer over the network, with no cable involved.\n\nThe word Demo in the launcher name only means the build is free of charge, not that it is limited.\n\nThe source code is open.",
+    "tr": "FTP Server, telefonda bir FTP sunucusu çalıştırır; böylece dosyalara kablo olmadan, ağ üzerinden bir bilgisayardan erişilebilir.\n\nBaşlatıcıdaki Demo sözcüğü yalnızca sürümün ücretsiz olduğunu belirtir, kısıtlı olduğunu değil.\n\nKaynak kodu açıktır.",
+    "uz": "FTP Server telefonda FTP serverini ishga tushiradi, shunda uning fayllariga kompyuterdan tarmoq orqali, kabelsiz kirish mumkin bo'ladi.\n\nYorliq nomidagi Demo so'zi faqat yig'ma bepul ekanini bildiradi, imkoniyatlari cheklangan degani emas.\n\nManba kodi ochiq."
+  },
+  "be.ugent.zeus.hydra.open": {
+    "ru": "Hydra собирает в одном месте то, чем живёт студенческая жизнь Гентского университета: новости и мероприятия студенческих объединений, статьи издания Schamper, эфир радио Urgent.fm и меню студенческих столовых на сегодня.\n\nИсходный код открыт.",
+    "en": "Hydra gathers student life at Ghent University in one place: news and events from student associations, articles from the Schamper paper, the Urgent.fm radio stream, and today's menu at the student restaurants.\n\nThe source code is open.",
+    "tr": "Hydra, Gent Üniversitesi'ndeki öğrenci yaşamını tek yerde toplar: öğrenci derneklerinin haber ve etkinlikleri, Schamper gazetesinin yazıları, Urgent.fm radyo yayını ve öğrenci yemekhanelerinin günlük menüsü.\n\nKaynak kodu açıktır.",
+    "uz": "Hydra Gent universiteti talabalar hayotini bir joyga yig'adi: talabalar uyushmalarining yangiliklari va tadbirlari, Schamper nashri maqolalari, Urgent.fm radiosi efiri va talabalar oshxonalarining bugungi menyusi.\n\nManba kodi ochiq."
+  },
+  "bilalsul.rzr": {
+    "ru": "RZR скачивает исходный код проекта с GitHub, GitLab или Bitbucket и открывает его для чтения на телефоне.\n\nРепозиторий указывается в виде «владелец/название», после загрузки файлы доступны в редакторе с подсветкой — читать код можно и в дороге.\n\nИсходный код открыт.",
+    "en": "RZR downloads a project's source code from GitHub, GitLab or Bitbucket and opens it for reading on the phone.\n\nThe repository is given as owner/repo, and once fetched the files open in an editor view, so code can be read on the move.\n\nThe source code is open.",
+    "tr": "RZR, bir projenin kaynak kodunu GitHub, GitLab veya Bitbucket'ten indirir ve telefonda okumak üzere açar.\n\nDepo, sahip/depo biçiminde belirtilir; indirildikten sonra dosyalar bir düzenleyici görünümünde açılır, böylece kod yolda da okunabilir.\n\nKaynak kodu açıktır.",
+    "uz": "RZR loyihaning manba kodini GitHub, GitLab yoki Bitbucket dan yuklab oladi va uni telefonda o'qish uchun ochadi.\n\nRepozitoriya \"egasi/nomi\" ko'rinishida ko'rsatiladi, yuklangandan keyin fayllar muharrir ko'rinishida ochiladi — kodni yo'lda ham o'qish mumkin.\n\nManba kodi ochiq."
+  },
+  "bim.app": {
+    "ru": "Bim! — сетевая игра на выбывание: до четырёх игроков запираются на небольшой арене, и задача одна — остаться последним.\n\nИграют через интернет с другими людьми. Исходный код открыт.",
+    "en": "Bim! is an online last-man-standing game: up to four players are shut into a small arena with a single goal — to be the one left.\n\nMatches are played online against other people. The source code is open.",
+    "tr": "Bim!, çevrimiçi bir son ayakta kalan oyunudur: en fazla dört oyuncu küçük bir arenaya kapatılır ve tek amaç vardır — ayakta kalan olmak.\n\nMaçlar çevrimiçi olarak başka kişilere karşı oynanır. Kaynak kodu açıktır.",
+    "uz": "Bim! — chetlashtirish asosidagi tarmoq o'yini: to'rttagacha o'yinchi kichik maydonga qamaladi va maqsad bitta — oxirgi bo'lib qolish.\n\nO'yin internet orqali boshqa odamlar bilan o'ynaladi. Manba kodi ochiq."
+  },
+  "biz.binarysolutions.healthybatterycharging": {
+    "ru": "Healthy Battery Charging помогает держать литий-ионный аккумулятор в том диапазоне заряда, который продлевает его срок службы.\n\nСчитается, что заряжать лучше примерно от сорока до восьмидесяти процентов за один раз, а не подзаряжать понемногу в течение дня. Приложение следит за уровнем и подсказывает, когда пора ставить на зарядку и когда снимать.\n\nИсходный код открыт.",
+    "en": "Healthy Battery Charging helps keep a lithium-ion battery inside the charge range that extends its life.\n\nThe general advice is to charge from roughly forty to eighty percent in one go, rather than topping up in small bursts through the day. The app watches the level and tells you when to plug in and when to unplug.\n\nThe source code is open.",
+    "tr": "Healthy Battery Charging, lityum iyon pili ömrünü uzatan şarj aralığında tutmaya yardım eder.\n\nGenel öneri, gün boyunca küçük küçük tamamlamak yerine tek seferde yaklaşık yüzde kırktan yüzde seksene kadar şarj etmektir. Uygulama seviyeyi izler ve ne zaman fişe takıp ne zaman çıkaracağınızı söyler.\n\nKaynak kodu açıktır.",
+    "uz": "Healthy Battery Charging litiy-ion batareyani uning xizmat muddatini uzaytiradigan quvvat oralig'ida ushlab turishga yordam beradi.\n\nOdatda kun davomida ozgina-ozgina quvvatlash o'rniga, bir yo'la taxminan qirq foizdan sakson foizgacha quvvatlash tavsiya etiladi. Ilova darajani kuzatadi va qachon quvvatga qo'yish, qachon olishni aytadi.\n\nManba kodi ochiq."
+  },
+  "biz.binarysolutions.mindfulnessmeditation": {
+    "ru": "Mindfulness Meditation ведёт через практики осознанности голосом: сканирование тела, работа с дыханием, наблюдение за звуками и мыслями, трёхшаговая дыхательная пауза, осознанная ходьба и сидячая медитация.\n\nЕсть и получасовое занятие в тишине, без подсказок.\n\nИсходный код открыт.",
+    "en": "Mindfulness Meditation guides you through practice by voice: a body scan, breath and body, sounds and thoughts, the three-step breathing space, mindful walking and sitting meditation.\n\nThere is also a half-hour session in silence, with no guidance.\n\nThe source code is open.",
+    "tr": "Mindfulness Meditation, uygulamalarda sesle yol gösterir: beden taraması, nefes ve beden, sesler ve düşünceler, üç adımlı nefes molası, farkındalıkla yürüyüş ve oturarak meditasyon.\n\nAyrıca yönlendirme olmadan, sessizlikte geçen yarım saatlik bir oturum da vardır.\n\nKaynak kodu açıktır.",
+    "uz": "Mindfulness Meditation amaliyotlar bo'ylab ovoz bilan olib boradi: tanani kuzatish, nafas va tana, tovushlar va fikrlar, uch bosqichli nafas tanaffusi, ongli yurish va o'tirib meditatsiya qilish.\n\nYo'l-yo'riqsiz, sukunatda o'tadigan yarim soatlik mashg'ulot ham bor.\n\nManba kodi ochiq."
   }
 }
