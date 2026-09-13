@@ -4792,5 +4792,107 @@
     "en": "This pack adds a Ukrainian layout and dictionary to the AnySoftKeyboard keyboard.\n\nThe Ukrainian alphabet differs from the Russian one: it has і, ї, є and ґ, lacks ы, э and ъ, and reads и differently. A Russian layout will not serve.\n\nInstall AnySoftKeyboard first, then choose Ukrainian in its settings. The source code is open.",
     "tr": "Bu paket, AnySoftKeyboard klavyesine Ukraynaca düzen ve sözlük ekler.\n\nUkrayna alfabesi Rus alfabesinden ayrılır: і, ї, є ve ґ vardır; ы, э ve ъ yoktur; и harfi de başka türlü okunur. Rusça düzen iş görmez.\n\nÖnce AnySoftKeyboard kurulur, sonra ayarlarından Ukraynaca seçilir. Kaynak kodu açıktır.",
     "uz": "Paket AnySoftKeyboard klaviaturasiga ukrain tugmalar joylashuvi va lug'atini qo'shadi.\n\nUkrain kirill yozuvi rus yozuvidan farq qiladi: і, ї, є va ґ bor, ы, э va ъ yo'q, и harfi esa boshqacha o'qiladi. Rus joylashuvi bunga to'g'ri kelmaydi.\n\nAvval AnySoftKeyboard o'rnatiladi, keyin sozlamalarida ukrain tili tanlanadi. Manba kodi ochiq."
+  },
+  "com.anysoftkeyboard.theme.classic_pc": {
+    "ru": "Тема оформляет клавиатуру AnySoftKeyboard под классическую клавиатуру компьютера — с прямоугольными клавишами и строгими очертаниями.\n\nЭто дополнение: сначала ставится сама AnySoftKeyboard, затем тема выбирается в её настройках. Исходный код открыт.",
+    "en": "This theme gives the AnySoftKeyboard keyboard the look of a classic computer keyboard — rectangular keys and plain outlines.\n\nIt is an extension pack: install AnySoftKeyboard first, then pick the theme in its settings. The source code is open.",
+    "tr": "Bu tema, AnySoftKeyboard klavyesine klasik bir bilgisayar klavyesi görünümü verir: dikdörtgen tuşlar ve yalın hatlar.\n\nBir eklenti paketidir: önce AnySoftKeyboard kurulur, sonra tema ayarlarından seçilir. Kaynak kodu açıktır.",
+    "uz": "Mavzu AnySoftKeyboard klaviaturasini klassik kompyuter klaviaturasi ko'rinishiga keltiradi — to'rtburchak tugmalar va sodda chiziqlar bilan.\n\nBu qo'shimcha: avval AnySoftKeyboard o'rnatiladi, keyin mavzu uning sozlamalarida tanlanadi. Manba kodi ochiq."
+  },
+  "com.anysoftkeyboard.theme.ics": {
+    "ru": "Тема оформляет клавиатуру AnySoftKeyboard в стиле Ice Cream Sandwich — Android 4.0, где впервые появился строгий тёмный интерфейс с синими акцентами.\n\nЭто дополнение: сначала ставится сама AnySoftKeyboard, затем тема выбирается в её настройках. Исходный код открыт.",
+    "en": "This theme styles the AnySoftKeyboard keyboard after Ice Cream Sandwich — Android 4.0, where the spare dark interface with blue accents first appeared.\n\nIt is a theme pack: install AnySoftKeyboard first, then pick the theme in its settings. The source code is open.",
+    "tr": "Bu tema, AnySoftKeyboard klavyesini Ice Cream Sandwich biçemine büründürür; sade koyu arayüzün mavi vurgularla ilk göründüğü Android 4.0 sürümüdür.\n\nBir tema paketidir: önce AnySoftKeyboard kurulur, sonra tema ayarlarından seçilir. Kaynak kodu açıktır.",
+    "uz": "Mavzu AnySoftKeyboard klaviaturasini Ice Cream Sandwich uslubida bezaydi — bu Android 4.0 bo'lib, unda sodda qorong'i interfeys ko'k ranglar bilan birinchi marta paydo bo'lgan.\n\nBu qo'shimcha: avval AnySoftKeyboard o'rnatiladi, keyin mavzu uning sozlamalarida tanlanadi. Manba kodi ochiq."
+  },
+  "com.anysoftkeyboard.theme.israel64": {
+    "ru": "Тема оформляет клавиатуру AnySoftKeyboard к 64-й годовщине независимости Израиля.\n\nЭто дополнение: сначала ставится и включается сама AnySoftKeyboard, затем тема выбирается в её настройках. Исходный код открыт.",
+    "en": "This theme dresses the AnySoftKeyboard keyboard for Israel's 64th independence day.\n\nIt is an extension pack: install and activate AnySoftKeyboard first, then pick the theme in its settings. The source code is open.",
+    "tr": "Bu tema, AnySoftKeyboard klavyesini İsrail'in 64. bağımsızlık yıl dönümü için süsler.\n\nBir eklenti paketidir: önce AnySoftKeyboard kurulup etkinleştirilir, sonra tema ayarlarından seçilir. Kaynak kodu açıktır.",
+    "uz": "Mavzu AnySoftKeyboard klaviaturasini Isroil mustaqilligining 64 yilligiga bezaydi.\n\nBu qo'shimcha: avval AnySoftKeyboard o'rnatilib yoqiladi, keyin mavzu uning sozlamalarida tanlanadi. Manba kodi ochiq."
+  },
+  "com.anysoftkeyboard.theme.three_d": {
+    "ru": "Тема придаёт клавишам AnySoftKeyboard объём: они выглядят приподнятыми над поверхностью, с тенью по краю.\n\nЭто дополнение: сначала ставится сама AnySoftKeyboard, затем тема выбирается в её настройках. Исходный код открыт.",
+    "en": "This theme gives the AnySoftKeyboard keys depth: they appear raised above the surface, with a shadow along the edge.\n\nIt is an extension pack: install AnySoftKeyboard first, then pick the theme in its settings. The source code is open.",
+    "tr": "Bu tema, AnySoftKeyboard tuşlarına derinlik katar: tuşlar yüzeyden kabarık görünür ve kenarlarında gölge olur.\n\nBir eklenti paketidir: önce AnySoftKeyboard kurulur, sonra tema ayarlarından seçilir. Kaynak kodu açıktır.",
+    "uz": "Mavzu AnySoftKeyboard tugmalariga hajm beradi: ular yuzadan ko'tarilgandek, chetida soya bilan ko'rinadi.\n\nBu qo'shimcha: avval AnySoftKeyboard o'rnatiladi, keyin mavzu uning sozlamalarida tanlanadi. Manba kodi ochiq."
+  },
+  "com.apk.editor": {
+    "ru": "APK Explorer & Editor разбирает установленное приложение на составные части и показывает, что у него внутри.\n\nОткрываются манифест, ресурсы и прочие файлы пакета, а часть из них можно изменить и собрать обратно.\n\nПриложение с открытым исходным кодом.",
+    "en": "APK Explorer & Editor takes an installed app apart and shows what is inside it.\n\nThe manifest, the resources and the other files of the package can be opened, and some of them edited and repacked.\n\nThe app is open source.",
+    "tr": "APK Explorer & Editor, kurulu bir uygulamayı parçalarına ayırır ve içinde ne olduğunu gösterir.\n\nManifest, kaynaklar ve paketin diğer dosyaları açılabilir; bir bölümü düzenlenip yeniden paketlenebilir.\n\nUygulama açık kaynaklıdır.",
+    "uz": "APK Explorer & Editor o'rnatilgan ilovani tarkibiy qismlarga ajratadi va uning ichida nima borligini ko'rsatadi.\n\nManifest, resurslar va paketning boshqa fayllari ochiladi, ularning bir qismini o'zgartirib, qaytadan yig'sa bo'ladi.\n\nIlova ochiq kodli."
+  },
+  "com.apozas.contactdiary": {
+    "ru": "Contact Diary ведёт записи о том, с кем вы виделись и где бывали.\n\nЕсли позже выяснится, что вы заболели, по этим записям проще восстановить круг людей, которых стоит предупредить, — вспоминать неделю по памяти обычно не получается.\n\nЗаписи остаются на устройстве. Исходный код открыт.",
+    "en": "Contact Diary keeps a record of the people you have met and the places you have been.\n\nIf you later fall ill, those notes make it easier to reconstruct who ought to be told — recalling a whole week from memory rarely works.\n\nThe records stay on the device. The source code is open.",
+    "tr": "Contact Diary, görüştüğünüz kişilerin ve bulunduğunuz yerlerin kaydını tutar.\n\nSonradan hastalanırsanız, bu notlar kime haber verilmesi gerektiğini yeniden kurmayı kolaylaştırır; koca bir haftayı akıldan hatırlamak genelde mümkün olmaz.\n\nKayıtlar cihazda kalır. Kaynak kodu açıktır.",
+    "uz": "Contact Diary kim bilan ko'rishganingiz va qayerda bo'lganingiz haqidagi yozuvlarni yuritadi.\n\nKeyinroq kasallanib qolsangiz, shu yozuvlar bo'yicha kimni ogohlantirish kerakligini tiklash osonroq — bir haftani xotiradan eslash odatda uddalanmaydi.\n\nYozuvlar qurilmada qoladi. Manba kodi ochiq."
+  },
+  "com.app.dailylog": {
+    "ru": "DailyLog — блокнот с кнопками быстрого ввода, которые вы настраиваете под себя.\n\nОдно нажатие вносит заранее заданную запись, поэтому вести дневник тренировок или отмечать привычку получается без набора текста каждый раз.\n\nИсходный код открыт.",
+    "en": "DailyLog is a notepad with shortcut buttons you configure yourself.\n\nOne tap enters a preset line, so keeping a workout log or ticking off a habit does not mean typing the same thing over and over.\n\nThe source code is open.",
+    "tr": "DailyLog, kendi yapılandırdığınız kısayol düğmeleri olan bir not defteridir.\n\nTek dokunuş önceden tanımlı bir kaydı girer; böylece antrenman günlüğü tutmak ya da bir alışkanlığı işaretlemek her seferinde aynı şeyi yazmayı gerektirmez.\n\nKaynak kodu açıktır.",
+    "uz": "DailyLog — o'zingiz sozlaydigan tez kiritish tugmalari bilan jihozlangan bloknot.\n\nBir bosish oldindan belgilangan yozuvni kiritadi, shuning uchun mashg'ulot kundaligini yuritish yoki odatni belgilash har safar matn yozishni talab qilmaydi.\n\nManba kodi ochiq."
+  },
+  "com.app.dockeep": {
+    "ru": "Dockeep собирает важные документы в одном месте: справки, копии удостоверений, конспекты, присланные файлы.\n\nБез него такое обычно тонет в папке загрузок и вложениях мессенджеров, и найти нужное через месяц становится отдельной задачей.\n\nИсходный код открыт.",
+    "en": "Dockeep gathers the documents that matter in one place: certificates, copies of identity papers, class notes, files people have sent you.\n\nOtherwise such things sink into the downloads folder and messenger attachments, and finding one a month later becomes a task of its own.\n\nThe source code is open.",
+    "tr": "Dockeep, önemli belgeleri tek yerde toplar: belgeler, kimlik kopyaları, ders notları, size gönderilen dosyalar.\n\nAksi hâlde bunlar indirilenler klasörüne ve mesajlaşma eklerine gömülür; bir ay sonra aradığınızı bulmak başlı başına bir iş olur.\n\nKaynak kodu açıktır.",
+    "uz": "Dockeep muhim hujjatlarni bir joyga yig'adi: ma'lumotnomalar, guvohnoma nusxalari, konspektlar, yuborilgan fayllar.\n\nAks holda bular yuklamalar papkasi va messenjer ilovalari orasida cho'kib ketadi, bir oydan keyin keraklisini topish alohida vazifaga aylanadi.\n\nManba kodi ochiq."
+  },
+  "com.app.equran": {
+    "ru": "eQuran открывает текст Корана для чтения и слушания.\n\nМежду чтением и звуковым сопровождением можно переходить на ходу, а к суре легко вернуться туда, где остановились.\n\nИнтерфейс следует Material 3. Исходный код открыт.",
+    "en": "eQuran opens the text of the Quran for reading and for listening.\n\nYou can move between the text and the recitation as you go, and return to a sura where you left off.\n\nThe interface follows Material 3. The source code is open.",
+    "tr": "eQuran, Kur'an metnini okumak ve dinlemek için açar.\n\nOkuma ile tilavet arasında akış içinde geçiş yapabilir, bir sureye bıraktığınız yerden dönebilirsiniz.\n\nArayüz Material 3'ü izler. Kaynak kodu açıktır.",
+    "uz": "eQuran Qur'on matnini o'qish va tinglash uchun ochadi.\n\nO'qish va ovozli tilovat orasida yurib o'tish mumkin, suraga esa to'xtagan joyingizdan qaytish oson.\n\nInterfeys Material 3 uslubida. Manba kodi ochiq."
+  },
+  "com.app.missednotificationsreminder": {
+    "ru": "Missed Notifications Reminder напоминает звуком о пропущенных звонках и сообщениях.\n\nВ самом Android такого нет: о непрочитанном сообщает только мигающий индикатор, который легко не заметить. Приложение повторяет сигнал через заданные промежутки, пока уведомление не открыто.\n\nИсходный код открыт.",
+    "en": "Missed Notifications Reminder sounds a reminder about missed calls and messages.\n\nAndroid itself does not do this: an unread notification is signalled only by a blinking light, which is easy to miss. The app repeats the sound at intervals until the notification is dealt with.\n\nThe source code is open.",
+    "tr": "Missed Notifications Reminder, cevapsız aramaları ve iletileri sesle hatırlatır.\n\nAndroid'de bu yoktur: okunmamış bir bildirimi yalnızca yanıp sönen bir ışık haber verir ve bunu kaçırmak kolaydır. Uygulama, bildirim ele alınana dek belirli aralıklarla sesi yineler.\n\nKaynak kodu açıktır.",
+    "uz": "Missed Notifications Reminder o'tkazib yuborilgan qo'ng'iroq va xabarlar haqida ovoz bilan eslatadi.\n\nAndroid'ning o'zida bu yo'q: o'qilmagan xabar haqida faqat miltillovchi chiroqcha bildiradi, uni sezmaslik oson. Ilova bildirishnoma ochilmaguncha signalni belgilangan oraliqlarda takrorlaydi.\n\nManba kodi ochiq."
+  },
+  "com.app.openlib": {
+    "ru": "Openlib ищет и скачивает книги из библиотеки Anna's Archive.\n\nЧитать их можно тут же — встроенная читалка открывает скачанное, не выходя в другое приложение.\n\nИсходный код открыт.",
+    "en": "Openlib searches and downloads books from Anna's Archive.\n\nThey can be read on the spot: a built-in reader opens what you downloaded without handing off to another app.\n\nThe source code is open.",
+    "tr": "Openlib, Anna's Archive üzerinden kitap arar ve indirir.\n\nKitaplar orada okunabilir: yerleşik okuyucu, indirdiklerinizi başka bir uygulamaya geçmeden açar.\n\nKaynak kodu açıktır.",
+    "uz": "Openlib Anna's Archive kutubxonasidan kitoblarni qidiradi va yuklab oladi.\n\nUlarni shu yerning o'zida o'qish mumkin — ichki o'quvchi yuklanganni boshqa ilovaga o'tmasdan ochadi.\n\nManba kodi ochiq."
+  },
+  "com.appaparilla.manholer": {
+    "ru": "Manholer ведёт полевой учёт колодцев, дождеприёмников и прочих сооружений инженерных сетей.\n\nПо каждому объекту записываются направления труб и отметки дна, а к записи прикладывается простая схема — то, что обычно рисуют в блокноте прямо на месте.\n\nИсходный код открыт.",
+    "en": "Manholer records manholes, inlet boxes and other utility structures during field work.\n\nFor each one you note the pipe directions and the invert levels, and a simple sketch goes with the record — the kind normally drawn in a notebook on site.\n\nThe source code is open.",
+    "tr": "Manholer, saha çalışmasında rögarları, ızgara kutularını ve diğer altyapı yapılarını kayda geçirir.\n\nHer biri için boru yönleri ve taban kotları not edilir; kayda, normalde sahada deftere çizilen türden basit bir kroki eşlik eder.\n\nKaynak kodu açıktır.",
+    "uz": "Manholer dala ishida quduqlar, yomg'ir suvi qabulgichlari va boshqa muhandislik inshootlarini hisobga oladi.\n\nHar bir ob'yekt uchun quvur yo'nalishlari va tub belgilari yoziladi, yozuvga esa oddiy chizma ilova qilinadi — odatda joyning o'zida daftarga chiziladigan turdagi.\n\nManba kodi ochiq."
+  },
+  "com.appmindlab.nano": {
+    "ru": "neutriNote CE хранит записи любого рода — обычный текст, разметку markdown, формулы LaTeX, рисунки — и всё это остаётся обычным текстовым файлом.\n\nБлагодаря этому записи ищутся целиком и читаются любой другой программой: формат не привязан к приложению и не устареет вместе с ним.\n\nИсходный код открыт.",
+    "en": "neutriNote CE keeps notes of every kind — plain text, markdown, LaTeX maths, drawings — and all of it stays plain text underneath.\n\nThat makes the whole store searchable and readable by any other program: the format is not tied to the app and will not go stale with it.\n\nThe source code is open.",
+    "tr": "neutriNote CE, her türden notu tutar — düz metin, markdown, LaTeX matematiği, çizimler — ve hepsi altta düz metin olarak kalır.\n\nBu sayede tüm arşiv aranabilir ve başka herhangi bir programca okunabilir olur: biçim uygulamaya bağlı değildir ve onunla birlikte eskimez.\n\nKaynak kodu açıktır.",
+    "uz": "neutriNote CE har qanday yozuvni saqlaydi — oddiy matn, markdown belgilashi, LaTeX formulalari, chizmalar — va bularning bari ostida oddiy matn fayli bo'lib qoladi.\n\nShu sababli yozuvlar butunlay qidiriladi va boshqa istalgan dastur bilan o'qiladi: format ilovaga bog'lanmagan va u bilan birga eskirmaydi.\n\nManba kodi ochiq."
+  },
+  "com.apps.adrcotfas.goodtime": {
+    "ru": "Goodtime отсчитывает рабочие отрезки и перерывы по методу Помодоро.\n\nПриложение лёгкое, без рекламы и без сбора данных о том, как вы им пользуетесь.\n\nИсходный код открыт.",
+    "en": "Goodtime counts work intervals and breaks in the Pomodoro manner.\n\nThe app is lightweight, carries no ads, and gathers nothing about how you use it.\n\nThe source code is open.",
+    "tr": "Goodtime, Pomodoro yöntemine göre çalışma aralıklarını ve molaları sayar.\n\nUygulama hafiftir, reklam içermez ve onu nasıl kullandığınıza dair hiçbir şey toplamaz.\n\nKaynak kodu açıktır.",
+    "uz": "Goodtime Pomodoro usuli bo'yicha ish oraliqlari va tanaffuslarni sanaydi.\n\nIlova yengil, reklamasiz va undan qanday foydalanayotganingiz haqida hech narsa yig'maydi.\n\nManba kodi ochiq."
+  },
+  "com.aptasystems.dicewarepasswordgenerator": {
+    "ru": "Diceware Password Generator составляет пароли из случайных слов по методу Diceware.\n\nСловари на выбор: список Рейнхольда и два списка организации EFF — длинный и короткий. Источником случайности может быть генератор устройства, сервис random.org или настоящие кости, броски которых вы вводите вручную.\n\nИсходный код открыт.",
+    "en": "Diceware Password Generator builds passwords from random words using the Diceware method.\n\nThe word lists on offer are Reinhold's and the EFF's two lists, long and short. The randomness can come from the device's generator, from random.org, or from real dice whose rolls you enter by hand.\n\nThe source code is open.",
+    "tr": "Diceware Password Generator, Diceware yöntemiyle rastgele sözcüklerden parolalar oluşturur.\n\nSunulan sözcük listeleri Reinhold'un listesi ile EFF'in uzun ve kısa listeleridir. Rastgelelik cihazın üretecinden, random.org'dan ya da atışlarını elle girdiğiniz gerçek zarlardan gelebilir.\n\nKaynak kodu açıktır.",
+    "uz": "Diceware Password Generator Diceware usuli bo'yicha tasodifiy so'zlardan parollar tuzadi.\n\nTanlash uchun lug'atlar: Reynxold ro'yxati va EFF tashkilotining ikkita ro'yxati — uzun va qisqa. Tasodifiylik manbai qurilma generatori, random.org xizmati yoki tashlashlarini qo'lda kiritadigan haqiqiy zarlar bo'lishi mumkin.\n\nManba kodi ochiq."
+  },
+  "com.aradar.vibecheck": {
+    "ru": "Vibecheck отмечает настроение и самочувствие — одним касанием, чтобы запись не превращалась в отдельное дело.\n\nВсё хранится на устройстве: такие записи слишком личные, чтобы отдавать их стороннему сервису.\n\nИсходный код открыт.",
+    "en": "Vibecheck logs mood and symptoms in a single tap, so that recording does not turn into a chore of its own.\n\nEverything stays on the device: entries like these are too personal to hand to an outside service.\n\nThe source code is open.",
+    "tr": "Vibecheck, ruh hâlini ve belirtileri tek dokunuşla kaydeder; böylece kayıt tutmak başlı başına bir işe dönüşmez.\n\nHer şey cihazda kalır: bu tür kayıtlar dışarıdaki bir hizmete verilemeyecek kadar kişiseldir.\n\nKaynak kodu açıktır.",
+    "uz": "Vibecheck kayfiyat va o'zini his qilishni bir tegishda belgilaydi, shunda yozib borish alohida yumushga aylanmaydi.\n\nHamma narsa qurilmada saqlanadi: bunday yozuvlar begona xizmatga berish uchun juda shaxsiy.\n\nManba kodi ochiq."
+  },
+  "com.aragaer.jtt": {
+    "ru": "Japanese Traditional Time показывает время по старой японской системе, где сутки делились на переменные часы, названные в честь животных.\n\nДлина такого часа менялась вместе с временем года: светлое время делили на шесть частей и тёмное тоже, поэтому летом дневные часы были длиннее ночных.\n\nВиджет выводит текущий час и его соответствие обычному времени. Исходный код открыт.",
+    "en": "Japanese Traditional Time shows the hour in the old Japanese system, where the day was divided into variable hours named after animals.\n\nThe length of such an hour shifted with the season: daylight was split into six parts and darkness into six more, so summer daytime hours ran longer than the night ones.\n\nThe widget shows the current hour and how it maps onto ordinary time. The source code is open.",
+    "tr": "Japanese Traditional Time, günün hayvan adları taşıyan değişken saatlere bölündüğü eski Japon dizgesine göre saati gösterir.\n\nBöyle bir saatin uzunluğu mevsimle değişirdi: gündüz altı parçaya, gece de altı parçaya bölünürdü; bu yüzden yazın gündüz saatleri gece saatlerinden uzun olurdu.\n\nWidget, o anki saati ve bunun sıradan saate karşılığını gösterir. Kaynak kodu açıktır.",
+    "uz": "Japanese Traditional Time vaqtni eski yapon tizimida ko'rsatadi, unda sutka hayvonlar nomi bilan atalgan o'zgaruvchan soatlarga bo'lingan.\n\nBunday soatning uzunligi fasl bilan o'zgargan: yorug' vaqt oltiga, qorong'i vaqt ham oltiga bo'lingan, shuning uchun yozda kunduzgi soatlar tungilaridan uzunroq bo'lgan.\n\nVidjet joriy soatni va uning odatdagi vaqtga mosligini chiqaradi. Manba kodi ochiq."
   }
 }
