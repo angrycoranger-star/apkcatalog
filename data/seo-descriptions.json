@@ -4894,5 +4894,107 @@
     "en": "Japanese Traditional Time shows the hour in the old Japanese system, where the day was divided into variable hours named after animals.\n\nThe length of such an hour shifted with the season: daylight was split into six parts and darkness into six more, so summer daytime hours ran longer than the night ones.\n\nThe widget shows the current hour and how it maps onto ordinary time. The source code is open.",
     "tr": "Japanese Traditional Time, günün hayvan adları taşıyan değişken saatlere bölündüğü eski Japon dizgesine göre saati gösterir.\n\nBöyle bir saatin uzunluğu mevsimle değişirdi: gündüz altı parçaya, gece de altı parçaya bölünürdü; bu yüzden yazın gündüz saatleri gece saatlerinden uzun olurdu.\n\nWidget, o anki saati ve bunun sıradan saate karşılığını gösterir. Kaynak kodu açıktır.",
     "uz": "Japanese Traditional Time vaqtni eski yapon tizimida ko'rsatadi, unda sutka hayvonlar nomi bilan atalgan o'zgaruvchan soatlarga bo'lingan.\n\nBunday soatning uzunligi fasl bilan o'zgargan: yorug' vaqt oltiga, qorong'i vaqt ham oltiga bo'lingan, shuning uchun yozda kunduzgi soatlar tungilaridan uzunroq bo'lgan.\n\nVidjet joriy soatni va uning odatdagi vaqtga mosligini chiqaradi. Manba kodi ochiq."
+  },
+  "com.aravi.dot": {
+    "ru": "SafeDot зажигает на экране точку, когда какое-нибудь приложение обращается к камере или микрофону.\n\nТакой индикатор появился в iOS 14 и позже в самом Android; это приложение приносит его и на устройства, где системной поддержки нет.\n\nИсходный код открыт.",
+    "en": "SafeDot lights a dot on screen whenever an app reaches for the camera or the microphone.\n\nThat indicator appeared in iOS 14 and later in Android itself; this app brings it to devices where the system does not provide one.\n\nThe source code is open.",
+    "tr": "SafeDot, bir uygulama kameraya ya da mikrofona eriştiğinde ekranda bir nokta yakar.\n\nBu gösterge iOS 14'te, sonra da Android'in kendisinde çıktı; bu uygulama onu, sistemin sağlamadığı cihazlara getirir.\n\nKaynak kodu açıktır.",
+    "uz": "SafeDot biror ilova kamera yoki mikrofonga murojaat qilganda ekranda nuqta yoqadi.\n\nBunday ko'rsatkich iOS 14 da, keyinroq Android'ning o'zida paydo bo'lgan; bu ilova uni tizim qo'llab-quvvatlamaydigan qurilmalarga ham olib keladi.\n\nManba kodi ochiq."
+  },
+  "com.arduia.expense": {
+    "ru": "Pro Expense ведёт учёт повседневных трат.\n\nЗаписи хранятся на устройстве, без сети и без учётной записи. Расходы за неделю показываются графиком, а также разбиваются по категориям, чтобы видеть, куда уходит больше всего.\n\nИнтерфейс переведён на несколько языков. Исходный код открыт.",
+    "en": "Pro Expense keeps track of everyday spending.\n\nThe records stay on the device, with no network and no account. A week's expenses are shown as a graph and broken down by category, so it is clear where the most goes.\n\nThe interface is translated into several languages. The source code is open.",
+    "tr": "Pro Expense, gündelik harcamaları kayıt altına alır.\n\nKayıtlar ağ ve hesap olmadan cihazda kalır. Bir haftalık harcamalar grafik olarak gösterilir ve kategorilere ayrılır; böylece en çok nereye gittiği belli olur.\n\nArayüz birkaç dile çevrilmiştir. Kaynak kodu açıktır.",
+    "uz": "Pro Expense kundalik xarajatlarni hisobga oladi.\n\nYozuvlar tarmoqsiz va hisobsiz, qurilmada saqlanadi. Bir haftalik xarajatlar grafik ko'rinishida beriladi va toifalarga ajratiladi, shunda ko'proq qayerga ketayotgani ko'rinadi.\n\nInterfeys bir necha tilga tarjima qilingan. Manba kodi ochiq."
+  },
+  "com.armanmaurya.archiv": {
+    "ru": "Archiv сканирует документы камерой телефона и хранит их с метками для поиска.\n\nОбработка снимков идёт на самом устройстве: документы никуда не отправляются, что для паспортов и договоров существенно.\n\nИсходный код открыт.",
+    "en": "Archiv scans documents with the phone's camera and stores them with tags for searching.\n\nThe processing happens on the device itself: the documents go nowhere, which matters for passports and contracts.\n\nThe source code is open.",
+    "tr": "Archiv, belgeleri telefonun kamerasıyla tarar ve aranabilmeleri için etiketlerle saklar.\n\nİşleme cihazın kendisinde yapılır: belgeler hiçbir yere gitmez; pasaportlar ve sözleşmeler söz konusu olduğunda bu önemlidir.\n\nKaynak kodu açıktır.",
+    "uz": "Archiv hujjatlarni telefon kamerasi bilan skanerlaydi va ularni qidirish uchun teglar bilan saqlaydi.\n\nSuratlarni qayta ishlash qurilmaning o'zida ketadi: hujjatlar hech qayerga yuborilmaydi, pasport va shartnomalar uchun bu muhim.\n\nManba kodi ochiq."
+  },
+  "com.armanmaurya.internetradio": {
+    "ru": "Internet Radio открывает тысячи радиостанций со всего мира.\n\nСтанции ищутся по стране, языку и жанру, так что можно слушать местное радио другой страны так же просто, как своё.\n\nПриложение бесплатное, с открытым исходным кодом.",
+    "en": "Internet Radio opens up thousands of radio stations from around the world.\n\nStations can be found by country, language and genre, so listening to another country's local radio is as easy as listening to your own.\n\nThe app is free and open source.",
+    "tr": "Internet Radio, dünyanın her yerinden binlerce radyo istasyonunu açar.\n\nİstasyonlar ülkeye, dile ve türe göre bulunabilir; böylece başka bir ülkenin yerel radyosunu dinlemek kendi radyonuzu dinlemek kadar kolaydır.\n\nUygulama ücretsizdir ve kaynak kodu açıktır.",
+    "uz": "Internet Radio dunyoning turli burchagidagi minglab radiostansiyalarni ochadi.\n\nStansiyalar mamlakat, til va janr bo'yicha qidiriladi, shuning uchun boshqa mamlakatning mahalliy radiosini o'zingiznikidek oson tinglash mumkin.\n\nIlova bepul, manba kodi ochiq."
+  },
+  "com.arslan.shizuwall": {
+    "ru": "ShizuWall закрывает выбранным приложениям выход в сеть — и делает это без создания VPN-подключения.\n\nНужные права выдаются через Shizuku, поэтому обычный VPN-канал остаётся свободным и им можно пользоваться параллельно.\n\nИсходный код открыт.",
+    "en": "ShizuWall blocks network access for chosen apps — and does it without setting up a VPN connection.\n\nThe necessary rights come through Shizuku, which leaves the VPN slot free for actual VPN use.\n\nThe source code is open.",
+    "tr": "ShizuWall, seçtiğiniz uygulamaların ağ erişimini keser ve bunu bir VPN bağlantısı kurmadan yapar.\n\nGerekli yetkiler Shizuku üzerinden gelir; böylece VPN yuvası gerçek VPN kullanımı için boş kalır.\n\nKaynak kodu açıktır.",
+    "uz": "ShizuWall tanlangan ilovalarga tarmoqqa chiqishni to'sadi — buni VPN ulanishini yaratmasdan bajaradi.\n\nKerakli huquqlar Shizuku orqali beriladi, shuning uchun odatdagi VPN kanali bo'sh qoladi va undan bir vaqtda foydalanish mumkin.\n\nManba kodi ochiq."
+  },
+  "com.arslandaim.omegaplayer": {
+    "ru": "OmegaPlayer проигрывает видео и музыку с устройства.\n\nОтдельный раздел отведён под личные файлы: то, что в него помещено, не попадает в общую галерею и требует отдельного доступа.\n\nИсходный код открыт.",
+    "en": "OmegaPlayer plays video and music from the device.\n\nA separate vault holds private files: whatever goes into it stays out of the ordinary gallery and needs its own unlocking.\n\nThe source code is open.",
+    "tr": "OmegaPlayer, cihazdaki videoları ve müzikleri oynatır.\n\nAyrı bir kasa özel dosyalar içindir: oraya konan her şey sıradan galerinin dışında kalır ve kendi kilidiyle açılır.\n\nKaynak kodu açıktır.",
+    "uz": "OmegaPlayer qurilmadagi video va musiqani ijro etadi.\n\nAlohida bo'lim shaxsiy fayllar uchun ajratilgan: unga joylangan narsa umumiy galereyaga tushmaydi va alohida ochishni talab qiladi.\n\nManba kodi ochiq."
+  },
+  "com.arslandaim.playtube": {
+    "ru": "PlayTube — клиент YouTube с воспроизведением в фоне и в отдельном плавающем окне поверх других приложений.\n\nДоступны комментарии и подписки, а сама оболочка работает быстрее официального приложения за счёт того, что в ней нет рекламы.\n\nИсходный код открыт.",
+    "en": "PlayTube is a YouTube client with background playback and picture-in-picture over other apps.\n\nComments and subscriptions are available, and the front end runs lighter than the official app because there is no advertising in it.\n\nThe source code is open.",
+    "tr": "PlayTube, arka planda ve diğer uygulamaların üzerinde küçük pencerede oynatma sunan bir YouTube istemcisidir.\n\nYorumlar ve abonelikler kullanılabilir; arayüz, içinde reklam olmadığı için resmî uygulamadan daha hafif çalışır.\n\nKaynak kodu açıktır.",
+    "uz": "PlayTube — fonda va boshqa ilovalar ustidagi alohida suzuvchi oynada ijro etadigan YouTube mijozi.\n\nIzohlar va obunalar mavjud, qobiqning o'zi esa reklama yo'qligi hisobiga rasmiy ilovadan tezroq ishlaydi.\n\nManba kodi ochiq."
+  },
+  "com.arsvechkarev.vault": {
+    "ru": "Vault хранит пароли и другие важные записи в базе формата kdbx — том же, что использует KeePass.\n\nБлагодаря этому базу можно открыть и на компьютере любой программой, работающей с KeePass, а не только этим приложением.\n\nИсходный код открыт.",
+    "en": "Vault keeps passwords and other sensitive entries in a kdbx database — the same format KeePass uses.\n\nThat means the database can also be opened on a computer by any KeePass-compatible program, not only by this app.\n\nThe source code is open.",
+    "tr": "Vault, parolaları ve diğer önemli kayıtları KeePass'in de kullandığı kdbx biçiminde bir veritabanında tutar.\n\nBu sayede veritabanı bilgisayarda KeePass uyumlu herhangi bir programla da açılabilir; yalnızca bu uygulamayla değil.\n\nKaynak kodu açıktır.",
+    "uz": "Vault parollar va boshqa muhim yozuvlarni KeePass ishlatadigan kdbx formatidagi bazada saqlaydi.\n\nShu sababli bazani kompyuterda KeePass bilan ishlaydigan istalgan dastur orqali ham ochish mumkin, faqat shu ilova bilan emas.\n\nManba kodi ochiq."
+  },
+  "com.arthur.arcade": {
+    "ru": "Arcade — лаунчер для игр, который заодно перекрывает им выход в сеть.\n\nОфлайн-игре интернет обычно нужен только для рекламы, поэтому её блокировка убирает и рекламные вставки, и лишний расход батареи. Работает это через локальное VPN-подключение.\n\nОформление подхватывает цвета системной темы Material You. Исходный код открыт.",
+    "en": "Arcade is a game launcher that also cuts the games off from the network.\n\nAn offline game usually needs the internet only for advertising, so blocking it removes the ads and the battery drain that comes with them. This works through a local VPN connection.\n\nThe styling follows the system colours through Material You. The source code is open.",
+    "tr": "Arcade, oyunları başlatan ve aynı zamanda onların ağ erişimini kesen bir başlatıcıdır.\n\nÇevrimdışı bir oyunun internete genellikle yalnızca reklam için ihtiyacı olur; bu yüzden erişimi kesmek hem reklamları hem de onların getirdiği pil tüketimini ortadan kaldırır. Bu, yerel bir VPN bağlantısıyla yapılır.\n\nGörünüm, Material You üzerinden sistem renklerini izler. Kaynak kodu açıktır.",
+    "uz": "Arcade — o'yinlar uchun launcher bo'lib, ayni paytda ularning tarmoqqa chiqishini to'sadi.\n\nOflayn o'yinga internet odatda faqat reklama uchun kerak bo'ladi, shuning uchun uni to'sish reklama va u keltiradigan ortiqcha quvvat sarfini ham yo'qotadi. Bu mahalliy VPN ulanishi orqali ishlaydi.\n\nBezak Material You orqali tizim ranglarini oladi. Manba kodi ochiq."
+  },
+  "com.artifex.mupdf.mini.app": {
+    "ru": "MuPDF mini открывает PDF, XPS, комиксы CBZ, незащищённые EPUB и книги FB2.\n\nЭто облегчённая сборка на библиотеке MuPDF: в ней оставлен только просмотр, зато открывается она быстро и почти не занимает места.\n\nИсходный код открыт.",
+    "en": "MuPDF mini opens PDF, XPS, CBZ comics, unprotected EPUB and FB2 books.\n\nIt is a stripped-down build on the MuPDF library: viewing only, but it opens quickly and takes up almost no space.\n\nThe source code is open.",
+    "tr": "MuPDF mini; PDF, XPS, CBZ çizgi romanları, korumasız EPUB ve FB2 kitaplarını açar.\n\nMuPDF kitaplığı üzerine kurulmuş sadeleştirilmiş bir sürümdür: yalnızca görüntüleme yapar ama hızlı açılır ve neredeyse hiç yer kaplamaz.\n\nKaynak kodu açıktır.",
+    "uz": "MuPDF mini PDF, XPS, CBZ komikslari, himoyalanmagan EPUB va FB2 kitoblarini ochadi.\n\nBu MuPDF kutubxonasiga qurilgan yengil yig'ma: unda faqat ko'rish qoldirilgan, buning evaziga u tez ochiladi va deyarli joy egallamaydi.\n\nManba kodi ochiq."
+  },
+  "com.artifex.mupdf.viewer.app": {
+    "ru": "MuPDF открывает документы PDF версии 1.7 со всем, что в них бывает: прозрачностью, шифрованием, ссылками и примечаниями.\n\nПо тексту работает поиск, поля форм можно заполнять прямо в приложении. Кроме PDF читаются OpenXPS и комиксы CBZ.\n\nИсходный код открыт.",
+    "en": "MuPDF opens PDF 1.7 documents with everything they may contain: transparency, encryption, hyperlinks and annotations.\n\nThe text is searchable and form fields can be filled in within the app. Besides PDF it reads OpenXPS and CBZ comics.\n\nThe source code is open.",
+    "tr": "MuPDF, PDF 1.7 belgelerini içerebilecekleri her şeyle açar: saydamlık, şifreleme, köprüler ve açıklamalar.\n\nMetin içinde arama yapılır, form alanları uygulama içinde doldurulabilir. PDF dışında OpenXPS ve CBZ çizgi romanlarını da okur.\n\nKaynak kodu açıktır.",
+    "uz": "MuPDF PDF 1.7 hujjatlarini ularda bo'lishi mumkin bo'lgan hamma narsa bilan ochadi: shaffoflik, shifrlash, havolalar va izohlar.\n\nMatn bo'ylab qidiruv ishlaydi, shakl maydonlarini ilovaning o'zida to'ldirish mumkin. PDF dan tashqari OpenXPS va CBZ komikslari o'qiladi.\n\nManba kodi ochiq."
+  },
+  "com.arxlibertatis": {
+    "ru": "Arx Libertatis — открытый движок для Arx Fatalis, ролевой игры от первого лица 2002 года.\n\nСам движок переписан и работает на современных системах, но игровые файлы в него не входят: нужна копия оригинальной игры.\n\nЭто неофициальный перенос на Android. Исходный код открыт.",
+    "en": "Arx Libertatis is an open source engine for Arx Fatalis, the first-person role-playing game from 2002.\n\nThe engine itself has been rewritten and runs on current systems, but the game files are not included: a copy of the original game is required.\n\nThis is an unofficial Android port. The source code is open.",
+    "tr": "Arx Libertatis, 2002 yapımı birinci şahıs rol yapma oyunu Arx Fatalis için açık kaynaklı bir motordur.\n\nMotorun kendisi yeniden yazılmıştır ve güncel sistemlerde çalışır; ancak oyun dosyaları içinde gelmez: özgün oyunun bir kopyası gerekir.\n\nBu, resmî olmayan bir Android uyarlamasıdır. Kaynak kodu açıktır.",
+    "uz": "Arx Libertatis — 2002 yilgi birinchi shaxs rolli o'yini Arx Fatalis uchun ochiq dvigatel.\n\nDvigatelning o'zi qayta yozilgan va zamonaviy tizimlarda ishlaydi, biroq o'yin fayllari uning tarkibiga kirmaydi: asl o'yinning nusxasi kerak.\n\nBu Android uchun norasmiy ko'chirma. Manba kodi ochiq."
+  },
+  "com.aryan.reader.oss": {
+    "ru": "Episteme Reader открывает документы и электронные книги в форматах PDF, EPUB, MOBI, AZW3, Markdown, HTML и обычного текста.\n\nПриложение рассчитано на работу без сети: библиотека и прогресс чтения остаются на устройстве.\n\nИсходный код открыт.",
+    "en": "Episteme Reader opens documents and e-books in PDF, EPUB, MOBI, AZW3, Markdown, HTML and plain text.\n\nIt is built to work offline: the library and your reading position stay on the device.\n\nThe source code is open.",
+    "tr": "Episteme Reader; PDF, EPUB, MOBI, AZW3, Markdown, HTML ve düz metin biçimlerindeki belgeleri ve e-kitapları açar.\n\nÇevrimdışı çalışmak üzere kurulmuştur: kitaplık ve okuma konumunuz cihazda kalır.\n\nKaynak kodu açıktır.",
+    "uz": "Episteme Reader hujjat va elektron kitoblarni PDF, EPUB, MOBI, AZW3, Markdown, HTML va oddiy matn formatlarida ochadi.\n\nIlova tarmoqsiz ishlashga mo'ljallangan: kutubxona va o'qish jarayoni qurilmada qoladi.\n\nManba kodi ochiq."
+  },
+  "com.asdoi.gymwen": {
+    "ru": "Официальное приложение гимназии Вендельштайн.\n\nУченики смотрят замены уроков, ищут преподавателя в списке и заказывают обед в столовой.\n\nИсходный код открыт.",
+    "en": "The official app of the Wendelstein Gymnasium.\n\nPupils can check lesson substitutions, look a teacher up in the staff list and order food in the canteen.\n\nThe source code is open.",
+    "tr": "Wendelstein Lisesi'nin resmî uygulaması.\n\nÖğrenciler ders değişikliklerini görebilir, öğretmen listesinde arama yapabilir ve yemekhaneden yemek ısmarlayabilir.\n\nKaynak kodu açıktır.",
+    "uz": "Vendelshtayn gimnaziyasining rasmiy ilovasi.\n\nO'quvchilar dars almashinuvlarini ko'radi, ro'yxatdan o'qituvchini qidiradi va oshxonada ovqat buyurtma qiladi.\n\nManba kodi ochiq."
+  },
+  "com.asdoi.mebis": {
+    "ru": "Приложение открывает мобильные страницы образовательной платформы Mebis, которой пользуются школы Баварии.\n\nПеред работой указываются адрес, имя пользователя и пароль.\n\nЭто неофициальное приложение. Исходный код открыт.",
+    "en": "This app opens the mobile pages of Mebis, the education platform used by schools in Bavaria.\n\nBefore use you supply the address, a username and a password.\n\nIt is an unofficial app. The source code is open.",
+    "tr": "Bu uygulama, Bavyera'daki okulların kullandığı eğitim platformu Mebis'in mobil sayfalarını açar.\n\nKullanmadan önce adres, kullanıcı adı ve parola girilir.\n\nResmî olmayan bir uygulamadır. Kaynak kodu açıktır.",
+    "uz": "Ilova Bavariya maktablari foydalanadigan Mebis ta'lim platformasining mobil sahifalarini ochadi.\n\nIshlashdan oldin manzil, foydalanuvchi nomi va parol ko'rsatiladi.\n\nBu norasmiy ilova. Manba kodi ochiq."
+  },
+  "com.asdoi.quicktiles": {
+    "ru": "QuickTiles добавляет в панель быстрых настроек свои кнопки — под те действия и ярлыки, которыми пользуетесь чаще всего.\n\nДанных о вас приложение не собирает. Исходный код открыт.",
+    "en": "QuickTiles adds your own tiles to the quick settings panel — for the actions and shortcuts you reach for most.\n\nThe app collects no data about you. The source code is open.",
+    "tr": "QuickTiles, hızlı ayarlar paneline kendi kutucuklarınızı ekler; en sık kullandığınız eylemler ve kısayollar için.\n\nUygulama hakkınızda veri toplamaz. Kaynak kodu açıktır.",
+    "uz": "QuickTiles tezkor sozlamalar paneliga o'z tugmalaringizni qo'shadi — eng ko'p ishlatadigan amallar va yorliqlar uchun.\n\nIlova siz haqingizda ma'lumot to'plamaydi. Manba kodi ochiq."
+  },
+  "com.asdoi.timetable": {
+    "ru": "Timetable ведёт учебное расписание, домашние задания, экзамены, список преподавателей и заметки.\n\nЕсли занятия идут по чередующимся неделям, приложение переключает их само, так что следить за чётностью не нужно.\n\nЭто доработанная версия приложения от ulan17. Исходный код открыт.",
+    "en": "Timetable keeps your class schedule, homework, exams, teacher list and notes.\n\nWhere lessons run on alternating weeks, the app switches between them by itself, so there is no keeping track of which week it is.\n\nIt is an improved version of the app by ulan17. The source code is open.",
+    "tr": "Timetable; ders programınızı, ödevlerinizi, sınavlarınızı, öğretmen listenizi ve notlarınızı tutar.\n\nDersler dönüşümlü haftalara göre ilerliyorsa uygulama aralarında kendiliğinden geçiş yapar; hangi hafta olduğunu takip etmeniz gerekmez.\n\nulan17'nin uygulamasının geliştirilmiş bir sürümüdür. Kaynak kodu açıktır.",
+    "uz": "Timetable o'quv jadvali, uy vazifalari, imtihonlar, o'qituvchilar ro'yxati va eslatmalarni yuritadi.\n\nDarslar almashinuvchi haftalar bo'yicha ketsa, ilova ularni o'zi almashtiradi, shuning uchun qaysi hafta ekanini kuzatish shart emas.\n\nBu ulan17 ilovasining yaxshilangan versiyasi. Manba kodi ochiq."
   }
 }
