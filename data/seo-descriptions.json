@@ -5200,5 +5200,107 @@
     "en": "ChineseTtsTflite reads Chinese text aloud and works entirely offline.\n\nIt carries two speech models — FastSpeech and Tacotron — which run on the device itself through TensorFlow Lite, so the text is never sent anywhere.\n\nThe source code is open.",
     "tr": "ChineseTtsTflite, Çince metni sesli okur ve tümüyle çevrimdışı çalışır.\n\nİçinde iki konuşma modeli vardır — FastSpeech ve Tacotron — ve bunlar TensorFlow Lite ile doğrudan cihazda çalışır; böylece metin hiçbir yere gönderilmez.\n\nKaynak kodu açıktır.",
     "uz": "ChineseTtsTflite xitoy matnini ovoz bilan o'qiydi va butunlay tarmoqsiz ishlaydi.\n\nIlovada ikkita nutq modeli bor — FastSpeech va Tacotron — ular TensorFlow Lite orqali qurilmaning o'zida bajariladi, shuning uchun matn hech qayerga yuborilmaydi.\n\nManba kodi ochiq."
+  },
+  "com.benny.pxerstudio": {
+    "ru": "PxerStudio — редактор для рисования по пикселям.\n\nЕсть слои, сетка, пипетка для выбора цвета с холста и неограниченная отмена. Холст двигается и масштабируется двумя пальцами, поэтому работать можно и с мелкими деталями.\n\nИсходный код открыт.",
+    "en": "PxerStudio is an editor for drawing pixel by pixel.\n\nIt offers layers, a grid, a colour picker for sampling from the canvas and unlimited undo. The canvas pans and zooms with two fingers, so small details are workable.\n\nThe source code is open.",
+    "tr": "PxerStudio, piksel piksel çizim yapmak için bir düzenleyicidir.\n\nKatmanlar, ızgara, tuvalden renk almak için damlalık ve sınırsız geri alma sunar. Tuval iki parmakla kaydırılıp yakınlaştırılır; böylece küçük ayrıntılarla da çalışılabilir.\n\nKaynak kodu açıktır.",
+    "uz": "PxerStudio — piksellar bo'yicha chizish uchun muharrir.\n\nQatlamlar, to'r, kanvasdan rang olish uchun pipetka va cheksiz bekor qilish bor. Kanvas ikki barmoq bilan suriladi va kattalashtiriladi, shuning uchun mayda tafsilotlar bilan ham ishlash mumkin.\n\nManba kodi ochiq."
+  },
+  "com.beradeep.aiyo": {
+    "ru": "Aiyo ведёт переписку с языковыми моделями через сервис OpenRouter — доступны сотни моделей разных разработчиков.\n\nКлюч доступа вы подставляете свой, поэтому запросы идут от вашего имени и оплачиваются напрямую, без посредника.\n\nИсходный код открыт.",
+    "en": "Aiyo holds conversations with language models through the OpenRouter service, which offers hundreds of models from different makers.\n\nYou supply your own API key, so the requests go out under your account and are paid for directly, with no middleman.\n\nThe source code is open.",
+    "tr": "Aiyo, farklı geliştiricilerden yüzlerce modele erişim veren OpenRouter hizmeti üzerinden dil modelleriyle sohbet eder.\n\nKendi API anahtarınızı girersiniz; böylece istekler sizin hesabınızdan gider ve aracısız, doğrudan ödenir.\n\nKaynak kodu açıktır.",
+    "uz": "Aiyo til modellari bilan OpenRouter xizmati orqali suhbatlashadi — unda turli ishlab chiquvchilarning yuzlab modellari mavjud.\n\nKirish kalitini o'zingiznikini qo'yasiz, shuning uchun so'rovlar sizning nomingizdan ketadi va vositachisiz, to'g'ridan-to'g'ri to'lanadi.\n\nManba kodi ochiq."
+  },
+  "com.berdik.letmedowngrade": {
+    "ru": "Let Me Downgrade позволяет поставить старую версию приложения поверх более новой.\n\nОбычно Android такую установку запрещает, и вернуться на прежнюю версию можно только удалив приложение вместе со всеми его данными. Здесь это ограничение снимается.\n\nИсходный код открыт.",
+    "en": "Let Me Downgrade installs an older version of an app over a newer one.\n\nAndroid normally refuses such an installation, and the only way back to an earlier version is to uninstall the app along with all its data. This lifts that restriction.\n\nThe source code is open.",
+    "tr": "Let Me Downgrade, bir uygulamanın eski bir sürümünü daha yenisinin üzerine kurar.\n\nAndroid böyle bir kurulumu normalde reddeder ve eski sürüme dönmenin tek yolu uygulamayı tüm verileriyle birlikte kaldırmaktır. Bu, o kısıtlamayı ortadan kaldırır.\n\nKaynak kodu açıktır.",
+    "uz": "Let Me Downgrade ilovaning eski versiyasini yangirog'i ustiga o'rnatish imkonini beradi.\n\nOdatda Android bunday o'rnatishni taqiqlaydi, avvalgi versiyaga qaytishning yagona yo'li esa ilovani barcha ma'lumotlari bilan o'chirish. Bu yerda o'sha cheklov olib tashlanadi.\n\nManba kodi ochiq."
+  },
+  "com.berkersen.practicesuite": {
+    "ru": "Practice Suite собирает в одном месте то, что нужно на занятиях музыкой: метроном, тюнер и учёт отработанного времени.\n\nЗаписи о занятиях накапливаются, поэтому видно, сколько и над чем вы действительно работали.\n\nИсходный код открыт.",
+    "en": "Practice Suite gathers what music practice calls for into one place: a metronome, a tuner and a record of the time you put in.\n\nThe sessions accumulate, so it is clear how much you actually practised and on what.\n\nThe source code is open.",
+    "tr": "Practice Suite, müzik çalışmasında gerekenleri tek yerde toplar: metronom, akort aleti ve harcadığınız sürenin kaydı.\n\nOturumlar birikir; böylece gerçekte ne kadar ve neyin üzerinde çalıştığınız belli olur.\n\nKaynak kodu açıktır.",
+    "uz": "Practice Suite musiqa mashg'ulotida kerak bo'ladigan narsalarni bir joyga yig'adi: metronom, sozlagich va sarflangan vaqt hisobi.\n\nMashg'ulotlar haqidagi yozuvlar to'planadi, shuning uchun qancha va nima ustida ishlaganingiz ko'rinadi.\n\nManba kodi ochiq."
+  },
+  "com.bernaferrari.changedetection": {
+    "ru": "Change Detection следит за страницами сайтов и сообщает, когда на них что-то меняется.\n\nЭто избавляет от привычки заходить на сайт по десять раз в день: когда преподаватель обещал выложить оценки «скоро», приложение само заметит, что они появились.\n\nИсходный код открыт.",
+    "en": "Change Detection watches web pages and tells you when something on them changes.\n\nIt saves the habit of refreshing a site ten times a day: when a teacher says the marks will be up \"soon\", the app is the one that notices they have appeared.\n\nThe source code is open.",
+    "tr": "Change Detection, web sayfalarını izler ve üzerlerinde bir şey değiştiğinde size haber verir.\n\nBir siteyi günde on kez yenileme alışkanlığından kurtarır: bir öğretmen notların \"yakında\" açıklanacağını söylediğinde, çıktığını uygulama fark eder.\n\nKaynak kodu açıktır.",
+    "uz": "Change Detection sayt sahifalarini kuzatadi va ularda biror narsa o'zgarganda xabar beradi.\n\nBu saytga kuniga o'n marta kirish odatidan xalos qiladi: o'qituvchi baholarni \"tez orada\" e'lon qilaman deganda, ular chiqqanini ilova o'zi sezadi.\n\nManba kodi ochiq."
+  },
+  "com.bernaferrari.sdkmonitor": {
+    "ru": "SDK Monitor показывает, под какую версию Android собрано каждое установленное приложение.\n\nЭто число говорит о том, какие правила системы к приложению применяются: чем оно ниже, тем больше старых послаблений действует — например, в доступе к файлам и работе в фоне. Приложение отмечает, когда этот показатель меняется после обновления.\n\nИсходный код открыт.",
+    "en": "SDK Monitor shows which Android version each installed app was built against.\n\nThat number decides which of the system's rules apply to it: the lower it is, the more of the old leniencies remain in force — over file access or background work, for instance. The app flags when the figure changes after an update.\n\nThe source code is open.",
+    "tr": "SDK Monitor, kurulu her uygulamanın hangi Android sürümüne göre derlendiğini gösterir.\n\nBu sayı, sistemin hangi kurallarının uygulanacağını belirler: sayı düştükçe eski esnekliklerin daha fazlası yürürlükte kalır; örneğin dosya erişimi ya da arka plan çalışması için. Uygulama, bu değer bir güncellemeden sonra değiştiğinde bunu işaretler.\n\nKaynak kodu açıktır.",
+    "uz": "SDK Monitor har bir o'rnatilgan ilova Android'ning qaysi versiyasiga mo'ljallab yig'ilganini ko'rsatadi.\n\nBu son unga tizimning qaysi qoidalari qo'llanishini belgilaydi: u qanchalik past bo'lsa, eski yengilliklar shunchalik ko'p amal qiladi — masalan, fayllarga kirish yoki fonda ishlashda. Ilova bu ko'rsatkich yangilanishdan keyin o'zgarganini belgilaydi.\n\nManba kodi ochiq."
+  },
+  "com.best.deskclock": {
+    "ru": "Clock — часы, будильник, таймер и секундомер, выросшие из стандартного приложения AOSP.\n\nБудильник можно поставить не только на время, но и на конкретную дату. Разрешение на доступ в интернет приложение не запрашивает, поэтому работает полностью автономно.\n\nИсходный код открыт.",
+    "en": "Clock is a clock, alarm, timer and stopwatch grown from the stock AOSP app.\n\nAn alarm can be set for a specific date as well as a time. The app requests no internet permission, so it runs entirely offline.\n\nThe source code is open.",
+    "tr": "Clock; AOSP'nin yerleşik uygulamasından türemiş bir saat, alarm, zamanlayıcı ve kronometredir.\n\nAlarm yalnızca bir saate değil, belirli bir tarihe de kurulabilir. Uygulama internet izni istemez, dolayısıyla tümüyle çevrimdışı çalışır.\n\nKaynak kodu açıktır.",
+    "uz": "Clock — AOSP ning standart ilovasidan o'sib chiqqan soat, budilnik, taymer va sekundomer.\n\nBudilnikni faqat vaqtga emas, aniq sanaga ham qo'yish mumkin. Ilova internetga ruxsat so'ramaydi, shuning uchun butunlay mustaqil ishlaydi.\n\nManba kodi ochiq."
+  },
+  "com.bibleside.bibleside": {
+    "ru": "Bibleside открывает Библию в переводе Open English Translation — новом переводе на английский, выпущенном под открытой лицензией.\n\nПриложение работает без сети: текст лежит на устройстве.\n\nИсходный код открыт.",
+    "en": "Bibleside opens the Bible in the Open English Translation, a new English translation released under an open licence.\n\nThe app works offline: the text sits on the device.\n\nThe source code is open.",
+    "tr": "Bibleside, açık lisansla yayımlanmış yeni bir İngilizce çeviri olan Open English Translation ile İncil'i açar.\n\nUygulama çevrimdışı çalışır: metin cihazda durur.\n\nKaynak kodu açıktır.",
+    "uz": "Bibleside Bibliyani Open English Translation tarjimasida ochadi — bu ochiq litsenziya ostida chiqarilgan yangi ingliz tarjimasi.\n\nIlova tarmoqsiz ishlaydi: matn qurilmada yotadi.\n\nManba kodi ochiq."
+  },
+  "com.bigdadenergy39.DoTheThing": {
+    "ru": "Do The Thing ведёт задачи не как обычный список, а показывая, чем стоит заняться сегодня.\n\nПриложение само выносит вперёд то, что подходит по времени и по важности, и напоминает об этом, — вместо того чтобы оставлять вас наедине с длинным перечнем.\n\nИсходный код открыт.",
+    "en": "Do The Thing handles tasks not as a plain list but by surfacing what is worth doing today.\n\nIt brings forward what fits the moment and the priority and nudges you about it, rather than leaving you alone with a long roll of entries.\n\nThe source code is open.",
+    "tr": "Do The Thing, görevleri düz bir liste olarak değil, bugün yapmaya değer olanı öne çıkararak ele alır.\n\nAna ve önceliğe uyanı öne getirir ve size anımsatır; sizi uzun bir madde dizisiyle baş başa bırakmaz.\n\nKaynak kodu açıktır.",
+    "uz": "Do The Thing vazifalarni oddiy ro'yxat sifatida emas, bugun nima bilan shug'ullanish kerakligini ko'rsatib yuritadi.\n\nIlova vaqti va muhimligiga mos keladiganini o'zi oldinga chiqaradi va eslatib turadi — sizni uzun ro'yxat bilan yolg'iz qoldirish o'rniga.\n\nManba kodi ochiq."
+  },
+  "com.biglybt.android.client": {
+    "ru": "BiglyBT — торрент-клиент, который работает и сам, и как пульт к запущенному на компьютере BiglyBT.\n\nСреди возможностей — объединение роёв: если одна и та же раздача существует в нескольких торрентах, клиент качает её из всех сразу, что заметно ускоряет загрузку редких файлов.\n\nИнтерфейс рассчитан на телефон, планшет, Chromebook и Android TV. Рекламы нет, исходный код открыт.",
+    "en": "BiglyBT is a torrent client that works on its own and as a remote control for BiglyBT running on a computer.\n\nAmong its features is swarm merging: when the same content exists in several torrents, the client pulls from all of them at once, which speeds up rare files noticeably.\n\nThe interface is built for phone, tablet, Chromebook and Android TV. There are no ads, and the source code is open.",
+    "tr": "BiglyBT, hem kendi başına hem de bilgisayarda çalışan BiglyBT için uzaktan kumanda olarak iş gören bir torrent istemcisidir.\n\nÖzelliklerinden biri sürü birleştirmedir: aynı içerik birden çok torrentte varsa istemci hepsinden aynı anda çeker; bu, ender dosyaları gözle görülür biçimde hızlandırır.\n\nArayüz telefon, tablet, Chromebook ve Android TV için tasarlanmıştır. Reklam yoktur, kaynak kodu açıktır.",
+    "uz": "BiglyBT — ham o'zi ishlaydigan, ham kompyuterda ishlayotgan BiglyBT uchun pult vazifasini bajaradigan torrent mijozi.\n\nImkoniyatlaridan biri — to'dalarni birlashtirish: bir xil tarqatma bir nechta torrentda bo'lsa, mijoz uni barchasidan bir vaqtda yuklaydi, bu kam uchraydigan fayllarni sezilarli tezlashtiradi.\n\nInterfeys telefon, planshet, Chromebook va Android TV uchun mo'ljallangan. Reklama yo'q, manba kodi ochiq."
+  },
+  "com.bily": {
+    "ru": "Bily делит общий счёт между несколькими людьми и считает долю каждого.\n\nИсходный код открыт.",
+    "en": "Bily splits a shared bill between several people and works out each one's share.\n\nThe source code is open.",
+    "tr": "Bily, ortak bir hesabı birkaç kişi arasında böler ve her birinin payını hesaplar.\n\nKaynak kodu açıktır.",
+    "uz": "Bily umumiy hisobni bir necha kishi o'rtasida bo'ladi va har birining ulushini hisoblaydi.\n\nManba kodi ochiq."
+  },
+  "com.binauralbeat": {
+    "ru": "Binaural Beat создаёт бинауральные ритмы для расслабления, сосредоточения и засыпания.\n\nЭффект возникает так: в каждое ухо подаётся своя частота, слегка отличающаяся от другой, и слух воспринимает разницу между ними как отдельный пульсирующий тон. Слушать нужно обязательно в наушниках.\n\nИсходный код открыт.",
+    "en": "Binaural Beat generates binaural beats for relaxation, focus and sleep.\n\nThe effect works like this: each ear receives a slightly different frequency, and hearing renders the difference between them as a separate pulsing tone. Headphones are essential.\n\nThe source code is open.",
+    "tr": "Binaural Beat; gevşeme, odaklanma ve uyku için binaural vuru üretir.\n\nEtki şöyle oluşur: her kulağa birbirinden biraz farklı bir frekans verilir ve işitme, aradaki farkı ayrı bir atımlı ton olarak algılar. Kulaklık şarttır.\n\nKaynak kodu açıktır.",
+    "uz": "Binaural Beat bo'shashish, diqqatni jamlash va uyquga ketish uchun binaural ritmlar hosil qiladi.\n\nTa'sir shunday yuzaga keladi: har bir quloqqa bir-biridan sal farq qiladigan chastota beriladi, eshitish esa ular orasidagi farqni alohida pulsli ohang sifatida qabul qiladi. Quloqchinda tinglash shart.\n\nManba kodi ochiq."
+  },
+  "com.biotstoiq.hayago": {
+    "ru": "Hayago отсчитывает время в партии го.\n\nПриложение не запрашивает ни одного разрешения и делает ровно то, что заявлено, ничего сверх.\n\nИсходный код открыт.",
+    "en": "Hayago keeps time in a game of go.\n\nIt requests no permissions at all and does exactly what it says, nothing beyond.\n\nThe source code is open.",
+    "tr": "Hayago, bir go oyununda süreyi tutar.\n\nHiçbir izin istemez ve söylediğinden fazlasını yapmaz.\n\nKaynak kodu açıktır.",
+    "uz": "Hayago go o'yinida vaqtni sanaydi.\n\nIlova birorta ham ruxsat so'ramaydi va aytilganidan ortiq hech narsa qilmaydi.\n\nManba kodi ochiq."
+  },
+  "com.bitcoin.sharedhaven.testnet": {
+    "ru": "SharedHaven — биткоин-кошелёк с общим владением: подпись транзакции требует согласия нескольких участников.\n\nПоддерживаются мультиподписные кошельки и блокировки по времени — как до конкретной даты, так и на определённый срок от момента операции. Такие схемы используют для наследования и для защиты крупных сумм от единичной ошибки.\n\nЭто сборка для тестовой сети. Исходный код открыт.",
+    "en": "SharedHaven is a Bitcoin wallet built around shared custody: signing a transaction takes the agreement of several parties.\n\nIt supports multisig wallets and timelocks, both to a fixed date and for a period counted from the transaction. Such arrangements are used for inheritance and to protect larger sums from a single mistake.\n\nThis build runs on the test network. The source code is open.",
+    "tr": "SharedHaven, ortak saklama üzerine kurulu bir Bitcoin cüzdanıdır: bir işlemi imzalamak birkaç tarafın onayını gerektirir.\n\nÇoklu imzalı cüzdanları ve zaman kilitlerini destekler; hem belirli bir tarihe kadar hem de işlemden itibaren sayılan bir süre için. Bu düzenler miras aktarımında ve büyük tutarları tek bir hatadan korumakta kullanılır.\n\nBu sürüm test ağında çalışır. Kaynak kodu açıktır.",
+    "uz": "SharedHaven — umumiy egalikka qurilgan bitkoin hamyoni: tranzaksiyani imzolash uchun bir necha ishtirokchining roziligi kerak.\n\nKo'p imzoli hamyonlar va vaqt qulflari qo'llab-quvvatlanadi — ham aniq sanagacha, ham amal paytidan boshlab ma'lum muddatga. Bunday sxemalar meros qoldirishda va katta summalarni bitta xatodan asrashda ishlatiladi.\n\nBu sinov tarmog'i uchun yig'ma. Manba kodi ochiq."
+  },
+  "com.bithack.principia": {
+    "ru": "Principia — песочница, где конструкции собираются по законам физики и тут же проверяются в деле.\n\nВ наборе больше двухсот деталей: из них строят механизмы, электрические схемы, небольшие игры и машины для роботов.\n\nИсходный код открыт.",
+    "en": "Principia is a sandbox where contraptions are built under the laws of physics and tested straight away.\n\nThe kit holds over two hundred parts, out of which people build machines, circuits, small games and robot vehicles.\n\nThe source code is open.",
+    "tr": "Principia, düzeneklerin fizik yasalarına göre kurulup hemen denendiği bir kum havuzu oyunudur.\n\nSette iki yüzden fazla parça vardır; bunlarla makineler, devreler, küçük oyunlar ve robot araçlar yapılır.\n\nKaynak kodu açıktır.",
+    "uz": "Principia — qurilmalar fizika qonunlari bo'yicha yig'iladigan va darhol sinab ko'riladigan qumloq o'yin.\n\nTo'plamda ikki yuzdan ortiq detal bor: ulardan mexanizmlar, elektr sxemalar, kichik o'yinlar va robot mashinalar quriladi.\n\nManba kodi ochiq."
+  },
+  "com.bitmavrick.lumolight": {
+    "ru": "Lumolight светит вспышкой камеры или заливает белым сам экран — когда нужен мягкий свет спереди, например чтобы разглядеть что-то вблизи.\n\nОформление построено на Material You и подхватывает цвета системной темы.\n\nИсходный код открыт.",
+    "en": "Lumolight lights up the camera flash or floods the screen itself with white — useful when you want soft light from the front, to look at something close up.\n\nThe styling is built on Material You and follows the system colours.\n\nThe source code is open.",
+    "tr": "Lumolight, kamera flaşını yakar ya da ekranın kendisini beyazla doldurur; önden yumuşak ışık istediğinizde, örneğin yakındaki bir şeye bakarken işe yarar.\n\nGörünüm Material You üzerine kuruludur ve sistem renklerini izler.\n\nKaynak kodu açıktır.",
+    "uz": "Lumolight kamera chaqnog'i bilan yoritadi yoki ekranning o'zini oq rangga to'ldiradi — old tomondan yumshoq yorug'lik kerak bo'lganda, masalan yaqindagi narsani ko'rish uchun.\n\nBezagi Material You ga qurilgan va tizim ranglarini oladi.\n\nManba kodi ochiq."
+  },
+  "com.blacksquircle.ui": {
+    "ru": "Squircle CE — редактор кода и файловый менеджер: подсветка синтаксиса работает более чем для тридцати языков программирования.\n\nФайлы открываются не только с устройства, но и с удалённого сервера по SFTP или FTP. Есть работа с Git — можно посмотреть изменения и зафиксировать их, не выходя из редактора.\n\nИсходный код открыт.",
+    "en": "Squircle CE is a code editor and file manager, with syntax highlighting for over thirty programming languages.\n\nFiles open from the device and from a remote server over SFTP or FTP. Git is supported too: changes can be reviewed and committed without leaving the editor.\n\nThe source code is open.",
+    "tr": "Squircle CE, otuzdan fazla programlama dili için sözdizimi renklendirmesi sunan bir kod düzenleyici ve dosya yöneticisidir.\n\nDosyalar hem cihazdan hem de SFTP ya da FTP üzerinden uzak bir sunucudan açılır. Git de desteklenir: değişiklikler düzenleyiciden çıkmadan gözden geçirilip işlenebilir.\n\nKaynak kodu açıktır.",
+    "uz": "Squircle CE — kod muharriri va fayl menejeri: sintaksis yoritish o'ttizdan ortiq dasturlash tili uchun ishlaydi.\n\nFayllar qurilmadangina emas, SFTP yoki FTP orqali masofaviy serverdan ham ochiladi. Git bilan ishlash bor — o'zgarishlarni muharrirdan chiqmasdan ko'rish va qayd etish mumkin.\n\nManba kodi ochiq."
   }
 }
