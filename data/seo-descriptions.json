@@ -5812,5 +5812,107 @@
     "en": "Fertility Test Analyzer helps read an ovulation or pregnancy test strip.\n\nThe app photographs the strip and measures the pigmentation of the control and test lines as a percentage — by eye, a faint second line is hard to tell from no line at all.\n\nThe source code is open.",
     "tr": "Fertility Test Analyzer, bir yumurtlama ya da gebelik test çubuğunu okumaya yardım eder.\n\nUygulama çubuğun fotoğrafını çeker ve kontrol ile test çizgilerinin renk yoğunluğunu yüzde olarak ölçer; çıplak gözle soluk bir ikinci çizgiyi hiç çizgi olmamasından ayırmak zordur.\n\nKaynak kodu açıktır.",
     "uz": "Fertility Test Analyzer ovulyatsiya yoki homiladorlik test tasmasi natijasini tushunishga yordam beradi.\n\nIlova tasmani suratga oladi va nazorat hamda test chiziqlarining to'yinganligini foizda baholaydi — ko'z bilan kuchsiz ikkinchi chiziqni umuman chiziq yo'qligidan ajratish qiyin bo'ladi.\n\nManba kodi ochiq."
+  },
+  "com.commit451.gitlab": {
+    "ru": "LabCoat открывает проекты GitLab с телефона.\n\nВидна история коммитов, можно просматривать файлы репозитория, читать и править задачи, оставлять к ним комментарии и закрывать их. Отдельно ведётся управление группами.\n\nИсходный код открыт.",
+    "en": "LabCoat opens GitLab projects from the phone.\n\nThe commit history is there, repository files can be browsed, and issues can be read, edited, commented on and closed. Groups are managed separately.\n\nThe source code is open.",
+    "tr": "LabCoat, GitLab projelerini telefondan açar.\n\nİşleme geçmişi görünür, depo dosyaları gezilebilir; sorunlar okunabilir, düzenlenebilir, yorumlanabilir ve kapatılabilir. Gruplar ayrıca yönetilir.\n\nKaynak kodu açıktır.",
+    "uz": "LabCoat GitLab loyihalarini telefondan ochadi.\n\nKommitlar tarixi ko'rinadi, repozitoriya fayllarini ko'rish, vazifalarni o'qish, tahrirlash, ularga izoh qoldirish va yopish mumkin. Guruhlar alohida boshqariladi.\n\nManba kodi ochiq."
+  },
+  "com.conanizer.pockettracker": {
+    "ru": "PocketTracker — музыкальный трекер: мелодия набирается не нотами на нотном стане, а строками в таблице, как это делали на старых компьютерах.\n\nПриложение сделано в духе LSDJ, LGPT и M8 и рассчитано на портативные игровые устройства с настоящими кнопками; на обычном телефоне управление выводится на экран.\n\nИсходный код открыт.",
+    "en": "PocketTracker is a music tracker: a tune is entered as rows in a table rather than notes on a stave, the way it was done on early computers.\n\nIt follows in the tradition of LSDJ, LGPT and the M8 and is built for handheld gaming devices with physical buttons; on an ordinary phone the controls appear on screen.\n\nThe source code is open.",
+    "tr": "PocketTracker bir müzik izleyicisidir: ezgi, porte üzerine notalarla değil, eski bilgisayarlardaki gibi bir tablodaki satırlarla girilir.\n\nLSDJ, LGPT ve M8 geleneğini sürdürür ve fiziksel düğmeleri olan el konsolları için tasarlanmıştır; sıradan bir telefonda denetimler ekrana gelir.\n\nKaynak kodu açıktır.",
+    "uz": "PocketTracker — musiqiy treker: kuy nota chizig'idagi notalar bilan emas, eski kompyuterlardagidek jadvaldagi qatorlar bilan teriladi.\n\nIlova LSDJ, LGPT va M8 ruhida ishlangan va haqiqiy tugmali portativ o'yin qurilmalariga mo'ljallangan; oddiy telefonda boshqaruv ekranga chiqadi.\n\nManba kodi ochiq."
+  },
+  "com.concept1tech.instalate": {
+    "ru": "InstaLate переводит текст в полупрозрачном окне поверх того приложения, где вы читаете.\n\nПеревод вызывается по-разному: выделением текста, копированием или отдельной кнопкой. Службу перевода тоже выбираете вы.\n\nИсходный код открыт.",
+    "en": "InstaLate translates text in a semi-transparent window over whatever app you are reading in.\n\nA translation can be triggered in several ways: by selecting text, by copying it, or with a separate button. The translation provider is yours to choose too.\n\nThe source code is open.",
+    "tr": "InstaLate, okuduğunuz uygulamanın üzerinde yarı saydam bir pencerede metni çevirir.\n\nÇeviri birkaç yolla başlatılır: metni seçerek, kopyalayarak ya da ayrı bir düğmeyle. Çeviri sağlayıcısını da siz seçersiniz.\n\nKaynak kodu açıktır.",
+    "uz": "InstaLate matnni siz o'qiyotgan ilova ustidagi yarim shaffof oynada tarjima qiladi.\n\nTarjima turlicha chaqiriladi: matnni belgilash, nusxalash yoki alohida tugma orqali. Tarjima xizmatini ham o'zingiz tanlaysiz.\n\nManba kodi ochiq."
+  },
+  "com.confinement.diconfinement": {
+    "ru": "Diconfinement — французский толковый словарь для пополнения словарного запаса.\n\nКроме значений слов в нём собраны и другие материалы для работы с языком.\n\nПриложение бесплатное, с открытым исходным кодом.",
+    "en": "Diconfinement is a French dictionary for building vocabulary.\n\nBesides word meanings it gathers further material for working with the language.\n\nThe app is free and open source.",
+    "tr": "Diconfinement, sözcük dağarcığını geliştirmeye yönelik bir Fransızca sözlüktür.\n\nSözcük anlamlarının yanı sıra dille çalışmaya yarayan başka malzemeler de içerir.\n\nUygulama ücretsizdir ve kaynak kodu açıktır.",
+    "uz": "Diconfinement — so'z boyligini oshirish uchun fransuz izohli lug'ati.\n\nSo'zlarning ma'nosidan tashqari unda til bilan ishlash uchun boshqa materiallar ham to'plangan.\n\nIlova bepul, manba kodi ochiq."
+  },
+  "com.conreo.couchytv": {
+    "ru": "Couchy Launcher заменяет домашний экран на телевизорах с Android TV и Google TV.\n\nПриложения раскладываются каруселью, сеткой или полосой внизу экрана — как удобнее. Фоном можно поставить видео.\n\nНи рекламы, ни отслеживания, ни учётных записей. Исходный код открыт.",
+    "en": "Couchy Launcher replaces the home screen on Android TV and Google TV sets.\n\nApps are laid out as a carousel, a grid or a dock along the bottom, whichever suits. A video can be set as the wallpaper.\n\nNo ads, no tracking, no accounts. The source code is open.",
+    "tr": "Couchy Launcher, Android TV ve Google TV cihazlarında ana ekranın yerini alır.\n\nUygulamalar karusel, ızgara ya da ekranın altındaki bir şerit olarak dizilir; hangisi uygunsa. Arka plana video konabilir.\n\nReklam, izleme ve hesap yok. Kaynak kodu açıktır.",
+    "uz": "Couchy Launcher Android TV va Google TV televizorlarida asosiy ekranni almashtiradi.\n\nIlovalar karusel, to'r yoki ekran pastidagi qator ko'rinishida joylashtiriladi — qaysi biri qulay bo'lsa. Fon sifatida video qo'yish mumkin.\n\nNa reklama, na kuzatuv, na hisoblar. Manba kodi ochiq."
+  },
+  "com.controlloid": {
+    "ru": "Controlloid превращает телефон в игровой контроллер для компьютера.\n\nКомпьютер видит его как настоящий геймпад, поэтому игра не догадывается, что кнопки нажимают на экране телефона. Работает с Linux и Windows, соединение идёт по любому доступному каналу.\n\nИсходный код открыт.",
+    "en": "Controlloid turns the phone into a game controller for a computer.\n\nThe computer sees it as a real gamepad, so the game never knows the buttons are being pressed on a phone screen. It works with Linux and Windows, over whatever connection is available.\n\nThe source code is open.",
+    "tr": "Controlloid, telefonu bir bilgisayar için oyun kumandasına dönüştürür.\n\nBilgisayar onu gerçek bir oyun kolu olarak görür; böylece oyun, düğmelere telefon ekranında basıldığını anlamaz. Linux ve Windows ile, hangi bağlantı varsa onun üzerinden çalışır.\n\nKaynak kodu açıktır.",
+    "uz": "Controlloid telefonni kompyuter uchun o'yin boshqaruvchisiga aylantiradi.\n\nKompyuter uni haqiqiy geympad deb ko'radi, shuning uchun o'yin tugmalar telefon ekranida bosilayotganini sezmaydi. Linux va Windows bilan ishlaydi, ulanish mavjud istalgan kanal orqali ketadi.\n\nManba kodi ochiq."
+  },
+  "com.cookiegames.smartcookie": {
+    "ru": "SmartCookieWeb — браузер, в котором защита включена сразу: блокировка рекламы и следящих модулей работает без дополнительной настройки.\n\nПроект вырос из браузера Lightning.\n\nИсходный код открыт.",
+    "en": "SmartCookieWeb is a browser with the protections on from the start: ad and tracker blocking work without any setting up.\n\nThe project grew out of Lightning Browser.\n\nThe source code is open.",
+    "tr": "SmartCookieWeb, korumaları en baştan açık gelen bir tarayıcıdır: reklam ve izleyici engelleme ek bir ayar gerektirmeden çalışır.\n\nProje Lightning Browser'dan türemiştir.\n\nKaynak kodu açıktır.",
+    "uz": "SmartCookieWeb — himoyasi darrov yoqilgan brauzer: reklama va kuzatuvchilarni bloklash qo'shimcha sozlamasiz ishlaydi.\n\nLoyiha Lightning brauzeridan o'sib chiqqan.\n\nManba kodi ochiq."
+  },
+  "com.corphish.nightlight.generic": {
+    "ru": "Night Light убавляет синюю составляющую в цветах экрана, чтобы читать в темноте было легче для глаз.\n\nНастройка идёт через KCAL — механизм цветокоррекции в некоторых прошивках, поэтому приложению нужен root-доступ. Зато цвет меняется на уровне экрана, без наложения полупрозрачного слоя поверх изображения.\n\nИсходный код открыт.",
+    "en": "Night Light cuts the blue component out of the screen's colours, so reading in the dark is easier on the eyes.\n\nIt works through KCAL, the colour calibration found in some firmware, which is why root access is needed. In return the colour changes at the display level, without laying a tinted sheet over the picture.\n\nThe source code is open.",
+    "tr": "Night Light, ekran renklerindeki mavi bileşeni azaltır; böylece karanlıkta okumak göze daha az yük olur.\n\nBazı yazılımlarda bulunan renk ayarı KCAL üzerinden çalışır, bu yüzden root erişimi gerekir. Buna karşılık renk, görüntünün üzerine yarı saydam bir katman koymadan ekran düzeyinde değişir.\n\nKaynak kodu açıktır.",
+    "uz": "Night Light ekran ranglaridagi ko'k tarkibni kamaytiradi, shunda qorong'ida o'qish ko'zga yengilroq bo'ladi.\n\nSozlash ba'zi proshivkalardagi rang tuzatish mexanizmi KCAL orqali ketadi, shu sababli ilovaga root huquqi kerak. Buning evaziga rang tasvir ustiga yarim shaffof qatlam qo'ymasdan, ekran darajasida o'zgaradi.\n\nManba kodi ochiq."
+  },
+  "com.corphish.quicktools": {
+    "ru": "Text Tools добавляет действия с текстом в меню, которое появляется при выделении.\n\nТо есть преобразовать выделенное можно прямо там, где оно написано, не копируя его в отдельное приложение и не возвращая обратно.\n\nИсходный код открыт.",
+    "en": "Text Tools adds text operations to the menu that appears when you select something.\n\nSelected text can therefore be transformed where it sits, without copying it into another app and pasting the result back.\n\nThe source code is open.",
+    "tr": "Text Tools, bir şey seçtiğinizde beliren menüye metin işlemleri ekler.\n\nBöylece seçili metin, başka bir uygulamaya kopyalanıp sonucu geri yapıştırılmadan bulunduğu yerde dönüştürülebilir.\n\nKaynak kodu açıktır.",
+    "uz": "Text Tools matnni belgilaganda chiqadigan menyuga matn bilan ishlash amallarini qo'shadi.\n\nYa'ni belgilangan matnni alohida ilovaga nusxalab, natijani qaytarmasdan, o'sha yerning o'zida o'zgartirish mumkin.\n\nManba kodi ochiq."
+  },
+  "com.correctsyntax.biblenotify": {
+    "ru": "Bible Notify присылает библейский стих уведомлением раз в день.\n\nСтих выбирается случайно из подготовленной подборки. Приложение работает без сети и ничего о вас не собирает.\n\nОно бесплатное, с открытым исходным кодом.",
+    "en": "Bible Notify sends a Bible verse as a notification once a day.\n\nThe verse is drawn at random from a prepared selection. The app works offline and gathers nothing about you.\n\nIt is free and open source.",
+    "tr": "Bible Notify, günde bir kez bildirim olarak bir İncil ayeti gönderir.\n\nAyet, hazırlanmış bir derlemeden rastgele seçilir. Uygulama çevrimdışı çalışır ve hakkınızda hiçbir şey toplamaz.\n\nÜcretsizdir ve kaynak kodu açıktır.",
+    "uz": "Bible Notify kuniga bir marta bildirishnoma sifatida Bibliya oyatini yuboradi.\n\nOyat tayyorlangan to'plamdan tasodifiy tanlanadi. Ilova tarmoqsiz ishlaydi va siz haqingizda hech narsa yig'maydi.\n\nU bepul, manba kodi ochiq."
+  },
+  "com.cosmos.candle": {
+    "ru": "Candle следит за биржевыми котировками в реальном времени.\n\nИсходный код открыт.",
+    "en": "Candle follows stock market prices in real time.\n\nThe source code is open.",
+    "tr": "Candle, borsa fiyatlarını gerçek zamanlı izler.\n\nKaynak kodu açıktır.",
+    "uz": "Candle birja kotirovkalarini real vaqtda kuzatadi.\n\nManba kodi ochiq."
+  },
+  "com.cosmos.unreddit": {
+    "ru": "Stealth открывает Reddit без учётной записи.\n\nВойти под своим логином здесь нельзя вовсе — приложение только читает: ленты, обсуждения и комментарии доступны, но участвовать в них не получится.\n\nИсходный код открыт.",
+    "en": "Stealth opens Reddit without an account.\n\nSigning in is not possible at all — the app only reads: feeds, threads and comments are there, but taking part in them is not.\n\nThe source code is open.",
+    "tr": "Stealth, Reddit'i hesap olmadan açar.\n\nOturum açmak hiç mümkün değildir; uygulama yalnızca okur: akışlar, başlıklar ve yorumlar vardır ama onlara katılmak yoktur.\n\nKaynak kodu açıktır.",
+    "uz": "Stealth Reddit ni hisobsiz ochadi.\n\nO'z login bilan kirishning imkoni umuman yo'q — ilova faqat o'qiydi: lentalar, muhokamalar va izohlar ochiq, lekin ularda qatnashib bo'lmaydi.\n\nManba kodi ochiq."
+  },
+  "com.craftworks.music": {
+    "ru": "Chora проигрывает музыку с вашего сервера Subsonic или Navidrome, а также файлы с самого телефона.\n\nОформление построено на Material 3 и сведено к простому.\n\nИсходный код открыт.",
+    "en": "Chora plays music from your own Subsonic or Navidrome server, as well as files on the phone itself.\n\nThe styling is built on Material 3 and kept simple.\n\nThe source code is open.",
+    "tr": "Chora, kendi Subsonic ya da Navidrome sunucunuzdaki müziği ve telefondaki dosyaları çalar.\n\nGörünüm Material 3 üzerine kuruludur ve sade tutulmuştur.\n\nKaynak kodu açıktır.",
+    "uz": "Chora o'z Subsonic yoki Navidrome serveringizdagi musiqani, shuningdek telefonning o'zidagi fayllarni ijro etadi.\n\nBezagi Material 3 ga qurilgan va sodda qilingan.\n\nManba kodi ochiq."
+  },
+  "com.craftxbox.yubiclip.xor": {
+    "ru": "YubiClip XOR читает статический пароль с ключа YubiKey по NFC и при этом шифрует его наложением XOR.\n\nСмысл в том, что обычную метку NFC можно прочитать чужим телефоном, поднесённым вплотную; зашифрованный пароль такому чтению не поддаётся, потому что без ключа он бесполезен.\n\nЭто ответвление приложения YubiClip компании Yubico. Исходный код открыт.",
+    "en": "YubiClip XOR reads a static password from a YubiKey over NFC and applies XOR encryption to it.\n\nThe point is that an ordinary NFC tag can be read by someone else's phone held close by; an encrypted password survives that, because without the key it is of no use.\n\nIt is a fork of Yubico's YubiClip app. The source code is open.",
+    "tr": "YubiClip XOR, bir YubiKey'deki sabit parolayı NFC ile okur ve ona XOR şifrelemesi uygular.\n\nMesele şu: sıradan bir NFC etiketi, yakına tutulan başka birinin telefonuyla okunabilir; şifrelenmiş bir parola bundan zarar görmez, çünkü anahtarsız işe yaramaz.\n\nYubico'nun YubiClip uygulamasının bir çatallamasıdır. Kaynak kodu açıktır.",
+    "uz": "YubiClip XOR YubiKey kalitidagi statik parolni NFC orqali o'qiydi va unga XOR shifrlashni qo'llaydi.\n\nMa'nosi shundaki, oddiy NFC tegini yaqin tutilgan birovning telefoni ham o'qiy oladi; shifrlangan parol bunday o'qishga bo'ysunmaydi, chunki kalitsiz u foydasiz.\n\nBu Yubico kompaniyasining YubiClip ilovasi ayrilmasi. Manba kodi ochiq."
+  },
+  "com.craigd.lmsmaterial.app": {
+    "ru": "Lyrion открывает панель управления сервером Lyrion Music Server — системой, которая раздаёт музыку по домашним колонкам.\n\nПриложение показывает веб-интерфейс сервера, поэтому на самом сервере должно быть установлено дополнение MaterialSkin.\n\nИсходный код открыт.",
+    "en": "Lyrion opens the control panel of a Lyrion Music Server — the system that feeds music to speakers around the house.\n\nThe app displays the server's web interface, so the MaterialSkin plugin has to be installed on the server itself.\n\nThe source code is open.",
+    "tr": "Lyrion, evdeki hoparlörlere müzik dağıtan Lyrion Music Server'ın denetim panelini açar.\n\nUygulama sunucunun web arayüzünü gösterdiğinden, sunucuda MaterialSkin eklentisinin kurulu olması gerekir.\n\nKaynak kodu açıktır.",
+    "uz": "Lyrion uydagi kolonkalarga musiqa tarqatadigan Lyrion Music Server boshqaruv panelini ochadi.\n\nIlova serverning veb-interfeysini ko'rsatadi, shuning uchun serverning o'ziga MaterialSkin qo'shimchasi o'rnatilgan bo'lishi kerak.\n\nManba kodi ochiq."
+  },
+  "com.crawlmb": {
+    "ru": "Dungeon Crawl: Stone Soup — классический рогалик: подземелье строится заново каждый раз, смерть окончательна, а цель — добыть Орб Зота и выбраться с ним наружу.\n\nЭто версия с текстовой графикой, где всё показано знаками ASCII.\n\nПеренос на Android неофициальный. Исходный код открыт.",
+    "en": "Dungeon Crawl: Stone Soup is a classic roguelike: the dungeon is built afresh each time, death is final, and the goal is to bring the Orb of Zot back to the surface.\n\nThis is the text version, where everything is drawn in ASCII characters.\n\nThe Android port is unofficial. The source code is open.",
+    "tr": "Dungeon Crawl: Stone Soup klasik bir roguelike'tır: zindan her seferinde yeniden üretilir, ölüm kalıcıdır ve amaç Zot Küresi'ni yüzeye çıkarmaktır.\n\nBu, her şeyin ASCII karakterleriyle çizildiği metin sürümüdür.\n\nAndroid uyarlaması resmî değildir. Kaynak kodu açıktır.",
+    "uz": "Dungeon Crawl: Stone Soup — klassik roguelike: zindon har safar qaytadan quriladi, o'lim qaytarilmaydi, maqsad esa Zot Orbini olib, tashqariga chiqish.\n\nBu matnli grafikali versiya bo'lib, unda hamma narsa ASCII belgilari bilan ko'rsatiladi.\n\nAndroid uchun ko'chirma norasmiy. Manba kodi ochiq."
+  },
+  "com.craxiom.networksurvey": {
+    "ru": "Network Survey записывает в файл всё, что телефон видит вокруг: сотовые вышки, точки Wi-Fi, устройства Bluetooth и спутники навигации.\n\nЗаписи сохраняются в формате GeoPackage или CSV вместе с координатами, поэтому потом по ним можно построить карту покрытия и посмотреть, где связь пропадает.\n\nИсходный код открыт.",
+    "en": "Network Survey logs to a file everything the phone can see around it: cell towers, Wi-Fi access points, Bluetooth devices and navigation satellites.\n\nThe records are written as GeoPackage or CSV along with the coordinates, so a coverage map can be built from them afterwards to see where the signal drops.\n\nThe source code is open.",
+    "tr": "Network Survey, telefonun çevresinde gördüğü her şeyi bir dosyaya kaydeder: baz istasyonları, Wi-Fi erişim noktaları, Bluetooth cihazları ve navigasyon uyduları.\n\nKayıtlar konum bilgisiyle birlikte GeoPackage ya da CSV olarak yazılır; böylece sonradan bir kapsama haritası çıkarılıp sinyalin nerede kesildiği görülebilir.\n\nKaynak kodu açıktır.",
+    "uz": "Network Survey telefon atrofida ko'rgan hamma narsani faylga yozadi: uyali minoralar, Wi-Fi nuqtalari, Bluetooth qurilmalari va navigatsiya yo'ldoshlari.\n\nYozuvlar koordinatalar bilan birga GeoPackage yoki CSV formatida saqlanadi, shuning uchun keyin ular asosida qamrov xaritasini tuzib, aloqa qayerda uzilishini ko'rish mumkin.\n\nManba kodi ochiq."
   }
 }
