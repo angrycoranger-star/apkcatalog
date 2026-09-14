@@ -6016,5 +6016,107 @@
     "en": "OpenCalc is a calculator covering ordinary and scientific operations.\n\nThe app takes up around two megabytes and asks for no unnecessary permissions. The theme can be light, dark, fully black, or drawn from the system colours.\n\nThe source code is open.",
     "tr": "OpenCalc, sıradan ve bilimsel işlemleri kapsayan bir hesap makinesidir.\n\nUygulama yaklaşık iki megabayt yer kaplar ve gereksiz hiçbir izin istemez. Tema açık, koyu, tümüyle siyah ya da sistem renklerinden alınmış olabilir.\n\nKaynak kodu açıktır.",
     "uz": "OpenCalc — oddiy va ilmiy amallarni bajaradigan kalkulyator.\n\nIlova taxminan ikki megabayt joy egallaydi va birorta ham ortiqcha ruxsat so'ramaydi. Bezak yorug', qorong'i, butunlay qora yoki tizim mavzusi ranglari bo'yicha bo'lishi mumkin.\n\nManba kodi ochiq."
+  },
+  "com.darkrockstudios.app.securecamera": {
+    "ru": "SnapSafe снимает и хранит фотографии в зашифрованном виде на самом устройстве.\n\nСнимки не попадают в общую галерею и никуда не выгружаются: доступ к ним открывается только через приложение.\n\nИсходный код открыт.",
+    "en": "SnapSafe takes photographs and keeps them encrypted on the device itself.\n\nThe pictures do not go into the ordinary gallery and are not uploaded anywhere: they open only through the app.\n\nThe source code is open.",
+    "tr": "SnapSafe, fotoğraf çeker ve onları doğrudan cihazda şifreli olarak saklar.\n\nResimler sıradan galeriye düşmez ve hiçbir yere yüklenmez: yalnızca uygulama üzerinden açılır.\n\nKaynak kodu açıktır.",
+    "uz": "SnapSafe suratga oladi va ularni qurilmaning o'zida shifrlangan holda saqlaydi.\n\nSuratlar umumiy galereyaga tushmaydi va hech qayerga yuklanmaydi: ularga faqat ilova orqali kirish mumkin.\n\nManba kodi ochiq."
+  },
+  "com.darkrockstudios.apps.fasttrack": {
+    "ru": "FastTrack отсчитывает время голодания и показывает, что происходит в организме на каждом этапе.\n\nВы отмечаете начало, а дальше приложение ведёт счёт часов и поясняет, какие процессы обычно начинаются к этому сроку.\n\nНи рекламы, ни встроенных покупок, ни разрешений приложение не требует. Исходный код открыт.",
+    "en": "FastTrack counts the hours of a fast and describes what the body is doing at each stage.\n\nYou mark when the fast begins; from there the app keeps the count and explains which processes usually set in by that point.\n\nIt asks for no ads, no in-app purchases and no permissions. The source code is open.",
+    "tr": "FastTrack, orucun saatlerini sayar ve her aşamada bedende ne olduğunu anlatır.\n\nBaşlangıcı siz işaretlersiniz; sonrasında uygulama saatleri sayar ve o noktada genellikle hangi süreçlerin devreye girdiğini açıklar.\n\nReklam, uygulama içi satın alma ve izin istemez. Kaynak kodu açıktır.",
+    "uz": "FastTrack ro'za vaqtini sanaydi va har bosqichda organizmda nima sodir bo'layotganini ko'rsatadi.\n\nBoshlanishini siz belgilaysiz, keyin ilova soatlarni sanaydi va bu muddatga odatda qanday jarayonlar boshlanishini izohlaydi.\n\nIlova na reklama, na ichki xaridlar, na ruxsatlar talab qiladi. Manba kodi ochiq."
+  },
+  "com.darkrockstudios.apps.hammer.android": {
+    "ru": "Hammer — приложение для писателей: черновики романа или рассказа ведутся по сценам, которые можно переставлять местами.\n\nРабота продолжается на любом устройстве — телефоне, планшете или настольном компьютере, — а синхронизацию можно вести через свой сервер.\n\nИсходный код открыт.",
+    "en": "Hammer is a writing app: a novel or a story is drafted as scenes that can be rearranged.\n\nThe work carries on across devices — phone, tablet or desktop — and syncing can run through a server of your own.\n\nThe source code is open.",
+    "tr": "Hammer bir yazarlık uygulamasıdır: bir roman ya da öykü, yerleri değiştirilebilen sahneler hâlinde yazılır.\n\nÇalışma cihazlar arasında sürer — telefon, tablet ya da masaüstü — ve eşitleme kendi sunucunuz üzerinden yapılabilir.\n\nKaynak kodu açıktır.",
+    "uz": "Hammer — yozuvchilar uchun ilova: roman yoki hikoya qoralamasi o'rnini almashtirish mumkin bo'lgan sahnalar ko'rinishida yuritiladi.\n\nIsh istalgan qurilmada — telefon, planshet yoki ish stoli kompyuterida davom etadi, sinxronlashni esa o'z serveringiz orqali olib borish mumkin.\n\nManba kodi ochiq."
+  },
+  "com.darshancomputing.BatteryIndicator": {
+    "ru": "BatteryBot выводит уровень заряда числом прямо в строке состояния.\n\nВ уведомлении рядом показаны температура и напряжение аккумулятора, оценка его состояния и время, прошедшее с момента подключения или отключения зарядки.\n\nИсходный код открыт.",
+    "en": "BatteryBot puts the charge level as a number right in the status bar.\n\nThe accompanying notification adds the battery's temperature and voltage, an estimate of its health, and the time since it was plugged in or unplugged.\n\nThe source code is open.",
+    "tr": "BatteryBot, şarj düzeyini doğrudan durum çubuğunda sayı olarak gösterir.\n\nYanındaki bildirimde pilin sıcaklığı ve voltajı, sağlık tahmini ve fişe takıldığından ya da çıkarıldığından bu yana geçen süre yer alır.\n\nKaynak kodu açıktır.",
+    "uz": "BatteryBot quvvat darajasini holat qatorida raqam bilan ko'rsatadi.\n\nYonidagi bildirishnomada batareyaning harorati va kuchlanishi, holati bahosi hamda quvvatga ulangan yoki uzilgandan beri o'tgan vaqt chiqadi.\n\nManba kodi ochiq."
+  },
+  "com.darshancomputing.BatteryIndicatorPro": {
+    "ru": "BatteryBot Pro показывает заряд аккумулятора числом в строке состояния, а в уведомлении — температуру, напряжение, состояние батареи и время с момента подключения зарядки.\n\nЭто расширенная сборка BatteryBot.\n\nИсходный код открыт.",
+    "en": "BatteryBot Pro shows the charge as a number in the status bar, with the temperature, voltage, battery health and the time since charging started in the notification.\n\nIt is the extended build of BatteryBot.\n\nThe source code is open.",
+    "tr": "BatteryBot Pro, şarjı durum çubuğunda sayı olarak gösterir; bildirimde ise sıcaklık, voltaj, pil sağlığı ve şarjın başlamasından bu yana geçen süre yer alır.\n\nBatteryBot'un genişletilmiş sürümüdür.\n\nKaynak kodu açıktır.",
+    "uz": "BatteryBot Pro quvvat darajasini holat qatorida raqam bilan, bildirishnomada esa harorat, kuchlanish, batareya holati va quvvatlash boshlanganidan beri o'tgan vaqtni ko'rsatadi.\n\nBu BatteryBot ning kengaytirilgan yig'masi.\n\nManba kodi ochiq."
+  },
+  "com.databag": {
+    "ru": "Databag — мессенджер, работающий через ваш собственный сервер: приложение связывается с ним напрямую, без посредников.\n\nПри этом серверы объединяются между собой, поэтому переписываться можно и с теми, у кого сервер свой, — как с электронной почтой, где адрес на одном домене не мешает написать на другой.\n\nИсходный код открыт.",
+    "en": "Databag is a messenger that runs through a server you host yourself: the app talks to it directly, with nothing in between.\n\nThe servers also federate, so you can write to people whose server is a different one — much as with email, where an address on one domain is no obstacle to writing to another.\n\nThe source code is open.",
+    "tr": "Databag, kendi barındırdığınız bir sunucu üzerinden çalışan bir mesajlaşma uygulamasıdır: uygulama sunucuyla aracısız konuşur.\n\nSunucular ayrıca birbirine federe olur; böylece sunucusu başka olan kişilerle de yazışabilirsiniz. Tıpkı e-postada olduğu gibi: bir alan adındaki adres, başka bir alana yazmaya engel değildir.\n\nKaynak kodu açıktır.",
+    "uz": "Databag — o'zingiz joylashtirgan server orqali ishlaydigan messenjer: ilova u bilan vositachisiz bog'lanadi.\n\nServerlar o'zaro birlashadi ham, shuning uchun serveri boshqa bo'lganlar bilan ham yozishish mumkin — xuddi elektron pochtadagidek, bir domendagi manzil boshqasiga yozishga xalaqit bermaydi.\n\nManba kodi ochiq."
+  },
+  "com.david.waterreminder": {
+    "ru": "FillMeUp! считает, сколько воды вы выпили за день, и напоминает выпить ещё.\n\nНапоминания приходят в течение дня, а накопленный счёт показывает, укладываетесь ли вы в намеченное.\n\nИсходный код открыт.",
+    "en": "FillMeUp! counts how much water you have drunk during the day and reminds you to drink more.\n\nThe reminders come through the day, and the running total shows whether you are keeping to what you meant to drink.\n\nThe source code is open.",
+    "tr": "FillMeUp!, gün içinde ne kadar su içtiğinizi sayar ve daha fazlasını içmenizi hatırlatır.\n\nHatırlatmalar gün boyunca gelir; biriken toplam da hedeflediğinize ulaşıp ulaşmadığınızı gösterir.\n\nKaynak kodu açıktır.",
+    "uz": "FillMeUp! kun davomida qancha suv ichganingizni hisoblaydi va yana ichishni eslatadi.\n\nEslatmalar kun bo'yi keladi, yig'ilgan hisob esa mo'ljallaganingizga yetayotganingizni ko'rsatadi.\n\nManba kodi ochiq."
+  },
+  "com.davidshewitt.admincontrol": {
+    "ru": "AdminControl отключает разблокировку по отпечатку на экране блокировки, не удаляя сами отпечатки.\n\nЭто нужно, когда отпечаток должен остаться для приложений — например, банковских, — но открывать им телефон вы не хотите.\n\nИсходный код открыт.",
+    "en": "AdminControl disables fingerprint unlocking on the lock screen without deleting your fingerprints.\n\nIt helps when the fingerprint should stay available to apps — a banking one, say — but you would rather it did not open the phone itself.\n\nThe source code is open.",
+    "tr": "AdminControl, parmak izlerinizi silmeden kilit ekranındaki parmak iziyle açmayı devre dışı bırakır.\n\nParmak izinin uygulamalar için — örneğin bankacılık uygulaması — kullanılabilir kalması, ama telefonun kendisini açmaması gerektiğinde işe yarar.\n\nKaynak kodu açıktır.",
+    "uz": "AdminControl barmoq izlarini o'chirmasdan, qulflash ekranida barmoq izi bilan ochishni bekor qiladi.\n\nBu barmoq izi ilovalar uchun — masalan, bank ilovalari uchun qolishi kerak bo'lgan, lekin telefonning o'zini ochishini istamaganingizda asqotadi.\n\nManba kodi ochiq."
+  },
+  "com.davidtakac.bura": {
+    "ru": "Bura показывает погоду по данным Open-Meteo: главное видно сразу, а подробности разворачиваются графиками.\n\nГрафик удобнее строки с числом: по нему видно не только текущую температуру, но и то, как она будет меняться в течение дня.\n\nИсходный код открыт.",
+    "en": "Bura presents weather from Open-Meteo: the essentials at a glance, with the detail opening out into graphs.\n\nA graph tells more than a single figure: it shows not just the temperature now but how it will move through the day.\n\nThe source code is open.",
+    "tr": "Bura, Open-Meteo verileriyle havayı sunar: önemli olan bir bakışta görünür, ayrıntılar ise grafiklere açılır.\n\nGrafik tek bir sayıdan çok şey söyler: yalnızca şu anki sıcaklığı değil, gün boyunca nasıl değişeceğini de gösterir.\n\nKaynak kodu açıktır.",
+    "uz": "Bura ob-havoni Open-Meteo ma'lumotlari asosida ko'rsatadi: asosiysi darrov ko'rinadi, tafsilotlar esa grafiklarga yoyiladi.\n\nGrafik bitta sondan ko'proq narsani aytadi: u hozirgi haroratnigina emas, u kun davomida qanday o'zgarishini ham ko'rsatadi.\n\nManba kodi ochiq."
+  },
+  "com.dd3boh.outertune": {
+    "ru": "OuterTune проигрывает и музыку с устройства, и записи из YouTube Music.\n\nПонравившееся скачивается для прослушивания без сети, так что одна и та же библиотека собирается из своих файлов и из сетевых.\n\nПроект вырос из InnerTune. Исходный код открыт.",
+    "en": "OuterTune plays both the music on your device and what is on YouTube Music.\n\nTracks can be downloaded for listening offline, so one library is assembled from your own files and from online ones alike.\n\nThe project grew out of InnerTune. The source code is open.",
+    "tr": "OuterTune, hem cihazınızdaki müziği hem de YouTube Music'tekileri çalar.\n\nBeğendikleriniz çevrimdışı dinlemek için indirilebilir; böylece tek bir kitaplık hem kendi dosyalarınızdan hem çevrimiçi olanlardan oluşur.\n\nProje InnerTune'dan türemiştir. Kaynak kodu açıktır.",
+    "uz": "OuterTune ham qurilmadagi musiqani, ham YouTube Music dagi yozuvlarni ijro etadi.\n\nYoqqanini tarmoqsiz tinglash uchun yuklab olish mumkin, shunday qilib bitta kutubxona o'z fayllaringiz va tarmoqdagilardan yig'iladi.\n\nLoyiha InnerTune dan o'sib chiqqan. Manba kodi ochiq."
+  },
+  "com.debojit.wallapp": {
+    "ru": "WallApp показывает обои с сайта TheWallApp — личной подборки автора приложения.\n\nПриложение небольшое и делает одно: открывает эту коллекцию и ставит выбранное на экран.\n\nИсходный код открыт.",
+    "en": "WallApp browses wallpapers from TheWallApp, the author's own collection.\n\nThe app is small and does one thing: it opens that collection and sets what you pick as the wallpaper.\n\nThe source code is open.",
+    "tr": "WallApp, geliştiricinin kendi derlemesi olan TheWallApp'taki duvar kâğıtlarını gezer.\n\nUygulama küçüktür ve tek bir iş yapar: bu derlemeyi açar ve seçtiğinizi duvar kâğıdı yapar.\n\nKaynak kodu açıktır.",
+    "uz": "WallApp TheWallApp saytidagi fon rasmlarini ko'rsatadi — bu ilova muallifining shaxsiy to'plami.\n\nIlova kichik va bitta ish qiladi: shu to'plamni ochadi va tanlanganini ekranga qo'yadi.\n\nManba kodi ochiq."
+  },
+  "com.decred.decredaddressscanner": {
+    "ru": "Decred Address Scanner следит за остатком на адресах Decred.\n\nПриложение проверяет их примерно раз в полчаса, а отмеченные адреса сообщают об изменении баланса уведомлением — так о поступлении узнаёшь без ручной проверки.\n\nИсходный код открыт.",
+    "en": "Decred Address Scanner watches the balance of Decred addresses.\n\nIt checks them about every half hour, and a starred address sends a notification when its balance changes — so an incoming payment reaches you without a manual check.\n\nThe source code is open.",
+    "tr": "Decred Address Scanner, Decred adreslerindeki bakiyeyi izler.\n\nYaklaşık yarım saatte bir denetler; yıldızlanmış bir adres, bakiyesi değiştiğinde bildirim gönderir. Böylece gelen bir ödemeyi elle bakmadan öğrenirsiniz.\n\nKaynak kodu açıktır.",
+    "uz": "Decred Address Scanner Decred manzillaridagi qoldiqni kuzatadi.\n\nIlova ularni taxminan yarim soatda bir tekshiradi, belgilangan manzillar esa balans o'zgarganda bildirishnoma yuboradi — shunday qilib tushum haqida qo'lda tekshirmasdan bilib olasiz.\n\nManba kodi ochiq."
+  },
+  "com.deedeedev.ytreader": {
+    "ru": "YtReader превращает ролик на YouTube в текст для чтения: субтитры идут подсвеченными вслед за речью.\n\nНужные куски можно сохранить — так из лекции или интервью получается конспект, а не полтора часа видео, которые потом не пересмотреть.\n\nИсходный код открыт.",
+    "en": "YtReader turns a YouTube video into something to read: the subtitles are highlighted in step with the speech.\n\nThe parts that matter can be saved — so a lecture or an interview becomes notes rather than ninety minutes of video nobody will watch again.\n\nThe source code is open.",
+    "tr": "YtReader, bir YouTube videosunu okunacak bir metne dönüştürür: altyazılar konuşmayla eşzamanlı vurgulanır.\n\nÖnemli bölümler kaydedilebilir; böylece bir ders ya da söyleşi, kimsenin yeniden izlemeyeceği doksan dakikalık video yerine nota dönüşür.\n\nKaynak kodu açıktır.",
+    "uz": "YtReader YouTube dagi rolikni o'qish uchun matnga aylantiradi: subtitrlar nutq ortidan yoritilib boradi.\n\nKerakli parchalarni saqlash mumkin — shunda ma'ruza yoki suhbatdan qaytib ko'rilmaydigan bir yarim soatlik video emas, konspekt hosil bo'ladi.\n\nManba kodi ochiq."
+  },
+  "com.defang.launcher": {
+    "ru": "Defang — лаунчер, который ставит небольшую задержку перед открытием приложений, затягивающих внимание.\n\nАвтор описывает это как лежачий полицейский, а не забор: Instagram по-прежнему откроется, и таймер можно отменить — задержка нужна лишь для того, чтобы на секунду вернуть выбор себе.\n\nИсходный код открыт.",
+    "en": "Defang is a launcher that puts a short delay in front of the apps that swallow attention.\n\nThe author calls it a speed bump rather than a wall: Instagram still opens, and the timer can be overridden — the pause is only there to hand the choice back to you for a moment.\n\nThe source code is open.",
+    "tr": "Defang, dikkati yutan uygulamaların önüne kısa bir gecikme koyan bir başlatıcıdır.\n\nGeliştirici bunu duvar değil, hız kesici olarak tanımlar: Instagram yine açılır ve sayaç geçilebilir; duraklama yalnızca seçimi bir anlığına size geri vermek içindir.\n\nKaynak kodu açıktır.",
+    "uz": "Defang — e'tiborni yutadigan ilovalar oldiga qisqa kechikish qo'yadigan launcher.\n\nMuallif buni devor emas, yotgan politsiyachi deb ataydi: Instagram baribir ochiladi, taymerni bekor qilsa ham bo'ladi — kechikish faqat tanlovni bir lahzaga sizga qaytarish uchun.\n\nManba kodi ochiq."
+  },
+  "com.defname.localshare": {
+    "ru": "LocalShare передаёт файлы на любое устройство в той же сети — по Wi-Fi или через раздачу с телефона.\n\nПриложение поднимает у себя веб-сервер, поэтому получателю достаточно открыть ссылку в браузере: ставить ничего не нужно, и подойдёт даже компьютер с другой системой.\n\nИсходный код открыт.",
+    "en": "LocalShare sends files to any device on the same network — over Wi-Fi or through the phone's own hotspot.\n\nThe app runs a small web server, so the other side only opens a link in a browser: nothing to install, and a computer running any system will do.\n\nThe source code is open.",
+    "tr": "LocalShare, dosyaları aynı ağdaki herhangi bir cihaza gönderir: Wi-Fi üzerinden ya da telefonun kendi erişim noktasıyla.\n\nUygulama küçük bir web sunucusu çalıştırır; böylece karşı taraf yalnızca tarayıcıda bir bağlantı açar: kurulacak bir şey yoktur ve hangi sistemi çalıştırırsa çalıştırsın bir bilgisayar iş görür.\n\nKaynak kodu açıktır.",
+    "uz": "LocalShare fayllarni shu tarmoqdagi istalgan qurilmaga uzatadi — Wi-Fi orqali yoki telefondan tarqatish bilan.\n\nIlova o'zida veb-server ishga tushiradi, shuning uchun qabul qiluvchi brauzerda havolani ochsa kifoya: hech narsa o'rnatish shart emas va boshqa tizimdagi kompyuter ham to'g'ri keladi.\n\nManba kodi ochiq."
+  },
+  "com.degeder.yam": {
+    "ru": "YAM — метроном, написанный музыкантом-любителем для себя.\n\nАвтор искал бесплатный вариант без рекламы и с достаточно широким диапазоном темпа: во многих приложениях он оказывается урезанным. Здесь ограничения сняты.\n\nИсходный код открыт.",
+    "en": "YAM is a metronome an amateur musician wrote for himself.\n\nThe author was after something free, free of ads, and with a tempo range wide enough: in many apps it turns out to be clipped. Here it is not.\n\nThe source code is open.",
+    "tr": "YAM, amatör bir müzisyenin kendisi için yazdığı bir metronomdur.\n\nGeliştirici ücretsiz, reklamsız ve tempo aralığı yeterince geniş bir şey arıyordu: çoğu uygulamada bu aralık kısıtlı çıkar. Burada kısıtlanmamıştır.\n\nKaynak kodu açıktır.",
+    "uz": "YAM — havaskor musiqachi o'zi uchun yozgan metronom.\n\nMuallif bepul, reklamasiz va temp diapazoni yetarlicha keng variantni qidirgan: ko'p ilovalarda u cheklangan bo'lib chiqadi. Bu yerda cheklov yo'q.\n\nManba kodi ochiq."
+  },
+  "com.demizo.daily_you": {
+    "ru": "Daily You ведёт дневник: запись о дне, отметка о настроении и то, что стоит запомнить.\n\nСо временем отметки складываются в картину, по которой видно, как настроение менялось от недели к неделе.\n\nИсходный код открыт.",
+    "en": "Daily You keeps a diary: a note on the day, a mark for your mood, and whatever is worth remembering.\n\nOver time those marks build into a picture of how the mood shifted from week to week.\n\nThe source code is open.",
+    "tr": "Daily You bir günlük tutar: güne dair bir not, ruh hâliniz için bir işaret ve hatırlamaya değer ne varsa.\n\nZamanla bu işaretler, ruh hâlinin haftadan haftaya nasıl değiştiğini gösteren bir tabloya dönüşür.\n\nKaynak kodu açıktır.",
+    "uz": "Daily You kundalik yuritadi: kun haqidagi yozuv, kayfiyat belgisi va esda qolishga arziydigan narsalar.\n\nVaqt o'tib bu belgilar manzaraga aylanadi va kayfiyat haftadan haftaga qanday o'zgarganini ko'rsatadi.\n\nManba kodi ochiq."
   }
 }
