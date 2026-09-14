@@ -5404,5 +5404,209 @@
     "en": "BoldWallet is a Bitcoin wallet built so that it has no single point of failure.\n\nInstead of one private key it uses a two-of-three threshold signature: the key is split into shares, and any two of them authorise a transfer. Losing one share does not lock you out, and stealing one does not let anyone spend.\n\nThe source code is open.",
     "tr": "BoldWallet, tek bir arıza noktası olmayacak biçimde kurulmuş bir Bitcoin cüzdanıdır.\n\nTek bir özel anahtar yerine üçte iki eşikli imza kullanır: anahtar paylara bölünür ve bir aktarım için bunlardan ikisi yeter. Bir payı yitirmek erişimi kapatmaz, bir payı çalmak da harcama yetkisi vermez.\n\nKaynak kodu açıktır.",
     "uz": "BoldWallet — yagona ishdan chiqish nuqtasi bo'lmasligi uchun tuzilgan bitkoin hamyoni.\n\nBitta yopiq kalit o'rniga uchdan ikki bo'sag'ali imzo ishlatiladi: kalit bo'laklarga bo'linadi va o'tkazma uchun ulardan ikkitasi kerak. Bitta bo'lakni yo'qotish mablag'dan mahrum qilmaydi, bittasini o'g'irlash esa uni sarflashga imkon bermaydi.\n\nManba kodi ochiq."
+  },
+  "com.bote.app": {
+    "ru": "Bote ведёт общие расходы компании: на каждое событие заводится своя карточка, где отмечают, кто заплатил и как делится сумма.\n\nВ конце приложение сводит расчёты так, чтобы переводов было как можно меньше: вместо того чтобы каждый возвращал каждому, получается короткий список, кто кому переводит один раз.\n\nИсходный код открыт.",
+    "en": "Bote keeps a group's shared accounts: each event gets its own card noting who paid and how the sum is split.\n\nAt the end the app settles up with the fewest transfers possible: instead of everyone paying back everyone, you get a short list of single payments.\n\nThe source code is open.",
+    "tr": "Bote, bir grubun ortak hesaplarını tutar: her etkinlik için kimin ödediğini ve tutarın nasıl bölüneceğini belirten ayrı bir kart açılır.\n\nSonunda uygulama, hesabı olabilecek en az aktarımla kapatır: herkesin herkese ödeme yapması yerine, tek seferlik ödemelerden oluşan kısa bir liste çıkar.\n\nKaynak kodu açıktır.",
+    "uz": "Bote davraning umumiy xarajatlarini yuritadi: har bir tadbir uchun alohida karta ochiladi, unda kim to'lagani va summa qanday bo'linishi belgilanadi.\n\nOxirida ilova hisob-kitobni imkon qadar kam o'tkazma bilan yakunlaydi: har kim har kimga qaytarishi o'rniga, kim kimga bir marta o'tkazishi haqida qisqa ro'yxat chiqadi.\n\nManba kodi ochiq."
+  },
+  "com.brahmadeo.supertonic.tts": {
+    "ru": "Supertonic TTS озвучивает текст голосом прямо на устройстве, без обращения к сети.\n\nСинтез идёт через модели формата ONNX, которые исполняются на самом телефоне, — значит, текст никуда не уходит и озвучка работает без интернета.\n\nИсходный код открыт.",
+    "en": "Supertonic TTS reads text aloud on the device itself, with no call out to a network.\n\nThe synthesis runs on ONNX models executed on the phone — so the text goes nowhere and the speech works without an internet connection.\n\nThe source code is open.",
+    "tr": "Supertonic TTS, metni doğrudan cihazda sesli okur; ağa hiçbir istek göndermez.\n\nSentez, telefonda çalıştırılan ONNX modelleriyle yapılır; böylece metin hiçbir yere gitmez ve seslendirme internet olmadan çalışır.\n\nKaynak kodu açıktır.",
+    "uz": "Supertonic TTS matnni to'g'ridan-to'g'ri qurilmada, tarmoqqa murojaat qilmasdan ovoz bilan o'qiydi.\n\nSintez telefonning o'zida bajariladigan ONNX formatidagi modellar orqali ketadi — demak, matn hech qayerga ketmaydi va ovozlashtirish internetsiz ishlaydi.\n\nManba kodi ochiq."
+  },
+  "com.braniik.slate": {
+    "ru": "Slate — лаунчер, построенный вокруг одной мысли: домашний экран нужен, чтобы запускать приложения, и больше ни для чего.\n\nВиджетов, новостной ленты и прочих надстроек здесь нет. Главный режим — свободный экран, на котором вы сами расставляете то немногое, что вам действительно нужно.\n\nИсходный код открыт.",
+    "en": "Slate is a launcher built around a single idea: the home screen exists to launch apps and nothing else.\n\nThere are no widgets, no news feed and no other additions. The centrepiece is a free-form screen where you place the few things you actually need.\n\nThe source code is open.",
+    "tr": "Slate, tek bir fikir üzerine kurulmuş bir başlatıcıdır: ana ekran uygulama açmak içindir, başka bir şey için değil.\n\nWidget, haber akışı ya da başka ekler yoktur. Merkezinde, gerçekten ihtiyaç duyduğunuz birkaç şeyi kendiniz yerleştirdiğiniz serbest bir ekran vardır.\n\nKaynak kodu açıktır.",
+    "uz": "Slate — bitta fikr atrofida qurilgan launcher: asosiy ekran ilovalarni ochish uchun kerak, boshqa hech narsa uchun emas.\n\nVidjetlar, yangiliklar lentasi va boshqa qo'shimchalar yo'q. Asosiy tartib — erkin ekran bo'lib, unda chindan kerak bo'lgan bir nechta narsani o'zingiz joylashtirasiz.\n\nManba kodi ochiq."
+  },
+  "com.bri1.soundbored2": {
+    "ru": "SoundBored — небольшая звуковая панель с четырьмя классическими эстрадными звуками: барабанной дробью после шутки, грустным тромбоном, стрёкотом сверчков и коротким «нет».\n\nИсходный код открыт.",
+    "en": "SoundBored is a small soundboard with four stock comedy cues: the rimshot after a joke, the sad trombone, chirping crickets and a curt \"nope\".\n\nThe source code is open.",
+    "tr": "SoundBored, dört klasik komedi efektinden oluşan küçük bir ses panosudur: şakadan sonraki trampet vuruşu, hüzünlü trombon, cırcır böcekleri ve kısa bir \"nope\".\n\nKaynak kodu açıktır.",
+    "uz": "SoundBored — to'rtta klassik estrada ovozidan iborat kichik ovoz paneli: hazildan keyingi barabanlar, g'amgin trombon, chigirtkalar ovozi va qisqa \"yo'q\".\n\nManba kodi ochiq."
+  },
+  "com.briankhuu.nfcmessageboard": {
+    "ru": "NFCMessageBoard читает и записывает текст на метки NFC.\n\nЗамысел в том, чтобы оставлять короткие сообщения там, где они нужны: метку с текстом можно наклеить на дверь, на полку или на прибор, и прочитать её потом обычным телефоном.\n\nЭто проверка идеи, а не законченный продукт. Исходный код открыт.",
+    "en": "NFCMessageBoard reads and writes plain text on NFC tags.\n\nThe idea is to leave short messages where they are needed: a tag can be stuck on a door, a shelf or a piece of equipment, and read later with an ordinary phone.\n\nIt is a proof of concept rather than a finished product. The source code is open.",
+    "tr": "NFCMessageBoard, NFC etiketlerine düz metin yazar ve onlardan okur.\n\nFikir, kısa iletileri gerektikleri yerde bırakmaktır: bir etiket kapıya, rafa ya da bir cihaza yapıştırılabilir ve sonradan sıradan bir telefonla okunabilir.\n\nBitmiş bir ürün değil, bir kavram kanıtıdır. Kaynak kodu açıktır.",
+    "uz": "NFCMessageBoard NFC teglariga matn yozadi va ulardan o'qiydi.\n\nG'oya — qisqa xabarlarni kerakli joyda qoldirish: matnli tegni eshikka, javonga yoki asbobga yopishtirib, keyin oddiy telefon bilan o'qish mumkin.\n\nBu tugallangan mahsulot emas, g'oyani sinash. Manba kodi ochiq."
+  },
+  "com.bringyour.network": {
+    "ru": "URnetwork — децентрализованная сеть для доступа в интернет через чужие подключения и предоставления своего.\n\nВ отличие от обычного VPN, здесь нет одной компании, через серверы которой идёт весь трафик: маршруты распределены между участниками сети.\n\nИсходный код открыт.",
+    "en": "URnetwork is a decentralised network for reaching the internet through other people's connections and offering your own.\n\nUnlike an ordinary VPN, there is no single company whose servers carry all the traffic: the routes are spread across the network's participants.\n\nThe source code is open.",
+    "tr": "URnetwork, internete başkalarının bağlantıları üzerinden erişmek ve kendi bağlantınızı sunmak için merkezî olmayan bir ağdır.\n\nSıradan bir VPN'den farklı olarak, tüm trafiği sunucularından geçiren tek bir şirket yoktur: rotalar ağın katılımcıları arasında dağıtılır.\n\nKaynak kodu açıktır.",
+    "uz": "URnetwork — internetga birovlarning ulanishi orqali kirish va o'zinikini taklif qilish uchun markazlashmagan tarmoq.\n\nOddiy VPN dan farqli o'laroq, bu yerda butun trafik o'tadigan yagona kompaniya serverlari yo'q: yo'nalishlar tarmoq ishtirokchilari orasida taqsimlangan.\n\nManba kodi ochiq."
+  },
+  "com.brokenpip3.fatto": {
+    "ru": "Fatto — клиент TaskWarrior для телефона: задачи, которые ведутся в консольном менеджере на компьютере, доступны и здесь.\n\nСинхронизация идёт через сервер taskchampion-sync-server — любой, в том числе поднятый вами.\n\nПоддерживается TaskWarrior версии 3. Исходный код открыт.",
+    "en": "Fatto is a TaskWarrior client for the phone: the tasks you keep in the command-line manager on a computer are available here too.\n\nSyncing runs through a taskchampion-sync-server — any of them, including one you host yourself.\n\nTaskWarrior 3 is supported. The source code is open.",
+    "tr": "Fatto, telefon için bir TaskWarrior istemcisidir: bilgisayarda komut satırı yöneticisinde tuttuğunuz görevler burada da kullanılabilir.\n\nEşitleme bir taskchampion-sync-server üzerinden yapılır; kendi barındırdığınız da dâhil olmak üzere herhangi biri.\n\nTaskWarrior 3 desteklenir. Kaynak kodu açıktır.",
+    "uz": "Fatto — telefon uchun TaskWarrior mijozi: kompyuterdagi konsol menejerida yuritiladigan vazifalar shu yerda ham ochiladi.\n\nSinxronlash taskchampion-sync-server orqali ketadi — istalgani, jumladan o'zingiz ko'targani ham.\n\nTaskWarrior 3 versiyasi qo'llab-quvvatlanadi. Manba kodi ochiq."
+  },
+  "com.brouken.player": {
+    "ru": "Just (Video) Player проигрывает видео на основе библиотеки ExoPlayer.\n\nВ сборку включено расширение FFmpeg со всеми звуковыми форматами, поэтому открываются и дорожки вроде AC3, которые обычный системный плеер воспроизвести не может.\n\nИсходный код открыт.",
+    "en": "Just (Video) Player plays video on the ExoPlayer library.\n\nThe build includes ExoPlayer's FFmpeg extension with every audio format enabled, so it handles tracks such as AC3 that the stock player cannot decode.\n\nThe source code is open.",
+    "tr": "Just (Video) Player, ExoPlayer kitaplığı üzerine kurulu bir video oynatıcıdır.\n\nSürüm, tüm ses biçimleri etkin olarak ExoPlayer'ın FFmpeg eklentisini içerir; böylece yerleşik oynatıcının çözemediği AC3 gibi parçaları da açar.\n\nKaynak kodu açıktır.",
+    "uz": "Just (Video) Player videoni ExoPlayer kutubxonasi asosida ijro etadi.\n\nYig'maga barcha ovoz formatlari yoqilgan FFmpeg kengaytmasi kiritilgan, shuning uchun oddiy tizim pleyeri ijro eta olmaydigan AC3 kabi yo'llar ham ochiladi.\n\nManba kodi ochiq."
+  },
+  "com.bugsdev2.bookaccio": {
+    "ru": "Bookaccio ведёт список книг: прочитанное, то, что читается сейчас, и то, что отложено на потом.\n\nКниги ищутся по названию и добавляются в собственную подборку, где отмечается ход чтения.\n\nИсходный код открыт.",
+    "en": "Bookaccio keeps a reading list: what you have finished, what you are reading now and what is waiting.\n\nBooks are looked up by title and added to your own collection, where the reading progress is marked.\n\nThe source code is open.",
+    "tr": "Bookaccio bir okuma listesi tutar: bitirdikleriniz, şu an okuduklarınız ve sıradakiler.\n\nKitaplar başlığa göre aranır ve okuma ilerlemesinin işaretlendiği kendi koleksiyonunuza eklenir.\n\nKaynak kodu açıktır.",
+    "uz": "Bookaccio kitoblar ro'yxatini yuritadi: o'qilgani, hozir o'qilayotgani va keyinga qoldirilgani.\n\nKitoblar nomi bo'yicha qidiriladi va o'qish jarayoni belgilanadigan o'z to'plamingizga qo'shiladi.\n\nManba kodi ochiq."
+  },
+  "com.bunqr.prepapp.fdroid": {
+    "ru": "PrepApp собирает то, что нужно при чрезвычайной ситуации, и рассчитан на Бразилию.\n\nВнутри предупреждения о погоде от метеослужбы INMET, карты для работы без сети, сведения о состоянии моря и список ближайших мест, куда можно обратиться за помощью.\n\nИсходный код открыт.",
+    "en": "PrepApp gathers what is needed in an emergency and is built for Brazil.\n\nIt carries weather alerts from the INMET meteorological service, maps that work without a connection, sea conditions and a list of nearby places to turn to for help.\n\nThe source code is open.",
+    "tr": "PrepApp, acil bir durumda gerekenleri bir araya getirir ve Brezilya için yapılmıştır.\n\nİçinde INMET meteoroloji servisinden hava uyarıları, bağlantı olmadan çalışan haritalar, deniz durumu ve yardım için başvurulabilecek yakın yerlerin listesi bulunur.\n\nKaynak kodu açıktır.",
+    "uz": "PrepApp favqulodda vaziyatda kerak bo'ladigan narsalarni yig'adi va Braziliyaga mo'ljallangan.\n\nIchida INMET meteorologiya xizmatidan ob-havo ogohlantirishlari, tarmoqsiz ishlaydigan xaritalar, dengiz holati va yordam uchun murojaat qilish mumkin bo'lgan yaqin joylar ro'yxati bor.\n\nManba kodi ochiq."
+  },
+  "com.bupkis.tirailleur": {
+    "ru": "Tirailleur считает баллистику выстрела с учётом условий стрельбы.\n\nВ приложении ведётся список винтовок, прицелов и патронов, к прицелу можно загрузить собственную сетку в формате SVG и откалибровать её. Данные о месте и погоде берутся с датчиков телефона.\n\nИсходный код открыт.",
+    "en": "Tirailleur works out a ballistic solution for the conditions you are shooting in.\n\nThe app keeps a list of rifles, optics and ammunition, and a custom reticle can be loaded as an SVG and calibrated. Position and weather come from the phone's own sensors.\n\nThe source code is open.",
+    "tr": "Tirailleur, atış koşullarına göre balistik çözüm hesaplar.\n\nUygulamada tüfek, optik ve mühimmat listesi tutulur; özel bir nişan çizgisi SVG olarak yüklenip kalibre edilebilir. Konum ve hava bilgileri telefonun algılayıcılarından alınır.\n\nKaynak kodu açıktır.",
+    "uz": "Tirailleur otish sharoitini hisobga olib ballistik yechimni hisoblaydi.\n\nIlovada miltiqlar, mo'ljallar va patronlar ro'yxati yuritiladi, mo'ljalga SVG formatidagi o'z to'rini yuklab, uni kalibrlash mumkin. Joy va ob-havo ma'lumotlari telefon sensorlaridan olinadi.\n\nManba kodi ochiq."
+  },
+  "com.burhanrashid52.photoediting": {
+    "ru": "Photo Editor правит снимки: рисование кистью с настройкой цвета, толщины и прозрачности, ластик, фильтры и надписи поверх изображения.\n\nТекст можно менять по ходу дела, а нарисованное — стирать, не начиная заново.\n\nИсходный код открыт.",
+    "en": "Photo Editor works on images: a brush with adjustable colour, size and opacity, an eraser, filter effects and text laid over the picture.\n\nText can be edited as you go, and what you have drawn can be rubbed out without starting over.\n\nThe source code is open.",
+    "tr": "Photo Editor, görüntüler üzerinde çalışır: rengi, kalınlığı ve saydamlığı ayarlanabilen bir fırça, silgi, süzgeç efektleri ve resmin üzerine yazı.\n\nYazı iş sırasında düzenlenebilir, çizdikleriniz de baştan başlamadan silinebilir.\n\nKaynak kodu açıktır.",
+    "uz": "Photo Editor suratlarni tahrirlaydi: rangi, qalinligi va shaffofligi sozlanadigan mo'yqalam, o'chirg'ich, filtrlar va tasvir ustidagi yozuvlar.\n\nMatnni yo'l-yo'lakay o'zgartirish, chizilganni esa qaytadan boshlamasdan o'chirish mumkin.\n\nManba kodi ochiq."
+  },
+  "com.burnpony.android": {
+    "ru": "BurnPony передаёт секретное сообщение по ссылке, ничего не требуя от получателя: ему не нужно ни приложение, ни учётная запись.\n\nЗаписка шифруется на вашем устройстве алгоритмом AES-256, а вы задаёте условия её уничтожения — например, после первого прочтения или по истечении срока.\n\nИсходный код открыт.",
+    "en": "BurnPony passes a secret along as a link, asking nothing of the recipient: no app and no account.\n\nThe note is encrypted on your device with AES-256, and you set the rules for its destruction — after the first reading, say, or once a deadline passes.\n\nThe source code is open.",
+    "tr": "BurnPony, bir sırrı bağlantı olarak iletir ve karşı taraftan hiçbir şey istemez: ne uygulama ne hesap.\n\nNot, cihazınızda AES-256 ile şifrelenir; yok edilme koşullarını da siz belirlersiniz: örneğin ilk okumadan sonra ya da bir süre dolunca.\n\nKaynak kodu açıktır.",
+    "uz": "BurnPony maxfiy xabarni havola orqali uzatadi va qabul qiluvchidan hech narsa talab qilmaydi: na ilova, na hisob.\n\nXat qurilmangizda AES-256 algoritmi bilan shifrlanadi, yo'q qilinish shartlarini esa siz belgilaysiz — masalan, birinchi o'qishdan keyin yoki muddat tugagach.\n\nManba kodi ochiq."
+  },
+  "com.buzbuz.smartautoclicker": {
+    "ru": "Klick'r повторяет за вас однообразные касания экрана.\n\nОтличие от обычного автокликера в том, что нажатие можно привязать не к времени, а к изображению: приложение следит за экраном и срабатывает, когда на нём появляется заданная картинка.\n\nПрежде программа называлась Smart AutoClicker. Исходный код открыт.",
+    "en": "Klick'r repeats monotonous taps on the screen for you.\n\nWhat sets it apart from an ordinary autoclicker is that a tap can be tied to an image rather than to a timer: the app watches the screen and fires when a given picture appears on it.\n\nIt used to be called Smart AutoClicker. The source code is open.",
+    "tr": "Klick'r, ekrandaki tekdüze dokunuşları sizin yerinize yineler.\n\nSıradan bir otomatik tıklayıcıdan farkı, bir dokunuşun süreye değil bir görüntüye bağlanabilmesidir: uygulama ekranı izler ve belirlenen resim belirdiğinde devreye girer.\n\nEskiden Smart AutoClicker adını taşıyordu. Kaynak kodu açıktır.",
+    "uz": "Klick'r ekrandagi bir xil tegishlarni siz uchun takrorlaydi.\n\nOddiy avtoklikerdan farqi shuki, bosishni vaqtga emas, tasvirga bog'lash mumkin: ilova ekranni kuzatadi va unda belgilangan rasm paydo bo'lganda ishga tushadi.\n\nIlgari dastur Smart AutoClicker deb atalgan. Manba kodi ochiq."
+  },
+  "com.bwqr.mavinote": {
+    "ru": "Mavinote ведёт заметки, которые по вашему выбору остаются только на устройстве либо синхронизируются между вашими устройствами через учётную запись Mavinote.\n\nТо есть решение, отдавать ли записи серверу, принимается для каждой папки отдельно, а не раз и навсегда за вас.\n\nИсходный код открыт.",
+    "en": "Mavinote keeps notes that either stay on the device alone or sync across your devices through a Mavinote account, as you choose.\n\nThe decision whether to hand a note to a server is made per folder rather than once and for all on your behalf.\n\nThe source code is open.",
+    "tr": "Mavinote, seçiminize göre yalnızca cihazda kalan ya da bir Mavinote hesabı üzerinden cihazlarınız arasında eşitlenen notlar tutar.\n\nBir notu sunucuya verip vermeme kararı, sizin adınıza bir kez verilmek yerine her klasör için ayrı ayrı alınır.\n\nKaynak kodu açıktır.",
+    "uz": "Mavinote eslatmalarni yuritadi: ular sizning tanlovingizga ko'ra faqat qurilmada qoladi yoki Mavinote hisobi orqali qurilmalaringiz orasida sinxronlanadi.\n\nYa'ni yozuvlarni serverga berish yoki bermaslik qarori siz uchun bir marta emas, har bir papka uchun alohida qabul qilinadi.\n\nManba kodi ochiq."
+  },
+  "com.bwt.threadscooponionchatcom": {
+    "ru": "ThreadScoopOnionChat — мессенджер, выросший из клиента сети Session.\n\nSession строится на децентрализованной сети узлов: сообщения идут через них, а не через один сервер, и для регистрации не нужен номер телефона.\n\nИсходный код открыт.",
+    "en": "ThreadScoopOnionChat is a messenger derived from the Session client.\n\nSession runs on a decentralised network of nodes: messages travel through them rather than through a single server, and no phone number is needed to register.\n\nThe source code is open.",
+    "tr": "ThreadScoopOnionChat, Session istemcisinden türemiş bir mesajlaşma uygulamasıdır.\n\nSession, merkezî olmayan bir düğüm ağı üzerine kuruludur: iletiler tek bir sunucu yerine bu düğümlerden geçer ve kaydolmak için telefon numarası gerekmez.\n\nKaynak kodu açıktır.",
+    "uz": "ThreadScoopOnionChat — Session tarmog'i mijozidan o'sib chiqqan messenjer.\n\nSession markazlashmagan tugunlar tarmog'iga quriladi: xabarlar bitta server emas, o'sha tugunlar orqali ketadi va ro'yxatdan o'tish uchun telefon raqami kerak emas.\n\nManba kodi ochiq."
+  },
+  "com.byagowi.persiancalendar": {
+    "ru": "Persian Calendar показывает даты по персидскому солнечному календарю, где год начинается в день весеннего равноденствия.\n\nВместе с календарём идут время намаза, компас с направлением на Киблу и перевод дат между календарями.\n\nИнтерфейс доступен на многих языках, включая дари, курдский, азербайджанский, пушту, арабский и английский. Исходный код открыт.",
+    "en": "Persian Calendar shows dates in the Persian solar calendar, whose year begins on the day of the spring equinox.\n\nAlongside the calendar it carries prayer times, a compass pointing to the Qibla, and conversion of dates between calendars.\n\nThe interface is available in many languages, Dari, Kurdish, Azeri, Pashto, Arabic and English among them. The source code is open.",
+    "tr": "Persian Calendar, yılı ilkbahar ekinoksu gününde başlayan Fars güneş takvimine göre tarihleri gösterir.\n\nTakvimin yanında namaz vakitleri, kıbleyi gösteren bir pusula ve takvimler arası tarih çevirisi yer alır.\n\nArayüz; Darice, Kürtçe, Azerice, Peştuca, Arapça ve İngilizce dâhil birçok dilde sunulur. Kaynak kodu açıktır.",
+    "uz": "Persian Calendar sanalarni fors quyosh kalendarida ko'rsatadi, unda yil bahorgi tengkunlik kunida boshlanadi.\n\nKalendar bilan birga namoz vaqtlari, Qibla yo'nalishini ko'rsatuvchi kompas va sanalarni kalendarlar orasida o'girish bor.\n\nInterfeys ko'plab tillarda, jumladan dari, kurd, ozarbayjon, pushtu, arab va ingliz tillarida mavjud. Manba kodi ochiq."
+  },
+  "com.bytehamster.flowitgame": {
+    "ru": "Flowit — головоломка с простыми правилами и непростыми решениями: разобраться в них недолго, а вот пройти всё сложнее.\n\nУровней уже больше сотни, и автор продолжает добавлять новые.\n\nИсходный код открыт.",
+    "en": "Flowit is a puzzle with simple rules and awkward solutions: the rules take a minute to learn, finishing the levels rather longer.\n\nThere are over a hundred levels already, and the author keeps adding more.\n\nThe source code is open.",
+    "tr": "Flowit, kuralları basit ama çözümleri zor bir bulmacadır: kuralları öğrenmek bir dakika sürer, bölümleri bitirmek çok daha uzun.\n\nŞimdiden yüzden fazla bölüm var ve geliştirici yenilerini eklemeyi sürdürüyor.\n\nKaynak kodu açıktır.",
+    "uz": "Flowit — qoidalari sodda, yechimlari esa oson emas bulmacha: qoidalarni tushunish bir daqiqa oladi, bosqichlarni yakunlash esa ancha ko'p.\n\nBosqichlar allaqachon yuzdan ortiq va muallif yangilarini qo'shishda davom etmoqda.\n\nManba kodi ochiq."
+  },
+  "com.byterdevs.rsswidget": {
+    "ru": "HomeFeed выносит ленты RSS на домашний экран виджетом.\n\nНесколько лент сводятся в один список, поэтому свежие материалы со всех сайтов, за которыми вы следите, видны сразу, без открытия приложения.\n\nИсходный код открыт.",
+    "en": "HomeFeed puts RSS feeds on the home screen as a widget.\n\nSeveral feeds are merged into one list, so the latest from all the sites you follow is visible at a glance, without opening an app.\n\nThe source code is open.",
+    "tr": "HomeFeed, RSS akışlarını widget olarak ana ekrana koyar.\n\nBirden çok akış tek bir listede birleşir; böylece izlediğiniz tüm sitelerden gelen son yazılar uygulama açmadan görünür.\n\nKaynak kodu açıktır.",
+    "uz": "HomeFeed RSS lentalarini vidjet sifatida asosiy ekranga chiqaradi.\n\nBir nechta lenta bitta ro'yxatga birlashtiriladi, shuning uchun kuzatadigan barcha saytlaringizdan yangi materiallar ilovani ochmasdan ko'rinadi.\n\nManba kodi ochiq."
+  },
+  "com.bytesforge.linkasanote": {
+    "ru": "LaaNo хранит ссылки вместе с заметками к ним.\n\nК каждой ссылке можно привязать свои записи, поэтому потом видно не только адрес, но и зачем вы его сохранили и что в нём было важного.\n\nИсходный код открыт.",
+    "en": "LaaNo stores links together with notes about them.\n\nEach link can carry your own notes, so later you see not just the address but why you kept it and what mattered in it.\n\nThe source code is open.",
+    "tr": "LaaNo, bağlantıları onlara ilişkin notlarla birlikte saklar.\n\nHer bağlantıya kendi notlarınızı ekleyebilirsiniz; böylece sonradan yalnızca adresi değil, onu neden sakladığınızı ve içinde neyin önemli olduğunu da görürsünüz.\n\nKaynak kodu açıktır.",
+    "uz": "LaaNo havolalarni ularga yozilgan eslatmalar bilan birga saqlaydi.\n\nHar bir havolaga o'z yozuvlaringizni biriktirish mumkin, shuning uchun keyin manzilnigina emas, uni nega saqlaganingiz va unda nima muhim bo'lganini ham ko'rasiz.\n\nManba kodi ochiq."
+  },
+  "com.cabbagelol.bfban": {
+    "ru": "BFBAN Assistants — приложение сообщества BFBAN, которое ведёт учёт нечестной игры в Battlefield.\n\nМатериалы для жалобы собираются прямо с телефона: снимки распознаются на устройстве, запись игроков рядом с вами сохраняется в общий список.\n\nИсходный код открыт.",
+    "en": "BFBAN Assistants is the app of the BFBAN community, which keeps records of cheating in Battlefield.\n\nEvidence for a report is gathered from the phone: images are recognised on the device, and the players seen near you can be recorded into the shared list.\n\nThe source code is open.",
+    "tr": "BFBAN Assistants, Battlefield'da hile kayıtlarını tutan BFBAN topluluğunun uygulamasıdır.\n\nBir bildirim için kanıtlar telefondan toplanır: görüntüler cihazda tanınır ve yakınınızda görülen oyuncular ortak listeye kaydedilebilir.\n\nKaynak kodu açıktır.",
+    "uz": "BFBAN Assistants — Battlefield o'yinidagi halolsizlik hisobini yuritadigan BFBAN hamjamiyatining ilovasi.\n\nShikoyat uchun materiallar telefonning o'zidan yig'iladi: suratlar qurilmada tanib olinadi, yoningizdagi o'yinchilar esa umumiy ro'yxatga yoziladi.\n\nManba kodi ochiq."
+  },
+  "com.calcitem.sanmill": {
+    "ru": "Mill — цифровая версия «мельницы», настольной игры, известной ещё в Древнем Риме.\n\nКаждый игрок выставляет девять фишек и старается выстроить три в ряд: такой ряд и называется мельницей и позволяет снять фишку соперника.\n\nИсходный код открыт.",
+    "en": "Mill is a digital version of Nine Men's Morris, a board game already known in ancient Rome.\n\nEach player places nine pieces and tries to line three of them up: that line is the mill itself, and it lets you take one of the opponent's pieces off the board.\n\nThe source code is open.",
+    "tr": "Mill, daha Antik Roma'da bilinen bir masa oyunu olan Dokuz Taş'ın dijital sürümüdür.\n\nHer oyuncu dokuz taş yerleştirir ve üçünü aynı hizaya getirmeye çalışır: bu diziliş oyunun adını veren değirmendir ve rakibin bir taşını almanızı sağlar.\n\nKaynak kodu açıktır.",
+    "uz": "Mill — qadimgi Rimda ham ma'lum bo'lgan stol o'yini \"tegirmon\" ning raqamli ko'rinishi.\n\nHar bir o'yinchi to'qqizta donani qo'yadi va uchtasini bir qatorga tizishga harakat qiladi: aynan shu qator tegirmon deyiladi va raqib donasini olib tashlash imkonini beradi.\n\nManba kodi ochiq."
+  },
+  "com.callblocker": {
+    "ru": "Call Blocker отсекает нежелательные звонки.\n\nБлокировать можно отдельный номер или целый префикс — например, все номера, начинающиеся с 800. Отклонённые звонки сохраняются в отдельном списке, чтобы можно было проверить, не отсеклось ли нужное.\n\nИсходный код открыт.",
+    "en": "Call Blocker cuts off unwanted calls.\n\nYou can block a single number or a whole prefix — every number starting with 800, for instance. Blocked calls are kept in a separate list, so you can check that nothing needed was turned away.\n\nThe source code is open.",
+    "tr": "Call Blocker, istenmeyen aramaları keser.\n\nTek bir numarayı ya da bir ön ekin tamamını engelleyebilirsiniz; örneğin 800 ile başlayan tüm numaraları. Engellenen aramalar ayrı bir listede tutulur, böylece gerekli bir aramanın geri çevrilmediğini denetleyebilirsiniz.\n\nKaynak kodu açıktır.",
+    "uz": "Call Blocker keraksiz qo'ng'iroqlarni to'sadi.\n\nAlohida raqamni yoki butun prefiksni — masalan, 800 bilan boshlanadigan barcha raqamlarni bloklash mumkin. Rad etilgan qo'ng'iroqlar alohida ro'yxatda saqlanadi, shunda kerakli qo'ng'iroq kesilib qolmaganini tekshirsa bo'ladi.\n\nManba kodi ochiq."
+  },
+  "com.calmyjane.spacebeam": {
+    "ru": "SpaceBeam превращает изображение с камеры в меняющийся геометрический узор в реальном времени.\n\nКартинку можно вывести на второй экран — через Miracast или по кабелю HDMI, — так что телефон становится источником фона для вечеринки или выступления.\n\nИсходный код открыт.",
+    "en": "SpaceBeam turns the camera feed into a shifting geometric pattern in real time.\n\nThe image can be sent to a second screen over Miracast or an HDMI cable, which makes the phone a source of visuals for a party or a performance.\n\nThe source code is open.",
+    "tr": "SpaceBeam, kamera görüntüsünü gerçek zamanlı olarak değişen geometrik bir desene dönüştürür.\n\nGörüntü, Miracast ya da HDMI kablosuyla ikinci bir ekrana gönderilebilir; böylece telefon bir parti ya da gösteri için görsel kaynağı olur.\n\nKaynak kodu açıktır.",
+    "uz": "SpaceBeam kameradagi tasvirni real vaqtda o'zgarib turadigan geometrik naqshga aylantiradi.\n\nTasvirni ikkinchi ekranga — Miracast yoki HDMI kabeli orqali chiqarish mumkin, shunda telefon bazm yoki chiqish uchun fon manbasiga aylanadi.\n\nManba kodi ochiq."
+  },
+  "com.cappielloantonio.notquitemy.tempo": {
+    "ru": "Tempo проигрывает музыку с сервера Subsonic — то есть с вашей собственной фонотеки, размещённой дома или на арендованном сервере.\n\nПриложение написано под Android напрямую, поэтому работает быстро и не тянет за собой лишнего.\n\nИсходный код открыт.",
+    "en": "Tempo plays music from a Subsonic server — your own library, hosted at home or on a server you rent.\n\nIt is written natively for Android, so it runs quickly and carries little baggage.\n\nThe source code is open.",
+    "tr": "Tempo, bir Subsonic sunucusundaki müziği çalar: evde ya da kiraladığınız bir sunucuda barındırdığınız kendi kitaplığınızı.\n\nAndroid için doğrudan yazılmıştır; bu yüzden hızlı çalışır ve gereksiz yük taşımaz.\n\nKaynak kodu açıktır.",
+    "uz": "Tempo Subsonic serveridagi musiqani ijro etadi — ya'ni uyda yoki ijaraga olingan serverda joylashtirilgan o'z fonotekangizni.\n\nIlova Android uchun to'g'ridan-to'g'ri yozilgan, shuning uchun tez ishlaydi va ortiqcha yuk ko'tarmaydi.\n\nManba kodi ochiq."
+  },
+  "com.capyreader.app": {
+    "ru": "Capy Reader читает ленты RSS и не пытается быть больше, чем читалка.\n\nПодписки берутся из вашей учётной записи Feedbin или FreshRSS либо ведутся прямо здесь, без посредника.\n\nИсходный код открыт.",
+    "en": "Capy Reader reads RSS feeds and does not try to be more than a reader.\n\nSubscriptions come from your Feedbin or FreshRSS account, or are kept here directly with no service in between.\n\nThe source code is open.",
+    "tr": "Capy Reader, RSS akışlarını okur ve bir okuyucudan fazlası olmaya çalışmaz.\n\nAbonelikler Feedbin ya da FreshRSS hesabınızdan gelir ya da aradaki hizmet olmadan doğrudan burada tutulur.\n\nKaynak kodu açıktır.",
+    "uz": "Capy Reader RSS lentalarini o'qiydi va o'quvchidan ko'proq bo'lishga urinmaydi.\n\nObunalar Feedbin yoki FreshRSS hisobingizdan olinadi yoki vositachisiz shu yerning o'zida yuritiladi.\n\nManba kodi ochiq."
+  },
+  "com.carriez.flutter_hbb": {
+    "ru": "RustDesk открывает удалённый доступ к компьютеру с телефона.\n\nПодключение идёт напрямую между устройствами, а промежуточный сервер можно поднять свой — тогда трафик не проходит через чужую инфраструктуру.\n\nЭто открытая замена привычным программам удалённого доступа. Исходный код открыт.",
+    "en": "RustDesk gives you remote access to a computer from the phone.\n\nThe connection runs directly between the devices, and the relay server can be one you host yourself — in which case the traffic never passes through anyone else's infrastructure.\n\nIt is an open alternative to the usual remote desktop tools. The source code is open.",
+    "tr": "RustDesk, telefondan bir bilgisayara uzaktan erişim sağlar.\n\nBağlantı cihazlar arasında doğrudan kurulur; aradaki sunucu kendi barındırdığınız biri olabilir, o zaman trafik başkasının altyapısından geçmez.\n\nAlışıldık uzak masaüstü araçlarına açık bir seçenektir. Kaynak kodu açıktır.",
+    "uz": "RustDesk telefondan kompyuterga masofaviy kirish imkonini beradi.\n\nUlanish qurilmalar orasida to'g'ridan-to'g'ri ketadi, oraliq serverni esa o'zingiz ko'tarishingiz mumkin — u holda trafik begona infratuzilmadan o'tmaydi.\n\nBu odatdagi masofaviy kirish dasturlariga ochiq muqobil. Manba kodi ochiq."
+  },
+  "com.catalin.css_px_converter": {
+    "ru": "PX:VW переводит размеры в пикселях в относительные единицы, которыми пользуются в вёрстке сайтов.\n\nВы задаёте ширину и высоту экрана, вводите значение в пикселях и получаете его в долях от размера окна — так макет, нарисованный под конкретный экран, переносится в адаптивную вёрстку.\n\nИсходный код открыт.",
+    "en": "PX:VW converts sizes in pixels into the relative units used in web layout.\n\nYou give the width and height of the screen, enter a value in pixels and get it back as a fraction of the viewport — which is how a mock-up drawn for one screen size becomes responsive markup.\n\nThe source code is open.",
+    "tr": "PX:VW, piksel cinsinden ölçüleri web yerleşiminde kullanılan göreli birimlere çevirir.\n\nEkranın genişliğini ve yüksekliğini verir, piksel değerini girer ve karşılığını görüntü alanının bir oranı olarak alırsınız; belirli bir ekran için çizilmiş bir taslak böylece uyarlanabilir bir yerleşime dönüşür.\n\nKaynak kodu açıktır.",
+    "uz": "PX:VW piksellardagi o'lchamlarni sayt qurishda ishlatiladigan nisbiy birliklarga o'giradi.\n\nEkran eni va bo'yini berasiz, piksellardagi qiymatni kiritasiz va uni oyna o'lchamining ulushi sifatida olasiz — shu tariqa muayyan ekranga chizilgan maket moslashuvchan qurilishga ko'chadi.\n\nManba kodi ochiq."
+  },
+  "com.catalin.rivia": {
+    "ru": "Rivia шифрует текст и файлы ключом, который вы задаёте сами.\n\nАвтор прямо предупреждает: применённый алгоритм не проходил независимую проверку, поэтому доверять ему по-настоящему важные секреты не стоит.\n\nИсходный код открыт.",
+    "en": "Rivia encrypts text and files with a key you choose yourself.\n\nThe author warns plainly that the algorithm has not been audited, so it should not be trusted with anything genuinely sensitive.\n\nThe source code is open.",
+    "tr": "Rivia, metinleri ve dosyaları kendi belirlediğiniz bir anahtarla şifreler.\n\nGeliştirici açıkça uyarır: kullanılan algoritma bağımsız bir denetimden geçmemiştir, bu yüzden gerçekten hassas şeyler ona emanet edilmemelidir.\n\nKaynak kodu açıktır.",
+    "uz": "Rivia matn va fayllarni o'zingiz belgilagan kalit bilan shifrlaydi.\n\nMuallif ochiq ogohlantiradi: qo'llanilgan algoritm mustaqil tekshiruvdan o'tmagan, shuning uchun chinakam muhim sirlarni unga ishonib topshirmaslik kerak.\n\nManba kodi ochiq."
+  },
+  "com.cax.pmk.ext": {
+    "ru": "Приложение воспроизводит советские программируемые калькуляторы серии МК — Б3-34, МК-54, МК-56, МК-61 и МК-52.\n\nЭмуляция идёт на уровне микрокода, поэтому машины ведут себя в точности как настоящие, включая знаменитые недокументированные режимы, из-за которых на МК-61 в своё время писали игры.\n\nИсходный код открыт.",
+    "en": "This app reproduces the Soviet programmable calculators of the MK series — the B3-34, MK-54, MK-56, MK-61 and MK-52.\n\nThe emulation works at microcode level, so the machines behave exactly as the originals did, including the famous undocumented states that people once wrote games around on the MK-61.\n\nThe source code is open.",
+    "tr": "Bu uygulama, Sovyet MK serisi programlanabilir hesap makinelerini canlandırır: B3-34, MK-54, MK-56, MK-61 ve MK-52.\n\nÖykünme mikrokod düzeyinde yapılır; böylece makineler özgünleriyle birebir aynı davranır, MK-61'de bir zamanlar oyun yazılmasına yol açan ünlü belgelenmemiş durumlar dâhil.\n\nKaynak kodu açıktır.",
+    "uz": "Ilova sovet davri MK seriyasidagi dasturlanadigan kalkulyatorlarni — B3-34, MK-54, MK-56, MK-61 va MK-52 ni qayta yaratadi.\n\nEmulyatsiya mikrokod darajasida ketadi, shuning uchun qurilmalar asl nusxalari kabi aynan ishlaydi, jumladan bir vaqtlar MK-61 da o'yin yozishga sabab bo'lgan mashhur hujjatlashtirilmagan holatlar bilan birga.\n\nManba kodi ochiq."
+  },
+  "com.caydey.ffshare": {
+    "ru": "FFShare прогоняет изображения, видео и звук через ffmpeg перед отправкой.\n\nФайл становится меньше, а заодно из него исчезают служебные данные — координаты съёмки, модель камеры, дата, — которые обычно уходят вместе со снимком незаметно для отправителя.\n\nИсходный код открыт.",
+    "en": "FFShare pipes images, video and audio through ffmpeg before you share them.\n\nThe file comes out smaller, and the metadata goes with it — the coordinates, the camera model, the date — which otherwise travels along with a photo without the sender noticing.\n\nThe source code is open.",
+    "tr": "FFShare; görüntüleri, videoları ve sesleri paylaşmadan önce ffmpeg'den geçirir.\n\nDosya küçülür ve üstverisi de temizlenir: konum, kamera modeli, tarih. Bunlar aksi hâlde bir fotoğrafla birlikte, gönderen fark etmeden yola çıkar.\n\nKaynak kodu açıktır.",
+    "uz": "FFShare tasvir, video va ovozni ulashishdan oldin ffmpeg orqali o'tkazadi.\n\nFayl kichrayadi, ayni paytda undan xizmat ma'lumotlari — surat olingan joy koordinatalari, kamera modeli, sana yo'qoladi; ular aks holda jo'natuvchi sezmagan holda surat bilan birga ketadi.\n\nManba kodi ochiq."
+  },
+  "com.cbouvat.android.saracroche": {
+    "ru": "Saracroche отсекает навязчивые рекламные звонки.\n\nБлокировка идёт по спискам номеров, с которых такие звонки поступают, поэтому отвечать и разбираться не приходится.\n\nПриложение рассчитано на Францию. Исходный код открыт.",
+    "en": "Saracroche cuts off nuisance marketing calls.\n\nThe blocking works from lists of the numbers such calls come from, so you never have to pick up and find out.\n\nThe app is meant for use in France. The source code is open.",
+    "tr": "Saracroche, rahatsız edici pazarlama aramalarını keser.\n\nEngelleme, bu aramaların geldiği numara listelerine dayanır; böylece açıp öğrenmek zorunda kalmazsınız.\n\nUygulama Fransa'da kullanılmak üzere yapılmıştır. Kaynak kodu açıktır.",
+    "uz": "Saracroche bezovta qiladigan reklama qo'ng'iroqlarini to'sadi.\n\nBloklash shunday qo'ng'iroqlar keladigan raqamlar ro'yxati bo'yicha ketadi, shuning uchun javob berib, tekshirib o'tirish shart emas.\n\nIlova Fransiyaga mo'ljallangan. Manba kodi ochiq."
+  },
+  "com.cdevaux.miniature_painting_companion": {
+    "ru": "Minis companion ведёт записи о покраске миниатюр.\n\nДля каждой модели сохраняется рецепт: какие краски, в каком порядке и как разведены. К записи прикладываются фотографии, по которым видно, как менялась работа от слоя к слою.\n\nИсходный код открыт.",
+    "en": "Minis companion keeps notes on painting miniatures.\n\nEach model gets its recipe: which paints, in what order and thinned how far. Photographs go with the entry, showing how the work changed from layer to layer.\n\nThe source code is open.",
+    "tr": "Minis companion, minyatür boyama notlarını tutar.\n\nHer model için bir tarif saklanır: hangi boyalar, hangi sırayla ve ne kadar inceltilmiş. Kayda, işin katmandan katmana nasıl değiştiğini gösteren fotoğraflar eşlik eder.\n\nKaynak kodu açıktır.",
+    "uz": "Minis companion miniatyuralarni bo'yash haqidagi yozuvlarni yuritadi.\n\nHar bir model uchun retsept saqlanadi: qaysi bo'yoqlar, qanday tartibda va qanchalik suyultirilgan. Yozuvga suratlar ilova qilinadi, ulardan ish qatlamdan qatlamga qanday o'zgargani ko'rinadi.\n\nManba kodi ochiq."
+  },
+  "com.certified.audionote": {
+    "ru": "Audio Notes записывает голосовые заметки — по сути, диктофон.\n\nЗаписи сохраняются, их можно переименовать и отредактировать. Есть светлое и тёмное оформление.\n\nИсходный код открыт.",
+    "en": "Audio Notes records voice memos — a dictaphone, in effect.\n\nRecordings are saved and can be renamed and edited. Light and dark themes are both available.\n\nThe source code is open.",
+    "tr": "Audio Notes, sesli notlar kaydeder; özünde bir ses kayıt cihazıdır.\n\nKayıtlar saklanır, yeniden adlandırılabilir ve düzenlenebilir. Açık ve koyu tema vardır.\n\nKaynak kodu açıktır.",
+    "uz": "Audio Notes ovozli eslatmalarni yozadi — aslida diktofon.\n\nYozuvlar saqlanadi, ularni qayta nomlash va tahrirlash mumkin. Yorug' va qorong'i bezak bor.\n\nManba kodi ochiq."
   }
 }
