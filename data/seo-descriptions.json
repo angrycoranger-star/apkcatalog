@@ -5914,5 +5914,107 @@
     "en": "Network Survey logs to a file everything the phone can see around it: cell towers, Wi-Fi access points, Bluetooth devices and navigation satellites.\n\nThe records are written as GeoPackage or CSV along with the coordinates, so a coverage map can be built from them afterwards to see where the signal drops.\n\nThe source code is open.",
     "tr": "Network Survey, telefonun çevresinde gördüğü her şeyi bir dosyaya kaydeder: baz istasyonları, Wi-Fi erişim noktaları, Bluetooth cihazları ve navigasyon uyduları.\n\nKayıtlar konum bilgisiyle birlikte GeoPackage ya da CSV olarak yazılır; böylece sonradan bir kapsama haritası çıkarılıp sinyalin nerede kesildiği görülebilir.\n\nKaynak kodu açıktır.",
     "uz": "Network Survey telefon atrofida ko'rgan hamma narsani faylga yozadi: uyali minoralar, Wi-Fi nuqtalari, Bluetooth qurilmalari va navigatsiya yo'ldoshlari.\n\nYozuvlar koordinatalar bilan birga GeoPackage yoki CSV formatida saqlanadi, shuning uchun keyin ular asosida qamrov xaritasini tuzib, aloqa qayerda uzilishini ko'rish mumkin.\n\nManba kodi ochiq."
+  },
+  "com.crequency.kitx.mobile": {
+    "ru": "KitX Mobile управляет вашими устройствами в локальной сети с телефона.\n\nВидно состояние каждого из них, можно вызвать установленные на них модули и перестроить порядок действий между устройствами.\n\nИсходный код открыт.",
+    "en": "KitX Mobile controls your devices on the local network from the phone.\n\nThe state of each one is visible, the plug-ins installed on them can be called remotely, and the order of actions between devices can be rearranged.\n\nThe source code is open.",
+    "tr": "KitX Mobile, yerel ağdaki cihazlarınızı telefondan yönetir.\n\nHer birinin durumu görünür; üzerlerindeki eklentiler uzaktan çağrılabilir ve cihazlar arasındaki iş akışı yeniden düzenlenebilir.\n\nKaynak kodu açıktır.",
+    "uz": "KitX Mobile mahalliy tarmoqdagi qurilmalaringizni telefondan boshqaradi.\n\nHar birining holati ko'rinadi, ularga o'rnatilgan modullarni masofadan chaqirish va qurilmalar orasidagi amallar tartibini qayta tuzish mumkin.\n\nManba kodi ochiq."
+  },
+  "com.crome.forecastpoint": {
+    "ru": "Point Forecast показывает прогноз погоды для точки на карте по данным Национальной метеослужбы США.\n\nВ отличие от прогноза по городу, здесь берутся условия именно в выбранном месте — это заметно в горах и на побережье, где погода меняется на расстоянии нескольких километров.\n\nПриложение сделано не NOAA и не NWS. Исходный код открыт.",
+    "en": "Point Forecast shows the weather for a point on the map, using data from the US National Weather Service.\n\nUnlike a forecast for a city, this gives the conditions at the spot you chose — which tells in mountains and along a coast, where the weather changes over a few kilometres.\n\nThe app is not made by NOAA or the NWS. The source code is open.",
+    "tr": "Point Forecast, ABD Ulusal Hava Servisi verileriyle haritadaki bir nokta için hava durumunu gösterir.\n\nBir şehir tahmininden farklı olarak, seçtiğiniz yerdeki koşulları verir; bu da havanın birkaç kilometrede değiştiği dağlarda ve kıyı boyunca fark yaratır.\n\nUygulama NOAA ya da NWS tarafından yapılmamıştır. Kaynak kodu açıktır.",
+    "uz": "Point Forecast AQSh Milliy meteorologiya xizmati ma'lumotlari asosida xaritadagi nuqta uchun ob-havo bashoratini ko'rsatadi.\n\nShahar bo'yicha bashoratdan farqli o'laroq, bu yerda aynan tanlangan joydagi sharoit olinadi — bu ob-havo bir necha kilometrda o'zgaradigan tog'lar va sohilda sezilarli.\n\nIlova NOAA yoki NWS tomonidan qilinmagan. Manba kodi ochiq."
+  },
+  "com.curryplayer.quicksettingssoundprofile": {
+    "ru": "Quick Settings Sound Profile переключает режим звука кнопкой в панели быстрых настроек.\n\nОдно касание переводит телефон из громкого режима в вибрацию или тишину, не заставляя лезть в настройки.\n\nИсходный код открыт.",
+    "en": "Quick Settings Sound Profile switches the sound mode from a tile in the quick settings panel.\n\nOne tap moves the phone between ringing, vibrate and silent, without a trip into the settings.\n\nThe source code is open.",
+    "tr": "Quick Settings Sound Profile, ses kipini hızlı ayarlar panelindeki bir kutucuktan değiştirir.\n\nTek dokunuş telefonu zil, titreşim ve sessiz arasında geçirir; ayarlara girmeye gerek kalmaz.\n\nKaynak kodu açıktır.",
+    "uz": "Quick Settings Sound Profile ovoz tartibini tezkor sozlamalar panelidagi tugma orqali almashtiradi.\n\nBir tegish telefonni jarangli tartibdan tebranish yoki jimlikka o'tkazadi, sozlamalarga kirish shart emas.\n\nManba kodi ochiq."
+  },
+  "com.cvc953.localplayer": {
+    "ru": "Local Player проигрывает музыку, которая лежит на устройстве.\n\nПриложение написано под Android напрямую, интерфейс собран на Jetpack Compose в оформлении Material 3.\n\nИсходный код открыт.",
+    "en": "Local Player plays the music stored on the device.\n\nIt is written natively for Android, with an interface built in Jetpack Compose following Material 3.\n\nThe source code is open.",
+    "tr": "Local Player, cihazda saklanan müziği çalar.\n\nAndroid için doğrudan yazılmıştır; arayüzü Material 3'ü izleyen Jetpack Compose ile kurulmuştur.\n\nKaynak kodu açıktır.",
+    "uz": "Local Player qurilmada yotgan musiqani ijro etadi.\n\nIlova Android uchun to'g'ridan-to'g'ri yozilgan, interfeysi Material 3 uslubidagi Jetpack Compose bilan yig'ilgan.\n\nManba kodi ochiq."
+  },
+  "com.cweb.messenger": {
+    "ru": "StoneAge — мессенджер без общего сервера: для работы он использует ваше собственное хранилище S3.\n\nПереписка лежит на устройстве и в вашем хранилище, поэтому у неё нет владельца, кроме вас: компания, через которую идут сообщения, здесь попросту отсутствует.\n\nИсходный код открыт.",
+    "en": "StoneAge is a messenger with no central backend: it works through an S3 bucket you provide yourself.\n\nThe conversation lives on the device and in your own storage, so nobody owns it but you — there is simply no company in the middle carrying the messages.\n\nThe source code is open.",
+    "tr": "StoneAge, merkezî bir arka ucu olmayan bir mesajlaşma uygulamasıdır: kendi sağladığınız bir S3 kovası üzerinden çalışır.\n\nYazışma cihazda ve sizin deponuzda durur; dolayısıyla sizden başka sahibi yoktur — iletileri taşıyan bir şirket aradan tümüyle çıkar.\n\nKaynak kodu açıktır.",
+    "uz": "StoneAge — umumiy serversiz messenjer: u ishlash uchun o'zingiz bergan S3 omboridan foydalanadi.\n\nYozishmalar qurilmada va sizning omboringizda yotadi, shuning uchun undan boshqa egasi yo'q: xabarlarni tashiydigan kompaniya bu yerda umuman mavjud emas.\n\nManba kodi ochiq."
+  },
+  "com.cyb3rko.flashdim": {
+    "ru": "FlashDim меняет яркость фонарика, а не просто включает его.\n\nНачиная с Android 13 система позволяет задавать вспышке несколько уровней свечения, и это приложение сделано ради того, чтобы этим воспользоваться: ночью не нужен полный свет.\n\nИсходный код открыт.",
+    "en": "FlashDim varies the brightness of the torch instead of merely switching it on.\n\nFrom Android 13 the system allows several brightness levels for the flash, and this app exists to make use of that: at night you rarely want the full beam.\n\nThe source code is open.",
+    "tr": "FlashDim, el fenerini yalnızca açmak yerine parlaklığını ayarlar.\n\nAndroid 13'ten itibaren sistem, flaş için birkaç parlaklık düzeyine izin verir; bu uygulama da bundan yararlanmak için yazılmıştır: geceleyin tam ışık nadiren gerekir.\n\nKaynak kodu açıktır.",
+    "uz": "FlashDim fonarni shunchaki yoqibgina qolmay, uning yorqinligini o'zgartiradi.\n\nAndroid 13 dan boshlab tizim chaqnoq uchun bir nechta yorug'lik darajasini belgilash imkonini beradi, bu ilova esa aynan shundan foydalanish uchun yozilgan: kechasi to'liq yorug'lik kamdan-kam kerak bo'ladi.\n\nManba kodi ochiq."
+  },
+  "com.czy0729.bangumi": {
+    "ru": "Bangumi — сторонний клиент одноимённого сайта, посвящённого аниме, играм, книгам и музыке.\n\nПриложение охватывает практически все разделы сайта, но переработано под телефон.\n\nИсходный код открыт.",
+    "en": "Bangumi is a third-party client for the site of the same name, devoted to anime, games, books and music.\n\nIt covers virtually every part of the website, laid out for a phone.\n\nThe source code is open.",
+    "tr": "Bangumi; anime, oyun, kitap ve müziğe ayrılmış aynı adlı sitenin üçüncü taraf istemcisidir.\n\nSitenin neredeyse tüm bölümlerini kapsar ve telefon için düzenlenmiştir.\n\nKaynak kodu açıktır.",
+    "uz": "Bangumi — anime, o'yinlar, kitoblar va musiqaga bag'ishlangan shu nomli saytning uchinchi tomon mijozi.\n\nIlova saytning deyarli barcha bo'limlarini qamrab oladi, biroq telefonga moslab qayta ishlangan.\n\nManba kodi ochiq."
+  },
+  "com.daemon.ssh": {
+    "ru": "SshDaemon поднимает на телефоне сервер SSH, чтобы обмениваться файлами по SFTP.\n\nС компьютера подключаются обычным клиентом вроде WinSCP или FileZilla, и файлы идут по защищённому каналу — в отличие от FTP, где всё передаётся открытым текстом.\n\nИсходный код открыт.",
+    "en": "SshDaemon runs an SSH server on the phone so files can be moved over SFTP.\n\nFrom a computer you connect with an ordinary client such as WinSCP or FileZilla, and the files travel over an encrypted channel — unlike FTP, where everything goes in the clear.\n\nThe source code is open.",
+    "tr": "SshDaemon, dosyaların SFTP ile taşınabilmesi için telefonda bir SSH sunucusu çalıştırır.\n\nBilgisayardan WinSCP ya da FileZilla gibi sıradan bir istemciyle bağlanırsınız ve dosyalar şifreli bir kanaldan geçer; her şeyin açık gittiği FTP'nin tersine.\n\nKaynak kodu açıktır.",
+    "uz": "SshDaemon telefonda SSH serverini ishga tushiradi, shunda fayllarni SFTP orqali almashish mumkin bo'ladi.\n\nKompyuterdan WinSCP yoki FileZilla kabi oddiy mijoz bilan ulanasiz, fayllar esa himoyalangan kanal orqali ketadi — hamma narsa ochiq uzatiladigan FTP dan farqli o'laroq.\n\nManba kodi ochiq."
+  },
+  "com.daih.psychphinder": {
+    "ru": "psychphinder ищет реплики из сериала «Ясновидец» — по всем сериям и полнометражным фильмам.\n\nПо найденной цитате видно, в какой серии и в какой момент она прозвучала.\n\nИсходный код открыт.",
+    "en": "psychphinder searches the lines of the television series Psych, across every episode and film.\n\nA quote you find shows which episode it came from and at what point it was said.\n\nThe source code is open.",
+    "tr": "psychphinder, Psych dizisinin tüm bölümlerindeki ve filmlerindeki replikleri arar.\n\nBulduğunuz alıntı, hangi bölümden geldiğini ve hangi anda söylendiğini gösterir.\n\nKaynak kodu açıktır.",
+    "uz": "psychphinder \"Psych\" serialidagi gaplarni qidiradi — barcha qismlar va to'liq metrajli filmlar bo'ylab.\n\nTopilgan iqtibosdan u qaysi qismda va qaysi paytda aytilgani ko'rinadi.\n\nManba kodi ochiq."
+  },
+  "com.damiengo.websiterss": {
+    "ru": "Equipe RSS читает ленту французской спортивной газеты L'Équipe.\n\nПриложение сделано ради трёх вещей: быстрой загрузки, отсутствия рекламной слежки и бережного расхода батареи.\n\nИсходный код открыт.",
+    "en": "Equipe RSS reads the feed of the French sports newspaper L'Équipe.\n\nThe app was written for three things: loading quickly, carrying no ad tracking, and going easy on the battery.\n\nThe source code is open.",
+    "tr": "Equipe RSS, Fransız spor gazetesi L'Équipe'in akışını okur.\n\nUygulama üç şey için yazılmıştır: hızlı yüklenmek, reklam izlemesi taşımamak ve pili az tüketmek.\n\nKaynak kodu açıktır.",
+    "uz": "Equipe RSS fransuz sport gazetasi L'Équipe lentasini o'qiydi.\n\nIlova uch narsa uchun yozilgan: tez yuklanish, reklama kuzatuvining yo'qligi va batareyani tejash.\n\nManba kodi ochiq."
+  },
+  "com.danefinlay.ttsutil": {
+    "ru": "TTS Util озвучивает текст голосом и умеет сохранять озвучку в звуковой файл.\n\nИсточником может быть набранный текст, буфер обмена или текстовый файл — так длинную статью можно превратить в запись и слушать её потом, не держа телефон в руках.\n\nИсходный код открыт.",
+    "en": "TTS Util reads text aloud and can save the result as a wave file.\n\nThe source can be typed text, the clipboard or a text file — so a long article becomes a recording you listen to later, with the phone out of your hands.\n\nThe source code is open.",
+    "tr": "TTS Util, metni sesli okur ve sonucu bir ses dosyasına kaydedebilir.\n\nKaynak; yazdığınız metin, pano içeriği ya da bir metin dosyası olabilir. Böylece uzun bir yazı, sonradan telefonu elinize almadan dinleyeceğiniz bir kayda dönüşür.\n\nKaynak kodu açıktır.",
+    "uz": "TTS Util matnni ovoz bilan o'qiydi va uni ovoz fayliga saqlay oladi.\n\nManba terilgan matn, almashish buferi yoki matn fayli bo'lishi mumkin — shu tariqa uzun maqolani yozuvga aylantirib, keyin telefonni qo'lda ushlamasdan tinglash mumkin.\n\nManba kodi ochiq."
+  },
+  "com.danemadsen.maid": {
+    "ru": "Maid ведёт переписку с языковыми моделями двумя путями: с моделями, запущенными прямо на устройстве через llama.cpp, и с внешними службами — Ollama, Mistral и OpenAI.\n\nВ первом случае текст не покидает телефон вовсе, во втором нужен ключ доступа к выбранной службе.\n\nПриложение работает на нескольких платформах. Исходный код открыт.",
+    "en": "Maid talks to language models in two ways: models running on the device itself through llama.cpp, and remote services — Ollama, Mistral and OpenAI.\n\nIn the first case the text never leaves the phone; in the second you supply an access key for the service you chose.\n\nThe app runs on several platforms. The source code is open.",
+    "tr": "Maid, dil modelleriyle iki yoldan konuşur: llama.cpp ile doğrudan cihazda çalışan modeller ve uzak hizmetler — Ollama, Mistral ve OpenAI.\n\nBirincisinde metin telefondan hiç çıkmaz; ikincisinde seçtiğiniz hizmet için bir erişim anahtarı verirsiniz.\n\nUygulama birden çok platformda çalışır. Kaynak kodu açıktır.",
+    "uz": "Maid til modellari bilan ikki yo'l orqali suhbatlashadi: llama.cpp orqali qurilmaning o'zida ishlaydigan modellar va tashqi xizmatlar — Ollama, Mistral hamda OpenAI.\n\nBirinchi holatda matn telefondan umuman chiqmaydi, ikkinchisida tanlangan xizmat uchun kirish kaliti kerak bo'ladi.\n\nIlova bir nechta platformada ishlaydi. Manba kodi ochiq."
+  },
+  "com.danhasting.radar": {
+    "ru": "Weather Radar показывает снимки доплеровского радара Национальной метеослужбы США и карту качества воздуха от службы AirNow.\n\nРадар видит осадки в движении, поэтому по нему понятно не только то, что идёт дождь, но и в какую сторону он смещается.\n\nИсходный код открыт.",
+    "en": "Weather Radar shows doppler radar images from the US National Weather Service and the air quality map from AirNow.\n\nRadar sees precipitation in motion, so it tells you not only that rain is falling but which way it is moving.\n\nThe source code is open.",
+    "tr": "Weather Radar, ABD Ulusal Hava Servisi'nin doppler radar görüntülerini ve AirNow'un hava kalitesi haritasını gösterir.\n\nRadar yağışı hareket hâlinde görür; böylece yalnızca yağmurun yağdığını değil, hangi yöne ilerlediğini de anlarsınız.\n\nKaynak kodu açıktır.",
+    "uz": "Weather Radar AQSh Milliy meteorologiya xizmatining dopler radari suratlarini va AirNow xizmatining havo sifati xaritasini ko'rsatadi.\n\nRadar yog'inni harakatda ko'radi, shuning uchun undan yomg'ir yog'ayotganinigina emas, u qay tomonga siljiyotganini ham bilish mumkin.\n\nManba kodi ochiq."
+  },
+  "com.daniebeler.pfpixelix": {
+    "ru": "Pixelix открывает Pixelfed и Vernissage — площадки для обмена фотографиями в федивёрсе, сети независимых серверов.\n\nПоддерживается работа с несколькими учётными записями сразу, оформление светлое и тёмное.\n\nИсходный код открыт.",
+    "en": "Pixelix opens Pixelfed and Vernissage — photo sharing platforms in the fediverse, the network of independent servers.\n\nSeveral accounts can be used at once, and there are light and dark themes.\n\nThe source code is open.",
+    "tr": "Pixelix; bağımsız sunucular ağı fediverse'teki fotoğraf paylaşım platformları Pixelfed ve Vernissage'ı açar.\n\nAynı anda birden çok hesap kullanılabilir; açık ve koyu tema vardır.\n\nKaynak kodu açıktır.",
+    "uz": "Pixelix Pixelfed va Vernissage ni ochadi — bular mustaqil serverlar tarmog'i fedivers dagi surat ulashish maydonchalari.\n\nBir vaqtda bir nechta hisob bilan ishlash mumkin, bezak yorug' va qorong'i.\n\nManba kodi ochiq."
+  },
+  "com.danilkinkin.buckwheat": {
+    "ru": "Buckwheat помогает тратить обдуманно: бюджет задаётся на срок, а приложение считает, сколько можно потратить сегодня.\n\nКаждая запись о трате отрезвляет сама по себе, а дневной остаток пересчитывается на ходу — видно, укладываетесь вы в задуманное или нет.\n\nИсходный код открыт.",
+    "en": "Buckwheat helps you spend deliberately: you set a budget for a period and the app works out what is available today.\n\nWriting each expense down sobers the mind on its own, and the daily allowance is recalculated as you go — so you can see whether you are keeping to the plan.\n\nThe source code is open.",
+    "tr": "Buckwheat, bilinçli harcamaya yardım eder: bir dönem için bütçe koyarsınız ve uygulama bugün ne kadar harcanabileceğini hesaplar.\n\nHer harcamayı yazmak tek başına ayıltıcıdır; günlük pay da siz harcadıkça yeniden hesaplanır, böylece plana uyup uymadığınızı görürsünüz.\n\nKaynak kodu açıktır.",
+    "uz": "Buckwheat o'ylab sarflashga yordam beradi: byudjet muddatga belgilanadi, ilova esa bugun qancha sarflash mumkinligini hisoblaydi.\n\nHar bir xarajatni yozib qo'yishning o'zi hushyor qiladi, kunlik qoldiq esa yurishda qayta hisoblanadi — mo'ljalga sig'ayotganingiz yoki yo'qligi ko'rinadi.\n\nManba kodi ochiq."
+  },
+  "com.danni.happymoments": {
+    "ru": "Happy Moments собирает хорошее, что с вами случилось: фотографию и несколько слов о том, чем этот момент запомнился.\n\nЗаписи остаются на устройстве.\n\nИсходный код открыт.",
+    "en": "Happy Moments collects the good things that happen to you: a photograph and a few words about why the moment mattered.\n\nThe entries stay on the device.\n\nThe source code is open.",
+    "tr": "Happy Moments, başınıza gelen güzel şeyleri toplar: bir fotoğraf ve o anın neden önemli olduğuna dair birkaç söz.\n\nKayıtlar cihazda kalır.\n\nKaynak kodu açıktır.",
+    "uz": "Happy Moments boshingizdan o'tgan yaxshi narsalarni yig'adi: surat va bu lahza nimasi bilan esda qolgani haqida bir necha so'z.\n\nYozuvlar qurilmada qoladi.\n\nManba kodi ochiq."
+  },
+  "com.darkempire78.opencalculator": {
+    "ru": "OpenCalc — калькулятор с обычными и научными действиями.\n\nПриложение занимает около двух мегабайт и не запрашивает ни одного лишнего разрешения. Оформление светлое, тёмное, полностью чёрное или по цветам системной темы.\n\nИсходный код открыт.",
+    "en": "OpenCalc is a calculator covering ordinary and scientific operations.\n\nThe app takes up around two megabytes and asks for no unnecessary permissions. The theme can be light, dark, fully black, or drawn from the system colours.\n\nThe source code is open.",
+    "tr": "OpenCalc, sıradan ve bilimsel işlemleri kapsayan bir hesap makinesidir.\n\nUygulama yaklaşık iki megabayt yer kaplar ve gereksiz hiçbir izin istemez. Tema açık, koyu, tümüyle siyah ya da sistem renklerinden alınmış olabilir.\n\nKaynak kodu açıktır.",
+    "uz": "OpenCalc — oddiy va ilmiy amallarni bajaradigan kalkulyator.\n\nIlova taxminan ikki megabayt joy egallaydi va birorta ham ortiqcha ruxsat so'ramaydi. Bezak yorug', qorong'i, butunlay qora yoki tizim mavzusi ranglari bo'yicha bo'lishi mumkin.\n\nManba kodi ochiq."
   }
 }
