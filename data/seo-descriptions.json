@@ -5302,5 +5302,107 @@
     "en": "Squircle CE is a code editor and file manager, with syntax highlighting for over thirty programming languages.\n\nFiles open from the device and from a remote server over SFTP or FTP. Git is supported too: changes can be reviewed and committed without leaving the editor.\n\nThe source code is open.",
     "tr": "Squircle CE, otuzdan fazla programlama dili için sözdizimi renklendirmesi sunan bir kod düzenleyici ve dosya yöneticisidir.\n\nDosyalar hem cihazdan hem de SFTP ya da FTP üzerinden uzak bir sunucudan açılır. Git de desteklenir: değişiklikler düzenleyiciden çıkmadan gözden geçirilip işlenebilir.\n\nKaynak kodu açıktır.",
     "uz": "Squircle CE — kod muharriri va fayl menejeri: sintaksis yoritish o'ttizdan ortiq dasturlash tili uchun ishlaydi.\n\nFayllar qurilmadangina emas, SFTP yoki FTP orqali masofaviy serverdan ham ochiladi. Git bilan ishlash bor — o'zgarishlarni muharrirdan chiqmasdan ko'rish va qayd etish mumkin.\n\nManba kodi ochiq."
+  },
+  "com.blankdev.sidestep": {
+    "ru": "Sidestep перехватывает ссылки на социальные сети и открывает их в альтернативных оболочках, попутно вычищая следящие параметры из адреса.\n\nТакая оболочка показывает то же содержимое без учётной записи и без установки приложения самой сети.\n\nИсходный код открыт.",
+    "en": "Sidestep intercepts links to social networks and opens them in alternative front ends, stripping the tracking parameters out of the address along the way.\n\nSuch a front end shows the same content without an account and without installing the network's own app.\n\nThe source code is open.",
+    "tr": "Sidestep, sosyal ağ bağlantılarını yakalar ve onları alternatif arayüzlerde açar; bu arada adresteki izleme parametrelerini de temizler.\n\nBöyle bir arayüz, aynı içeriği hesap açmadan ve ağın kendi uygulamasını kurmadan gösterir.\n\nKaynak kodu açıktır.",
+    "uz": "Sidestep ijtimoiy tarmoqlarga havolalarni ushlab qoladi va ularni muqobil qobiqlarda ochadi, yo'l-yo'lakay manzildagi kuzatuv parametrlarini tozalaydi.\n\nBunday qobiq o'sha tarkibni hisobsiz va tarmoqning o'z ilovasini o'rnatmasdan ko'rsatadi.\n\nManba kodi ochiq."
+  },
+  "com.blazecode.tsviewer": {
+    "ru": "TSViewer показывает, кто сейчас сидит на сервере TeamSpeak.\n\nПриложение подключается к серверу через заданные промежутки времени и выводит список подключённых в уведомление или на кнопку в панели быстрых настроек — так видно, собрались ли уже свои, не открывая сам TeamSpeak.\n\nИсходный код открыт.",
+    "en": "TSViewer shows who is currently on a TeamSpeak server.\n\nIt connects at an interval you set and puts the list of connected users into a notification or a quick settings tile — so you can see whether people have gathered without opening TeamSpeak itself.\n\nThe source code is open.",
+    "tr": "TSViewer, bir TeamSpeak sunucusunda o an kimin bulunduğunu gösterir.\n\nBelirlediğiniz aralıklarla sunucuya bağlanır ve bağlı kullanıcı listesini bir bildirime ya da hızlı ayarlar kutucuğuna koyar; böylece TeamSpeak'i açmadan kimlerin toplandığını görürsünüz.\n\nKaynak kodu açıktır.",
+    "uz": "TSViewer TeamSpeak serverida hozir kim o'tirganini ko'rsatadi.\n\nIlova belgilangan oraliqlarda serverga ulanadi va ulangalar ro'yxatini bildirishnomaga yoki tezkor sozlamalardagi tugmaga chiqaradi — shunda TeamSpeak'ni ochmasdan o'zinikilar yig'ilganini bilib olasiz.\n\nManba kodi ochiq."
+  },
+  "com.blockbasti.justanotherworkouttimer": {
+    "ru": "Just Another Workout Timer отсчитывает время в тренировке, собранной из ваших упражнений.\n\nДля каждого упражнения задаётся своя длительность, из них складываются подходы, а из подходов — вся тренировка. Смену упражнения приложение объявляет голосом, поэтому на экран смотреть не нужно.\n\nОформление следует Material Design. Исходный код открыт.",
+    "en": "Just Another Workout Timer counts through a workout assembled from your own exercises.\n\nEach exercise gets its own duration, exercises make up sets, and sets make up the workout. The app announces each change aloud, so there is no need to watch the screen.\n\nThe styling follows Material Design. The source code is open.",
+    "tr": "Just Another Workout Timer, kendi hareketlerinizden kurduğunuz bir antrenmanın süresini tutar.\n\nHer hareketin kendi süresi olur; hareketler setleri, setler de antrenmanı oluşturur. Uygulama her geçişi sesli duyurur, böylece ekrana bakmanız gerekmez.\n\nGörünüm Material Design'ı izler. Kaynak kodu açıktır.",
+    "uz": "Just Another Workout Timer o'z mashqlaringizdan yig'ilgan mashg'ulot vaqtini sanaydi.\n\nHar bir mashq uchun o'z davomiyligi belgilanadi, ulardan yondashuvlar, yondashuvlardan esa butun mashg'ulot tuziladi. Ilova mashq almashganini ovoz bilan e'lon qiladi, shuning uchun ekranga qarash shart emas.\n\nBezagi Material Design uslubida. Manba kodi ochiq."
+  },
+  "com.blogspot.developersu.ns_usbloader": {
+    "ru": "NS-USBloader передаёт файлы на Nintendo Switch с телефона.\n\nНа самой приставке при этом должна работать одна из программ, которые принимают такую передачу, — например, Awoo Installer или GoldLeaf.\n\nИсходный код открыт.",
+    "en": "NS-USBloader sends files to a Nintendo Switch from the phone.\n\nThe console has to be running one of the homebrew programs that receive such a transfer — Awoo Installer or GoldLeaf, for instance.\n\nThe source code is open.",
+    "tr": "NS-USBloader, telefondan Nintendo Switch'e dosya aktarır.\n\nKonsolda bu aktarımı karşılayan homebrew programlarından birinin çalışıyor olması gerekir; örneğin Awoo Installer ya da GoldLeaf.\n\nKaynak kodu açıktır.",
+    "uz": "NS-USBloader telefondan Nintendo Switch ga fayllarni uzatadi.\n\nPristavkaning o'zida esa shunday uzatishni qabul qiladigan dasturlardan biri ishlab turishi kerak — masalan, Awoo Installer yoki GoldLeaf.\n\nManba kodi ochiq."
+  },
+  "com.blogspot.e_kanivets.moneytracker": {
+    "ru": "Money Tracker ведёт учёт доходов и расходов.\n\nЗапись добавляется в два касания, а потом по накопленным данным видно, откуда деньги приходят и куда уходят.\n\nИсходный код открыт.",
+    "en": "Money Tracker keeps a record of income and spending.\n\nAn entry takes two taps, and the accumulated figures then show where the money comes from and where it goes.\n\nThe source code is open.",
+    "tr": "Money Tracker, gelir ve harcamaların kaydını tutar.\n\nBir kayıt iki dokunuşla girilir; biriken veriler de paranın nereden gelip nereye gittiğini gösterir.\n\nKaynak kodu açıktır.",
+    "uz": "Money Tracker daromad va xarajatlarni hisobga oladi.\n\nYozuv ikki tegishda qo'shiladi, keyin to'plangan ma'lumotlardan pul qayerdan kelib, qayerga ketayotgani ko'rinadi.\n\nManba kodi ochiq."
+  },
+  "com.blueapps.egyptianwriter": {
+    "ru": "Egyptian Writer показывает древнеегипетские иероглифы и позволяет составлять из них надписи.\n\nЗнаки собраны в общий список, из которого их выбирают; готовый текст можно выгрузить в файл.\n\nИсходный код открыт.",
+    "en": "Egyptian Writer displays ancient Egyptian hieroglyphs and lets you compose inscriptions from them.\n\nThe signs are gathered into a browsable list to pick from, and a finished text can be exported to a file.\n\nThe source code is open.",
+    "tr": "Egyptian Writer, eski Mısır hiyerogliflerini gösterir ve onlardan yazıtlar oluşturmanıza izin verir.\n\nİşaretler, içinden seçim yapılan gezilebilir bir listede toplanır; tamamlanan metin bir dosyaya aktarılabilir.\n\nKaynak kodu açıktır.",
+    "uz": "Egyptian Writer qadimgi Misr iyerogliflarini ko'rsatadi va ulardan yozuvlar tuzish imkonini beradi.\n\nBelgilar tanlash uchun umumiy ro'yxatga yig'ilgan; tayyor matnni faylga chiqarish mumkin.\n\nManba kodi ochiq."
+  },
+  "com.bluefirestudios.memeboard": {
+    "ru": "MemeBoard — звуковая панель с короткими шуточными звуками из интернета.\n\nКнопки можно переставлять местами, раскладывая часто используемое поближе.\n\nИсходный код открыт.",
+    "en": "MemeBoard is a soundboard of short comedic sound effects from the internet.\n\nThe buttons can be rearranged, so the ones you use most sit within easy reach.\n\nThe source code is open.",
+    "tr": "MemeBoard, internetten kısa komik ses efektlerinden oluşan bir ses panosudur.\n\nDüğmelerin yeri değiştirilebilir; böylece en çok kullandıklarınız elinizin altında durur.\n\nKaynak kodu açıktır.",
+    "uz": "MemeBoard — internetdagi qisqa hazil ovozlaridan iborat ovoz paneli.\n\nTugmalarni o'rnini almashtirish mumkin, shunda ko'p ishlatiladiganlari yaqinroq turadi.\n\nManba kodi ochiq."
+  },
+  "com.bluesound.bluesoundplayer": {
+    "ru": "BlueSound Controller находит в домашней сети аудиосистемы BluOS и Sonos и управляет ими.\n\nПоиск идёт сам: приложение сканирует сеть и показывает все найденные проигрыватели, после чего ими можно управлять с телефона.\n\nИсходный код открыт.",
+    "en": "BlueSound Controller finds BluOS and Sonos audio players on the local network and controls them.\n\nDiscovery is automatic: the app scans the network and lists every player it finds, which can then be driven from the phone.\n\nThe source code is open.",
+    "tr": "BlueSound Controller, yerel ağdaki BluOS ve Sonos ses oynatıcılarını bulur ve onları yönetir.\n\nKeşif kendiliğinden yapılır: uygulama ağı tarar ve bulduğu tüm oynatıcıları listeler; ardından bunlar telefondan yönetilebilir.\n\nKaynak kodu açıktır.",
+    "uz": "BlueSound Controller uy tarmog'idagi BluOS va Sonos audio tizimlarini topadi va ularni boshqaradi.\n\nQidiruv o'zi ketadi: ilova tarmoqni skanerlaydi va topilgan barcha pleyerlarni ko'rsatadi, keyin ularni telefondan boshqarish mumkin.\n\nManba kodi ochiq."
+  },
+  "com.bmco.cratesiounofficial": {
+    "ru": "Crates.io unofficial показывает пакеты языка Rust из реестра crates.io.\n\nНа нужный пакет можно подписаться и получать уведомления, когда выходит новая версия.\n\nЭто неофициальное приложение. Исходный код открыт.",
+    "en": "Crates.io unofficial browses Rust packages from the crates.io registry.\n\nYou can subscribe to a crate and be notified when a new version is published.\n\nThis is an unofficial app. The source code is open.",
+    "tr": "Crates.io unofficial, crates.io kayıt defterindeki Rust paketlerini gezer.\n\nBir pakete abone olup yeni bir sürüm yayımlandığında bildirim alabilirsiniz.\n\nBu resmî olmayan bir uygulamadır. Kaynak kodu açıktır.",
+    "uz": "Crates.io unofficial crates.io reyestridagi Rust tili paketlarini ko'rsatadi.\n\nKerakli paketga obuna bo'lib, yangi versiya chiqqanda bildirishnoma olish mumkin.\n\nBu norasmiy ilova. Manba kodi ochiq."
+  },
+  "com.bnyro.clock": {
+    "ru": "Clock You — часы и будильник в оформлении Material Design 3.\n\nБудильники создаются, правятся и ставятся на расписание; есть и остальное, чего ждут от таких часов.\n\nЦвета подхватываются из системной темы. Исходный код открыт.",
+    "en": "Clock You is a clock and alarm app in Material Design 3.\n\nAlarms can be created, edited and scheduled, and the rest of what such an app is expected to do is there too.\n\nThe colours follow the system theme. The source code is open.",
+    "tr": "Clock You, Material Design 3 ile yapılmış bir saat ve alarm uygulamasıdır.\n\nAlarmlar oluşturulur, düzenlenir ve zamanlanır; böyle bir uygulamadan beklenen geri kalan her şey de vardır.\n\nRenkler sistem temasını izler. Kaynak kodu açıktır.",
+    "uz": "Clock You — Material Design 3 uslubidagi soat va budilnik.\n\nBudilniklar yaratiladi, tahrirlanadi va jadvalga qo'yiladi; bunday ilovadan kutiladigan qolgan narsalar ham bor.\n\nRanglar tizim mavzusidan olinadi. Manba kodi ochiq."
+  },
+  "com.bnyro.contacts": {
+    "ru": "Connect You объединяет телефонную книгу и SMS в одном приложении.\n\nКонтакты создаются, правятся и удаляются, оттуда же ведётся переписка — так не приходится переключаться между двумя программами ради одного и того же человека.\n\nОформление следует Material Design 3. Исходный код открыт.",
+    "en": "Connect You brings contacts and SMS together in a single app.\n\nContacts can be created, edited and deleted, and conversations run from the same place — so there is no switching between two apps for the same person.\n\nThe styling follows Material Design 3. The source code is open.",
+    "tr": "Connect You, kişileri ve SMS'i tek bir uygulamada birleştirir.\n\nKişiler oluşturulur, düzenlenir ve silinir; yazışmalar da aynı yerden yürür. Böylece aynı kişi için iki uygulama arasında geçiş yapmanız gerekmez.\n\nGörünüm Material Design 3'ü izler. Kaynak kodu açıktır.",
+    "uz": "Connect You telefon kitobi va SMS ni bitta ilovada birlashtiradi.\n\nKontaktlar yaratiladi, tahrirlanadi va o'chiriladi, yozishmalar ham shu yerdan olib boriladi — shunda bitta odam uchun ikki dastur orasida almashish shart emas.\n\nBezagi Material Design 3 uslubida. Manba kodi ochiq."
+  },
+  "com.bnyro.translate": {
+    "ru": "Translate You переводит текст, обращаясь к разным службам перевода на выбор: LibreTranslate, Lingva, DeepL и другим.\n\nЭто значит, что можно взять открытую службу или поднятую вами самими, а не зависеть от одного поставщика.\n\nОформление следует Material Design 3. Исходный код открыт.",
+    "en": "Translate You translates text through a choice of engines: LibreTranslate, Lingva, DeepL and others.\n\nThat means you can use an open service, or one you host yourself, rather than depending on a single provider.\n\nThe styling follows Material Design 3. The source code is open.",
+    "tr": "Translate You, metni seçtiğiniz çeviri motorları üzerinden çevirir: LibreTranslate, Lingva, DeepL ve diğerleri.\n\nBu, tek bir sağlayıcıya bağlı kalmak yerine açık bir hizmeti ya da kendi barındırdığınız birini kullanabileceğiniz anlamına gelir.\n\nGörünüm Material Design 3'ü izler. Kaynak kodu açıktır.",
+    "uz": "Translate You matnni tanlash mumkin bo'lgan turli tarjima xizmatlari orqali o'giradi: LibreTranslate, Lingva, DeepL va boshqalar.\n\nBu degani, bitta provayderga bog'lanib qolmasdan, ochiq xizmatni yoki o'zingiz ko'targanini ishlatish mumkin.\n\nBezagi Material Design 3 uslubida. Manba kodi ochiq."
+  },
+  "com.bnyro.wallpaper": {
+    "ru": "Wall You подбирает обои из множества источников и ставит их на экран.\n\nАвтор прямо оговаривает: большинство подключённых источников — сторонние службы с закрытым кодом, хотя само приложение открытое.\n\nОформление следует Material Design 3. Исходный код открыт.",
+    "en": "Wall You pulls wallpapers from a wide range of sources and sets them on your screen.\n\nThe author notes plainly that most of the connected sources are third-party services that are not themselves free software, even though the app is.\n\nThe styling follows Material Design 3. The source code is open.",
+    "tr": "Wall You, geniş bir kaynak yelpazesinden duvar kâğıdı çeker ve ekranınıza uygular.\n\nGeliştirici açıkça belirtir: bağlı kaynakların çoğu, uygulamanın kendisi özgür olsa da özgür olmayan üçüncü taraf hizmetlerdir.\n\nGörünüm Material Design 3'ü izler. Kaynak kodu açıktır.",
+    "uz": "Wall You fon rasmlarini ko'plab manbalardan tanlaydi va ekranga qo'yadi.\n\nMuallif ochiq aytadi: ulangan manbalarning ko'pchiligi yopiq kodli uchinchi tomon xizmatlari, garchi ilovaning o'zi ochiq bo'lsa ham.\n\nBezagi Material Design 3 uslubida. Manba kodi ochiq."
+  },
+  "com.bobek.compass": {
+    "ru": "Compass — компас, который делает ровно то, что от него ждут.\n\nСтрелка показывает и на магнитный полюс, и на истинный север; рядом выводятся точные градусы и название направления.\n\nИсходный код открыт.",
+    "en": "Compass is a compass that does exactly what you expect of one.\n\nThe needle points to magnetic north as well as true north, and the exact degrees and the cardinal direction are shown alongside.\n\nThe source code is open.",
+    "tr": "Compass, bir pusuladan beklediğiniz şeyi tam olarak yapar.\n\nİbre hem manyetik kuzeyi hem gerçek kuzeyi gösterir; yanında kesin derece ve yön adı yer alır.\n\nKaynak kodu açıktır.",
+    "uz": "Compass — undan kutilgan ishni aynan bajaradigan kompas.\n\nMil ham magnit qutbini, ham haqiqiy shimolni ko'rsatadi; yonida aniq gradus va yo'nalish nomi chiqadi.\n\nManba kodi ochiq."
+  },
+  "com.bobek.tuner": {
+    "ru": "Tuner настраивает инструмент по звуку с микрофона: приложение слышит ноту и показывает, насколько она отклоняется от нужной.\n\nТюнер хроматический и определяет ноту сам, без предварительного выбора струны.\n\nИсходный код открыт.",
+    "en": "Tuner tunes an instrument by ear through the microphone: it hears the note and shows how far off it is.\n\nThe tuner is chromatic and works out which note you are playing by itself, with no string to select first.\n\nThe source code is open.",
+    "tr": "Tuner, mikrofon üzerinden bir çalgıyı akort eder: notayı duyar ve olması gerekenden ne kadar saptığını gösterir.\n\nAkort aleti kromatiktir ve hangi notayı çaldığınızı önceden tel seçmenize gerek kalmadan kendisi belirler.\n\nKaynak kodu açıktır.",
+    "uz": "Tuner cholg'uni mikrofondagi ovoz bo'yicha sozlaydi: ilova notani eshitadi va u keraklisidan qanchalik chetlashganini ko'rsatadi.\n\nSozlagich xromatik va notani oldindan tor tanlamasdan o'zi aniqlaydi.\n\nManba kodi ochiq."
+  },
+  "com.bodycheck": {
+    "ru": "BodyCheck считывает QR-код с распечатки, которую выдаёт анализатор состава тела в спортзале, и показывает измерения в читаемом виде.\n\nТакие аппараты обычно печатают узкую ленту с цифрами; здесь те же данные разложены понятнее и остаются в телефоне.\n\nИсходный код открыт.",
+    "en": "BodyCheck reads the QR code on the printout from a gym body composition analyser and lays the measurements out legibly.\n\nThose machines usually print a narrow strip of figures; here the same data is set out more clearly and stays on your phone.\n\nThe source code is open.",
+    "tr": "BodyCheck, spor salonundaki vücut analiz cihazının çıktısındaki QR kodu okur ve ölçümleri okunaklı biçimde gösterir.\n\nBu cihazlar genellikle dar bir rakam şeridi basar; burada aynı veriler daha anlaşılır biçimde düzenlenir ve telefonunuzda kalır.\n\nKaynak kodu açıktır.",
+    "uz": "BodyCheck sport zalidagi tana tarkibi analizatori chiqargan chop etmadagi QR kodni o'qiydi va o'lchovlarni o'qish oson ko'rinishda beradi.\n\nBunday qurilmalar odatda ingichka lentaga raqamlarni bosadi; bu yerda o'sha ma'lumotlar tushunarliroq joylashtiriladi va telefoningizda qoladi.\n\nManba kodi ochiq."
+  },
+  "com.boldwallet": {
+    "ru": "BoldWallet — биткоин-кошелёк, устроенный так, чтобы у него не было единственной точки отказа.\n\nВместо одного закрытого ключа используется пороговая подпись по схеме два из трёх: ключ разделён на части, и для перевода нужны две из них. Потеря одной части не лишает доступа к средствам, а кража одной — не даёт им распорядиться.\n\nИсходный код открыт.",
+    "en": "BoldWallet is a Bitcoin wallet built so that it has no single point of failure.\n\nInstead of one private key it uses a two-of-three threshold signature: the key is split into shares, and any two of them authorise a transfer. Losing one share does not lock you out, and stealing one does not let anyone spend.\n\nThe source code is open.",
+    "tr": "BoldWallet, tek bir arıza noktası olmayacak biçimde kurulmuş bir Bitcoin cüzdanıdır.\n\nTek bir özel anahtar yerine üçte iki eşikli imza kullanır: anahtar paylara bölünür ve bir aktarım için bunlardan ikisi yeter. Bir payı yitirmek erişimi kapatmaz, bir payı çalmak da harcama yetkisi vermez.\n\nKaynak kodu açıktır.",
+    "uz": "BoldWallet — yagona ishdan chiqish nuqtasi bo'lmasligi uchun tuzilgan bitkoin hamyoni.\n\nBitta yopiq kalit o'rniga uchdan ikki bo'sag'ali imzo ishlatiladi: kalit bo'laklarga bo'linadi va o'tkazma uchun ulardan ikkitasi kerak. Bitta bo'lakni yo'qotish mablag'dan mahrum qilmaydi, bittasini o'g'irlash esa uni sarflashga imkon bermaydi.\n\nManba kodi ochiq."
   }
 }
