@@ -4996,5 +4996,209 @@
     "en": "Timetable keeps your class schedule, homework, exams, teacher list and notes.\n\nWhere lessons run on alternating weeks, the app switches between them by itself, so there is no keeping track of which week it is.\n\nIt is an improved version of the app by ulan17. The source code is open.",
     "tr": "Timetable; ders programınızı, ödevlerinizi, sınavlarınızı, öğretmen listenizi ve notlarınızı tutar.\n\nDersler dönüşümlü haftalara göre ilerliyorsa uygulama aralarında kendiliğinden geçiş yapar; hangi hafta olduğunu takip etmeniz gerekmez.\n\nulan17'nin uygulamasının geliştirilmiş bir sürümüdür. Kaynak kodu açıktır.",
     "uz": "Timetable o'quv jadvali, uy vazifalari, imtihonlar, o'qituvchilar ro'yxati va eslatmalarni yuritadi.\n\nDarslar almashinuvchi haftalar bo'yicha ketsa, ilova ularni o'zi almashtiradi, shuning uchun qaysi hafta ekanini kuzatish shart emas.\n\nBu ulan17 ilovasining yaxshilangan versiyasi. Manba kodi ochiq."
+  },
+  "com.ashkanrafiee.balance": {
+    "ru": "Balance читает банковские SMS с остатком по счёту и собирает из них общую картину: сколько лежит в каждом банке и сколько всего.\n\nСообщения разбираются на самом устройстве, никуда не отправляясь. Приложение рассчитано на банки Ирана.\n\nИсходный код открыт.",
+    "en": "Balance reads bank SMS messages carrying account balances and puts together the whole picture: what sits in each bank and what the total comes to.\n\nThe messages are parsed on the device, with nothing sent anywhere. The app is built for banks in Iran.\n\nThe source code is open.",
+    "tr": "Balance, hesap bakiyesi taşıyan banka SMS'lerini okur ve bütün tabloyu çıkarır: her bankada ne olduğunu ve toplamın ne ettiğini.\n\nİletiler cihazda çözümlenir, hiçbir yere gönderilmez. Uygulama İran'daki bankalar için yapılmıştır.\n\nKaynak kodu açıktır.",
+    "uz": "Balance hisobdagi qoldiq haqidagi bank SMS larini o'qiydi va ulardan umumiy manzarani yig'adi: har bir bankda qancha yotgani va jami qancha ekani.\n\nXabarlar qurilmaning o'zida tahlil qilinadi, hech qayerga yuborilmaydi. Ilova Eron banklariga mo'ljallangan.\n\nManba kodi ochiq."
+  },
+  "com.astroloop.game": {
+    "ru": "Astro Loop — рогалик-стрелялка про корабль, застрявший во временной петле.\n\nКаждый вылет в темноту заканчивается возвращением к началу, но набранный опыт и собранный экипаж остаются с вами и меняют следующий заход.\n\nИсходный код открыт.",
+    "en": "Astro Loop is a roguelike shooter about a ship caught in a loop.\n\nEvery flight out into the dark ends back at the beginning, but what you learned and the crew you recruited stay with you and change the next run.\n\nThe source code is open.",
+    "tr": "Astro Loop, bir döngüye sıkışmış gemiyi konu alan roguelike bir nişancı oyunudur.\n\nKaranlığa yapılan her sefer başa dönerek biter; ama öğrendikleriniz ve topladığınız mürettebat sizinle kalır ve sonraki denemeyi değiştirir.\n\nKaynak kodu açıktır.",
+    "uz": "Astro Loop — vaqt halqasiga tushib qolgan kema haqidagi roguelike otishma o'yini.\n\nQorong'ilikka qilingan har bir parvoz boshiga qaytish bilan tugaydi, biroq to'plangan tajriba va yig'ilgan ekipaj siz bilan qoladi va keyingi urinishni o'zgartiradi.\n\nManba kodi ochiq."
+  },
+  "com.atelieryl.wonderdroid": {
+    "ru": "WonderDroid X — эмулятор консоли WonderSwan, карманной приставки Bandai конца девяностых.\n\nЗапускаются игры и для чёрно-белой модели, и для цветной; сохранения из картриджа поддерживаются.\n\nПроект вырос из WonderDroid. Исходный код открыт.",
+    "en": "WonderDroid X is an emulator for the WonderSwan, Bandai's handheld console from the late nineties.\n\nGames run for both the monochrome and the colour model, and cartridge saves are supported.\n\nThe project grew out of WonderDroid. The source code is open.",
+    "tr": "WonderDroid X, Bandai'nin doksanların sonundaki el konsolu WonderSwan için bir öykünücüdür.\n\nHem tek renkli hem renkli modelin oyunları çalışır; kartuş kayıtları desteklenir.\n\nProje WonderDroid'den türemiştir. Kaynak kodu açıktır.",
+    "uz": "WonderDroid X — to'qsoninchi yillar oxiridagi Bandai cho'ntak konsoli WonderSwan emulyatori.\n\nHam oq-qora, ham rangli model o'yinlari ishga tushadi; kartrijdagi saqlanmalar qo'llab-quvvatlanadi.\n\nLoyiha WonderDroid dan o'sib chiqqan. Manba kodi ochiq."
+  },
+  "com.ath0.rpn": {
+    "ru": "RPN — калькулятор с обратной польской записью: сначала вводят числа, потом действие.\n\nПри такой записи скобки не нужны вовсе, а длинные выражения считаются короче, чем в обычном калькуляторе. Освоить её несложно, хотя пользуются ею немногие.\n\nВычисления идут с фиксированной точкой. Исходный код открыт.",
+    "en": "RPN is a calculator using reverse Polish notation: you enter the numbers first and the operation after.\n\nWritten that way, brackets are not needed at all, and long expressions take fewer keystrokes than on an ordinary calculator. It is easy enough to learn, though few people use it.\n\nThe arithmetic is fixed-point. The source code is open.",
+    "tr": "RPN, ters Lehçe gösterim kullanan bir hesap makinesidir: önce sayıları, sonra işlemi girersiniz.\n\nBu gösterimde paranteze hiç gerek kalmaz ve uzun ifadeler sıradan bir hesap makinesindekinden daha az tuşla hesaplanır. Öğrenmesi kolaydır, gerçi kullananı azdır.\n\nİşlemler sabit noktalıdır. Kaynak kodu açıktır.",
+    "uz": "RPN — teskari polyak yozuvidan foydalanadigan kalkulyator: avval sonlar, keyin amal kiritiladi.\n\nBunday yozuvda qavslar umuman kerak emas, uzun ifodalar esa oddiy kalkulyatordagidan kamroq bosish bilan hisoblanadi. O'rganish qiyin emas, garchi undan foydalanuvchilar kam bo'lsa ham.\n\nHisoblar qat'iy nuqtali. Manba kodi ochiq."
+  },
+  "com.atharok.barcodescanner": {
+    "ru": "Barcode Scanner читает штрихкоды и создаёт свои.\n\nПо считанному коду приложение находит сведения о товаре: продукты питания, косметику, книги и музыкальные диски. Для еды и косметики это удобно тем, что состав виден прямо в магазине.\n\nПриложение бесплатное, с открытым исходным кодом.",
+    "en": "Barcode Scanner reads barcodes and generates them.\n\nFrom a scanned code it looks up what the product is: food, cosmetics, books and music discs. For food and cosmetics that means the ingredients are there while you are still in the shop.\n\nThe app is free and open source.",
+    "tr": "Barcode Scanner, barkodları okur ve barkod üretir.\n\nOkunan koddan ürün bilgisini bulur: gıda, kozmetik, kitap ve müzik diskleri. Gıda ve kozmetikte bu, içindekileri daha mağazadayken görmek demektir.\n\nUygulama ücretsizdir ve kaynak kodu açıktır.",
+    "uz": "Barcode Scanner shtrix-kodlarni o'qiydi va o'zi ham yaratadi.\n\nO'qilgan kod bo'yicha ilova mahsulot haqidagi ma'lumotni topadi: oziq-ovqat, kosmetika, kitoblar va musiqa disklari. Oziq-ovqat va kosmetika uchun bu tarkibni do'konning o'zida ko'rish imkonini beradi.\n\nIlova bepul, manba kodi ochiq."
+  },
+  "com.atharok.btremote": {
+    "ru": "Bluetooth Remote превращает телефон в пульт для Android TV.\n\nСвязь идёт по Bluetooth, без общей сети Wi-Fi, поэтому пульт работает и тогда, когда телевизор не подключён к интернету.\n\nИсходный код открыт.",
+    "en": "Bluetooth Remote turns the phone into a remote control for Android TV.\n\nThe link runs over Bluetooth rather than a shared Wi-Fi network, so the remote works even when the television is not online.\n\nThe source code is open.",
+    "tr": "Bluetooth Remote, telefonu Android TV için bir kumandaya dönüştürür.\n\nBağlantı ortak bir Wi-Fi ağı yerine Bluetooth üzerinden kurulur; böylece televizyon çevrimiçi olmasa da kumanda çalışır.\n\nKaynak kodu açıktır.",
+    "uz": "Bluetooth Remote telefonni Android TV uchun pultga aylantiradi.\n\nAloqa umumiy Wi-Fi tarmog'isiz, Bluetooth orqali ketadi, shuning uchun pult televizor internetga ulanmagan paytda ham ishlaydi.\n\nManba kodi ochiq."
+  },
+  "com.atharok.screentime": {
+    "ru": "Screen Time показывает, сколько времени вы провели в телефоне и в каких именно приложениях.\n\nСтатистика собирается за неделю, так что видно не только сегодняшний день, но и то, как менялось время от дня ко дню.\n\nИсходный код открыт.",
+    "en": "Screen Time shows how long you spent on the phone and in which apps.\n\nThe figures cover a week, so you see not only today but how the time shifted from day to day.\n\nThe source code is open.",
+    "tr": "Screen Time, telefonda ne kadar zaman geçirdiğinizi ve hangi uygulamalarda olduğunu gösterir.\n\nVeriler bir haftayı kapsar; böylece yalnızca bugünü değil, sürenin günden güne nasıl değiştiğini de görürsünüz.\n\nKaynak kodu açıktır.",
+    "uz": "Screen Time telefonda qancha vaqt o'tkazganingizni va aynan qaysi ilovalarda ekanini ko'rsatadi.\n\nStatistika bir hafta uchun yig'iladi, shuning uchun bugungi kungina emas, vaqt kundan-kunga qanday o'zgargani ham ko'rinadi.\n\nManba kodi ochiq."
+  },
+  "com.atop": {
+    "ru": "atop — приложение к одноимённой площадке, устроенной по образцу Reddit: записи, обсуждения и голосование за них.\n\nСервер можно поднять свой: его исходный код опубликован отдельно.\n\nИсходный код приложения открыт.",
+    "en": "atop is the app for a site of the same name, built along the lines of Reddit: posts, discussions and votes on them.\n\nYou can run your own server: its source code is published separately.\n\nThe app's source code is open.",
+    "tr": "atop, Reddit örneğine göre kurulmuş aynı adlı bir sitenin uygulamasıdır: gönderiler, tartışmalar ve bunlara verilen oylar.\n\nKendi sunucunuzu çalıştırabilirsiniz: kaynak kodu ayrıca yayımlanmıştır.\n\nUygulamanın kaynak kodu açıktır.",
+    "uz": "atop — Reddit namunasida qurilgan shu nomli maydonchaning ilovasi: yozuvlar, muhokamalar va ularga ovoz berish.\n\nServerni o'zingiz ko'tarishingiz mumkin: uning manba kodi alohida e'lon qilingan.\n\nIlovaning manba kodi ochiq."
+  },
+  "com.atr.hiit": {
+    "ru": "HIIT — таймер для интервальных тренировок: чередование нагрузки и отдыха по заданной схеме.\n\nПриложение сведено к одному делу и обходится без лишнего. Подойдёт и для любого другого занятия, где нужен интервальный отсчёт.\n\nИсходный код открыт.",
+    "en": "HIIT is a timer for interval training: bouts of effort and rest alternating on a pattern you set.\n\nThe app does one thing and skips the rest. It suits anything else that needs an interval timer just as well.\n\nThe source code is open.",
+    "tr": "HIIT, aralıklı antrenman için bir zamanlayıcıdır: belirlediğiniz düzende dönüşümlü çalışma ve dinlenme.\n\nUygulama tek bir işi yapar, gerisini bırakır. Aralıklı sayım gereken başka her iş için de aynı ölçüde uygundur.\n\nKaynak kodu açıktır.",
+    "uz": "HIIT — intervalli mashg'ulot uchun taymer: siz belgilagan sxema bo'yicha yuklama va dam almashib turadi.\n\nIlova bitta ishga qaratilgan va ortiqchasiz. Intervalli sanoq kerak bo'ladigan boshqa har qanday mashg'ulotga ham to'g'ri keladi.\n\nManba kodi ochiq."
+  },
+  "com.atul.musicplayer": {
+    "ru": "Music Player Lite проигрывает музыку с устройства.\n\nПриложение лёгкое и почти не расходует батарею. Рекламы в нём нет и не планируется.\n\nИсходный код открыт.",
+    "en": "Music Player Lite plays the music stored on your device.\n\nIt is light on resources and barely touches the battery. There are no ads and none are planned.\n\nThe source code is open.",
+    "tr": "Music Player Lite, cihazınızdaki müziği çalar.\n\nHafiftir ve pili neredeyse hiç tüketmez. Reklam yoktur ve eklenmesi de düşünülmemektedir.\n\nKaynak kodu açıktır.",
+    "uz": "Music Player Lite qurilmadagi musiqani ijro etadi.\n\nIlova yengil va batareyani deyarli sarflamaydi. Unda reklama yo'q va rejalashtirilmagan ham.\n\nManba kodi ochiq."
+  },
+  "com.autismprime.fall": {
+    "ru": "Fall заставляет телефон кричать, когда тот резко ускоряется.\n\nПроверить работу просто: включите звук и подбросьте телефон — если он закричал, всё в порядке.\n\nИсходный код открыт.",
+    "en": "Fall makes the phone scream when it moves too fast.\n\nTesting it is straightforward: turn the volume up and throw the phone — if it screams, it works.\n\nThe source code is open.",
+    "tr": "Fall, telefon fazla hızlı hareket ettiğinde onu bağırtır.\n\nDenemesi kolaydır: sesi açın ve telefonu havaya atın — bağırıyorsa çalışıyor demektir.\n\nKaynak kodu açıktır.",
+    "uz": "Fall telefon keskin tezlashganda uni qichqirtiradi.\n\nTekshirish oson: ovozni yoqing va telefonni tashlang — agar qichqirsa, hammasi joyida.\n\nManba kodi ochiq."
+  },
+  "com.autopi": {
+    "ru": "AutoPie даёт на телефоне среду Linux, где пишут и запускают сценарии на Bash и Python.\n\nОтдельного терминала для этого не нужно: команды создаются и выполняются прямо в приложении, а запуск можно поставить на расписание или на событие.\n\nИсходный код открыт.",
+    "en": "AutoPie provides a Linux environment on the phone where you write and run Bash and Python scripts.\n\nNo separate terminal is required: commands are created and executed inside the app, and a run can be tied to a schedule or an event.\n\nThe source code is open.",
+    "tr": "AutoPie, telefonda Bash ve Python betikleri yazıp çalıştırdığınız bir Linux ortamı sunar.\n\nAyrı bir uçbirim gerekmez: komutlar uygulamanın içinde oluşturulup çalıştırılır ve çalıştırma bir zamanlamaya ya da bir olaya bağlanabilir.\n\nKaynak kodu açıktır.",
+    "uz": "AutoPie telefonda Bash va Python skriptlarini yozib, ishga tushiradigan Linux muhitini beradi.\n\nBuning uchun alohida terminal kerak emas: buyruqlar ilovaning o'zida yaratiladi va bajariladi, ishga tushirishni esa jadvalga yoki voqeaga bog'lash mumkin.\n\nManba kodi ochiq."
+  },
+  "com.averi.worldscribe": {
+    "ru": "World Scribe помогает держать в порядке вымышленный мир — для романа, комикса или сценария.\n\nПерсонажи, места, события и предметы заводятся отдельными записями и связываются друг с другом, так что видно, кто где был и что с чем связано.\n\nИсходный код открыт.",
+    "en": "World Scribe helps keep a fictional setting in order — for a novel, a comic or a screenplay.\n\nCharacters, places, events and objects are entered as separate records and linked to one another, so it stays clear who was where and what connects to what.\n\nThe source code is open.",
+    "tr": "World Scribe, kurmaca bir dünyayı düzende tutmaya yardım eder: bir roman, çizgi roman ya da senaryo için.\n\nKarakterler, yerler, olaylar ve nesneler ayrı kayıtlar olarak girilir ve birbirine bağlanır; böylece kimin nerede olduğu ve neyin neyle ilgili olduğu belli kalır.\n\nKaynak kodu açıktır.",
+    "uz": "World Scribe to'qima olamni tartibda ushlashga yordam beradi — roman, komiks yoki ssenariy uchun.\n\nQahramonlar, joylar, voqealar va buyumlar alohida yozuv sifatida kiritiladi va bir-biriga bog'lanadi, shunda kim qayerda bo'lgani va nima nima bilan bog'liqligi ko'rinib turadi.\n\nManba kodi ochiq."
+  },
+  "com.avizitrx.sunrise.signal": {
+    "ru": "Sunrise Signal ведёт дневник утренних наблюдений за здоровьем и привычек дня.\n\nЗаписи о сне, нагрузке и уровне напряжения накапливаются, и по ним видно, как одно связано с другим.\n\nДанные остаются на устройстве. Исходный код открыт.",
+    "en": "Sunrise Signal keeps a diary of morning health observations and daily habits.\n\nNotes on sleep, exercise and stress accumulate, and the pattern between them becomes visible over time.\n\nThe data stays on the device. The source code is open.",
+    "tr": "Sunrise Signal, sabah sağlık gözlemleri ve günlük alışkanlıklar için bir günlük tutar.\n\nUyku, hareket ve gerginlik üzerine notlar birikir; zamanla aralarındaki örüntü görünür hâle gelir.\n\nVeriler cihazda kalır. Kaynak kodu açıktır.",
+    "uz": "Sunrise Signal ertalabki salomatlik kuzatuvlari va kunlik odatlar kundaligini yuritadi.\n\nUyqu, jismoniy yuklama va zo'riqish darajasi haqidagi yozuvlar to'planadi va ular orasidagi bog'liqlik vaqt o'tib ko'rinadi.\n\nMa'lumotlar qurilmada qoladi. Manba kodi ochiq."
+  },
+  "com.aw.huda": {
+    "ru": "Huda собирает вместе то, что нужно мусульманину каждый день: время молитв, направление на Киблу и текст Корана.\n\nВсё это в одном приложении, без рекламы.\n\nИсходный код открыт.",
+    "en": "Huda brings together what a Muslim needs day to day: prayer times, the direction of the Qibla and the text of the Quran.\n\nAll of it sits in one app, with no advertising.\n\nThe source code is open.",
+    "tr": "Huda, bir Müslümanın gün içinde ihtiyaç duyduklarını bir araya getirir: namaz vakitleri, kıble yönü ve Kur'an metni.\n\nHepsi tek uygulamada ve reklamsızdır.\n\nKaynak kodu açıktır.",
+    "uz": "Huda musulmonga har kuni kerak bo'ladigan narsalarni bir joyga yig'adi: namoz vaqtlari, Qibla yo'nalishi va Qur'on matni.\n\nBularning bari bitta ilovada, reklamasiz.\n\nManba kodi ochiq."
+  },
+  "com.awakeonlanmobile": {
+    "ru": "AwakeOnLANMobile включает компьютер по сети, отправляя ему пакет Wake-on-LAN.\n\nРаботает как в домашней сети, так и через интернет, если маршрутизатор настроен пропускать такие пакеты.\n\nИсходный код открыт.",
+    "en": "AwakeOnLANMobile powers a computer up over the network by sending it a Wake-on-LAN packet.\n\nIt works on a home network and over the internet too, provided the router is set up to pass such packets through.\n\nThe source code is open.",
+    "tr": "AwakeOnLANMobile, bir bilgisayara Wake-on-LAN paketi göndererek onu ağ üzerinden açar.\n\nHem ev ağında hem de yönlendirici bu paketleri geçirecek biçimde ayarlanmışsa internet üzerinden çalışır.\n\nKaynak kodu açıktır.",
+    "uz": "AwakeOnLANMobile kompyuterga Wake-on-LAN paketini yuborib, uni tarmoq orqali yoqadi.\n\nUy tarmog'ida ham, marshrutizator bunday paketlarni o'tkazishga sozlangan bo'lsa internet orqali ham ishlaydi.\n\nManba kodi ochiq."
+  },
+  "com.axelblatt.mission": {
+    "ru": "Mission отмечает выполнение ежедневных привычек и сведено к наименьшему числу действий.\n\nЗадачи заводятся с разной периодичностью, а отметка ставится одним касанием — чтобы сам учёт не отнимал время у того, что учитываешь.\n\nИсходный код открыт.",
+    "en": "Mission ticks off daily habits and is pared down to as few actions as possible.\n\nTasks can run on different rhythms, and marking one done takes a single tap — so that the tracking does not eat into the thing being tracked.\n\nThe source code is open.",
+    "tr": "Mission, günlük alışkanlıkları işaretler ve olabildiğince az işleme indirgenmiştir.\n\nGörevler farklı sıklıklarda kurulabilir; tamamlandı işareti tek dokunuşla konur — böylece takip, takip edilen şeyden zaman çalmaz.\n\nKaynak kodu açıktır.",
+    "uz": "Mission kundalik odatlarning bajarilishini belgilaydi va eng kam amalga keltirilgan.\n\nVazifalar turli davriylikda tuziladi, belgi esa bir tegishda qo'yiladi — toki hisobning o'zi hisobga olinayotgan narsadan vaqt olmasin.\n\nManba kodi ochiq."
+  },
+  "com.axiel7.anihyou": {
+    "ru": "AniHyou ведёт списки аниме и манги на площадке AniList.\n\nСерии раскладываются по спискам, у каждой видны оценки и отзывы других пользователей, а также официальные площадки, где её можно посмотреть.\n\nИсходный код открыт.",
+    "en": "AniHyou keeps anime and manga lists on the AniList platform.\n\nSeries are sorted into lists, each showing other users' ratings and reviews along with the official sites where it can be watched.\n\nThe source code is open.",
+    "tr": "AniHyou, AniList platformundaki anime ve manga listelerini yönetir.\n\nDiziler listelere ayrılır; her birinde diğer kullanıcıların puanları ve değerlendirmeleriyle birlikte izlenebileceği resmî siteler görünür.\n\nKaynak kodu açıktır.",
+    "uz": "AniHyou AniList maydonchasidagi anime va manga ro'yxatlarini yuritadi.\n\nSeriallar ro'yxatlarga ajratiladi, har birida boshqa foydalanuvchilarning baholari va sharhlari hamda uni ko'rish mumkin bo'lgan rasmiy maydonchalar ko'rinadi.\n\nManba kodi ochiq."
+  },
+  "com.b44t.messenger": {
+    "ru": "Delta Chat — децентрализованный мессенджер: сообщения идут по обычной электронной почте, а не через сервер одной компании.\n\nЭто значит, что писать можно любому, у кого есть почтовый адрес, а сеть не может закрыться вместе с сервисом — она держится на той же инфраструктуре, что и почта.\n\nПриложение подходит и для личной переписки, и для групп и организаций. Исходный код открыт.",
+    "en": "Delta Chat is a decentralised messenger: messages travel over ordinary email rather than through one company's server.\n\nThat means you can write to anyone with an email address, and the network cannot shut down along with a service — it rests on the same infrastructure as mail itself.\n\nIt suits private conversations as much as groups and organisations. The source code is open.",
+    "tr": "Delta Chat, merkezî olmayan bir mesajlaşma uygulamasıdır: iletiler tek bir şirketin sunucusu yerine sıradan e-posta üzerinden gider.\n\nBu, e-posta adresi olan herkese yazabileceğiniz ve ağın bir hizmetle birlikte kapanamayacağı anlamına gelir; postanın dayandığı altyapının üzerinde durur.\n\nKişisel yazışmalar kadar gruplar ve kurumlar için de uygundur. Kaynak kodu açıktır.",
+    "uz": "Delta Chat — markazlashmagan messenjer: xabarlar bitta kompaniya serveri emas, oddiy elektron pochta orqali ketadi.\n\nBu degani, pochta manzili bor har kimga yozish mumkin, tarmoq esa xizmat bilan birga yopilib qolmaydi — u pochtaning o'zi tayanadigan infratuzilmaga suyanadi.\n\nIlova shaxsiy yozishmalarga ham, guruh va tashkilotlarga ham mos. Manba kodi ochiq."
+  },
+  "com.bagaturchess": {
+    "ru": "Bagatur — шахматный движок со своим интерфейсом.\n\nАвтор честно оговаривает: до Stockfish, Komodo и нейросетевых движков вроде Leela Chess Zero он не дотягивает. Зато это самостоятельный открытый проект, а для игры и разбора партий его силы более чем достаточно.\n\nИсходный код открыт.",
+    "en": "Bagatur is a chess engine with a graphical interface of its own.\n\nThe author says plainly that it does not match Stockfish, Komodo or the neural engines such as Leela Chess Zero. It is, however, an independent open project, and more than strong enough for playing and going over games.\n\nThe source code is open.",
+    "tr": "Bagatur, kendi grafik arayüzü olan bir satranç motorudur.\n\nGeliştirici açıkça belirtir: Stockfish, Komodo ya da Leela Chess Zero gibi sinir ağı motorlarının düzeyinde değildir. Yine de bağımsız ve açık bir projedir; oynamak ve partileri incelemek için fazlasıyla güçlüdür.\n\nKaynak kodu açıktır.",
+    "uz": "Bagatur — o'z interfeysiga ega shaxmat dvigateli.\n\nMuallif ochiq aytadi: u Stockfish, Komodo va Leela Chess Zero kabi neyron dvigatellar darajasiga yetmaydi. Buning evaziga bu mustaqil ochiq loyiha va o'ynash hamda partiyalarni tahlil qilish uchun kuchi yetarlidan ham ortiq.\n\nManba kodi ochiq."
+  },
+  "com.bald.uriah.baldphone": {
+    "ru": "BaldPhone заменяет привычный интерфейс телефона на крупный и простой.\n\nЭкран строится из больших кнопок с ясными подписями, а число возможных действий сведено к необходимому. Приложение рассчитано на пожилых людей и на тех, кому трудно попадать по мелким элементам.\n\nИсходный код открыт.",
+    "en": "BaldPhone replaces the phone's usual interface with a larger and simpler one.\n\nThe screen is built from big buttons with plain labels, and the number of possible actions is cut back to what is needed. It is aimed at elderly users and at people who struggle to hit small targets.\n\nThe source code is open.",
+    "tr": "BaldPhone, telefonun alışıldık arayüzünü daha büyük ve daha yalın bir arayüzle değiştirir.\n\nEkran, açık etiketli büyük düğmelerden kurulur ve olası işlem sayısı gerekli olana indirilir. Yaşlı kullanıcılar ve küçük ögelere dokunmakta zorlananlar için tasarlanmıştır.\n\nKaynak kodu açıktır.",
+    "uz": "BaldPhone telefonning odatdagi interfeysini yirik va sodda interfeysga almashtiradi.\n\nEkran aniq yozuvli katta tugmalardan quriladi, mumkin bo'lgan amallar soni esa zaruriygacha qisqartiriladi. Ilova keksa odamlarga va mayda elementlarga tegish qiyin bo'lganlarga mo'ljallangan.\n\nManba kodi ochiq."
+  },
+  "com.baldo.bob": {
+    "ru": "Baby on Board ведёт календарь беременности по неделям.\n\nПриложение не запрашивает ни одного разрешения — а значит, технически не может ни получить доступ к вашим данным, ни отправить их куда-либо.\n\nИсходный код открыт.",
+    "en": "Baby on Board follows a pregnancy week by week.\n\nThe app requests no permissions at all — which means it has no technical way of reaching your data or sending it anywhere.\n\nThe source code is open.",
+    "tr": "Baby on Board, gebeliği hafta hafta izler.\n\nUygulama hiçbir izin istemez; dolayısıyla verilerinize erişmesinin ya da onları bir yere göndermesinin teknik bir yolu yoktur.\n\nKaynak kodu açıktır.",
+    "uz": "Baby on Board homiladorlik kalendarini haftalar bo'yicha yuritadi.\n\nIlova birorta ham ruxsat so'ramaydi — demak, ma'lumotlaringizga kirishning ham, ularni biror joyga yuborishning ham texnik imkoni yo'q.\n\nManba kodi ochiq."
+  },
+  "com.baluchon.app": {
+    "ru": "Baluchon считает общие расходы в поездке: кто за что платил и кто кому сколько должен.\n\nПоездка заводится отдельно, в ней указываются участники, а дальше траты просто добавляются по ходу дела. В конце приложение сводит взаиморасчёты.\n\nИсходный код открыт.",
+    "en": "Baluchon works out shared expenses on a trip: who paid for what and who owes whom.\n\nA trip is set up with its participants, and expenses are added as they happen. At the end the app settles the balance between everyone.\n\nThe source code is open.",
+    "tr": "Baluchon, bir gezideki ortak masrafları hesaplar: kimin neyi ödediğini ve kimin kime ne kadar borçlu olduğunu.\n\nGezi, katılımcılarıyla birlikte oluşturulur; masraflar oldukça eklenir. Sonunda uygulama herkes arasındaki hesabı kapatır.\n\nKaynak kodu açıktır.",
+    "uz": "Baluchon sayohatdagi umumiy xarajatlarni hisoblaydi: kim nima uchun to'lagan va kim kimga qancha qarzdor.\n\nSayohat alohida yaratiladi, unda ishtirokchilar ko'rsatiladi, keyin xarajatlar yo'l-yo'lakay qo'shib boriladi. Oxirida ilova o'zaro hisob-kitobni yakunlaydi.\n\nManba kodi ochiq."
+  },
+  "com.baly_groceries_tracker.app": {
+    "ru": "Baly Groceries Tracker следит за запасами продуктов дома: сколько осталось яиц, муки и прочего.\n\nОдним взглядом на список видно, что подходит к концу, — не нужно вспоминать это уже в магазине.\n\nПриложение бесплатное, с открытым исходным кодом.",
+    "en": "Baly Groceries Tracker keeps an eye on household staples: how many eggs, how much flour and so on are left.\n\nOne look at the list shows what is running out, so you are not trying to remember it once you are already at the shop.\n\nThe app is free and open source.",
+    "tr": "Baly Groceries Tracker, evdeki temel gıdaları izler: kaç yumurta, ne kadar un ve benzeri ne kaldığını.\n\nListeye bir bakış neyin tükenmek üzere olduğunu gösterir; böylece bunu markete vardığınızda hatırlamaya çalışmazsınız.\n\nUygulama ücretsizdir ve kaynak kodu açıktır.",
+    "uz": "Baly Groceries Tracker uydagi oziq-ovqat zaxirasini kuzatadi: nechta tuxum, qancha un va boshqalar qolganini.\n\nRo'yxatga bir qarash bilan nima tugayotgani ko'rinadi — buni do'konga borgach eslashga urinish shart emas.\n\nIlova bepul, manba kodi ochiq."
+  },
+  "com.barghest.mesh": {
+    "ru": "MESH строит защищённую сеть поверх обычного интернета: соединения идут напрямую между устройствами и шифруются от края до края.\n\nПроект вырос из протокола Tailscale, но с расчётом на самостоятельное размещение — управляющий сервер можно поднять свой, не завися от чужого.\n\nИсходный код открыт.",
+    "en": "MESH builds a protected network on top of the ordinary internet: connections run directly between devices and are encrypted end to end.\n\nThe project grew out of the Tailscale protocol but is meant to be self-hosted — you can run the coordinating server yourself rather than depend on someone else's.\n\nThe source code is open.",
+    "tr": "MESH, sıradan internetin üzerine korumalı bir ağ kurar: bağlantılar cihazlar arasında doğrudan gider ve uçtan uca şifrelenir.\n\nProje Tailscale protokolünden türemiştir ama kendi sunucunuzda barındırılmak üzere tasarlanmıştır; eşgüdüm sunucusunu başkasına bağımlı kalmadan kendiniz çalıştırabilirsiniz.\n\nKaynak kodu açıktır.",
+    "uz": "MESH oddiy internet ustida himoyalangan tarmoq quradi: ulanishlar qurilmalar orasida to'g'ridan-to'g'ri ketadi va uchdan-uchgacha shifrlanadi.\n\nLoyiha Tailscale protokolidan o'sib chiqqan, biroq mustaqil joylashtirishga mo'ljallangan — boshqaruv serverini birovnikiga bog'lanmasdan o'zingiz ko'tarishingiz mumkin.\n\nManba kodi ochiq."
+  },
+  "com.bartixxx.distancemeter": {
+    "ru": "OnePlus Laser Tool измеряет расстояние лазерным датчиком автофокуса, который стоит в некоторых телефонах OnePlus — например, в моделях 7 Pro и 8 Pro.\n\nДатчик задуман для наводки камеры, но его показания можно прочитать напрямую и использовать как дальномер.\n\nИсходный код открыт.",
+    "en": "OnePlus Laser Tool measures distance using the laser autofocus sensor fitted to some OnePlus phones — the 7 Pro and 8 Pro among them.\n\nThe sensor is there to focus the camera, but its readings can be taken directly and used as a rangefinder.\n\nThe source code is open.",
+    "tr": "OnePlus Laser Tool, bazı OnePlus telefonlarda — örneğin 7 Pro ve 8 Pro'da — bulunan lazer otomatik odak algılayıcısıyla mesafe ölçer.\n\nAlgılayıcı kamerayı odaklamak içindir ama değerleri doğrudan okunup bir mesafe ölçer olarak kullanılabilir.\n\nKaynak kodu açıktır.",
+    "uz": "OnePlus Laser Tool ba'zi OnePlus telefonlarida — masalan, 7 Pro va 8 Pro modellarida turgan lazerli avtofokus sensori yordamida masofani o'lchaydi.\n\nSensor kamerani moslash uchun mo'ljallangan, biroq uning ko'rsatkichlarini to'g'ridan-to'g'ri o'qib, masofa o'lchagich sifatida ishlatish mumkin.\n\nManba kodi ochiq."
+  },
+  "com.bartixxx.oneplusarbchecker": {
+    "ru": "OnePlus ARB Checker проверяет прошивку до установки, чтобы она не подняла счётчик защиты от отката.\n\nЭтот счётчик растёт только в одну сторону: после его увеличения вернуться на прежнюю версию прошивки уже нельзя, а неосторожная попытка превращает телефон в кирпич.\n\nИсходный код открыт.",
+    "en": "OnePlus ARB Checker inspects firmware before you install it, so that it does not raise the anti-rollback counter.\n\nThat counter only ever goes up: once raised, the phone can no longer go back to an earlier firmware, and a careless attempt turns the device into a brick.\n\nThe source code is open.",
+    "tr": "OnePlus ARB Checker, bir yazılımı kurmadan önce denetler; böylece geri alma karşıtı sayaç yükselmez.\n\nBu sayaç yalnızca tek yönde artar: bir kez yükseldikten sonra telefon eski bir sürüme dönemez ve dikkatsiz bir deneme cihazı tuğlaya çevirir.\n\nKaynak kodu açıktır.",
+    "uz": "OnePlus ARB Checker proshivkani o'rnatishdan oldin tekshiradi, toki u orqaga qaytarishdan himoya sanagichini ko'tarib yubormasin.\n\nBu sanagich faqat bir tomonga o'sadi: ko'tarilgandan keyin avvalgi proshivkaga qaytib bo'lmaydi, ehtiyotsiz urinish esa telefonni g'ishtga aylantiradi.\n\nManba kodi ochiq."
+  },
+  "com.bartixxx.opflashcontrol": {
+    "ru": "OnePlus Flash Control управляет двухцветной светодиодной вспышкой телефонов OnePlus.\n\nОбычный фонарь включает оба светодиода разом; здесь же яркость тёплого и холодного настраивается по отдельности, поэтому свет можно подогнать под освещение вокруг.\n\nПриложение работает и с root-доступом, и без него. Исходный код открыт.",
+    "en": "OnePlus Flash Control drives the dual-tone LED flash on OnePlus phones.\n\nAn ordinary torch turns both LEDs on together; here the warm and cool ones are set separately, so the light can be matched to the surroundings.\n\nThe app works with root and without it. The source code is open.",
+    "tr": "OnePlus Flash Control, OnePlus telefonlardaki çift tonlu LED flaşı yönetir.\n\nSıradan bir el feneri iki LED'i birlikte yakar; burada sıcak ve soğuk olanın parlaklığı ayrı ayrı ayarlanır, böylece ışık ortama uydurulabilir.\n\nUygulama root ile de root olmadan da çalışır. Kaynak kodu açıktır.",
+    "uz": "OnePlus Flash Control OnePlus telefonlaridagi ikki rangli svetodiod chaqnoqni boshqaradi.\n\nOddiy fonar ikkala svetodiodni birdan yoqadi; bu yerda esa iliq va sovuq yorug'lik alohida sozlanadi, shuning uchun nurni atrofdagi yoritishga moslash mumkin.\n\nIlova root huquqi bilan ham, usiz ham ishlaydi. Manba kodi ochiq."
+  },
+  "com.bbzone.isitprime": {
+    "ru": "Is it Prime проверяет, простое ли введённое число.\n\nЕсли нет, приложение раскладывает его на простые множители.\n\nИсходный код открыт.",
+    "en": "Is it Prime checks whether a number you enter is prime.\n\nIf it is not, the app breaks it down into its prime factors.\n\nThe source code is open.",
+    "tr": "Is it Prime, girdiğiniz sayının asal olup olmadığını denetler.\n\nDeğilse, uygulama sayıyı asal çarpanlarına ayırır.\n\nKaynak kodu açıktır.",
+    "uz": "Is it Prime kiritilgan son tub yoki yo'qligini tekshiradi.\n\nAgar tub bo'lmasa, ilova uni tub ko'paytuvchilarga ajratadi.\n\nManba kodi ochiq."
+  },
+  "com.bearinmind.equalizer314": {
+    "ru": "Equalizer314 настраивает звук через системный интерфейс DynamicsProcessing — тот, что отвечает за обработку динамики, а не только за подъём и спад частот.\n\nИзменения видны и слышны сразу: рядом с настройками идёт отображение того, что происходит со звуком.\n\nИсходный код открыт.",
+    "en": "Equalizer314 shapes the sound through the system's DynamicsProcessing interface — the one that handles dynamics, not merely a lift and cut of frequencies.\n\nChanges register at once, by ear and by eye: the controls come with a live display of what is happening to the audio.\n\nThe source code is open.",
+    "tr": "Equalizer314, sesi sistemin DynamicsProcessing arayüzü üzerinden biçimlendirir; bu arayüz yalnızca frekansları yükseltip azaltmakla kalmaz, dinamikleri de işler.\n\nDeğişiklikler hem kulakla hem gözle anında algılanır: denetimlerin yanında sese ne olduğunu gösteren canlı bir görüntü vardır.\n\nKaynak kodu açıktır.",
+    "uz": "Equalizer314 ovozni tizimning DynamicsProcessing interfeysi orqali sozlaydi — bu interfeys chastotalarni ko'tarish va tushirish bilangina cheklanmay, dinamikani ham qayta ishlaydi.\n\nO'zgarishlar darhol sezilarli: sozlamalar yonida ovoz bilan nima bo'layotganini ko'rsatadigan jonli tasvir bor.\n\nManba kodi ochiq."
+  },
+  "com.bearinmind.launcher314": {
+    "ru": "Launcher314 собирает настройки и оформление домашнего экрана на одном экране.\n\nЗамысел в том, чтобы не искать нужный переключатель по разделам: всё, что относится к внешнему виду, лежит в одном месте.\n\nИсходный код открыт.",
+    "en": "Launcher314 gathers the settings and the customisation of the home screen onto a single screen.\n\nThe idea is to spare you the hunt through nested menus: everything to do with how it looks sits in one place.\n\nThe source code is open.",
+    "tr": "Launcher314, ana ekranın ayarlarını ve özelleştirmesini tek bir ekranda toplar.\n\nAmaç, iç içe menülerde arama zahmetini ortadan kaldırmak: görünümle ilgili her şey tek yerdedir.\n\nKaynak kodu açıktır.",
+    "uz": "Launcher314 asosiy ekran sozlamalari va bezagini bitta ekranga yig'adi.\n\nG'oya kerakli almashtirgichni bo'limlar bo'ylab qidirmaslik: tashqi ko'rinishga tegishli hamma narsa bir joyda turadi.\n\nManba kodi ochiq."
+  },
+  "com.beatbridge": {
+    "ru": "BeatBridge включает музыку, как только подключается выбранное устройство Bluetooth.\n\nМашина, наушники или колонка — для каждого можно задать своё поведение, и тогда воспроизведение продолжается само, без того чтобы доставать телефон.\n\nИсходный код открыт.",
+    "en": "BeatBridge starts the music as soon as a Bluetooth device you chose connects.\n\nA car, headphones or a speaker — each can be given its own behaviour, so playback picks up on its own without reaching for the phone.\n\nThe source code is open.",
+    "tr": "BeatBridge, seçtiğiniz bir Bluetooth cihazı bağlanır bağlanmaz müziği başlatır.\n\nAraba, kulaklık ya da hoparlör — her biri için ayrı davranış tanımlanabilir; böylece çalma, telefonu elinize almadan kendiliğinden sürer.\n\nKaynak kodu açıktır.",
+    "uz": "BeatBridge siz tanlagan Bluetooth qurilmasi ulangan zahoti musiqani yoqadi.\n\nMashina, quloqchin yoki kolonka — har biri uchun o'z xatti-harakatini belgilash mumkin, shunda ijro telefonni olmasdan o'zi davom etadi.\n\nManba kodi ochiq."
+  },
+  "com.benarmstead.simplecooking": {
+    "ru": "Offline Cook Book — сборник несложных рецептов, который работает без интернета.\n\nРецепты открываются на кухне, где связь бывает плохой, и не обрастают ни рекламой, ни долгими вступлениями.\n\nИсходный код открыт.",
+    "en": "Offline Cook Book is a collection of straightforward recipes that works without an internet connection.\n\nThe recipes open in the kitchen, where the signal is often poor, and come without advertising or lengthy preambles.\n\nThe source code is open.",
+    "tr": "Offline Cook Book, internet bağlantısı olmadan çalışan sade tariflerden oluşan bir derlemedir.\n\nTarifler, çekimin çoğu zaman zayıf olduğu mutfakta açılır; reklam ya da uzun girişler içermez.\n\nKaynak kodu açıktır.",
+    "uz": "Offline Cook Book — internetsiz ishlaydigan oddiy retseptlar to'plami.\n\nRetseptlar aloqa ko'pincha yomon bo'ladigan oshxonada ochiladi va na reklama, na uzun kirish so'zlari bilan o'ralmagan.\n\nManba kodi ochiq."
+  },
+  "com.benjaminwan.chinesettstflite": {
+    "ru": "ChineseTtsTflite озвучивает китайский текст и работает полностью без сети.\n\nВ приложении две модели синтеза речи — FastSpeech и Tacotron, — которые исполняются прямо на устройстве через TensorFlow Lite, так что текст никуда не отправляется.\n\nИсходный код открыт.",
+    "en": "ChineseTtsTflite reads Chinese text aloud and works entirely offline.\n\nIt carries two speech models — FastSpeech and Tacotron — which run on the device itself through TensorFlow Lite, so the text is never sent anywhere.\n\nThe source code is open.",
+    "tr": "ChineseTtsTflite, Çince metni sesli okur ve tümüyle çevrimdışı çalışır.\n\nİçinde iki konuşma modeli vardır — FastSpeech ve Tacotron — ve bunlar TensorFlow Lite ile doğrudan cihazda çalışır; böylece metin hiçbir yere gönderilmez.\n\nKaynak kodu açıktır.",
+    "uz": "ChineseTtsTflite xitoy matnini ovoz bilan o'qiydi va butunlay tarmoqsiz ishlaydi.\n\nIlovada ikkita nutq modeli bor — FastSpeech va Tacotron — ular TensorFlow Lite orqali qurilmaning o'zida bajariladi, shuning uchun matn hech qayerga yuborilmaydi.\n\nManba kodi ochiq."
   }
 }
