@@ -5608,5 +5608,209 @@
     "en": "Audio Notes records voice memos — a dictaphone, in effect.\n\nRecordings are saved and can be renamed and edited. Light and dark themes are both available.\n\nThe source code is open.",
     "tr": "Audio Notes, sesli notlar kaydeder; özünde bir ses kayıt cihazıdır.\n\nKayıtlar saklanır, yeniden adlandırılabilir ve düzenlenebilir. Açık ve koyu tema vardır.\n\nKaynak kodu açıktır.",
     "uz": "Audio Notes ovozli eslatmalarni yozadi — aslida diktofon.\n\nYozuvlar saqlanadi, ularni qayta nomlash va tahrirlash mumkin. Yorug' va qorong'i bezak bor.\n\nManba kodi ochiq."
+  },
+  "com.cg.lrceditor": {
+    "ru": "LRC Editor составляет и правит файлы LRC — текстовые файлы, в которых строки песни размечены по времени, чтобы плеер показывал их синхронно со звуком.\n\nВнутри есть небольшой проигрыватель: песня слушается тут же, и метка времени ставится ровно в тот момент, когда строка звучит.\n\nИсходный код открыт.",
+    "en": "LRC Editor creates and edits LRC files — text files in which the lines of a song are stamped with times, so a player can show them in step with the music.\n\nA small built-in player is included: you listen to the song right there and set each timestamp at the moment the line is sung.\n\nThe source code is open.",
+    "tr": "LRC Editor, LRC dosyalarını oluşturur ve düzenler; bunlar, bir şarkının satırlarının zaman damgalarıyla işaretlendiği ve oynatıcının sözleri müzikle eşzamanlı göstermesini sağlayan metin dosyalarıdır.\n\nİçinde küçük bir oynatıcı vardır: şarkıyı orada dinler ve her zaman damgasını satırın söylendiği anda koyarsınız.\n\nKaynak kodu açıktır.",
+    "uz": "LRC Editor LRC fayllarini tuzadi va tahrirlaydi — bular qo'shiq satrlari vaqt bo'yicha belgilangan matn fayllari bo'lib, pleyer ularni ovoz bilan bir vaqtda ko'rsatadi.\n\nIchida kichik pleyer bor: qo'shiq shu yerda tinglanadi, vaqt belgisi esa aynan satr yangragan paytda qo'yiladi.\n\nManba kodi ochiq."
+  },
+  "com.chancehorizon.just24hoursplus": {
+    "ru": "Just 24 Hours показывает время и ничего сверх этого.\n\nЧасовых приложений много, и почти все обрастают будильниками, таймерами и погодой. Здесь на экране только время — когда больше ничего и не нужно.\n\nИсходный код открыт.",
+    "en": "Just 24 Hours shows the time and nothing besides.\n\nThere is no shortage of clock apps, and nearly all of them accumulate alarms, timers and weather. Here the screen holds the time alone — for when that is all you want.\n\nThe source code is open.",
+    "tr": "Just 24 Hours, saati gösterir; başka bir şey değil.\n\nSaat uygulaması boldur ve hemen hepsi alarm, zamanlayıcı ve hava durumuyla şişer. Burada ekranda yalnızca saat vardır; istediğiniz tek şey oysa.\n\nKaynak kodu açıktır.",
+    "uz": "Just 24 Hours vaqtni ko'rsatadi, bundan ortig'ini emas.\n\nSoat ilovalari ko'p va deyarli hammasi budilnik, taymer va ob-havo bilan to'lib boradi. Bu yerda ekranda faqat vaqt turadi — boshqa hech narsa kerak bo'lmaganda.\n\nManba kodi ochiq."
+  },
+  "com.chaser.paintballnotificator": {
+    "ru": "Paintball Notificator сообщает, когда все команды готовы к началу игры.\n\nИсходный код открыт.",
+    "en": "Paintball Notificator tells you when all the teams are ready to start.\n\nThe source code is open.",
+    "tr": "Paintball Notificator, tüm takımlar başlamaya hazır olduğunda size haber verir.\n\nKaynak kodu açıktır.",
+    "uz": "Paintball Notificator barcha jamoalar boshlashga tayyor bo'lganda xabar beradi.\n\nManba kodi ochiq."
+  },
+  "com.chatroom.app": {
+    "ru": "Chat Room — клиент к серверу обмена сообщениями с тем же названием.\n\nПриложение собрано на Jetpack Compose и держит связь с сервером через постоянное соединение, поэтому сообщения приходят сразу, без опроса по расписанию.\n\nИсходный код открыт.",
+    "en": "Chat Room is a client for the real-time messaging server of the same name.\n\nIt is built with Jetpack Compose and keeps a persistent connection to the server, so messages arrive at once rather than on a polling schedule.\n\nThe source code is open.",
+    "tr": "Chat Room, aynı adlı gerçek zamanlı mesajlaşma sunucusu için bir istemcidir.\n\nJetpack Compose ile kurulmuştur ve sunucuyla sürekli bir bağlantı tutar; böylece iletiler belirli aralıklarla sorgulanmak yerine anında gelir.\n\nKaynak kodu açıktır.",
+    "uz": "Chat Room — shu nomdagi xabar almashish serveri uchun mijoz.\n\nIlova Jetpack Compose yordamida yig'ilgan va server bilan doimiy ulanishni saqlaydi, shuning uchun xabarlar jadval bo'yicha so'rovsiz, darhol keladi.\n\nManba kodi ochiq."
+  },
+  "com.checkmk.unofficial_checkmk_monitoring": {
+    "ru": "Приложение подключается к серверу мониторинга CheckMK и показывает состояние узлов и служб.\n\nВидно, что сейчас не в порядке, и можно просмотреть накопленные события — то есть заметить аварию, не открывая ноутбук.\n\nЭто неофициальное приложение, написанное на Flutter. Исходный код открыт.",
+    "en": "This app connects to a CheckMK monitoring server and shows the state of hosts and services.\n\nYou can see what is currently wrong and go through the recorded events — that is, catch an outage without opening a laptop.\n\nIt is an unofficial app, written in Flutter. The source code is open.",
+    "tr": "Bu uygulama bir CheckMK izleme sunucusuna bağlanır ve makinelerle hizmetlerin durumunu gösterir.\n\nŞu an neyin bozuk olduğunu görebilir ve kaydedilmiş olayları inceleyebilirsiniz; yani bir kesintiyi dizüstü açmadan yakalayabilirsiniz.\n\nResmî olmayan, Flutter ile yazılmış bir uygulamadır. Kaynak kodu açıktır.",
+    "uz": "Ilova CheckMK monitoring serveriga ulanadi va tugunlar hamda xizmatlar holatini ko'rsatadi.\n\nHozir nima noto'g'ri ketayotgani ko'rinadi, to'plangan voqealarni ko'rib chiqish mumkin — ya'ni noutbukni ochmasdan nosozlikni payqash mumkin.\n\nBu Flutter tilida yozilgan norasmiy ilova. Manba kodi ochiq."
+  },
+  "com.chemistry.admin.chemistrylab": {
+    "ru": "ChemistryLab моделирует опыты в химической лаборатории: вещества смешиваются, и приложение показывает, что из этого выйдет.\n\nЭто переработка ChemistryLab Чан Тхань Тунга: набор возможностей остался прежним, изменился интерфейс.\n\nИсходный код открыт.",
+    "en": "ChemistryLab simulates experiments in a chemistry lab: you combine substances and the app shows what comes of it.\n\nIt is a fork of ChemistryLab by Trần Thanh Tùng: the functionality is unchanged, the interface is not.\n\nThe source code is open.",
+    "tr": "ChemistryLab, bir kimya laboratuvarındaki deneyleri canlandırır: maddeleri karıştırırsınız ve uygulama sonucun ne olduğunu gösterir.\n\nTrần Thanh Tùng'un ChemistryLab uygulamasının bir çatallamasıdır: işlevler aynı kalmış, arayüz değişmiştir.\n\nKaynak kodu açıktır.",
+    "uz": "ChemistryLab kimyo laboratoriyasidagi tajribalarni modellashtiradi: moddalar aralashtiriladi va ilova bundan nima chiqishini ko'rsatadi.\n\nBu Chan Than Tungning ChemistryLab ilovasining qayta ishlanishi: imkoniyatlar to'plami o'zgarmagan, interfeys o'zgargan.\n\nManba kodi ochiq."
+  },
+  "com.chenyifaer.fafarunner": {
+    "ru": "FaFa Runner — ролевая игра с приключением в вымышленном мире.\n\nСделана на Flutter с игровым движком Flame.\n\nИсходный код открыт.",
+    "en": "FaFa Runner is a role-playing game set on an adventure through an invented world.\n\nIt is made with Flutter and the Flame game engine.\n\nThe source code is open.",
+    "tr": "FaFa Runner, kurmaca bir dünyada geçen maceralı bir rol yapma oyunudur.\n\nFlutter ve Flame oyun motoruyla yapılmıştır.\n\nKaynak kodu açıktır.",
+    "uz": "FaFa Runner — to'qima olamdagi sarguzasht haqidagi rolli o'yin.\n\nFlutter va Flame o'yin dvigateli yordamida yaratilgan.\n\nManba kodi ochiq."
+  },
+  "com.cheogram.android": {
+    "ru": "Cheogram — клиент сети XMPP, сделанный с упором на связь с внешним миром.\n\nЧерез шлюзы из XMPP можно писать людям в других сетях и даже на обычные телефонные номера, поэтому собеседнику не обязательно пользоваться тем же мессенджером.\n\nИсходный код открыт.",
+    "en": "Cheogram is an XMPP client built around reaching beyond its own network.\n\nThrough gateways, XMPP can carry messages to people on other networks and even to ordinary phone numbers, so the person you write to need not use the same messenger.\n\nThe source code is open.",
+    "tr": "Cheogram, kendi ağının ötesine ulaşmak üzere kurulmuş bir XMPP istemcisidir.\n\nGeçitler sayesinde XMPP, başka ağlardaki kişilere ve hatta sıradan telefon numaralarına ileti taşıyabilir; böylece yazdığınız kişinin aynı uygulamayı kullanması gerekmez.\n\nKaynak kodu açıktır.",
+    "uz": "Cheogram — tashqi dunyo bilan aloqaga urg'u berib ishlangan XMPP tarmog'i mijozi.\n\nShlyuzlar orqali XMPP dan boshqa tarmoqlardagi odamlarga va hatto oddiy telefon raqamlariga yozish mumkin, shuning uchun suhbatdoshingiz xuddi shu messenjerdan foydalanishi shart emas.\n\nManba kodi ochiq."
+  },
+  "com.chesire.nekome": {
+    "ru": "Nekome ведёт списки аниме и манги через сервис Kitsu: отмечает, что просмотрено и на какой серии вы остановились.\n\nНовые тайтлы добавляются поиском прямо из приложения.\n\nРекламы нет, исходный код открыт.",
+    "en": "Nekome keeps anime and manga lists through the Kitsu service, tracking what you have watched and which episode you stopped on.\n\nNew titles are added by searching from within the app.\n\nThere are no ads, and the source code is open.",
+    "tr": "Nekome, Kitsu hizmeti üzerinden anime ve manga listelerini tutar; ne izlediğinizi ve hangi bölümde kaldığınızı kaydeder.\n\nYeni yapımlar uygulama içinden arama yapılarak eklenir.\n\nReklam yoktur, kaynak kodu açıktır.",
+    "uz": "Nekome Kitsu xizmati orqali anime va manga ro'yxatlarini yuritadi: nima ko'rilgani va qaysi qismda to'xtaganingizni belgilaydi.\n\nYangi nomlar ilovaning o'zidan qidiruv orqali qo'shiladi.\n\nReklama yo'q, manba kodi ochiq."
+  },
+  "com.chesire.pushie": {
+    "ru": "Pushie передаёт пароль по одноразовой ссылке.\n\nВы задаёте, сколько раз ссылку можно открыть и сколько времени она живёт; после этого запись удаляется. Так пароль не остаётся навсегда в переписке, где его потом найдёт кто угодно.\n\nИсходный код открыт.",
+    "en": "Pushie hands a password over as a one-off link.\n\nYou set how many times the link may be opened and how long it lives; after that the entry is deleted. The password does not sit forever in a chat where anyone could later find it.\n\nThe source code is open.",
+    "tr": "Pushie, bir parolayı tek kullanımlık bağlantı olarak iletir.\n\nBağlantının kaç kez açılabileceğini ve ne kadar yaşayacağını siz belirlersiniz; sonrasında kayıt silinir. Böylece parola, sonradan herkesin bulabileceği bir yazışmada sonsuza dek durmaz.\n\nKaynak kodu açıktır.",
+    "uz": "Pushie parolni bir martalik havola orqali uzatadi.\n\nHavolani necha marta ochish mumkinligi va qancha yashashini siz belgilaysiz; shundan keyin yozuv o'chiriladi. Shunday qilib parol keyinchalik kim topsa bo'ladigan yozishmada abadiy qolib ketmaydi.\n\nManba kodi ochiq."
+  },
+  "com.chess.clock": {
+    "ru": "Chess Clock заменяет настоящие шахматные часы.\n\nПоддерживаются любые схемы контроля времени — с добавлением секунд за ход, с отложенным стартом отсчёта и прочие.\n\nПриложение бесплатное, без встроенных покупок и рекламы. Исходный код открыт.",
+    "en": "Chess Clock stands in for a physical chess clock.\n\nAny time control is supported — increments added per move, a delay before the clock starts running, and the rest.\n\nThe app is free, with no in-app purchases and no ads. The source code is open.",
+    "tr": "Chess Clock, gerçek bir satranç saatinin yerini alır.\n\nHer türlü süre denetimi desteklenir: hamle başına eklenen saniyeler, sayımın gecikmeli başlaması ve diğerleri.\n\nUygulama ücretsizdir; uygulama içi satın alma ve reklam yoktur. Kaynak kodu açıktır.",
+    "uz": "Chess Clock haqiqiy shaxmat soatining o'rnini bosadi.\n\nHar qanday vaqt nazorati sxemasi qo'llab-quvvatlanadi — har yurish uchun soniya qo'shilishi, sanoqning kechikib boshlanishi va boshqalar.\n\nIlova bepul, ichki xaridlar va reklamasiz. Manba kodi ochiq."
+  },
+  "com.chiller3.basicsync": {
+    "ru": "BasicSync запускает на телефоне Syncthing — программу, которая синхронизирует папки между вашими устройствами напрямую, без облака.\n\nОболочка намеренно сведена к самому необходимому: чем меньше в ней кода, тем проще поддерживать её в рабочем состоянии и вовремя обновлять.\n\nИсходный код открыт.",
+    "en": "BasicSync runs Syncthing on the phone — the program that syncs folders directly between your devices, without a cloud in between.\n\nThe wrapper is deliberately kept to the bare minimum: the less code it holds, the easier it is to keep working and up to date.\n\nThe source code is open.",
+    "tr": "BasicSync, telefonda Syncthing'i çalıştırır; bu program klasörleri bulut olmadan, doğrudan cihazlarınız arasında eşitler.\n\nSarmalayıcı bilinçli olarak en aza indirgenmiştir: içinde ne kadar az kod olursa, çalışır ve güncel tutmak o kadar kolaydır.\n\nKaynak kodu açıktır.",
+    "uz": "BasicSync telefonda Syncthing ni ishga tushiradi — bu dastur papkalarni bulutsiz, to'g'ridan-to'g'ri qurilmalaringiz orasida sinxronlaydi.\n\nQobiq ataylab eng zaruriygacha qisqartirilgan: unda kod qancha kam bo'lsa, uni ishchi holatda saqlash va o'z vaqtida yangilash shuncha oson.\n\nManba kodi ochiq."
+  },
+  "com.chiller3.rsaf": {
+    "ru": "RSAF подключает удалённые хранилища rclone к системному выбору файлов Android.\n\nБлагодаря этому облако, доступное через rclone, открывается в любом приложении, которое умеет работать с файлами, — как обычная папка, без отдельной программы для каждого хранилища.\n\nИсходный код открыт.",
+    "en": "RSAF plugs rclone's remote storage into Android's own file picker.\n\nAny cloud rclone can reach then opens in any app that works with files — as an ordinary folder, with no separate program for each service.\n\nThe source code is open.",
+    "tr": "RSAF, rclone'un uzak depolarını Android'in kendi dosya seçicisine bağlar.\n\nBöylece rclone'un erişebildiği her bulut, dosyalarla çalışan herhangi bir uygulamada sıradan bir klasör gibi açılır; her hizmet için ayrı bir program gerekmez.\n\nKaynak kodu açıktır.",
+    "uz": "RSAF rclone masofaviy omborlarini Android tizimidagi fayl tanlash oynasiga ulaydi.\n\nShu sababli rclone orqali ochiladigan bulut fayllar bilan ishlaydigan istalgan ilovada oddiy papka kabi ochiladi — har bir ombor uchun alohida dastursiz.\n\nManba kodi ochiq."
+  },
+  "com.chooloo.www.koler": {
+    "ru": "Koler заменяет системный экран звонка.\n\nВходящий принимают и отклоняют свайпом, а сам экран сведён к необходимому — без лишних элементов поверх разговора.\n\nИсходный код открыт.",
+    "en": "Koler replaces the system's call screen.\n\nAn incoming call is answered or turned away with a swipe, and the screen itself is pared back — nothing extra layered over the conversation.\n\nThe source code is open.",
+    "tr": "Koler, sistemin arama ekranının yerini alır.\n\nGelen arama kaydırmayla yanıtlanır ya da reddedilir; ekranın kendisi sadeleştirilmiştir, konuşmanın üzerine fazlalık binmez.\n\nKaynak kodu açıktır.",
+    "uz": "Koler tizimning qo'ng'iroq ekranini almashtiradi.\n\nKelayotgan qo'ng'iroq surish bilan qabul qilinadi yoki rad etiladi, ekranning o'zi esa zaruriygacha qisqartirilgan — suhbat ustida ortiqcha elementlarsiz.\n\nManba kodi ochiq."
+  },
+  "com.ciphernotes.twa": {
+    "ru": "Ciphernotes ведёт заметки, которые шифруются до того, как покинуть устройство.\n\nПоэтому даже при синхронизации через облако на сервере лежит только зашифрованный текст, и прочитать его там нельзя.\n\nИсходный код открыт.",
+    "en": "Ciphernotes keeps notes that are encrypted before they leave the device.\n\nSo even when they sync through a cloud, what sits on the server is ciphertext alone, and it cannot be read there.\n\nThe source code is open.",
+    "tr": "Ciphernotes, cihazdan ayrılmadan önce şifrelenen notlar tutar.\n\nBu yüzden bulut üzerinden eşitlense bile sunucuda yalnızca şifreli metin durur ve orada okunamaz.\n\nKaynak kodu açıktır.",
+    "uz": "Ciphernotes qurilmani tark etishidan oldin shifrlanadigan eslatmalarni yuritadi.\n\nShuning uchun bulut orqali sinxronlanganda ham serverda faqat shifrlangan matn yotadi va uni o'sha yerda o'qib bo'lmaydi.\n\nManba kodi ochiq."
+  },
+  "com.cityzen.cityzen": {
+    "ru": "CityZen помогает ориентироваться в городе по данным OpenStreetMap.\n\nНа карте показываются нужные места по категориям: банкоматы, заправки, аптеки и прочее — то, что ищут, когда оказываешься в незнакомом районе.\n\nИсходный код открыт.",
+    "en": "CityZen helps you find your way around a city using OpenStreetMap data.\n\nThe map shows points of interest by category: cash machines, petrol stations, pharmacies and the rest — the things you look for in an unfamiliar part of town.\n\nThe source code is open.",
+    "tr": "CityZen, OpenStreetMap verileriyle bir şehirde yolunuzu bulmanıza yardım eder.\n\nHarita, ilgi noktalarını kategorilere göre gösterir: bankamatikler, benzin istasyonları, eczaneler ve diğerleri; yani tanımadığınız bir semtte aradığınız şeyler.\n\nKaynak kodu açıktır.",
+    "uz": "CityZen OpenStreetMap ma'lumotlari yordamida shaharda yo'l topishga ko'maklashadi.\n\nXaritada kerakli joylar toifalar bo'yicha ko'rsatiladi: bankomatlar, yoqilg'i shoxobchalari, dorixonalar va boshqalar — notanish hududda odam qidiradigan narsalar.\n\nManba kodi ochiq."
+  },
+  "com.clavierhaus.gnubg": {
+    "ru": "CBG переносит на Android движок GNU Backgammon — сильную свободную программу для игры в нарды.\n\nКроме самой игры доступен разбор партий: движок оценивает ходы и показывает, где вы ошиблись, — на этом и строится тренировка.\n\nИсходный код открыт.",
+    "en": "CBG brings the GNU Backgammon engine — the strong free backgammon program — to Android.\n\nBeyond playing, it analyses games: the engine rates the moves and shows where you went wrong, which is what the training rests on.\n\nThe source code is open.",
+    "tr": "CBG, güçlü özgür tavla programı GNU Backgammon motorunu Android'e taşır.\n\nOynamanın ötesinde partileri çözümler: motor hamleleri değerlendirir ve nerede yanıldığınızı gösterir; çalışmanın dayandığı nokta da budur.\n\nKaynak kodu açıktır.",
+    "uz": "CBG GNU Backgammon dvigatelini — nardda o'ynash uchun kuchli erkin dasturni Android'ga olib keladi.\n\nO'yinning o'zidan tashqari partiyalarni tahlil qilish bor: dvigatel yurishlarni baholaydi va qayerda xato qilganingizni ko'rsatadi — mashq aynan shunga quriladi.\n\nManba kodi ochiq."
+  },
+  "com.cliambrown.easynoise": {
+    "ru": "Easy Noise проигрывает ровный фоновый шум — семь вариантов на выбор.\n\nЗвук продолжается поверх другого воспроизведения, поэтому шум можно держать фоном, слушая что-то ещё. Включается виджетом или кнопкой в панели быстрых настроек.\n\nНи рекламы, ни отслеживания. Исходный код открыт.",
+    "en": "Easy Noise plays steady background noise, with seven sounds to pick from.\n\nIt keeps playing underneath other audio, so the noise can sit behind whatever else you are listening to. A widget and a quick settings tile both start it.\n\nNo ads and no trackers. The source code is open.",
+    "tr": "Easy Noise, aralarından seçebileceğiniz yedi sesle düzenli bir arka plan gürültüsü çalar.\n\nBaşka bir sesin altında çalmayı sürdürür; böylece gürültü, dinlediğiniz şeyin arkasında kalabilir. Bir widget ve hızlı ayarlar kutucuğuyla başlatılır.\n\nReklam ve izleyici yoktur. Kaynak kodu açıktır.",
+    "uz": "Easy Noise bir tekis fon shovqinini ijro etadi — tanlash uchun yettita variant bor.\n\nOvoz boshqa ijro ustidan davom etadi, shuning uchun shovqinni boshqa narsa tinglayotganda fon sifatida ushlab turish mumkin. Vidjet yoki tezkor sozlamalardagi tugma bilan yoqiladi.\n\nNa reklama, na kuzatuv. Manba kodi ochiq."
+  },
+  "com.cliambrown.pilltime": {
+    "ru": "Pill Time следит за лекарствами, которые принимают не по часам, а по необходимости.\n\nДля каждого задаётся минимальный промежуток между приёмами, и приложение показывает, сколько ещё ждать, — иначе легко потерять счёт и принять раньше срока.\n\nИсходный код открыт.",
+    "en": "Pill Time keeps track of medicines taken as needed rather than at fixed hours.\n\nEach one is given a minimum interval between doses, and the app shows how long is left to wait — otherwise it is easy to lose count and take one too early.\n\nThe source code is open.",
+    "tr": "Pill Time, belirli saatlerde değil gerektiğinde alınan ilaçları izler.\n\nHer ilaç için dozlar arasındaki en kısa süre belirlenir ve uygulama ne kadar beklemek gerektiğini gösterir; yoksa sayıyı şaşırıp erken almak kolaydır.\n\nKaynak kodu açıktır.",
+    "uz": "Pill Time soat bo'yicha emas, ehtiyojga qarab ichiladigan dorilarni kuzatadi.\n\nHar biri uchun qabullar orasidagi eng kam oraliq belgilanadi va ilova yana qancha kutish kerakligini ko'rsatadi — aks holda hisobdan adashib, muddatidan oldin ichib qo'yish oson.\n\nManba kodi ochiq."
+  },
+  "com.clicc": {
+    "ru": "Click Switch построен на известной задаче Струпа: на экране появляется слово-название цвета, написанное другим цветом, и выбрать нужно то, что написано, а не то, каким оно окрашено.\n\nСбивает с толку это сильнее, чем кажется: мозг быстрее читает слово, чем распознаёт цвет.\n\nИсходный код открыт.",
+    "en": "Click Switch is built on the Stroop task: a colour word appears printed in a different colour, and you have to pick the word rather than the ink.\n\nIt trips people up more than it sounds: the brain reads the word faster than it names the colour.\n\nThe source code is open.",
+    "tr": "Click Switch, Stroop görevine dayanır: ekranda başka bir renkle yazılmış bir renk adı belirir ve yazının rengini değil, yazdığını seçmeniz gerekir.\n\nKulağa geldiğinden daha çok şaşırtır: beyin sözcüğü, rengi adlandırmaktan daha hızlı okur.\n\nKaynak kodu açıktır.",
+    "uz": "Click Switch mashhur Strup topshirig'iga quriladi: ekranda boshqa rangda yozilgan rang nomi paydo bo'ladi va yozilganini tanlash kerak, bo'yalganini emas.\n\nBu ko'ringanidan ko'ra ko'proq chalg'itadi: miya so'zni rangni tanigandan tezroq o'qiydi.\n\nManba kodi ochiq."
+  },
+  "com.cliffracertech.soundaura": {
+    "ru": "SoundAura проигрывает фоновые звуки из ваших собственных файлов.\n\nГотовых записей в приложение не вкладывали — так оно занимает меньше места, а вы ставите те звуки, которые нравятся именно вам. Несколько дорожек можно запустить одновременно и смешать в нужной пропорции.\n\nИсходный код открыт.",
+    "en": "SoundAura plays ambient sound from your own files.\n\nNo audio ships with the app — which keeps the download small and lets you use the sounds you actually like. Several tracks can play at once and be mixed to the balance you want.\n\nThe source code is open.",
+    "tr": "SoundAura, ortam seslerini kendi dosyalarınızdan çalar.\n\nUygulamayla birlikte hazır ses gelmez; bu hem indirmeyi küçük tutar hem de gerçekten sevdiğiniz sesleri kullanmanızı sağlar. Birden çok parça aynı anda çalıp istediğiniz dengede karıştırılabilir.\n\nKaynak kodu açıktır.",
+    "uz": "SoundAura fon ovozlarini o'z fayllaringizdan ijro etadi.\n\nIlovaga tayyor yozuvlar qo'yilmagan — shu sababli u kamroq joy egallaydi va siz aynan o'zingizga yoqqan ovozlarni qo'yasiz. Bir nechta yo'lni bir vaqtda ishga tushirib, kerakli nisbatda aralashtirish mumkin.\n\nManba kodi ochiq."
+  },
+  "com.clintmoyer.callscope": {
+    "ru": "CallScope разбирает историю звонков и показывает, как она устроена: с кем вы говорите чаще всего, когда и как долго.\n\nЖурнал звонков обрабатывается на самом устройстве и никуда не отправляется — для таких данных это существенно.\n\nИсходный код открыт.",
+    "en": "CallScope goes through your call history and shows its shape: who you speak to most, when and for how long.\n\nThe call log is processed on the device and sent nowhere — which matters for data of that kind.\n\nThe source code is open.",
+    "tr": "CallScope, arama geçmişinizi çözümler ve düzenini gösterir: en çok kiminle, ne zaman ve ne kadar konuştuğunuzu.\n\nArama kaydı cihazda işlenir ve hiçbir yere gönderilmez; bu tür veriler için bu önemlidir.\n\nKaynak kodu açıktır.",
+    "uz": "CallScope qo'ng'iroqlar tarixini tahlil qiladi va uning tuzilishini ko'rsatadi: kim bilan ko'proq gaplashasiz, qachon va qancha vaqt.\n\nQo'ng'iroqlar jurnali qurilmaning o'zida qayta ishlanadi va hech qayerga yuborilmaydi — bunday ma'lumotlar uchun bu muhim.\n\nManba kodi ochiq."
+  },
+  "com.cloudbasepredictor": {
+    "ru": "Cloudbase Predictor оценивает лётные условия для парапланеристов, дельтапланеристов и планеристов.\n\nПриложение строит по прогнозу вертикальный разрез атмосферы над выбранным местом — по нему видно высоту основания облаков и то, будут ли восходящие потоки, на которых держится полёт без двигателя.\n\nИсходный код открыт.",
+    "en": "Cloudbase Predictor assesses flying conditions for paraglider, hang-glider and sailplane pilots.\n\nFrom the forecast it draws a vertical sounding of the atmosphere above a chosen spot — which shows the height of the cloud base and whether there will be the rising air that unpowered flight depends on.\n\nThe source code is open.",
+    "tr": "Cloudbase Predictor; yamaç paraşütü, delta kanat ve planör pilotları için uçuş koşullarını değerlendirir.\n\nTahminden yola çıkarak seçilen yerin üzerindeki atmosferin dikey kesitini çizer; bu kesit bulut tabanının yüksekliğini ve motorsuz uçuşun dayandığı yükselen havanın olup olmayacağını gösterir.\n\nKaynak kodu açıktır.",
+    "uz": "Cloudbase Predictor parashyutchilar, deltaplanchilar va planerchilar uchun uchish sharoitini baholaydi.\n\nIlova bashorat asosida tanlangan joy ustidagi atmosferaning vertikal kesimini chizadi — undan bulutlar asosining balandligi va motorsiz uchish tayanadigan ko'tariluvchi oqimlar bo'ladimi-yo'qmi ko'rinadi.\n\nManba kodi ochiq."
+  },
+  "com.co3": {
+    "ru": "CO3 читает работы с Archive of Our Own — крупного архива фанатской прозы.\n\nПрочитанное складывается в собственную библиотеку с избранным и разбором по разделам. Автор сделал приложение потому, что другие клиенты AO3 берут деньги за то, что, по его мнению, должно быть бесплатным.\n\nИсходный код открыт.",
+    "en": "CO3 reads works from Archive of Our Own, the large archive of fan fiction.\n\nWhat you read goes into a library of your own, with favourites and categories. The author wrote it because other AO3 apps charge for features that, in their view, ought to be free.\n\nThe source code is open.",
+    "tr": "CO3, büyük hayran kurgu arşivi Archive of Our Own'daki eserleri okur.\n\nOkuduklarınız, favoriler ve kategorilerle birlikte kendi kitaplığınıza girer. Geliştirici bu uygulamayı, diğer AO3 uygulamaları kendisine göre ücretsiz olması gereken özellikler için para istediği için yazmıştır.\n\nKaynak kodu açıktır.",
+    "uz": "CO3 Archive of Our Own — muxlislar nasrining yirik arxividagi asarlarni o'qiydi.\n\nO'qilganlar saralanganlar va bo'limlarga ajratish bilan o'z kutubxonangizga yig'iladi. Muallif bu ilovani boshqa AO3 mijozlari uning fikricha bepul bo'lishi kerak bo'lgan imkoniyatlar uchun pul olgani sababli yozgan.\n\nManba kodi ochiq."
+  },
+  "com.coboltforge.dontmind.multivnc": {
+    "ru": "MultiVNC открывает удалённый рабочий стол по протоколу VNC.\n\nПоддерживается большинство способов сжатия изображения, включая Tight, а соединение можно защитить через TLS. Приложение рассчитано на то, чтобы работать быстро даже на слабом канале.\n\nИсходный код открыт.",
+    "en": "MultiVNC opens a remote desktop over the VNC protocol.\n\nMost of the image encodings are supported, Tight among them, and the connection can be secured with TLS. The app is written to stay quick even on a poor link.\n\nThe source code is open.",
+    "tr": "MultiVNC, VNC protokolü üzerinden uzak masaüstü açar.\n\nTight dâhil olmak üzere görüntü kodlamalarının çoğu desteklenir ve bağlantı TLS ile korunabilir. Uygulama, zayıf bir hatta bile hızlı kalacak biçimde yazılmıştır.\n\nKaynak kodu açıktır.",
+    "uz": "MultiVNC VNC protokoli orqali masofaviy ish stolini ochadi.\n\nTasvirni siqishning ko'pchilik usullari, jumladan Tight qo'llab-quvvatlanadi, ulanishni esa TLS bilan himoyalash mumkin. Ilova sust kanalda ham tez ishlashga mo'ljallangan.\n\nManba kodi ochiq."
+  },
+  "com.codedead.advancedpassgen": {
+    "ru": "Advanced PassGen создаёт пароли пачками — хоть сотнями тысяч за раз.\n\nВид пароля задаёте вы: длина, набор символов, наличие цифр и знаков препинания. Готовый список можно выгрузить целиком.\n\nИсходный код открыт.",
+    "en": "Advanced PassGen produces passwords in bulk — hundreds of thousands at a time if need be.\n\nYou decide what they look like: the length, the character set, whether digits and punctuation are included. The finished list can be exported whole.\n\nThe source code is open.",
+    "tr": "Advanced PassGen, parolaları toplu üretir; gerekirse tek seferde yüz binlercesini.\n\nNasıl görüneceklerine siz karar verirsiniz: uzunluk, karakter kümesi, rakam ve noktalama bulunup bulunmayacağı. Tamamlanan liste bütünüyle dışa aktarılabilir.\n\nKaynak kodu açıktır.",
+    "uz": "Advanced PassGen parollarni to'p-to'p yaratadi — kerak bo'lsa bir vaqtda yuz minglab.\n\nParol qanday bo'lishini o'zingiz belgilaysiz: uzunligi, belgilar to'plami, raqam va tinish belgilari bor-yo'qligi. Tayyor ro'yxatni butunlay chiqarib olish mumkin.\n\nManba kodi ochiq."
+  },
+  "com.codedead.advancedportchecker": {
+    "ru": "Advanced PortChecker проверяет, открыты ли порты TCP на указанном адресе.\n\nПроверка идёт в фоне и показывает результат по мере готовности, а не после окончания всего списка. Это нужно, когда разбираешься, почему служба недоступна снаружи.\n\nИсходный код открыт.",
+    "en": "Advanced PortChecker tests whether TCP ports are open on a given address.\n\nThe scan runs in the background and reports results as they come in rather than at the end of the whole list. It helps when working out why a service is unreachable from outside.\n\nThe source code is open.",
+    "tr": "Advanced PortChecker, belirtilen bir adreste TCP bağlantı noktalarının açık olup olmadığını sınar.\n\nTarama arka planda yürür ve sonuçları listenin tamamı bitince değil, geldikçe bildirir. Bir hizmete dışarıdan neden erişilemediğini çözerken işe yarar.\n\nKaynak kodu açıktır.",
+    "uz": "Advanced PortChecker ko'rsatilgan manzilda TCP portlari ochiqligini tekshiradi.\n\nTekshiruv fonda ketadi va natijani butun ro'yxat tugagandan keyin emas, tayyor bo'lishi bilan ko'rsatadi. Bu xizmat nega tashqaridan ochilmayotganini aniqlashda kerak bo'ladi.\n\nManba kodi ochiq."
+  },
+  "com.codedead.deadhash": {
+    "ru": "DeadHash считает контрольные суммы файлов и текста.\n\nПоддерживаются MD5, семейство SHA — от SHA-1 до SHA-512 и SHA-3 — и CRC. Обычно это нужно, чтобы убедиться, что скачанный файл не повреждён и совпадает с тем, что опубликовал автор.\n\nИсходный код открыт.",
+    "en": "DeadHash computes checksums of files and text.\n\nMD5, the SHA family — from SHA-1 through SHA-512 and SHA-3 — and CRC are supported. The usual purpose is to confirm that a downloaded file is intact and matches what the author published.\n\nThe source code is open.",
+    "tr": "DeadHash, dosyaların ve metinlerin sağlama toplamlarını hesaplar.\n\nMD5, SHA ailesi — SHA-1'den SHA-512 ve SHA-3'e — ve CRC desteklenir. Olağan amaç, indirilen bir dosyanın bozulmadığını ve yazarın yayımladığıyla eşleştiğini doğrulamaktır.\n\nKaynak kodu açıktır.",
+    "uz": "DeadHash fayllar va matnning nazorat summalarini hisoblaydi.\n\nMD5, SHA oilasi — SHA-1 dan SHA-512 va SHA-3 gacha — hamda CRC qo'llab-quvvatlanadi. Odatda bu yuklangan fayl shikastlanmagani va muallif e'lon qilganiga mos kelishiga ishonch hosil qilish uchun kerak.\n\nManba kodi ochiq."
+  },
+  "com.codelv.inventory": {
+    "ru": "Inventory ведёт учёт электронных компонентов.\n\nДеталь добавляется сканированием QR-кода с её упаковки, дальше отмечается, сколько её осталось. По накопленной базе работает поиск — чтобы не заказывать то, что уже лежит в ящике.\n\nИсходный код открыт.",
+    "en": "Inventory keeps track of electronic components.\n\nA part is added by scanning the QR code on its packaging, and the quantity in stock is recorded from there. The collection is searchable — so you do not reorder what is already in the drawer.\n\nThe source code is open.",
+    "tr": "Inventory, elektronik bileşenlerin kaydını tutar.\n\nBir parça, ambalajındaki QR kodu taranarak eklenir; elde ne kadar kaldığı oradan işlenir. Biriken kayıtlarda arama yapılabilir; böylece çekmecede duranı yeniden sipariş etmezsiniz.\n\nKaynak kodu açıktır.",
+    "uz": "Inventory elektron komponentlar hisobini yuritadi.\n\nDetal uning qadog'idagi QR kodni skanerlash orqali qo'shiladi, keyin qanchasi qolgani belgilanadi. To'plangan baza bo'ylab qidiruv ishlaydi — toki qutida turgan narsani qayta buyurtma qilmaslik uchun.\n\nManba kodi ochiq."
+  },
+  "com.codelv.solar": {
+    "ru": "Solar следит за автономной солнечной установкой по Bluetooth.\n\nОдновременно видно и аккумулятор, и контроллер заряда, а когда подключены оба, приложение сводит их показания вместе — так понятно, сколько энергии приходит с панелей и сколько уходит в батарею.\n\nИсходный код открыт.",
+    "en": "Solar monitors an off-grid solar setup over Bluetooth.\n\nThe battery and the charge controller are visible at once, and when both are connected the app brings their readings together — so it is clear how much is coming in from the panels and how much is going into the battery.\n\nThe source code is open.",
+    "tr": "Solar, şebekeden bağımsız bir güneş kurulumunu Bluetooth üzerinden izler.\n\nPil ve şarj denetleyicisi aynı anda görünür; ikisi de bağlıysa uygulama değerlerini bir araya getirir, böylece panellerden ne kadar geldiği ve pile ne kadar gittiği belli olur.\n\nKaynak kodu açıktır.",
+    "uz": "Solar avtonom quyosh qurilmasini Bluetooth orqali kuzatadi.\n\nBir vaqtda ham batareya, ham quvvat nazoratchisi ko'rinadi, ikkalasi ulanganda esa ilova ularning ko'rsatkichlarini birlashtiradi — shunda panellardan qancha energiya kelayotgani va batareyaga qancha ketayotgani ma'lum bo'ladi.\n\nManba kodi ochiq."
+  },
+  "com.coinerella.peercoin": {
+    "ru": "Peercoin Wallet отправляет и принимает Peercoin — криптовалюту, которая первой применила подтверждение долей владения вместо вычислительной работы.\n\nСеменная фраза кошелька хранится у вас, и от её сохранности зависит доступ к средствам.\n\nАвторы прямо оговаривают, что никаких гарантий не дают. Исходный код открыт.",
+    "en": "Peercoin Wallet sends and receives Peercoin, the first cryptocurrency to use proof of stake in place of computational work.\n\nThe wallet seed stays with you, and access to the funds depends on keeping it safe.\n\nThe authors state plainly that the app comes with no warranty. The source code is open.",
+    "tr": "Peercoin Wallet, hesaplama işi yerine hisse ispatını ilk kullanan kripto para birimi olan Peercoin'i gönderip alır.\n\nCüzdanın tohum ifadesi sizde kalır ve paraya erişim onu koruyup korumadığınıza bağlıdır.\n\nGeliştiriciler hiçbir garanti vermediklerini açıkça belirtir. Kaynak kodu açıktır.",
+    "uz": "Peercoin Wallet Peercoin ni yuboradi va qabul qiladi — bu hisoblash ishi o'rniga ulush isbotini birinchi bo'lib qo'llagan kriptovalyuta.\n\nHamyonning urug' iborasi sizda saqlanadi va mablag'ga kirish uning saqlanishiga bog'liq.\n\nMualliflar hech qanday kafolat bermasliklarini ochiq aytadi. Manba kodi ochiq."
+  },
+  "com.cointrend": {
+    "ru": "CoinTrend следит за курсами криптовалют.\n\nПриложение лёгкое и показывает то, что нужно: текущие цены и монеты, которые ищут чаще всего. Ни рекламы, ни подписок в нём нет.\n\nИсходный код открыт.",
+    "en": "CoinTrend follows cryptocurrency prices.\n\nThe app is light and shows what is wanted: current rates and the coins people are searching for most. There are no ads and no subscriptions.\n\nThe source code is open.",
+    "tr": "CoinTrend, kripto para fiyatlarını izler.\n\nUygulama hafiftir ve istenileni gösterir: güncel kurlar ve en çok aranan paralar. Reklam ve abonelik yoktur.\n\nKaynak kodu açıktır.",
+    "uz": "CoinTrend kriptovalyuta kurslarini kuzatadi.\n\nIlova yengil va kerakli narsani ko'rsatadi: joriy narxlar va eng ko'p qidiriladigan tangalar. Unda na reklama, na obuna bor.\n\nManba kodi ochiq."
+  },
+  "com.collotsspot.ensemble": {
+    "ru": "Ensemble — клиент к Music Assistant, системе, которая сводит вашу музыку из разных источников в одну библиотеку.\n\nСлушать можно прямо на телефоне или управлять воспроизведением на других устройствах в доме — колонках и приставках, подключённых к той же системе.\n\nЭто неофициальное приложение. Исходный код открыт.",
+    "en": "Ensemble is a client for Music Assistant, the system that gathers your music from different sources into one library.\n\nYou can listen on the phone itself or drive playback on other devices around the house — speakers and boxes connected to the same system.\n\nThis is an unofficial app. The source code is open.",
+    "tr": "Ensemble, müziğinizi farklı kaynaklardan tek bir kitaplıkta toplayan Music Assistant için bir istemcidir.\n\nTelefonun kendisinde dinleyebilir ya da evdeki diğer cihazlarda — aynı sisteme bağlı hoparlörlerde ve kutularda — çalmayı yönetebilirsiniz.\n\nBu resmî olmayan bir uygulamadır. Kaynak kodu açıktır.",
+    "uz": "Ensemble — musiqangizni turli manbalardan bitta kutubxonaga yig'adigan Music Assistant tizimi uchun mijoz.\n\nTelefonning o'zida tinglash yoki uydagi boshqa qurilmalarda — shu tizimga ulangan kolonka va pristavkalarda ijroni boshqarish mumkin.\n\nBu norasmiy ilova. Manba kodi ochiq."
+  },
+  "com.colnix.fta": {
+    "ru": "Fertility Test Analyzer помогает разобрать результат тест-полоски на овуляцию или беременность.\n\nПриложение снимает полоску и оценивает насыщенность контрольной и тестовой линий в процентах — глазом слабую вторую полоску отличить от её отсутствия бывает трудно.\n\nИсходный код открыт.",
+    "en": "Fertility Test Analyzer helps read an ovulation or pregnancy test strip.\n\nThe app photographs the strip and measures the pigmentation of the control and test lines as a percentage — by eye, a faint second line is hard to tell from no line at all.\n\nThe source code is open.",
+    "tr": "Fertility Test Analyzer, bir yumurtlama ya da gebelik test çubuğunu okumaya yardım eder.\n\nUygulama çubuğun fotoğrafını çeker ve kontrol ile test çizgilerinin renk yoğunluğunu yüzde olarak ölçer; çıplak gözle soluk bir ikinci çizgiyi hiç çizgi olmamasından ayırmak zordur.\n\nKaynak kodu açıktır.",
+    "uz": "Fertility Test Analyzer ovulyatsiya yoki homiladorlik test tasmasi natijasini tushunishga yordam beradi.\n\nIlova tasmani suratga oladi va nazorat hamda test chiziqlarining to'yinganligini foizda baholaydi — ko'z bilan kuchsiz ikkinchi chiziqni umuman chiziq yo'qligidan ajratish qiyin bo'ladi.\n\nManba kodi ochiq."
   }
 }
