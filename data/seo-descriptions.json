@@ -13240,5 +13240,65 @@
     "en": "MA Alchemist starts with the four basic elements, from which everything else is gradually created.\n\nThe principle is familiar from other games in the alchemy genre: elements are combined in pairs to yield new ones.\n\nWhat sets this version apart is that it is open source.",
     "tr": "MA Alchemist, geri kalan her şeyin adım adım türetildiği dört temel elementle başlar.\n\nİlke, simya türündeki diğer oyunlardan tanıdıktır: elementler ikişerli birleştirilerek yenileri elde edilir.\n\nBu sürümü ayıran yan, kaynak kodunun açık olmasıdır.",
     "uz": "MA Alchemist to'rtta asosiy unsurdan boshlanadi, ulardan asta-sekin qolgan hamma narsa hosil qilinadi.\n\nTamoyil alkimyo janridagi boshqa o'yinlardan tanish: unsurlar juft-juft birlashtirilib, yangilari olinadi.\n\nBu versiyaning farqi — manba kodining ochiqligi."
+  },
+  "com.vayunmathur.games.chess": {
+    "ru": "MA Chess — шахматы с открытым исходным кодом.\n\nПартию играют вдвоём на одном устройстве либо против компьютера.\n\nЗа компьютер отвечает движок Stockfish, уровень сложности настраивается.",
+    "en": "MA Chess is an open-source chess app.\n\nA game can be played by two people on one device or against the computer.\n\nThe computer side runs on the Stockfish engine, with configurable difficulty.",
+    "tr": "MA Chess, açık kaynaklı bir satranç uygulamasıdır.\n\nBir partiyi tek cihazda iki kişi ya da bilgisayara karşı oynayabilirsiniz.\n\nBilgisayar tarafını, zorluk düzeyi ayarlanabilen Stockfish motoru yürütür.",
+    "uz": "MA Chess — ochiq kodli shaxmat ilovasi.\n\nPartiyani bitta qurilmada ikki kishi yoki kompyuterga qarshi o'ynash mumkin.\n\nKompyuter tomonini Stockfish dvigateli boshqaradi, murakkablik darajasi sozlanadi."
+  },
+  "com.vayunmathur.games.pipes": {
+    "ru": "MA Pipes — головоломка в духе numberlink.\n\nОдинаковые по цвету точки соединяются линиями, которые не пересекаются между собой.\n\nУровень считается пройденным, когда поле заполнено целиком.",
+    "en": "MA Pipes is a numberlink-style puzzle game.\n\nDots of the same colour are joined by lines that must not cross one another.\n\nA level is solved once the board is completely filled up.",
+    "tr": "MA Pipes, numberlink tarzında bir bulmaca oyunudur.\n\nAynı renkteki noktalar, birbiriyle kesişmemesi gereken çizgilerle birleştirilir.\n\nTahta tümüyle dolduğunda bölüm çözülmüş sayılır.",
+    "uz": "MA Pipes — numberlink uslubidagi jumboq o'yin.\n\nBir xil rangdagi nuqtalar bir-biri bilan kesishmaydigan chiziqlar orqali tutashtiriladi.\n\nMaydon to'liq to'lganda bosqich yechilgan hisoblanadi."
+  },
+  "com.vayunmathur.games.solitaire": {
+    "ru": "MA Solitaire — пасьянсы с открытым исходным кодом.\n\nДоступны «Косынка», «Свободная ячейка» и «Паук».\n\nАвтор планирует добавить и другие разновидности.",
+    "en": "MA Solitaire is an open source solitaire game.\n\nIt supports the Klondike, Freecell and Spider variants.\n\nThe author plans to add more of them later.",
+    "tr": "MA Solitaire, açık kaynaklı bir solitaire oyunudur.\n\nKlondike, Freecell ve Spider çeşitlemelerini destekler.\n\nGeliştirici ileride başkalarını da eklemeyi planlıyor.",
+    "uz": "MA Solitaire — ochiq kodli pasyans o'yini.\n\nUnda Klondike, Freecell va Spider turlari mavjud.\n\nMuallif keyinchalik boshqalarini ham qo'shishni rejalashtirgan."
+  },
+  "com.vayunmathur.games.unblockjam": {
+    "ru": "MA Unblock Jam — приватная версия классической настольной игры Rush Hour с открытым исходным кодом.\n\nМашины на поле двигаются только вдоль своей оси, и задача — вывести нужную из затора.\n\nУровней 250, сложность растёт постепенно, а для каждого можно искать не любое, а оптимальное решение.",
+    "en": "MA Unblock Jam is a private and open source version of the classic board game Rush Hour.\n\nThe cars on the board move only along their own axis, and the task is to get the target car out of the jam.\n\nThere are 250 levels of increasing difficulty, and for each of them you can try to find the optimal solution rather than just any solution.",
+    "tr": "MA Unblock Jam, klasik Rush Hour masa oyununun gizliliğe saygılı ve açık kaynaklı bir sürümüdür.\n\nTahtadaki arabalar yalnızca kendi ekseni boyunca hareket eder; amaç hedef arabayı sıkışıklıktan çıkarmaktır.\n\nZorluğu giderek artan 250 bölüm vardır ve her biri için herhangi bir çözüm yerine en uygun çözümü aramayı deneyebilirsiniz.",
+    "uz": "MA Unblock Jam — klassik Rush Hour stol o'yinining maxfiylikka rioya qiladigan, ochiq kodli varianti.\n\nMaydondagi mashinalar faqat o'z o'qi bo'ylab yuradi, vazifa esa keraklisini tiqilinchdan chiqarish.\n\nBosqichlar 250 ta, murakkablik asta oshadi, har biri uchun esa istalgan emas, eng maqbul yechimni izlash mumkin."
+  },
+  "com.vayunmathur.games.wordmaker": {
+    "ru": "MA Word Maker — словесная головоломка, которая работает офлайн и ничего о вас не собирает.\n\nУровней больше 850.\n\nАвтор продолжает их добавлять.",
+    "en": "MA Word Maker is a word puzzle game that is completely private and works offline.\n\nThere are over 850 levels.\n\nThe author keeps adding more.",
+    "tr": "MA Word Maker, tümüyle gizliliğe saygılı ve çevrimdışı çalışan bir sözcük bulmaca oyunudur.\n\n850'den fazla bölüm vardır.\n\nGeliştirici yenilerini eklemeyi sürdürüyor.",
+    "uz": "MA Word Maker — oflayn ishlaydigan va siz haqingizda hech nima yig'maydigan so'z jumbog'i.\n\nBosqichlar 850 dan ortiq.\n\nMuallif ularni qo'shishda davom etmoqda."
+  },
+  "com.vayunmathur.health": {
+    "ru": "MA Health ведёт показатели здоровья на телефоне.\n\nПриложение задумано как замена Google Fit.\n\nДанные собираются в одном месте, и следить за ними можно без сервиса Google.",
+    "en": "MA Health manages health metrics on your phone.\n\nIt is meant to replace Google Fit.\n\nThe figures live in one place, so you can keep an eye on them without Google's service.",
+    "tr": "MA Health, sağlık ölçümlerinizi telefonunuzda tutar.\n\nGoogle Fit'in yerini alması düşünülmüştür.\n\nVeriler tek bir yerde toplanır; böylece Google'ın hizmetine gerek kalmadan takip edebilirsiniz.",
+    "uz": "MA Health sog'liq ko'rsatkichlarini telefonda yuritadi.\n\nIlova Google Fit o'rnini bosish uchun mo'ljallangan.\n\nMa'lumotlar bir joyga jamlanadi, shu bois ularni Google xizmatisiz kuzatish mumkin."
+  },
+  "com.vayunmathur.music": {
+    "ru": "MA Music — простой музыкальный проигрыватель в оформлении Material You.\n\nКоллекцию можно перемешать, а поиск работает по альбомам и исполнителям.\n\nДля треков показывается синхронизированный текст песни.",
+    "en": "MA Music is a basic music player styled with Material You.\n\nYour collection can be shuffled, and search works across albums and artists.\n\nTracks can be played with synced lyrics displayed.",
+    "tr": "MA Music, Material You görünümünde temel bir müzik oynatıcısıdır.\n\nKoleksiyonunuzu karıştırabilir, albümler ve sanatçılar arasında arama yapabilirsiniz.\n\nParçalar için eşzamanlı şarkı sözleri gösterilir.",
+    "uz": "MA Music — Material You uslubidagi oddiy musiqa pleyeri.\n\nTo'plamni aralashtirish mumkin, qidiruv esa albomlar va ijrochilar bo'yicha ishlaydi.\n\nTreklar uchun vaqtga moslangan qo'shiq matni ko'rsatiladi."
+  },
+  "com.vayunmathur.notes": {
+    "ru": "MA Notes — приложение для заметок в формате Markdown.\n\nРазметка набирается прямо в тексте: заголовки, списки, выделение.\n\nЗаписи остаются обычным текстом, а не закрытым форматом.",
+    "en": "MA Notes is a markdown note-taking app.\n\nMarkup is typed inline: headings, lists, emphasis.\n\nThe notes stay plain text rather than a closed format.",
+    "tr": "MA Notes, markdown biçiminde not tutma uygulamasıdır.\n\nBiçimlendirme doğrudan metnin içinde yazılır: başlıklar, listeler, vurgular.\n\nNotlar kapalı bir biçim yerine düz metin olarak kalır.",
+    "uz": "MA Notes — Markdown formatidagi qaydlar ilovasi.\n\nBelgilash to'g'ridan-to'g'ri matn ichida yoziladi: sarlavhalar, ro'yxatlar, ajratish.\n\nYozuvlar yopiq format emas, oddiy matn bo'lib qoladi."
+  },
+  "com.vayunmathur.office": {
+    "ru": "MA Office открывает и правит документы в форматах ODF — odt, ods, odp — и Microsoft: docx, xlsx, pptx. Документы можно печатать.\n\nСовместная работа ведётся онлайн со сквозным шифрованием и без учётных записей.\n\nСервер при этом намеренно ничего не знает о документе: он только пересылает зашифрованные сообщения между устройствами и не хранит состояние файла даже в зашифрованном виде.",
+    "en": "MA Office views and edits documents in ODF formats — odt, ods, odp — and Microsoft ones: docx, xlsx, pptx. Printing is supported.\n\nOnline collaboration runs with end-to-end encryption and without accounts.\n\nThe server is deliberately kept ignorant of the document: it uses a dumb relay that only forwards encrypted messages between devices, without storing the actual state of the file, even in encrypted form.",
+    "tr": "MA Office; ODF biçimlerindeki — odt, ods, odp — ve Microsoft biçimlerindeki docx, xlsx, pptx belgeleri görüntüler ve düzenler. Yazdırma desteklenir.\n\nÇevrimiçi ortak çalışma, uçtan uca şifrelemeyle ve hesap gerektirmeden yürür.\n\nSunucu belge hakkında bilerek hiçbir şey bilmez: yalnızca şifreli iletileri cihazlar arasında ileten bir aktarıcıdır ve dosyanın durumunu şifreli biçimde bile saklamaz.",
+    "uz": "MA Office ODF formatidagi — odt, ods, odp — va Microsoft formatidagi docx, xlsx, pptx hujjatlarni ochadi va tahrirlaydi. Hujjatlarni chop etish mumkin.\n\nBirgalikda ishlash onlayn tarzda, uchdan-uchgacha shifrlash bilan va hisoblarsiz olib boriladi.\n\nServer hujjat haqida ataylab hech nima bilmaydi: u faqat shifrlangan xabarlarni qurilmalar o'rtasida uzatadi va fayl holatini shifrlangan ko'rinishda ham saqlamaydi."
+  },
+  "com.vayunmathur.openassistant": {
+    "ru": "MA Openassistant — простой ИИ-помощник с открытым исходным кодом, который работает локально на устройстве. В активном состоянии он занимает около 3,5 ГБ оперативной памяти.\n\nДиалогов можно вести несколько. Длинные ответы выводятся потоком по мере генерации и форматируются разметкой Markdown.\n\nПомимо текста принимаются изображения и записи с микрофона, а вызов инструментов связывает помощника с рядом других приложений экосистемы Modern Apps.",
+    "en": "MA Openassistant is a simple, open-source local AI app that runs on the device itself. When active it uses about 3.5GB of RAM.\n\nYou can keep several chats going. Long responses are streamed as they are generated and formatted with markdown.\n\nBesides text it accepts photo uploads and audio recordings, and tool calling connects the assistant to several other apps in the Modern Apps ecosystem.",
+    "tr": "MA Openassistant, cihazın kendisinde çalışan basit ve açık kaynaklı bir yerel yapay zekâ uygulamasıdır. Etkinken yaklaşık 3,5 GB RAM kullanır.\n\nBirden çok sohbet sürdürebilirsiniz. Uzun yanıtlar üretildikçe akış halinde gelir ve markdown ile biçimlendirilir.\n\nMetnin yanı sıra fotoğraf yükleme ve ses kaydı kabul eder; araç çağırma ise asistanı Modern Apps ekosistemindeki başka uygulamalara bağlar.",
+    "uz": "MA Openassistant — qurilmaning o'zida ishlaydigan oddiy, ochiq kodli sun'iy intellekt ilovasi. Faol holatda u taxminan 3,5 GB operativ xotira egallaydi.\n\nBir nechta suhbat olib borish mumkin. Uzun javoblar hosil bo'lishi bilan oqim tarzida chiqadi va Markdown bilan formatlanadi.\n\nMatndan tashqari suratlar va mikrofon yozuvlari qabul qilinadi, vositalarni chaqirish esa yordamchini Modern Apps ekotizimidagi boshqa bir qator ilovalar bilan bog'laydi."
   }
 }
