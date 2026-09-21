@@ -22252,5 +22252,53 @@
     "en": "This is a plugin for the Fcitx5 input method that adds Korean input.\n\nIt provides the Hangul engine for typing in Korean.",
     "tr": "Bu, Fcitx5 giriş yöntemine Korece giriş ekleyen bir eklentidir.\n\nKorece yazmak için Hangul motorunu sağlar.",
     "uz": "Bu — Fcitx5 kiritish usuliga koreys tilida yozishni qo'shadigan plagin.\n\nU koreys tilida terish uchun Hangul dvigatelini ulaydi."
+  },
+  "org.fcitx.fcitx5.android.plugin.jyutping": {
+    "ru": "Это модуль для способа ввода Fcitx5, добавляющий ввод на кантонском диалекте.\n\nОн подключает движок ютпхин (Jyutping) для набора кантонского текста.",
+    "en": "This is a plugin for the Fcitx5 input method that adds Cantonese input.\n\nIt provides the Jyutping engine for typing Cantonese.",
+    "tr": "Bu, Fcitx5 giriş yöntemine Kantonca giriş ekleyen bir eklentidir.\n\nKantonca yazmak için Jyutping motorunu sağlar.",
+    "uz": "Bu — Fcitx5 kiritish usuliga kanton tilida yozishni qo'shadigan plagin.\n\nU kanton matnini terish uchun Jyutping dvigatelini ulaydi."
+  },
+  "org.fcitx.fcitx5.android.plugin.rime": {
+    "ru": "Это модуль для способа ввода Fcitx5, добавляющий движок RIME (Rime Input Method Engine).\n\nRIME — универсальный движок ввода, в который можно импортировать собственные схемы раскладок.",
+    "en": "This is a plugin for the Fcitx5 input method that adds the RIME (Rime Input Method Engine).\n\nRIME is a generic input engine into which you can import your own custom schemas.",
+    "tr": "Bu, Fcitx5 giriş yöntemine RIME (Rime Input Method Engine) ekleyen bir eklentidir.\n\nRIME, kendi özel şemalarınızı içe aktarabileceğiniz genel bir giriş motorudur.",
+    "uz": "Bu — Fcitx5 kiritish usuliga RIME (Rime Input Method Engine) dvigatelini qo'shadigan plagin.\n\nRIME — o'z sxemalaringizni import qilsa bo'ladigan universal kiritish dvigateli."
+  },
+  "org.fcitx.fcitx5.android.plugin.sayura": {
+    "ru": "Это модуль для способа ввода Fcitx5, добавляющий ввод на сингальском языке.\n\nОн подключает движок Sayura для набора сингальского текста.",
+    "en": "This is a plugin for the Fcitx5 input method that adds Sinhala input.\n\nIt provides the Sayura engine for typing Sinhala.",
+    "tr": "Bu, Fcitx5 giriş yöntemine Seylanca giriş ekleyen bir eklentidir.\n\nSeylanca yazmak için Sayura motorunu sağlar.",
+    "uz": "Bu — Fcitx5 kiritish usuliga singal tilida yozishni qo'shadigan plagin.\n\nU singal matnini terish uchun Sayura dvigatelini ulaydi."
+  },
+  "org.fcitx.fcitx5.android.plugin.thai": {
+    "ru": "Это модуль для способа ввода Fcitx5, добавляющий ввод на тайском языке.\n\nОн даёт возможность набирать тайский текст в Fcitx5.",
+    "en": "This is a plugin for the Fcitx5 input method that adds Thai input.\n\nIt lets you type Thai text in Fcitx5.",
+    "tr": "Bu, Fcitx5 giriş yöntemine Tayca giriş ekleyen bir eklentidir.\n\nFcitx5'te Tayca metin yazmanızı sağlar.",
+    "uz": "Bu — Fcitx5 kiritish usuliga tay tilida yozishni qo'shadigan plagin.\n\nU Fcitx5'da tay matnini terish imkonini beradi."
+  },
+  "org.fcitx.fcitx5.android.plugin.unikey": {
+    "ru": "Это модуль для способа ввода Fcitx5, добавляющий ввод на вьетнамском языке.\n\nОн подключает движок Unikey для набора вьетнамского текста.",
+    "en": "This is a plugin for the Fcitx5 input method that adds Vietnamese input.\n\nIt provides the Unikey engine for typing Vietnamese.",
+    "tr": "Bu, Fcitx5 giriş yöntemine Vietnamca giriş ekleyen bir eklentidir.\n\nVietnamca yazmak için Unikey motorunu sağlar.",
+    "uz": "Bu — Fcitx5 kiritish usuliga vyetnam tilida yozishni qo'shadigan plagin.\n\nU vyetnam matnini terish uchun Unikey dvigatelini ulaydi."
+  },
+  "org.fdroid.basic": {
+    "ru": "F-Droid Basic — упрощённая версия клиента F-Droid, устанавливаемого каталога свободных приложений для Android. Через него удобно просматривать программы, устанавливать их и следить за обновлениями.\n\nВозможностей у неё меньше, чем у обычного клиента: нет обмена файлами с ближайшими устройствами и функции экстренного удаления. Зато она рассчитана на современный Android 13 и умеет обновлять приложения без участия пользователя — без привилегированного расширения и без прав root.\n\nПриложение подключается к любым совместимым репозиториям F-Droid; в основном по умолчанию — на f-droid.org, где размещено только по-настоящему свободное ПО.",
+    "en": "F-Droid Basic is a reduced version of the F-Droid client, the installable catalogue of libre software apps for Android. It makes it easy to browse, install and keep track of updates on your device.\n\nIt has a smaller feature set than the regular client: no nearby share and no panic feature. On the other hand it targets a modern Android 13 and can do unattended updates without a privileged extension or root.\n\nThe app connects to any F-Droid compatible repositories; the default repo, at f-droid.org, contains only bona fide libre software.",
+    "tr": "F-Droid Basic; Android için özgür yazılım uygulamalarının kurulabilir kataloğu olan F-Droid istemcisinin sadeleştirilmiş bir sürümüdür. Cihazınızda uygulamalara göz atmayı, kurmayı ve güncellemeleri izlemeyi kolaylaştırır.\n\nÖzellik kümesi normal istemciden dardır: yakın paylaşımı ve panik özelliği yoktur. Buna karşılık güncel bir Android 13'ü hedefler ve ayrıcalıklı uzantı ya da root olmadan gözetimsiz güncelleme yapabilir.\n\nUygulama, F-Droid uyumlu depolara bağlanır; f-droid.org'daki varsayılan depo yalnızca gerçek özgür yazılım içerir.",
+    "uz": "F-Droid Basic — Android uchun erkin ilovalarning o'rnatiladigan katalogi bo'lgan F-Droid mijozining soddalashtirilgan versiyasi. U orqali dasturlarni ko'rish, o'rnatish va yangilanishlarni kuzatish qulay.\n\nUning imkoniyatlari oddiy mijozdan kamroq: yaqin qurilmalar bilan fayl ulashish va favqulodda o'chirish funksiyasi yo'q. Buning o'rniga u zamonaviy Android 13 uchun mo'ljallangan va ilovalarni imtiyozli kengaytma yoki root huquqisiz, foydalanuvchi ishtirokisiz yangilay oladi.\n\nIlova har qanday mos F-Droid omborlariga ulanadi; sukut bo'yicha f-droid.org'dagi omborda faqat haqiqiy erkin dasturlar joylashgan."
+  },
+  "org.fdroid.fdroid": {
+    "ru": "F-Droid — устанавливаемый каталог свободных приложений для Android. Клиент F-Droid позволяет удобно просматривать программы, устанавливать их и следить за обновлениями на устройстве.\n\nОн подключается к любым совместимым репозиториям F-Droid; репозиторий по умолчанию — на f-droid.org, где размещено только по-настоящему свободное ПО.\n\nСам Android открыт в том смысле, что APK можно ставить откуда угодно, но использовать F-Droid как менеджер свободных приложений удобно по многим причинам: он уведомляет о вышедших обновлениях и при желании скачивает и устанавливает их сам.",
+    "en": "F-Droid is an installable catalogue of libre software apps for Android. The F-Droid client app makes it easy to browse, install and keep track of updates on your device.\n\nIt connects to any F-Droid compatible repositories; the default repo, hosted at f-droid.org, contains only bona fide libre software.\n\nAndroid itself is open in that you are free to install APKs from anywhere, but there are many good reasons to use F-Droid as your libre software app manager: it notifies you when updates are available and can optionally download and install them automatically.",
+    "tr": "F-Droid, Android için özgür yazılım uygulamalarının kurulabilir bir kataloğudur. F-Droid istemci uygulaması, cihazınızda uygulamalara göz atmayı, kurmayı ve güncellemeleri izlemeyi kolaylaştırır.\n\nF-Droid uyumlu depolara bağlanır; f-droid.org'da barındırılan varsayılan depo yalnızca gerçek özgür yazılım içerir.\n\nAndroid'in kendisi, APK'leri istediğiniz yerden kurabilmeniz anlamında açıktır; ama F-Droid'i özgür yazılım yöneticiniz olarak kullanmanın pek çok iyi nedeni vardır: güncellemeler çıktığında sizi uyarır ve isteğe bağlı olarak bunları kendiliğinden indirip kurabilir.",
+    "uz": "F-Droid — Android uchun erkin dasturlarning o'rnatiladigan katalogi. F-Droid mijozi qurilmada dasturlarni ko'rish, o'rnatish va yangilanishlarni kuzatishni osonlashtiradi.\n\nU har qanday mos F-Droid omborlariga ulanadi; sukut bo'yicha f-droid.org'dagi omborda faqat haqiqiy erkin dasturlar joylashgan.\n\nAndroid'ning o'zi APK'larni istalgan joydan o'rnatish mumkinligi ma'nosida ochiq, lekin F-Droid'ni erkin dasturlar menejeri sifatida ishlatishning ko'p sabablari bor: u yangilanishlar chiqqanda xabar beradi va xohishga ko'ra ularni o'zi yuklab o'rnatadi."
+  },
+  "org.fdroid.fdroid.privileged": {
+    "ru": "F-Droid Privileged Extension даёт клиенту F-Droid право самостоятельно устанавливать, обновлять и удалять приложения. Единственный способ получить такие права — стать системным приложением, а для установки расширения в раздел системных приложений нужны права root.\n\nРасширение вынесено в отдельное, гораздо меньшее приложение, которое ставится как системное и общается с основным клиентом через межпроцессное взаимодействие AIDL.\n\nУ такого подхода есть плюсы: меньше занятого места в системном разделе и сохранение расширения при системных обновлениях.",
+    "en": "F-Droid Privileged Extension lets the F-Droid client install, update and remove applications on its own. The only way to obtain those privileges is to become a system app, and installing the extension into the system partition requires root.\n\nThe extension is a separate, much smaller app that can be installed as a system app and communicates with the main client via AIDL inter-process communication.\n\nThis approach has advantages: reduced disk usage in the system partition, and the extension surviving system updates.",
+    "tr": "F-Droid Privileged Extension, F-Droid istemcisinin uygulamaları kendi başına kurmasını, güncellemesini ve kaldırmasını sağlar. Bu ayrıcalıkları elde etmenin tek yolu bir sistem uygulaması olmaktır ve uzantıyı sistem bölümüne kurmak root gerektirir.\n\nUzantı, sistem uygulaması olarak kurulabilen, ayrı ve çok daha küçük bir uygulamadır ve ana istemciyle AIDL süreçler arası iletişim yoluyla haberleşir.\n\nBu yaklaşımın avantajları vardır: sistem bölümünde daha az disk kullanımı ve uzantının sistem güncellemelerinden etkilenmemesi.",
+    "uz": "F-Droid Privileged Extension F-Droid mijoziga ilovalarni o'zi o'rnatish, yangilash va o'chirish huquqini beradi. Bunday huquqlarni olishning yagona yo'li — tizim ilovasi bo'lish, kengaytmani tizim bo'limiga o'rnatish uchun esa root huquqi kerak.\n\nKengaytma alohida, ancha kichik ilovaga chiqarilgan, u tizim ilovasi sifatida o'rnatiladi va asosiy mijoz bilan AIDL jarayonlararo aloqa orqali gaplashadi.\n\nBu yondashuvning afzalliklari bor: tizim bo'limida kamroq joy egallanadi va kengaytma tizim yangilanishlaridan keyin ham saqlanadi."
   }
 }
