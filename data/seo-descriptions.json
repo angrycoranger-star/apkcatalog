@@ -23644,5 +23644,53 @@
     "en": "This is a module for MAXS that does not add a launcher icon. It needs MAXS Main and a configured MAXS transport to work.\n\nThe FileRead module lets you browse the device's storage and send files over transports that allow it.",
     "tr": "Bu, başlatıcı simgesi eklemeyen bir MAXS modülüdür. Çalışması için MAXS Main ve yapılandırılmış bir MAXS taşımasına ihtiyaç duyar.\n\nFileRead modülü, cihazın depolamasına göz atmanıza ve buna izin veren taşımalar üzerinden dosya göndermenize olanak tanır.",
     "uz": "Bu — ilovalar roʻyxatiga belgi qoʻshmaydigan MAXS moduli. Ishlashi uchun MAXS Main va sozlangan MAXS transporti kerak.\n\nFileRead moduli qurilma xotirasini koʻrib chiqish va bunga ruxsat beradigan transportlar orqali fayllar yuborish imkonini beradi."
+  },
+  "org.projectmaxs.module.filewrite": {
+    "ru": "Это модуль для MAXS, который не добавляет значка в список приложений. Для его работы нужны MAXS Main и настроенный транспорт MAXS.\n\nМодуль FileWrite позволяет записывать, изменять (переименовывать, перемещать и так далее) и удалять файлы во внешнем хранилище.",
+    "en": "This is a module for MAXS that does not add a launcher icon. It needs MAXS Main and a configured MAXS transport to work.\n\nThe FileWrite module lets you write, modify (rename, move, and so on), and delete files on external storage.",
+    "tr": "Bu, başlatıcı simgesi eklemeyen bir MAXS modülüdür. Çalışması için MAXS Main ve yapılandırılmış bir MAXS taşımasına ihtiyaç duyar.\n\nFileWrite modülü, harici depolamadaki dosyaları yazmanıza, değiştirmenize (yeniden adlandırma, taşıma vb.) ve silmenize olanak tanır.",
+    "uz": "Bu — ilovalar roʻyxatiga belgi qoʻshmaydigan MAXS moduli. Ishlashi uchun MAXS Main va sozlangan MAXS transporti kerak.\n\nFileWrite moduli tashqi xotiradagi fayllarni yozish, oʻzgartirish (nomini oʻzgartirish, koʻchirish va hokazo) hamda oʻchirish imkonini beradi."
+  },
+  "org.projectmaxs.module.locationfine": {
+    "ru": "Это модуль для MAXS, который не добавляет значка в список приложений. Для его работы нужны MAXS Main и настроенный транспорт MAXS.\n\nМодуль LocationFine позволяет определять местоположение устройства, используя наиболее точный из доступных способов определения (точное местоположение).",
+    "en": "This is a module for MAXS that does not add a launcher icon. It needs MAXS Main and a configured MAXS transport to work.\n\nThe LocationFine module lets you locate the device using the most accurate mechanism available (fine location).",
+    "tr": "Bu, başlatıcı simgesi eklemeyen bir MAXS modülüdür. Çalışması için MAXS Main ve yapılandırılmış bir MAXS taşımasına ihtiyaç duyar.\n\nLocationFine modülü, cihazı mevcut en doğru mekanizmayı kullanarak konumlandırmanıza olanak tanır (hassas konum).",
+    "uz": "Bu — ilovalar roʻyxatiga belgi qoʻshmaydigan MAXS moduli. Ishlashi uchun MAXS Main va sozlangan MAXS transporti kerak.\n\nLocationFine moduli qurilma joylashuvini mavjud eng aniq usul yordamida aniqlash imkonini beradi (aniq joylashuv)."
+  },
+  "org.projectmaxs.module.misc": {
+    "ru": "Это модуль для MAXS, который не добавляет значка в список приложений. Для его работы нужны MAXS Main и настроенный транспорт MAXS.\n\nМодуль Misc предоставляет разные команды, которые не требуют особых разрешений.",
+    "en": "This is a module for MAXS that does not add a launcher icon. It needs MAXS Main and a configured MAXS transport to work.\n\nThe Misc module provides miscellaneous commands that require no special permissions.",
+    "tr": "Bu, başlatıcı simgesi eklemeyen bir MAXS modülüdür. Çalışması için MAXS Main ve yapılandırılmış bir MAXS taşımasına ihtiyaç duyar.\n\nMisc modülü, özel izin gerektirmeyen çeşitli komutlar sağlar.",
+    "uz": "Bu — ilovalar roʻyxatiga belgi qoʻshmaydigan MAXS moduli. Ishlashi uchun MAXS Main va sozlangan MAXS transporti kerak.\n\nMisc moduli maxsus ruxsat talab qilmaydigan turli buyruqlarni taqdim etadi."
+  },
+  "org.projectmaxs.module.nfc": {
+    "ru": "Это модуль для MAXS, который не добавляет значка в список приложений. Для его работы нужны MAXS Main и настроенный транспорт MAXS.\n\nМодуль NFC позволяет запрашивать состояние используемого по умолчанию адаптера NFC.",
+    "en": "This is a module for MAXS that does not add a launcher icon. It needs MAXS Main and a configured MAXS transport to work.\n\nThe NFC module lets you query the default NFC adapter for its status.",
+    "tr": "Bu, başlatıcı simgesi eklemeyen bir MAXS modülüdür. Çalışması için MAXS Main ve yapılandırılmış bir MAXS taşımasına ihtiyaç duyar.\n\nNFC modülü, varsayılan NFC bağdaştırıcısının durumunu sorgulamanıza olanak tanır.",
+    "uz": "Bu — ilovalar roʻyxatiga belgi qoʻshmaydigan MAXS moduli. Ishlashi uchun MAXS Main va sozlangan MAXS transporti kerak.\n\nNFC moduli sukut boʻyicha ishlatiladigan NFC adapteri holatini soʻrash imkonini beradi."
+  },
+  "org.projectmaxs.module.notification": {
+    "ru": "Это модуль для MAXS, который не добавляет значка в список приложений. Для его работы нужны MAXS Main и настроенный транспорт MAXS.\n\nМодуль Notification позволяет отслеживать новые уведомления и сообщать о них пользователю. Для этого нужно разрешить доступ к уведомлениям в разделе «Настройки → Безопасность → Доступ к уведомлениям».\n\nВ модуле можно настроить, когда именно сообщать об уведомлениях Android: при их появлении или при удалении.",
+    "en": "This is a module for MAXS that does not add a launcher icon. It needs MAXS Main and a configured MAXS transport to work.\n\nThe Notification module lets you listen for new notifications and inform the user about them. For this you need to allow notification access under Settings → Security → Notification access.\n\nIn the module you can configure when to be notified about Android notifications: when they are posted or when they are removed.",
+    "tr": "Bu, başlatıcı simgesi eklemeyen bir MAXS modülüdür. Çalışması için MAXS Main ve yapılandırılmış bir MAXS taşımasına ihtiyaç duyar.\n\nNotification modülü, yeni bildirimleri dinlemenize ve bunlar hakkında kullanıcıyı bilgilendirmenize olanak tanır. Bunun için Ayarlar → Güvenlik → Bildirim erişimi altında bildirim erişimine izin vermeniz gerekir.\n\nModülde, Android bildirimleri hakkında ne zaman haberdar edileceğinizi ayarlayabilirsiniz: yayımlandıklarında ya da kaldırıldıklarında.",
+    "uz": "Bu — ilovalar roʻyxatiga belgi qoʻshmaydigan MAXS moduli. Ishlashi uchun MAXS Main va sozlangan MAXS transporti kerak.\n\nNotification moduli yangi bildirishnomalarni kuzatish va ular haqida foydalanuvchini xabardor qilish imkonini beradi. Buning uchun \"Sozlamalar → Xavfsizlik → Bildirishnomalarga kirish\" boʻlimida bildirishnomalarga kirishga ruxsat berish kerak.\n\nModulda Android bildirishnomalari haqida qachon xabardor qilinishni sozlash mumkin: ular paydo boʻlganda yoki olib tashlanganda."
+  },
+  "org.projectmaxs.module.phonestateread": {
+    "ru": "Это модуль для MAXS, который не добавляет значка в список приложений. Для его работы нужны MAXS Main и настроенный транспорт MAXS.\n\nМодуль PhonestateRead позволяет получать уведомления о входящих вызовах.",
+    "en": "This is a module for MAXS that does not add a launcher icon. It needs MAXS Main and a configured MAXS transport to work.\n\nThe PhonestateRead module lets you get notified about incoming calls.",
+    "tr": "Bu, başlatıcı simgesi eklemeyen bir MAXS modülüdür. Çalışması için MAXS Main ve yapılandırılmış bir MAXS taşımasına ihtiyaç duyar.\n\nPhonestateRead modülü, gelen aramalar hakkında bildirim almanıza olanak tanır.",
+    "uz": "Bu — ilovalar roʻyxatiga belgi qoʻshmaydigan MAXS moduli. Ishlashi uchun MAXS Main va sozlangan MAXS transporti kerak.\n\nPhonestateRead moduli kiruvchi qoʻngʻiroqlar haqida bildirishnoma olish imkonini beradi."
+  },
+  "org.projectmaxs.module.ringermode": {
+    "ru": "Это модуль для MAXS, который не добавляет значка в список приложений. Для его работы нужны MAXS Main и настроенный транспорт MAXS.\n\nМодуль RingerMode позволяет показывать и менять режим звонка: беззвучный, вибрация или обычный.",
+    "en": "This is a module for MAXS that does not add a launcher icon. It needs MAXS Main and a configured MAXS transport to work.\n\nThe RingerMode module lets you display and change the ringer mode: silent, vibration, or normal.",
+    "tr": "Bu, başlatıcı simgesi eklemeyen bir MAXS modülüdür. Çalışması için MAXS Main ve yapılandırılmış bir MAXS taşımasına ihtiyaç duyar.\n\nRingerMode modülü, zil modunu görüntülemenize ve değiştirmenize olanak tanır: sessiz, titreşim veya normal.",
+    "uz": "Bu — ilovalar roʻyxatiga belgi qoʻshmaydigan MAXS moduli. Ishlashi uchun MAXS Main va sozlangan MAXS transporti kerak.\n\nRingerMode moduli qoʻngʻiroq rejimini koʻrsatish va oʻzgartirish imkonini beradi: ovozsiz, tebranish yoki oddiy."
+  },
+  "org.projectmaxs.module.shell": {
+    "ru": "Это модуль для MAXS, который не добавляет значка в список приложений. Для его работы нужны MAXS Main и настроенный транспорт MAXS.\n\nМодуль Shell позволяет выполнять команду командной оболочки и возвращать её результат.",
+    "en": "This is a module for MAXS that does not add a launcher icon. It needs MAXS Main and a configured MAXS transport to work.\n\nThe Shell module lets you execute a shell command and return its result.",
+    "tr": "Bu, başlatıcı simgesi eklemeyen bir MAXS modülüdür. Çalışması için MAXS Main ve yapılandırılmış bir MAXS taşımasına ihtiyaç duyar.\n\nShell modülü, bir kabuk komutu çalıştırmanıza ve sonucunu döndürmenize olanak tanır.",
+    "uz": "Bu — ilovalar roʻyxatiga belgi qoʻshmaydigan MAXS moduli. Ishlashi uchun MAXS Main va sozlangan MAXS transporti kerak.\n\nShell moduli buyruq qobigʻi buyrugʻini bajarish va uning natijasini qaytarish imkonini beradi."
   }
 }
