@@ -27244,5 +27244,53 @@
     "en": "Notie is a note-taking app that complies with Material You guidelines. It supports Markdown.\n\nThe app has a built-in Markdown viewer, and the editor includes Markdown syntax highlighting.",
     "tr": "Notie, Material You yönergelerine uyan bir not alma uygulamasıdır. Markdown'ı destekler.\n\nUygulamada yerleşik bir Markdown görüntüleyici vardır ve düzenleyici Markdown sözdizimi vurgulaması içerir.",
     "uz": "Notie — Material You tavsiyalariga mos qaydlar ilovasi. U Markdown'ni qo'llab-quvvatlaydi.\n\nIlovada o'rnatilgan Markdown ko'ruvchisi mavjud, muharrirda esa Markdown sintaksisini yoritish bor."
+  },
+  "com.cyb3rg0d.calculator": {
+    "ru": "Calculator — калькулятор для сложных функций, ориентированный на конфиденциальность, с простым интерфейсом и тёмной темой по умолчанию.\n\nВ приложении нет рекламы и лишних разрешений.",
+    "en": "Calculator is a privacy-friendly calculator for complex functions, with a simple interface and a dark theme by default.\n\nThe app has no ads and no unnecessary permissions.",
+    "tr": "Calculator, karmaşık fonksiyonlar için gizliliğe uygun bir hesap makinesidir; basit bir arayüze ve varsayılan olarak koyu bir temaya sahiptir.\n\nUygulamada reklam veya gereksiz izin yoktur.",
+    "uz": "Calculator — murakkab funksiyalar uchun maxfiylikka mos kalkulyator bo'lib, oddiy interfeys va sukut bo'yicha qorong'i mavzuga ega.\n\nIlovada reklama va ortiqcha ruxsatlar yo'q."
+  },
+  "com.cyb3rg0d.canvass": {
+    "ru": "Canvass — приложение для рисования и заметок. В нём можно рисовать, делать наброски и добавлять к записям рисунки.\n\nДоступен выбор различных цветов, готовыми работами можно делиться, а также сохранять их в формате PNG.",
+    "en": "Canvass is an app for drawing and taking notes. In it you can draw, sketch, and add doodles to your notes.\n\nVarious colors are available, finished works can be shared, and they can be saved as PNG.",
+    "tr": "Canvass, çizim yapmak ve not almak için bir uygulamadır. İçinde çizim yapabilir, eskiz oluşturabilir ve notlarınıza karalamalar ekleyebilirsiniz.\n\nÇeşitli renkler mevcuttur, bitmiş çalışmalar paylaşılabilir ve PNG olarak kaydedilebilir.",
+    "uz": "Canvass — chizish va qaydlar yuritish uchun ilova. Unda chizish, eskizlar yasash va qaydlarga rasmlar qo'shish mumkin.\n\nTurli ranglar mavjud, tayyor ishlarni ulashish va PNG ko'rinishida saqlash mumkin."
+  },
+  "com.cyb3rg0d.urlchecker": {
+    "ru": "URL Checker удаляет из веб-адресов лишние части, такие как параметры отслеживания и другие переменные, перед их открытием.\n\nПриложение помогает очищать ссылки от следящих меток.",
+    "en": "URL Checker removes unnecessary parts from web URLs, such as tracking parameters and other variables, before opening them.\n\nThe app helps clean links of tracking markers.",
+    "tr": "URL Checker, web URL'lerini açmadan önce izleme parametreleri ve diğer değişkenler gibi gereksiz kısımları kaldırır.\n\nUygulama, bağlantıları izleme işaretlerinden temizlemeye yardımcı olur.",
+    "uz": "URL Checker veb-manzillarni ochishdan oldin ulardan kuzatuv parametrlari va boshqa o'zgaruvchilar kabi ortiqcha qismlarni olib tashlaydi.\n\nIlova havolalarni kuzatuv belgilaridan tozalashga yordam beradi."
+  },
+  "com.cylonid.nativealpha": {
+    "ru": "Native Alpha показывает любой сайт в полноэкранном окне без рамок с помощью Android System WebView. Приложение может создавать ярлыки сайтов на домашнем экране и подбирать значки подходящего разрешения.\n\nДля каждого веб-приложения можно отдельно задавать настройки: JavaScript, cookie, блокировку рекламы, доступ к геолокации, камере и микрофону. Навигация во время просмотра выполняется мультитач-жестами. Блокировка рекламы включается по желанию с выбором списков фильтров; есть тёмный режим для Android 10 и новее.",
+    "en": "Native Alpha shows any website in a borderless full-screen window using Android System WebView. The app can create home screen shortcuts for sites and retrieve icons in a suitable resolution.\n\nFor each web app you can set options individually: JavaScript, cookies, adblocking, and location, camera, and microphone access. Navigation while browsing uses multi-touch gestures. Adblock is opt-in with user-selected filter lists; there is a dark mode for Android 10 and newer.",
+    "tr": "Native Alpha, Android System WebView kullanarak herhangi bir web sitesini kenarlıksız tam ekran bir pencerede gösterir. Uygulama, siteler için ana ekran kısayolları oluşturabilir ve uygun çözünürlükte simgeler alabilir.\n\nHer web uygulaması için seçenekleri ayrı ayrı ayarlayabilirsiniz: JavaScript, çerezler, reklam engelleme ve konum, kamera ve mikrofon erişimi. Gezinme sırasında çoklu dokunma hareketleri kullanılır. Reklam engelleme, kullanıcı tarafından seçilen filtre listeleriyle isteğe bağlıdır; Android 10 ve üzeri için karanlık mod vardır.",
+    "uz": "Native Alpha istalgan saytni Android System WebView yordamida chegarasiz to'liq ekran oynasida ko'rsatadi. Ilova saytlar uchun bosh ekran yorliqlarini yaratishi va mos ruxsatdagi belgilarni olishi mumkin.\n\nHar bir veb-ilova uchun sozlamalarni alohida belgilash mumkin: JavaScript, cookie, reklamani bloklash hamda joylashuv, kamera va mikrofonga kirish. Ko'rish paytida navigatsiya multitach imo-ishoralari bilan amalga oshiriladi. Reklamani bloklash foydalanuvchi tanlagan filtr ro'yxatlari bilan ixtiyoriy; Android 10 va undan yangi versiyalar uchun qorong'i rejim mavjud."
+  },
+  "com.daitj.easycontrolfork.app": {
+    "ru": "EasyControlFork — реализация scrcpy, позволяющая управлять другими устройствами Android с устройства Android.\n\nПриложение даёт возможность удалённо управлять другим устройством Android.",
+    "en": "EasyControlFork is an scrcpy implementation that lets you control other Android devices from an Android device.\n\nThe app makes it possible to remotely control another Android device.",
+    "tr": "EasyControlFork, bir Android cihazdan diğer Android cihazları kontrol etmenizi sağlayan bir scrcpy uygulamasıdır.\n\nUygulama, başka bir Android cihazı uzaktan kontrol etmeyi mümkün kılar.",
+    "uz": "EasyControlFork — Android qurilmadan boshqa Android qurilmalarni boshqarish imkonini beruvchi scrcpy amalga oshirilishi.\n\nIlova boshqa Android qurilmani masofadan boshqarish imkonini beradi."
+  },
+  "com.dan.mergephotos": {
+    "ru": "Merge Photos — приложение для объединения фотографий, внутренне использующее OpenCL. Из двух или более снимков оно может создавать панорамы и выровненные изображения.\n\nТакже доступны создание HDR-снимков, имитация длинной выдержки, интерполяция и другие операции.",
+    "en": "Merge Photos is an app for combining photos that uses OpenCL internally. From two or more shots it can create panoramas and aligned images.\n\nCreating HDR shots, long-exposure effects, interpolation, and more are also available.",
+    "tr": "Merge Photos, dahili olarak OpenCL kullanan, fotoğrafları birleştirmek için bir uygulamadır. İki veya daha fazla çekimden panoramalar ve hizalanmış görüntüler oluşturabilir.\n\nHDR çekimleri oluşturma, uzun pozlama efektleri, interpolasyon ve daha fazlası da mevcuttur.",
+    "uz": "Merge Photos — ichki jihatdan OpenCL'dan foydalanadigan, suratlarni birlashtirish uchun ilova. Ikki yoki undan ortiq suratdan u panoramalar va tekislangan tasvirlar yaratishi mumkin.\n\nShuningdek HDR suratlar yaratish, uzoq ekspozitsiya effektlari, interpolyatsiya va boshqalar mavjud."
+  },
+  "com.dan.perspective": {
+    "ru": "Perspective — приложение для исправления перспективы на фотографиях. Внутренне оно использует OpenCL для загрузки, сохранения и трансформации снимков.\n\nЕсть автоматическое определение перспективы, хотя оно срабатывает не всегда корректно. В режиме редактирования можно зафиксировать направление (горизонтальное или вертикальное), чтобы перемещать точки только вдоль него.",
+    "en": "Perspective is an app for fixing perspective in photos. Internally it uses OpenCL to load, save, and warp images.\n\nThere is automatic perspective detection, though it does not always work correctly. In edit mode you can lock a direction (horizontal or vertical) to move points only along it.",
+    "tr": "Perspective, fotoğraflardaki perspektifi düzeltmek için bir uygulamadır. Dahili olarak görüntüleri yüklemek, kaydetmek ve bükmek için OpenCL kullanır.\n\nOtomatik perspektif algılama vardır, ancak her zaman doğru çalışmaz. Düzenleme modunda, noktaları yalnızca boyunca hareket ettirmek için bir yönü (yatay veya dikey) kilitleyebilirsiniz.",
+    "uz": "Perspective — suratlardagi perspektivani tuzatish uchun ilova. Ichki jihatdan u tasvirlarni yuklash, saqlash va egish uchun OpenCL'dan foydalanadi.\n\nAvtomatik perspektiva aniqlash mavjud, biroq u har doim ham to'g'ri ishlamaydi. Tahrirlash rejimida yo'nalishni (gorizontal yoki vertikal) mahkamlab, nuqtalarni faqat shu bo'ylab siljitish mumkin."
+  },
+  "com.dan.simplerawcamera": {
+    "ru": "Simple Raw Camera — простое приложение-камера, оформление которого напоминает настоящий фотоаппарат. Оно использует API Camera2.\n\nПриложение поддерживает только камеры с полным ручным управлением экспозицией и фокусом.",
+    "en": "Simple Raw Camera is a simple camera app whose look is inspired by a real camera. It uses the Camera2 API.\n\nThe app supports only cameras with full manual exposure and focus control.",
+    "tr": "Simple Raw Camera, görünümü gerçek bir kameradan esinlenen basit bir kamera uygulamasıdır. Camera2 API'sini kullanır.\n\nUygulama yalnızca tam manuel pozlama ve odak kontrolüne sahip kameraları destekler.",
+    "uz": "Simple Raw Camera — ko'rinishi haqiqiy fotoapparatga o'xshaydigan oddiy kamera ilovasi. U Camera2 API'sidan foydalanadi.\n\nIlova faqat to'liq qo'lda ekspozitsiya va fokusni boshqarishga ega kameralarni qo'llab-quvvatlaydi."
   }
 }
