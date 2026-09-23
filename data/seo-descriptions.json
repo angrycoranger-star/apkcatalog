@@ -31522,5 +31522,41 @@
     "en": "PerfMon+ is a simple performance monitor for Android.\n\nThe app shows a small floating window with device performance metrics: CPU frequency and load, GPU frequency and load, CPU memory bandwidth, the frequencies of various caches, and current memory usage.\n\nThis lets you watch the system's status while other apps are running.",
     "tr": "PerfMon+, Android için basit bir performans monitörüdür.\n\nUygulama, cihaz performans ölçümlerini içeren küçük bir kayan pencere gösterir: CPU frekansı ve yükü, GPU frekansı ve yükü, CPU bellek bant genişliği, çeşitli önbelleklerin frekansları ve geçerli bellek kullanımı.\n\nBu, diğer uygulamalar çalışırken sistemin durumunu izlemenize olanak tanır.",
     "uz": "PerfMon+ — Android uchun oddiy unumdorlik monitori.\n\nIlova qurilma unumdorligi ko'rsatkichlari bilan kichik suzuvchi oynani ko'rsatadi: protsessor chastotasi va yuki, grafik tezlatgich chastotasi va yuki, protsessor xotira o'tkazuvchanligi, turli keshlar chastotalari, shuningdek joriy xotira ishlatilishi.\n\nBu boshqa ilovalar ishlab turganda tizim holatini kuzatish imkonini beradi."
+  },
+  "net.typeblog.socks": {
+    "ru": "SocksDroid — клиент прокси для Android. Это обновлённая версия SocksDroid (клиента для xSocks) от PeterCxy, адаптированная для современных устройств Android.\n\nПриложение направляет трафик устройства через SOCKS-прокси.\n\nОбновление обеспечивает совместимость с новыми версиями Android.",
+    "en": "SocksDroid is a proxy client for Android. It is an updated version of SocksDroid (a client for xSocks) by PeterCxy, adapted for modern Android devices.\n\nThe app routes the device's traffic through a SOCKS proxy.\n\nThe update provides compatibility with newer Android versions.",
+    "tr": "SocksDroid, Android için bir proxy istemcisidir. PeterCxy tarafından geliştirilen SocksDroid'in (xSocks için bir istemci), modern Android cihazlar için uyarlanmış güncellenmiş bir sürümüdür.\n\nUygulama, cihazın trafiğini bir SOCKS proxy'si üzerinden yönlendirir.\n\nGüncelleme, daha yeni Android sürümleriyle uyumluluk sağlar.",
+    "uz": "SocksDroid — Android uchun proksi mijozi. Bu PeterCxy tomonidan yaratilgan SocksDroid'ning (xSocks uchun mijoz) zamonaviy Android qurilmalari uchun moslashtirilgan yangilangan versiyasi.\n\nIlova qurilma trafigini SOCKS proksisi orqali yo'naltiradi.\n\nYangilanish yangiroq Android versiyalari bilan moslikni ta'minlaydi."
+  },
+  "org.nuclearfog.nitterify": {
+    "ru": "Nitterify — приложение, которое перенаправляет ссылки X/Twitter на выбранный экземпляр Nitter.\n\nПри переходе по ссылке X/Twitter она открывается через Nitter.\n\nПриложению не требуется никаких дополнительных разрешений.",
+    "en": "Nitterify is an app that forwards X/Twitter links to a chosen Nitter instance.\n\nWhen you open an X/Twitter link, it is opened through Nitter instead.\n\nThe app requires no additional permissions.",
+    "tr": "Nitterify, X/Twitter bağlantılarını seçilen bir Nitter örneğine yönlendiren bir uygulamadır.\n\nBir X/Twitter bağlantısını açtığınızda, bunun yerine Nitter aracılığıyla açılır.\n\nUygulama ek izin gerektirmez.",
+    "uz": "Nitterify — X/Twitter havolalarini tanlangan Nitter nusxasiga yo'naltiradigan ilova.\n\nX/Twitter havolasini ochganingizda, u o'rniga Nitter orqali ochiladi.\n\nIlova hech qanday qo'shimcha ruxsat talab qilmaydi."
+  },
+  "org.otrsc.android": {
+    "ru": "OTR Speed Calculator — инструмент для расчёта скоростных характеристик транспортных средств в OTR.\n\nПриложение позволяет вычислить максимальную скорость, а также среднюю скорость.\n\nОно предназначено для соответствующих расчётов в рамках OTR.",
+    "en": "OTR Speed Calculator is a tool for working out the speed characteristics of vehicles in OTR.\n\nThe app lets you calculate the top speed, as well as the average speed.\n\nIt is intended for such calculations within OTR.",
+    "tr": "OTR Speed Calculator, OTR'deki araçların hız özelliklerini hesaplamak için bir araçtır.\n\nUygulama, en yüksek hızı ve ortalama hızı hesaplamanıza olanak tanır.\n\nOTR kapsamındaki bu tür hesaplamalar için tasarlanmıştır.",
+    "uz": "OTR Speed Calculator — OTR'dagi transport vositalarining tezlik xususiyatlarini hisoblash uchun vosita.\n\nIlova eng yuqori tezlikni, shuningdek o'rtacha tezlikni hisoblash imkonini beradi.\n\nU OTR doirasidagi shunday hisob-kitoblar uchun mo'ljallangan."
+  },
+  "org.woheller69.ImapLocate": {
+    "ru": "ImapLocate — приложение, которое определяет текущие координаты устройства с помощью служб GPS Android.\n\nПолученные координаты синхронизируются с учётной записью IMAP.\n\nТаким образом данные о местоположении сохраняются на почтовом сервере, доступном по IMAP.",
+    "en": "ImapLocate is an app that determines the device's current coordinates using Android's GPS location services.\n\nThe obtained coordinates are synchronized to an IMAP account.\n\nThis way the location data is stored on a mail server accessible over IMAP.",
+    "tr": "ImapLocate, Android'in GPS konum hizmetlerini kullanarak cihazın geçerli koordinatlarını belirleyen bir uygulamadır.\n\nElde edilen koordinatlar bir IMAP hesabıyla eşitlenir.\n\nBu şekilde konum verileri, IMAP üzerinden erişilebilen bir posta sunucusunda saklanır.",
+    "uz": "ImapLocate — Android'ning GPS joylashuv xizmatlaridan foydalanib qurilmaning joriy koordinatalarini aniqlaydigan ilova.\n\nOlingan koordinatalar IMAP hisobi bilan sinxronlanadi.\n\nShu tarzda joylashuv ma'lumotlari IMAP orqali kirish mumkin bo'lgan pochta serverida saqlanadi."
+  },
+  "soko.ekibun.xposed.applocale": {
+    "ru": "App Locale Mod (Xposed App Locale) — модуль Xposed, позволяющий задавать язык отдельно для каждого приложения.\n\nС его помощью разные приложения могут работать на разных языках, независимо от общего языка системы.\n\nДля работы требуется среда Xposed.",
+    "en": "App Locale Mod (Xposed App Locale) is an Xposed module that lets you set the language separately for each app.\n\nWith it, different apps can run in different languages, independent of the overall system language.\n\nAn Xposed environment is required for it to work.",
+    "tr": "App Locale Mod (Xposed App Locale), her uygulama için dili ayrı ayrı ayarlamanıza olanak tanıyan bir Xposed modülüdür.\n\nBununla, farklı uygulamalar genel sistem dilinden bağımsız olarak farklı dillerde çalışabilir.\n\nÇalışması için bir Xposed ortamı gereklidir.",
+    "uz": "App Locale Mod (Xposed App Locale) — har bir ilova uchun tilni alohida belgilash imkonini beruvchi Xposed moduli.\n\nUning yordamida turli ilovalar umumiy tizim tilidan qat'i nazar turli tillarda ishlashi mumkin.\n\nIshlashi uchun Xposed muhiti talab qilinadi."
+  },
+  "xzr.hkf": {
+    "ru": "Horizon Kernel Flasher — простое приложение для прошивки ядра на Android.\n\nОно позволяет устанавливать ядра, упакованные в flashable-архивы ZIP формата AnyKernel.\n\nПриложение предназначено для прошивки таких ZIP-архивов непосредственно с устройства.",
+    "en": "Horizon Kernel Flasher is a simple app for flashing a kernel on Android.\n\nIt lets you install kernels packaged as AnyKernel flashable ZIP archives.\n\nThe app is intended for flashing such ZIP archives directly from the device.",
+    "tr": "Horizon Kernel Flasher, Android'de bir çekirdek flash'lamak için basit bir uygulamadır.\n\nAnyKernel flash'lanabilir ZIP arşivleri olarak paketlenmiş çekirdekleri kurmanıza olanak tanır.\n\nUygulama, bu tür ZIP arşivlerini doğrudan cihazdan flash'lamak için tasarlanmıştır.",
+    "uz": "Horizon Kernel Flasher — Android'da yadroni flash qilish uchun oddiy ilova.\n\nU AnyKernel flash qilinadigan ZIP arxivlari sifatida paketlangan yadrolarni o'rnatish imkonini beradi.\n\nIlova bunday ZIP arxivlarni bevosita qurilmadan flash qilish uchun mo'ljallangan."
   }
 }
