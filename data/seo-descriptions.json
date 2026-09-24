@@ -201,7 +201,7 @@
     "ru": "Запустите любое действие и компонент Android-приложения напрямую. Исследуйте и протестируйте скрытые или альтернативные точки входа приложения. Инструмент отладки для разработчиков и опытных пользователей, управляющих компонентами приложения.",
     "en": "Launch any Android app activity and component directly. Explore and test hidden or alternate app entry points. Debugging tool for developers and power users managing app components.",
     "tr": "Herhangi bir Android uygulaması etkinliğini ve bileşenini doğrudan başlatın. Gizli veya alternatif uygulama giriş noktalarını keşfedin ve test edin. Uygulama bileşenlerini yönetmek için geliştiriciler ve ileri kullanıcılar için hata ayıklama aracı.",
-    "uz": "Ixtiyoriy Android ilovasi faoliyatini va komponentini to'g'ridan-to'g'ri ishga tushiring. Yashirin yoki muqobil ilovani kirish nuqtalarini o'rganing va test qiling. Ilovani komponentlarini boshqarish uchun ishlab chiqaruvchilar va tajribalı foydalanuvchilar uchun xato topish vositasi."
+    "uz": "Ixtiyoriy Android ilovasi faoliyatini va komponentini to'g'ridan-to'g'ri ishga tushiring. Yashirin yoki muqobil ilovani kirish nuqtalarini o'rganing va test qiling. Ilovani komponentlarini boshqarish uchun ishlab chiqaruvchilar va tajribali foydalanuvchilar uchun xato topish vositasi."
   },
   "exa.lnx.a": {
     "ru": "Запустите дистрибутивы Linux на Android с помощью AnLinux. Окружение на основе Termux для запуска команд и программного обеспечения Linux. Идеально для разработчиков, системных администраторов и энтузиастов Linux, которые хотят оболочку Linux на мобильном устройстве.",
@@ -309,7 +309,7 @@
     "ru": "Войдите в Doors of Doom — сложную экшн-игру с исследованиями. Навигируйте по опасным коридорам и таинственным камерам. Вдохновленный ретро подземелье-краулер со стратегическим боем.",
     "en": "Enter Doors of Doom - a challenging action game with exploration. Navigate through dangerous corridors and mysterious chambers. Retro-inspired dungeon crawler with strategic combat.",
     "tr": "Doom Kapıları - keşif ile zorlayıcı aksiyon oyunu girin. Tehlikeli koridorlar ve gizemli odaları gezin. Stratejik savaş ile retro-ilhamlı zindan keşifçi.",
-    "uz": "Doom Qapilari - tadqiqot bilan kuchli aksiyon o'yini kirish. Xavfli koridorlar va sirli kameralar orqali navigatsiya. Strategik kurash bilan retro-ilhomlanmish dungeon keşfchi."
+    "uz": "Doom Qapilari - tadqiqot bilan kuchli aksiyon o'yini kirish. Xavfli koridorlar va sirli kameralar orqali navigatsiya. Strategik kurash bilan retro uslubidagi zindon sarguzashti."
   },
   "com.tailgunnerx.piccollage": {
     "ru": "Создавайте красивые фотоколлажи и произведения смешанной техники. Объедините несколько фотографий с художественными эффектами и макетами. Творческий инструмент редактирования фотографий для создания персонализированного визуального искусства.",
@@ -366,10 +366,10 @@
     "uz": "Rasmlarni bir nechta format orasida aylantiring: BMP, GIF, JPG, PNG, TIF, WEBP. Samarali rasm boshqaruvi uchun toplu ishlovlash va sifat optimalashlash. Fotosuratchilar va dizaynerlar uchun zarur vosita."
   },
   "deckers.thibault.aves": {
-    "ru": "Приложение галереи и обозревателя метаданных, созданное с помощью Flutter. Просматривайте, организуйте и исследуйте фотографии с подробными метаданными. Мощный просмотрщик изображений для фотографов и цифровых архивариусов.",
-    "en": "Advanced image manipulation tool with extensive features. Crop, resize, apply filters, perform OCR, and more. Professional-grade image processing for photographers and designers.",
-    "tr": "Flutter ile oluşturulan galeri ve meta veri keşif uygulaması. Ayrıntılı meta veriler ile fotoğrafları göz atın, organize edin ve keşfedin. Fotoğrafçılar ve dijital arşivler için güçlü görüntü görüntüleyici.",
-    "uz": "Flutter bilan qurilgan galereya va meta-ma'lumot keşf ilovasi. Ayrıntilash meta-ma'lumotlar bilan rasmlarni ko'rish, tashkil qilish va o'rganing. Fotosuratchilar va raqamli arxivlar uchun kuchli rasm ko'rish."
+    "ru": "Aves — приложение-галерея и обозреватель метаданных изображений, созданное на Flutter.\n\nОно позволяет просматривать и упорядочивать фотографии, а также изучать их подробные метаданные.\n\nПриложение ориентировано на тех, кому важны сведения о снимках, — например, фотографов и тех, кто ведёт цифровые архивы.",
+    "en": "Aves is a gallery and image metadata explorer app built with Flutter.\n\nIt lets you browse and organize photos and examine their detailed metadata.\n\nThe app is aimed at people who care about information about their pictures, such as photographers and those keeping digital archives.",
+    "tr": "Aves, Flutter ile geliştirilmiş bir galeri ve görüntü meta verisi gezgini uygulamasıdır.\n\nFotoğraflara göz atmanıza, bunları düzenlemenize ve ayrıntılı meta verilerini incelemenize olanak tanır.\n\nUygulama, fotoğrafçılar ve dijital arşiv tutanlar gibi görüntüleri hakkındaki bilgilere önem veren kişilere yöneliktir.",
+    "uz": "Aves — Flutter asosida yaratilgan galereya va tasvir metama'lumotlarini ko'rish ilovasi.\n\nU fotosuratlarni ko'rish va tartiblash, shuningdek ularning batafsil metama'lumotlarini o'rganish imkonini beradi.\n\nIlova suratlari haqidagi ma'lumotlar muhim bo'lganlar, masalan fotograflar va raqamli arxiv yurituvchilar uchun mo'ljallangan."
   },
   "ru.tech.imageresizershrinker": {
     "ru": "Продвинутый инструмент манипуляции изображениями с обширными функциями. Обрезайте, изменяйте размер, применяйте фильтры, выполняйте OCR и многое другое. Обработка изображений профессионального уровня для фотографов и дизайнеров.",
@@ -465,7 +465,7 @@
     "ru": "Приложение NodeLook Android для мониторинга узлов и исследования сети. Отслеживайте сетевые узлы и системные ресурсы. Утилита для разработчиков и сетевых администраторов.",
     "en": "NodeLook Android app for node monitoring and network exploration. Track network nodes and system resources. Utility for developers and network administrators.",
     "tr": "Node izlemesi ve ağ keşfi için NodeLook Android uygulaması. Ağ düğümlerini ve sistem kaynaklarını takip edin. Geliştiriciler ve ağ yöneticileri için yardımcı program.",
-    "uz": "Node kuzatish va tarmoq keşf uchun NodeLook Android ilovasi. Tarmoq tugunlarini va tizim resurslarini kuzating. Ishlab chiqaruvchilar va tarmoq administratorlari uchun vosita."
+    "uz": "Node kuzatish va tarmoqni o'rganish uchun NodeLook Android ilovasi. Tarmoq tugunlarini va tizim resurslarini kuzating. Ishlab chiqaruvchilar va tarmoq administratorlari uchun vosita."
   },
   "de.volksverpetzer.app": {
     "ru": "Читайте статьи проверки фактов и анализ от Volksverpetzer. Будьте в курсе с помощью расследовательской журналистики на мобильном. Приложение проверки новостей и опровержения дезинформации.",
@@ -849,7 +849,7 @@
     "ru": "Приложение автоответа SMS для автоматических ответов на сообщения. Устанавливайте пользовательские ответы на входящие SMS-сообщения. Автоматизация сообщений для занятых пользователей.",
     "en": "SMS auto-reply app for automatic message responses. Set custom replies for incoming SMS messages. Message automation for busy users.",
     "tr": "Otomatik SMS yanıtı uygulaması için otomatik yanıt mesajları. Gelen SMS mesajları için özel yanıtlar ayarlayın. Meşgul kullanıcılar için ileti otomasyonu.",
-    "uz": "Avtomatik SMS javob ilovasi avtomatik xabar javobları uchun. Kiruvchi SMS xabarlar uchun maxsus javoblarni o'rnating. Band foydalanuvchilar uchun xabar avtomatsiyasi."
+    "uz": "Avtomatik SMS javob ilovasi avtomatik xabarlarga javob berish uchun. Kiruvchi SMS xabarlar uchun maxsus javoblarni o'rnating. Band foydalanuvchilar uchun xabar avtomatsiyasi."
   },
   "io.github.sms2email.sms2email": {
     "ru": "Пересылайте SMS-сообщения по электронной почте через сервер SMTP. Получайте текстовые сообщения и управляйте ими через электронную почту. Утилита пересылки сообщений.",
@@ -969,7 +969,7 @@
     "ru": "Синхронизируйте закладки приватно на разных браузерах и устройствах. Синхронизация закладок на основе облака без отслеживания. Менеджер закладок кросс-устройства.",
     "en": "Sync bookmarks privately across browsers and devices. Cloud-based bookmark synchronization without tracking. Cross-device bookmark manager.",
     "tr": "Tarayıcılar ve cihazlar arasında yer imlerine özel olarak senkronize edin. Takip olmayan bulut tabanlı yer imi senkronizasyonu. Cihaz arası yer imi yöneticisi.",
-    "uz": "Taraygichlar va qurilmalar orasida xakerlarni shaxsiy sinkronizatsiya qiling. Kuzatilmay bulut tabanlı yer imi sinkronizatsiyasi. Cross-device yer imi menejer."
+    "uz": "Taraygichlar va qurilmalar orasida xakerlarni shaxsiy sinkronizatsiya qiling. Kuzatilmay bulutga asoslangan yer imi sinkronizatsiyasi. Cross-device yer imi menejer."
   },
   "de.reimardoeffinger.quickdic": {
     "ru": "Приложение офлайн-словаря для Android с загружаемыми языковыми базами данных. Быстрый поиск слов без интернета. Справка многоязычного словаря.",
@@ -1173,7 +1173,7 @@
     "ru": "Ciyue — лёгкое приложение словаря Mdict с поддержкой на Android, Windows и Linux. Просматривайте и ищите словари в режиме офлайн с быстрым поиском.",
     "en": "Ciyue - lightweight Mdict dictionary app with cross-platform support for Android, Windows, and Linux. Browse and search dictionaries offline with fast lookup performance.",
     "tr": "Ciyue - Android, Windows ve Linux desteği olan hafif Mdict sözlük uygulaması. Hızlı arama performansı ile sözlüklere çevrimdışı göz atın ve arama yapın.",
-    "uz": "Ciyue - Android, Windows va Linux bo'yicha ko'p platformali qo'llab-quvvatlash bilan yengil Mdict lug'at ilovasi. Tez qidiruv bilan oflayn sözluklarga kirish va izlash."
+    "uz": "Ciyue - Android, Windows va Linux bo'yicha ko'p platformali qo'llab-quvvatlash bilan yengil Mdict lug'at ilovasi. Tez qidiruv bilan oflayn lug'atlarga kirish va izlash."
   },
   "com.daklok.biblelockscreen": {
     "ru": "Bible Lock Screen — отображайте ежедневные стихи из Библии на обоях экрана блокировки. Вдохновляющие Писания обновляются каждый день для утреннего размышления.",
@@ -1239,7 +1239,7 @@
     "ru": "iSpindle Plotter — приложение Android для домашних пивоваров, которое сопрягается с гидрометром iSpindle по WiFi. Отображайте показания ферментации и калибруйте измерения наклона и плотности в реальном времени.",
     "en": "iSpindle Plotter - Android app for home brewers that pairs with iSpindle hydrometer over WiFi. Plot fermentation readings and calibrate tilt-to-gravity measurements in real-time.",
     "tr": "iSpindle Plotter - iSpindle hidrometresi ile WiFi üzerinden eşleşen ev yapımı bira üreticileri için Android uygulaması. Fermantasyon okumalarını çizin ve gerçek zamanlı eğim-yoğunluk ölçümlerini kalibre edin.",
-    "uz": "iSpindle Plotter - WiFi orqali iSpindle gidrometri bilan juftlashtirgan uy pivovarlari uchun Android ilovasi. Fermentatsiya o'qishlari va real vaqt eğim-tortishiga asoslangan o'lchovlarni tekshirish."
+    "uz": "iSpindle Plotter - WiFi orqali iSpindle gidrometri bilan juftlashtirgan uy pivovarlari uchun Android ilovasi. Fermentatsiya o'qishlari va real vaqt og'ish burchagiga asoslangan o'lchovlarni tekshirish."
   },
   "io.github.wifi_password_manager": {
     "ru": "WiFi Password Manager — простое приложение для управления паролями WiFi на Android с использованием Shizuku или root-доступа. Просматривайте и управляйте сохранёнными учётными данными сети легко.",
@@ -1662,10 +1662,10 @@
     "uz": "PipePipe - SponsorBlock, ReturnYouTubeDislike va ilg'or xususiyatlar bilan yaxshilangan YouTube klijenti. NewPipe'dan tezroq va barqarorroq, o'q izohlar, qidiruv filtrlari va fon ijrosi bilan."
   },
   "S.N.A.K.E": {
-    "ru": "Worm 🐍 — простое приложение для рисования червей и змей пальцем. Поддержка мультисенсорного ввода для творческого веселья.",
-    "en": "Worm 🐍 - simple drawing app for sketching worms and snakes with your finger. Multi-touch supported for creative fun.",
-    "tr": "Worm 🐍 - parmağınızla solucanları ve yılanları çizmek için basit çizim uygulaması. Yaratıcı eğlence için çoklu dokunuş desteği.",
-    "uz": "Worm 🐍 - barmoq bilan chuvalkan va ilanlarni chizish uchun sodda chizish ilovasi. Ijodiy qiziq uchun ko'p-teginish qo'llab-quvvatlash."
+    "ru": "Worm — простое приложение для рисования червей и змей пальцем. Поддержка мультисенсорного ввода для творческого веселья.",
+    "en": "Worm - simple drawing app for sketching worms and snakes with your finger. Multi-touch supported for creative fun.",
+    "tr": "Worm - parmağınızla solucanları ve yılanları çizmek için basit çizim uygulaması. Yaratıcı eğlence için çoklu dokunuş desteği.",
+    "uz": "Worm - barmoq bilan chuvalkan va ilanlarni chizish uchun sodda chizish ilovasi. Ijodiy qiziq uchun ko'p-teginish qo'llab-quvvatlash."
   },
   "a2dp.Vol": {
     "ru": "A2DP Volume — автоматически регулирует громкость мультимедиа при подключении Bluetooth. Управляйте автомобильными стереосистемами и читайте текстовые сообщения через TTS во время вождения.",
@@ -1749,7 +1749,7 @@
     "ru": "Albi — трекер здоровья, ориентированный на конфиденциальность, сохраняет все данные на устройстве. Отслеживайте вес, артериальное давление, частоту сердечных сокращений, настроение и окружность талии с интерактивными диаграммами.",
     "en": "Albi - privacy-first health tracker keeping all data on-device. Track weight, blood pressure, heart rate, mood, and waist measurements with interactive charts.",
     "tr": "Albi - tüm verileri cihazda tutan gizlilik odaklı sağlık izleyici. İnteraktif grafiklerle ağırlık, kan basıncı, kalp hızı, ruh hali ve bel çevresi izleyin.",
-    "uz": "Albi - barcha ma'lumotlarni qurilmada saqlovchi maxfiylik markazlashtirilgan sog'liq treking. Interaktiv diagrammalar bilan vaznı, qon bosimini, yurak urish chastotasini, ruhiyat va bel perimetri kuzating."
+    "uz": "Albi - barcha ma'lumotlarni qurilmada saqlovchi maxfiylik markazlashtirilgan sog'liq treking. Interaktiv diagrammalar bilan vazn, qon bosimini, yurak urish chastotasini, ruhiyat va bel perimetri kuzating."
   },
   "allen.town.focus.mastodon": {
     "ru": "FocusMastodon — клиент Mastodon с интерфейсом Material Design. Высокая кастомизируемость темы, фоновая синхронизация, мощные фильтры отключения звука, встроенная поддержка YouTube и браузер, ориентированный на читаемость.",
@@ -13173,7 +13173,7 @@
     "ru": "InstaDownload сохраняет ролики и фотографии из Instagram прямо в папку загрузок, без учётной записи.\n\nВставьте ссылку на публичную публикацию или reel и нажмите кнопку: файл окажется в папке «Загрузки», а по завершении придёт уведомление. Ссылку можно и передать в приложение через «Поделиться».\n\nРолики сохраняются в MP4, фотографии — в JPG; поддерживаются адреса вида instagram.com/reel/, /p/ и /tv/. Рекламы, слежения и аналитики нет, исходный код открыт. Из разрешений нужны доступ в интернет для загрузки и доступ к хранилищу для сохранения.",
     "en": "InstaDownload saves Instagram reels and photos straight to your Downloads folder, with no account required.\n\nPaste the URL of any public reel or post and tap Download: the file lands in Downloads and a notification tells you when it is done. A link can also be shared to the app instead of pasted.\n\nReels are saved as MP4 videos and photos as JPG images; instagram.com/reel/, /p/ and /tv/ links are supported. There are no ads, no tracking and no analytics, and the source is fully open. The permissions used are internet, to fetch the media, and storage, to save it.",
     "tr": "InstaDownload, Instagram reels ve fotoğraflarını hesap gerektirmeden doğrudan İndirilenler klasörünüze kaydeder.\n\nHerkese açık bir reel ya da gönderinin adresini yapıştırıp indir düğmesine dokunun: dosya İndirilenler klasörüne iner ve bittiğinde bir bildirim alırsınız. Bağlantıyı yapıştırmak yerine uygulamayla paylaşabilirsiniz de.\n\nReels MP4 video, fotoğraflar JPG görsel olarak kaydedilir; instagram.com/reel/, /p/ ve /tv/ bağlantıları desteklenir. Reklam, izleme ve analitik yoktur, kaynak kodu tümüyle açıktır. Kullanılan izinler: medyayı almak için internet, kaydetmek için depolama.",
-    "uz": "InstaDownload Instagram'dagi rils va suratlarni to'g'ridan-to'g'ri yuklamalar papkasiga saqlaydi, hisob esa kerak emas.\n\nOchiq post yoki rils havolasini qo'ying va tugmani bosing: fayl \"Yuklamalar\" papkasiga tushadi, tugagach bildirishnoma keladi. Havolani qo'yish o'rniga \"Ulashish\" orqali ilovaga uzatish ham mumkin.\n\nRilslar MP4, suratlar JPG sifatida saqlanadi; instagram.com/reel/, /p/ va /tv/ ko'rinishidagi manzillar qo'llab-quvvatlanadi. Reklama, kuzatuv va analitika yo'q, manba kodi ochiq. Ruxsatlardan medianı olish uchun internet va saqlash uchun xotira kerak."
+    "uz": "InstaDownload Instagram'dagi rils va suratlarni to'g'ridan-to'g'ri yuklamalar papkasiga saqlaydi, hisob esa kerak emas.\n\nOchiq post yoki rils havolasini qo'ying va tugmani bosing: fayl \"Yuklamalar\" papkasiga tushadi, tugagach bildirishnoma keladi. Havolani qo'yish o'rniga \"Ulashish\" orqali ilovaga uzatish ham mumkin.\n\nRilslar MP4, suratlar JPG sifatida saqlanadi; instagram.com/reel/, /p/ va /tv/ ko'rinishidagi manzillar qo'llab-quvvatlanadi. Reklama, kuzatuv va analitika yo'q, manba kodi ochiq. Ruxsatlardan mediani olish uchun internet va saqlash uchun xotira kerak."
   },
   "com.vanaccess.bms": {
     "ru": "VanAccess — открытое приложение для наблюдения за системами аккумуляторов LiFePO4 и сопутствующими устройствами питания по Bluetooth Low Energy.\n\nНа панели BMS в реальном времени видны заряд, напряжение, ток, мощность и температура. Напряжения отдельных ячеек выводятся столбчатой диаграммой с выделением минимума, максимума и разброса; рядом — число циклов, состояние здоровья батареи, флаги защит и состояние полевых транзисторов.\n\nПоддерживаются контроллеры заряда Victron SmartSolar MPPT через зашифрованные рассылки и преобразователи Victron Orion DC-DC, а также управление реле на панели Ai-Tanker. Есть сканер устройств BLE с уровнем сигнала и автоматическое переподключение через службу переднего плана.",
@@ -14733,7 +14733,7 @@
     "ru": "ParkenDD показывает, сколько свободных мест на парковках в ряде европейских городов.\n\nСейчас в списке Ольборг, Орхус, Дрезден, Франкфурт-на-Майне, Фрайбург, Гамбург, Ингольштадт и Цюрих; со временем добавятся и другие.\n\nСам сайт проекта пока доступен только на немецком, а приложение переведено на английский и несколько других языков; переводы продолжают добавлять.",
     "en": "ParkenDD shows available parking slots in some European cities.\n\nCurrently the list includes Aalborg, Aarhus, Dresden, Frankfurt a.M., Freiburg i.B., Hamburg, Ingolstadt and Zurich, with other cities to be added over time.\n\nThe project homepage is only available in German at the moment, while the app is translated into English and a few other languages, with further languages to come.",
     "tr": "ParkenDD, bazı Avrupa şehirlerindeki boş otopark yerlerini gösterir.\n\nŞu an listede Aalborg, Aarhus, Dresden, Frankfurt a.M., Freiburg i.B., Hamburg, Ingolstadt ve Zürih var; zamanla başka şehirler de eklenecek.\n\nProjenin web sitesi şimdilik yalnızca Almanca; uygulama ise İngilizce ve birkaç başka dile çevrilmiştir, yeni diller de gelecek.",
-    "uz": "ParkenDD bir qator Yevropa shaharlarida bo'sh turargoh joylari qanchaligini ko'rsatadi.\n\nHozircha ro'yxatda Olborg, Orxus, Drezden, Frankfurt-am-Mayn, Frayburg, Gamburg, Ingolshtadt va Sürix bor; vaqt o'tib boshqalari qo'shiladi.\n\nLoyiha sayti hozircha faqat nemis tilida, ilova esa ingliz va yana bir necha tilga tarjima qilingan, tarjimalar qo'shilishda davom etmoqda."
+    "uz": "ParkenDD bir qator Yevropa shaharlarida bo'sh turargoh joylari qanchaligini ko'rsatadi.\n\nHozircha ro'yxatda Olborg, Orxus, Drezden, Frankfurt-am-Mayn, Frayburg, Gamburg, Ingolshtadt va Syurix bor; vaqt o'tib boshqalari qo'shiladi.\n\nLoyiha sayti hozircha faqat nemis tilida, ilova esa ingliz va yana bir necha tilga tarjima qilingan, tarjimalar qo'shilishda davom etmoqda."
   },
   "de.jl.notificationlog": {
     "ru": "NotificationLog сохраняет системные уведомления на устройстве, чтобы их можно было пересмотреть позже.\n\nЗаписи просматриваются, выгружаются и удаляются — как все сразу, так и только по одному приложению.\n\nДля работы используются доступ к уведомлениям и список установленных приложений. На старых версиях Android, где разрешения на доступ к уведомлениям нет, вместо него применяется служба специальных возможностей.",
@@ -27942,10 +27942,10 @@
     "uz": "HopToDesk — bepul masofaviy ish stoli ilovasi. U ekraningizni ulashish, fayllarni uzatish va masofaviy qurilmalarni uchdan-uchgacha shifrlash bilan boshqarish imkonini beradi.\n\nMasofaviy qurilma Android qurilmangizni sichqoncha yoki tegish bilan boshqarishi uchun HopToDesk'ga maxsus imkoniyatlar xizmatidan foydalanishga ruxsat berish kerak, masofaviy boshqaruv shu xizmat orqali amalga oshiriladi. Imkoniyatlar orasida ekranni ulashish, masofaviy boshqaruv, chat, fayl uzatish, Wake-On-LAN va ikki bosqichli autentifikatsiya bor."
   },
   "com.htetznaing.adbotg": {
-    "ru": "ADB⚡OTG позволяет выполнять команды ADB, подключив один Android-смартфон к другому. Приложение работает без root-доступа и дополнительных настроек.\n\nБлагодаря OTG телефон Android может выступать в роли хоста, подобно ПК, и подключаться к другим устройствам, в том числе к другим телефонам Android, чтобы, например, устанавливать на них APK-файлы командой adb install.",
-    "en": "ADB⚡OTG lets you run ADB commands by connecting one Android smartphone to another. The app works without root or additional setup.\n\nThanks to OTG, an Android phone can act as a PC-like host and connect to other devices, including other Android phones, to, for example, install APK files on them with the adb install command.",
-    "tr": "ADB⚡OTG, bir Android akıllı telefonu diğerine bağlayarak ADB komutları çalıştırmanıza olanak tanır. Uygulama root veya ek kurulum olmadan çalışır.\n\nOTG sayesinde bir Android telefon, PC benzeri bir ana bilgisayar gibi davranabilir ve diğer cihazlara, diğer Android telefonlar dahil, örneğin adb install komutuyla APK dosyaları yüklemek için bağlanabilir.",
-    "uz": "ADB⚡OTG bir Android smartfonni boshqasiga ulab, ADB buyruqlarini bajarish imkonini beradi. Ilova root yoki qo'shimcha sozlashsiz ishlaydi.\n\nOTG tufayli Android telefon PC'ga o'xshash xost vazifasini bajarishi va boshqa qurilmalarga, jumladan boshqa Android telefonlarga ulanib, masalan ularga adb install buyrug'i bilan APK fayllarni o'rnatishi mumkin."
+    "ru": "ADB OTG позволяет выполнять команды ADB, подключив один Android-смартфон к другому. Приложение работает без root-доступа и дополнительных настроек.\n\nБлагодаря OTG телефон Android может выступать в роли хоста, подобно ПК, и подключаться к другим устройствам, в том числе к другим телефонам Android, чтобы, например, устанавливать на них APK-файлы командой adb install.",
+    "en": "ADB OTG lets you run ADB commands by connecting one Android smartphone to another. The app works without root or additional setup.\n\nThanks to OTG, an Android phone can act as a PC-like host and connect to other devices, including other Android phones, to, for example, install APK files on them with the adb install command.",
+    "tr": "ADB OTG, bir Android akıllı telefonu diğerine bağlayarak ADB komutları çalıştırmanıza olanak tanır. Uygulama root veya ek kurulum olmadan çalışır.\n\nOTG sayesinde bir Android telefon, PC benzeri bir ana bilgisayar gibi davranabilir ve diğer cihazlara, diğer Android telefonlar dahil, örneğin adb install komutuyla APK dosyaları yüklemek için bağlanabilir.",
+    "uz": "ADB OTG bir Android smartfonni boshqasiga ulab, ADB buyruqlarini bajarish imkonini beradi. Ilova root yoki qo'shimcha sozlashsiz ishlaydi.\n\nOTG tufayli Android telefon PC'ga o'xshash xost vazifasini bajarishi va boshqa qurilmalarga, jumladan boshqa Android telefonlarga ulanib, masalan ularga adb install buyrug'i bilan APK fayllarni o'rnatishi mumkin."
   },
   "com.huc.android_ble_monitor": {
     "ru": "BLE-Monitor (Bluetooth Low Energy Monitor) — приложение для анализа и обратной разработки BLE-устройств с помощью логирования Snoop и Android BLE API. Оно разработано в рамках магистерского проекта в Университете Ройтлингена (Германия).\n\nПриложение позволяет сканировать BLE-устройства и получать передаваемую ими информацию, подключаться к обнаруженным серверам GATT, получать сервисы, характеристики и дескрипторы, а также распознавать стандартизированные сервисы и характеристики.",
