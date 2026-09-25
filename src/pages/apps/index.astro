@@ -1,6 +1,10 @@
 ---
 import CatalogSections from '../../components/CatalogSections.astro';
 import { t } from '../../i18n/index.js';
+import { HAS_APPS } from '../../lib/apps.js';
+
+/* A thematic build without apps has no listing; send visitors home. */
+if (!HAS_APPS) return Astro.redirect('/');
 ---
 
 <CatalogSections

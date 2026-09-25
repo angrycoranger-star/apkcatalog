@@ -1,4 +1,4 @@
-import { getAllApps, usedCategories, DATA_META } from '../lib/apps.js';
+import { getAllApps, usedCategories, DATA_META, HAS_APPS, HAS_GAMES } from '../lib/apps.js';
 import { getCollections } from '../lib/collections.js';
 
 /* Hand-rolled rather than pulled from @astrojs/sitemap: this build needs
@@ -47,15 +47,17 @@ export function GET({ site }) {
 
   const entries = [
     url(site, '/', { lastmod: generated, priority: '1.0', changefreq: 'daily' }),
-    url(site, '/apps/', { lastmod: generated, priority: '0.9', changefreq: 'daily' }),
-    url(site, '/games/', { lastmod: generated, priority: '0.9', changefreq: 'daily' }),
+    ...(HAS_APPS ? [url(site, '/apps/', { lastmod: generated, priority: '0.9', changefreq: 'daily' })] : []),
+    ...(HAS_GAMES ? [url(site, '/games/', { lastmod: generated, priority: '0.9', changefreq: 'daily' })] : []),
     ...usedCategories('app').map((entry) =>
       url(site, `/apps/${entry.category.slug}/`, { lastmod: generated, priority: '0.7', changefreq: 'weekly' })
     ),
     ...usedCategories('game').map((entry) =>
       url(site, `/games/${entry.category.slug}/`, { lastmod: generated, priority: '0.7', changefreq: 'weekly' })
     ),
-    url(site, '/collections/', { lastmod: generated, priority: '0.7', changefreq: 'weekly' }),
+    ...(getCollections().length > 0
+      ? [url(site, '/collections/', { lastmod: generated, priority: '0.7', changefreq: 'weekly' })]
+      : []),
     ...getCollections().map((c) =>
       url(site, `/collections/${c.slug}/`, { lastmod: generated, priority: '0.6', changefreq: 'weekly' })
     ),

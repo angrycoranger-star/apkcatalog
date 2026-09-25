@@ -2,14 +2,17 @@
 import SearchBox from './SearchBox.astro';
 import LanguageSwitcher from './LanguageSwitcher.astro';
 import { t, navHref } from '../i18n/index.js';
+import { HAS_APPS, HAS_GAMES } from '../lib/apps.js';
+import { getCollections } from '../lib/collections.js';
 
 const path = Astro.url.pathname;
+/* A thematic build (games-only, open-source-only…) hides empty sections. */
 const links = [
   { href: '/', label: t('nav.home') },
-  { href: '/apps/', label: t('nav.apps') },
-  { href: '/games/', label: t('nav.games') },
-  { href: '/collections/', label: t('nav.collections') }
-];
+  HAS_APPS && { href: '/apps/', label: t('nav.apps') },
+  HAS_GAMES && { href: '/games/', label: t('nav.games') },
+  getCollections().length > 0 && { href: '/collections/', label: t('nav.collections') }
+].filter(Boolean);
 const isActive = (href) => (href === '/' ? path === '/' : path.startsWith(href));
 /* The homepage hero has its own large search field. */
 const showMobileSearch = path !== '/';

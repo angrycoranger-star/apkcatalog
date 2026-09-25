@@ -3,7 +3,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import SearchBox from '../components/SearchBox.astro';
 import Carousel from '../components/Carousel.astro';
 import { t } from '../i18n/index.js';
-import { featuredApps, popularApps, topRatedApps, recentApps, usedCategories, getAllApps } from '../lib/apps.js';
+import { featuredApps, popularApps, topRatedApps, recentApps, usedCategories, getAllApps, HAS_APPS, HAS_GAMES } from '../lib/apps.js';
 import { featuredCollections } from '../lib/collections.js';
 
 const collections = featuredCollections(6);
@@ -14,6 +14,9 @@ const recent = recentApps(14);
 const gameCategories = usedCategories('game');
 const appCategories = usedCategories('app');
 const total = getAllApps().length;
+/* "View all" targets must exist on this build (a games-only site has no /apps/). */
+const appsHref = HAS_APPS ? '/apps/' : '/games/';
+const gamesHref = HAS_GAMES ? '/games/' : '/apps/';
 
 const jsonLd = {
   '@context': 'https://schema.org',
@@ -42,16 +45,16 @@ const jsonLd = {
       <Carousel id="featured" title={t('home.featured')} apps={featured} />
     )}
     {popular.length > 0 && (
-      <Carousel id="popular" title={t('home.popular')} apps={popular} moreHref="/apps/" />
+      <Carousel id="popular" title={t('home.popular')} apps={popular} moreHref={appsHref} />
     )}
     {topRated.length > 0 && (
-      <Carousel id="top-rated" title={t('home.topRated')} apps={topRated} moreHref="/games/" />
+      <Carousel id="top-rated" title={t('home.topRated')} apps={topRated} moreHref={gamesHref} />
     )}
 
     <section class="mt-12 px-4" aria-labelledby="categories-title">
       <h2 id="categories-title" class="text-lg font-semibold tracking-tight sm:text-xl">{t('home.categories')}</h2>
 
-      <h3 class="mt-5 text-sm font-medium text-muted">{t('home.gameCategories')}</h3>
+      {gameCategories.length > 0 && <h3 class="mt-5 text-sm font-medium text-muted">{t('home.gameCategories')}</h3>}
       <ul class="mt-2 grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-5">
         {gameCategories.map((entry) => (
           <li>
@@ -66,7 +69,7 @@ const jsonLd = {
         ))}
       </ul>
 
-      <h3 class="mt-6 text-sm font-medium text-muted">{t('home.appCategories')}</h3>
+      {appCategories.length > 0 && <h3 class="mt-6 text-sm font-medium text-muted">{t('home.appCategories')}</h3>}
       <ul class="mt-2 grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-5">
         {appCategories.map((entry) => (
           <li>
@@ -102,7 +105,7 @@ const jsonLd = {
     )}
 
     {recent.length > 0 && (
-      <Carousel id="recent" title={t('home.newApps')} apps={recent} moreHref="/apps/" />
+      <Carousel id="recent" title={t('home.newApps')} apps={recent} moreHref={appsHref} />
     )}
   </div>
 </BaseLayout>

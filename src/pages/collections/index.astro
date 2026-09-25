@@ -6,6 +6,9 @@ import { t } from '../../i18n/index.js';
 
 const collections = getCollections();
 
+/* A thematic build whose cards appear in no collection has no listing. */
+if (collections.length === 0) return Astro.redirect('/');
+
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'CollectionPage',

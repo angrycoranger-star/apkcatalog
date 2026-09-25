@@ -1,5 +1,6 @@
 import { UI } from './ui.js';
 import { LANGS, DEFAULT_LANG, LANG_HOSTS } from '../../config/catalog.config.js';
+import { SITES, resolveSiteId } from '../../config/sites.config.js';
 
 /** The language this build is being produced for. */
 export const LANG = LANGS.includes(import.meta.env.PUBLIC_SITE_LANG)
@@ -7,6 +8,11 @@ export const LANG = LANGS.includes(import.meta.env.PUBLIC_SITE_LANG)
   : DEFAULT_LANG;
 
 export const DOMAIN = import.meta.env.PUBLIC_SITE_DOMAIN || 'apk4orge.com';
+
+/** Thematic site this build is for (config/sites.config.js), or null for the whole catalog. */
+export const SITE_ID = resolveSiteId(import.meta.env.PUBLIC_SITE_ID);
+
+const SITE_LABELS = SITE_ID ? SITES[SITE_ID].labels : null;
 
 export const CONTACT_EMAIL = import.meta.env.PUBLIC_CONTACT_EMAIL || `hello@${DOMAIN}`;
 
@@ -27,7 +33,9 @@ export const LANG_NAMES = { ru: 'Русский', en: 'English', tr: 'Türkçe',
  * default language and finally to the key itself so nothing renders blank.
  */
 export function t(key, lang = LANG, vars = null) {
-  let value = UI[lang]?.[key] ?? UI[DEFAULT_LANG]?.[key] ?? key;
+  /* A thematic site overrides its own branding (name, tagline, hero copy). */
+  let value =
+    SITE_LABELS?.[lang]?.[key] ?? UI[lang]?.[key] ?? SITE_LABELS?.[DEFAULT_LANG]?.[key] ?? UI[DEFAULT_LANG]?.[key] ?? key;
   if (vars) {
     for (const [name, replacement] of Object.entries(vars)) {
       value = value.replaceAll(`{${name}}`, replacement);

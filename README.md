@@ -366,12 +366,49 @@ preserving the path. The middleware ships in all four projects but only acts on
 the apex host — attach `apk4orge.com` (and `www.`) to one project, usually the
 `ru` one. Language decision logic lives in `config/geo.js` and is unit-tested.
 
+### Thematic sites (splitting the catalog)
+
+The catalog can also be split into independent **thematic sites**, each on its
+own domain with its own slice of cards. The split lives in
+`config/sites.config.js`; `SITE_ID` picks the site at build time. Without
+`SITE_ID` a build carries the whole catalog, exactly as above.
+
+| `SITE_ID` | What it holds | Cards |
+|---|---|---|
+| `games` | every game (Google Play + the few open-source ones) | ~1133 |
+| `apps` | Google Play apps, games excluded | ~1348 |
+| `oss-tools` | open-source (F-Droid/GitHub) apps in the Tools category | ~2336 |
+| `oss-apps` | all other open-source apps (messengers, players, maps, …) | ~2645 |
+
+Every card belongs to exactly one site, so no page is published twice across
+domains. `npm run sites` prints the split and fails if a card matches no site or
+several (it also runs as part of `npm test`). Each site gets its own name,
+tagline and home-page copy per language (the `labels` in the config); sections
+with no cards (`/apps/` on the games site, `/games/` elsewhere, empty
+collections) drop out of the navigation, home page and sitemap, and their
+listing URL redirects home.
+
+Languages stay a separate dimension: a thematic site is deployed like the
+language projects above, one Vercel project per site × language, with
+`SITE_DOMAIN` set to **that site's own domain** (the build warns if it is
+missing, since canonical/hreflang URLs would otherwise collide):
+
+| Project | Env vars | Domain |
+|---|---|---|
+| `games-ru` | `SITE_ID=games`, `SITE_LANG=ru`, `SITE_DOMAIN=<games domain>` | `ru.<games domain>` |
+| `oss-tools-en` | `SITE_ID=oss-tools`, `SITE_LANG=en`, `SITE_DOMAIN=<tools domain>` | `en.<tools domain>` |
+| … | one per site × language you publish | |
+
+To move the boundaries (e.g. carve another category out of `oss-apps`), edit
+the `match` rules in `config/sites.config.js` and run `npm run sites`.
+
 ## Environment variables
 
 | Variable | Default | Used by |
 |---|---|---|
 | `SITE_LANG` | `ru` | build — selects the language (`ru`/`en`/`tr`/`uz`) |
 | `SITE_DOMAIN` | `apk4orge.com` | build — canonical + hreflang URLs |
+| `SITE_ID` | _(none)_ | build — thematic site (`games`/`apps`/`oss-tools`/`oss-apps`); unset = whole catalog |
 | `PUBLIC_CONTACT_EMAIL` | `hello@<domain>` | contact and legal pages |
 | `REQUEST_DELAY_MS` | `1200` | collectors — delay between requests |
 | `REQUEST_TIMEOUT_MS` | `20000` | collectors — per-request timeout (aborts the socket) |

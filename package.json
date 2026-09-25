@@ -19,7 +19,7 @@
     "data:validate": "node scripts/validate-data.js",
     "smoke": "node scripts/smoke.js",
     "seed": "node scripts/seed-sample-data.js",
-    "test": "npm run data:validate && npm run smoke && npm run serp:selftest",
+    "test": "npm run data:validate && npm run sites && npm run smoke && npm run serp:selftest",
     "build:uz": "SITE_LANG=uz astro build --outDir dist/uz",
     "add-apk": "node scripts/add-apk.js",
     "fdroid": "node scripts/fdroid-import.js",
@@ -27,7 +27,8 @@
     "openapk": "node scripts/openapk-import.js",
     "serp": "node scripts/serp-monitor.js",
     "serp:selftest": "node scripts/serp-selftest.js",
-    "seo": "node scripts/seo-batch.js"
+    "seo": "node scripts/seo-batch.js",
+    "sites": "node scripts/sites.js"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.124.0",

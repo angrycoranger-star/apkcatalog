@@ -4,7 +4,8 @@ import fdroidApps from '../../data/fdroid-apps.json';
 import githubApps from '../../data/github-apps.json';
 import seoDescriptions from '../../data/seo-descriptions.json';
 import meta from '../../data/apps.meta.json';
-import { LANG, appHref } from '../i18n/index.js';
+import { LANG, appHref, SITE_ID } from '../i18n/index.js';
+import { siteMatcher } from '../../config/sites.config.js';
 import { DEFAULT_LANG } from '../../config/catalog.config.js';
 import { categoryById, isGameCategory } from '../../config/catalog.config.js';
 
@@ -116,10 +117,15 @@ function mergeSources(custom, scraped) {
   return out;
 }
 
+/* A thematic build (SITE_ID) keeps only its own slice of the catalog; the
+   filter runs on raw records so every page, section, collection, the search
+   index and the sitemap follow it without further changes. */
 const ALL = mergeSources(
   [...customApps, ...fdroidApps, ...githubApps],
   rawApps
-).map((app) => normalize(app, LANG));
+)
+  .filter(siteMatcher(SITE_ID))
+  .map((app) => normalize(app, LANG));
 
 export function getAllApps() {
   return ALL;
@@ -132,6 +138,10 @@ export function getApps() {
 export function getGames() {
   return ALL.filter((a) => a.type === 'game');
 }
+
+/** Whether this build has any apps / games — sections without cards are hidden. */
+export const HAS_APPS = ALL.some((a) => a.type === 'app');
+export const HAS_GAMES = ALL.some((a) => a.type === 'game');
 
 export function getByType(type) {
   return type === 'game' ? getGames() : getApps();
