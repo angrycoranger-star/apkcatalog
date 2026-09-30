@@ -13,3 +13,6 @@ data/.cache/
 *.apk
 /releases/*
 !/releases/.gitkeep
+
+# Local/production multi-site builds (npm run sites:build)
+/dist-sites/

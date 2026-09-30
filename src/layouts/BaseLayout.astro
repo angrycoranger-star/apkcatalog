@@ -20,7 +20,7 @@ const {
 const pathname = Astro.url.pathname;
 // App pages under the per-app subdomain scheme pass their own absolute canonical
 // and hreflang set; everything else derives them from the path on this host.
-const canonical = canonicalProp ?? new URL(pathname, Astro.site ?? `https://${LANG}.${DOMAIN}`).href;
+const canonical = canonicalProp ?? new URL(pathname, Astro.site ?? hostFor(LANG)).href;
 const alternates = alternatesProp ?? alternateUrls(pathname);
 const xDefaultUrl = alternatesProp?.find((a) => a.lang === DEFAULT_LANG)?.url ?? `${hostFor(DEFAULT_LANG)}${pathname}`;
 const fullTitle = title ? `${title} — ${t('site.name')}` : `${t('site.name')} — ${t('site.tagline')}`;

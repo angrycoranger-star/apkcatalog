@@ -402,6 +402,11 @@ missing, since canonical/hreflang URLs would otherwise collide):
 To move the boundaries (e.g. carve another category out of `oss-apps`), edit
 the `match` rules in `config/sites.config.js` and run `npm run sites`.
 
+To run every site × language on one machine behind a single Caddy server
+(the self-hosted alternative to per-project Vercel deploys), see
+[`deploy/README.md`](deploy/README.md): `npm run sites:build` then
+`npm run sites:serve`, served at `http://<lang>.<site>.localhost:8080/`.
+
 ## Environment variables
 
 | Variable | Default | Used by |
@@ -409,6 +414,7 @@ the `match` rules in `config/sites.config.js` and run `npm run sites`.
 | `SITE_LANG` | `ru` | build — selects the language (`ru`/`en`/`tr`/`uz`) |
 | `SITE_DOMAIN` | `apk4orge.com` | build — canonical + hreflang URLs |
 | `SITE_ID` | _(none)_ | build — thematic site (`games`/`apps`/`oss-tools`/`oss-apps`); unset = whole catalog |
+| `SITE_URL_SCHEME` / `SITE_URL_PORT` | `https` / _(none)_ | build — origin shape; the local multi-site run uses `http` on `8080` |
 | `PUBLIC_CONTACT_EMAIL` | `hello@<domain>` | contact and legal pages |
 | `REQUEST_DELAY_MS` | `1200` | collectors — delay between requests |
 | `REQUEST_TIMEOUT_MS` | `20000` | collectors — per-request timeout (aborts the socket) |

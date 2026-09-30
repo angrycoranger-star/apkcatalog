@@ -44,9 +44,18 @@ export function t(key, lang = LANG, vars = null) {
   return value;
 }
 
+/* https in production; a local multi-site run uses http on a port (:8080). */
+const SCHEME = import.meta.env.PUBLIC_SITE_URL_SCHEME === 'http' ? 'http' : 'https';
+const PORT = import.meta.env.PUBLIC_SITE_URL_PORT ? `:${import.meta.env.PUBLIC_SITE_URL_PORT}` : '';
+
+/** Origin for a host label under a domain, e.g. https://en.apk4orge.com. */
+function origin(label, domain) {
+  return `${SCHEME}://${label}.${domain}${PORT}`;
+}
+
 /** Absolute URL of another language's build of the same path. */
 export function hostFor(lang, domain = DOMAIN) {
-  return `https://${LANG_HOSTS[lang] ?? lang}.${domain}`;
+  return origin(LANG_HOSTS[lang] ?? lang, domain);
 }
 
 /**
@@ -61,7 +70,7 @@ export const APP_SUBDOMAINS = import.meta.env.PUBLIC_APP_SUBDOMAINS === '1';
 /** Absolute URL of an app for a language, in whichever scheme is active. */
 export function appUrlFor(slug, lang = LANG, domain = DOMAIN) {
   return APP_SUBDOMAINS
-    ? `https://${slug}.${LANG_HOSTS[lang] ?? lang}.${domain}/`
+    ? `${origin(`${slug}.${LANG_HOSTS[lang] ?? lang}`, domain)}/`
     : `${hostFor(lang, domain)}/app/${slug}/`;
 }
 

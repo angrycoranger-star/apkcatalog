@@ -5,6 +5,10 @@ import { resolveSiteId } from './config/sites.config.js';
 
 const lang = LANGS.includes(process.env.SITE_LANG) ? process.env.SITE_LANG : DEFAULT_LANG;
 const domain = process.env.SITE_DOMAIN || 'apk4orge.com';
+/* Origin shape. Production is https on the default port; a local multi-site
+   run (npm run sites:serve) serves http on a high port, e.g. :8080. */
+const scheme = process.env.SITE_URL_SCHEME === 'http' ? 'http' : 'https';
+const port = /^\d+$/.test(process.env.SITE_URL_PORT ?? '') ? process.env.SITE_URL_PORT : '';
 /* Thematic site (config/sites.config.js); empty = the whole catalog. */
 const siteId = resolveSiteId(process.env.SITE_ID) ?? '';
 if (siteId && !process.env.SITE_DOMAIN) {
@@ -19,7 +23,7 @@ if (siteId && !process.env.SITE_DOMAIN) {
  * language prefix ever appears in a URL.
  */
 export default defineConfig({
-  site: `https://${lang}.${domain}`,
+  site: `${scheme}://${lang}.${domain}${port ? `:${port}` : ''}`,
   output: 'static',
   trailingSlash: 'always',
   build: {
@@ -30,7 +34,9 @@ export default defineConfig({
     define: {
       'import.meta.env.PUBLIC_SITE_LANG': JSON.stringify(lang),
       'import.meta.env.PUBLIC_SITE_DOMAIN': JSON.stringify(domain),
-      'import.meta.env.PUBLIC_SITE_ID': JSON.stringify(siteId)
+      'import.meta.env.PUBLIC_SITE_ID': JSON.stringify(siteId),
+      'import.meta.env.PUBLIC_SITE_URL_SCHEME': JSON.stringify(scheme),
+      'import.meta.env.PUBLIC_SITE_URL_PORT': JSON.stringify(port)
     }
   }
 });

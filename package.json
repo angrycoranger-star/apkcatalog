@@ -28,7 +28,10 @@
     "serp": "node scripts/serp-monitor.js",
     "serp:selftest": "node scripts/serp-selftest.js",
     "seo": "node scripts/seo-batch.js",
-    "sites": "node scripts/sites.js"
+    "sites": "node scripts/sites.js",
+    "sites:build": "node scripts/build-sites.js",
+    "sites:serve": "node scripts/serve-sites.js",
+    "sites:caddyfile": "node scripts/caddyfile.js"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.124.0",

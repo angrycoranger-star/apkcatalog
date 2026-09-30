@@ -10,7 +10,7 @@ export const APEX_DEFAULT = 'en';
  * Country → catalog language. Covers the storefronts the catalog targets
  * (ru/tr/uz) plus the russophone CIS, and falls through to English.
  */
-const COUNTRY_LANG = {
+export const COUNTRY_LANG = {
   RU: 'ru', BY: 'ru', KZ: 'ru', KG: 'ru', TJ: 'ru', AM: 'ru', AZ: 'ru', MD: 'ru', GE: 'ru',
   UZ: 'uz',
   TR: 'tr', CY: 'tr'
