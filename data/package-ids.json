@@ -438,7 +438,7 @@
       "best_rank": 1,
       "first_seen": "2026-10-01T02:07:20.775Z",
       "last_seen": "2026-10-01T02:07:20.775Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-10-01T11:11:40.325Z"
     },
     {
@@ -1776,7 +1776,7 @@
       "best_rank": 3,
       "first_seen": "2026-10-01T02:07:20.775Z",
       "last_seen": "2026-10-01T02:07:20.775Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-10-01T11:11:40.325Z"
     },
     {
@@ -2933,7 +2933,7 @@
       "best_rank": 4,
       "first_seen": "2026-10-01T02:07:20.775Z",
       "last_seen": "2026-10-01T02:07:20.775Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-10-01T11:11:40.325Z"
     },
     {
@@ -4680,7 +4680,7 @@
       "best_rank": 7,
       "first_seen": "2026-10-01T02:07:20.775Z",
       "last_seen": "2026-10-01T02:07:20.775Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-10-01T11:11:40.325Z"
     },
     {
@@ -6251,7 +6251,7 @@
       "best_rank": 9,
       "first_seen": "2026-10-01T02:07:20.775Z",
       "last_seen": "2026-10-01T02:07:20.775Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-10-01T11:11:40.325Z"
     },
     {
@@ -6481,7 +6481,7 @@
       "best_rank": 10,
       "first_seen": "2026-10-01T02:07:20.775Z",
       "last_seen": "2026-10-01T02:07:20.775Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-10-01T11:11:40.325Z"
     },
     {
@@ -10202,7 +10202,8 @@
       "best_rank": 15,
       "first_seen": "2026-10-01T02:07:20.775Z",
       "last_seen": "2026-10-01T02:07:20.775Z",
-      "failures": 0
+      "failures": 1,
+      "unavailable_since": "2026-10-02T10:44:59.440Z"
     },
     {
       "package_id": "io.oxinus.barakacitizen",
@@ -10260,7 +10261,8 @@
       "best_rank": 15,
       "first_seen": "2026-10-01T02:07:20.775Z",
       "last_seen": "2026-10-01T02:07:20.775Z",
-      "failures": 0
+      "failures": 1,
+      "unavailable_since": "2026-10-02T10:44:59.440Z"
     },
     {
       "package_id": "tidy.cat.asmr.pefect.satis.puzzles",
@@ -10334,7 +10336,8 @@
       "best_rank": 16,
       "first_seen": "2026-10-01T02:07:20.775Z",
       "last_seen": "2026-10-01T02:07:20.775Z",
-      "failures": 0
+      "failures": 1,
+      "unavailable_since": "2026-10-02T10:44:59.440Z"
     },
     {
       "package_id": "com.beint.zangi",
@@ -10795,7 +10798,8 @@
       "best_rank": 16,
       "first_seen": "2026-10-01T02:07:20.775Z",
       "last_seen": "2026-10-01T02:07:20.775Z",
-      "failures": 0
+      "failures": 1,
+      "unavailable_since": "2026-10-02T10:44:59.440Z"
     },
     {
       "package_id": "ru.sportmaster.app",
@@ -10852,7 +10856,8 @@
       "best_rank": 16,
       "first_seen": "2026-10-01T02:07:20.775Z",
       "last_seen": "2026-10-01T02:07:20.775Z",
-      "failures": 0
+      "failures": 1,
+      "unavailable_since": "2026-10-02T10:44:59.440Z"
     },
     {
       "package_id": "com.alper.pisyedilihd",
@@ -12646,7 +12651,8 @@
       "best_rank": 19,
       "first_seen": "2026-10-01T02:07:20.775Z",
       "last_seen": "2026-10-01T02:07:20.775Z",
-      "failures": 0
+      "failures": 1,
+      "unavailable_since": "2026-10-02T10:44:59.440Z"
     },
     {
       "package_id": "ru.leroymerlin.mobile",
@@ -12746,7 +12752,8 @@
       "best_rank": 20,
       "first_seen": "2026-10-01T02:07:20.775Z",
       "last_seen": "2026-10-01T02:07:20.775Z",
-      "failures": 0
+      "failures": 1,
+      "unavailable_since": "2026-10-02T10:44:59.440Z"
     },
     {
       "package_id": "com.airnet.birds.ringtones",
@@ -15223,7 +15230,8 @@
       "best_rank": 23,
       "first_seen": "2026-10-01T02:07:20.775Z",
       "last_seen": "2026-10-01T02:07:20.775Z",
-      "failures": 0
+      "failures": 1,
+      "unavailable_since": "2026-10-02T10:44:59.440Z"
     },
     {
       "package_id": "uz.aloqabank.zoomrad",
@@ -16185,7 +16193,8 @@
       "best_rank": 25,
       "first_seen": "2026-10-01T02:07:20.775Z",
       "last_seen": "2026-10-01T02:07:20.775Z",
-      "failures": 0
+      "failures": 1,
+      "unavailable_since": "2026-10-02T10:44:59.440Z"
     },
     {
       "package_id": "com.tp.pmu3d",
@@ -17028,7 +17037,8 @@
       "best_rank": 26,
       "first_seen": "2026-10-01T02:07:20.775Z",
       "last_seen": "2026-10-01T02:07:20.775Z",
-      "failures": 0
+      "failures": 1,
+      "unavailable_since": "2026-10-02T10:44:59.440Z"
     },
     {
       "package_id": "ru.kupiprodai.androidmobile",
