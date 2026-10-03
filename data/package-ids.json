@@ -29,7 +29,7 @@
     "SHOPPING",
     "TOOLS"
   ],
-  "total": 2964,
+  "total": 2958,
   "new_this_run": 485,
   "still_charting": 2186,
   "no_longer_charting": 778,
@@ -424,22 +424,6 @@
       "first_seen": "2026-08-25T09:50:02.511Z",
       "last_seen": "2026-10-01T02:07:20.775Z",
       "failures": 0
-    },
-    {
-      "package_id": "com.roblox.client",
-      "category": "GAME_ADVENTURE",
-      "categories": [
-        "GAME_ADVENTURE"
-      ],
-      "countries": [
-        "ru",
-        "uz"
-      ],
-      "best_rank": 1,
-      "first_seen": "2026-10-01T02:07:20.775Z",
-      "last_seen": "2026-10-01T02:07:20.775Z",
-      "failures": 2,
-      "unavailable_since": "2026-10-01T11:11:40.325Z"
     },
     {
       "package_id": "com.rstgames.durak",
@@ -1763,23 +1747,6 @@
       "failures": 0
     },
     {
-      "package_id": "com.mobile.legends",
-      "category": "GAME_ACTION",
-      "categories": [
-        "GAME_ACTION"
-      ],
-      "countries": [
-        "ru",
-        "tr",
-        "uz"
-      ],
-      "best_rank": 3,
-      "first_seen": "2026-10-01T02:07:20.775Z",
-      "last_seen": "2026-10-01T02:07:20.775Z",
-      "failures": 2,
-      "unavailable_since": "2026-10-01T11:11:40.325Z"
-    },
-    {
       "package_id": "com.mojang.minecrafttrialpe",
       "category": "GAME_ARCADE",
       "categories": [
@@ -2920,21 +2887,6 @@
       "first_seen": "2026-08-25T09:50:02.511Z",
       "last_seen": "2026-10-01T02:07:20.775Z",
       "failures": 0
-    },
-    {
-      "package_id": "uz.dida.payme",
-      "category": "FINANCE",
-      "categories": [
-        "FINANCE"
-      ],
-      "countries": [
-        "uz"
-      ],
-      "best_rank": 4,
-      "first_seen": "2026-10-01T02:07:20.775Z",
-      "last_seen": "2026-10-01T02:07:20.775Z",
-      "failures": 2,
-      "unavailable_since": "2026-10-01T11:11:40.325Z"
     },
     {
       "package_id": "ai.photo.generator.editor.fotos.ai.image.app.free",
@@ -4667,23 +4619,6 @@
       "failures": 0
     },
     {
-      "package_id": "com.metax.prison.escape.obby.parkour",
-      "category": "GAME_ADVENTURE",
-      "categories": [
-        "GAME_ADVENTURE"
-      ],
-      "countries": [
-        "ru",
-        "tr",
-        "uz"
-      ],
-      "best_rank": 7,
-      "first_seen": "2026-10-01T02:07:20.775Z",
-      "last_seen": "2026-10-01T02:07:20.775Z",
-      "failures": 2,
-      "unavailable_since": "2026-10-01T11:11:40.325Z"
-    },
-    {
       "package_id": "com.oakever.arrows",
       "category": "GAME_PUZZLE",
       "categories": [
@@ -6240,21 +6175,6 @@
       "failures": 0
     },
     {
-      "package_id": "ru.belkacredit.mobile",
-      "category": "FINANCE",
-      "categories": [
-        "FINANCE"
-      ],
-      "countries": [
-        "ru"
-      ],
-      "best_rank": 9,
-      "first_seen": "2026-10-01T02:07:20.775Z",
-      "last_seen": "2026-10-01T02:07:20.775Z",
-      "failures": 2,
-      "unavailable_since": "2026-10-01T11:11:40.325Z"
-    },
-    {
       "package_id": "ru.beru.android",
       "category": "SHOPPING",
       "categories": [
@@ -6467,22 +6387,6 @@
       "first_seen": "2026-08-25T09:50:02.511Z",
       "last_seen": "2026-10-01T02:07:20.775Z",
       "failures": 0
-    },
-    {
-      "package_id": "com.discord",
-      "category": "COMMUNICATION",
-      "categories": [
-        "COMMUNICATION"
-      ],
-      "countries": [
-        "ru",
-        "uz"
-      ],
-      "best_rank": 10,
-      "first_seen": "2026-10-01T02:07:20.775Z",
-      "last_seen": "2026-10-01T02:07:20.775Z",
-      "failures": 2,
-      "unavailable_since": "2026-10-01T11:11:40.325Z"
     },
     {
       "package_id": "com.drivee.taxi.rides",
@@ -10202,7 +10106,7 @@
       "best_rank": 15,
       "first_seen": "2026-10-01T02:07:20.775Z",
       "last_seen": "2026-10-01T02:07:20.775Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-10-02T10:44:59.440Z"
     },
     {
@@ -10261,7 +10165,7 @@
       "best_rank": 15,
       "first_seen": "2026-10-01T02:07:20.775Z",
       "last_seen": "2026-10-01T02:07:20.775Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-10-02T10:44:59.440Z"
     },
     {
@@ -10336,7 +10240,7 @@
       "best_rank": 16,
       "first_seen": "2026-10-01T02:07:20.775Z",
       "last_seen": "2026-10-01T02:07:20.775Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-10-02T10:44:59.440Z"
     },
     {
@@ -10798,7 +10702,7 @@
       "best_rank": 16,
       "first_seen": "2026-10-01T02:07:20.775Z",
       "last_seen": "2026-10-01T02:07:20.775Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-10-02T10:44:59.440Z"
     },
     {
@@ -10856,7 +10760,7 @@
       "best_rank": 16,
       "first_seen": "2026-10-01T02:07:20.775Z",
       "last_seen": "2026-10-01T02:07:20.775Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-10-02T10:44:59.440Z"
     },
     {
@@ -12651,7 +12555,7 @@
       "best_rank": 19,
       "first_seen": "2026-10-01T02:07:20.775Z",
       "last_seen": "2026-10-01T02:07:20.775Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-10-02T10:44:59.440Z"
     },
     {
@@ -12752,7 +12656,7 @@
       "best_rank": 20,
       "first_seen": "2026-10-01T02:07:20.775Z",
       "last_seen": "2026-10-01T02:07:20.775Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-10-02T10:44:59.440Z"
     },
     {
@@ -15230,7 +15134,7 @@
       "best_rank": 23,
       "first_seen": "2026-10-01T02:07:20.775Z",
       "last_seen": "2026-10-01T02:07:20.775Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-10-02T10:44:59.440Z"
     },
     {
@@ -16193,7 +16097,7 @@
       "best_rank": 25,
       "first_seen": "2026-10-01T02:07:20.775Z",
       "last_seen": "2026-10-01T02:07:20.775Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-10-02T10:44:59.440Z"
     },
     {
@@ -17037,7 +16941,7 @@
       "best_rank": 26,
       "first_seen": "2026-10-01T02:07:20.775Z",
       "last_seen": "2026-10-01T02:07:20.775Z",
-      "failures": 1,
+      "failures": 2,
       "unavailable_since": "2026-10-02T10:44:59.440Z"
     },
     {
@@ -18752,7 +18656,8 @@
       "best_rank": 29,
       "first_seen": "2026-10-01T02:07:20.775Z",
       "last_seen": "2026-10-01T02:07:20.775Z",
-      "failures": 0
+      "failures": 1,
+      "unavailable_since": "2026-10-03T10:07:48.709Z"
     },
     {
       "package_id": "limex.tv.izle.canli.android",
@@ -18822,7 +18727,8 @@
       "best_rank": 29,
       "first_seen": "2026-10-01T02:07:20.775Z",
       "last_seen": "2026-10-01T02:07:20.775Z",
-      "failures": 0
+      "failures": 1,
+      "unavailable_since": "2026-10-03T10:07:48.709Z"
     },
     {
       "package_id": "ru.tutu.etrains",
@@ -19791,7 +19697,8 @@
       "best_rank": 31,
       "first_seen": "2026-10-01T02:07:20.775Z",
       "last_seen": "2026-10-01T02:07:20.775Z",
-      "failures": 0
+      "failures": 1,
+      "unavailable_since": "2026-10-03T10:07:48.709Z"
     },
     {
       "package_id": "com.enzo.paulo",
@@ -22696,7 +22603,8 @@
       "best_rank": 35,
       "first_seen": "2026-10-01T02:07:20.775Z",
       "last_seen": "2026-10-01T02:07:20.775Z",
-      "failures": 0
+      "failures": 1,
+      "unavailable_since": "2026-10-03T10:07:48.709Z"
     },
     {
       "package_id": "ru.rivegauche.app",
@@ -22990,7 +22898,8 @@
       "best_rank": 36,
       "first_seen": "2026-10-01T02:07:20.775Z",
       "last_seen": "2026-10-01T02:07:20.775Z",
-      "failures": 0
+      "failures": 1,
+      "unavailable_since": "2026-10-03T10:07:48.709Z"
     },
     {
       "package_id": "com.ikeyboard.theme.thunder.neon.wolf",
