@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-28T04:11:14.084Z",
+  "generated_at": "2026-10-05T11:22:05.837Z",
   "source": "fdroid-import.js",
   "repos": [
     "https://f-droid.org/repo",
     "https://apt.izzysoft.de/fdroid/repo"
   ],
-  "index_packages": 5872,
-  "redistributable": 5383,
+  "index_packages": 5937,
+  "redistributable": 5446,
   "skipped": 14,
-  "cross_source_skipped": 233,
-  "count": 5150
+  "cross_source_skipped": 200,
+  "count": 5246
 }
