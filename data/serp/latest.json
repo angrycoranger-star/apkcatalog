@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T12:13:34.954Z",
+  "generatedAt": "2026-10-12T14:36:29.803Z",
   "topN": 10,
   "scans": {
     "ru|скачать apk": {
@@ -8,7 +8,7 @@
       "results": [],
       "changes": [],
       "error": "Google returned a unparseable (layout changed or soft block) page instead of results",
-      "failedAt": "2026-10-11T12:13:34.954Z"
+      "failedAt": "2026-10-12T14:36:29.803Z"
     },
     "ru|скачать игры на андроид": {
       "query": "скачать игры на андроид",
@@ -16,7 +16,7 @@
       "results": [],
       "changes": [],
       "error": "Google returned a unparseable (layout changed or soft block) page instead of results",
-      "failedAt": "2026-10-11T12:13:34.954Z"
+      "failedAt": "2026-10-12T14:36:29.803Z"
     },
     "ru|каталог приложений android": {
       "query": "каталог приложений android",
@@ -24,7 +24,7 @@
       "results": [],
       "changes": [],
       "error": "Google returned a rate-limit (HTTP 429) page instead of results",
-      "failedAt": "2026-10-11T12:13:34.954Z"
+      "failedAt": "2026-10-12T14:36:29.803Z"
     },
     "ru|приложения для андроид скачать бесплатно": {
       "query": "приложения для андроид скачать бесплатно",
@@ -32,7 +32,7 @@
       "results": [],
       "changes": [],
       "error": "Google returned a rate-limit (HTTP 429) page instead of results",
-      "failedAt": "2026-10-11T12:13:34.954Z"
+      "failedAt": "2026-10-12T14:36:29.803Z"
     },
     "tr|apk indir": {
       "query": "apk indir",
@@ -40,7 +40,7 @@
       "results": [],
       "changes": [],
       "error": "Google returned a rate-limit (HTTP 429) page instead of results",
-      "failedAt": "2026-10-11T12:13:34.954Z"
+      "failedAt": "2026-10-12T14:36:29.803Z"
     },
     "tr|android oyun indir": {
       "query": "android oyun indir",
@@ -48,7 +48,7 @@
       "results": [],
       "changes": [],
       "error": "Google returned a rate-limit (HTTP 429) page instead of results",
-      "failedAt": "2026-10-11T12:13:34.954Z"
+      "failedAt": "2026-10-12T14:36:29.803Z"
     },
     "tr|android uygulama indir": {
       "query": "android uygulama indir",
@@ -56,7 +56,7 @@
       "results": [],
       "changes": [],
       "error": "Google returned a rate-limit (HTTP 429) page instead of results",
-      "failedAt": "2026-10-11T12:13:34.954Z"
+      "failedAt": "2026-10-12T14:36:29.803Z"
     },
     "uz|apk yuklab olish": {
       "query": "apk yuklab olish",
@@ -64,7 +64,7 @@
       "results": [],
       "changes": [],
       "error": "Google returned a rate-limit (HTTP 429) page instead of results",
-      "failedAt": "2026-10-11T12:13:34.954Z"
+      "failedAt": "2026-10-12T14:36:29.803Z"
     },
     "uz|android oyinlar yuklab olish": {
       "query": "android oyinlar yuklab olish",
@@ -72,7 +72,7 @@
       "results": [],
       "changes": [],
       "error": "Google returned a rate-limit (HTTP 429) page instead of results",
-      "failedAt": "2026-10-11T12:13:34.954Z"
+      "failedAt": "2026-10-12T14:36:29.803Z"
     },
     "uz|android ilovalar": {
       "query": "android ilovalar",
@@ -80,7 +80,7 @@
       "results": [],
       "changes": [],
       "error": "Google returned a rate-limit (HTTP 429) page instead of results",
-      "failedAt": "2026-10-11T12:13:34.954Z"
+      "failedAt": "2026-10-12T14:36:29.803Z"
     }
   }
 }
