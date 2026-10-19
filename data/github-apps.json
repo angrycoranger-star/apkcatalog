@@ -95,12 +95,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/dpk404/remote-phone/releases/download/v2.0.0/RemotePhone-2.0.0.apk",
+      "url": "https://github.com/dpk404/remote-phone/releases/download/v2.1.0/RemotePhone-2.0.0.apk",
       "checksum_sha256": "82615089d6b8517a97ac2237282f1dccc2f248a56b75ff31b27ff95f69a4ed21",
-      "updated": "2026-09-19"
+      "updated": "2026-10-18"
     },
-    "added_at": "2026-09-19T12:05:20.000Z",
-    "updated": "2026-09-19T12:05:20.000Z"
+    "added_at": "2026-10-18T21:12:13.000Z",
+    "updated": "2026-10-18T21:12:13.000Z"
   },
   {
     "slug": "anywherelan",
@@ -220,15 +220,15 @@
     "updated": "2026-08-21T14:02:01.000Z"
   },
   {
-    "slug": "rethink-dns-firewall",
+    "slug": "rethink-dns-firewall-2",
     "custom": true,
     "source": "github",
     "open_source": true,
-    "package_id": "com.celzero.bravedns",
+    "package_id": "com.celzero.bravedns.izzy",
     "category": "TOOLS",
     "developer": "celzero",
-    "version": "v0.5.7",
-    "size": "67.9 MB",
+    "version": "v0.5.8",
+    "size": "68.0 MB",
     "min_android": "6.0",
     "license": "Apache-2.0",
     "source_code": "https://github.com/celzero/rethink-app",
@@ -254,7 +254,7 @@
       "android.permission.USE_BIOMETRIC",
       "android.permission.USE_FINGERPRINT",
       "android.permission.WAKE_LOCK",
-      "com.celzero.bravedns.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+      "com.celzero.bravedns.izzy.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
       "android.permission.CAMERA"
     ],
     "translations": {
@@ -277,12 +277,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/celzero/rethink-app/releases/download/v0.5.7/rethink-v0.5.7-izzy-universal.apk",
-      "checksum_sha256": "811e7fb9f54a782db0b9349235e566f20bc02ebe2808f84246433e3bd855773b",
-      "updated": "2026-09-21"
+      "url": "https://github.com/celzero/rethink-app/releases/download/v0.5.8/rethink-v0.5.8-izzy-universal.apk",
+      "checksum_sha256": "3701e77c1a8fc0f75c7721115f2c17f9aef3f6a1087a74dfc82c8f4e3b993f6a",
+      "updated": "2026-10-13"
     },
-    "added_at": "2026-09-21T12:59:44.000Z",
-    "updated": "2026-09-21T12:59:44.000Z"
+    "added_at": "2026-10-13T20:51:16.000Z",
+    "updated": "2026-10-13T20:51:16.000Z"
   },
   {
     "slug": "tailscale",
@@ -439,8 +439,8 @@
     "package_id": "com.zaneschepke.wireguardautotunnel",
     "category": "TOOLS",
     "developer": "zaneschepke",
-    "version": "5.8.1",
-    "size": "17.8 MB",
+    "version": "5.8.2",
+    "size": "17.9 MB",
     "min_android": "8.0",
     "license": "MIT",
     "source_code": "https://github.com/wgtunnel/android",
@@ -489,12 +489,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/wgtunnel/android/releases/download/5.8.1/wgtunnel-fdroid-v5.8.1-arm64.apk",
-      "checksum_sha256": "d49311b6da383598b7c37852dafe0698b12d400864246026175cf683001e951f",
-      "updated": "2026-10-12"
+      "url": "https://github.com/wgtunnel/android/releases/download/5.8.2/wgtunnel-fdroid-v5.8.2-arm64.apk",
+      "checksum_sha256": "0920451ed36f64cad9afd3f41d4677799c3e69401b4575a549238258f8a654a2",
+      "updated": "2026-10-19"
     },
-    "added_at": "2026-10-12T11:04:33.000Z",
-    "updated": "2026-10-12T11:04:33.000Z"
+    "added_at": "2026-10-19T07:01:46.000Z",
+    "updated": "2026-10-19T07:01:46.000Z"
   },
   {
     "slug": "vernet-network-analyzer",
@@ -504,8 +504,8 @@
     "package_id": "org.fsociety.vernet",
     "category": "TOOLS",
     "developer": "osociety",
-    "version": "1.3.12",
-    "size": "23.0 MB",
+    "version": "1.4.6",
+    "size": "23.3 MB",
     "min_android": "7.0",
     "license": "Apache-2.0",
     "source_code": "https://github.com/osociety/vernet",
@@ -520,6 +520,9 @@
       "android.permission.RECEIVE_BOOT_COMPLETED",
       "android.permission.POST_NOTIFICATIONS",
       "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.CHANGE_WIFI_STATE",
+      "android.permission.ACCESS_COARSE_LOCATION",
+      "android.permission.NEARBY_WIFI_DEVICES",
       "android.permission.WAKE_LOCK",
       "android.permission.FOREGROUND_SERVICE",
       "org.fsociety.vernet.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
@@ -544,12 +547,133 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/osociety/vernet/releases/download/v1.3.12%2B53/Vernet-v1.3.12%2B53-app-arm64-v8a-dev-release.apk",
-      "checksum_sha256": "89f0d3f9d3fa406b35e9ed2feb5bfb19ed391ed0b5792f22c426bc17e4dc80b3",
-      "updated": "2026-10-12"
+      "url": "https://github.com/osociety/vernet/releases/download/v1.4.6%2B63/Vernet-v1.4.6%2B63-app-arm64-v8a-dev-release.apk",
+      "checksum_sha256": "86e2bff35ff79acddc5278afb3b6419ab2353d6a4ba188e6f8469a2204091731",
+      "updated": "2026-10-19"
     },
-    "added_at": "2026-10-12T10:49:38.000Z",
-    "updated": "2026-10-12T10:49:38.000Z"
+    "added_at": "2026-10-19T09:31:13.000Z",
+    "updated": "2026-10-19T09:31:13.000Z"
+  },
+  {
+    "slug": "neostumbler-2",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "xyz.malkki.neostumbler",
+    "category": "TOOLS",
+    "developer": "mjaakko",
+    "version": "2.4.2",
+    "size": "52.9 MB",
+    "min_android": "10",
+    "license": "MIT",
+    "source_code": "https://github.com/mjaakko/NeoStumbler",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.ACTIVITY_RECOGNITION",
+      "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+      "android.permission.ACCESS_FINE_LOCATION",
+      "android.permission.ACCESS_COARSE_LOCATION",
+      "android.permission.ACCESS_BACKGROUND_LOCATION",
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.ACCESS_WIFI_STATE",
+      "android.permission.CHANGE_WIFI_STATE",
+      "android.permission.NEARBY_WIFI_DEVICES",
+      "android.permission.INTERNET",
+      "android.permission.FOREGROUND_SERVICE",
+      "android.permission.FOREGROUND_SERVICE_LOCATION",
+      "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+      "android.permission.POST_NOTIFICATIONS",
+      "android.permission.READ_PHONE_STATE",
+      "android.permission.RECEIVE_BOOT_COMPLETED",
+      "android.permission.WAKE_LOCK",
+      "android.permission.BLUETOOTH_SCAN",
+      "android.permission.BLUETOOTH",
+      "android.permission.BLUETOOTH_ADMIN",
+      "xyz.malkki.neostumbler.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "translations": {
+      "ru": {
+        "name": "NeoStumbler",
+        "summary": "New stumbler application for contributing data to geolocation services"
+      },
+      "en": {
+        "name": "NeoStumbler",
+        "summary": "New stumbler application for contributing data to geolocation services"
+      },
+      "tr": {
+        "name": "NeoStumbler",
+        "summary": "New stumbler application for contributing data to geolocation services"
+      },
+      "uz": {
+        "name": "NeoStumbler",
+        "summary": "New stumbler application for contributing data to geolocation services"
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/mjaakko/NeoStumbler/releases/download/2.4.2/app-full-default-universal-release.apk",
+      "checksum_sha256": "ddba583a3918ebe354478b36b1342c21fe3b26221f1001f51516581af73e74d5",
+      "updated": "2026-10-14"
+    },
+    "added_at": "2026-10-14T18:38:00.000Z",
+    "updated": "2026-10-14T18:38:00.000Z"
+  },
+  {
+    "slug": "autopie-2",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "com.pie",
+    "category": "TOOLS",
+    "developer": "cryptrr",
+    "version": "0.19.3-beta",
+    "size": "71.8 MB",
+    "min_android": "8.1",
+    "license": "Apache-2.0",
+    "source_code": "https://github.com/cryptrr/AutoPie",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.INTERNET",
+      "android.permission.RECEIVE_BOOT_COMPLETED",
+      "android.permission.WAKE_LOCK",
+      "android.permission.MANAGE_EXTERNAL_STORAGE",
+      "android.permission.READ_EXTERNAL_STORAGE",
+      "android.permission.WRITE_EXTERNAL_STORAGE",
+      "android.permission.POST_NOTIFICATIONS",
+      "android.permission.FOREGROUND_SERVICE",
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.VIBRATE",
+      "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+      "com.pie.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "translations": {
+      "ru": {
+        "name": "AutoPie",
+        "summary": "Swiss Army Knife For Android. Turn Linux commands into Android applets and automations."
+      },
+      "en": {
+        "name": "AutoPie",
+        "summary": "Swiss Army Knife For Android. Turn Linux commands into Android applets and automations."
+      },
+      "tr": {
+        "name": "AutoPie",
+        "summary": "Swiss Army Knife For Android. Turn Linux commands into Android applets and automations."
+      },
+      "uz": {
+        "name": "AutoPie",
+        "summary": "Swiss Army Knife For Android. Turn Linux commands into Android applets and automations."
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/cryptrr/AutoPie/releases/download/v0.19.3-beta/AutoPie-v0.19.3-beta-aarch64-secondary-user.apk",
+      "checksum_sha256": "9dd286d7f0027fb71c3ce38f5ec255af8746ede373f33af921aa005ec13688ae",
+      "updated": "2026-10-16"
+    },
+    "added_at": "2026-10-16T05:57:35.000Z",
+    "updated": "2026-10-16T05:57:35.000Z"
   },
   {
     "slug": "omn-go",
@@ -994,19 +1118,19 @@
     "translations": {
       "ru": {
         "name": "Acode",
-        "summary": "Acode - powerful text/code editor for android"
+        "summary": "Acode - powerful text/code editor for android/ios"
       },
       "en": {
         "name": "Acode",
-        "summary": "Acode - powerful text/code editor for android"
+        "summary": "Acode - powerful text/code editor for android/ios"
       },
       "tr": {
         "name": "Acode",
-        "summary": "Acode - powerful text/code editor for android"
+        "summary": "Acode - powerful text/code editor for android/ios"
       },
       "uz": {
         "name": "Acode",
-        "summary": "Acode - powerful text/code editor for android"
+        "summary": "Acode - powerful text/code editor for android/ios"
       }
     },
     "download": {
@@ -1620,8 +1744,8 @@
     "package_id": "com.unciv.app",
     "category": "GAME_ARCADE",
     "developer": "yairm210",
-    "version": "4.22.9",
-    "size": "26.2 MB",
+    "version": "4.22.12",
+    "size": "26.3 MB",
     "min_android": "5.0",
     "license": "MPL-2.0",
     "source_code": "https://github.com/yairm210/Unciv",
@@ -1656,12 +1780,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/yairm210/Unciv/releases/download/4.22.9/Unciv-signed.apk",
-      "checksum_sha256": "95ba018d542188a2d460fe7d5f354d67d93146153f9d61bc32542e968dc554b7",
-      "updated": "2026-10-12"
+      "url": "https://github.com/yairm210/Unciv/releases/download/4.22.12/Unciv-signed.apk",
+      "checksum_sha256": "fe970d770e9bf1ec6f5fc9460565754689cd43a1879ff8bb84ecaf47ece9007a",
+      "updated": "2026-10-18"
     },
-    "added_at": "2026-10-12T07:07:01.000Z",
-    "updated": "2026-10-12T07:07:01.000Z"
+    "added_at": "2026-10-18T14:39:16.000Z",
+    "updated": "2026-10-18T14:39:16.000Z"
   },
   {
     "slug": "easter-eggs",
@@ -1769,8 +1893,8 @@
     "package_id": "io.github.divverent.aaaaxy",
     "category": "GAME_ARCADE",
     "developer": "divVerent",
-    "version": "1.7.239+20260804.4198.805e2a0b",
-    "size": "44.5 MB",
+    "version": "1.8.34+20261016.4235.88c7a979",
+    "size": "46.0 MB",
     "min_android": "6.0",
     "license": "Apache-2.0",
     "source_code": "https://github.com/divVerent/aaaaxy",
@@ -1797,12 +1921,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/divVerent/aaaaxy/releases/download/v1.7.239/aaaaxy-arm64.apk",
-      "checksum_sha256": "770a5d416a9f32d10bae04415ded5cae0e031d1d027e02e0dc30b0ee4db37fa4",
-      "updated": "2026-08-05"
+      "url": "https://github.com/divVerent/aaaaxy/releases/download/v1.8.34/aaaaxy-arm64.apk",
+      "checksum_sha256": "0e73291b37ed23a7f4ed200d272553f9eff8f70db0d6e4247e46313dc3fbdeef",
+      "updated": "2026-10-16"
     },
-    "added_at": "2026-08-05T05:03:12.000Z",
-    "updated": "2026-08-05T05:03:12.000Z"
+    "added_at": "2026-10-16T08:25:53.000Z",
+    "updated": "2026-10-16T08:25:53.000Z"
   },
   {
     "slug": "poker-payout",
@@ -2307,8 +2431,8 @@
     "package_id": "deckers.thibault.aves",
     "category": "ART_AND_DESIGN",
     "developer": "deckerst",
-    "version": "1.15.5",
-    "size": "23.9 MB",
+    "version": "1.15.6",
+    "size": "24.1 MB",
     "min_android": "7.0",
     "license": "BSD-3-Clause",
     "source_code": "https://github.com/deckerst/aves",
@@ -2357,12 +2481,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/deckerst/aves/releases/download/v1.15.5/app-izzy-arm64-v8a-release.apk",
-      "checksum_sha256": "917a1945ccf03e836372d883259b7eba648d996a576f36f5852b2478596b853c",
-      "updated": "2026-10-02"
+      "url": "https://github.com/deckerst/aves/releases/download/v1.15.6/app-izzy-arm64-v8a-release.apk",
+      "checksum_sha256": "8dc3ea4047ae59e79088d15ce8f2b4909139ff0ee1ff4898a0e897c2a4ebf970",
+      "updated": "2026-10-15"
     },
-    "added_at": "2026-10-02T20:32:51.000Z",
-    "updated": "2026-10-02T20:32:51.000Z"
+    "added_at": "2026-10-15T22:29:04.000Z",
+    "updated": "2026-10-15T22:29:04.000Z"
   },
   {
     "slug": "gallery-3",
@@ -2611,53 +2735,6 @@
     "updated": "2026-08-31T12:20:02.000Z"
   },
   {
-    "slug": "ocr",
-    "custom": true,
-    "source": "github",
-    "open_source": true,
-    "package_id": "io.github.subhamtyagi.ocr",
-    "category": "ART_AND_DESIGN",
-    "developer": "SubhamTyagi",
-    "version": "6.1",
-    "size": "33.3 MB",
-    "min_android": "6.0",
-    "license": "Apache-2.0",
-    "source_code": "https://github.com/SubhamTyagi/android-ocr",
-    "icon_url": "",
-    "screenshots": [],
-    "permissions": [
-      "android.permission.ACCESS_NETWORK_STATE",
-      "android.permission.INTERNET",
-      "io.github.subhamtyagi.ocr.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-    ],
-    "translations": {
-      "ru": {
-        "name": "OCR",
-        "summary": "Tesseract based OCR for android"
-      },
-      "en": {
-        "name": "OCR",
-        "summary": "Tesseract based OCR for android"
-      },
-      "tr": {
-        "name": "OCR",
-        "summary": "Tesseract based OCR for android"
-      },
-      "uz": {
-        "name": "OCR",
-        "summary": "Tesseract based OCR for android"
-      }
-    },
-    "download": {
-      "type": "direct",
-      "url": "https://github.com/SubhamTyagi/android-ocr/releases/download/v6.1/OCR-v6.1-universal.apk",
-      "checksum_sha256": "483a76ae8a94a8b2f9654710b8a9b8054f9c71bdba88224e8c72eddc218e1296",
-      "updated": "2026-08-06"
-    },
-    "added_at": "2026-08-06T09:04:35.000Z",
-    "updated": "2026-08-06T09:04:35.000Z"
-  },
-  {
     "slug": "kifossk",
     "custom": true,
     "source": "github",
@@ -2768,62 +2845,6 @@
     },
     "added_at": "2026-07-13T19:57:09.000Z",
     "updated": "2026-07-13T19:57:09.000Z"
-  },
-  {
-    "slug": "volksverpetzer",
-    "custom": true,
-    "source": "github",
-    "open_source": true,
-    "package_id": "de.volksverpetzer.app",
-    "category": "TOOLS",
-    "developer": "Volksverpetzer",
-    "version": "2.5.4",
-    "size": "65.5 MB",
-    "min_android": "7.0",
-    "license": "MIT",
-    "source_code": "https://github.com/Volksverpetzer/vvp_app",
-    "icon_url": "",
-    "screenshots": [],
-    "permissions": [
-      "android.permission.FOREGROUND_SERVICE",
-      "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
-      "android.permission.INTERNET",
-      "android.permission.MODIFY_AUDIO_SETTINGS",
-      "android.permission.READ_EXTERNAL_STORAGE",
-      "android.permission.SYSTEM_ALERT_WINDOW",
-      "android.permission.VIBRATE",
-      "android.permission.WAKE_LOCK",
-      "android.permission.WRITE_EXTERNAL_STORAGE",
-      "android.permission.ACCESS_NETWORK_STATE",
-      "de.volksverpetzer.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
-      "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
-    ],
-    "translations": {
-      "ru": {
-        "name": "Volksverpetzer",
-        "summary": "Read Volksverpetzer fact checks, analysis and articles on your mobile phone."
-      },
-      "en": {
-        "name": "Volksverpetzer",
-        "summary": "Read Volksverpetzer fact checks, analysis and articles on your mobile phone."
-      },
-      "tr": {
-        "name": "Volksverpetzer",
-        "summary": "Read Volksverpetzer fact checks, analysis and articles on your mobile phone."
-      },
-      "uz": {
-        "name": "Volksverpetzer",
-        "summary": "Read Volksverpetzer fact checks, analysis and articles on your mobile phone."
-      }
-    },
-    "download": {
-      "type": "direct",
-      "url": "https://github.com/Volksverpetzer/vvp_app/releases/download/v2.5.4/vvp-app-v2.5.4-foss-arm64-v8a.apk",
-      "checksum_sha256": "9329ac1d6afa9a968b283093a6cccc303bb6f9c1fa6814d63bf288d4221afdfe",
-      "updated": "2026-10-09"
-    },
-    "added_at": "2026-10-09T13:03:56.000Z",
-    "updated": "2026-10-09T13:03:56.000Z"
   },
   {
     "slug": "irischat",
@@ -3237,7 +3258,7 @@
     "package_id": "com.serranoie.app.minus",
     "category": "FINANCE",
     "developer": "isaacsa51",
-    "version": "1.10.0",
+    "version": "1.10.1",
     "size": "48.5 MB",
     "min_android": "11",
     "license": "Apache-2.0",
@@ -3272,12 +3293,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/isaacsa51/Minus/releases/download/v1.10.0/Minus-Watch-v1.10.0.apk",
-      "checksum_sha256": "ec2f4ed2db2c7454d88a20edb5dcf971206c136d44fc5852cd8175b12fd37f70",
-      "updated": "2026-10-10"
+      "url": "https://github.com/isaacsa51/Minus/releases/download/v1.10.1/Minus-Watch-v1.10.1.apk",
+      "checksum_sha256": "310abebe02f8d16264d929cf2a5ef4159c08f4c533748be7fcda9fd40e207ce2",
+      "updated": "2026-10-19"
     },
-    "added_at": "2026-10-10T20:15:15.000Z",
-    "updated": "2026-10-10T20:15:15.000Z"
+    "added_at": "2026-10-19T05:37:26.000Z",
+    "updated": "2026-10-19T05:37:26.000Z"
   },
   {
     "slug": "duenot",
@@ -3586,8 +3607,8 @@
     "package_id": "io.horizontalsystems.bankwallet",
     "category": "FINANCE",
     "developer": "horizontalsystems",
-    "version": "0.51.2",
-    "size": "112.3 MB",
+    "version": "0.52.1",
+    "size": "93.4 MB",
     "min_android": "9",
     "license": "MIT",
     "source_code": "https://github.com/horizontalsystems/unstoppable-wallet-android",
@@ -3628,12 +3649,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/horizontalsystems/unstoppable-wallet-android/releases/download/0.51.2/unstoppable_wallet_google_play_0.51.2.apk",
-      "checksum_sha256": "7832bcd9626c3fd4ca02da1d814d6610f367dee7ac83c64613622bb2208a5c43",
-      "updated": "2026-09-30"
+      "url": "https://github.com/horizontalsystems/unstoppable-wallet-android/releases/download/0.52.1/unstoppable_wallet_google_play_0.52.1.apk",
+      "checksum_sha256": "745308a983bb9384a09b9f987e38d479adeedf96decce81984925d69116364af",
+      "updated": "2026-10-14"
     },
-    "added_at": "2026-09-30T17:24:51.000Z",
-    "updated": "2026-09-30T17:24:51.000Z"
+    "added_at": "2026-10-14T09:54:31.000Z",
+    "updated": "2026-10-14T09:54:31.000Z"
   },
   {
     "slug": "simple-crypto-widget",
@@ -3799,14 +3820,19 @@
     "package_id": "co.electriccoin.zcash",
     "category": "FINANCE",
     "developer": "Electric-Coin-Company",
-    "version": "3.16.0",
-    "size": "112.8 MB",
+    "version": "3.17.0",
+    "size": "114.0 MB",
     "min_android": "8.1",
     "license": "MIT",
     "source_code": "https://github.com/zodl-inc/zodl-android",
     "icon_url": "/img/github/zashi-zcash-wallet.webp",
     "screenshots": [],
     "permissions": [
+      "android.permission.BLUETOOTH_SCAN",
+      "android.permission.BLUETOOTH_CONNECT",
+      "android.permission.BLUETOOTH",
+      "android.permission.BLUETOOTH_ADMIN",
+      "android.permission.ACCESS_FINE_LOCATION",
       "android.permission.CAMERA",
       "android.permission.POST_NOTIFICATIONS",
       "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
@@ -3839,12 +3865,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/zodl-inc/zodl-android/releases/download/3.16.0-2958/app-zcashmainnet-google-play-store-release-universal.apk",
-      "checksum_sha256": "b07b1f213c1f778472f0e395adb78b83172f8fc44ffe72789b5e15344cd960af",
-      "updated": "2026-10-08"
+      "url": "https://github.com/zodl-inc/zodl-android/releases/download/3.17.0-3149/app-zcashmainnet-google-play-store-release-universal.apk",
+      "checksum_sha256": "ce3e55515816670031fa61f7b47181a9208b70fc4d24e6e896d1db091f97b435",
+      "updated": "2026-10-13"
     },
-    "added_at": "2026-10-08T19:34:35.000Z",
-    "updated": "2026-10-08T19:34:35.000Z"
+    "added_at": "2026-10-13T14:05:33.000Z",
+    "updated": "2026-10-13T14:05:33.000Z"
   },
   {
     "slug": "bitbanana",
@@ -4464,7 +4490,7 @@
     "package_id": "app.mihon",
     "category": "VIDEO_PLAYERS",
     "developer": "mihonapp",
-    "version": "0.21.1",
+    "version": "0.21.2",
     "size": "26.4 MB",
     "min_android": "8.0",
     "license": "Apache-2.0",
@@ -4512,12 +4538,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/mihonapp/mihon/releases/download/v0.21.1/mihon-arm64-v8a-v0.21.1.apk",
-      "checksum_sha256": "2075ad8d2ea29bc3213047f62395a8e377bbe483d3f74f49d4df7858e930f768",
-      "updated": "2026-10-12"
+      "url": "https://github.com/mihonapp/mihon/releases/download/v0.21.2/mihon-arm64-v8a-v0.21.2.apk",
+      "checksum_sha256": "dcfe07027cb000fac92f10303e4bc98feca3e6a4aeb026aaafce8fbe9e5c423f",
+      "updated": "2026-10-13"
     },
-    "added_at": "2026-10-12T08:32:03.000Z",
-    "updated": "2026-10-12T08:32:03.000Z"
+    "added_at": "2026-10-13T04:27:29.000Z",
+    "updated": "2026-10-13T04:27:29.000Z"
   },
   {
     "slug": "aniyomi",
@@ -4588,60 +4614,6 @@
     "updated": "2026-09-14T18:52:46.000Z"
   },
   {
-    "slug": "anti-vocale",
-    "custom": true,
-    "source": "github",
-    "open_source": true,
-    "package_id": "com.antivocale.app",
-    "category": "VIDEO_PLAYERS",
-    "developer": "RisorseArtificiali",
-    "version": "1.14.1",
-    "size": "36.7 MB",
-    "min_android": "8.0",
-    "license": "Apache-2.0",
-    "source_code": "https://github.com/RisorseArtificiali/anti-vocale",
-    "icon_url": "",
-    "screenshots": [],
-    "permissions": [
-      "android.permission.FOREGROUND_SERVICE",
-      "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
-      "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
-      "android.permission.POST_NOTIFICATIONS",
-      "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
-      "android.permission.INTERNET",
-      "android.permission.WAKE_LOCK",
-      "android.permission.ACCESS_NETWORK_STATE",
-      "android.permission.RECEIVE_BOOT_COMPLETED",
-      "com.antivocale.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-    ],
-    "translations": {
-      "ru": {
-        "name": "Anti-Vocale",
-        "summary": "Android app for transcribing voice messages locally on-device, with no internet required."
-      },
-      "en": {
-        "name": "Anti-Vocale",
-        "summary": "Android app for transcribing voice messages locally on-device, with no internet required."
-      },
-      "tr": {
-        "name": "Anti-Vocale",
-        "summary": "Android app for transcribing voice messages locally on-device, with no internet required."
-      },
-      "uz": {
-        "name": "Anti-Vocale",
-        "summary": "Android app for transcribing voice messages locally on-device, with no internet required."
-      }
-    },
-    "download": {
-      "type": "direct",
-      "url": "https://github.com/RisorseArtificiali/anti-vocale/releases/download/v1.14.1/antivocale-fdroid-testsigned-arm64-v8a.apk",
-      "checksum_sha256": "2b5e43f1dd53785f1016031074128c73926352adbee7c79af797ba36abce8cc7",
-      "updated": "2026-10-11"
-    },
-    "added_at": "2026-10-11T12:32:24.000Z",
-    "updated": "2026-10-11T12:32:24.000Z"
-  },
-  {
     "slug": "biketrackd",
     "custom": true,
     "source": "github",
@@ -4649,7 +4621,7 @@
     "package_id": "com.biketrackd.app",
     "category": "MAPS_AND_NAVIGATION",
     "developer": "higorslva",
-    "version": "0.7.2",
+    "version": "0.8.0",
     "size": "15.5 MB",
     "min_android": "5.0",
     "license": "MIT",
@@ -4688,12 +4660,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/higorslva/biketrackd/releases/download/v0.7.2/app-fdroid-release.apk",
-      "checksum_sha256": "8e92038430e51a3b3fc3b2c1c0a84e79b8c3c76069744a0985807cb2daeaec30",
-      "updated": "2026-08-09"
+      "url": "https://github.com/higorslva/biketrackd/releases/download/v0.8.0/app-fdroid-release.apk",
+      "checksum_sha256": "8c122750c1ca424891fe921817d54b1e39dfdff7b74289bd7fa72a8481514e40",
+      "updated": "2026-10-16"
     },
-    "added_at": "2026-08-09T23:07:52.000Z",
-    "updated": "2026-08-09T23:07:52.000Z"
+    "added_at": "2026-10-16T18:41:35.000Z",
+    "updated": "2026-10-16T18:41:35.000Z"
   },
   {
     "slug": "studipassau",
@@ -4918,7 +4890,7 @@
     "package_id": "org.nitri.opentopo",
     "category": "MAPS_AND_NAVIGATION",
     "developer": "Pygmalion69",
-    "version": "1.39",
+    "version": "1.40",
     "size": "4.4 MB",
     "min_android": "7.0",
     "license": "Apache-2.0",
@@ -4954,12 +4926,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/Pygmalion69/OpenTopoMapViewer/releases/download/1.39/app-foss-release.apk",
-      "checksum_sha256": "bc85869afe709462304c9d08ac2b120df31c4ed8ff9b5363b0e2e6e15726d697",
-      "updated": "2026-10-04"
+      "url": "https://github.com/Pygmalion69/OpenTopoMapViewer/releases/download/1.40/app-foss-release.apk",
+      "checksum_sha256": "de7de293e0a18973cb333acd04e49756543a075041ef0c95c1b51aad12f95a04",
+      "updated": "2026-10-18"
     },
-    "added_at": "2026-10-04T17:14:05.000Z",
-    "updated": "2026-10-04T17:14:05.000Z"
+    "added_at": "2026-10-18T10:57:38.000Z",
+    "updated": "2026-10-18T10:57:38.000Z"
   },
   {
     "slug": "evmap-ev-chargers",
@@ -5132,8 +5104,8 @@
     "package_id": "info.zamojski.soft.towercollector",
     "category": "MAPS_AND_NAVIGATION",
     "developer": "zamojski",
-    "version": "3.0.1",
-    "size": "5.2 MB",
+    "version": "3.0.2",
+    "size": "5.3 MB",
     "min_android": "7.0",
     "license": "MPL-2.0",
     "source_code": "https://github.com/zamojski/TowerCollector",
@@ -5179,12 +5151,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/zamojski/TowerCollector/releases/download/3.0.1/TowerCollector-3.0.1-release-aligned.apk",
-      "checksum_sha256": "08112ddf4bd4df33551fd63c515aa2026d244e1efd939a8243266935c0823f2f",
-      "updated": "2026-10-09"
+      "url": "https://github.com/zamojski/TowerCollector/releases/download/3.0.2/TowerCollector-3.0.2-release-aligned.apk",
+      "checksum_sha256": "4bda0b9a107d7414a253e5ed7b8c1d779a8fb249b2edab8552975548bdcfd999",
+      "updated": "2026-10-15"
     },
-    "added_at": "2026-10-09T10:51:56.000Z",
-    "updated": "2026-10-09T10:51:56.000Z"
+    "added_at": "2026-10-15T21:00:06.000Z",
+    "updated": "2026-10-15T21:00:06.000Z"
   },
   {
     "slug": "spamblocker-extended-call-sms-notification",
@@ -5194,8 +5166,8 @@
     "package_id": "dev.kerballone.spamblocker",
     "category": "COMMUNICATION",
     "developer": "KerballOne",
-    "version": "6.1.5",
-    "size": "8.1 MB",
+    "version": "6.2.2-test1",
+    "size": "8.2 MB",
     "min_android": "10",
     "license": "MIT",
     "source_code": "https://github.com/KerballOne/SpamBlocker-Extended",
@@ -5248,12 +5220,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/KerballOne/SpamBlocker-Extended/releases/download/v6.1.5/SpamBlocker-Extended-6.1.5.apk",
-      "checksum_sha256": "ddbd2b2f9b30a88b74637ac580e691d6c314834fb98d79115e6b5cdc87f0dcd5",
-      "updated": "2026-10-08"
+      "url": "https://github.com/KerballOne/SpamBlocker-Extended/releases/download/v6.2.1/SpamBlocker-Extended-6.2.2-test1.apk",
+      "checksum_sha256": "1f34004d622f2f423c9a358af2ba9905611ac72f07df03fb245a2aa1fab36f58",
+      "updated": "2026-10-15"
     },
-    "added_at": "2026-10-08T17:07:37.000Z",
-    "updated": "2026-10-08T17:07:37.000Z"
+    "added_at": "2026-10-15T15:16:15.000Z",
+    "updated": "2026-10-15T15:16:15.000Z"
   },
   {
     "slug": "dressecurecomms",
@@ -5536,7 +5508,7 @@
     "package_id": "spam.blocker",
     "category": "COMMUNICATION",
     "developer": "aj3423",
-    "version": "5.18",
+    "version": "5.19",
     "size": "8.1 MB",
     "min_android": "10",
     "license": "MIT",
@@ -5587,12 +5559,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/aj3423/SpamBlocker/releases/download/v5.18/app-release.apk",
-      "checksum_sha256": "d5b83c0db54007650d48dfe91cbf4c9300b8075508febf55806fca4be165ebf5",
-      "updated": "2026-10-01"
+      "url": "https://github.com/aj3423/SpamBlocker/releases/download/v5.19/app-release.apk",
+      "checksum_sha256": "0e92e8d8853f4dc8de20f05d7248ffc6cf553693ab63d8cc37662cf8a7b20c0f",
+      "updated": "2026-10-14"
     },
-    "added_at": "2026-10-01T08:58:08.000Z",
-    "updated": "2026-10-01T08:58:08.000Z"
+    "added_at": "2026-10-14T11:21:20.000Z",
+    "updated": "2026-10-14T11:21:20.000Z"
   },
   {
     "slug": "baresip",
@@ -5602,7 +5574,7 @@
     "package_id": "com.tutpro.baresip",
     "category": "COMMUNICATION",
     "developer": "juha-h",
-    "version": "93.1.0",
+    "version": "93.1.7",
     "size": "27.9 MB",
     "min_android": "9",
     "license": "BSD-3-Clause",
@@ -5667,12 +5639,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/juha-h/baresip-studio/releases/download/93.1.0/app-release.apk",
-      "checksum_sha256": "61aba2b4b9b35153f46abee985a5288927d424c7695f008a5ecaf94509906cf9",
-      "updated": "2026-10-08"
+      "url": "https://github.com/juha-h/baresip-studio/releases/download/93.1.7/app-release.apk",
+      "checksum_sha256": "8066f17259025479c36a8f80ea7946abae2a0f9d99c4aa644762b4a09e561b04",
+      "updated": "2026-10-19"
     },
-    "added_at": "2026-10-08T06:48:10.000Z",
-    "updated": "2026-10-08T06:48:10.000Z"
+    "added_at": "2026-10-19T08:25:28.000Z",
+    "updated": "2026-10-19T08:25:28.000Z"
   },
   {
     "slug": "sms-to-url-forwarder",
@@ -5783,8 +5755,8 @@
     "package_id": "com.chmouel.liseur",
     "category": "BOOKS_AND_REFERENCE",
     "developer": "chmouel",
-    "version": "0.23.0",
-    "size": "10.1 MB",
+    "version": "0.24.0",
+    "size": "10.5 MB",
     "min_android": "8.0",
     "license": "MIT",
     "source_code": "https://github.com/chmouel/liseur",
@@ -5820,12 +5792,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/chmouel/liseur/releases/download/v0.23.0/liseur-v0.23.0.apk",
-      "checksum_sha256": "8e8291688e55a21d663914f34c3320c1ad8bcadaaf4cf68e4d7a311489048155",
-      "updated": "2026-10-11"
+      "url": "https://github.com/chmouel/liseur/releases/download/v0.24.0/liseur-v0.24.0.apk",
+      "checksum_sha256": "d69ed11374109dc13bc8f14fd2924192001585c1331d17a2fc25ac6ccf7a7ca9",
+      "updated": "2026-10-16"
     },
-    "added_at": "2026-10-11T21:21:38.000Z",
-    "updated": "2026-10-11T21:21:38.000Z"
+    "added_at": "2026-10-16T16:35:56.000Z",
+    "updated": "2026-10-16T16:35:56.000Z"
   },
   {
     "slug": "thirukkural-daily-widget",
@@ -5871,6 +5843,62 @@
     },
     "added_at": "2026-06-21T10:59:17.000Z",
     "updated": "2026-06-21T10:59:17.000Z"
+  },
+  {
+    "slug": "volksverpetzer",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "de.volksverpetzer.app",
+    "category": "BOOKS_AND_REFERENCE",
+    "developer": "Volksverpetzer",
+    "version": "2.5.4",
+    "size": "65.5 MB",
+    "min_android": "7.0",
+    "license": "MIT",
+    "source_code": "https://github.com/Volksverpetzer/vvp_app",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.FOREGROUND_SERVICE",
+      "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+      "android.permission.INTERNET",
+      "android.permission.MODIFY_AUDIO_SETTINGS",
+      "android.permission.READ_EXTERNAL_STORAGE",
+      "android.permission.SYSTEM_ALERT_WINDOW",
+      "android.permission.VIBRATE",
+      "android.permission.WAKE_LOCK",
+      "android.permission.WRITE_EXTERNAL_STORAGE",
+      "android.permission.ACCESS_NETWORK_STATE",
+      "de.volksverpetzer.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+      "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+    ],
+    "translations": {
+      "ru": {
+        "name": "Volksverpetzer",
+        "summary": "Read Volksverpetzer fact checks, analysis and articles on your mobile phone."
+      },
+      "en": {
+        "name": "Volksverpetzer",
+        "summary": "Read Volksverpetzer fact checks, analysis and articles on your mobile phone."
+      },
+      "tr": {
+        "name": "Volksverpetzer",
+        "summary": "Read Volksverpetzer fact checks, analysis and articles on your mobile phone."
+      },
+      "uz": {
+        "name": "Volksverpetzer",
+        "summary": "Read Volksverpetzer fact checks, analysis and articles on your mobile phone."
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/Volksverpetzer/vvp_app/releases/download/v2.5.4/vvp-app-v2.5.4-foss-arm64-v8a.apk",
+      "checksum_sha256": "9329ac1d6afa9a968b283093a6cccc303bb6f9c1fa6814d63bf288d4221afdfe",
+      "updated": "2026-10-09"
+    },
+    "added_at": "2026-10-09T13:03:56.000Z",
+    "updated": "2026-10-09T13:03:56.000Z"
   },
   {
     "slug": "su-fei",
@@ -5927,7 +5955,7 @@
     "package_id": "de.lolo.rssreader",
     "category": "BOOKS_AND_REFERENCE",
     "developer": "immerzu",
-    "version": "1.87.37",
+    "version": "1.87.39",
     "size": "12.4 MB",
     "min_android": "8.0",
     "license": "Apache-2.0",
@@ -5963,12 +5991,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/immerzu/lolo-rssreader-android/releases/download/v1.87.37/RSS-Reader-v1.87.37-release.apk",
-      "checksum_sha256": "d9aa46dfc4fa3c127b3d96731f6d1a2e4504d8ee12a425c5e76600b616bcef30",
-      "updated": "2026-10-11"
+      "url": "https://github.com/immerzu/lolo-rssreader-android/releases/download/v1.87.39/RSS-Reader-v1.87.39-release.apk",
+      "checksum_sha256": "304559d2ecde3558b851f05873cbdab49b9d647ff3242bde84439cade17cc95a",
+      "updated": "2026-10-17"
     },
-    "added_at": "2026-10-11T13:19:58.000Z",
-    "updated": "2026-10-11T13:19:58.000Z"
+    "added_at": "2026-10-17T11:36:53.000Z",
+    "updated": "2026-10-17T11:36:53.000Z"
   },
   {
     "slug": "gitavani-bhagavad-gita",
@@ -6083,6 +6111,51 @@
     "updated": "2026-07-17T19:21:56.000Z"
   },
   {
+    "slug": "linux-command-library",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "com.inspiredandroid.linuxcommandbibliotheca",
+    "category": "BOOKS_AND_REFERENCE",
+    "developer": "SimonSchubert",
+    "version": "4.9.1",
+    "size": "14.7 MB",
+    "min_android": "7.0",
+    "license": "Apache-2.0",
+    "source_code": "https://github.com/SimonSchubert/LinuxCommandLibrary",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "com.inspiredandroid.linuxcommandbibliotheca.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "translations": {
+      "ru": {
+        "name": "Linux Command Library",
+        "summary": "2M+ app downloads, 500k+ monthly website visitors, Linux basics, tips and formatted man pages"
+      },
+      "en": {
+        "name": "Linux Command Library",
+        "summary": "2M+ app downloads, 500k+ monthly website visitors, Linux basics, tips and formatted man pages"
+      },
+      "tr": {
+        "name": "Linux Command Library",
+        "summary": "2M+ app downloads, 500k+ monthly website visitors, Linux basics, tips and formatted man pages"
+      },
+      "uz": {
+        "name": "Linux Command Library",
+        "summary": "2M+ app downloads, 500k+ monthly website visitors, Linux basics, tips and formatted man pages"
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/SimonSchubert/LinuxCommandLibrary/releases/download/v4.9.1/LinuxCommandLibrary-4.9.1-android.apk",
+      "checksum_sha256": "e314a57a3e0fe3474708abbf780aec116362e6231f6f911fa330ac3556dd0a9c",
+      "updated": "2026-10-14"
+    },
+    "added_at": "2026-10-14T23:36:58.000Z",
+    "updated": "2026-10-14T23:36:58.000Z"
+  },
+  {
     "slug": "libreoffice-openoffice-document-reader-odf",
     "custom": true,
     "source": "github",
@@ -6127,51 +6200,6 @@
     },
     "added_at": "2026-10-10T13:52:13.000Z",
     "updated": "2026-10-10T13:52:13.000Z"
-  },
-  {
-    "slug": "linux-command-library",
-    "custom": true,
-    "source": "github",
-    "open_source": true,
-    "package_id": "com.inspiredandroid.linuxcommandbibliotheca",
-    "category": "BOOKS_AND_REFERENCE",
-    "developer": "SimonSchubert",
-    "version": "4.9.0",
-    "size": "14.3 MB",
-    "min_android": "7.0",
-    "license": "Apache-2.0",
-    "source_code": "https://github.com/SimonSchubert/LinuxCommandLibrary",
-    "icon_url": "",
-    "screenshots": [],
-    "permissions": [
-      "com.inspiredandroid.linuxcommandbibliotheca.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-    ],
-    "translations": {
-      "ru": {
-        "name": "Linux Command Library",
-        "summary": "2M+ app downloads, 500k+ monthly website visitors, Linux basics, tips and formatted man pages"
-      },
-      "en": {
-        "name": "Linux Command Library",
-        "summary": "2M+ app downloads, 500k+ monthly website visitors, Linux basics, tips and formatted man pages"
-      },
-      "tr": {
-        "name": "Linux Command Library",
-        "summary": "2M+ app downloads, 500k+ monthly website visitors, Linux basics, tips and formatted man pages"
-      },
-      "uz": {
-        "name": "Linux Command Library",
-        "summary": "2M+ app downloads, 500k+ monthly website visitors, Linux basics, tips and formatted man pages"
-      }
-    },
-    "download": {
-      "type": "direct",
-      "url": "https://github.com/SimonSchubert/LinuxCommandLibrary/releases/download/v4.9.0/LinuxCommandLibrary-4.9.0-android.apk",
-      "checksum_sha256": "f8cd846eb39cf92a1247948e15dfb9dd35b17b94643eb012f1191489938cae18",
-      "updated": "2026-09-26"
-    },
-    "added_at": "2026-09-26T21:43:08.000Z",
-    "updated": "2026-09-26T21:43:08.000Z"
   },
   {
     "slug": "floccus-bookmark-sync",
@@ -6227,6 +6255,61 @@
     },
     "added_at": "2026-10-02T16:31:54.000Z",
     "updated": "2026-10-02T16:31:54.000Z"
+  },
+  {
+    "slug": "quick-bible",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "yuku.alkitab",
+    "category": "BOOKS_AND_REFERENCE",
+    "developer": "yukuku",
+    "version": "5.0.0-beta.4",
+    "size": "7.7 MB",
+    "min_android": "8.0",
+    "license": "Apache-2.0",
+    "source_code": "https://github.com/yukuku/androidbible",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.INTERNET",
+      "android.permission.FOREGROUND_SERVICE",
+      "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+      "android.permission.POST_NOTIFICATIONS",
+      "android.permission.READ_EXTERNAL_STORAGE",
+      "android.permission.WRITE_EXTERNAL_STORAGE",
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.WAKE_LOCK",
+      "com.google.android.c2dm.permission.RECEIVE",
+      "android.permission.RECEIVE_BOOT_COMPLETED",
+      "yuku.alkitab.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "translations": {
+      "ru": {
+        "name": "Quick Bible",
+        "summary": "Open Source Bible for Android"
+      },
+      "en": {
+        "name": "Quick Bible",
+        "summary": "Open Source Bible for Android"
+      },
+      "tr": {
+        "name": "Quick Bible",
+        "summary": "Open Source Bible for Android"
+      },
+      "uz": {
+        "name": "Quick Bible",
+        "summary": "Open Source Bible for Android"
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/yukuku/androidbible/releases/download/v5.0.0-beta.4/Alkitab-5.0.0-beta.4-97674c9a.apk",
+      "checksum_sha256": "7b3ba7b7746c24c744a1c3b95f6977b00c71ce453e53fbfcfccc7165c4c51ffa",
+      "updated": "2026-10-14"
+    },
+    "added_at": "2026-10-14T10:41:11.000Z",
+    "updated": "2026-10-14T10:41:11.000Z"
   },
   {
     "slug": "bible-lock-screen",
@@ -6376,60 +6459,6 @@
     },
     "added_at": "2026-10-10T05:24:42.000Z",
     "updated": "2026-10-10T05:24:42.000Z"
-  },
-  {
-    "slug": "quick-bible",
-    "custom": true,
-    "source": "github",
-    "open_source": true,
-    "package_id": "yuku.alkitab",
-    "category": "LIFESTYLE",
-    "developer": "yukuku",
-    "version": "4.10.1",
-    "size": "7.2 MB",
-    "min_android": "8.0",
-    "license": "Apache-2.0",
-    "source_code": "https://github.com/yukuku/androidbible",
-    "icon_url": "",
-    "screenshots": [],
-    "permissions": [
-      "android.permission.INTERNET",
-      "android.permission.READ_EXTERNAL_STORAGE",
-      "android.permission.WRITE_EXTERNAL_STORAGE",
-      "android.permission.ACCESS_NETWORK_STATE",
-      "android.permission.READ_SYNC_SETTINGS",
-      "android.permission.WRITE_SYNC_SETTINGS",
-      "android.permission.AUTHENTICATE_ACCOUNTS",
-      "android.permission.WAKE_LOCK",
-      "com.google.android.c2dm.permission.RECEIVE",
-      "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
-    ],
-    "translations": {
-      "ru": {
-        "name": "Quick Bible",
-        "summary": "Open Source Bible for Android"
-      },
-      "en": {
-        "name": "Quick Bible",
-        "summary": "Open Source Bible for Android"
-      },
-      "tr": {
-        "name": "Quick Bible",
-        "summary": "Open Source Bible for Android"
-      },
-      "uz": {
-        "name": "Quick Bible",
-        "summary": "Open Source Bible for Android"
-      }
-    },
-    "download": {
-      "type": "direct",
-      "url": "https://github.com/yukuku/androidbible/releases/download/4.10.1/Alkitab-17000521-4.10.1-7fd5fbac-yuku.alkitab-market.apk",
-      "checksum_sha256": "16cc8649e746c373c8d57a6aaf6570bb4a57d1cdec39155aad3b2d4cfaff3657",
-      "updated": "2024-04-24"
-    },
-    "added_at": "2024-04-24T09:58:12.000Z",
-    "updated": "2024-04-24T09:58:12.000Z"
   },
   {
     "slug": "muezzin",
@@ -6588,8 +6617,8 @@
     "package_id": "com.kaleedtc.privacium",
     "category": "EDUCATION",
     "developer": "kaleedtc",
-    "version": "2.1.2",
-    "size": "4.0 MB",
+    "version": "2.1.3",
+    "size": "4.1 MB",
     "min_android": "11",
     "license": "MIT",
     "source_code": "https://github.com/kaleedtc/Privacium",
@@ -6618,12 +6647,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/kaleedtc/Privacium/releases/download/v2.1.2/app-release.apk",
-      "checksum_sha256": "ba42e1adf28a46a22a698462a714539c7fc6f4e5c95cb378ab979307d89714ef",
-      "updated": "2026-07-28"
+      "url": "https://github.com/kaleedtc/Privacium/releases/download/v2.1.3/app-release.apk",
+      "checksum_sha256": "2069c736cfd5fa97f45d7bcfa20173b5cbfc058229bd296825548c2d2b3f8b54",
+      "updated": "2026-10-14"
     },
-    "added_at": "2026-07-28T19:52:54.000Z",
-    "updated": "2026-07-28T19:52:54.000Z"
+    "added_at": "2026-10-14T19:32:20.000Z",
+    "updated": "2026-10-14T19:32:20.000Z"
   },
   {
     "slug": "braincup",
@@ -6670,57 +6699,6 @@
     },
     "added_at": "2026-10-08T18:42:33.000Z",
     "updated": "2026-10-08T18:42:33.000Z"
-  },
-  {
-    "slug": "studydesk",
-    "custom": true,
-    "source": "github",
-    "open_source": true,
-    "package_id": "com.StudyDesk.app",
-    "category": "EDUCATION",
-    "developer": "Limekana",
-    "version": "1.17.0",
-    "size": "1.8 MB",
-    "min_android": "7.0",
-    "license": "MIT",
-    "source_code": "https://github.com/Limekana/StudyDesk",
-    "icon_url": "",
-    "screenshots": [],
-    "permissions": [
-      "android.permission.INTERNET",
-      "android.permission.POST_NOTIFICATIONS",
-      "android.permission.SCHEDULE_EXACT_ALARM",
-      "android.permission.USE_EXACT_ALARM",
-      "android.permission.RECEIVE_BOOT_COMPLETED",
-      "android.permission.WAKE_LOCK",
-      "com.StudyDesk.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-    ],
-    "translations": {
-      "ru": {
-        "name": "StudyDesk",
-        "summary": "StudyDesk is a study planner designed to combat procrastination. It includes a minimal but functional UI with an exam calendar, pomodoro timer and most importantly the next up page, that suggests things to do based on your courses and assignments. StudyDesk is an android mobile app"
-      },
-      "en": {
-        "name": "StudyDesk",
-        "summary": "StudyDesk is a study planner designed to combat procrastination. It includes a minimal but functional UI with an exam calendar, pomodoro timer and most importantly the next up page, that suggests things to do based on your courses and assignments. StudyDesk is an android mobile app"
-      },
-      "tr": {
-        "name": "StudyDesk",
-        "summary": "StudyDesk is a study planner designed to combat procrastination. It includes a minimal but functional UI with an exam calendar, pomodoro timer and most importantly the next up page, that suggests things to do based on your courses and assignments. StudyDesk is an android mobile app"
-      },
-      "uz": {
-        "name": "StudyDesk",
-        "summary": "StudyDesk is a study planner designed to combat procrastination. It includes a minimal but functional UI with an exam calendar, pomodoro timer and most importantly the next up page, that suggests things to do based on your courses and assignments. StudyDesk is an android mobile app"
-      }
-    },
-    "download": {
-      "type": "direct",
-      "url": "https://github.com/Limekana/StudyDesk/releases/download/v1.17.0/StudyDesk-1.17.0.apk",
-      "checksum_sha256": "1136f99fb33a584475a27ea2e08ca91dc7fd4db59282185bae6ea1aacda97f58",
-      "updated": "2026-10-07"
-    },
-    "added_at": "2026-10-07T12:05:02.000Z",
-    "updated": "2026-10-07T12:05:02.000Z"
   },
   {
     "slug": "keep-frost-nostr-signer",
@@ -6988,67 +6966,6 @@
     "updated": "2026-09-28T11:27:21.000Z"
   },
   {
-    "slug": "dns-toggle",
-    "custom": true,
-    "source": "github",
-    "open_source": true,
-    "package_id": "com.ericlowry.dnstoggle",
-    "category": "TOOLS",
-    "developer": "ELowry",
-    "version": "3.0.5",
-    "size": "2.1 MB",
-    "min_android": "9",
-    "license": "MIT",
-    "source_code": "https://github.com/ELowry/DNSToggle",
-    "icon_url": "",
-    "screenshots": [],
-    "permissions": [
-      "android.permission.WRITE_SECURE_SETTINGS",
-      "android.permission.INTERNET",
-      "android.permission.ACCESS_WIFI_STATE",
-      "android.permission.ACCESS_NETWORK_STATE",
-      "android.permission.ACCESS_FINE_LOCATION",
-      "android.permission.ACCESS_COARSE_LOCATION",
-      "android.permission.ACCESS_BACKGROUND_LOCATION",
-      "android.permission.NEARBY_WIFI_DEVICES",
-      "android.permission.POST_NOTIFICATIONS",
-      "android.permission.FOREGROUND_SERVICE",
-      "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
-      "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
-      "android.permission.RECEIVE_BOOT_COMPLETED",
-      "android.permission.USE_BIOMETRIC",
-      "android.permission.USE_FINGERPRINT",
-      "com.ericlowry.dnstoggle.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
-      "moe.shizuku.manager.permission.API_V23"
-    ],
-    "translations": {
-      "ru": {
-        "name": "DNS Toggle",
-        "summary": "A small Android app to easily toggle Private DNS through Quick Settings"
-      },
-      "en": {
-        "name": "DNS Toggle",
-        "summary": "A small Android app to easily toggle Private DNS through Quick Settings"
-      },
-      "tr": {
-        "name": "DNS Toggle",
-        "summary": "A small Android app to easily toggle Private DNS through Quick Settings"
-      },
-      "uz": {
-        "name": "DNS Toggle",
-        "summary": "A small Android app to easily toggle Private DNS through Quick Settings"
-      }
-    },
-    "download": {
-      "type": "direct",
-      "url": "https://github.com/ELowry/DNSToggle/releases/download/v3.0.5/dns_toggle_v3.0.5.apk",
-      "checksum_sha256": "401b5f32edb2cf54e5898bd5fa026628edbc153a1201d0dd10898f1a2d6c39b2",
-      "updated": "2026-10-11"
-    },
-    "added_at": "2026-10-11T12:19:44.000Z",
-    "updated": "2026-10-11T12:19:44.000Z"
-  },
-  {
     "slug": "snore-detector",
     "custom": true,
     "source": "github",
@@ -7166,8 +7083,8 @@
     "package_id": "com.futsch1.medtimer",
     "category": "HEALTH_AND_FITNESS",
     "developer": "Futsch1",
-    "version": "1.26.0",
-    "size": "14.8 MB",
+    "version": "1.26.1",
+    "size": "13.1 MB",
     "min_android": "9",
     "license": "MIT",
     "source_code": "https://github.com/Futsch1/medTimer",
@@ -7209,12 +7126,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/Futsch1/medTimer/releases/download/v1.26.0/MedTimer-full-release-signed.apk",
-      "checksum_sha256": "e92c955e54a62262d0b776259faf6b04a2070bbf5920f38f1fa0db2d3aaf4330",
-      "updated": "2026-10-09"
+      "url": "https://github.com/Futsch1/medTimer/releases/download/v1.26.1/MedTimer-full-release-signed.apk",
+      "checksum_sha256": "f0d600e96c64d7fff0b30e2bff55251a369d76067f24a30d848eda1fea9bacff",
+      "updated": "2026-10-18"
     },
-    "added_at": "2026-10-09T21:49:05.000Z",
-    "updated": "2026-10-09T21:49:05.000Z"
+    "added_at": "2026-10-18T15:16:50.000Z",
+    "updated": "2026-10-18T15:16:50.000Z"
   },
   {
     "slug": "table-habit",
@@ -7224,8 +7141,8 @@
     "package_id": "io.github.friesi23.mhabit",
     "category": "HEALTH_AND_FITNESS",
     "developer": "FriesI23",
-    "version": "1.27.13",
-    "size": "32.6 MB",
+    "version": "1.27.15",
+    "size": "32.7 MB",
     "min_android": "7.0",
     "license": "Apache-2.0",
     "source_code": "https://github.com/FriesI23/mhabit",
@@ -7259,12 +7176,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/FriesI23/mhabit/releases/download/v1.27.13%2B202/app-arm64-v8a-release.apk",
-      "checksum_sha256": "24d5fec99b9b52aa505e29597709bc16eb198fa550efd84a0acba35282cf38d8",
-      "updated": "2026-10-10"
+      "url": "https://github.com/FriesI23/mhabit/releases/download/v1.27.15%2B204/app-arm64-v8a-release.apk",
+      "checksum_sha256": "3b5fe60d3ca9c8631e75652c19cb1e91748cdb043ab7bc64f428e6188041148b",
+      "updated": "2026-10-19"
     },
-    "added_at": "2026-10-10T00:16:09.000Z",
-    "updated": "2026-10-10T00:16:09.000Z"
+    "added_at": "2026-10-19T04:13:10.000Z",
+    "updated": "2026-10-19T04:13:10.000Z"
   },
   {
     "slug": "flexify",
@@ -7320,62 +7237,6 @@
     "updated": "2026-10-12T09:18:38.000Z"
   },
   {
-    "slug": "fitbook",
-    "custom": true,
-    "source": "github",
-    "open_source": true,
-    "package_id": "com.presley.fit_book",
-    "category": "HEALTH_AND_FITNESS",
-    "developer": "brandonp2412",
-    "version": "2.0.104",
-    "size": "31.9 MB",
-    "min_android": "7.0",
-    "license": "MIT",
-    "source_code": "https://github.com/brandonp2412/FitBook",
-    "icon_url": "",
-    "screenshots": [],
-    "permissions": [
-      "android.permission.INTERNET",
-      "android.permission.CAMERA",
-      "android.permission.POST_NOTIFICATIONS",
-      "android.permission.RECORD_AUDIO",
-      "android.permission.WRITE_EXTERNAL_STORAGE",
-      "android.permission.READ_EXTERNAL_STORAGE",
-      "android.permission.ACCESS_NETWORK_STATE",
-      "android.permission.VIBRATE",
-      "android.permission.WAKE_LOCK",
-      "android.permission.RECEIVE_BOOT_COMPLETED",
-      "android.permission.FOREGROUND_SERVICE",
-      "com.presley.fit_book.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-    ],
-    "translations": {
-      "ru": {
-        "name": "FitBook",
-        "summary": "Offline-first calorie and nutrition tracker with barcode scanning, food search, macro tracking, and progress graphs. Built with Flutter."
-      },
-      "en": {
-        "name": "FitBook",
-        "summary": "Offline-first calorie and nutrition tracker with barcode scanning, food search, macro tracking, and progress graphs. Built with Flutter."
-      },
-      "tr": {
-        "name": "FitBook",
-        "summary": "Offline-first calorie and nutrition tracker with barcode scanning, food search, macro tracking, and progress graphs. Built with Flutter."
-      },
-      "uz": {
-        "name": "FitBook",
-        "summary": "Offline-first calorie and nutrition tracker with barcode scanning, food search, macro tracking, and progress graphs. Built with Flutter."
-      }
-    },
-    "download": {
-      "type": "direct",
-      "url": "https://github.com/brandonp2412/FitBook/releases/download/2.0.104/app-arm64-v8a-release.apk",
-      "checksum_sha256": "48259457af3f00042c2cdfb59b7e3a9df5d107c883a301bdf4ebaf72d12f6921",
-      "updated": "2026-09-26"
-    },
-    "added_at": "2026-09-26T12:18:43.000Z",
-    "updated": "2026-09-26T12:18:43.000Z"
-  },
-  {
     "slug": "quitter",
     "custom": true,
     "source": "github",
@@ -7383,8 +7244,8 @@
     "package_id": "com.quitter.app",
     "category": "HEALTH_AND_FITNESS",
     "developer": "brandonp2412",
-    "version": "1.1.80",
-    "size": "23.6 MB",
+    "version": "1.1.81",
+    "size": "29.7 MB",
     "min_android": "7.0",
     "license": "MIT",
     "source_code": "https://github.com/brandonp2412/Quitter",
@@ -7395,6 +7256,7 @@
       "android.permission.WAKE_LOCK",
       "android.permission.RECEIVE_BOOT_COMPLETED",
       "android.permission.FOREGROUND_SERVICE",
+      "android.permission.FOREGROUND_SERVICE_SHORT_SERVICE",
       "android.permission.VIBRATE",
       "com.quitter.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
     ],
@@ -7418,12 +7280,69 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/brandonp2412/Quitter/releases/download/1.1.80/app-arm64-v8a-release.apk",
-      "checksum_sha256": "aacc90963a8f7d45555b5dc86dbaa2074d25eceee2dc47cedd9735062f683336",
-      "updated": "2026-09-26"
+      "url": "https://github.com/brandonp2412/Quitter/releases/download/1.1.81/app-arm64-v8a-release.apk",
+      "checksum_sha256": "81b3e6ce9162dce573f139458f3fc9ad7586fe0d864b82b6423fb731fe5a290d",
+      "updated": "2026-10-14"
     },
-    "added_at": "2026-09-26T07:15:04.000Z",
-    "updated": "2026-09-26T07:15:04.000Z"
+    "added_at": "2026-10-14T20:06:20.000Z",
+    "updated": "2026-10-14T20:06:20.000Z"
+  },
+  {
+    "slug": "fitbook",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "com.presley.fit_book",
+    "category": "HEALTH_AND_FITNESS",
+    "developer": "brandonp2412",
+    "version": "2.0.106",
+    "size": "32.3 MB",
+    "min_android": "7.0",
+    "license": "MIT",
+    "source_code": "https://github.com/brandonp2412/FitBook",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.INTERNET",
+      "android.permission.CAMERA",
+      "android.permission.POST_NOTIFICATIONS",
+      "android.permission.RECORD_AUDIO",
+      "android.permission.WRITE_EXTERNAL_STORAGE",
+      "android.permission.READ_EXTERNAL_STORAGE",
+      "android.permission.VIBRATE",
+      "android.permission.FOREGROUND_SERVICE",
+      "android.permission.FOREGROUND_SERVICE_SHORT_SERVICE",
+      "android.permission.WAKE_LOCK",
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.RECEIVE_BOOT_COMPLETED",
+      "com.presley.fit_book.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "translations": {
+      "ru": {
+        "name": "FitBook",
+        "summary": "Offline-first calorie and nutrition tracker with barcode scanning, food search, macro tracking, and progress graphs. Built with Flutter."
+      },
+      "en": {
+        "name": "FitBook",
+        "summary": "Offline-first calorie and nutrition tracker with barcode scanning, food search, macro tracking, and progress graphs. Built with Flutter."
+      },
+      "tr": {
+        "name": "FitBook",
+        "summary": "Offline-first calorie and nutrition tracker with barcode scanning, food search, macro tracking, and progress graphs. Built with Flutter."
+      },
+      "uz": {
+        "name": "FitBook",
+        "summary": "Offline-first calorie and nutrition tracker with barcode scanning, food search, macro tracking, and progress graphs. Built with Flutter."
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/brandonp2412/FitBook/releases/download/2.0.106/app-arm64-v8a-release.apk",
+      "checksum_sha256": "5a75c91a12208c76cb0273fbd64c240225f4b89b32e7b60865b51314619503fd",
+      "updated": "2026-10-14"
+    },
+    "added_at": "2026-10-14T19:51:22.000Z",
+    "updated": "2026-10-14T19:51:22.000Z"
   },
   {
     "slug": "monocons",
@@ -7524,8 +7443,8 @@
     "package_id": "tk.zwander.lockscreenwidgets",
     "category": "PERSONALIZATION",
     "developer": "zacharee",
-    "version": "4.7.1",
-    "size": "22.0 MB",
+    "version": "4.7.3",
+    "size": "24.6 MB",
     "min_android": "7.0",
     "license": "MIT",
     "source_code": "https://github.com/zacharee/LockscreenWidgets",
@@ -7550,35 +7469,37 @@
       "android.permission.INTERNET",
       "tk.zwander.lockscreenwidgets.WALLPAPER_INTERCONNECT",
       "android.permission.WRITE_EXTERNAL_STORAGE",
+      "android.permission.WAKE_LOCK",
       "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.RECEIVE_BOOT_COMPLETED",
       "moe.shizuku.manager.permission.API_V23"
     ],
     "translations": {
       "ru": {
         "name": "Lockscreen Widgets",
-        "summary": "Приложение «Lockscreen Widgets» от zacharee входит в раздел «Персонализация». Дистрибутив занимает примерно 22.0 MB."
+        "summary": "Приложение «Lockscreen Widgets» от zacharee входит в раздел «Персонализация». Дистрибутив занимает примерно 24.6 MB."
       },
       "en": {
         "name": "Lockscreen Widgets",
-        "summary": "Lockscreen Widgets is an Android app in the Personalization category. It is published by zacharee. Expect a download of roughly 22.0 MB."
+        "summary": "Lockscreen Widgets is an Android app in the Personalization category. It is published by zacharee. Expect a download of roughly 24.6 MB."
       },
       "tr": {
         "name": "Lockscreen Widgets",
-        "summary": "Lockscreen Widgets: Kişiselleştirme kategorisinde bir Android uygulaması. Geliştirici: zacharee. İndirme boyutu yaklaşık 22.0 MB."
+        "summary": "Lockscreen Widgets: Kişiselleştirme kategorisinde bir Android uygulaması. Geliştirici: zacharee. İndirme boyutu yaklaşık 24.6 MB."
       },
       "uz": {
         "name": "Lockscreen Widgets",
-        "summary": "Lockscreen Widgets — Shaxsiylashtirish turkumidagi Android ilovasi. Dasturchi: zacharee. Yuklab olish hajmi taxminan 22.0 MB."
+        "summary": "Lockscreen Widgets — Shaxsiylashtirish turkumidagi Android ilovasi. Dasturchi: zacharee. Yuklab olish hajmi taxminan 24.6 MB."
       }
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/zacharee/LockscreenWidgets/releases/download/4.7.1/WidgetsAnywhere_4.7.1-release.apk",
-      "checksum_sha256": "a4c070dd3c1eb80ac370d5d490f7efb5ea62293995cf7f89f28bfceb510cbc39",
-      "updated": "2026-09-26"
+      "url": "https://github.com/zacharee/LockscreenWidgets/releases/download/4.7.3/WidgetsAnywhere_4.7.3-release.apk",
+      "checksum_sha256": "f31652df60cf7edfd3d2fd8e9dd880bb2785b855c5e3d3eb16710dd5bf870935",
+      "updated": "2026-10-12"
     },
-    "added_at": "2026-09-26T17:56:42.000Z",
-    "updated": "2026-09-26T17:56:42.000Z"
+    "added_at": "2026-10-12T19:53:10.000Z",
+    "updated": "2026-10-12T19:53:10.000Z"
   },
   {
     "slug": "cerberus-tiles",
@@ -7687,8 +7608,8 @@
     "package_id": "com.minimo.launcher",
     "category": "PERSONALIZATION",
     "developer": "VaibhavLakhera",
-    "version": "1.36.0",
-    "size": "3.1 MB",
+    "version": "1.37.0",
+    "size": "3.2 MB",
     "min_android": "8.0",
     "license": "MIT",
     "source_code": "https://github.com/VaibhavLakhera/minimo-launcher",
@@ -7724,12 +7645,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/VaibhavLakhera/minimo-launcher/releases/download/v1.36.0/app-foss-release.apk",
-      "checksum_sha256": "82f3a2f983938b818b2448835f9adfe828ed264065b121451ee26a830b7e7bfe",
-      "updated": "2026-09-26"
+      "url": "https://github.com/VaibhavLakhera/minimo-launcher/releases/download/v1.37.0/app-foss-release.apk",
+      "checksum_sha256": "7af1e41099c1d85d3bd840cb3ef358dde004148213226ada4c57c4afec08e7b2",
+      "updated": "2026-10-15"
     },
-    "added_at": "2026-09-26T06:35:14.000Z",
-    "updated": "2026-09-26T06:35:14.000Z"
+    "added_at": "2026-10-15T17:08:20.000Z",
+    "updated": "2026-10-15T17:08:20.000Z"
   },
   {
     "slug": "muzei-pixiv-source",
@@ -7791,8 +7712,8 @@
     "package_id": "app.lawnchair.lawnicons",
     "category": "PERSONALIZATION",
     "developer": "LawnchairLauncher",
-    "version": "2.18.0",
-    "size": "16.3 MB",
+    "version": "2.19.0",
+    "size": "17.8 MB",
     "min_android": "8.0",
     "license": "Apache-2.0",
     "source_code": "https://github.com/LawnchairLauncher/lawnicons",
@@ -7800,6 +7721,7 @@
     "screenshots": [],
     "permissions": [
       "android.permission.INTERNET",
+      "android.permission.POST_NOTIFICATIONS",
       "app.lawnchair.lawnicons.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
     ],
     "translations": {
@@ -7822,12 +7744,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/LawnchairLauncher/lawnicons/releases/download/v2.18.0/Lawnicons.2.18.0.apk",
-      "checksum_sha256": "e830b37e1cd7cd66487492f4a1084ba086254b2b09541d729da0ec2169a73bfe",
-      "updated": "2026-06-17"
+      "url": "https://github.com/LawnchairLauncher/lawnicons/releases/download/v2.19.0/Lawnicons.2.19.0.apk",
+      "checksum_sha256": "5ed67a0338c207bd0f8c44392dedbae8d0449fef5c8d773a202451d42bbd8cdd",
+      "updated": "2026-10-17"
     },
-    "added_at": "2026-06-17T14:19:57.000Z",
-    "updated": "2026-06-17T14:19:57.000Z"
+    "added_at": "2026-10-17T16:43:43.000Z",
+    "updated": "2026-10-17T16:43:43.000Z"
   },
   {
     "slug": "peristyle",
@@ -7837,8 +7759,8 @@
     "package_id": "app.simple.peri",
     "category": "PERSONALIZATION",
     "developer": "Hamza417",
-    "version": "v9.8.2",
-    "size": "4.1 MB",
+    "version": "v9.8.3",
+    "size": "4.2 MB",
     "min_android": "7.0",
     "license": "Apache-2.0",
     "source_code": "https://github.com/Hamza417/Peristyle",
@@ -7878,12 +7800,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/Hamza417/Peristyle/releases/download/v9.8.2/app-prod-release.apk",
-      "checksum_sha256": "57a0bc0eee25a9052d10c3a481c6b8dd7f2202a2579f85a3cd5b9ed49ea58c9b",
-      "updated": "2026-10-08"
+      "url": "https://github.com/Hamza417/Peristyle/releases/download/v9.8.3/app-prod-release.apk",
+      "checksum_sha256": "78e04d5811464f2b9d8276820b00e82b29571361c07671721c78e09f1a41ebc2",
+      "updated": "2026-10-16"
     },
-    "added_at": "2026-10-08T04:24:00.000Z",
-    "updated": "2026-10-08T04:24:00.000Z"
+    "added_at": "2026-10-16T02:16:50.000Z",
+    "updated": "2026-10-16T02:16:50.000Z"
   },
   {
     "slug": "pie-launcher",
@@ -8262,8 +8184,8 @@
     "package_id": "org.avmedia.gshockGoogleSync",
     "category": "PRODUCTIVITY",
     "developer": "izivkov",
-    "version": "42.9.11",
-    "size": "4.9 MB",
+    "version": "42.9.12",
+    "size": "4.8 MB",
     "min_android": "8.0",
     "license": "Apache-2.0",
     "source_code": "https://github.com/izivkov/CasioGShockSmartSync",
@@ -8272,6 +8194,7 @@
     "permissions": [
       "android.permission.RECORD_AUDIO",
       "android.permission.ACCESS_COARSE_LOCATION",
+      "android.permission.ACCESS_FINE_LOCATION",
       "android.permission.BLUETOOTH",
       "android.permission.BLUETOOTH_ADMIN",
       "android.permission.BLUETOOTH_SCAN",
@@ -8299,29 +8222,29 @@
     "translations": {
       "ru": {
         "name": "Casio G-Shock Smart Sync",
-        "summary": "Приложение «Casio G-Shock Smart Sync» относится к разделу «Продуктивность». Разработчик — izivkov. Дистрибутив занимает примерно 4.9 MB."
+        "summary": "Приложение «Casio G-Shock Smart Sync» относится к разделу «Продуктивность». Разработчик — izivkov. Дистрибутив занимает примерно 4.8 MB."
       },
       "en": {
         "name": "Casio G-Shock Smart Sync",
-        "summary": "Listed under Productivity, Casio G-Shock Smart Sync is an Android app. izivkov maintains the listing. The download weighs about 4.9 MB."
+        "summary": "Listed under Productivity, Casio G-Shock Smart Sync is an Android app. izivkov maintains the listing. The download weighs about 4.8 MB."
       },
       "tr": {
         "name": "Casio G-Shock Smart Sync",
-        "summary": "Casio G-Shock Smart Sync — Android için bir Üretkenlik uygulaması. Kaydı izivkov yönetiyor. Dosya boyutu 4.9 MB civarında."
+        "summary": "Casio G-Shock Smart Sync — Android için bir Üretkenlik uygulaması. Kaydı izivkov yönetiyor. Dosya boyutu 4.8 MB civarında."
       },
       "uz": {
         "name": "Casio G-Shock Smart Sync",
-        "summary": "Katalogning «Samaradorlik» bo‘limida: Casio G-Shock Smart Sync. Yozuvni izivkov yuritadi. Fayl hajmi 4.9 MB atrofida."
+        "summary": "Katalogning «Samaradorlik» bo‘limida: Casio G-Shock Smart Sync. Yozuvni izivkov yuritadi. Fayl hajmi 4.8 MB atrofida."
       }
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/izivkov/CasioGShockSmartSync/releases/download/v42.9.11/app-release.apk",
-      "checksum_sha256": "28ec2a6531b896413d978a91713bfdad74c785bda8698dee09ce9ffab116bc1d",
-      "updated": "2026-09-17"
+      "url": "https://github.com/izivkov/CasioGShockSmartSync/releases/download/v42.9.12/app-release.apk",
+      "checksum_sha256": "91a1a2f616b232dec597b4ffb65d31562ad9ee7d1720095c5442362b94978f07",
+      "updated": "2026-10-15"
     },
-    "added_at": "2026-09-17T15:40:44.000Z",
-    "updated": "2026-09-17T15:40:44.000Z"
+    "added_at": "2026-10-15T23:55:14.000Z",
+    "updated": "2026-10-15T23:55:14.000Z"
   },
   {
     "slug": "plees-tracker",
@@ -8654,7 +8577,7 @@
     "package_id": "com.xnotes",
     "category": "PRODUCTIVITY",
     "developer": "shardulvs",
-    "version": "0.9.1",
+    "version": "0.9.2",
     "size": "28.9 MB",
     "min_android": "8.0",
     "license": "MIT",
@@ -8684,12 +8607,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/shardulvs/xnotes-android/releases/download/v0.9.1/xnotes-0.9.1.apk",
-      "checksum_sha256": "d6116c74be0fb7e6d3e77a5d91024b1ff368132e1474f01a8ead374b7a2ae76e",
-      "updated": "2026-10-10"
+      "url": "https://github.com/shardulvs/xnotes-android/releases/download/v0.9.2/xnotes-0.9.2.apk",
+      "checksum_sha256": "ba4face2df6b51a22ebb16760bd027be7c202385d9d4eec829285514763e1542",
+      "updated": "2026-10-16"
     },
-    "added_at": "2026-10-10T18:04:50.000Z",
-    "updated": "2026-10-10T18:04:50.000Z"
+    "added_at": "2026-10-16T08:25:47.000Z",
+    "updated": "2026-10-16T08:25:47.000Z"
   },
   {
     "slug": "markleaf",
@@ -8699,7 +8622,7 @@
     "package_id": "com.markleaf.notes",
     "category": "PRODUCTIVITY",
     "developer": "jeiel85",
-    "version": "2.67.0",
+    "version": "2.70.0",
     "size": "3.2 MB",
     "min_android": "8.0",
     "license": "Apache-2.0",
@@ -8734,12 +8657,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/jeiel85/markleaf-android/releases/download/v2.67.0/markleaf-v2.67.0-sideload.apk",
-      "checksum_sha256": "ba0179334d1ec119d5c2619caa773261a8902379aa65cc1f515aa2764b0c6361",
-      "updated": "2026-10-07"
+      "url": "https://github.com/jeiel85/markleaf-android/releases/download/v2.70.0/markleaf-v2.70.0-sideload.apk",
+      "checksum_sha256": "67efd0a6875458060e235e37651b573ebea7c5333d6dd173d0d40dc9302ee0ee",
+      "updated": "2026-10-15"
     },
-    "added_at": "2026-10-07T05:17:57.000Z",
-    "updated": "2026-10-07T05:17:57.000Z"
+    "added_at": "2026-10-15T01:08:05.000Z",
+    "updated": "2026-10-15T01:08:05.000Z"
   },
   {
     "slug": "simple-keyboard",
@@ -9047,6 +8970,62 @@
     },
     "added_at": "2024-10-16T21:26:06.000Z",
     "updated": "2024-10-16T21:26:06.000Z"
+  },
+  {
+    "slug": "classic-power-menu",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "com.kieronquinn.app.classicpowermenu",
+    "category": "TOOLS",
+    "developer": "KieronQuinn",
+    "version": "1.9.3",
+    "size": "43.3 MB",
+    "min_android": "11",
+    "license": "Apache-2.0",
+    "source_code": "https://github.com/KieronQuinn/ClassicPowerMenu",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.INTERNET",
+      "android.permission.WRITE_SECURE_SETTINGS",
+      "android.permission.REQUEST_INSTALL_PACKAGES",
+      "android.permission.POST_NOTIFICATIONS",
+      "android.permission.QUERY_ALL_PACKAGES",
+      "android.permission.WAKE_LOCK",
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.RECEIVE_BOOT_COMPLETED",
+      "android.permission.FOREGROUND_SERVICE",
+      "android.permission.VIBRATE",
+      "com.kieronquinn.app.classicpowermenu.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+      "android.permission.CAMERA"
+    ],
+    "translations": {
+      "ru": {
+        "name": "Classic Power Menu",
+        "summary": "Power Menu Replacement for Android"
+      },
+      "en": {
+        "name": "Classic Power Menu",
+        "summary": "Power Menu Replacement for Android"
+      },
+      "tr": {
+        "name": "Classic Power Menu",
+        "summary": "Power Menu Replacement for Android"
+      },
+      "uz": {
+        "name": "Classic Power Menu",
+        "summary": "Power Menu Replacement for Android"
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/KieronQuinn/ClassicPowerMenu/releases/download/1.9.3/ClassicPowerMenu-v1.9.3.apk",
+      "checksum_sha256": "f6f924943a5d8a8d23d2efdb0593c3d1e88a87a34a8e8192bbffa4fc36e455ad",
+      "updated": "2026-04-12"
+    },
+    "added_at": "2026-04-12T01:49:23.000Z",
+    "updated": "2026-04-12T01:49:23.000Z"
   },
   {
     "slug": "app-settings-reborn",
