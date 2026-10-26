@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-19T10:35:41.677Z",
+  "generated_at": "2026-10-26T10:50:32.525Z",
   "source": "openapk-import.js",
   "upstream": "github.com/mobilenetworkltd/openapk (CC0)",
   "files_read": 22,
-  "discovered": 905,
-  "written": 905
+  "discovered": 893,
+  "written": 893
 }
