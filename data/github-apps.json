@@ -135,8 +135,8 @@
     "package_id": "com.tailscale.ipn",
     "category": "TOOLS",
     "developer": "tailscale",
-    "version": "1.104.2-tc3430f0d2-gb01fa89d5",
-    "size": "100.7 MB",
+    "version": "1.104.4-t938213198-gb9d487fe6",
+    "size": "100.8 MB",
     "min_android": "8.0",
     "license": "BSD-3-Clause",
     "source_code": "https://github.com/tailscale/tailscale-android",
@@ -176,12 +176,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/tailscale/tailscale-android/releases/download/1.104.2-tc3430f0d2-gb01fa89d5/tailscale-android-universal-1.104.2.apk",
-      "checksum_sha256": "270b3e6e54c99103ed98fa967de7bbf6053e1066250ea35d2b9f450947fd0a78",
-      "updated": "2026-10-21"
+      "url": "https://github.com/tailscale/tailscale-android/releases/download/1.104.4-t938213198-gb9d487fe6/tailscale-android-universal-1.104.4.apk",
+      "checksum_sha256": "47628cecde2de0ed03f4a69424635259023daf76fb5d9afeeddfa62761690984",
+      "updated": "2026-10-28"
     },
-    "added_at": "2026-10-21T14:08:08.000Z",
-    "updated": "2026-10-21T14:08:08.000Z"
+    "added_at": "2026-10-28T18:55:55.000Z",
+    "updated": "2026-10-28T18:55:55.000Z"
   },
   {
     "slug": "home-assistant",
@@ -191,8 +191,8 @@
     "package_id": "io.homeassistant.companion.android.minimal",
     "category": "TOOLS",
     "developer": "home-assistant",
-    "version": "2026.10.1-minimal",
-    "size": "98.3 MB",
+    "version": "2026.11.1-minimal",
+    "size": "117.9 MB",
     "min_android": "10",
     "license": "Apache-2.0",
     "source_code": "https://github.com/home-assistant/android",
@@ -267,12 +267,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/home-assistant/android/releases/download/2026.10.1/automotive-minimal-release.apk",
-      "checksum_sha256": "0a6ecb8634c9995aa7cbad9e81b6497eaab2234e0996590b77860fa619b94847",
-      "updated": "2026-10-06"
+      "url": "https://github.com/home-assistant/android/releases/download/2026.11.1/automotive-minimal-release.apk",
+      "checksum_sha256": "c819df2617f69db1fac17b5f1a0c4d595e4d5cc334e17c105da278b7684d46e6",
+      "updated": "2026-11-02"
     },
-    "added_at": "2026-10-06T13:38:43.000Z",
-    "updated": "2026-10-06T13:38:43.000Z"
+    "added_at": "2026-11-02T07:53:42.000Z",
+    "updated": "2026-11-02T07:53:42.000Z"
   },
   {
     "slug": "wg-tunnel",
@@ -340,59 +340,70 @@
     "updated": "2026-10-19T07:01:46.000Z"
   },
   {
-    "slug": "i2pd",
+    "slug": "neostumbler-2",
     "custom": true,
     "source": "github",
     "open_source": true,
-    "package_id": "org.purplei2p.i2pd",
+    "package_id": "xyz.malkki.neostumbler",
     "category": "TOOLS",
-    "developer": "PurpleI2P",
-    "version": "3.0.0",
-    "size": "19.8 MB",
-    "min_android": "6.0",
-    "license": "BSD-3-Clause",
-    "source_code": "https://github.com/PurpleI2P/i2pd-android",
+    "developer": "mjaakko",
+    "version": "2.4.3",
+    "size": "53.9 MB",
+    "min_android": "10",
+    "license": "MIT",
+    "source_code": "https://github.com/mjaakko/NeoStumbler",
     "icon_url": "",
     "screenshots": [],
     "permissions": [
-      "android.permission.INTERNET",
-      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.ACTIVITY_RECOGNITION",
       "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
-      "android.permission.MANAGE_EXTERNAL_STORAGE",
-      "android.permission.WRITE_EXTERNAL_STORAGE",
+      "android.permission.ACCESS_LOCAL_NETWORK",
+      "android.permission.ACCESS_FINE_LOCATION",
+      "android.permission.ACCESS_COARSE_LOCATION",
+      "android.permission.ACCESS_BACKGROUND_LOCATION",
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.ACCESS_WIFI_STATE",
+      "android.permission.CHANGE_WIFI_STATE",
+      "android.permission.NEARBY_WIFI_DEVICES",
+      "android.permission.INTERNET",
       "android.permission.FOREGROUND_SERVICE",
-      "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+      "android.permission.FOREGROUND_SERVICE_LOCATION",
+      "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
       "android.permission.POST_NOTIFICATIONS",
+      "android.permission.READ_PHONE_STATE",
       "android.permission.RECEIVE_BOOT_COMPLETED",
       "android.permission.WAKE_LOCK",
-      "org.purplei2p.i2pd.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+      "android.permission.BLUETOOTH_SCAN",
+      "android.permission.BLUETOOTH",
+      "android.permission.BLUETOOTH_ADMIN",
+      "xyz.malkki.neostumbler.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
     ],
     "translations": {
       "ru": {
-        "name": "i2pd",
-        "summary": "i2pd for Android"
+        "name": "NeoStumbler",
+        "summary": "New stumbler application for contributing data to geolocation services"
       },
       "en": {
-        "name": "i2pd",
-        "summary": "i2pd for Android"
+        "name": "NeoStumbler",
+        "summary": "New stumbler application for contributing data to geolocation services"
       },
       "tr": {
-        "name": "i2pd",
-        "summary": "i2pd for Android"
+        "name": "NeoStumbler",
+        "summary": "New stumbler application for contributing data to geolocation services"
       },
       "uz": {
-        "name": "i2pd",
-        "summary": "i2pd for Android"
+        "name": "NeoStumbler",
+        "summary": "New stumbler application for contributing data to geolocation services"
       }
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/PurpleI2P/i2pd-android/releases/download/3.0.0/i2pd-3.0.0-universal-release.apk",
-      "checksum_sha256": "bf49984569cfef974763623d4580c3c87322453fde11db3133c6715d6fbac64d",
-      "updated": "2026-10-24"
+      "url": "https://github.com/mjaakko/NeoStumbler/releases/download/2.4.3/app-full-default-universal-release.apk",
+      "checksum_sha256": "84b0696b1c8fee070b3b30da465279fc54d6756a02e41106c3517a5d0ac79cd8",
+      "updated": "2026-10-28"
     },
-    "added_at": "2026-10-24T01:42:52.000Z",
-    "updated": "2026-10-24T01:42:52.000Z"
+    "added_at": "2026-10-28T18:56:17.000Z",
+    "updated": "2026-10-28T18:56:17.000Z"
   },
   {
     "slug": "vernet-network-analyzer",
@@ -402,8 +413,8 @@
     "package_id": "org.fsociety.vernet",
     "category": "TOOLS",
     "developer": "osociety",
-    "version": "1.4.12",
-    "size": "23.3 MB",
+    "version": "1.4.15",
+    "size": "23.6 MB",
     "min_android": "7.0",
     "license": "Apache-2.0",
     "source_code": "https://github.com/osociety/vernet",
@@ -445,68 +456,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/osociety/vernet/releases/download/v1.4.12%2B69/Vernet-v1.4.12%2B69-app-arm64-v8a-dev-release.apk",
-      "checksum_sha256": "4ecb6658600b7d562a3cffeaa655e58de1b31d6ad0a26ad0a10b52dc5db4d187",
-      "updated": "2026-10-23"
+      "url": "https://github.com/osociety/vernet/releases/download/v1.4.15%2B72/Vernet-v1.4.15%2B72-app-arm64-v8a-dev-release.apk",
+      "checksum_sha256": "d5b93e277c1d66842bec83df0a07d800bfb1891dadf2b10aac60398e45db3af7",
+      "updated": "2026-10-31"
     },
-    "added_at": "2026-10-23T03:48:24.000Z",
-    "updated": "2026-10-23T03:48:24.000Z"
-  },
-  {
-    "slug": "autopie-2",
-    "custom": true,
-    "source": "github",
-    "open_source": true,
-    "package_id": "com.pie",
-    "category": "TOOLS",
-    "developer": "cryptrr",
-    "version": "0.19.3-beta",
-    "size": "71.8 MB",
-    "min_android": "8.1",
-    "license": "Apache-2.0",
-    "source_code": "https://github.com/cryptrr/AutoPie",
-    "icon_url": "",
-    "screenshots": [],
-    "permissions": [
-      "android.permission.INTERNET",
-      "android.permission.RECEIVE_BOOT_COMPLETED",
-      "android.permission.WAKE_LOCK",
-      "android.permission.MANAGE_EXTERNAL_STORAGE",
-      "android.permission.READ_EXTERNAL_STORAGE",
-      "android.permission.WRITE_EXTERNAL_STORAGE",
-      "android.permission.POST_NOTIFICATIONS",
-      "android.permission.FOREGROUND_SERVICE",
-      "android.permission.ACCESS_NETWORK_STATE",
-      "android.permission.VIBRATE",
-      "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
-      "com.pie.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-    ],
-    "translations": {
-      "ru": {
-        "name": "AutoPie",
-        "summary": "Swiss Army Knife For Android. Turn Linux commands into Android applets and automations."
-      },
-      "en": {
-        "name": "AutoPie",
-        "summary": "Swiss Army Knife For Android. Turn Linux commands into Android applets and automations."
-      },
-      "tr": {
-        "name": "AutoPie",
-        "summary": "Swiss Army Knife For Android. Turn Linux commands into Android applets and automations."
-      },
-      "uz": {
-        "name": "AutoPie",
-        "summary": "Swiss Army Knife For Android. Turn Linux commands into Android applets and automations."
-      }
-    },
-    "download": {
-      "type": "direct",
-      "url": "https://github.com/cryptrr/AutoPie/releases/download/v0.19.3-beta/AutoPie-v0.19.3-beta-aarch64-secondary-user.apk",
-      "checksum_sha256": "9dd286d7f0027fb71c3ce38f5ec255af8746ede373f33af921aa005ec13688ae",
-      "updated": "2026-10-16"
-    },
-    "added_at": "2026-10-16T05:57:35.000Z",
-    "updated": "2026-10-16T05:57:35.000Z"
+    "added_at": "2026-10-31T10:05:06.000Z",
+    "updated": "2026-10-31T10:05:06.000Z"
   },
   {
     "slug": "omn-go",
@@ -615,8 +570,8 @@
     "package_id": "com.grappim.taigamobile",
     "category": "TOOLS",
     "developer": "Grigoriym",
-    "version": "2.2.2",
-    "size": "9.1 MB",
+    "version": "2.2.3",
+    "size": "9.7 MB",
     "min_android": "7.0",
     "license": "Apache-2.0",
     "source_code": "https://github.com/Grigoriym/TaigaMobileNova",
@@ -647,12 +602,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/Grigoriym/TaigaMobileNova/releases/download/v2.2.2/app-gplay-release.apk",
-      "checksum_sha256": "2e30203a1d86339cef9a919827b124cf58c64f4f6ce349c6f089a7fa798b33b8",
-      "updated": "2026-09-13"
+      "url": "https://github.com/Grigoriym/TaigaMobileNova/releases/download/v2.2.3/app-gplay-release.apk",
+      "checksum_sha256": "12767fa5e828d93ad68933e9e19111bf2ab17f3a584a7d04a9974a49bcaf9e22",
+      "updated": "2026-10-30"
     },
-    "added_at": "2026-09-13T11:47:46.000Z",
-    "updated": "2026-09-13T11:47:46.000Z"
+    "added_at": "2026-10-30T09:44:40.000Z",
+    "updated": "2026-10-30T09:44:40.000Z"
   },
   {
     "slug": "caniwebview",
@@ -708,8 +663,8 @@
     "package_id": "com.google.ai.edge.gallery",
     "category": "TOOLS",
     "developer": "google-ai-edge",
-    "version": "1.0.20",
-    "size": "73.0 MB",
+    "version": "1.0.22",
+    "size": "104.5 MB",
     "min_android": "12",
     "license": "Apache-2.0",
     "source_code": "https://github.com/google-ai-edge/gallery",
@@ -756,12 +711,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/google-ai-edge/gallery/releases/download/1.0.20/ai-edge-gallery-sm8850.apk",
-      "checksum_sha256": "26600544841d7f98fdac43c5905c506347c4f4fa9fbf52970f5d7c87c32976ee",
-      "updated": "2026-10-06"
+      "url": "https://github.com/google-ai-edge/gallery/releases/download/1.0.22/ai_edge_gallery_app_sm8850.apk",
+      "checksum_sha256": "f01cf904365718003c02242dd55ca4228f7ceb14a5a32622d7e0f658a62615d1",
+      "updated": "2026-10-28"
     },
-    "added_at": "2026-10-06T22:07:54.000Z",
-    "updated": "2026-10-06T22:07:54.000Z"
+    "added_at": "2026-10-28T19:12:32.000Z",
+    "updated": "2026-10-28T19:12:32.000Z"
   },
   {
     "slug": "acode",
@@ -1032,8 +987,8 @@
     "package_id": "io.shubham0204.smollmandroid",
     "category": "TOOLS",
     "developer": "shubham0204",
-    "version": "16",
-    "size": "106.3 MB",
+    "version": "17",
+    "size": "111.4 MB",
     "min_android": "8.0",
     "license": "Apache-2.0",
     "source_code": "https://github.com/shubham0204/SmolChat-Android",
@@ -1042,10 +997,12 @@
     "permissions": [
       "android.permission.INTERNET",
       "android.permission.RECORD_AUDIO",
+      "android.permission.FOREGROUND_SERVICE",
+      "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+      "android.permission.POST_NOTIFICATIONS",
       "android.permission.WAKE_LOCK",
       "android.permission.ACCESS_NETWORK_STATE",
       "android.permission.RECEIVE_BOOT_COMPLETED",
-      "android.permission.FOREGROUND_SERVICE",
       "io.shubham0204.smollmandroid.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
     ],
     "translations": {
@@ -1068,12 +1025,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/shubham0204/SmolChat-Android/releases/download/v16/SmolChat_v16.apk",
-      "checksum_sha256": "9fa1c1b4e0071661ca345e52ba40db94698b94dcb6b3c81842ec37109fb3a974",
-      "updated": "2026-06-21"
+      "url": "https://github.com/shubham0204/SmolChat-Android/releases/download/v17/SmolChat_v17.apk",
+      "checksum_sha256": "fbb4d830437133a27de032efa92cbb712d36e6074e7e231d2f13027de4dc0747",
+      "updated": "2026-11-01"
     },
-    "added_at": "2026-06-21T11:56:39.000Z",
-    "updated": "2026-06-21T11:56:39.000Z"
+    "added_at": "2026-11-01T14:50:07.000Z",
+    "updated": "2026-11-01T14:50:07.000Z"
   },
   {
     "slug": "bined-binary-hex-editor",
@@ -1120,56 +1077,6 @@
     },
     "added_at": "2026-08-16T20:37:55.000Z",
     "updated": "2026-08-16T20:37:55.000Z"
-  },
-  {
-    "slug": "jekyllex",
-    "custom": true,
-    "source": "github",
-    "open_source": true,
-    "package_id": "xyz.jekyllex",
-    "category": "TOOLS",
-    "developer": "jekyllex",
-    "version": "v0.2.6",
-    "size": "238.0 MB",
-    "min_android": "7.0",
-    "license": "MIT",
-    "source_code": "https://github.com/jekyllex/jekyllex-android",
-    "icon_url": "",
-    "screenshots": [],
-    "permissions": [
-      "android.permission.INTERNET",
-      "android.permission.POST_NOTIFICATIONS",
-      "android.permission.FOREGROUND_SERVICE",
-      "android.permission.ACCESS_NETWORK_STATE",
-      "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
-      "xyz.jekyllex.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-    ],
-    "translations": {
-      "ru": {
-        "name": "JekyllEx",
-        "summary": "JekyllEx is an Android app that can manage your Jekyll blog directly from your Android device!"
-      },
-      "en": {
-        "name": "JekyllEx",
-        "summary": "JekyllEx is an Android app that can manage your Jekyll blog directly from your Android device!"
-      },
-      "tr": {
-        "name": "JekyllEx",
-        "summary": "JekyllEx is an Android app that can manage your Jekyll blog directly from your Android device!"
-      },
-      "uz": {
-        "name": "JekyllEx",
-        "summary": "JekyllEx is an Android app that can manage your Jekyll blog directly from your Android device!"
-      }
-    },
-    "download": {
-      "type": "direct",
-      "url": "https://github.com/jekyllex/jekyllex-android/releases/download/v0.2.6/jekyllex-v0.2.6-universal.apk",
-      "checksum_sha256": "a9c4eef7144e0417a375bf322bfce2084a911de8a9bfaf1c4f7cfa2e0bd738f2",
-      "updated": "2026-10-09"
-    },
-    "added_at": "2026-10-09T17:59:51.000Z",
-    "updated": "2026-10-09T17:59:51.000Z"
   },
   {
     "slug": "specifically-clementines",
@@ -1471,7 +1378,7 @@
     "package_id": "com.unciv.app",
     "category": "GAME_ARCADE",
     "developer": "yairm210",
-    "version": "4.22.14-patch1",
+    "version": "4.22.16",
     "size": "26.3 MB",
     "min_android": "5.0",
     "license": "MPL-2.0",
@@ -1507,12 +1414,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/yairm210/Unciv/releases/download/4.22.14-patch1/Unciv-signed.apk",
-      "checksum_sha256": "cdc2762f17a4ccbb0d950b018224baab4961483507e97c74dd4c9903f7fd87e4",
-      "updated": "2026-10-26"
+      "url": "https://github.com/yairm210/Unciv/releases/download/4.22.16/Unciv-signed.apk",
+      "checksum_sha256": "1942be83cc8eee3a4bfab866d27f4f2be3d4156804d988a44319de6752c8fe8c",
+      "updated": "2026-10-31"
     },
-    "added_at": "2026-10-26T04:10:43.000Z",
-    "updated": "2026-10-26T04:10:43.000Z"
+    "added_at": "2026-10-31T18:52:27.000Z",
+    "updated": "2026-10-31T18:52:27.000Z"
   },
   {
     "slug": "easter-eggs",
@@ -1575,8 +1482,8 @@
     "package_id": "de.chadenas.cpudefense",
     "category": "GAME_ARCADE",
     "developer": "ochadenas",
-    "version": "1.64",
-    "size": "14.1 MB",
+    "version": "1.65",
+    "size": "15.1 MB",
     "min_android": "6.0",
     "license": "MIT",
     "source_code": "https://github.com/ochadenas/cpudefense",
@@ -1605,12 +1512,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/ochadenas/cpudefense/releases/download/v1.64/app-release.apk",
-      "checksum_sha256": "502c0d5d4ae4fdd0d7c044a1aeee963c072f0b0d74681ee6ef8b6a166b9fefd6",
-      "updated": "2026-10-10"
+      "url": "https://github.com/ochadenas/cpudefense/releases/download/v1.65/app-release.apk",
+      "checksum_sha256": "067ea9b51766d63809921eecf6f7179d007418cd344b3e4e53331a071b36bbc8",
+      "updated": "2026-11-01"
     },
-    "added_at": "2026-10-10T09:01:06.000Z",
-    "updated": "2026-10-10T09:01:06.000Z"
+    "added_at": "2026-11-01T09:50:12.000Z",
+    "updated": "2026-11-01T09:50:12.000Z"
   },
   {
     "slug": "aaaaxy",
@@ -1654,6 +1561,56 @@
     },
     "added_at": "2026-10-16T08:25:53.000Z",
     "updated": "2026-10-16T08:25:53.000Z"
+  },
+  {
+    "slug": "poker-payout",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "com.huntercoles.pokerpayout",
+    "category": "GAME_ARCADE",
+    "developer": "HunterColes",
+    "version": "1.4.28",
+    "size": "2.4 MB",
+    "min_android": "8.0",
+    "license": "MIT",
+    "source_code": "https://github.com/HunterColes/PokerPayout",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.POST_NOTIFICATIONS",
+      "android.permission.FOREGROUND_SERVICE",
+      "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+      "android.permission.WAKE_LOCK",
+      "android.permission.VIBRATE",
+      "com.huntercoles.pokerpayout.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "translations": {
+      "ru": {
+        "name": "Poker Payout",
+        "summary": "Free Android app for home poker nights: tournament clock and blinds, payouts to the cent, a bank of who paid what, and table tools. Offline, no ads, no accounts."
+      },
+      "en": {
+        "name": "Poker Payout",
+        "summary": "Free Android app for home poker nights: tournament clock and blinds, payouts to the cent, a bank of who paid what, and table tools. Offline, no ads, no accounts."
+      },
+      "tr": {
+        "name": "Poker Payout",
+        "summary": "Free Android app for home poker nights: tournament clock and blinds, payouts to the cent, a bank of who paid what, and table tools. Offline, no ads, no accounts."
+      },
+      "uz": {
+        "name": "Poker Payout",
+        "summary": "Free Android app for home poker nights: tournament clock and blinds, payouts to the cent, a bank of who paid what, and table tools. Offline, no ads, no accounts."
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/HunterColes/PokerPayout/releases/download/v1.4.28/PokerPayout-v1.4.28-release.apk",
+      "checksum_sha256": "ec3218870ec32dcf24e05e7f30a40e02cb4fc46275d6081866568609f4e38c3e",
+      "updated": "2026-11-02"
+    },
+    "added_at": "2026-11-02T08:05:06.000Z",
+    "updated": "2026-11-02T08:05:06.000Z"
   },
   {
     "slug": "piccollage",
@@ -1954,7 +1911,7 @@
     "package_id": "com.googol.android.apps.photos",
     "category": "ART_AND_DESIGN",
     "developer": "iZakirSheikh",
-    "version": "1.0.10",
+    "version": "1.0.11",
     "size": "7.1 MB",
     "min_android": "10",
     "license": "Apache-2.0",
@@ -1970,13 +1927,13 @@
       "android.permission.READ_MEDIA_VIDEO",
       "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
       "com.android.vending.BILLING",
-      "android.permission.INTERNET",
       "android.permission.ACCESS_NETWORK_STATE",
       "android.permission.WAKE_LOCK",
+      "android.permission.INTERNET",
+      "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
       "com.google.android.gms.permission.AD_ID",
       "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
       "android.permission.ACCESS_ADSERVICES_AD_ID",
-      "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
       "com.googol.android.apps.photos.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
     ],
     "translations": {
@@ -1999,12 +1956,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/googol-apps/Gallery/releases/download/v1.0.10/app-standard-release-unsigned-signed.apk",
-      "checksum_sha256": "ebb96e9fd5772f63454ef5c7d0eb5177144026580e1bcc0815f75cc2730f7fb4",
-      "updated": "2026-09-04"
+      "url": "https://github.com/googol-apps/Gallery/releases/download/v1.0.11/app-standard-release-unsigned-signed.apk",
+      "checksum_sha256": "3131edd876a702baf0b7d50b092296e4a9e219960842b4aaa0dcb029c289eaab",
+      "updated": "2026-10-29"
     },
-    "added_at": "2026-09-04T16:48:46.000Z",
-    "updated": "2026-09-04T16:48:46.000Z"
+    "added_at": "2026-10-29T09:24:28.000Z",
+    "updated": "2026-10-29T09:24:28.000Z"
   },
   {
     "slug": "aves-libre",
@@ -2198,6 +2155,53 @@
     },
     "added_at": "2026-09-04T20:59:32.000Z",
     "updated": "2026-09-04T20:59:32.000Z"
+  },
+  {
+    "slug": "makeacopy-2",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "de.schliweb.makeacopy.light",
+    "category": "ART_AND_DESIGN",
+    "developer": "egdels",
+    "version": "4.9.0-light",
+    "size": "40.4 MB",
+    "min_android": "10",
+    "license": "Apache-2.0",
+    "source_code": "https://github.com/egdels/makeacopy",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.CAMERA",
+      "android.permission.VIBRATE",
+      "de.schliweb.makeacopy.light.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "translations": {
+      "ru": {
+        "name": "MakeACopy",
+        "summary": "MakeACopy is an open-source document scanner app for Android that allows you to digitize paper documents with OCR functionality. The app is designed to be privacy-friendly, working completely offline without any cloud connection or tracking."
+      },
+      "en": {
+        "name": "MakeACopy",
+        "summary": "MakeACopy is an open-source document scanner app for Android that allows you to digitize paper documents with OCR functionality. The app is designed to be privacy-friendly, working completely offline without any cloud connection or tracking."
+      },
+      "tr": {
+        "name": "MakeACopy",
+        "summary": "MakeACopy is an open-source document scanner app for Android that allows you to digitize paper documents with OCR functionality. The app is designed to be privacy-friendly, working completely offline without any cloud connection or tracking."
+      },
+      "uz": {
+        "name": "MakeACopy",
+        "summary": "MakeACopy is an open-source document scanner app for Android that allows you to digitize paper documents with OCR functionality. The app is designed to be privacy-friendly, working completely offline without any cloud connection or tracking."
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/egdels/makeacopy/releases/download/v4.9.0/MakeACopy-Light-v4.9.0-arm64-v8a-release.apk",
+      "checksum_sha256": "375c3c295e5278e55244a92204d784239b46a332dc316e8e21d42276ae317588",
+      "updated": "2026-10-30"
+    },
+    "added_at": "2026-10-30T16:57:44.000Z",
+    "updated": "2026-10-30T16:57:44.000Z"
   },
   {
     "slug": "pix-ezviewer",
@@ -2430,59 +2434,84 @@
     "updated": "2026-07-13T19:57:09.000Z"
   },
   {
-    "slug": "floccus-bookmark-sync",
+    "slug": "baresip",
     "custom": true,
     "source": "github",
     "open_source": true,
-    "package_id": "org.handmadeideas.floccus",
+    "package_id": "com.tutpro.baresip",
     "category": "TOOLS",
-    "developer": "floccusaddon",
-    "version": "5.12.0",
-    "size": "12.1 MB",
-    "min_android": "7.0",
-    "license": "MPL-2.0",
-    "source_code": "https://github.com/floccusaddon/floccus",
+    "developer": "juha-h",
+    "version": "94.1.5",
+    "size": "27.9 MB",
+    "min_android": "9",
+    "license": "BSD-3-Clause",
+    "source_code": "https://github.com/juha-h/baresip-studio",
     "icon_url": "",
     "screenshots": [],
     "permissions": [
+      "android.permission.BLUETOOTH",
+      "android.permission.BLUETOOTH_CONNECT",
+      "android.permission.FOREGROUND_SERVICE",
+      "android.permission.FOREGROUND_SERVICE_PHONE_CALL",
+      "android.permission.FOREGROUND_SERVICE_MICROPHONE",
+      "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+      "android.permission.MANAGE_OWN_CALLS",
+      "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
       "android.permission.INTERNET",
+      "android.permission.RECORD_AUDIO",
+      "android.permission.MODIFY_AUDIO_SETTINGS",
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.CHANGE_NETWORK_STATE",
+      "android.permission.ACCESS_WIFI_STATE",
+      "android.permission.WAKE_LOCK",
+      "android.permission.DISABLE_KEYGUARD",
       "android.permission.READ_EXTERNAL_STORAGE",
       "android.permission.WRITE_EXTERNAL_STORAGE",
-      "android.permission.RECEIVE_BOOT_COMPLETED",
-      "android.permission.WAKE_LOCK",
+      "android.permission.READ_CONTACTS",
+      "android.permission.WRITE_CONTACTS",
+      "android.permission.CALL_PHONE",
+      "android.permission.READ_PHONE_STATE",
+      "android.permission.READ_PHONE_NUMBERS",
+      "android.permission.USE_FULL_SCREEN_INTENT",
       "android.permission.POST_NOTIFICATIONS",
-      "android.permission.SCHEDULE_EXACT_ALARM",
-      "android.permission.ACCESS_NETWORK_STATE",
-      "android.permission.USE_BIOMETRIC",
-      "android.permission.USE_FINGERPRINT",
-      "org.handmadeideas.floccus.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+      "android.permission.RECEIVE_BOOT_COMPLETED",
+      "android.permission.VIBRATE",
+      "android.permission.BROADCAST_STICKY",
+      "android.permission.SYSTEM_ALERT_WINDOW",
+      "android.permission.SEND_SMS",
+      "android.permission.RECEIVE_SMS",
+      "android.permission.READ_SMS",
+      "android.permission.RECEIVE_MMS",
+      "android.permission.RECEIVE_WAP_PUSH",
+      "android.permission.WRITE_CALL_LOG",
+      "com.tutpro.baresip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
     ],
     "translations": {
       "ru": {
-        "name": "floccus bookmark sync",
-        "summary": ":cloud: Sync your bookmarks privately across browsers and devices"
+        "name": "baresip",
+        "summary": "baresip library based SIP client for Android"
       },
       "en": {
-        "name": "floccus bookmark sync",
-        "summary": ":cloud: Sync your bookmarks privately across browsers and devices"
+        "name": "baresip",
+        "summary": "baresip library based SIP client for Android"
       },
       "tr": {
-        "name": "floccus bookmark sync",
-        "summary": ":cloud: Sync your bookmarks privately across browsers and devices"
+        "name": "baresip",
+        "summary": "baresip library based SIP client for Android"
       },
       "uz": {
-        "name": "floccus bookmark sync",
-        "summary": ":cloud: Sync your bookmarks privately across browsers and devices"
+        "name": "baresip",
+        "summary": "baresip library based SIP client for Android"
       }
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/floccusaddon/floccus/releases/download/v5.12.0/floccus-build-v5.12.0.apk",
-      "checksum_sha256": "6ad15debc83d86b67cdc0bf4ca8b1925298930af728dd0aa4879b78184f5d8ab",
-      "updated": "2026-10-23"
+      "url": "https://github.com/juha-h/baresip-studio/releases/download/94.1.5/app-release.apk",
+      "checksum_sha256": "4c71924d651057695f0bffed569c6b2eccffb5b8a9998a49be98c409098c4163",
+      "updated": "2026-11-02"
     },
-    "added_at": "2026-10-23T11:57:49.000Z",
-    "updated": "2026-10-23T11:57:49.000Z"
+    "added_at": "2026-11-02T09:47:45.000Z",
+    "updated": "2026-11-02T09:47:45.000Z"
   },
   {
     "slug": "irischat",
@@ -2615,19 +2644,19 @@
     ],
     "translations": {
       "ru": {
-        "name": "Lemmy Redirect",
+        "name": "Mastodon Redirect",
         "summary": "Deep linking proxy for Mastodon and Lemmy on Android, allowing you to launch your selected client automatically."
       },
       "en": {
-        "name": "Lemmy Redirect",
+        "name": "Mastodon Redirect",
         "summary": "Deep linking proxy for Mastodon and Lemmy on Android, allowing you to launch your selected client automatically."
       },
       "tr": {
-        "name": "Lemmy Redirect",
+        "name": "Mastodon Redirect",
         "summary": "Deep linking proxy for Mastodon and Lemmy on Android, allowing you to launch your selected client automatically."
       },
       "uz": {
-        "name": "Lemmy Redirect",
+        "name": "Mastodon Redirect",
         "summary": "Deep linking proxy for Mastodon and Lemmy on Android, allowing you to launch your selected client automatically."
       }
     },
@@ -2788,18 +2817,23 @@
     "package_id": "com.serranoie.app.minus",
     "category": "FINANCE",
     "developer": "isaacsa51",
-    "version": "1.10.1",
-    "size": "48.5 MB",
-    "min_android": "11",
+    "version": "2.0.0",
+    "size": "36.6 MB",
+    "min_android": "8.1",
     "license": "Apache-2.0",
     "source_code": "https://github.com/isaacsa51/Minus",
     "icon_url": "",
     "screenshots": [],
     "permissions": [
-      "android.permission.WAKE_LOCK",
-      "android.permission.VIBRATE",
-      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.POST_NOTIFICATIONS",
       "android.permission.RECEIVE_BOOT_COMPLETED",
+      "android.permission.SCHEDULE_EXACT_ALARM",
+      "android.permission.VIBRATE",
+      "android.permission.CAMERA",
+      "android.permission.USE_BIOMETRIC",
+      "android.permission.USE_FINGERPRINT",
+      "android.permission.WAKE_LOCK",
+      "android.permission.ACCESS_NETWORK_STATE",
       "android.permission.FOREGROUND_SERVICE",
       "com.serranoie.app.minus.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
     ],
@@ -2823,12 +2857,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/isaacsa51/Minus/releases/download/v1.10.1/Minus-Watch-v1.10.1.apk",
-      "checksum_sha256": "310abebe02f8d16264d929cf2a5ef4159c08f4c533748be7fcda9fd40e207ce2",
-      "updated": "2026-10-19"
+      "url": "https://github.com/isaacsa51/Minus/releases/download/v2.0.0/Minus-v2.0.0-arm64-v8a.apk",
+      "checksum_sha256": "e8184554ee0c9a24448c23d371950fb89cb3ad785d1034af5a11ff8a157a4ff1",
+      "updated": "2026-10-31"
     },
-    "added_at": "2026-10-19T05:37:26.000Z",
-    "updated": "2026-10-19T05:37:26.000Z"
+    "added_at": "2026-10-31T01:18:34.000Z",
+    "updated": "2026-10-31T01:18:34.000Z"
   },
   {
     "slug": "duenot",
@@ -2977,56 +3011,6 @@
     "updated": "2026-08-26T10:13:20.000Z"
   },
   {
-    "slug": "poker-payout",
-    "custom": true,
-    "source": "github",
-    "open_source": true,
-    "package_id": "com.huntercoles.pokerpayout",
-    "category": "FINANCE",
-    "developer": "HunterColes",
-    "version": "1.4.22",
-    "size": "2.1 MB",
-    "min_android": "8.0",
-    "license": "MIT",
-    "source_code": "https://github.com/HunterColes/PokerPayout",
-    "icon_url": "",
-    "screenshots": [],
-    "permissions": [
-      "android.permission.POST_NOTIFICATIONS",
-      "android.permission.FOREGROUND_SERVICE",
-      "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
-      "android.permission.WAKE_LOCK",
-      "android.permission.VIBRATE",
-      "com.huntercoles.pokerpayout.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-    ],
-    "translations": {
-      "ru": {
-        "name": "Poker Payout",
-        "summary": "Free Android app for home poker nights: tournament clock and blinds, payouts to the cent, a bank of who paid what, and table tools. Offline, no ads, no accounts."
-      },
-      "en": {
-        "name": "Poker Payout",
-        "summary": "Free Android app for home poker nights: tournament clock and blinds, payouts to the cent, a bank of who paid what, and table tools. Offline, no ads, no accounts."
-      },
-      "tr": {
-        "name": "Poker Payout",
-        "summary": "Free Android app for home poker nights: tournament clock and blinds, payouts to the cent, a bank of who paid what, and table tools. Offline, no ads, no accounts."
-      },
-      "uz": {
-        "name": "Poker Payout",
-        "summary": "Free Android app for home poker nights: tournament clock and blinds, payouts to the cent, a bank of who paid what, and table tools. Offline, no ads, no accounts."
-      }
-    },
-    "download": {
-      "type": "direct",
-      "url": "https://github.com/HunterColes/PokerPayout/releases/download/v1.4.22/PokerPayout-v1.4.22-release.apk",
-      "checksum_sha256": "c8376014af3fc6ac2a5c7222af8c70446c4ae168f25ad9499f8c94830284875a",
-      "updated": "2026-10-12"
-    },
-    "added_at": "2026-10-12T02:38:29.000Z",
-    "updated": "2026-10-12T02:38:29.000Z"
-  },
-  {
     "slug": "happytaxes",
     "custom": true,
     "source": "github",
@@ -3090,7 +3074,7 @@
     "package_id": "com.concealnetwork.concealmobile",
     "category": "FINANCE",
     "developer": "ConcealNetwork",
-    "version": "6.0.8",
+    "version": "6.0.9",
     "size": "7.1 MB",
     "min_android": "7.0",
     "license": "BSD-3-Clause",
@@ -3126,12 +3110,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/ConcealNetwork/conceal-wallet-cordova/releases/download/v6.0.8-f-droid/Conceal_Mobile-v6.0.8-java21.apk",
-      "checksum_sha256": "7e12117c78d8c414de18a2ff5d2d76b54d4198bc5609fa2730deb04375b479f3",
-      "updated": "2026-09-29"
+      "url": "https://github.com/ConcealNetwork/conceal-wallet-cordova/releases/download/v6.0.9-f-droid/Conceal_Mobile-v6.0.9-java21.apk",
+      "checksum_sha256": "4e7b90d1b7d4f296b0ad4185423d255b69db5cd674aaa77f7fac45061b71cd57",
+      "updated": "2026-10-27"
     },
-    "added_at": "2026-09-29T16:18:33.000Z",
-    "updated": "2026-09-29T16:18:33.000Z"
+    "added_at": "2026-10-27T19:21:46.000Z",
+    "updated": "2026-10-27T19:21:46.000Z"
   },
   {
     "slug": "cash-on-track",
@@ -3187,8 +3171,8 @@
     "package_id": "io.horizontalsystems.bankwallet",
     "category": "FINANCE",
     "developer": "horizontalsystems",
-    "version": "0.52.2",
-    "size": "93.5 MB",
+    "version": "0.53.0",
+    "size": "93.6 MB",
     "min_android": "9",
     "license": "MIT",
     "source_code": "https://github.com/horizontalsystems/unstoppable-wallet-android",
@@ -3229,12 +3213,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/horizontalsystems/unstoppable-wallet-android/releases/download/0.52.2/unstoppable_wallet_google_play_0.52.2.apk",
-      "checksum_sha256": "9beeaeb472e81ef2aa10a74eda5e82a5074cca13a662cdb2839085ba2476920a",
-      "updated": "2026-10-19"
+      "url": "https://github.com/horizontalsystems/unstoppable-wallet-android/releases/download/0.53.0/unstoppable_wallet_google_play_0.53.0.apk",
+      "checksum_sha256": "6d14b1229cb832d0f8a2f3c54b9469dcb435fc6baf19ecc05edc8ef094d95474",
+      "updated": "2026-10-26"
     },
-    "added_at": "2026-10-19T09:07:27.000Z",
-    "updated": "2026-10-19T09:07:27.000Z"
+    "added_at": "2026-10-26T05:53:54.000Z",
+    "updated": "2026-10-26T05:53:54.000Z"
   },
   {
     "slug": "simple-crypto-widget",
@@ -3285,58 +3269,6 @@
     },
     "added_at": "2026-07-17T19:14:03.000Z",
     "updated": "2026-07-17T19:14:03.000Z"
-  },
-  {
-    "slug": "greenstash",
-    "custom": true,
-    "source": "github",
-    "open_source": true,
-    "package_id": "com.starry.greenstash",
-    "category": "FINANCE",
-    "developer": "Pool-Of-Tears",
-    "version": "4.4.0",
-    "size": "6.9 MB",
-    "min_android": "7.0",
-    "license": "MIT",
-    "source_code": "https://github.com/Pool-Of-Tears/GreenStash",
-    "icon_url": "",
-    "screenshots": [],
-    "permissions": [
-      "android.permission.POST_NOTIFICATIONS",
-      "android.permission.RECEIVE_BOOT_COMPLETED",
-      "android.permission.USE_BIOMETRIC",
-      "android.permission.USE_FINGERPRINT",
-      "android.permission.WAKE_LOCK",
-      "android.permission.ACCESS_NETWORK_STATE",
-      "android.permission.FOREGROUND_SERVICE",
-      "com.starry.greenstash.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-    ],
-    "translations": {
-      "ru": {
-        "name": "GreenStash",
-        "summary": "Simple FOSS android app to help you plan and manage your savings goals easily and establish the habit of saving money."
-      },
-      "en": {
-        "name": "GreenStash",
-        "summary": "Simple FOSS android app to help you plan and manage your savings goals easily and establish the habit of saving money."
-      },
-      "tr": {
-        "name": "GreenStash",
-        "summary": "Simple FOSS android app to help you plan and manage your savings goals easily and establish the habit of saving money."
-      },
-      "uz": {
-        "name": "GreenStash",
-        "summary": "Simple FOSS android app to help you plan and manage your savings goals easily and establish the habit of saving money."
-      }
-    },
-    "download": {
-      "type": "direct",
-      "url": "https://github.com/Pool-Of-Tears/GreenStash/releases/download/v4.4.0/GreenStash-v4.4.0.apk",
-      "checksum_sha256": "81c272cde2dd28b3342f74774a30d6e7330b928a780562a4f0ab4283eddf51ea",
-      "updated": "2026-05-24"
-    },
-    "added_at": "2026-05-24T09:07:54.000Z",
-    "updated": "2026-05-24T09:07:54.000Z"
   },
   {
     "slug": "waterfly-iii",
@@ -3393,6 +3325,58 @@
     "updated": "2026-10-25T21:39:25.000Z"
   },
   {
+    "slug": "greenstash",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "com.starry.greenstash",
+    "category": "FINANCE",
+    "developer": "Pool-Of-Tears",
+    "version": "4.4.0",
+    "size": "6.9 MB",
+    "min_android": "7.0",
+    "license": "MIT",
+    "source_code": "https://github.com/Pool-Of-Tears/GreenStash",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.POST_NOTIFICATIONS",
+      "android.permission.RECEIVE_BOOT_COMPLETED",
+      "android.permission.USE_BIOMETRIC",
+      "android.permission.USE_FINGERPRINT",
+      "android.permission.WAKE_LOCK",
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.FOREGROUND_SERVICE",
+      "com.starry.greenstash.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "translations": {
+      "ru": {
+        "name": "GreenStash",
+        "summary": "Simple FOSS android app to help you plan and manage your savings goals easily and establish the habit of saving money."
+      },
+      "en": {
+        "name": "GreenStash",
+        "summary": "Simple FOSS android app to help you plan and manage your savings goals easily and establish the habit of saving money."
+      },
+      "tr": {
+        "name": "GreenStash",
+        "summary": "Simple FOSS android app to help you plan and manage your savings goals easily and establish the habit of saving money."
+      },
+      "uz": {
+        "name": "GreenStash",
+        "summary": "Simple FOSS android app to help you plan and manage your savings goals easily and establish the habit of saving money."
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/Pool-Of-Tears/GreenStash/releases/download/v4.4.0/GreenStash-v4.4.0.apk",
+      "checksum_sha256": "81c272cde2dd28b3342f74774a30d6e7330b928a780562a4f0ab4283eddf51ea",
+      "updated": "2026-05-24"
+    },
+    "added_at": "2026-05-24T09:07:54.000Z",
+    "updated": "2026-05-24T09:07:54.000Z"
+  },
+  {
     "slug": "zashi-zcash-wallet",
     "custom": true,
     "source": "github",
@@ -3400,8 +3384,8 @@
     "package_id": "co.electriccoin.zcash",
     "category": "FINANCE",
     "developer": "Electric-Coin-Company",
-    "version": "3.17.2",
-    "size": "114.7 MB",
+    "version": "3.19.0",
+    "size": "117.3 MB",
     "min_android": "8.1",
     "license": "MIT",
     "source_code": "https://github.com/zodl-inc/zodl-android",
@@ -3445,70 +3429,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/zodl-inc/zodl-android/releases/download/3.17.2-3157/app-zcashmainnet-google-play-store-release-universal.apk",
-      "checksum_sha256": "fd28416ffaf456edf158246c8d76e8453279f50e605557dbf090c2f772489cd2",
-      "updated": "2026-10-20"
+      "url": "https://github.com/zodl-inc/zodl-android/releases/download/3.19.0-3234/app-zcashmainnet-google-play-store-release-universal.apk",
+      "checksum_sha256": "33da4b315de50ef12cca9d3f6b210a6d1b06aaba3baa76415a57664689e82d84",
+      "updated": "2026-10-29"
     },
-    "added_at": "2026-10-20T22:05:07.000Z",
-    "updated": "2026-10-20T22:05:07.000Z"
-  },
-  {
-    "slug": "bitbanana",
-    "custom": true,
-    "source": "github",
-    "open_source": true,
-    "package_id": "app.michaelwuensch.bitbanana",
-    "category": "FINANCE",
-    "developer": "michaelWuensch",
-    "version": "1.1.0",
-    "size": "63.0 MB",
-    "min_android": "8.0",
-    "license": "MIT",
-    "source_code": "https://github.com/michaelWuensch/BitBanana",
-    "icon_url": "",
-    "screenshots": [],
-    "permissions": [
-      "android.permission.CAMERA",
-      "android.permission.VIBRATE",
-      "android.permission.INTERNET",
-      "android.permission.ACCESS_NETWORK_STATE",
-      "android.permission.USE_BIOMETRIC",
-      "android.permission.NFC",
-      "com.wireguard.android.permission.CONTROL_TUNNELS",
-      "android.permission.FOREGROUND_SERVICE",
-      "android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE",
-      "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
-      "android.permission.POST_NOTIFICATIONS",
-      "android.permission.HIDE_OVERLAY_WINDOWS",
-      "android.permission.USE_FINGERPRINT",
-      "app.michaelwuensch.bitbanana.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-    ],
-    "translations": {
-      "ru": {
-        "name": "BitBanana",
-        "summary": "Lightning Node Management for Android"
-      },
-      "en": {
-        "name": "BitBanana",
-        "summary": "Lightning Node Management for Android"
-      },
-      "tr": {
-        "name": "BitBanana",
-        "summary": "Lightning Node Management for Android"
-      },
-      "uz": {
-        "name": "BitBanana",
-        "summary": "Lightning Node Management for Android"
-      }
-    },
-    "download": {
-      "type": "direct",
-      "url": "https://github.com/michaelWuensch/BitBanana/releases/download/v1.1.0/bitbanana-1.1.0-release.apk",
-      "checksum_sha256": "4722993cacb26ea48cc7156b1595f8c236634ab789086e92036fdddb4d724264",
-      "updated": "2026-10-04"
-    },
-    "added_at": "2026-10-04T02:53:00.000Z",
-    "updated": "2026-10-04T02:53:00.000Z"
+    "added_at": "2026-10-29T16:12:07.000Z",
+    "updated": "2026-10-29T16:12:07.000Z"
   },
   {
     "slug": "cardabase",
@@ -3518,8 +3444,8 @@
     "package_id": "com.georgeyt9769.cardabase",
     "category": "FINANCE",
     "developer": "GeorgeYT9769",
-    "version": "1.10.1",
-    "size": "65.5 MB",
+    "version": "1.10.2",
+    "size": "65.2 MB",
     "min_android": "7.1",
     "license": "MIT",
     "source_code": "https://github.com/GeorgeYT9769/cardabase-app",
@@ -3561,12 +3487,172 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/GeorgeYT9769/cardabase-app/releases/download/v1.10.1/cardabase-release-universal.apk",
-      "checksum_sha256": "58a940df2ecd9ce3e2ec541f373a1c6de14a41ed20cf5f3942bc27d8b75669cd",
-      "updated": "2026-10-24"
+      "url": "https://github.com/GeorgeYT9769/cardabase-app/releases/download/v1.10.2/cardabase-release-universal.apk",
+      "checksum_sha256": "72bcb4ac0d7a1e2de87a2920c87d0855eda925990420f8f3d989f095a733c908",
+      "updated": "2026-10-28"
     },
-    "added_at": "2026-10-24T18:15:53.000Z",
-    "updated": "2026-10-24T18:15:53.000Z"
+    "added_at": "2026-10-28T18:51:20.000Z",
+    "updated": "2026-10-28T18:51:20.000Z"
+  },
+  {
+    "slug": "bitbanana",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "app.michaelwuensch.bitbanana",
+    "category": "FINANCE",
+    "developer": "michaelWuensch",
+    "version": "1.1.1",
+    "size": "63.1 MB",
+    "min_android": "8.0",
+    "license": "MIT",
+    "source_code": "https://github.com/michaelWuensch/BitBanana",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.CAMERA",
+      "android.permission.VIBRATE",
+      "android.permission.INTERNET",
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.USE_BIOMETRIC",
+      "android.permission.NFC",
+      "com.wireguard.android.permission.CONTROL_TUNNELS",
+      "android.permission.FOREGROUND_SERVICE",
+      "android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE",
+      "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+      "android.permission.POST_NOTIFICATIONS",
+      "android.permission.HIDE_OVERLAY_WINDOWS",
+      "android.permission.USE_FINGERPRINT",
+      "app.michaelwuensch.bitbanana.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "translations": {
+      "ru": {
+        "name": "BitBanana",
+        "summary": "Lightning Node Management for Android"
+      },
+      "en": {
+        "name": "BitBanana",
+        "summary": "Lightning Node Management for Android"
+      },
+      "tr": {
+        "name": "BitBanana",
+        "summary": "Lightning Node Management for Android"
+      },
+      "uz": {
+        "name": "BitBanana",
+        "summary": "Lightning Node Management for Android"
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/michaelWuensch/BitBanana/releases/download/v1.1.1/bitbanana-1.1.1-release.apk",
+      "checksum_sha256": "0b116246d026443fc805387a06ba84d8b42f5accd4fc05df79acd57c9d4c5880",
+      "updated": "2026-10-31"
+    },
+    "added_at": "2026-10-31T09:10:53.000Z",
+    "updated": "2026-10-31T09:10:53.000Z"
+  },
+  {
+    "slug": "valet",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "finance.valet.signet",
+    "category": "FINANCE",
+    "developer": "standardsats",
+    "version": "5.3.0",
+    "size": "37.6 MB",
+    "min_android": "5.0",
+    "license": "Apache-2.0",
+    "source_code": "https://github.com/standardsats/valet",
+    "icon_url": "/img/github/valet.png",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.RECEIVE_BOOT_COMPLETED",
+      "android.permission.FOREGROUND_SERVICE",
+      "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+      "android.permission.INTERNET",
+      "android.permission.VIBRATE",
+      "android.permission.CAMERA",
+      "android.permission.NFC",
+      "finance.valet.signet.permission.TOR_STATUS",
+      "android.permission.WAKE_LOCK",
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.USE_FINGERPRINT"
+    ],
+    "translations": {
+      "ru": {
+        "name": "Valet",
+        "summary": "Bitcoin + Lightning wallet for Android"
+      },
+      "en": {
+        "name": "Valet",
+        "summary": "Bitcoin + Lightning wallet for Android"
+      },
+      "tr": {
+        "name": "Valet",
+        "summary": "Bitcoin + Lightning wallet for Android"
+      },
+      "uz": {
+        "name": "Valet",
+        "summary": "Bitcoin + Lightning wallet for Android"
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/standardsats/valet/releases/download/5.3.0/finance.valet.signet_114.apk",
+      "checksum_sha256": "48e3de89a80cb05cfd0c5916305e9bb29e714b41574e52d8aec29c7da8e5ba9e",
+      "updated": "2026-10-28"
+    },
+    "added_at": "2026-10-28T16:06:49.000Z",
+    "updated": "2026-10-28T16:06:49.000Z"
+  },
+  {
+    "slug": "simple-bitcoin-wallet",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "trading.tacticaladvantage",
+    "category": "FINANCE",
+    "developer": "Tactical-Advantage-Trading",
+    "version": "4.1",
+    "size": "61.2 MB",
+    "min_android": "9",
+    "license": "Apache-2.0",
+    "source_code": "https://github.com/Tactical-Advantage-Trading/wallet",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.INTERNET",
+      "android.permission.CAMERA",
+      "trading.tacticaladvantage.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "translations": {
+      "ru": {
+        "name": "Simple Bitcoin Wallet",
+        "summary": "ECX and BTC wallet for Android. Account control tool for Tactical Advantage clients."
+      },
+      "en": {
+        "name": "Simple Bitcoin Wallet",
+        "summary": "ECX and BTC wallet for Android. Account control tool for Tactical Advantage clients."
+      },
+      "tr": {
+        "name": "Simple Bitcoin Wallet",
+        "summary": "ECX and BTC wallet for Android. Account control tool for Tactical Advantage clients."
+      },
+      "uz": {
+        "name": "Simple Bitcoin Wallet",
+        "summary": "ECX and BTC wallet for Android. Account control tool for Tactical Advantage clients."
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/Tactical-Advantage-Trading/wallet/releases/download/4.1-23/app-release.apk",
+      "checksum_sha256": "0879a05ae93820c364ef9d2530c602d460aa0dce11364a97b52d91b18f077c7c",
+      "updated": "2026-10-30"
+    },
+    "added_at": "2026-10-30T10:20:15.000Z",
+    "updated": "2026-10-30T10:20:15.000Z"
   },
   {
     "slug": "matrixtinz",
@@ -4132,19 +4218,19 @@
     "translations": {
       "ru": {
         "name": "Trail Sense",
-        "summary": "An Android app that uses your phone's sensors to assist with wilderness treks or survival situations."
+        "summary": "An offline multi-tool Android app for hiking, backpacking, camping, wilderness survival, foraging, and hunting."
       },
       "en": {
         "name": "Trail Sense",
-        "summary": "An Android app that uses your phone's sensors to assist with wilderness treks or survival situations."
+        "summary": "An offline multi-tool Android app for hiking, backpacking, camping, wilderness survival, foraging, and hunting."
       },
       "tr": {
         "name": "Trail Sense",
-        "summary": "An Android app that uses your phone's sensors to assist with wilderness treks or survival situations."
+        "summary": "An offline multi-tool Android app for hiking, backpacking, camping, wilderness survival, foraging, and hunting."
       },
       "uz": {
         "name": "Trail Sense",
-        "summary": "An Android app that uses your phone's sensors to assist with wilderness treks or survival situations."
+        "summary": "An offline multi-tool Android app for hiking, backpacking, camping, wilderness survival, foraging, and hunting."
       }
     },
     "download": {
@@ -4273,51 +4359,6 @@
     "updated": "2026-08-21T11:38:54.000Z"
   },
   {
-    "slug": "osm-dashboard-for-opentracks",
-    "custom": true,
-    "source": "github",
-    "open_source": true,
-    "package_id": "de.storchp.opentracks.osmplugin.offline",
-    "category": "MAPS_AND_NAVIGATION",
-    "developer": "OpenTracksApp",
-    "version": "6.3.0",
-    "size": "7.1 MB",
-    "min_android": "8.0",
-    "license": "Apache-2.0",
-    "source_code": "https://github.com/OpenTracksApp/OSMDashboard",
-    "icon_url": "",
-    "screenshots": [],
-    "permissions": [
-      "de.storchp.opentracks.osmplugin.offline.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-    ],
-    "translations": {
-      "ru": {
-        "name": "OSM Dashboard for OpenTracks",
-        "summary": "Repository moved to https://codeberg.org/OpenTracksApp/OSMDashboard"
-      },
-      "en": {
-        "name": "OSM Dashboard for OpenTracks",
-        "summary": "Repository moved to https://codeberg.org/OpenTracksApp/OSMDashboard"
-      },
-      "tr": {
-        "name": "OSM Dashboard for OpenTracks",
-        "summary": "Repository moved to https://codeberg.org/OpenTracksApp/OSMDashboard"
-      },
-      "uz": {
-        "name": "OSM Dashboard for OpenTracks",
-        "summary": "Repository moved to https://codeberg.org/OpenTracksApp/OSMDashboard"
-      }
-    },
-    "download": {
-      "type": "direct",
-      "url": "https://github.com/OpenTracksApp/OSMDashboard/releases/download/v6.3.0/de.storchp.opentracks.osmplugin.offline_6.3.0.apk",
-      "checksum_sha256": "7bed2170fb2a4288dd4ff0b2e213429faa9da2a1388adc24216069c5f3caaa4f",
-      "updated": "2025-07-26"
-    },
-    "added_at": "2025-07-26T14:50:45.000Z",
-    "updated": "2025-07-26T14:50:45.000Z"
-  },
-  {
     "slug": "gpstest-2",
     "custom": true,
     "source": "github",
@@ -4440,7 +4481,7 @@
     "package_id": "dev.kerballone.spamblocker",
     "category": "COMMUNICATION",
     "developer": "KerballOne",
-    "version": "6.2.2-test1",
+    "version": "6.2.2",
     "size": "8.2 MB",
     "min_android": "10",
     "license": "MIT",
@@ -4452,9 +4493,11 @@
       "android.permission.READ_CALL_LOG",
       "android.permission.READ_PHONE_STATE",
       "android.permission.ANSWER_PHONE_CALLS",
+      "android.permission.MODIFY_AUDIO_SETTINGS",
       "android.permission.READ_SMS",
       "android.permission.RECEIVE_SMS",
       "android.permission.RECEIVE_MMS",
+      "android.permission.READ_PHONE_NUMBERS",
       "android.permission.SEND_SMS",
       "android.permission.POST_NOTIFICATIONS",
       "android.permission.SCHEDULE_EXACT_ALARM",
@@ -4494,12 +4537,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/KerballOne/SpamBlocker-Extended/releases/download/v6.2.1/SpamBlocker-Extended-6.2.2-test1.apk",
-      "checksum_sha256": "1f34004d622f2f423c9a358af2ba9905611ac72f07df03fb245a2aa1fab36f58",
-      "updated": "2026-10-15"
+      "url": "https://github.com/KerballOne/SpamBlocker-Extended/releases/download/v6.2.2/SpamBlocker-Extended-6.2.2.apk",
+      "checksum_sha256": "9b112f1b542ad642921e73010eeaafed7feaebda46a57d743a868c904fdcb879",
+      "updated": "2026-10-30"
     },
-    "added_at": "2026-10-15T15:16:15.000Z",
-    "updated": "2026-10-15T15:16:15.000Z"
+    "added_at": "2026-10-30T20:28:04.000Z",
+    "updated": "2026-10-30T20:28:04.000Z"
   },
   {
     "slug": "dressecurecomms",
@@ -4622,7 +4665,7 @@
     "package_id": "spam.blocker",
     "category": "COMMUNICATION",
     "developer": "aj3423",
-    "version": "5.19",
+    "version": "5.20",
     "size": "8.1 MB",
     "min_android": "10",
     "license": "MIT",
@@ -4637,6 +4680,7 @@
       "android.permission.READ_SMS",
       "android.permission.RECEIVE_SMS",
       "android.permission.RECEIVE_MMS",
+      "android.permission.READ_PHONE_NUMBERS",
       "android.permission.SEND_SMS",
       "android.permission.POST_NOTIFICATIONS",
       "android.permission.SCHEDULE_EXACT_ALARM",
@@ -4673,92 +4717,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/aj3423/SpamBlocker/releases/download/v5.19/app-release.apk",
-      "checksum_sha256": "0e92e8d8853f4dc8de20f05d7248ffc6cf553693ab63d8cc37662cf8a7b20c0f",
-      "updated": "2026-10-14"
+      "url": "https://github.com/aj3423/SpamBlocker/releases/download/v5.20/app-release.apk",
+      "checksum_sha256": "771443a6fb05799ca2af6a8aa25495d5834678bfc6f1801bc2d27f756b44aea6",
+      "updated": "2026-10-30"
     },
-    "added_at": "2026-10-14T11:21:20.000Z",
-    "updated": "2026-10-14T11:21:20.000Z"
-  },
-  {
-    "slug": "baresip",
-    "custom": true,
-    "source": "github",
-    "open_source": true,
-    "package_id": "com.tutpro.baresip",
-    "category": "COMMUNICATION",
-    "developer": "juha-h",
-    "version": "94.0.1",
-    "size": "28.0 MB",
-    "min_android": "9",
-    "license": "BSD-3-Clause",
-    "source_code": "https://github.com/juha-h/baresip-studio",
-    "icon_url": "",
-    "screenshots": [],
-    "permissions": [
-      "android.permission.BLUETOOTH",
-      "android.permission.BLUETOOTH_CONNECT",
-      "android.permission.FOREGROUND_SERVICE",
-      "android.permission.FOREGROUND_SERVICE_PHONE_CALL",
-      "android.permission.FOREGROUND_SERVICE_MICROPHONE",
-      "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
-      "android.permission.MANAGE_OWN_CALLS",
-      "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
-      "android.permission.INTERNET",
-      "android.permission.RECORD_AUDIO",
-      "android.permission.MODIFY_AUDIO_SETTINGS",
-      "android.permission.ACCESS_NETWORK_STATE",
-      "android.permission.CHANGE_NETWORK_STATE",
-      "android.permission.ACCESS_WIFI_STATE",
-      "android.permission.WAKE_LOCK",
-      "android.permission.DISABLE_KEYGUARD",
-      "android.permission.READ_EXTERNAL_STORAGE",
-      "android.permission.WRITE_EXTERNAL_STORAGE",
-      "android.permission.READ_CONTACTS",
-      "android.permission.WRITE_CONTACTS",
-      "android.permission.CALL_PHONE",
-      "android.permission.READ_PHONE_STATE",
-      "android.permission.READ_PHONE_NUMBERS",
-      "android.permission.USE_FULL_SCREEN_INTENT",
-      "android.permission.POST_NOTIFICATIONS",
-      "android.permission.RECEIVE_BOOT_COMPLETED",
-      "android.permission.VIBRATE",
-      "android.permission.BROADCAST_STICKY",
-      "android.permission.SYSTEM_ALERT_WINDOW",
-      "android.permission.SEND_SMS",
-      "android.permission.RECEIVE_SMS",
-      "android.permission.READ_SMS",
-      "android.permission.RECEIVE_MMS",
-      "android.permission.RECEIVE_WAP_PUSH",
-      "android.permission.WRITE_CALL_LOG",
-      "com.tutpro.baresip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-    ],
-    "translations": {
-      "ru": {
-        "name": "baresip",
-        "summary": "baresip library based SIP client for Android"
-      },
-      "en": {
-        "name": "baresip",
-        "summary": "baresip library based SIP client for Android"
-      },
-      "tr": {
-        "name": "baresip",
-        "summary": "baresip library based SIP client for Android"
-      },
-      "uz": {
-        "name": "baresip",
-        "summary": "baresip library based SIP client for Android"
-      }
-    },
-    "download": {
-      "type": "direct",
-      "url": "https://github.com/juha-h/baresip-studio/releases/download/94.0.1/app-release.apk",
-      "checksum_sha256": "c896469c717e3c522875a5ec62d006e7ca039846bc18f184f45b33610809450e",
-      "updated": "2026-10-26"
-    },
-    "added_at": "2026-10-26T06:23:09.000Z",
-    "updated": "2026-10-26T06:23:09.000Z"
+    "added_at": "2026-10-30T01:59:20.000Z",
+    "updated": "2026-10-30T01:59:20.000Z"
   },
   {
     "slug": "sms-to-url-forwarder",
@@ -4869,8 +4833,8 @@
     "package_id": "com.chmouel.liseur",
     "category": "BOOKS_AND_REFERENCE",
     "developer": "chmouel",
-    "version": "0.25.0",
-    "size": "10.9 MB",
+    "version": "0.26.0",
+    "size": "11.0 MB",
     "min_android": "8.0",
     "license": "MIT",
     "source_code": "https://github.com/chmouel/liseur",
@@ -4908,12 +4872,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/chmouel/liseur/releases/download/v0.25.0/liseur-v0.25.0.apk",
-      "checksum_sha256": "c90ad8226e6d9ae718c716c0ac69b0377fc7a05bf63591d638777f95a5cd2a14",
-      "updated": "2026-10-25"
+      "url": "https://github.com/chmouel/liseur/releases/download/v0.26.0/liseur-v0.26.0.apk",
+      "checksum_sha256": "e7005dec4562c34515fb93e18c212a79b4b3c8375aa6c289a9e2ae608ec4547b",
+      "updated": "2026-10-28"
     },
-    "added_at": "2026-10-25T07:17:52.000Z",
-    "updated": "2026-10-25T07:17:52.000Z"
+    "added_at": "2026-10-28T13:24:03.000Z",
+    "updated": "2026-10-28T13:24:03.000Z"
   },
   {
     "slug": "inkcast",
@@ -5133,8 +5097,8 @@
     "package_id": "at.tomtasche.reader.foss",
     "category": "BOOKS_AND_REFERENCE",
     "developer": "opendocument-app",
-    "version": "4.23.0",
-    "size": "41.8 MB",
+    "version": "4.24.0",
+    "size": "42.1 MB",
     "min_android": "8.0",
     "license": "MPL-2.0",
     "source_code": "https://github.com/opendocument-app/OpenDocument.droid",
@@ -5164,12 +5128,122 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/opendocument-app/OpenDocument.droid/releases/download/v4.23.0/app-foss-release.apk",
-      "checksum_sha256": "ffa5dff7c1f8b36e4635d1cf5ac804b366cbdddf0fb3042de3137afd27b410a8",
-      "updated": "2026-10-25"
+      "url": "https://github.com/opendocument-app/OpenDocument.droid/releases/download/v4.24.0/app-foss-release.apk",
+      "checksum_sha256": "7985f4fd1e92bf14a8ca56d06974cce15df06b0f9142b9845afb672b954500a3",
+      "updated": "2026-10-31"
     },
-    "added_at": "2026-10-25T15:09:16.000Z",
-    "updated": "2026-10-25T15:09:16.000Z"
+    "added_at": "2026-10-31T10:08:54.000Z",
+    "updated": "2026-10-31T10:08:54.000Z"
+  },
+  {
+    "slug": "floccus-bookmark-sync",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "org.handmadeideas.floccus",
+    "category": "BOOKS_AND_REFERENCE",
+    "developer": "floccusaddon",
+    "version": "5.12.0",
+    "size": "12.1 MB",
+    "min_android": "7.0",
+    "license": "MPL-2.0",
+    "source_code": "https://github.com/floccusaddon/floccus",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.INTERNET",
+      "android.permission.READ_EXTERNAL_STORAGE",
+      "android.permission.WRITE_EXTERNAL_STORAGE",
+      "android.permission.RECEIVE_BOOT_COMPLETED",
+      "android.permission.WAKE_LOCK",
+      "android.permission.POST_NOTIFICATIONS",
+      "android.permission.SCHEDULE_EXACT_ALARM",
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.USE_BIOMETRIC",
+      "android.permission.USE_FINGERPRINT",
+      "org.handmadeideas.floccus.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "translations": {
+      "ru": {
+        "name": "floccus bookmark sync",
+        "summary": ":cloud: Sync your bookmarks privately across browsers and devices"
+      },
+      "en": {
+        "name": "floccus bookmark sync",
+        "summary": ":cloud: Sync your bookmarks privately across browsers and devices"
+      },
+      "tr": {
+        "name": "floccus bookmark sync",
+        "summary": ":cloud: Sync your bookmarks privately across browsers and devices"
+      },
+      "uz": {
+        "name": "floccus bookmark sync",
+        "summary": ":cloud: Sync your bookmarks privately across browsers and devices"
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/floccusaddon/floccus/releases/download/v5.12.0/floccus-build-v5.12.0.apk",
+      "checksum_sha256": "6ad15debc83d86b67cdc0bf4ca8b1925298930af728dd0aa4879b78184f5d8ab",
+      "updated": "2026-10-23"
+    },
+    "added_at": "2026-10-23T11:57:49.000Z",
+    "updated": "2026-10-23T11:57:49.000Z"
+  },
+  {
+    "slug": "ciyue",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "org.eu.mumulhl.ciyue.full",
+    "category": "BOOKS_AND_REFERENCE",
+    "developer": "mumu-lhl",
+    "version": "2.0.1",
+    "size": "54.7 MB",
+    "min_android": "7.0",
+    "license": "MIT",
+    "source_code": "https://github.com/mumu-lhl/Ciyue",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.READ_EXTERNAL_STORAGE",
+      "android.permission.WRITE_EXTERNAL_STORAGE",
+      "android.permission.MANAGE_EXTERNAL_STORAGE",
+      "android.permission.INTERNET",
+      "android.permission.POST_NOTIFICATIONS",
+      "android.permission.VIBRATE",
+      "android.permission.WAKE_LOCK",
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.RECEIVE_BOOT_COMPLETED",
+      "android.permission.FOREGROUND_SERVICE",
+      "org.eu.mumulhl.ciyue.full.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "translations": {
+      "ru": {
+        "name": "Ciyue",
+        "summary": "An MDict/StarDict dictionary app with Android/Windows/Linux/macOS support"
+      },
+      "en": {
+        "name": "Ciyue",
+        "summary": "An MDict/StarDict dictionary app with Android/Windows/Linux/macOS support"
+      },
+      "tr": {
+        "name": "Ciyue",
+        "summary": "An MDict/StarDict dictionary app with Android/Windows/Linux/macOS support"
+      },
+      "uz": {
+        "name": "Ciyue",
+        "summary": "An MDict/StarDict dictionary app with Android/Windows/Linux/macOS support"
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/mumu-lhl/Ciyue/releases/download/v2.0.1/ciyue-universal-full.apk",
+      "checksum_sha256": "3cd2a4201c49a3c891b75140e5f0abe072a17d6fb1a4fe1c922aa2bbb1ba316c",
+      "updated": "2026-10-28"
+    },
+    "added_at": "2026-10-28T17:06:01.000Z",
+    "updated": "2026-10-28T17:06:01.000Z"
   },
   {
     "slug": "gitavani-bhagavad-gita",
@@ -5610,6 +5684,61 @@
     "updated": "2026-10-24T00:02:01.000Z"
   },
   {
+    "slug": "i2pd",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "org.purplei2p.i2pd",
+    "category": "TOOLS",
+    "developer": "PurpleI2P",
+    "version": "3.0.0",
+    "size": "19.8 MB",
+    "min_android": "6.0",
+    "license": "BSD-3-Clause",
+    "source_code": "https://github.com/PurpleI2P/i2pd-android",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.INTERNET",
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+      "android.permission.MANAGE_EXTERNAL_STORAGE",
+      "android.permission.WRITE_EXTERNAL_STORAGE",
+      "android.permission.FOREGROUND_SERVICE",
+      "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+      "android.permission.POST_NOTIFICATIONS",
+      "android.permission.RECEIVE_BOOT_COMPLETED",
+      "android.permission.WAKE_LOCK",
+      "org.purplei2p.i2pd.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "translations": {
+      "ru": {
+        "name": "i2pd",
+        "summary": "i2pd for Android"
+      },
+      "en": {
+        "name": "i2pd",
+        "summary": "i2pd for Android"
+      },
+      "tr": {
+        "name": "i2pd",
+        "summary": "i2pd for Android"
+      },
+      "uz": {
+        "name": "i2pd",
+        "summary": "i2pd for Android"
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/PurpleI2P/i2pd-android/releases/download/3.0.0/i2pd-3.0.0-universal-release.apk",
+      "checksum_sha256": "bf49984569cfef974763623d4580c3c87322453fde11db3133c6715d6fbac64d",
+      "updated": "2026-10-24"
+    },
+    "added_at": "2026-10-24T01:42:52.000Z",
+    "updated": "2026-10-24T01:42:52.000Z"
+  },
+  {
     "slug": "airguard-airtag-protection",
     "custom": true,
     "source": "github",
@@ -5736,7 +5865,7 @@
     "package_id": "com.futsch1.medtimer",
     "category": "HEALTH_AND_FITNESS",
     "developer": "Futsch1",
-    "version": "1.26.2",
+    "version": "1.26.4",
     "size": "13.1 MB",
     "min_android": "9",
     "license": "MIT",
@@ -5779,12 +5908,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/Futsch1/medTimer/releases/download/v1.26.2/MedTimer-full-release-signed.apk",
-      "checksum_sha256": "d4d733aae186f52017f2a9398d68596a517391dfd2b97467b12961b9f5da9e02",
-      "updated": "2026-10-25"
+      "url": "https://github.com/Futsch1/medTimer/releases/download/v1.26.4/MedTimer-full-release-signed.apk",
+      "checksum_sha256": "4149e4f2d40ff0cb896d4744668f22eac41b1641ed65aabdbe52764e319dd677",
+      "updated": "2026-10-29"
     },
-    "added_at": "2026-10-25T08:19:03.000Z",
-    "updated": "2026-10-25T08:19:03.000Z"
+    "added_at": "2026-10-29T19:15:10.000Z",
+    "updated": "2026-10-29T19:15:10.000Z"
   },
   {
     "slug": "table-habit",
@@ -5794,8 +5923,8 @@
     "package_id": "io.github.friesi23.mhabit",
     "category": "HEALTH_AND_FITNESS",
     "developer": "FriesI23",
-    "version": "1.27.15",
-    "size": "32.7 MB",
+    "version": "1.27.18",
+    "size": "33.8 MB",
     "min_android": "7.0",
     "license": "Apache-2.0",
     "source_code": "https://github.com/FriesI23/mhabit",
@@ -5807,6 +5936,8 @@
       "android.permission.ACCESS_NETWORK_STATE",
       "android.permission.VIBRATE",
       "android.permission.POST_NOTIFICATIONS",
+      "android.permission.WAKE_LOCK",
+      "android.permission.FOREGROUND_SERVICE",
       "io.github.friesi23.mhabit.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
     ],
     "translations": {
@@ -5829,12 +5960,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/FriesI23/mhabit/releases/download/v1.27.15%2B204/app-arm64-v8a-release.apk",
-      "checksum_sha256": "3b5fe60d3ca9c8631e75652c19cb1e91748cdb043ab7bc64f428e6188041148b",
-      "updated": "2026-10-19"
+      "url": "https://github.com/FriesI23/mhabit/releases/download/v1.27.18%2B207/app-arm64-v8a-release.apk",
+      "checksum_sha256": "d5d4b9544a69b09c7b3f9e1f43a147d072455bc40f5aa945008b60543f092a6e",
+      "updated": "2026-11-02"
     },
-    "added_at": "2026-10-19T04:13:10.000Z",
-    "updated": "2026-10-19T04:13:10.000Z"
+    "added_at": "2026-11-02T00:45:29.000Z",
+    "updated": "2026-11-02T00:45:29.000Z"
   },
   {
     "slug": "flexify",
@@ -5844,8 +5975,8 @@
     "package_id": "com.presley.flexify",
     "category": "HEALTH_AND_FITNESS",
     "developer": "brandonp2412",
-    "version": "2.2.37",
-    "size": "24.9 MB",
+    "version": "2.2.38",
+    "size": "25.2 MB",
     "min_android": "7.0",
     "license": "MIT",
     "source_code": "https://github.com/brandonp2412/Flex",
@@ -5882,12 +6013,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/brandonp2412/Flex/releases/download/2.2.37/app-arm64-v8a-release.apk",
-      "checksum_sha256": "cf455b865ab617088afbf7e99c90296dde205ea6b0121bb6c7dfae203efd7c35",
-      "updated": "2026-10-25"
+      "url": "https://github.com/brandonp2412/Flex/releases/download/2.2.38/app-arm64-v8a-release.apk",
+      "checksum_sha256": "363a0d8b197c1e757778a2b7664566186e60556f00f6bbf940b989f487bce167",
+      "updated": "2026-10-30"
     },
-    "added_at": "2026-10-25T03:20:42.000Z",
-    "updated": "2026-10-25T03:20:42.000Z"
+    "added_at": "2026-10-30T02:18:56.000Z",
+    "updated": "2026-10-30T02:18:56.000Z"
   },
   {
     "slug": "quitter",
@@ -5897,8 +6028,8 @@
     "package_id": "com.quitter.app",
     "category": "HEALTH_AND_FITNESS",
     "developer": "brandonp2412",
-    "version": "1.1.81",
-    "size": "29.7 MB",
+    "version": "1.1.82",
+    "size": "31.4 MB",
     "min_android": "7.0",
     "license": "MIT",
     "source_code": "https://github.com/brandonp2412/Quitter",
@@ -5908,9 +6039,9 @@
       "android.permission.POST_NOTIFICATIONS",
       "android.permission.WAKE_LOCK",
       "android.permission.RECEIVE_BOOT_COMPLETED",
+      "android.permission.VIBRATE",
       "android.permission.FOREGROUND_SERVICE",
       "android.permission.FOREGROUND_SERVICE_SHORT_SERVICE",
-      "android.permission.VIBRATE",
       "com.quitter.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
     ],
     "translations": {
@@ -5933,12 +6064,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/brandonp2412/Quitter/releases/download/1.1.81/app-arm64-v8a-release.apk",
-      "checksum_sha256": "81b3e6ce9162dce573f139458f3fc9ad7586fe0d864b82b6423fb731fe5a290d",
-      "updated": "2026-10-14"
+      "url": "https://github.com/brandonp2412/Quitter/releases/download/1.1.82/app-arm64-v8a-release.apk",
+      "checksum_sha256": "5eba39641dc9b46d8b0889fe92d951b60579415f7eef7ca20a217657e315494f",
+      "updated": "2026-11-01"
     },
-    "added_at": "2026-10-14T20:06:20.000Z",
-    "updated": "2026-10-14T20:06:20.000Z"
+    "added_at": "2026-11-01T04:55:35.000Z",
+    "updated": "2026-11-01T04:55:35.000Z"
   },
   {
     "slug": "fitbook",
@@ -5948,7 +6079,7 @@
     "package_id": "com.presley.fit_book",
     "category": "HEALTH_AND_FITNESS",
     "developer": "brandonp2412",
-    "version": "2.0.106",
+    "version": "2.0.107",
     "size": "32.3 MB",
     "min_android": "7.0",
     "license": "MIT",
@@ -5990,12 +6121,63 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/brandonp2412/FitBook/releases/download/2.0.106/app-arm64-v8a-release.apk",
-      "checksum_sha256": "5a75c91a12208c76cb0273fbd64c240225f4b89b32e7b60865b51314619503fd",
-      "updated": "2026-10-14"
+      "url": "https://github.com/brandonp2412/FitBook/releases/download/2.0.107/app-arm64-v8a-release.apk",
+      "checksum_sha256": "054f149305eaa88f5cf0d0d531cf3668eb703f9b3030dc0491a877bcdc529e0e",
+      "updated": "2026-10-30"
     },
-    "added_at": "2026-10-14T19:51:22.000Z",
-    "updated": "2026-10-14T19:51:22.000Z"
+    "added_at": "2026-10-30T02:25:23.000Z",
+    "updated": "2026-10-30T02:25:23.000Z"
+  },
+  {
+    "slug": "vulcan",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "dev.vulcanlauncher",
+    "category": "TOOLS",
+    "developer": "krishnanunnir",
+    "version": "0.25",
+    "size": "306 KB",
+    "min_android": "8.0",
+    "license": "MIT",
+    "source_code": "https://github.com/krishnanunnir/vulcan-launcher",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [
+      "android.permission.EXPAND_STATUS_BAR",
+      "android.permission.REQUEST_DELETE_PACKAGES",
+      "android.permission.ACCESS_HIDDEN_PROFILES",
+      "android.permission.READ_CONTACTS",
+      "android.permission.READ_CALENDAR",
+      "android.permission.ACCESS_COARSE_LOCATION",
+      "android.permission.WRITE_SECURE_SETTINGS"
+    ],
+    "translations": {
+      "ru": {
+        "name": "Vulcan",
+        "summary": "An Android home screen with Nova's depth and no internet access at all. No ads, trackers or analytics."
+      },
+      "en": {
+        "name": "Vulcan",
+        "summary": "An Android home screen with Nova's depth and no internet access at all. No ads, trackers or analytics."
+      },
+      "tr": {
+        "name": "Vulcan",
+        "summary": "An Android home screen with Nova's depth and no internet access at all. No ads, trackers or analytics."
+      },
+      "uz": {
+        "name": "Vulcan",
+        "summary": "An Android home screen with Nova's depth and no internet access at all. No ads, trackers or analytics."
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/krishnanunnir/vulcan-launcher/releases/download/v0.25/vulcan-launcher.apk",
+      "checksum_sha256": "03eaa50e20958640cb28628b9812e4dd9a4671351d02c8cce804544498ecf167",
+      "updated": "2026-11-01"
+    },
+    "added_at": "2026-11-01T18:40:37.000Z",
+    "updated": "2026-11-01T18:40:37.000Z"
   },
   {
     "slug": "not-app-2",
@@ -6046,49 +6228,6 @@
     "updated": "2026-10-13T20:57:03.000Z"
   },
   {
-    "slug": "anywebview",
-    "custom": true,
-    "source": "github",
-    "open_source": true,
-    "package_id": "com.thinkdifferent.anywebview",
-    "category": "TOOLS",
-    "developer": "neoblackxt",
-    "version": "1.4.5",
-    "size": "69 KB",
-    "min_android": "7.0",
-    "license": "MIT",
-    "source_code": "https://github.com/neoblackxt/AnyWebView",
-    "icon_url": "",
-    "screenshots": [],
-    "permissions": [],
-    "translations": {
-      "ru": {
-        "name": "AnyWebView",
-        "summary": "Any WebView is OK!"
-      },
-      "en": {
-        "name": "AnyWebView",
-        "summary": "Any WebView is OK!"
-      },
-      "tr": {
-        "name": "AnyWebView",
-        "summary": "Any WebView is OK!"
-      },
-      "uz": {
-        "name": "AnyWebView",
-        "summary": "Any WebView is OK!"
-      }
-    },
-    "download": {
-      "type": "direct",
-      "url": "https://github.com/neoblackxt/AnyWebView/releases/download/v1.4.5/AnyWebView-v1.4.5.apk",
-      "checksum_sha256": "1bf2e1960fe72640f38aecc0efc2aaaffa2a07bfb24d2edb3ee7a980cc6022e4",
-      "updated": "2026-10-24"
-    },
-    "added_at": "2026-10-24T02:00:04.000Z",
-    "updated": "2026-10-24T02:00:04.000Z"
-  },
-  {
     "slug": "monocons",
     "custom": true,
     "source": "github",
@@ -6096,14 +6235,15 @@
     "package_id": "k4ustu3h.monocons.izzy",
     "category": "PERSONALIZATION",
     "developer": "k4ustu3h",
-    "version": "1.2.1",
-    "size": "6.0 MB",
+    "version": "1.3.0",
+    "size": "7.1 MB",
     "min_android": "8.0",
     "license": "Apache-2.0",
     "source_code": "https://github.com/k4ustu3h/monocons-android",
     "icon_url": "",
     "screenshots": [],
     "permissions": [
+      "android.permission.POST_NOTIFICATIONS",
       "k4ustu3h.monocons.izzy.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
     ],
     "translations": {
@@ -6126,12 +6266,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/k4ustu3h/monocons-android/releases/download/v1.2.1/Monocons.1.2.1.release.Izzy.apk",
-      "checksum_sha256": "d722b23de8bca3e8ee78414516e6d083d62a611ebf222acd5bc37790987a1b4d",
-      "updated": "2026-10-01"
+      "url": "https://github.com/k4ustu3h/monocons-android/releases/download/v1.3.0/Monocons.1.3.0.release.Izzy.apk",
+      "checksum_sha256": "a12a82be3a90dab7a1f2812fa1185acca9acc531395c7e6abc1d25a280d33e0c",
+      "updated": "2026-11-01"
     },
-    "added_at": "2026-10-01T10:42:57.000Z",
-    "updated": "2026-10-01T10:42:57.000Z"
+    "added_at": "2026-11-01T18:12:03.000Z",
+    "updated": "2026-11-01T18:12:03.000Z"
   },
   {
     "slug": "literal-launcher",
@@ -6253,7 +6393,7 @@
     "package_id": "com.bl4ckswordsman.cerberustiles",
     "category": "PERSONALIZATION",
     "developer": "JoestarLabs",
-    "version": "0.5.1",
+    "version": "0.5.2",
     "size": "1.8 MB",
     "min_android": "7.0",
     "license": "MIT",
@@ -6286,12 +6426,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/JoestarLabs/CerberusTiles/releases/download/v0.5.1/cerberus_tiles-release-v0.5.1.apk",
-      "checksum_sha256": "b3efafdd01390914fbb0a5ff0c1afd1e1903f10524767072c7b46289888215f1",
-      "updated": "2026-10-11"
+      "url": "https://github.com/JoestarLabs/CerberusTiles/releases/download/v0.5.2/cerberus_tiles-release-v0.5.2.apk",
+      "checksum_sha256": "c9f2d654a595d84087b7782e75e72fbe5c943aac1577fa06e6df46c6f546a725",
+      "updated": "2026-10-31"
     },
-    "added_at": "2026-10-11T12:23:39.000Z",
-    "updated": "2026-10-11T12:23:39.000Z"
+    "added_at": "2026-10-31T18:38:56.000Z",
+    "updated": "2026-10-31T18:38:56.000Z"
   },
   {
     "slug": "gol-screensaver",
@@ -6607,7 +6747,7 @@
     "package_id": "cat.mvmike.minimalcalendarwidget",
     "category": "PERSONALIZATION",
     "developer": "mvmike",
-    "version": "2.20.0",
+    "version": "2.21.0",
     "size": "1.3 MB",
     "min_android": "8.0",
     "license": "BSD-3-Clause",
@@ -6637,12 +6777,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/mvmike/min-cal-widget/releases/download/v2.20.0/min-cal-widget-v2.20.0.apk",
-      "checksum_sha256": "51efc1c88bc0630d6bf8877c8f9792d2f7c1bf74a20f9eda934690d57cfa5520",
-      "updated": "2026-08-19"
+      "url": "https://github.com/mvmike/min-cal-widget/releases/download/v2.21.0/min-cal-widget-v2.21.0.apk",
+      "checksum_sha256": "123e24af3cd8f729500cd28c1a24bf937322a85a1dab10038fa7ed5ceaaf51d7",
+      "updated": "2026-10-31"
     },
-    "added_at": "2026-08-19T17:09:40.000Z",
-    "updated": "2026-08-19T17:09:40.000Z"
+    "added_at": "2026-10-31T22:23:20.000Z",
+    "updated": "2026-10-31T22:23:20.000Z"
   },
   {
     "slug": "blue-line-solar-info",
@@ -6856,7 +6996,7 @@
     "package_id": "org.avmedia.gshockGoogleSync",
     "category": "PRODUCTIVITY",
     "developer": "izivkov",
-    "version": "42.9.15",
+    "version": "42.9.16",
     "size": "4.8 MB",
     "min_android": "8.0",
     "license": "Apache-2.0",
@@ -6911,12 +7051,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/izivkov/CasioGShockSmartSync/releases/download/v42.9.15/app-release.apk",
-      "checksum_sha256": "5cad8b22863534fc24e5faec7c4f372568ee59b2ba5b3b005aee1e2ec0fe1cc1",
-      "updated": "2026-10-25"
+      "url": "https://github.com/izivkov/CasioGShockSmartSync/releases/download/v42.9.16/app-release.apk",
+      "checksum_sha256": "d28d9facbe820c6bef93144a74b007d20f061ef8ab40ef9da4e61997c3fc255b",
+      "updated": "2026-11-01"
     },
-    "added_at": "2026-10-25T14:15:02.000Z",
-    "updated": "2026-10-25T14:15:02.000Z"
+    "added_at": "2026-11-01T22:00:20.000Z",
+    "updated": "2026-11-01T22:00:20.000Z"
   },
   {
     "slug": "plees-tracker",
@@ -6982,8 +7122,8 @@
     "package_id": "com.nathanatos.Cuppa",
     "category": "PRODUCTIVITY",
     "developer": "ncosgray",
-    "version": "2.15.1",
-    "size": "58.0 MB",
+    "version": "2.16.0",
+    "size": "58.6 MB",
     "min_android": "7.0",
     "license": "BSD-3-Clause",
     "source_code": "https://github.com/ncosgray/cuppa_mobile",
@@ -7017,12 +7157,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/ncosgray/cuppa_mobile/releases/download/2.15.1/Cuppa-2.15.1.apk",
-      "checksum_sha256": "094906075999094da306d9e3e74f93dbeb7d70ee2ee147276019f5590ac1f41b",
-      "updated": "2026-09-09"
+      "url": "https://github.com/ncosgray/cuppa_mobile/releases/download/2.16.0/Cuppa-2.16.0.apk",
+      "checksum_sha256": "03b3360a7baf15f17dcfca43ab72ef5916125d970508a1231dfda470b6ea2f8b",
+      "updated": "2026-10-28"
     },
-    "added_at": "2026-09-09T18:49:36.000Z",
-    "updated": "2026-09-09T18:49:36.000Z"
+    "added_at": "2026-10-28T00:16:28.000Z",
+    "updated": "2026-10-28T00:16:28.000Z"
   },
   {
     "slug": "swiftslate",
@@ -7294,8 +7434,8 @@
     "package_id": "com.xnotes",
     "category": "PRODUCTIVITY",
     "developer": "shardulvs",
-    "version": "0.9.5",
-    "size": "34.3 MB",
+    "version": "0.9.7",
+    "size": "34.5 MB",
     "min_android": "8.0",
     "license": "MIT",
     "source_code": "https://github.com/shardulvs/xnotes-android",
@@ -7328,12 +7468,12 @@
     },
     "download": {
       "type": "direct",
-      "url": "https://github.com/shardulvs/xnotes-android/releases/download/v0.9.5/xnotes-0.9.5.apk",
-      "checksum_sha256": "55c307e882cd6a4d49f5bab1919a1d7cfc4abd2c2dffc8ae1ec994634e11950c",
-      "updated": "2026-10-23"
+      "url": "https://github.com/shardulvs/xnotes-android/releases/download/v0.9.7/xnotes-0.9.7.apk",
+      "checksum_sha256": "d6d9d7f6440f5cabec02afdc598f076f81617b071aeca80d661b1ea7c7f3abe0",
+      "updated": "2026-10-31"
     },
-    "added_at": "2026-10-23T12:13:43.000Z",
-    "updated": "2026-10-23T12:13:43.000Z"
+    "added_at": "2026-10-31T10:33:29.000Z",
+    "updated": "2026-10-31T10:33:29.000Z"
   },
   {
     "slug": "disableaudiofocus",
@@ -7751,6 +7891,49 @@
     },
     "added_at": "2026-05-26T22:12:21.000Z",
     "updated": "2026-05-26T22:12:21.000Z"
+  },
+  {
+    "slug": "anywebview",
+    "custom": true,
+    "source": "github",
+    "open_source": true,
+    "package_id": "com.thinkdifferent.anywebview",
+    "category": "TOOLS",
+    "developer": "neoblackxt",
+    "version": "1.4.5",
+    "size": "69 KB",
+    "min_android": "7.0",
+    "license": "MIT",
+    "source_code": "https://github.com/neoblackxt/AnyWebView",
+    "icon_url": "",
+    "screenshots": [],
+    "permissions": [],
+    "translations": {
+      "ru": {
+        "name": "AnyWebView",
+        "summary": "Any WebView is OK!"
+      },
+      "en": {
+        "name": "AnyWebView",
+        "summary": "Any WebView is OK!"
+      },
+      "tr": {
+        "name": "AnyWebView",
+        "summary": "Any WebView is OK!"
+      },
+      "uz": {
+        "name": "AnyWebView",
+        "summary": "Any WebView is OK!"
+      }
+    },
+    "download": {
+      "type": "direct",
+      "url": "https://github.com/neoblackxt/AnyWebView/releases/download/v1.4.5/AnyWebView-v1.4.5.apk",
+      "checksum_sha256": "1bf2e1960fe72640f38aecc0efc2aaaffa2a07bfb24d2edb3ee7a980cc6022e4",
+      "updated": "2026-10-24"
+    },
+    "added_at": "2026-10-24T02:00:04.000Z",
+    "updated": "2026-10-24T02:00:04.000Z"
   },
   {
     "slug": "automatic-advanced-settings-expander",
