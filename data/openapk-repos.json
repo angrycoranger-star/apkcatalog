@@ -235,34 +235,9 @@
     "name": "droidVNC-NG"
   },
   {
-    "repo": "mlm-games/mages",
+    "repo": "mezinster/nfcarchiver",
     "category": "TOOLS",
-    "name": "Mages"
-  },
-  {
-    "repo": "egdels/SambaLite",
-    "category": "TOOLS",
-    "name": "SambaLite"
-  },
-  {
-    "repo": "Aleksandr-ru/dccppthrottle",
-    "category": "TOOLS",
-    "name": "DCC++Throttle"
-  },
-  {
-    "repo": "uintdev/qrserv",
-    "category": "TOOLS",
-    "name": "QRServ"
-  },
-  {
-    "repo": "christianrowlands/android-network-survey",
-    "category": "TOOLS",
-    "name": "Network Survey"
-  },
-  {
-    "repo": "monuk7735/nope-remote",
-    "category": "TOOLS",
-    "name": "Nope Remote"
+    "name": "NFC Archiver"
   },
   {
     "repo": "SaeedDev94/pixel-5g",
@@ -270,9 +245,34 @@
     "name": "Pixel 5G"
   },
   {
-    "repo": "mjaakko/NeoStumbler",
+    "repo": "osociety/vernet",
     "category": "TOOLS",
-    "name": "NeoStumbler"
+    "name": "Vernet - Network Analyzer"
+  },
+  {
+    "repo": "teamclouday/AndroidMic",
+    "category": "TOOLS",
+    "name": "AndroidMic"
+  },
+  {
+    "repo": "egdels/SambaLite",
+    "category": "TOOLS",
+    "name": "SambaLite"
+  },
+  {
+    "repo": "nymtech/nym-vpn-client",
+    "category": "TOOLS",
+    "name": "NymVPN"
+  },
+  {
+    "repo": "Moustachauve/WLED-Native-Android",
+    "category": "TOOLS",
+    "name": "WLED Native"
+  },
+  {
+    "repo": "iiordanov/remote-desktop-clients",
+    "category": "TOOLS",
+    "name": "bVNC Free"
   },
   {
     "repo": "OpenDTU-App/opendtu-react-native",
@@ -280,9 +280,29 @@
     "name": "opendtu-react-native"
   },
   {
-    "repo": "osociety/vernet",
+    "repo": "ostrya/PresencePublisher",
     "category": "TOOLS",
-    "name": "Vernet - Network Analyzer"
+    "name": "Presence Publisher"
+  },
+  {
+    "repo": "poppingmoon/aria",
+    "category": "TOOLS",
+    "name": "Aria for Misskey"
+  },
+  {
+    "repo": "uintdev/qrserv",
+    "category": "TOOLS",
+    "name": "QRServ"
+  },
+  {
+    "repo": "w2sv/WiFi-Widget",
+    "category": "TOOLS",
+    "name": "WiFi Widget"
+  },
+  {
+    "repo": "mlm-games/mages",
+    "category": "TOOLS",
+    "name": "Mages"
   },
   {
     "repo": "bobpanil/VIVATLAS",
@@ -475,6 +495,11 @@
     "name": "GPTMobile"
   },
   {
+    "repo": "accrescent/accrescent",
+    "category": "TOOLS",
+    "name": "Accrescent"
+  },
+  {
     "repo": "newhinton/disky",
     "category": "TOOLS",
     "name": "disky - Find your biggest diskspace thiefes!"
@@ -515,19 +540,19 @@
     "name": "BinEd - Binary/Hex Editor"
   },
   {
-    "repo": "okcode-studio/open_alert_viewer",
-    "category": "TOOLS",
-    "name": "Open Alert Viewer"
-  },
-  {
-    "repo": "amake/orgro",
-    "category": "TOOLS",
-    "name": "Orgro"
-  },
-  {
     "repo": "Helltar/ANPASIDE",
     "category": "TOOLS",
     "name": "ANPASIDE"
+  },
+  {
+    "repo": "freeCodeCamp/mobile",
+    "category": "TOOLS",
+    "name": "freeCodeCamp"
+  },
+  {
+    "repo": "signalwareltd/rtl_tcp_andro-",
+    "category": "TOOLS",
+    "name": "Rtl-sdr driver"
   },
   {
     "repo": "mattipunkt/schmackofatz",
@@ -700,6 +725,11 @@
     "name": "Shattered Pixel Dungeon"
   },
   {
+    "repo": "minetest/minetest",
+    "category": "GAME_ARCADE",
+    "name": "Minetest"
+  },
+  {
     "repo": "glKarin/com.n0n3m4.diii4a",
     "category": "GAME_ARCADE",
     "name": "idTech4A++"
@@ -708,11 +738,6 @@
     "repo": "meikpiep/gauguin",
     "category": "GAME_ARCADE",
     "name": "Gauguin"
-  },
-  {
-    "repo": "minetest/minetest",
-    "category": "GAME_ARCADE",
-    "name": "Minetest"
   },
   {
     "repo": "hushenghao/AndroidEasterEggs",
@@ -770,6 +795,11 @@
     "name": "DOOM & Wolf RPG"
   },
   {
+    "repo": "IITC-CE/ingress-intel-total-conversion",
+    "category": "GAME_ARCADE",
+    "name": "IITC-CE Mobile"
+  },
+  {
     "repo": "HunterColes/PokerPayout",
     "category": "GAME_ARCADE",
     "name": "Poker Payout"
@@ -778,11 +808,6 @@
     "repo": "gatheringhallstudios/MHWorldDatabase",
     "category": "GAME_ARCADE",
     "name": "MHWorld Database"
-  },
-  {
-    "repo": "IITC-CE/ingress-intel-total-conversion",
-    "category": "GAME_ARCADE",
-    "name": "IITC-CE Mobile"
   },
   {
     "repo": "xxxcucus/planes",
@@ -803,11 +828,6 @@
     "repo": "mimoguz/tripeaks_neue",
     "category": "GAME_ARCADE",
     "name": "TriPeaks NEUE"
-  },
-  {
-    "repo": "Anuken/Mindustry",
-    "category": "GAME_ARCADE",
-    "name": "Mindustry"
   },
   {
     "repo": "EiSiMo/howmany",
@@ -1020,9 +1040,9 @@
     "name": "Pixiv-MultiPlatform"
   },
   {
-    "repo": "alexjyong/BabbyPaint",
+    "repo": "vauvenal5/yaga",
     "category": "ART_AND_DESIGN",
-    "name": "BabbyPaint"
+    "name": "Nextcloud Yaga"
   },
   {
     "repo": "UjuiUjuMandan/EhViewer-NekoInverter",
@@ -1145,14 +1165,14 @@
     "name": "N-Zik"
   },
   {
-    "repo": "2dust/v2rayNG",
-    "category": "TOOLS",
-    "name": "v2rayNG"
-  },
-  {
     "repo": "TeamNewPipe/NewPipe",
     "category": "TOOLS",
     "name": "NewPipe"
+  },
+  {
+    "repo": "2dust/v2rayNG",
+    "category": "TOOLS",
+    "name": "v2rayNG"
   },
   {
     "repo": "MetaCubeX/ClashMetaForAndroid",
@@ -1220,19 +1240,9 @@
     "name": "SkyTube"
   },
   {
-    "repo": "Orang-Studio/InstaDownload",
+    "repo": "rumca-js/OfflineWebSearch",
     "category": "TOOLS",
-    "name": "InstaDownload"
-  },
-  {
-    "repo": "DigitallyRefined/android-ip-camera",
-    "category": "TOOLS",
-    "name": "Android IP Camera"
-  },
-  {
-    "repo": "sak96/read_later",
-    "category": "TOOLS",
-    "name": "Read Later"
+    "name": "Offline Web Search"
   },
   {
     "repo": "GlassOnTin/Haven",
@@ -1240,19 +1250,44 @@
     "name": "Haven SSH Client"
   },
   {
+    "repo": "stardomains3/oxproxion",
+    "category": "TOOLS",
+    "name": "oxproxion"
+  },
+  {
+    "repo": "SimonHalvdansson/Harmonic-HN",
+    "category": "TOOLS",
+    "name": "Harmonic"
+  },
+  {
+    "repo": "LiveFastEatTrashRaccoon/RaccoonForFriendica",
+    "category": "TOOLS",
+    "name": "Raccoon for Friendica"
+  },
+  {
+    "repo": "aimok04/kitshn",
+    "category": "TOOLS",
+    "name": "kitshn (for Tandoor)"
+  },
+  {
+    "repo": "chenxiaolong/BasicSync",
+    "category": "TOOLS",
+    "name": "BasicSync"
+  },
+  {
     "repo": "DobbyVPN/DobbyVPN",
     "category": "TOOLS",
     "name": "DobbyVPN"
   },
   {
-    "repo": "nonbili/Nora",
+    "repo": "someone-s/transport-widget",
     "category": "TOOLS",
-    "name": "Nora"
+    "name": "Transport Widgets"
   },
   {
-    "repo": "10miaomiao/bilimiao2",
+    "repo": "chenxiaolong/RSAF",
     "category": "TOOLS",
-    "name": "bilmiao"
+    "name": "RSAF"
   },
   {
     "repo": "Materialious/Materialious",
@@ -1260,29 +1295,19 @@
     "name": "Materialious"
   },
   {
-    "repo": "SaeedDev94/Xray",
+    "repo": "fibelatti/pinboard-kotlin",
     "category": "TOOLS",
-    "name": "Xray"
+    "name": "Pinkt"
   },
   {
-    "repo": "Akylas/oss-weather",
+    "repo": "jackBonadies/SeekerAndroid",
     "category": "TOOLS",
-    "name": "OSS Weather"
-  },
-  {
-    "repo": "mzlogin/guanggoo-android",
-    "category": "TOOLS",
-    "name": "过早客"
+    "name": "Seeker"
   },
   {
     "repo": "juha-h/baresip-studio",
     "category": "TOOLS",
     "name": "baresip"
-  },
-  {
-    "repo": "ELowry/DNSToggle",
-    "category": "TOOLS",
-    "name": "DNS Toggle"
   },
   {
     "repo": "pocketnetteam/forta.chat",
@@ -1428,11 +1453,6 @@
     "repo": "zacharee/MastodonRedirect",
     "category": "COMMUNICATION",
     "name": "Mastodon Redirect"
-  },
-  {
-    "repo": "LiveFastEatTrashRaccoon/RaccoonForFriendica",
-    "category": "COMMUNICATION",
-    "name": "Raccoon for Friendica"
   },
   {
     "repo": "aicodix/rattlegram",
@@ -1675,14 +1695,14 @@
     "name": "Zashi: Zcash Wallet"
   },
   {
-    "repo": "GeorgeYT9769/cardabase-app",
-    "category": "FINANCE",
-    "name": "Cardabase"
-  },
-  {
     "repo": "michaelWuensch/BitBanana",
     "category": "FINANCE",
     "name": "BitBanana"
+  },
+  {
+    "repo": "GeorgeYT9769/cardabase-app",
+    "category": "FINANCE",
+    "name": "Cardabase"
   },
   {
     "repo": "aisleron/aisleron",
@@ -1700,19 +1720,19 @@
     "name": "MarketMonk"
   },
   {
+    "repo": "chvp/NanoLedger",
+    "category": "FINANCE",
+    "name": "NanoLedger"
+  },
+  {
+    "repo": "anwilli5/coin-collection-android-US",
+    "category": "FINANCE",
+    "name": "Coin Collection"
+  },
+  {
     "repo": "standardsats/valet",
     "category": "FINANCE",
     "name": "Valet"
-  },
-  {
-    "repo": "Tactical-Advantage-Trading/wallet",
-    "category": "FINANCE",
-    "name": "Simple Bitcoin Wallet"
-  },
-  {
-    "repo": "spesmilo/electrum",
-    "category": "FINANCE",
-    "name": "Electrum Bitcoin Wallet"
   },
   {
     "repo": "tymwitko/ToReplace",
@@ -2070,29 +2090,49 @@
     "name": "WizeStream"
   },
   {
-    "repo": "jqssun/android-display-mirror",
-    "category": "VIDEO_PLAYERS",
-    "name": "Mirror"
-  },
-  {
-    "repo": "yume-chan/VolumeManager",
-    "category": "VIDEO_PLAYERS",
-    "name": "Volume Manager"
-  },
-  {
-    "repo": "googol-apps/OnePlayer",
-    "category": "VIDEO_PLAYERS",
-    "name": "One Player"
-  },
-  {
     "repo": "brandonp2412/BeatBridge",
     "category": "VIDEO_PLAYERS",
     "name": "BeatBridge"
   },
   {
-    "repo": "degD/yet_another_metronome",
+    "repo": "PGAxis/YTCnv",
     "category": "VIDEO_PLAYERS",
-    "name": "Yet Another Tuner (Y.A.M.)"
+    "name": "YouTube Converter"
+  },
+  {
+    "repo": "fast4x/RiPlay",
+    "category": "VIDEO_PLAYERS",
+    "name": "RiPlay"
+  },
+  {
+    "repo": "lydavid/MusicSearch",
+    "category": "VIDEO_PLAYERS",
+    "name": "MusicSearch"
+  },
+  {
+    "repo": "Phnem/Vetro",
+    "category": "VIDEO_PLAYERS",
+    "name": "Vetro"
+  },
+  {
+    "repo": "Ignema/youtube-music-remover",
+    "category": "VIDEO_PLAYERS",
+    "name": "Murem"
+  },
+  {
+    "repo": "ilianoKokoro/umihi-music",
+    "category": "VIDEO_PLAYERS",
+    "name": "Umihi Music"
+  },
+  {
+    "repo": "knighthat/Kreate",
+    "category": "VIDEO_PLAYERS",
+    "name": "Kreate"
+  },
+  {
+    "repo": "nonbili/NouTube",
+    "category": "VIDEO_PLAYERS",
+    "name": "NouTube"
   },
   {
     "repo": "doen1el/calibre-web-companion",
@@ -2100,24 +2140,14 @@
     "name": "Calibre-Web-Companion"
   },
   {
-    "repo": "moritz-weber/mucke",
+    "repo": "GrakovNe/lissen-android",
     "category": "VIDEO_PLAYERS",
-    "name": "mucke - Music Player"
+    "name": "Lissen: Audiobookshelf client"
   },
   {
-    "repo": "PaulWoitaschek/Voice",
+    "repo": "googol-apps/OnePlayer",
     "category": "VIDEO_PLAYERS",
-    "name": "Voice Audiobook Player"
-  },
-  {
-    "repo": "jmshrv/finamp",
-    "category": "VIDEO_PLAYERS",
-    "name": "Finamp"
-  },
-  {
-    "repo": "stonega/tsacdop",
-    "category": "VIDEO_PLAYERS",
-    "name": "Tsacdop - Podcast Player"
+    "name": "One Player"
   },
   {
     "repo": "TyphoonEyeOrg/TyphoonEyeAndroid",
@@ -2295,6 +2325,31 @@
     "name": "MBCompass"
   },
   {
+    "repo": "chukfinley/Besser-Bahn",
+    "category": "MAPS_AND_NAVIGATION",
+    "name": "Better Bahn"
+  },
+  {
+    "repo": "mlm-games/cclauncher",
+    "category": "MAPS_AND_NAVIGATION",
+    "name": "CClauncher"
+  },
+  {
+    "repo": "zood/george",
+    "category": "MAPS_AND_NAVIGATION",
+    "name": "Zood Location"
+  },
+  {
+    "repo": "xyz-relativity/ClimbTheWorld-Android",
+    "category": "MAPS_AND_NAVIGATION",
+    "name": "Climb The World"
+  },
+  {
+    "repo": "nhirokinet/bluesquarespeedometer",
+    "category": "MAPS_AND_NAVIGATION",
+    "name": "Blue Square Speedometer"
+  },
+  {
     "repo": "XCSoar/XCSoar",
     "category": "MAPS_AND_NAVIGATION",
     "name": "XCSoar"
@@ -2303,11 +2358,6 @@
     "repo": "dietrichmax/colota",
     "category": "MAPS_AND_NAVIGATION",
     "name": "Colota - GPS Location Tracker"
-  },
-  {
-    "repo": "d4rken/airplanes-live-app",
-    "category": "MAPS_AND_NAVIGATION",
-    "name": "airplanes.live"
   },
   {
     "repo": "IDEH-Labs/ethic-one-call",
@@ -2488,6 +2538,11 @@
     "repo": "keepalivedev/KeepAlive",
     "category": "COMMUNICATION",
     "name": "Keep Alive"
+  },
+  {
+    "repo": "shareven/parcel",
+    "category": "COMMUNICATION",
+    "name": "Parcel - Pickup code"
   },
   {
     "repo": "shimataro/keryx",
@@ -2695,9 +2750,19 @@
     "name": "NGA客户端开源版"
   },
   {
+    "repo": "tfonteyn/NeverTooManyBooks",
+    "category": "BOOKS_AND_REFERENCE",
+    "name": "NeverTooManyBooks"
+  },
+  {
     "repo": "immerzu/lolo-rssreader-android",
     "category": "BOOKS_AND_REFERENCE",
     "name": "RSS Reader"
+  },
+  {
+    "repo": "sak96/read_later",
+    "category": "BOOKS_AND_REFERENCE",
+    "name": "Read Later"
   },
   {
     "repo": "mumu-lhl/Ciyue",
@@ -2705,24 +2770,9 @@
     "name": "Ciyue"
   },
   {
-    "repo": "tfonteyn/NeverTooManyBooks",
+    "repo": "Volksverpetzer/vvp_app",
     "category": "BOOKS_AND_REFERENCE",
-    "name": "NeverTooManyBooks"
-  },
-  {
-    "repo": "ranobe-org/ranobe",
-    "category": "BOOKS_AND_REFERENCE",
-    "name": "Ranobe"
-  },
-  {
-    "repo": "BibleNotify/BibleNotify",
-    "category": "BOOKS_AND_REFERENCE",
-    "name": "Bible Notify"
-  },
-  {
-    "repo": "SimonHalvdansson/Harmonic-HN",
-    "category": "BOOKS_AND_REFERENCE",
-    "name": "Harmonic"
+    "name": "Volksverpetzer"
   },
   {
     "repo": "Cancelllls/Aya",
@@ -3055,6 +3105,36 @@
     "name": "Metronome"
   },
   {
+    "repo": "Limekana/StudyDesk",
+    "category": "EDUCATION",
+    "name": "StudyDesk"
+  },
+  {
+    "repo": "fossasia/pslab-android",
+    "category": "EDUCATION",
+    "name": "PSLab Android App"
+  },
+  {
+    "repo": "mortenfyhn/feltbok",
+    "category": "EDUCATION",
+    "name": "Feltbok"
+  },
+  {
+    "repo": "Vladyslav-Soldatenko/ProcrastiLearn",
+    "category": "EDUCATION",
+    "name": "ProcrastiLearn"
+  },
+  {
+    "repo": "MieuxVoter/majority-judgment-offline-urn-android",
+    "category": "EDUCATION",
+    "name": "Urn"
+  },
+  {
+    "repo": "FurtherSecrets24680/chemsearch-android",
+    "category": "EDUCATION",
+    "name": "ChemSearch"
+  },
+  {
     "repo": "JLindemann42/Atomic-Periodic-Table.Android",
     "category": "EDUCATION",
     "name": "Atomic"
@@ -3080,29 +3160,9 @@
     "name": "xrooster"
   },
   {
-    "repo": "LoliLin/journal-android-multilingual",
-    "category": "EDUCATION",
-    "name": "Journal Multilingual"
-  },
-  {
-    "repo": "Limekana/StudyDesk",
-    "category": "EDUCATION",
-    "name": "StudyDesk"
-  },
-  {
-    "repo": "vadimerenkov/Aucards",
-    "category": "EDUCATION",
-    "name": "Aucards"
-  },
-  {
-    "repo": "KiberBomzh/songbook-gui",
-    "category": "EDUCATION",
-    "name": "songbook"
-  },
-  {
-    "repo": "Wavesonics/FastTrack",
-    "category": "EDUCATION",
-    "name": "FastTrack"
+    "repo": "paralino/paralino",
+    "category": "TOOLS",
+    "name": "Paralino"
   },
   {
     "repo": "waozixyz/pass",
@@ -3195,11 +3255,6 @@
     "name": "Veto"
   },
   {
-    "repo": "Cris1099/entropy",
-    "category": "TOOLS",
-    "name": "Entropy"
-  },
-  {
     "repo": "romanvht/ByeDPIAndroid",
     "category": "TOOLS",
     "name": "ByeByeDPI"
@@ -3265,29 +3320,9 @@
     "name": "i2pd"
   },
   {
-    "repo": "seemoo-lab/AirGuard",
+    "repo": "privkeyio/keep-android",
     "category": "TOOLS",
-    "name": "AirGuard - AirTag protection"
-  },
-  {
-    "repo": "norsehorse-dev/PGPonyAndroid",
-    "category": "TOOLS",
-    "name": "PGPony"
-  },
-  {
-    "repo": "CodeDead/DeadHash-android",
-    "category": "TOOLS",
-    "name": "DeadHash"
-  },
-  {
-    "repo": "Khh-vu/wifi-password-manager",
-    "category": "TOOLS",
-    "name": "WiFi Password Manager"
-  },
-  {
-    "repo": "greenart7c3/Citrine",
-    "category": "TOOLS",
-    "name": "Citrine"
+    "name": "Keep: FROST Nostr Signer"
   },
   {
     "repo": "pando85/Android-Password-Store",
@@ -3295,24 +3330,44 @@
     "name": "Password Store (Passkey Edition)"
   },
   {
-    "repo": "confidenseuide/ProtectedWorkProfile",
+    "repo": "lanedirt/AliasVault",
     "category": "TOOLS",
-    "name": "ProtectedWorkProfile"
+    "name": "AliasVault"
   },
   {
-    "repo": "confidenseuide/HiddenProtectedWorkProfile",
+    "repo": "leonlatsch/Photok",
     "category": "TOOLS",
-    "name": "HiddenProtectedWorkProfile"
+    "name": "Photok"
   },
   {
-    "repo": "confidenseuide/EphemeralWorkProfile",
+    "repo": "Khh-vu/wifi-password-manager",
     "category": "TOOLS",
-    "name": "EphemeralWorkProfile"
+    "name": "WiFi Password Manager"
   },
   {
-    "repo": "Kenneth-Cho-InfoSec/Haven",
+    "repo": "fthomys/tokn",
     "category": "TOOLS",
-    "name": "Haven"
+    "name": "Tokn - MFA / 2FA authenticator"
+  },
+  {
+    "repo": "eyalm2000/adns",
+    "category": "TOOLS",
+    "name": "ADNS"
+  },
+  {
+    "repo": "Yubico/yubioath-flutter",
+    "category": "TOOLS",
+    "name": "Yubico Authenticator"
+  },
+  {
+    "repo": "CodeDead/advanced-passgen-android",
+    "category": "TOOLS",
+    "name": "Advanced PassGen"
+  },
+  {
+    "repo": "CodeDead/DeadHash-android",
+    "category": "TOOLS",
+    "name": "DeadHash"
   },
   {
     "repo": "steve-linux/Tennis-Score-Manager",
@@ -3515,19 +3570,29 @@
     "name": "Kelani SBD Tracker"
   },
   {
+    "repo": "mona-hrt/mona",
+    "category": "HEALTH_AND_FITNESS",
+    "name": "Mona - HRT journal"
+  },
+  {
+    "repo": "AdamGuidarini/MediTrak",
+    "category": "HEALTH_AND_FITNESS",
+    "name": "MediTrak"
+  },
+  {
+    "repo": "nikashitsa/polar-alert-android",
+    "category": "HEALTH_AND_FITNESS",
+    "name": "Polar Alert"
+  },
+  {
+    "repo": "Limekana/limelog",
+    "category": "HEALTH_AND_FITNESS",
+    "name": "LimeLog"
+  },
+  {
     "repo": "msbelaid/PlugBrain",
     "category": "HEALTH_AND_FITNESS",
     "name": "PlugBrain"
-  },
-  {
-    "repo": "Guiforge/bati",
-    "category": "HEALTH_AND_FITNESS",
-    "name": "Bati: Fitness RPG"
-  },
-  {
-    "repo": "lcdcode/mood-cairns",
-    "category": "HEALTH_AND_FITNESS",
-    "name": "Mood Cairns"
   },
   {
     "repo": "ohuc/CaffeineHealth",
@@ -3535,24 +3600,24 @@
     "name": "Caffeine Health"
   },
   {
-    "repo": "pewaru-333/HomeMedkit-App",
+    "repo": "Baltasarq/nadamillas",
     "category": "HEALTH_AND_FITNESS",
-    "name": "Home Medkit"
+    "name": "NadaMillas"
   },
   {
-    "repo": "randombits-dev/interval-timer",
+    "repo": "Guiforge/bati",
     "category": "HEALTH_AND_FITNESS",
-    "name": "Interval Timer"
+    "name": "Bati: Fitness RPG"
   },
   {
-    "repo": "rh-id/a-medic-log",
+    "repo": "Giuig/auraninja",
     "category": "HEALTH_AND_FITNESS",
-    "name": "Medic Log"
+    "name": "Auraninja"
   },
   {
-    "repo": "aimok04/kitshn",
-    "category": "HEALTH_AND_FITNESS",
-    "name": "kitshn (for Tandoor)"
+    "repo": "insomdroid/Dislauncher",
+    "category": "TOOLS",
+    "name": "Dislauncher"
   },
   {
     "repo": "krishnanunnir/vulcan-launcher",
@@ -3720,54 +3785,44 @@
     "name": "Hail"
   },
   {
-    "repo": "LeanBitLab/LeanType",
+    "repo": "Imtiaz-Official/Smart-Edge",
     "category": "TOOLS",
-    "name": "LeanType"
+    "name": "Smart Edge: Sidebar & Gestures"
   },
   {
-    "repo": "flashsphere/private-dns-qs",
+    "repo": "luantak/FokusLauncher",
     "category": "TOOLS",
-    "name": "Private DNS Quick Setting"
+    "name": "Fokus Launcher"
   },
   {
-    "repo": "iamr0s/Dhizuku",
+    "repo": "jrpie/Launcher",
     "category": "TOOLS",
-    "name": "Dhizuku"
+    "name": "µLauncher"
   },
   {
-    "repo": "markusfisch/ScreenTime",
+    "repo": "corphish/TextTools",
     "category": "TOOLS",
-    "name": "Screen Time"
+    "name": "Text Tools"
   },
   {
-    "repo": "teja2495/quick-search",
+    "repo": "hiroshiyui/GuilelessBopomofo",
     "category": "TOOLS",
-    "name": "Quick Search"
+    "name": "Guileless Bopomofo Keyboard"
   },
   {
-    "repo": "samyak2403/RepoStore",
+    "repo": "CurryPlayer/quick-settings-sound-profile",
     "category": "TOOLS",
-    "name": "RepoStore"
+    "name": "Quick Settings Sound Profile"
   },
   {
-    "repo": "lollipopkit/flutter_server_box",
+    "repo": "sunilpaulmathew/AppVaultX",
     "category": "TOOLS",
-    "name": "ServerBox"
+    "name": "AppVaultX"
   },
   {
-    "repo": "JackRushante/argus",
+    "repo": "svenjacobs/leon",
     "category": "TOOLS",
-    "name": "Argus"
-  },
-  {
-    "repo": "ontola/searchlauncher",
-    "category": "TOOLS",
-    "name": "SearchLauncher"
-  },
-  {
-    "repo": "EZ-eta/kinetica",
-    "category": "TOOLS",
-    "name": "Kinetica"
+    "name": "Léon – The URL Cleaner"
   },
   {
     "repo": "xLexip/Adaptive-Theme",
@@ -3910,6 +3965,11 @@
     "name": "Delta Icon Pack"
   },
   {
+    "repo": "MonwF/customiuizer",
+    "category": "PERSONALIZATION",
+    "name": "CustoMIUIzer14"
+  },
+  {
     "repo": "MiepHD/cuscon",
     "category": "PERSONALIZATION",
     "name": "Cuscon"
@@ -3955,14 +4015,19 @@
     "name": "TgMonet Theme"
   },
   {
-    "repo": "mvmike/min-cal-widget",
+    "repo": "nhirokinet/bluelineconsole",
     "category": "PERSONALIZATION",
-    "name": "MinCal Widget"
+    "name": "Blue Line Console"
   },
   {
     "repo": "cvzi/darkmodewallpaper",
     "category": "PERSONALIZATION",
     "name": "Dark Mode Live Wallpaper"
+  },
+  {
+    "repo": "mvmike/min-cal-widget",
+    "category": "PERSONALIZATION",
+    "name": "MinCal Widget"
   },
   {
     "repo": "cho3ek89/ChronoRover",
@@ -4160,24 +4225,14 @@
     "name": "Snaptick"
   },
   {
-    "repo": "pablo03v/Overload",
+    "repo": "VishnuSanal/RemindMe",
     "category": "PRODUCTIVITY",
-    "name": "Overload"
+    "name": "Remind Me!"
   },
   {
-    "repo": "1fish2/BBQTimer",
+    "repo": "rh-id/a-personal-stuff",
     "category": "PRODUCTIVITY",
-    "name": "BBQ Timer"
-  },
-  {
-    "repo": "EricZeller/flutter-world-clock-v2",
-    "category": "PRODUCTIVITY",
-    "name": "World Clock v2"
-  },
-  {
-    "repo": "jakobkreft/OnTime",
-    "category": "PRODUCTIVITY",
-    "name": "OnTime"
+    "name": "Personal Stuff"
   },
   {
     "repo": "Sztorm/NoteCalendar",
@@ -4185,9 +4240,34 @@
     "name": "Note Calendar"
   },
   {
-    "repo": "Wilm0r/giggity",
+    "repo": "1fish2/BBQTimer",
     "category": "PRODUCTIVITY",
-    "name": "Giggity"
+    "name": "BBQ Timer"
+  },
+  {
+    "repo": "Super12138/ToDo",
+    "category": "PRODUCTIVITY",
+    "name": "To Do"
+  },
+  {
+    "repo": "pablo03v/Overload",
+    "category": "PRODUCTIVITY",
+    "name": "Overload"
+  },
+  {
+    "repo": "markusfisch/ScreenTime",
+    "category": "PRODUCTIVITY",
+    "name": "Screen Time"
+  },
+  {
+    "repo": "randombits-dev/interval-timer",
+    "category": "PRODUCTIVITY",
+    "name": "Interval Timer"
+  },
+  {
+    "repo": "EricZeller/flutter-world-clock-v2",
+    "category": "PRODUCTIVITY",
+    "name": "World Clock v2"
   },
   {
     "repo": "brvier/PlaneTxt",
@@ -4310,6 +4390,11 @@
     "name": "Simple Keyboard"
   },
   {
+    "repo": "osfans/trime",
+    "category": "PRODUCTIVITY",
+    "name": "Trime"
+  },
+  {
     "repo": "TechbeeAT/jtxBoard",
     "category": "PRODUCTIVITY",
     "name": "jtx Board"
@@ -4328,11 +4413,6 @@
     "repo": "saber-notes/saber",
     "category": "PRODUCTIVITY",
     "name": "Saber"
-  },
-  {
-    "repo": "osfans/trime",
-    "category": "PRODUCTIVITY",
-    "name": "Trime"
   },
   {
     "repo": "tasks/tasks",
@@ -4370,6 +4450,11 @@
     "name": "Daily You"
   },
   {
+    "repo": "shub39/Grit",
+    "category": "PRODUCTIVITY",
+    "name": "Grit"
+  },
+  {
     "repo": "mhss1/MyBrain",
     "category": "PRODUCTIVITY",
     "name": "My Brain"
@@ -4380,19 +4465,19 @@
     "name": "Butterfly Nightly"
   },
   {
-    "repo": "shub39/Grit",
+    "repo": "deepanjanxyz/notepad",
     "category": "PRODUCTIVITY",
-    "name": "Grit"
+    "name": "Elite Memo Pro"
   },
   {
-    "repo": "itdolan31/crystalpad",
+    "repo": "ldlywt/IdeaMemo",
     "category": "PRODUCTIVITY",
-    "name": "Crystalpad"
+    "name": "IdeaMemo"
   },
   {
-    "repo": "KerlosGirgis/Todo",
+    "repo": "tmaegel/ntodotxt",
     "category": "PRODUCTIVITY",
-    "name": "Todo"
+    "name": "ntodotxt"
   },
   {
     "repo": "jeiel85/markleaf-android",
@@ -4400,34 +4485,14 @@
     "name": "Markleaf"
   },
   {
+    "repo": "RoBoT095/printnotes",
+    "category": "PRODUCTIVITY",
+    "name": "Print(Notes)"
+  },
+  {
     "repo": "shardulvs/xnotes-android",
     "category": "PRODUCTIVITY",
     "name": "xnotes"
-  },
-  {
-    "repo": "deepanjanxyz/notepad",
-    "category": "PRODUCTIVITY",
-    "name": "Elite Memo Pro"
-  },
-  {
-    "repo": "wordpress-mobile/WordPress-Android",
-    "category": "PRODUCTIVITY",
-    "name": "Wordpress - Website Builder"
-  },
-  {
-    "repo": "chindaronit/Flux",
-    "category": "PRODUCTIVITY",
-    "name": "Flux"
-  },
-  {
-    "repo": "Wavesonics/hammer-editor",
-    "category": "PRODUCTIVITY",
-    "name": "Hammer"
-  },
-  {
-    "repo": "inventory69/simple-notes-sync",
-    "category": "PRODUCTIVITY",
-    "name": "Simple Notes Sync"
   },
   {
     "repo": "hxreborn/punch-hole-download-progress",
@@ -4513,11 +4578,6 @@
     "repo": "salvogiangri/KnoxPatch",
     "category": "TOOLS",
     "name": "KnoxPatch"
-  },
-  {
-    "repo": "MonwF/customiuizer",
-    "category": "TOOLS",
-    "name": "CustoMIUIzer14"
   },
   {
     "repo": "KieronQuinn/ClassicPowerMenu",
